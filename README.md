@@ -10,14 +10,6 @@
 
 影像与病理 · 大模型与智能体 · 临床预测与决策 · 生命科学与药物 · 数字健康 · 落地与监管；每个方向内可按形式筛选（研究论文 / 综述与观点 / 开源模型与代码 / 新闻与监管）。
 
-## 相对上游的定制
-
-按个人研究方向（医学影像与医学基础模型）做了小幅修改：
-
-- **信源**：新增 Nature 正刊、Nature Communications、Nature Biotechnology、Nature Cancer、npj Precision Oncology；扩展 arXiv 检索（病理 / 皮肤 / 眼科 / scientific & drug discovery）；移除融资并购与行业新闻类信源及「产业动态」板块。
-- **评分**：`prompts/score_rubric.md` 增加读者偏好——医学基础模型（longitudinal、patient-level）、多模态 LLM、影像专科、领域专用 LM、world model in medical、AI for scientific discovery、human-AI collaboration 等加分；产业宣传减分。
-- **权重**：Nature 家族信源上调，新闻监管类下调。
-
 ## 运行
 
 GitHub Actions 全自动（`.github/workflows/update.yml`）。需配置 Secrets：`LLM_API_KEY`、`LLM_BASE_URL`；变量 `LLM_MODEL`；可选 `SPRINGER_API_KEY`、`NCBI_API_KEY`。本地构建：`pip install feedparser && python hub.py build`。实现细节、评分评测流程见[上游 README](https://github.com/ChunXiaostudy/AI4Health-Hub#readme)。
