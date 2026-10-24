@@ -1,35 +1,5 @@
 [
 {
-"title": "Population-scale reconstruction of menopause dynamics reveals a physiological cliff at the final menstrual period",
-"link": "https://www.nature.com/articles/s41591-026-04614-0",
-"date": "2026-10-12T00:00:00+00:00",
-"pop": null,
-"source": "Nature Medicine",
-"badge": "DOI 10.1038/s41591-026-04614-0",
-"id": "35dfaa11d1e4",
-"keep": true,
-"zh_title": "人群尺度重建绝经动态：末次月经的生理断崖",
-"summary": "受天文学启发的计算框架从横断面数据重建末次月经锚定轨迹，在两个队列3亿项检验中发现多系统生理断崖。",
-"key_points": [
-"框架去除个体末次月经年龄差异造成的模糊",
-"两个独立队列共约3亿项实验室检测数据",
-"激素治疗显著减弱断崖，男性中无此现象"
-],
-"section": "生命科学与药物",
-"type": "论文",
-"tags": [
-"公共卫生"
-],
-"evidence": "同行评审",
-"score": 7,
-"day": "2026-10-14",
-"source_group": "Nature Medicine",
-"abstract": "Menopause reshapes female physiology, yet current understanding is limited by small longitudinal cohorts that characterize it as a gradual transition. Large-scale biomedical datasets remain underutilized because the final menstrual period (FMP) age is rarely recorded. Here we present a computational framework, inspired by astronomy, that reconstructs FMP-anchored trajectories from cross-sectional data by removing the blurring caused by variation in FMP age across individuals. Applying this to two independent cohorts totaling 300 million laboratory tests revealed a step-like physiological cliff at the FMP including endocrine, skeletal, hepatic, renal and lipid systems. These discontinuities are absent in male individuals, are concordant across populations and appear markedly attenuated by menopausal hormone therapy. Dysregulation began more than a decade before FMP. These findings support a systemic, quantifiable view of menopause and provide a generalizable strategy for recovering hidden biological trajectories applicable to other transitions such as puberty or disease progression. By using a novel computational framework, a cross-sectional analysis on laboratory data from two independent cohorts reveals that the final menstrual period marks an abrupt, multisystem physiological shift, with sex hormone changes beginning more than 10 years before menopause onset.",
-"thin": false,
-"reason": "两独立队列、3亿项检测并跨人群一致，属重要档",
-"zh_abstract": "绝经重塑女性生理，但当前理解受到小型纵向队列的限制，这些队列将其描述为一种逐渐过渡。大规模生物医学数据集仍未得到充分利用，因为末次月经（final menstrual period, FMP）年龄很少被记录。在此，我们提出一个受天文学启发的计算框架，通过去除个体间 FMP 年龄差异所造成的模糊，从横断面数据中重建以 FMP 为锚点的轨迹。将其应用于两个独立队列、总计 3 亿次实验室检测，揭示了在 FMP 处存在阶梯式生理断崖，包括内分泌、骨骼、肝脏、肾脏和脂质系统。这些不连续性在男性个体中不存在，在不同人群中一致，并且似乎被绝经激素治疗显著减弱。失调在 FMP 前十余年就开始。这些发现支持一种系统性、可量化的绝经观，并提供了一种可推广的策略，用于恢复隐藏的生物学轨迹，适用于其他转变，如青春期或疾病进展。通过使用一种新颖的计算框架，对来自两个独立队列的实验室数据进行横断面分析，揭示末次月经标志着一种突然的多系统生理转变，性激素变化在绝经开始前超过 10 年就已出现。"
-},
-{
 "title": "Development of a scoring system via an interpretable end-to-end neural network for prognostic stratification of patients with advanced melanoma",
 "link": "https://www.nature.com/articles/s41746-026-03379-7",
 "date": "2026-10-13T00:00:00+00:00",
@@ -60,6 +30,36 @@
 "thin": false,
 "reason": "两项独立试验外部验证，样本2711例，属重要档",
 "zh_abstract": "摘要 我们创建了一个可解释的端到端神经网络（ScoreNet），可用于开发易于实施的评分系统以进行风险分层。我们将其应用于来自 5 项支持新药获批的试验中的 2711 例晚期黑色素瘤患者的数据，并开发了一个用于总生存期（OS）和无进展生存期（PFS）的评分系统。随后，该评分系统在两个独立试验中得到验证。该评分是基于八个基线特征的加权求和（所有靶病灶最长径之和、乳酸脱氢酶、全身免疫炎症指数、血红蛋白、ECOG 体能状态、肝转移、脉率以及 PD-L1 免疫组织化学状态）。使用该评分，患者可被分为 OS 和 PFS 降低的低、中或高风险类别。风险分层已在接受 PD-1/PD-L1 抑制剂、化疗、CTLA-4 抑制剂、BRAF 或 MEK 抑制剂及其联合治疗的患者中得到证明。基于 ScoreNet 的风险分层可成为临床研究/实践的新工具。"
+},
+{
+"title": "Population-scale reconstruction of menopause dynamics reveals a physiological cliff at the final menstrual period",
+"link": "https://www.nature.com/articles/s41591-026-04614-0",
+"date": "2026-10-12T00:00:00+00:00",
+"pop": null,
+"source": "Nature Medicine",
+"badge": "DOI 10.1038/s41591-026-04614-0",
+"id": "35dfaa11d1e4",
+"keep": true,
+"zh_title": "人群尺度重建绝经动态：末次月经的生理断崖",
+"summary": "受天文学启发的计算框架从横断面数据重建末次月经锚定轨迹，在两个队列3亿项检验中发现多系统生理断崖。",
+"key_points": [
+"框架去除个体末次月经年龄差异造成的模糊",
+"两个独立队列共约3亿项实验室检测数据",
+"激素治疗显著减弱断崖，男性中无此现象"
+],
+"section": "生命科学与药物",
+"type": "论文",
+"tags": [
+"公共卫生"
+],
+"evidence": "同行评审",
+"score": 7,
+"day": "2026-10-14",
+"source_group": "Nature Medicine",
+"abstract": "Menopause reshapes female physiology, yet current understanding is limited by small longitudinal cohorts that characterize it as a gradual transition. Large-scale biomedical datasets remain underutilized because the final menstrual period (FMP) age is rarely recorded. Here we present a computational framework, inspired by astronomy, that reconstructs FMP-anchored trajectories from cross-sectional data by removing the blurring caused by variation in FMP age across individuals. Applying this to two independent cohorts totaling 300 million laboratory tests revealed a step-like physiological cliff at the FMP including endocrine, skeletal, hepatic, renal and lipid systems. These discontinuities are absent in male individuals, are concordant across populations and appear markedly attenuated by menopausal hormone therapy. Dysregulation began more than a decade before FMP. These findings support a systemic, quantifiable view of menopause and provide a generalizable strategy for recovering hidden biological trajectories applicable to other transitions such as puberty or disease progression. By using a novel computational framework, a cross-sectional analysis on laboratory data from two independent cohorts reveals that the final menstrual period marks an abrupt, multisystem physiological shift, with sex hormone changes beginning more than 10 years before menopause onset.",
+"thin": false,
+"reason": "两独立队列、3亿项检测并跨人群一致，属重要档",
+"zh_abstract": "绝经重塑女性生理，但当前理解受到小型纵向队列的限制，这些队列将其描述为一种逐渐过渡。大规模生物医学数据集仍未得到充分利用，因为末次月经（final menstrual period, FMP）年龄很少被记录。在此，我们提出一个受天文学启发的计算框架，通过去除个体间 FMP 年龄差异所造成的模糊，从横断面数据中重建以 FMP 为锚点的轨迹。将其应用于两个独立队列、总计 3 亿次实验室检测，揭示了在 FMP 处存在阶梯式生理断崖，包括内分泌、骨骼、肝脏、肾脏和脂质系统。这些不连续性在男性个体中不存在，在不同人群中一致，并且似乎被绝经激素治疗显著减弱。失调在 FMP 前十余年就开始。这些发现支持一种系统性、可量化的绝经观，并提供了一种可推广的策略，用于恢复隐藏的生物学轨迹，适用于其他转变，如青春期或疾病进展。通过使用一种新颖的计算框架，对来自两个独立队列的实验室数据进行横断面分析，揭示末次月经标志着一种突然的多系统生理转变，性激素变化在绝经开始前超过 10 年就已出现。"
 },
 {
 "title": "Building Clinical AI Is Hard. Getting It in Use Is Harder: Lessons Learned from 50+ Algorithms, 2000 Hospitals, and 11 Million Patients",
@@ -267,6 +267,40 @@
 "zh_abstract": "MORGOTH推动了自动化脑电图（EEG）解读，在各类临床环境中达到专家级性能，在低资源环境中提供更高的诊断准确性，并在高负荷中心提高效率。"
 },
 {
+"title": "Electronic health record developer adherence to federal AI risk transparency requirements",
+"link": "https://www.nature.com/articles/s41746-026-03152-w",
+"date": "2026-10-14T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03152-w",
+"pop": null,
+"id": "127dbbbfd9e9",
+"keep": true,
+"zh_title": "电子病历厂商对联邦AI风险透明度要求的依从性",
+"summary": "评估35家电子病历厂商对联邦AI预测决策支持透明度要求的公开报告，发现内容不一致且不完整。",
+"key_points": [
+"要求公开风险分析、缓解、治理等11项属性",
+"35家厂商报告结构松散、详略差异大",
+"全部厂商仍获认证合规，提示需标准化审查"
+],
+"section": "落地与监管",
+"type": "监管",
+"tags": [
+"电子病历",
+"监管政策",
+"公平与安全"
+],
+"evidence": "同行评审",
+"score": 6,
+"day": "2026-10-14",
+"rank": 9.5,
+"abstract": "We evaluated electronic health record developer compliance with federal transparency requirements for AI-enabled predictive decision support interventions. Developers are required to publicly report on risk analysis, mitigation, governance, and on eight other attributes. Across 35 developers, reporting was inconsistent and often incomplete, with substantial variation in structure and detail, yet all developers were certified as meeting the requirements. Results suggest a need for standardized reporting and more rigorous certification review.",
+"reason": "监管透明度实证研究，样本35家，具政策信息量但无临床结局",
+"zh_abstract": "我们评估了电子健康记录开发商对 AI 赋能的预测性决策支持干预的联邦透明度要求的合规情况。开发商被要求公开报告风险分析、风险缓解、治理以及另外八项属性。在 35 家开发商中，报告不一致且常常不完整，结构和详细程度存在显著差异，但所有开发商均被认证为符合要求。结果表明需要标准化报告和更严格的认证审查。"
+},
+{
 "title": "Human–artificial intelligence collaboration for comanaging epilepsy in real time",
 "link": "https://www.nature.com/articles/s41591-026-04680-4",
 "date": "2026-10-13T00:00:00+00:00",
@@ -328,40 +362,6 @@
 "reason": "大样本预测模型但未见外部队列验证，属值得一看档",
 "abstract": "In 52,236 patients with cancer, cachectic weight loss episodes were linked to lower survival rates, occurred at times of disease progression, and carried a consistent serological signature across routine laboratory markers. Specific tumor genotypes, including TP53 mutations, were also positively associated with cachexia risk. Statistical models were trained to predict a patient’s impending risk of cachexia.",
 "zh_abstract": "在52,236例癌症患者中，恶病质体重减轻事件与较低生存率相关，发生于疾病进展时，并在常规实验室标志物中具有一致的血清学特征。特定肿瘤基因型，包括TP53突变，也与恶病质风险呈正相关。统计模型经过训练，用于预测患者即将发生的恶病质风险。"
-},
-{
-"title": "Electronic health record developer adherence to federal AI risk transparency requirements",
-"link": "https://www.nature.com/articles/s41746-026-03152-w",
-"date": "2026-10-14T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03152-w",
-"pop": null,
-"id": "127dbbbfd9e9",
-"keep": true,
-"zh_title": "电子病历厂商对联邦AI风险透明度要求的依从性",
-"summary": "评估35家电子病历厂商对联邦AI预测决策支持透明度要求的公开报告，发现内容不一致且不完整。",
-"key_points": [
-"要求公开风险分析、缓解、治理等11项属性",
-"35家厂商报告结构松散、详略差异大",
-"全部厂商仍获认证合规，提示需标准化审查"
-],
-"section": "落地与监管",
-"type": "监管",
-"tags": [
-"电子病历",
-"监管政策",
-"公平与安全"
-],
-"evidence": "同行评审",
-"score": 6,
-"day": "2026-10-14",
-"rank": 9.5,
-"abstract": "We evaluated electronic health record developer compliance with federal transparency requirements for AI-enabled predictive decision support interventions. Developers are required to publicly report on risk analysis, mitigation, governance, and on eight other attributes. Across 35 developers, reporting was inconsistent and often incomplete, with substantial variation in structure and detail, yet all developers were certified as meeting the requirements. Results suggest a need for standardized reporting and more rigorous certification review.",
-"reason": "监管透明度实证研究，样本35家，具政策信息量但无临床结局",
-"zh_abstract": "我们评估了电子健康记录开发商对 AI 赋能的预测性决策支持干预的联邦透明度要求的合规情况。开发商被要求公开报告风险分析、风险缓解、治理以及另外八项属性。在 35 家开发商中，报告不一致且常常不完整，结构和详细程度存在显著差异，但所有开发商均被认证为符合要求。结果表明需要标准化报告和更严格的认证审查。"
 },
 {
 "title": "Model-dependent prompt effects challenge reliable deployment of medical LLMs in traditional Chinese medicine",
@@ -557,6 +557,38 @@
 "zh_abstract": "癌症恶病质是一种消耗综合征，对发病率和死亡率有不成比例的重大影响，但其驱动因素和全身性后果仍定义不清。在本研究中，我们重新利用来自 Memorial Sloan Kettering Cancer Center 的 52,236 例癌症患者的纵向临床基因组数据（由 MSK-IMPACT 分析，2010–2024 年），以定义共识定义的恶病质性体重减轻的按发作解析的轨迹，并将这些事件与结局、血清学和肿瘤基因型相关联。恶病质发作聚集在疾病进展期附近，并且几乎在所有癌症类型中都与较差结局相关。在不同恶性肿瘤中，恶病质性体重减轻发作表现出一致的血清学特征，以白蛋白和血红蛋白较低以及肝酶水平较高为特征。许多体细胞肿瘤基因型，包括多种疾病中的 TP53 突变，也与恶病质发作更频繁发生相关。受这些观察结果启发，我们开发了一个多变量模型，用于预测肺癌、结直肠癌和前列腺癌患者即将发生的恶病质性体重减轻风险，并在来自 Dana-Farber Cancer Institute 的独立外部队列（n = 5,785）中进行了验证。因此，常规临床基因组数据是癌症恶病质发现的一个可扩展资源。利用来自 52,236 例癌症患者的纵向数据，本研究创建了癌症恶病质的多模态图谱，表明体重减轻发作与全身性血清学特征和特定肿瘤基因型相关，并且可利用整合的临床和分子数据进行预测，从而实现更早识别。"
 },
 {
+"title": "AI-based hourly prediction of emergency department demand integrating social determinants of health",
+"link": "https://www.nature.com/articles/s41746-026-03378-8",
+"date": "2026-10-12T00:00:00+00:00",
+"pop": null,
+"source": "npj Digital Medicine",
+"badge": "DOI 10.1038/s41746-026-03378-8",
+"id": "73a91ee6b2fc",
+"keep": true,
+"zh_title": "融合健康社会决定因素的急诊需求逐小时AI预测",
+"summary": "基于武汉某三甲医院213,138次就诊数据，XGBoost模型显示纳入动态SDoH特征优于仅用天气因素预测急诊需求。",
+"key_points": [
+"单中心213,138次就诊，聚合为22,883条小时观测",
+"纳入动态SDoH特征的模型持续优于天气变量模型",
+"构建可解释模型以辅助资源配置"
+],
+"section": "临床预测与决策",
+"type": "模型",
+"tags": [
+"临床预测",
+"公共卫生",
+"可解释性"
+],
+"evidence": "同行评审",
+"score": 5,
+"day": "2026-10-14",
+"source_group": "npj Digital Medicine",
+"abstract": "Emergency department (ED) crowding is associated with delayed treatment and increased mortality, and proactive staffing requires reliable short-term demand forecasts. Most operational models rely on temporal or weather patterns but may insufficiently capture underlying population vulnerability. We evaluated whether community-level social determinants of health (SDoH) improve the prediction of near-term ED demand compared with weather factors using XGBOOST, and developed an interpretable model to inform resource allocation. The study included 213,138 encounters aggregated into 22,883 hourly observations at a tertiary teaching hospital in Wuhan, China. Neighbourhoods differed markedly in age structure and diagnostic profiles, indicating heterogeneous healthcare needs across the catchment area. Models incorporating dynamic SDoH features consistently outperformed those using weather variables alone. Overall, the composite model achieved the best performance with an RMSE of 3.48 visits per hour, an MAE of 2.62 visits per hour, and an R ² of 0.68. Mean absolute prediction errors were approximately 2 to 3 patients per hour across scenarios, suggesting practical utility for short-term staffing and capacity planning. The study indicates that community-level social vulnerability may provide more informative signals than weather conditions for anticipating short-term ED demand. Integrating SDoH-informed forecasts into hospital operations may enable earlier staffing adjustments and help mitigate crowding-related risks.",
+"thin": false,
+"reason": "单中心回顾性预测研究，样本大但无外部验证，属值得一看档",
+"zh_abstract": "急诊科（ED）拥挤与治疗延迟和死亡率增加相关，而主动的人员配置需要可靠的短期需求预测。大多数运营模型依赖时间或天气模式，但可能不足以捕捉潜在人群脆弱性。我们使用 XGBOOST 评估了社区层面的健康社会决定因素（SDoH）相较于天气因素是否能改善近期 ED 需求的预测，并开发了一个可解释模型以指导资源分配。该研究纳入了中国武汉一家三级教学医院的 213,138 次就诊，汇总为 22,883 条小时观测。不同社区在年龄结构和诊断谱方面差异显著，表明服务区域内存在异质性医疗需求。纳入动态 SDoH 特征的模型始终优于仅使用天气变量的模型。总体而言，复合模型表现最佳，RMSE 为每小时 3.48 次就诊，MAE 为每小时 2.62 次就诊，R² 为 0.68。在不同情景下，平均绝对预测误差约为每小时 2 至 3 名患者，表明其对于短期人员配置和容量规划具有实用价值。该研究表明，对于预测短期 ED 需求，社区层面的社会脆弱性可能提供比天气状况更有信息量的信号。将基于 SDoH 的预测整合到医院运营中，可能有助于更早调整人员配置，并帮助减轻与拥挤相关的风险。"
+},
+{
 "title": "Improved Efficiency and Lesion Detection in Small Bowel Capsule Endoscopy Using the Open-Source Artificial Intelligence Model SEE-AI.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42148037/",
 "date": "2026-10-14T02:54:17.165846+00:00",
@@ -721,38 +753,6 @@
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
 },
 {
-"title": "AI-based hourly prediction of emergency department demand integrating social determinants of health",
-"link": "https://www.nature.com/articles/s41746-026-03378-8",
-"date": "2026-10-12T00:00:00+00:00",
-"pop": null,
-"source": "npj Digital Medicine",
-"badge": "DOI 10.1038/s41746-026-03378-8",
-"id": "73a91ee6b2fc",
-"keep": true,
-"zh_title": "融合健康社会决定因素的急诊需求逐小时AI预测",
-"summary": "基于武汉某三甲医院213,138次就诊数据，XGBoost模型显示纳入动态SDoH特征优于仅用天气因素预测急诊需求。",
-"key_points": [
-"单中心213,138次就诊，聚合为22,883条小时观测",
-"纳入动态SDoH特征的模型持续优于天气变量模型",
-"构建可解释模型以辅助资源配置"
-],
-"section": "临床预测与决策",
-"type": "模型",
-"tags": [
-"临床预测",
-"公共卫生",
-"可解释性"
-],
-"evidence": "同行评审",
-"score": 5,
-"day": "2026-10-14",
-"source_group": "npj Digital Medicine",
-"abstract": "Emergency department (ED) crowding is associated with delayed treatment and increased mortality, and proactive staffing requires reliable short-term demand forecasts. Most operational models rely on temporal or weather patterns but may insufficiently capture underlying population vulnerability. We evaluated whether community-level social determinants of health (SDoH) improve the prediction of near-term ED demand compared with weather factors using XGBOOST, and developed an interpretable model to inform resource allocation. The study included 213,138 encounters aggregated into 22,883 hourly observations at a tertiary teaching hospital in Wuhan, China. Neighbourhoods differed markedly in age structure and diagnostic profiles, indicating heterogeneous healthcare needs across the catchment area. Models incorporating dynamic SDoH features consistently outperformed those using weather variables alone. Overall, the composite model achieved the best performance with an RMSE of 3.48 visits per hour, an MAE of 2.62 visits per hour, and an R ² of 0.68. Mean absolute prediction errors were approximately 2 to 3 patients per hour across scenarios, suggesting practical utility for short-term staffing and capacity planning. The study indicates that community-level social vulnerability may provide more informative signals than weather conditions for anticipating short-term ED demand. Integrating SDoH-informed forecasts into hospital operations may enable earlier staffing adjustments and help mitigate crowding-related risks.",
-"thin": false,
-"reason": "单中心回顾性预测研究，样本大但无外部验证，属值得一看档",
-"zh_abstract": "急诊科（ED）拥挤与治疗延迟和死亡率增加相关，而主动的人员配置需要可靠的短期需求预测。大多数运营模型依赖时间或天气模式，但可能不足以捕捉潜在人群脆弱性。我们使用 XGBOOST 评估了社区层面的健康社会决定因素（SDoH）相较于天气因素是否能改善近期 ED 需求的预测，并开发了一个可解释模型以指导资源分配。该研究纳入了中国武汉一家三级教学医院的 213,138 次就诊，汇总为 22,883 条小时观测。不同社区在年龄结构和诊断谱方面差异显著，表明服务区域内存在异质性医疗需求。纳入动态 SDoH 特征的模型始终优于仅使用天气变量的模型。总体而言，复合模型表现最佳，RMSE 为每小时 3.48 次就诊，MAE 为每小时 2.62 次就诊，R² 为 0.68。在不同情景下，平均绝对预测误差约为每小时 2 至 3 名患者，表明其对于短期人员配置和容量规划具有实用价值。该研究表明，对于预测短期 ED 需求，社区层面的社会脆弱性可能提供比天气状况更有信息量的信号。将基于 SDoH 的预测整合到医院运营中，可能有助于更早调整人员配置，并帮助减轻与拥挤相关的风险。"
-},
-{
 "title": "[Articles] Performance and label efficiency of traditional deep-learning models and a retina-specific foundation model for ocular and systemic disease detection: a retrospective comparative study",
 "link": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(26)00054-3/fulltext?rss=yes",
 "date": "2026-08-28T10:42:00+00:00",
@@ -821,6 +821,37 @@
 "2026-10-21"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
+},
+{
+"title": "Realizing the value of the divergence event in clinical human-AI interaction",
+"link": "https://www.nature.com/articles/s41746-026-03394-8",
+"date": "2026-10-13T00:00:00+00:00",
+"pop": null,
+"source": "npj Digital Medicine",
+"badge": "DOI 10.1038/s41746-026-03394-8",
+"id": "09b7a36743d9",
+"keep": true,
+"zh_title": "临床人机交互中「分歧事件」的价值实现",
+"summary": "观点文章提出应从结构、信息、行为三个维度刻画临床AI输出与医生判断不一致时的交互过程。",
+"key_points": [
+"AI界面目前仅提供接受/推翻/修改的单一路径",
+"分歧事件可从结构、信息、行为三轴刻画",
+"主张不应把交互简化为单一输出结果"
+],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"临床决策支持",
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 4,
+"day": "2026-10-14",
+"source_group": "npj Digital Medicine",
+"abstract": "When a clinical AI system’s output differs from a human clinician’s judgment, what follows is consequential and underspecified. Current AI interfaces offer only a narrow lane for what happens next: they present the AI output (and its associated potential divergence) as an adjudicative choice for a human to accept, override, or modify. In practice, collapsing this human-AI interaction into a single output inadvertently obscures what happens in a potential divergence event (Fig. 1 ) which can be characterized along three axes: What the workflow and interface allow the clinician to see and do ( structural axis), what information each side brought to the interaction ( informational axis), and how the clinician engaged with the AI’s reasoning rather than only its output ( behavioral axis). When clinical judgment and AI output diverge, clinicians must ultimately decide what to recommend and how to explain their recommendation to the patient, consider their autonomy, accountability, and liability, and bear moral responsibility 1 . A recent systematic review of AI ethics in nursing and midwifery found that AI challenges the role of health professionals not through replacement, but through subtle reconfiguration of the activities that count as care and that emphasis on AI efficiency may risk certain relational aspects of care less visible and valued 2 . Because clinicians often cannot see how an AI system reached its output, they are left to choose between that AI output and their own judgment. Clinicians are told to be the “human in the loop” but are typically given no method for doing so beyond “exercising their judgment” 3 . Efforts to make AI output both more technically explainable and human interpretable - have not directly correlated with improved clinical decisions and have sometimes created false confidence in incorrect AI output 4 .",
+"thin": false,
+"reason": "观点类文章上限6分，仅提出概念框架、无实证数据，属增量档。",
+"zh_abstract": "当临床 AI 系统的输出与人类临床医生的判断不同时，随之而来的后果重大且规定不足。当前的 AI 界面仅为接下来发生的事情提供了一条狭窄通道：它们将 AI 输出（及其相关的潜在分歧）呈现为一种裁决性选择，供人接受、推翻或修改。在实践中，将这种人-AI 交互压缩为单一输出，会无意中掩盖潜在分歧事件（图 1）中发生的情况；该事件可沿三个轴线刻画：工作流程和界面允许临床医生看到和做什么（结构轴线），每一方为交互带来了什么信息（信息轴线），以及临床医生如何参与 AI 的推理而不仅仅是其输出（行为轴线）。当临床判断与 AI 输出出现分歧时，临床医生最终必须决定推荐什么以及如何向患者解释其推荐，考虑其自主权、问责和法律责任，并承担道德责任 1。最近一项关于护理和助产领域 AI 伦理的系统综述发现，AI 对卫生专业人员角色的挑战并非通过替代，而是通过对被视为照护的活动的微妙重构；并且强调 AI 效率可能使照护的某些关系性方面更不显眼且更不受重视 2。由于临床医生往往无法看到 AI 系统如何得出其输出，他们只能在 AI 输出和自己的判断之间做选择。临床医生被告知要成为“human in the loop（人在回路中）”，但通常除了“运用其判断”3 之外，并没有得到这样做的方法。使 AI 输出在技术上更可解释且对人类更可解释的努力——并未与临床决策改善直接相关，有时还会对不正确的 AI 输出产生虚假信心 4。"
 },
 {
 "title": "Label-free, low-cost AI ranking for systematic review screening",
@@ -979,37 +1010,6 @@
 "thin": false,
 "reason": "大样本回顾队列+时间验证+临床结局，属重要档",
 "zh_abstract": "【背景】卒中后预测模型越来越多地将神经影像信息加入床旁数据。影像报告中记录的发现能否在患者不断演变的生理状态之外改善短期风险分层，尚不清楚。【方法】我们研究了 MIMIC-IV（2008-2019）中 4,827 名患有急性缺血性卒中、脑出血或蛛网膜下腔出血的成人。在 ICU 入住后 6 至 48 小时的八个时间标志点，模型按患者在 24 小时内恶化或死亡的风险对其进行排序。基线模型结合了人口学与临床特征、一个先前验证过的动态 ICU 状态表示，以及每个时间标志点上的生理、治疗和影像状态。一个本地运行的语言模型从 6,992 份头部 CT 和 MRI 报告中提取影像表型；三种表型和四个位置类别在独立验证中达到了预设的自动化提取可靠性标准，并进入模型。主要结局是在时间验证集（2017-2019；8,923 个患者-时间标志点，666 起事件）中，每个时间标志点排名最高 10% 患者中所捕获事件比例的差异。【结果】在排名最高的 10% 中，加入影像表型未额外捕获任何事件（无论是否加入，均为 666 起中的 348 起）：差异为 0.00 个百分点（95% CI -2.20 至 +2.01）。区分度（AUROC 0.855 vs 0.849）、校准度和净获益相似。没有任何预设敏感性分析、卒中亚型或可用性调整分析显示有统计学支持的增量捕获。在一项事后冗余分析中，影像表型在仅加入人口学与临床特征时改善了捕获（+12.91 个百分点，7.54 至 17.81），但一旦纳入动态状态表示，这一增益便不再明显。【结论】从常规放射学报告中提取的神经影像表型与短期恶化相关，但我们未发现证据表明它们在动态 ICU 状态和同期生理状态之外增加了风险分层价值。"
-},
-{
-"title": "Realizing the value of the divergence event in clinical human-AI interaction",
-"link": "https://www.nature.com/articles/s41746-026-03394-8",
-"date": "2026-10-13T00:00:00+00:00",
-"pop": null,
-"source": "npj Digital Medicine",
-"badge": "DOI 10.1038/s41746-026-03394-8",
-"id": "09b7a36743d9",
-"keep": true,
-"zh_title": "临床人机交互中「分歧事件」的价值实现",
-"summary": "观点文章提出应从结构、信息、行为三个维度刻画临床AI输出与医生判断不一致时的交互过程。",
-"key_points": [
-"AI界面目前仅提供接受/推翻/修改的单一路径",
-"分歧事件可从结构、信息、行为三轴刻画",
-"主张不应把交互简化为单一输出结果"
-],
-"section": "落地与监管",
-"type": "观点",
-"tags": [
-"临床决策支持",
-"临床落地"
-],
-"evidence": "同行评审",
-"score": 4,
-"day": "2026-10-14",
-"source_group": "npj Digital Medicine",
-"abstract": "When a clinical AI system’s output differs from a human clinician’s judgment, what follows is consequential and underspecified. Current AI interfaces offer only a narrow lane for what happens next: they present the AI output (and its associated potential divergence) as an adjudicative choice for a human to accept, override, or modify. In practice, collapsing this human-AI interaction into a single output inadvertently obscures what happens in a potential divergence event (Fig. 1 ) which can be characterized along three axes: What the workflow and interface allow the clinician to see and do ( structural axis), what information each side brought to the interaction ( informational axis), and how the clinician engaged with the AI’s reasoning rather than only its output ( behavioral axis). When clinical judgment and AI output diverge, clinicians must ultimately decide what to recommend and how to explain their recommendation to the patient, consider their autonomy, accountability, and liability, and bear moral responsibility 1 . A recent systematic review of AI ethics in nursing and midwifery found that AI challenges the role of health professionals not through replacement, but through subtle reconfiguration of the activities that count as care and that emphasis on AI efficiency may risk certain relational aspects of care less visible and valued 2 . Because clinicians often cannot see how an AI system reached its output, they are left to choose between that AI output and their own judgment. Clinicians are told to be the “human in the loop” but are typically given no method for doing so beyond “exercising their judgment” 3 . Efforts to make AI output both more technically explainable and human interpretable - have not directly correlated with improved clinical decisions and have sometimes created false confidence in incorrect AI output 4 .",
-"thin": false,
-"reason": "观点类文章上限6分，仅提出概念框架、无实证数据，属增量档。",
-"zh_abstract": "当临床 AI 系统的输出与人类临床医生的判断不同时，随之而来的后果重大且规定不足。当前的 AI 界面仅为接下来发生的事情提供了一条狭窄通道：它们将 AI 输出（及其相关的潜在分歧）呈现为一种裁决性选择，供人接受、推翻或修改。在实践中，将这种人-AI 交互压缩为单一输出，会无意中掩盖潜在分歧事件（图 1）中发生的情况；该事件可沿三个轴线刻画：工作流程和界面允许临床医生看到和做什么（结构轴线），每一方为交互带来了什么信息（信息轴线），以及临床医生如何参与 AI 的推理而不仅仅是其输出（行为轴线）。当临床判断与 AI 输出出现分歧时，临床医生最终必须决定推荐什么以及如何向患者解释其推荐，考虑其自主权、问责和法律责任，并承担道德责任 1。最近一项关于护理和助产领域 AI 伦理的系统综述发现，AI 对卫生专业人员角色的挑战并非通过替代，而是通过对被视为照护的活动的微妙重构；并且强调 AI 效率可能使照护的某些关系性方面更不显眼且更不受重视 2。由于临床医生往往无法看到 AI 系统如何得出其输出，他们只能在 AI 输出和自己的判断之间做选择。临床医生被告知要成为“human in the loop（人在回路中）”，但通常除了“运用其判断”3 之外，并没有得到这样做的方法。使 AI 输出在技术上更可解释且对人类更可解释的努力——并未与临床决策改善直接相关，有时还会对不正确的 AI 输出产生虚假信心 4。"
 },
 {
 "title": "The FDA’s GenAI proposal: evolving regulation for an evolved medtech era - Medical Device Network",
@@ -1944,7 +1944,7 @@
 "资金用于加速增长与扩展AI能力",
 "融资距其发布新AI功能不足一周"
 ],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [
 "融资与并购",
@@ -1974,7 +1974,7 @@
 "Elsevier推出面向护士的临床AI工具",
 "Arcadia、Solera Health等亦有动态"
 ],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [
 "智能体",
@@ -1984,6 +1984,106 @@
 "score": 5,
 "day": "2026-10-14",
 "rank": 6.0
+},
+{
+"title": "Author Correction: Large language models are powerful electronic health record encoders",
+"link": "https://www.nature.com/articles/s41746-026-03220-1",
+"date": "2026-10-14T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03220-1",
+"pop": null,
+"id": "6c2735457c3f",
+"keep": true,
+"zh_title": "作者更正：大语言模型是强大的电子病历编码器",
+"summary": "该条目仅为原文的更正说明，涉及数字、拼写与格式修订，无新研究信息。",
+"key_points": [
+"更正UK Biobank就诊与事件数",
+"修正模型名称为CLMBR-T-Base",
+"仅为勘误，无新增研究结论"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"电子病历",
+"医学大模型"
+],
+"evidence": "同行评审",
+"score": 2,
+"day": "2026-10-14",
+"rank": 5.5,
+"abstract": "In the original version of this manuscript, there occur some errors consisting of numbers, typographical errors and formatting errors. The complete list of corrections is mentioned below. The original paper has now been corrected. 1. Outdated UK Biobank numbers in Figure 1 c) and Table 1. Table 1 should contain the following revised entries for the UK Biobank: UK Biobank No. of visits: 20,354,931 (instead of outdated 19,484,777) UK Biobank No. of events: 72,910,130 (instead of outdated 72,265,684) UK Biobank Black: 5715 (instead of wrong 5751) 2. Wrong model name in Figure 3, legend. The legend entry reads CLIMBR-T-Base; it should read CLMBR-T-Base. 3. Outdated UK Biobank number in Results, “Experimental setup”, p. 2. Published: “The processed UKB subset used in our study comprised 387,464 patients, approximately 19.5 million visits, [...]” Corrected: “The processed UKB subset used in our study comprised 387,464 patients, approximately 20.4 million visits, [...]” 4. Wrong table row referred to in Results, “LLM embeddings achieve strong performance in low-data regimes”, p. 4. The sentence quotes the UK Biobank win–loss counts in a paragraph about EHRSHOT. Published: “[...] outperformed CLMBR-T-Base on two versus zero tasks in the 8-shot setting and on four versus zero tasks in the 64-shot setting, while most tasks remained indistinguishable (Table 4).” Corrected: “[...] outperformed CLMBR-T-Base on four versus one tasks in the 8-shot setting and on three versus two tasks in the 64-shot setting, while most tasks remained indistinguishable (Table 4).” 5. Former result referred to in Results, “General-purpose LLM embeddings rival domain-specific EHR models”, p. 4. The sentence refers to the old BioClinicalBERT MEME results instead of the updated BioClinicalBERT. Published: “[...] BioClinicalBERT with mean embeddings over 512-token chunks performed best at 0.702 (0.671–0.732) (Tables 3 and S4).” Corrected: “[...] BioClinicalBERT with mean embeddings over 512-token chunks performed best at 0.705 (0.680–0.730) (Tables 3 and S4).” 6. Transposed values in Supplementary Table S6. The chest X-ray values for the two “Counts + TB” rows are transposed between the GBM and LR blocks. 7. Imprecise wording in Discussion, limitations, p. 9. Specified hyperparameter tuning and replaced wrong usage of “two-shot settings” where “two shot sizes” was meant. Published: “In addition, our fine-tuning experiments were limited to two task groups and two-shot settings due [...]” Correc",
+"reason": "仅为勘误说明，信息量近乎为零，属边缘档。",
+"zh_abstract": "在本手稿的原始版本中，存在一些错误，包括数字、排版错误和格式错误。更正完整列表如下。原论文现已更正。1. 图 1 c) 和表 1 中的 UK Biobank 数字过时。表 1 应包含以下针对 UK Biobank 的修订条目：UK Biobank 就诊次数：20,354,931（而非过时的 19,484,777）；UK Biobank 事件数：72,910,130（而非过时的 72,265,684）；UK Biobank Black：5715（而非错误的 5751）。2. 图 3 图例中的模型名称错误。图例条目写的是 CLIMBR-T-Base；应改为 CLMBR-T-Base。3. 结果部分“Experimental setup”，第 2 页中的 UK Biobank 数字过时。已发表：“我们研究中使用的处理后 UKB 子集包括 387,464 名患者，约 19.5 百万次访视，[...]” 更正后：“我们研究中使用的处理后 UKB 子集包括 387,464 名患者，约 20.4 百万次访视，[...]” 4. 结果部分“LLM embeddings achieve strong performance in low-data regimes”，第 4 页中引用了错误的表行。该句在关于 EHRSHOT 的段落中引用了 UK Biobank 的胜–负计数。已发表：“[...] 在 8-shot 设置中在 2 对 0 项任务上优于 CLMBR-T-Base，在 64-shot 设置中在 4 对 0 项任务上优于 CLMBR-T-Base，而大多数任务仍无法区分（表 4）。” 更正后：“[...] 在 8-shot 设置中在 4 对 1 项任务上优于 CLMBR-T-Base，在 64-shot 设置中在 3 对 2 项任务上优于 CLMBR-T-Base，而大多数任务仍无法区分（表 4）。” 5. 结果部分“General-purpose LLM embeddings rival domain-specific EHR models”，第 4 页中引用了先前的结果。该句引用的是旧的 BioClinicalBERT MEME 结果，而非更新后的 BioClinicalBERT。已发表：“[...] 在 512-token 块上使用平均嵌入的 BioClinicalBERT 表现最佳，为 0.702（0.671–0.732）（表 3 和表 S4）。” 更正后：“[...] 在 512-token 块上使用平均嵌入的 BioClinicalBERT 表现最佳，为 0.705（0.680–0.730）（表 3 和表 S4）。” 6. 补充表 S6 中的数值转置。两个“Counts + TB”行的胸部 X 射线数值在 GBM 和 LR 块之间发生了转置。7. 讨论部分“limitations”，第 9 页中的措辞不准确。明确了超参数调优，并替换了错误使用的“two-shot settings”，那里原意是“two shot sizes”。已发表：“此外，我们的微调实验受限于两个任务组和 two-shot settings，因为 [...]” Correc"
+},
+{
+"title": "HERO: Hierarchical Evidential Reasoning Optimization for Radiology Report Generation via Reason-then-Summarize",
+"link": "https://arxiv.org/abs/2601.03321",
+"date": "2026-10-12T00:00:00+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2601.03321",
+"pop": null,
+"id": "d2c277ff78f2",
+"keep": true,
+"zh_title": "HERO：放射报告生成的分层证据推理优化",
+"summary": "arXiv预印本提出HERO，以分段、token与完成三级策略优化缓解GRPO统一信用分配问题，旨在减少放射报告生成的临床幻觉。",
+"key_points": [
+"针对GRPO整段统一信用分配缺陷",
+"分段、token、完成三级优化粒度",
+"奖励融合诊断准确率与推理一致性"
+],
+"section": "影像与病理",
+"type": "模型",
+"tags": [
+"医学影像",
+"生成模型",
+"多模态"
+],
+"evidence": "预印本",
+"score": 5,
+"day": "2026-10-14",
+"rank": 7.0,
+"abstract": "Multimodal Large Language Models (MLLMs) have substantially advanced Radiology Report Generation (RRG), yet aligning them through reinforcement learning (RL) remains challenging due to heterogeneous medical supervision. Vanilla Group Relative Policy Optimization (GRPO) assigns uniform credit across the entire generation, leading to segment interference, token dilution, and rationale-diagnosis decoupling, which exacerbates clinical hallucinations. We propose HERO (Hierarchical rationalE Reasoning Optimization), a factorized policy optimization framework that aligns heterogeneous supervision with three optimization granularities. HERO separately optimizes reasoning, diagnosis, and rationale faithfulness through complementary segment-, token-, and completion-level optimization with a heterogeneous reward formulation covering diagnostic accuracy, reasoning quality, and think-answer consistency. Experiments on MIMIC-CXR and IU-Xray show that HERO outperforms strong supervised and reinforcement learning baselines, achieving state-of-the-art clinical efficacy while producing more rationale-supported and think-answer-consistent reports, thereby substantially mitigating clinical hallucinations.",
+"reason": "预印本新方法有新意，但摘要未示外部验证，属值得一看",
+"zh_abstract": "多模态大型语言模型（MLLMs）已大幅推进放射学报告生成（RRG），然而由于医学监督的异质性，通过强化学习（RL）对其进行对齐仍然具有挑战性。原始组相对策略优化（GRPO）在整个生成过程中分配统一的信用，导致片段干扰、词元稀释以及理由-诊断解耦，从而加剧临床幻觉。我们提出 HERO（Hierarchical rationalE Reasoning Optimization，分层理由推理优化），一个因子化策略优化框架，通过三种优化粒度对齐异质性监督。HERO 通过互补的片段级、词元级和完成级优化，分别优化推理、诊断和理由忠实度，并采用涵盖诊断准确性、推理质量和思考-答案一致性的异质性奖励公式。在 MIMIC-CXR 和 IU-Xray 上的实验表明，HERO 优于强监督学习和强化学习基线，达到最先进的临床效能，同时产生更多有理由支持且思考-答案一致的报告，从而大幅减轻临床幻觉。"
+},
+{
+"title": "Open Foundation Models in Healthcare: Challenges, Paradoxes, and Opportunities with GenAI Driven Personalized Prescription",
+"link": "https://arxiv.org/abs/2502.04356",
+"date": "2026-10-12T00:00:00+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2502.04356",
+"pop": null,
+"id": "b764bf53c773",
+"keep": true,
+"zh_title": "医疗开放基础模型：挑战、悖论与个性化处方",
+"summary": "综述开放LLM与AI基础模型在临床任务的进展，并在个性化处方任务上比较开源与专有模型。",
+"key_points": [
+"梳理开放LLM/AIFM临床任务的分类体系",
+"在100个合成患者画像上评测处方任务",
+"开源模型总体适用性准确率0.810–0.850，专有基线0.780"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"医学大模型",
+"临床决策支持"
+],
+"evidence": "预印本",
+"score": 5,
+"day": "2026-10-14",
+"rank": 8.0,
+"abstract": "In response to the success of proprietary Large Language Models (LLMs), there is a growing interest in developing open, non-proprietary LLMs and AI foundation models (AIFMs) for transparent use in academic, scientific, and non-commercial applications. Open models have substantial potential to improve healthcare applications. In this paper, we provide a comprehensive survey and a taxonomy of state-of-the-art open LLMs and AIFMs for clinical tasks. In addition, we empirically evaluate open-weight LLMs on a personalized-prescription task and compare them with a proprietary model with and without Retrieval-Augmented Generation (RAG). Across 100 synthetic patient profiles, the open-weight models matched or exceeded the proprietary baseline on overall suitability accuracy without retrieval augmentation (0.810--0.850 versus 0.780), although the confidence intervals overlap; with retrieval augmentation, every model improved, and the ranking closed to within 0.04. Gains from RAG were field-dependent rather than uniform. To highlight the clinical relevance of LLM-driven personalized prescriptions, we also conduct a subjective evaluation in which two raters, blinded to model and condition, scored responses independently of each other. Their ratings did not follow the accuracy gains: retrieval raised overall suitability accuracy for every model while lowering the two-rater means for two of the four on all five dimensions. Finally, we outline the ethical implications and potential risks associated with the misuse of advanced LLMs and AIFMs, highlighting the importance of responsible and transparent deployment in healthcare contexts. \\textit{Data and code used in the paper will be released upon publication.",
+"reason": "预印本综述加合成数据小规模评测，置信区间重叠，属值得一看档",
+"zh_abstract": "为回应专有大语言模型（LLMs）的成功，人们对开发开放、非专有 LLM 和 AI 基础模型（AIFMs）以供在学术、科学和非商业应用中透明使用的兴趣日益增长。开放模型在改善医疗保健应用方面具有巨大潜力。在本文中，我们提供了针对临床任务的最先进开放 LLM 和 AIFM 的全面综述和分类体系。此外，我们在个性化处方任务上对开放权重 LLM 进行了实证评估，并在使用和不使用检索增强生成（RAG）的情况下将其与一个专有模型进行比较。在 100 个合成患者档案中，开放权重模型在未使用检索增强时的总体适宜性准确率上达到或超过专有基线（0.810--0.850 对 0.780），尽管置信区间重叠；使用检索增强后，每个模型都有所改善，排名差距缩小到 0.04 以内。RAG 带来的增益依赖于领域而非一致。为强调 LLM 驱动的个性化处方的临床相关性，我们还进行了一项主观评估，其中两名对模型和条件设盲的评分者彼此独立地对回答进行评分。他们的评分并未跟随准确率提升：检索提高了每个模型的总体适宜性准确率，却降低了四个模型中的两个在所有五个维度上的两名评分者均值。最后，我们概述了与先进 LLM 和 AIFM 滥用相关的伦理影响和潜在风险，强调在医疗保健场景中负责任和透明部署的重要性。论文中使用的数据和代码将在发表后发布。"
 },
 {
 "title": "Provider Experiences with AI Clinical Decision Support in eSanjeevani",
@@ -2139,6 +2239,72 @@
 "zh_abstract": "【背景】重症监护病房（ICU）中的脑出血（ICH）患者常在危重病早期接受抗生素。这种暴露反映了疑似感染、生理恶化、监测强度和临床管理，并可能因机构和电子健康记录数据库而异。我们评估了目标域适应，用于对ICH危重患者的持续性抗生素暴露进行建模。【方法】我们分析了来自 MIMIC-IV 和 eICU 协作研究数据库（eICU Collaborative Research Database）的派生ICH队列。MIMIC-IV包括2,024次ICU住院，并作为源队列。eICU队列包括1,277次住院，并在ICU住院层面分为开发子集（766次住院）和留出评估子集（511次住院）。eICU结局为至少两个ICU日的持续性抗生素暴露。候选模型纳入了人口统计学、合并症、生理学、实验室、神经系统、呼吸、时间以及测量过程特征。对于静态和时间表格族，带时间戳的观察在可获得时被删失于记录的首个抗生素时间，而紧凑序列组件和显式测量密度特征使用完整的最初24小时。对于使用eICU开发数据的基础模型族，元学习器输入通过五折分层交叉拟合生成。一个42输入的L2惩罚逻辑元学习器将16个模型概率与模型摘要、临床、可用性和测量密度特征相结合。【结果】留出的eICU子集包含48个阳性结局（9.39%）。经适应的集成模型达到受试者工作特征曲线下面积（AUROC）0.841（95% CI 0.775-0.899）和平均精度（AP）0.540（95% CI 0.399-0.676），Brier分数为0.063，期望校准误差为0.029。仅使用MIMIC-IV来源的堆叠模型达到AUROC 0.782；配对AUROC差异为0.059（95% CI 0.003-0.112）。在一项针对503次关联eICU住院的单独按患者分组的五折折外敏感性分析中，AUROC为0.807（95% CI 0.691-0.910）。【结论】对于持续性抗生素暴露，目标域适应相对于仅来源堆叠模型改善了留出区分度。由于某些模型组件和测量过程特征使用了更广泛的最初24小时内的信息，该模型应被解释为最初24小时治疗关联模型，而不是严格前瞻性的 pre-tr。"
 },
 {
+"title": "Horizon Scans can be accelerated using novel information retrieval and artificial intelligence tools",
+"link": "https://arxiv.org/abs/2504.01627",
+"date": "2026-10-11T00:00:00+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2504.01627",
+"pop": null,
+"id": "2e3ec9eb4d1a",
+"keep": true,
+"zh_title": "用新型信息检索与AI工具加速卫生技术前瞻扫描",
+"summary": "预印本：介绍开源Python工具SCANAR与AIDOC，自动化检索与相关性排序以加速医疗前瞻扫描。",
+"key_points": [
+"SCANAR自动抓取与去重新闻文章并排序",
+"AIDOC用大模型与文本嵌入计算语义相似度",
+"在12个内部与4个外部数据集上测试"
+],
+"section": "落地与监管",
+"type": "模型",
+"tags": [
+"临床落地",
+"监管政策"
+],
+"evidence": "预印本",
+"score": 5,
+"day": "2026-10-14",
+"rank": 6.0,
+"abstract": "Introduction: Horizon scanning in healthcare assesses early signals of innovation, crucial for timely adoption. Current horizon scanning faces challenges in efficient information retrieval and analysis, especially in grey literature, presenting a need for innovative tools. Methodology: This article introduces SCANAR and AIDOC, open-source Python-based tools designed to improve horizon scanning. SCANAR automates the retrieval and processing of news articles, using de-duplication and unsupervised relevancy ranking. AIDOC aids filtration by leveraging large language models and text embeddings for calculation of semantic similarity, to reorder data based on relevancy. Results: Twelve internal datasets from horizon scans and four external benchmarking datasets were used. SCANAR improved retrieval efficiency by automating processes previously dependent on manual labour. AIDOC displayed work-saving potential, achieving around 65% theoretic reduction in manual review efforts at 95% recall or 20% reduction when adding CMH, an existing open-source algorithm to make data-driven decisions on stopping screening early. Comparative analysis with benchmarking data showed AIDOC's performance was similar to existing systematic review automation tools, though performance varied depending on dataset characteristics. Conclusion: The validation indicates that SCANAR and AIDOC show potential to enhance horizon scanning efficiency by streamlining data retrieval and prioritisation. These tools may alleviate methodological limitations and allow broader, swifter horizon scans. Further studies are suggested to optimize these models and to design new workflows and validation processes that integrate large language models.",
+"reason": "开源工具并有基准数据，但属流程效率类",
+"zh_abstract": "【引言】医疗保健中的地平线扫描评估创新的早期信号，这对及时采用至关重要。当前的地平线扫描在高效信息检索和分析方面面临挑战，尤其是在灰色文献中，因此需要创新工具。【方法】本文介绍SCANAR和AIDOC，这两个开源、基于Python的工具旨在改进地平线扫描。SCANAR自动化新闻文章的检索和处理，使用去重和无监督相关性排序。AIDOC通过利用大语言模型和文本嵌入计算语义相似度来辅助过滤，以根据相关性重新排序数据。【结果】使用了来自地平线扫描的12个内部数据集和4个外部基准数据集。SCANAR通过自动化此前依赖人工的过程提高了检索效率。AIDOC显示出节省工作量的潜力：在95%召回率下实现约65%的人工审核工作量理论减少；或在加入CMH时减少20%，CMH是一种现有的开源算法，用于基于数据驱动决策提前停止筛选。与基准数据的比较分析显示，AIDOC的性能与现有系统综述自动化工具相似，但性能因数据集特征而异。【结论】验证表明，SCANAR和AIDOC有潜力通过简化数据检索和优先级排序来提高地平线扫描效率。这些工具可能缓解方法学局限，并允许更广泛、更快速的地平线扫描。建议进一步研究以优化这些模型，并设计整合大语言模型的新工作流程和验证过程。"
+},
+{
+"title": "Graph Neural Network-Based Reinforcement Learning for Controlling Biological Networks - the GATTACA Framework",
+"link": "https://arxiv.org/abs/2505.02712",
+"date": "2026-10-11T00:00:00+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2505.02712",
+"pop": null,
+"id": "75d69cd4f824",
+"keep": true,
+"zh_title": "GATTACA：图神经网络强化学习控制生物网络",
+"summary": "研究用深度强化学习控制基因调控与信号通路等布尔网络模型，提出可扩展框架 GATTACA，服务细胞重编程等应用。",
+"key_points": [
+"以布尔网络建模基因调控与信号通路",
+"提出可扩展控制框架 GATTACA",
+"引入伪吸引子概念并改进求解流程"
+],
+"section": "生命科学与药物",
+"type": "论文",
+"tags": [
+"智能体",
+"基因组学"
+],
+"evidence": "预印本",
+"score": 5,
+"day": "2026-10-14",
+"rank": 6.0,
+"abstract": "Cellular reprogramming, the artificial transformation of one cell type into another, has been attracting increasing research attention due to its therapeutic potential for complex diseases. However, identifying effective reprogramming strategies through classical wet-lab experiments is hindered by lengthy time commitments and high costs. In this study, we explore the use of deep reinforcement learning (DRL) to control Boolean network models of complex biological systems, such as gene regulatory and signalling pathway networks. We formulate a novel control problem for Boolean network models under the asynchronous update mode, specifically in the context of cellular reprogramming. To solve it, we devise GATTACA, a scalable computational framework. To facilitate scalability of our framework, we consider previously introduced concept of a pseudo-attractor and improve the procedure for effective identification of pseudo-attractor states. We then incorporate graph neural networks with graph convolution operations into the artificial neural network approximator of the DRL agent's action-value function. This allows us to leverage the available knowledge on the structure of a biological system and to indirectly, yet effectively, encode the system's modelled dynamics into a latent representation. Experiments on several large-scale, real-world biological networks from the literature demonstrate the scalability and effectiveness of our approach.",
+"reason": "预印本新方法，提出可扩展框架但无外部验证，属值得一看档",
+"zh_abstract": "细胞重编程，即人工将一种细胞类型转化为另一种细胞类型，因其对复杂疾病的治疗潜力而受到越来越多的研究关注。然而，通过经典湿实验识别有效的重编程策略受到耗时长和成本高的阻碍。在本研究中，我们探索使用深度强化学习（DRL）来控制复杂生物系统的布尔网络模型，例如基因调控和信号通路网络。我们针对异步更新模式下的布尔网络模型，特别是在细胞重编程背景下，构建了一个新的控制问题。为解决该问题，我们设计了GATTACA，一个可扩展的计算框架。为促进我们框架的可扩展性，我们考虑先前引入的伪吸引子（pseudo-attractor）概念，并改进有效识别伪吸引子状态的过程。随后，我们将带有图卷积运算的图神经网络纳入DRL智能体动作价值函数的人工神经网络近似器中。这使我们能够利用关于生物系统结构的已有知识，并间接而有效地将系统的建模动态编码为潜在表示。对文献中若干大规模、真实世界生物网络的实验证明了我们方法的可扩展性和有效性。"
+},
+{
 "title": "CLARA: Compound Library Active Learning with Reasoning Agents",
 "link": "https://www.biorxiv.org/content/10.64898/2026.10.05.756921v1?rss=1",
 "date": "2026-10-12T00:00:00+00:00",
@@ -2233,40 +2399,6 @@
 "zh_abstract": "【目的】大型语言模型（LLMs）越来越多地用于生成、总结和评估临床文档，然而用于评估细微、依赖上下文的临床语言的标准化方法仍然有限。现有方法主要依赖带注释的临床语料库或基于关键词的方法，限制了可重复性、公开传播以及跨模型的系统比较。我们提出 ClinStigma，一个由临床医生引导的框架，用于构建、注释和评估情境化污名化语言的合成基准，并通过 ClinStigma-SUD 展示，这是其针对物质使用障碍文档的首个实现。【材料与方法】候选临床句子使用前沿语言模型生成，并根据临床医生开发的注释准则迭代审查，该准则通过污名化语言专家审查进一步完善。所得基准有意纳入明确的污名化、中性以及情境模糊（“灰色地带”）文档，这些文档需要临床推理而非关键词识别。使用零样本推理评估了三个本地部署的开放权重 LLM，随后使用来自 MIMIC-IV 的独立注释临床文档进行外部评估。【结果】ClinStigma-SUD 由 500 条经临床医生裁定的合成临床文档句子组成。评分者间一致性在整个基准中为 98.8%（Cohen's {kappa} = 0.976），在有意模糊子集中为 94.0%（{kappa} = 0.880）。在零样本提示下，所评估模型的二分类准确率范围为 84.8% 至 91.8%，而模糊（灰色）类别的 F1 范围为 0.038 至 0.423。对来自独立注释的 Harrigian MIMIC-IV 语料库的 3,716 个注释示例进行零样本外部评估，得到 84.4% 准确率（84.4% 平衡准确率；宏 F1 0.824），相对于 69.9% 的多数类基线。污名化类别的 F1 在物质相关亚组中为 0.879，在完整外部语料库中为 0.883。【讨论与结论】ClinStigma 建立了一个可重复、由临床医生引导的框架，用于开发情境化临床语言的合成评估基准。通过结合结构化临床专业知识、明确的注释指导、合成基准生成和外部评估，该框架能够对语言模型进行开放、保护隐私的评估，同时为跨其他 cli 的基准开发提供可扩展基础。"
 },
 {
-"title": "HERO: Hierarchical Evidential Reasoning Optimization for Radiology Report Generation via Reason-then-Summarize",
-"link": "https://arxiv.org/abs/2601.03321",
-"date": "2026-10-12T00:00:00+00:00",
-"source": "arXiv",
-"source_group": "arXiv",
-"home": "",
-"thin": false,
-"badge": "arXiv 2601.03321",
-"pop": null,
-"id": "d2c277ff78f2",
-"keep": true,
-"zh_title": "HERO：放射报告生成的分层证据推理优化",
-"summary": "arXiv预印本提出HERO，以分段、token与完成三级策略优化缓解GRPO统一信用分配问题，旨在减少放射报告生成的临床幻觉。",
-"key_points": [
-"针对GRPO整段统一信用分配缺陷",
-"分段、token、完成三级优化粒度",
-"奖励融合诊断准确率与推理一致性"
-],
-"section": "影像与病理",
-"type": "模型",
-"tags": [
-"医学影像",
-"生成模型",
-"多模态"
-],
-"evidence": "预印本",
-"score": 5,
-"day": "2026-10-14",
-"rank": 7.0,
-"abstract": "Multimodal Large Language Models (MLLMs) have substantially advanced Radiology Report Generation (RRG), yet aligning them through reinforcement learning (RL) remains challenging due to heterogeneous medical supervision. Vanilla Group Relative Policy Optimization (GRPO) assigns uniform credit across the entire generation, leading to segment interference, token dilution, and rationale-diagnosis decoupling, which exacerbates clinical hallucinations. We propose HERO (Hierarchical rationalE Reasoning Optimization), a factorized policy optimization framework that aligns heterogeneous supervision with three optimization granularities. HERO separately optimizes reasoning, diagnosis, and rationale faithfulness through complementary segment-, token-, and completion-level optimization with a heterogeneous reward formulation covering diagnostic accuracy, reasoning quality, and think-answer consistency. Experiments on MIMIC-CXR and IU-Xray show that HERO outperforms strong supervised and reinforcement learning baselines, achieving state-of-the-art clinical efficacy while producing more rationale-supported and think-answer-consistent reports, thereby substantially mitigating clinical hallucinations.",
-"reason": "预印本新方法有新意，但摘要未示外部验证，属值得一看",
-"zh_abstract": "多模态大型语言模型（MLLMs）已大幅推进放射学报告生成（RRG），然而由于医学监督的异质性，通过强化学习（RL）对其进行对齐仍然具有挑战性。原始组相对策略优化（GRPO）在整个生成过程中分配统一的信用，导致片段干扰、词元稀释以及理由-诊断解耦，从而加剧临床幻觉。我们提出 HERO（Hierarchical rationalE Reasoning Optimization，分层理由推理优化），一个因子化策略优化框架，通过三种优化粒度对齐异质性监督。HERO 通过互补的片段级、词元级和完成级优化，分别优化推理、诊断和理由忠实度，并采用涵盖诊断准确性、推理质量和思考-答案一致性的异质性奖励公式。在 MIMIC-CXR 和 IU-Xray 上的实验表明，HERO 优于强监督学习和强化学习基线，达到最先进的临床效能，同时产生更多有理由支持且思考-答案一致的报告，从而大幅减轻临床幻觉。"
-},
-{
 "title": "AI chatbots abandon sleep apnoea referral when simulated patients minimise symptoms",
 "link": "https://www.medrxiv.org/content/10.64898/2026.10.09.26365165v1?rss=1",
 "date": "2026-10-12T00:00:00+00:00",
@@ -2330,39 +2462,6 @@
 "zh_abstract": "本文表明，可以预测哪些新发表的生物医学研究论文将与后续临床试验相关联。我们使用 CAR-T 细胞疗法作为概念验证场景，因为其开发过程可以从已发表研究一直追踪到临床测试、监管批准和商业化。我们重建了研究论文与临床试验之间的联系，并训练机器学习模型来预测哪些论文与进展到临床测试的研究相关。使用 65 个论文固有指标，包括科学主题、语言、生物医学方向和团队结构，模型实现了交叉验证 AUC 为 0.908。由此产生的排名也具有实际信息价值。在一项不使用 2016 年之后生成的任何信息的回顾性分析中，排名前 20 的论文中有 80% 来自与 13 个预先定义的主要 CAR-T 临床或商业成果之一相关的实验室。作为一项额外发现，仅第一年引用量就达到了 AUC 为 0.797，而基于作者、期刊和机构声誉的来源指标表现较弱，并且对论文固有模型几乎没有增加价值。我们的结果表明，在 CAR-T 中，可以从新发表论文中以高区分度预测生物医学研究论文是否将与后续临床试验相关联。我们的发现可帮助研究组织和制药公司在临床结果已知之前识别值得更密切评估的论文、实验室和治疗项目。"
 },
 {
-"title": "Open Foundation Models in Healthcare: Challenges, Paradoxes, and Opportunities with GenAI Driven Personalized Prescription",
-"link": "https://arxiv.org/abs/2502.04356",
-"date": "2026-10-12T00:00:00+00:00",
-"source": "arXiv",
-"source_group": "arXiv",
-"home": "",
-"thin": false,
-"badge": "arXiv 2502.04356",
-"pop": null,
-"id": "b764bf53c773",
-"keep": true,
-"zh_title": "医疗开放基础模型：挑战、悖论与个性化处方",
-"summary": "综述开放LLM与AI基础模型在临床任务的进展，并在个性化处方任务上比较开源与专有模型。",
-"key_points": [
-"梳理开放LLM/AIFM临床任务的分类体系",
-"在100个合成患者画像上评测处方任务",
-"开源模型总体适用性准确率0.810–0.850，专有基线0.780"
-],
-"section": "大模型与智能体",
-"type": "论文",
-"tags": [
-"医学大模型",
-"临床决策支持"
-],
-"evidence": "预印本",
-"score": 5,
-"day": "2026-10-14",
-"rank": 8.0,
-"abstract": "In response to the success of proprietary Large Language Models (LLMs), there is a growing interest in developing open, non-proprietary LLMs and AI foundation models (AIFMs) for transparent use in academic, scientific, and non-commercial applications. Open models have substantial potential to improve healthcare applications. In this paper, we provide a comprehensive survey and a taxonomy of state-of-the-art open LLMs and AIFMs for clinical tasks. In addition, we empirically evaluate open-weight LLMs on a personalized-prescription task and compare them with a proprietary model with and without Retrieval-Augmented Generation (RAG). Across 100 synthetic patient profiles, the open-weight models matched or exceeded the proprietary baseline on overall suitability accuracy without retrieval augmentation (0.810--0.850 versus 0.780), although the confidence intervals overlap; with retrieval augmentation, every model improved, and the ranking closed to within 0.04. Gains from RAG were field-dependent rather than uniform. To highlight the clinical relevance of LLM-driven personalized prescriptions, we also conduct a subjective evaluation in which two raters, blinded to model and condition, scored responses independently of each other. Their ratings did not follow the accuracy gains: retrieval raised overall suitability accuracy for every model while lowering the two-rater means for two of the four on all five dimensions. Finally, we outline the ethical implications and potential risks associated with the misuse of advanced LLMs and AIFMs, highlighting the importance of responsible and transparent deployment in healthcare contexts. \\textit{Data and code used in the paper will be released upon publication.",
-"reason": "预印本综述加合成数据小规模评测，置信区间重叠，属值得一看档",
-"zh_abstract": "为回应专有大语言模型（LLMs）的成功，人们对开发开放、非专有 LLM 和 AI 基础模型（AIFMs）以供在学术、科学和非商业应用中透明使用的兴趣日益增长。开放模型在改善医疗保健应用方面具有巨大潜力。在本文中，我们提供了针对临床任务的最先进开放 LLM 和 AIFM 的全面综述和分类体系。此外，我们在个性化处方任务上对开放权重 LLM 进行了实证评估，并在使用和不使用检索增强生成（RAG）的情况下将其与一个专有模型进行比较。在 100 个合成患者档案中，开放权重模型在未使用检索增强时的总体适宜性准确率上达到或超过专有基线（0.810--0.850 对 0.780），尽管置信区间重叠；使用检索增强后，每个模型都有所改善，排名差距缩小到 0.04 以内。RAG 带来的增益依赖于领域而非一致。为强调 LLM 驱动的个性化处方的临床相关性，我们还进行了一项主观评估，其中两名对模型和条件设盲的评分者彼此独立地对回答进行评分。他们的评分并未跟随准确率提升：检索提高了每个模型的总体适宜性准确率，却降低了四个模型中的两个在所有五个维度上的两名评分者均值。最后，我们概述了与先进 LLM 和 AIFM 滥用相关的伦理影响和潜在风险，强调在医疗保健场景中负责任和透明部署的重要性。论文中使用的数据和代码将在发表后发布。"
-},
-{
 "title": "Privacy-preserving training could expand medical AI for children while keeping data local - Medical Xpress",
 "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUHBfeFk2M0JMS0dGTkR0NXdLNWxvQXdRamNvYVJHaUJ4TjF1TUlLamJOWllWclFZVGRIaEU1ZVVMMUFKV2lLUEtnS29nR1RpWHBEaTZPdklWV3V1d3JEbnM4XzZ4SDMwbEV0OXUwaG81WW0xc2lzVlY2dUxCSzhHWFRyTQ?oc=5",
 "date": "2026-10-13T16:40:17+00:00",
@@ -2384,39 +2483,6 @@
 "day": "2026-10-14",
 "thin": true,
 "source_group": "Google News · FDA AI"
-},
-{
-"title": "Author Correction: Large language models are powerful electronic health record encoders",
-"link": "https://www.nature.com/articles/s41746-026-03220-1",
-"date": "2026-10-14T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03220-1",
-"pop": null,
-"id": "6c2735457c3f",
-"keep": true,
-"zh_title": "作者更正：大语言模型是强大的电子病历编码器",
-"summary": "该条目仅为原文的更正说明，涉及数字、拼写与格式修订，无新研究信息。",
-"key_points": [
-"更正UK Biobank就诊与事件数",
-"修正模型名称为CLMBR-T-Base",
-"仅为勘误，无新增研究结论"
-],
-"section": "大模型与智能体",
-"type": "论文",
-"tags": [
-"电子病历",
-"医学大模型"
-],
-"evidence": "同行评审",
-"score": 2,
-"day": "2026-10-14",
-"rank": 5.5,
-"abstract": "In the original version of this manuscript, there occur some errors consisting of numbers, typographical errors and formatting errors. The complete list of corrections is mentioned below. The original paper has now been corrected. 1. Outdated UK Biobank numbers in Figure 1 c) and Table 1. Table 1 should contain the following revised entries for the UK Biobank: UK Biobank No. of visits: 20,354,931 (instead of outdated 19,484,777) UK Biobank No. of events: 72,910,130 (instead of outdated 72,265,684) UK Biobank Black: 5715 (instead of wrong 5751) 2. Wrong model name in Figure 3, legend. The legend entry reads CLIMBR-T-Base; it should read CLMBR-T-Base. 3. Outdated UK Biobank number in Results, “Experimental setup”, p. 2. Published: “The processed UKB subset used in our study comprised 387,464 patients, approximately 19.5 million visits, [...]” Corrected: “The processed UKB subset used in our study comprised 387,464 patients, approximately 20.4 million visits, [...]” 4. Wrong table row referred to in Results, “LLM embeddings achieve strong performance in low-data regimes”, p. 4. The sentence quotes the UK Biobank win–loss counts in a paragraph about EHRSHOT. Published: “[...] outperformed CLMBR-T-Base on two versus zero tasks in the 8-shot setting and on four versus zero tasks in the 64-shot setting, while most tasks remained indistinguishable (Table 4).” Corrected: “[...] outperformed CLMBR-T-Base on four versus one tasks in the 8-shot setting and on three versus two tasks in the 64-shot setting, while most tasks remained indistinguishable (Table 4).” 5. Former result referred to in Results, “General-purpose LLM embeddings rival domain-specific EHR models”, p. 4. The sentence refers to the old BioClinicalBERT MEME results instead of the updated BioClinicalBERT. Published: “[...] BioClinicalBERT with mean embeddings over 512-token chunks performed best at 0.702 (0.671–0.732) (Tables 3 and S4).” Corrected: “[...] BioClinicalBERT with mean embeddings over 512-token chunks performed best at 0.705 (0.680–0.730) (Tables 3 and S4).” 6. Transposed values in Supplementary Table S6. The chest X-ray values for the two “Counts + TB” rows are transposed between the GBM and LR blocks. 7. Imprecise wording in Discussion, limitations, p. 9. Specified hyperparameter tuning and replaced wrong usage of “two-shot settings” where “two shot sizes” was meant. Published: “In addition, our fine-tuning experiments were limited to two task groups and two-shot settings due [...]” Correc",
-"reason": "仅为勘误说明，信息量近乎为零，属边缘档。",
-"zh_abstract": "在本手稿的原始版本中，存在一些错误，包括数字、排版错误和格式错误。更正完整列表如下。原论文现已更正。1. 图 1 c) 和表 1 中的 UK Biobank 数字过时。表 1 应包含以下针对 UK Biobank 的修订条目：UK Biobank 就诊次数：20,354,931（而非过时的 19,484,777）；UK Biobank 事件数：72,910,130（而非过时的 72,265,684）；UK Biobank Black：5715（而非错误的 5751）。2. 图 3 图例中的模型名称错误。图例条目写的是 CLIMBR-T-Base；应改为 CLMBR-T-Base。3. 结果部分“Experimental setup”，第 2 页中的 UK Biobank 数字过时。已发表：“我们研究中使用的处理后 UKB 子集包括 387,464 名患者，约 19.5 百万次访视，[...]” 更正后：“我们研究中使用的处理后 UKB 子集包括 387,464 名患者，约 20.4 百万次访视，[...]” 4. 结果部分“LLM embeddings achieve strong performance in low-data regimes”，第 4 页中引用了错误的表行。该句在关于 EHRSHOT 的段落中引用了 UK Biobank 的胜–负计数。已发表：“[...] 在 8-shot 设置中在 2 对 0 项任务上优于 CLMBR-T-Base，在 64-shot 设置中在 4 对 0 项任务上优于 CLMBR-T-Base，而大多数任务仍无法区分（表 4）。” 更正后：“[...] 在 8-shot 设置中在 4 对 1 项任务上优于 CLMBR-T-Base，在 64-shot 设置中在 3 对 2 项任务上优于 CLMBR-T-Base，而大多数任务仍无法区分（表 4）。” 5. 结果部分“General-purpose LLM embeddings rival domain-specific EHR models”，第 4 页中引用了先前的结果。该句引用的是旧的 BioClinicalBERT MEME 结果，而非更新后的 BioClinicalBERT。已发表：“[...] 在 512-token 块上使用平均嵌入的 BioClinicalBERT 表现最佳，为 0.702（0.671–0.732）（表 3 和表 S4）。” 更正后：“[...] 在 512-token 块上使用平均嵌入的 BioClinicalBERT 表现最佳，为 0.705（0.680–0.730）（表 3 和表 S4）。” 6. 补充表 S6 中的数值转置。两个“Counts + TB”行的胸部 X 射线数值在 GBM 和 LR 块之间发生了转置。7. 讨论部分“limitations”，第 9 页中的措辞不准确。明确了超参数调优，并替换了错误使用的“two-shot settings”，那里原意是“two shot sizes”。已发表：“此外，我们的微调实验受限于两个任务组和 two-shot settings，因为 [...]” Correc"
 },
 {
 "title": "From examinations to consultations: a physician-reviewed Japanese benchmark for large language models in traditional Kampo medicine",
@@ -2448,72 +2514,6 @@
 "thin": false,
 "reason": "预印本新基准，经医师修订但规模中等，值得一看档",
 "zh_abstract": "【目的】患者和临床医生越来越多地向大语言模型（large language models, LLMs）询问汉方（Kampo），即日本传统医学。然而，对 LLM 的评估测量的是考试题上的准确率，这类题目问的是模型知道什么；而一次咨询问的是它能否将这些知识应用于眼前的患者。此前尚无基准测量这一点。【材料与方法】KampoBench 包含 74 个咨询场景和 310 条针对具体对话的评分细则标准，遵循 HealthBench 的设计。场景、标准和参考答案由 LLM 起草，并由获得委员会认证的汉方医师修订。评估了来自三家供应商的十种当前模型。由于已知 LLM 评分器会偏袒自身家族，每条回复均由来自每家供应商的一个模型评分。【结果】最佳模型在不同评分器下达到 74.8-86.3%，医师修订的参考答案达到 87.9-92.4%。排名在不同评分器间稳定（Spearman's rho 0.952-0.976），偏袒自身家族的偏差为 0.4 至 0.6 个百分点，低于单次测量的自助法标准差；评分器宽松度变化为 14.3 个百分点。模型在关于建议寻求医疗照护的标准上最可靠（83.6%），在要求将已知生药风险与该病例联系起来的标准上最不可靠（17.5%），不过这些回复中有 79.2% 提到了该药。【讨论】不足之处在于将知识应用于病例，而非拥有知识——这是考试形式的评估无法作出的区分。【结论】传统医学中的评估应衡量一次咨询所需的判断，而不仅仅是回忆。与产生该评分的评分器一同引用时，KampoBench 分数是衡量这些判断的一个可用指标。"
-},
-{
-"title": "Horizon Scans can be accelerated using novel information retrieval and artificial intelligence tools",
-"link": "https://arxiv.org/abs/2504.01627",
-"date": "2026-10-11T00:00:00+00:00",
-"source": "arXiv",
-"source_group": "arXiv",
-"home": "",
-"thin": false,
-"badge": "arXiv 2504.01627",
-"pop": null,
-"id": "2e3ec9eb4d1a",
-"keep": true,
-"zh_title": "用新型信息检索与AI工具加速卫生技术前瞻扫描",
-"summary": "预印本：介绍开源Python工具SCANAR与AIDOC，自动化检索与相关性排序以加速医疗前瞻扫描。",
-"key_points": [
-"SCANAR自动抓取与去重新闻文章并排序",
-"AIDOC用大模型与文本嵌入计算语义相似度",
-"在12个内部与4个外部数据集上测试"
-],
-"section": "落地与监管",
-"type": "模型",
-"tags": [
-"临床落地",
-"监管政策"
-],
-"evidence": "预印本",
-"score": 5,
-"day": "2026-10-14",
-"rank": 6.0,
-"abstract": "Introduction: Horizon scanning in healthcare assesses early signals of innovation, crucial for timely adoption. Current horizon scanning faces challenges in efficient information retrieval and analysis, especially in grey literature, presenting a need for innovative tools. Methodology: This article introduces SCANAR and AIDOC, open-source Python-based tools designed to improve horizon scanning. SCANAR automates the retrieval and processing of news articles, using de-duplication and unsupervised relevancy ranking. AIDOC aids filtration by leveraging large language models and text embeddings for calculation of semantic similarity, to reorder data based on relevancy. Results: Twelve internal datasets from horizon scans and four external benchmarking datasets were used. SCANAR improved retrieval efficiency by automating processes previously dependent on manual labour. AIDOC displayed work-saving potential, achieving around 65% theoretic reduction in manual review efforts at 95% recall or 20% reduction when adding CMH, an existing open-source algorithm to make data-driven decisions on stopping screening early. Comparative analysis with benchmarking data showed AIDOC's performance was similar to existing systematic review automation tools, though performance varied depending on dataset characteristics. Conclusion: The validation indicates that SCANAR and AIDOC show potential to enhance horizon scanning efficiency by streamlining data retrieval and prioritisation. These tools may alleviate methodological limitations and allow broader, swifter horizon scans. Further studies are suggested to optimize these models and to design new workflows and validation processes that integrate large language models.",
-"reason": "开源工具并有基准数据，但属流程效率类",
-"zh_abstract": "【引言】医疗保健中的地平线扫描评估创新的早期信号，这对及时采用至关重要。当前的地平线扫描在高效信息检索和分析方面面临挑战，尤其是在灰色文献中，因此需要创新工具。【方法】本文介绍SCANAR和AIDOC，这两个开源、基于Python的工具旨在改进地平线扫描。SCANAR自动化新闻文章的检索和处理，使用去重和无监督相关性排序。AIDOC通过利用大语言模型和文本嵌入计算语义相似度来辅助过滤，以根据相关性重新排序数据。【结果】使用了来自地平线扫描的12个内部数据集和4个外部基准数据集。SCANAR通过自动化此前依赖人工的过程提高了检索效率。AIDOC显示出节省工作量的潜力：在95%召回率下实现约65%的人工审核工作量理论减少；或在加入CMH时减少20%，CMH是一种现有的开源算法，用于基于数据驱动决策提前停止筛选。与基准数据的比较分析显示，AIDOC的性能与现有系统综述自动化工具相似，但性能因数据集特征而异。【结论】验证表明，SCANAR和AIDOC有潜力通过简化数据检索和优先级排序来提高地平线扫描效率。这些工具可能缓解方法学局限，并允许更广泛、更快速的地平线扫描。建议进一步研究以优化这些模型，并设计整合大语言模型的新工作流程和验证过程。"
-},
-{
-"title": "Graph Neural Network-Based Reinforcement Learning for Controlling Biological Networks - the GATTACA Framework",
-"link": "https://arxiv.org/abs/2505.02712",
-"date": "2026-10-11T00:00:00+00:00",
-"source": "arXiv",
-"source_group": "arXiv",
-"home": "",
-"thin": false,
-"badge": "arXiv 2505.02712",
-"pop": null,
-"id": "75d69cd4f824",
-"keep": true,
-"zh_title": "GATTACA：图神经网络强化学习控制生物网络",
-"summary": "研究用深度强化学习控制基因调控与信号通路等布尔网络模型，提出可扩展框架 GATTACA，服务细胞重编程等应用。",
-"key_points": [
-"以布尔网络建模基因调控与信号通路",
-"提出可扩展控制框架 GATTACA",
-"引入伪吸引子概念并改进求解流程"
-],
-"section": "生命科学与药物",
-"type": "论文",
-"tags": [
-"智能体",
-"基因组学"
-],
-"evidence": "预印本",
-"score": 5,
-"day": "2026-10-14",
-"rank": 6.0,
-"abstract": "Cellular reprogramming, the artificial transformation of one cell type into another, has been attracting increasing research attention due to its therapeutic potential for complex diseases. However, identifying effective reprogramming strategies through classical wet-lab experiments is hindered by lengthy time commitments and high costs. In this study, we explore the use of deep reinforcement learning (DRL) to control Boolean network models of complex biological systems, such as gene regulatory and signalling pathway networks. We formulate a novel control problem for Boolean network models under the asynchronous update mode, specifically in the context of cellular reprogramming. To solve it, we devise GATTACA, a scalable computational framework. To facilitate scalability of our framework, we consider previously introduced concept of a pseudo-attractor and improve the procedure for effective identification of pseudo-attractor states. We then incorporate graph neural networks with graph convolution operations into the artificial neural network approximator of the DRL agent's action-value function. This allows us to leverage the available knowledge on the structure of a biological system and to indirectly, yet effectively, encode the system's modelled dynamics into a latent representation. Experiments on several large-scale, real-world biological networks from the literature demonstrate the scalability and effectiveness of our approach.",
-"reason": "预印本新方法，提出可扩展框架但无外部验证，属值得一看档",
-"zh_abstract": "细胞重编程，即人工将一种细胞类型转化为另一种细胞类型，因其对复杂疾病的治疗潜力而受到越来越多的研究关注。然而，通过经典湿实验识别有效的重编程策略受到耗时长和成本高的阻碍。在本研究中，我们探索使用深度强化学习（DRL）来控制复杂生物系统的布尔网络模型，例如基因调控和信号通路网络。我们针对异步更新模式下的布尔网络模型，特别是在细胞重编程背景下，构建了一个新的控制问题。为解决该问题，我们设计了GATTACA，一个可扩展的计算框架。为促进我们框架的可扩展性，我们考虑先前引入的伪吸引子（pseudo-attractor）概念，并改进有效识别伪吸引子状态的过程。随后，我们将带有图卷积运算的图神经网络纳入DRL智能体动作价值函数的人工神经网络近似器中。这使我们能够利用关于生物系统结构的已有知识，并间接而有效地将系统的建模动态编码为潜在表示。对文献中若干大规模、真实世界生物网络的实验证明了我们方法的可扩展性和有效性。"
 },
 {
 "title": "AI-Enabled Medical Devices Require an Integrated FDA and IP Strategy - JD Supra",
@@ -2557,7 +2557,7 @@
 "zh_title": "AI医疗器械认证机构Scarlet获5000万美元B轮",
 "summary": "AI医疗器械认证机构 Scarlet 完成 5000 万美元 B 轮融资。",
 "key_points": [],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [
 "医疗器械"
@@ -2586,7 +2586,7 @@
 "zh_title": "金域医学终止投资DRA；晶泰科技开源反应产率AI模型",
 "summary": "金域医学终止对DRA公司的投资，晶泰科技开源化学反应产率定量AI模型。",
 "key_points": [],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [
 "药物发现"
@@ -2628,6 +2628,45 @@
 "thin": false,
 "reason": "公开新基准但题目规模小，属值得一看档",
 "zh_abstract": "临床医生经常为那些合并症、既往治疗、实验室异常或人口学特征未反映在支持性证据中的患者做出决策，尽管这些因素可能影响治疗选择。鉴于证据基础中的这一缺口，我们试图评估 AI 模型如何回答以下临床问题：其中患者特征或所关注的干预比较和结局可能影响现有证据的适用性。我们开发并公开发布了 Precision Evidence Bench，这是一个包含 209 个合成临床问题的基准，这些问题明确指定了人群、干预、对照和结局（PICO）要素。每个答案使用五项评分量表进行评估，该量表评估单一引用来源是否与 PICO 匹配，以及答案是否忠实报告其来源。各项评分判定确定五种评级之一，范围从 Precision match 到 Unsupported claim，且不需要参考答案。我们使用网络搜索在所有 209 个问题上评估了四个前沿大语言模型（LLM），然后在额外访问一个旨在解决这些证据缺口的精准循证发现（pEBFs）语料库的情况下重复评估，使用两种语料库规模。对于每个模型，Precision match 率均随可用精准证据数量的增加而上升，从仅使用网络搜索时的 13% 至 18%，上升到使用 1 亿条 pEBFs 时的 17% 至 28%，以及使用 5 亿条 pEBFs 时的 41% 至 56%。这些发现表明，获取匹配证据是 LLM 在精准医学问题上表现的重要决定因素。"
+},
+{
+"title": "Brain Age Gap Progression in Individuals at Risk for Neurodegeneration",
+"link": "https://arxi",
+"date": "2026-10-13T17:40:34+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "10c4da5d14a9",
+"keep": true,
+"zh_title": "分层标注与课程学习的手术视频生成框架",
+"summary": "提出手术视频生成框架，将手术流程分解为阶段、任务、动作三层，用课程迁移学习逐步适配预训练文生视频扩散模型。",
+"key_points": [
+"手术流程分解为阶段、任务、动作三层",
+"由粗到细课程式适配文生视频扩散模型",
+"针对解剖复杂、数据稀缺与工具组织交互"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"手术",
+"生成模型"
+],
+"evidence": "预印本",
+"score": 4,
+"day": "2026-10-14",
+"rank": 7.0,
+"abstract": "High-fidelity surgical video generation is increasingly important for surgical education, simulation, and downstream AI training, as conventional simulation pipelines are limited by cost, realism, and scenario diversity. Adapting generic text-to-video diffusion models to surgical procedures remains difficult, however, due to complex anatomical structures, intricate tool-tissue interactions, the inherently hierarchical nature of surgical workflows, and the scarcity of curated training data outside a few well-studied procedures. We propose a surgical video generation framework that combines hierarchical procedural annotation with curriculum transfer learning. Surgical procedures are decomposed into three levels (phase, task, and action) and a pretrained text-to-video diffusion model is progressively adapted from coarse to fine-grained surgical context, supported by a dynamic sampling strategy that handles variable-resolution and variable-length surgical clips. We instantiate the framework on Bilateral Axillo-Breast Approach robotic thyroidectomy, a procedure for which no curated benchmark currently exists. Relative to the preceding task-level model, the final action-level model reduces FVD by 20.1% and FID by 15.7%, and a matched-budget ablation indicates that these gains arise from the curriculum design rather than from additional training. A user study with six clinicians rates visual realism highly while highlighting remaining gaps in anatomical accuracy and clinical reliability. The proposed framework offers a step toward AI-driven surgical simulation in procedures where curated data are scarce.",
+"reason": "新方法预印本，摘要未给出对比与结果细节",
+"zh_abstract": "高保真手术视频生成对于手术教育、模拟和下游 AI 训练日益重要，因为传统模拟流程受到成本、真实感和场景多样性的限制。然而，将通用的文本到视频扩散模型适配到外科手术仍然困难，原因包括复杂的解剖结构、精细的工具-组织交互、手术工作流内在的层级性质，以及在少数研究充分的手术之外缺乏精选训练数据。我们提出一个手术视频生成框架，将层级化手术标注与课程迁移学习相结合。手术过程被分解为三个层级（阶段、任务和动作），预训练的文本到视频扩散模型从粗粒度到细粒度手术语境逐步适配，并辅以一种动态采样策略来处理可变分辨率和可变长度的手术视频片段。我们在双侧腋窝-乳房入路（Bilateral Axillo-Breast Approach）机器人甲状腺切除术上实例化该框架，该手术目前尚无精选基准。相对于前一个任务级模型，最终的动作级模型将 FVD 降低 20.1%、FID 降低 15.7%，而匹配预算的消融表明这些增益来自课程设计而非额外训练。一项有六名临床医生参与的用户研究对视觉真实感评分很高，同时强调了在解剖准确性和临床可靠性方面仍存在的差距。所提出的框架为在精选数据稀缺的手术中实现 AI 驱动的手术模拟迈出了一步。",
+"also": [
+{
+"source": "arXiv",
+"link": "https://arxiv.org/abs/2610.18794"
+}
+]
 },
 {
 "title": "Children Are Left Out of Medical AI - A New Method Could Help Close the Gap | Newswise - Newswise",
@@ -2803,45 +2842,6 @@
 "zh_abstract": "在其评论中，Shreenik Kundu 及其同事令人信服地论证，合乎伦理的人工智能（AI）可以通过改善数据收集和分析，帮助人道主义组织应对日益恶化的援助短缺。1 人道主义系统面临需求扩大、资源减少以及对数据日益增长的要求。AI 系统可以支持翻译、摘要、分类以及用于理解背景、需求或响应有效性的定性数据分析。这些应用带来了围绕数据质量、准确性和可靠性的技术挑战，也带来了围绕偏见、隐私和负责任使用的伦理问题。"
 },
 {
-"title": "Brain Age Gap Progression in Individuals at Risk for Neurodegeneration",
-"link": "https://arxi",
-"date": "2026-10-13T17:40:34+00:00",
-"source": "arXiv",
-"source_group": "arXiv",
-"home": "",
-"thin": false,
-"badge": "",
-"pop": null,
-"id": "10c4da5d14a9",
-"keep": true,
-"zh_title": "分层标注与课程学习的手术视频生成框架",
-"summary": "提出手术视频生成框架，将手术流程分解为阶段、任务、动作三层，用课程迁移学习逐步适配预训练文生视频扩散模型。",
-"key_points": [
-"手术流程分解为阶段、任务、动作三层",
-"由粗到细课程式适配文生视频扩散模型",
-"针对解剖复杂、数据稀缺与工具组织交互"
-],
-"section": "影像与病理",
-"type": "论文",
-"tags": [
-"手术",
-"生成模型"
-],
-"evidence": "预印本",
-"score": 4,
-"day": "2026-10-14",
-"rank": 7.0,
-"abstract": "High-fidelity surgical video generation is increasingly important for surgical education, simulation, and downstream AI training, as conventional simulation pipelines are limited by cost, realism, and scenario diversity. Adapting generic text-to-video diffusion models to surgical procedures remains difficult, however, due to complex anatomical structures, intricate tool-tissue interactions, the inherently hierarchical nature of surgical workflows, and the scarcity of curated training data outside a few well-studied procedures. We propose a surgical video generation framework that combines hierarchical procedural annotation with curriculum transfer learning. Surgical procedures are decomposed into three levels (phase, task, and action) and a pretrained text-to-video diffusion model is progressively adapted from coarse to fine-grained surgical context, supported by a dynamic sampling strategy that handles variable-resolution and variable-length surgical clips. We instantiate the framework on Bilateral Axillo-Breast Approach robotic thyroidectomy, a procedure for which no curated benchmark currently exists. Relative to the preceding task-level model, the final action-level model reduces FVD by 20.1% and FID by 15.7%, and a matched-budget ablation indicates that these gains arise from the curriculum design rather than from additional training. A user study with six clinicians rates visual realism highly while highlighting remaining gaps in anatomical accuracy and clinical reliability. The proposed framework offers a step toward AI-driven surgical simulation in procedures where curated data are scarce.",
-"reason": "新方法预印本，摘要未给出对比与结果细节",
-"zh_abstract": "高保真手术视频生成对于手术教育、模拟和下游 AI 训练日益重要，因为传统模拟流程受到成本、真实感和场景多样性的限制。然而，将通用的文本到视频扩散模型适配到外科手术仍然困难，原因包括复杂的解剖结构、精细的工具-组织交互、手术工作流内在的层级性质，以及在少数研究充分的手术之外缺乏精选训练数据。我们提出一个手术视频生成框架，将层级化手术标注与课程迁移学习相结合。手术过程被分解为三个层级（阶段、任务和动作），预训练的文本到视频扩散模型从粗粒度到细粒度手术语境逐步适配，并辅以一种动态采样策略来处理可变分辨率和可变长度的手术视频片段。我们在双侧腋窝-乳房入路（Bilateral Axillo-Breast Approach）机器人甲状腺切除术上实例化该框架，该手术目前尚无精选基准。相对于前一个任务级模型，最终的动作级模型将 FVD 降低 20.1%、FID 降低 15.7%，而匹配预算的消融表明这些增益来自课程设计而非额外训练。一项有六名临床医生参与的用户研究对视觉真实感评分很高，同时强调了在解剖准确性和临床可靠性方面仍存在的差距。所提出的框架为在精选数据稀缺的手术中实现 AI 驱动的手术模拟迈出了一步。",
-"also": [
-{
-"source": "arXiv",
-"link": "https://arxiv.org/abs/2610.18794"
-}
-]
-},
-{
 "title": "Considerations for implementing a machine learning model for suicide risk in the health systems that serve American Indian communities",
 "link": "https://www.medrxiv.org/content/10.64898/2026.10.05.26364799v1?rss=1",
 "date": "2026-10-07T00:00:00+00:00",
@@ -2986,6 +2986,38 @@
 "day": "2026-10-14",
 "thin": true,
 "source_group": "Google News · NMPA AI"
+},
+{
+"title": "A Comprehensive Review on RNA Subcellular Localization Prediction",
+"link": "https://arxiv.org/abs/2504.17162",
+"date": "2026-10-11T00:00:00+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2504.17162",
+"pop": null,
+"id": "df4be25dc5f8",
+"keep": true,
+"zh_title": "RNA亚细胞定位预测综述",
+"summary": "预印本综述：梳理用AI与机器学习预测lncRNA、mRNA等RNA亚细胞定位的计算方法，以替代耗时湿实验。",
+"key_points": [
+"RNA定位关系基因表达调控等生物学功能",
+"传统原位杂交耗时、耗资源且成本高",
+"综述AI与机器学习的定位预测方法"
+],
+"section": "生命科学与药物",
+"type": "观点",
+"tags": [
+"基因组学"
+],
+"evidence": "预印本",
+"score": 4,
+"day": "2026-10-14",
+"rank": 6.0,
+"abstract": "The subcellular localization of RNAs, including long non-coding RNAs (lncRNAs), messenger RNAs (mRNAs), microRNAs (miRNAs) and other smaller RNAs, plays a critical role in determining their biological functions. For instance, lncRNAs are predominantly associated with chromatin and act as regulators of gene transcription and chromatin structure, while mRNAs are distributed across the nucleus and cytoplasm, facilitating the transport of genetic information for protein synthesis. Understanding RNA localization sheds light on processes like gene expression regulation with spatial and temporal precision. However, traditional wet lab methods for determining RNA localization, such as in situ hybridization, are often time-consuming, resource-demanding, and costly. To overcome these challenges, computational methods leveraging artificial intelligence (AI) and machine learning (ML) have emerged as powerful alternatives, enabling large-scale prediction of RNA subcellular localization. This paper provides a comprehensive review of the latest advancements in AI-based approaches for RNA subcellular localization prediction, covering various RNA types and focusing on sequence-based, image-based, and hybrid methodologies that combine both data types. We highlight the potential of these methods to accelerate RNA research, uncover molecular pathways, and guide targeted disease treatments. Furthermore, we critically discuss the challenges in AI/ML approaches for RNA subcellular localization, such as data scarcity and lack of benchmarks, and opportunities to address them. This review aims to serve as a valuable resource for researchers seeking to develop innovative solutions in the field of RNA subcellular localization and beyond.",
+"reason": "综述类最高档受限，内容为方法梳理",
+"zh_abstract": "RNA的亚细胞定位，包括长链非编码RNA（lncRNAs）、信使RNA（mRNAs）、微小RNA（miRNAs）和其他较小RNA，在决定其生物学功能方面起着关键作用。例如，lncRNAs主要与染色质相关，并作为基因转录和染色质结构的调控因子，而mRNAs分布于细胞核和细胞质中，促进用于蛋白质合成的遗传信息运输。理解RNA定位有助于阐明诸如以空间和时间精度调控基因表达等过程。然而，用于确定RNA定位的传统湿实验方法，如原位杂交，通常耗时、耗费资源且成本高昂。为克服这些挑战，利用人工智能（AI）和机器学习（ML）的计算方法已成为强有力的替代方案，能够大规模预测RNA亚细胞定位。本文全面综述了基于AI的RNA亚细胞定位预测方法的最新进展，涵盖多种RNA类型，并重点关注基于序列、基于图像以及结合两类数据的混合方法。我们强调了这些方法在加速RNA研究、揭示分子通路和指导靶向疾病治疗方面的潜力。此外，我们批判性地讨论了AI/ML方法用于RNA亚细胞定位所面临的挑战，如数据稀缺和缺乏基准，以及解决这些问题的机会。本综述旨在为寻求在RNA亚细胞定位及相关领域开发创新解决方案的研究人员提供有价值的资源。"
 },
 {
 "title": "UmitKayaardi/nhs-clinical-triage",
@@ -3155,38 +3187,6 @@
 "zh_abstract": "【背景】注意缺陷/多动障碍（Attention-Deficit/Hyperactivity Disorder, ADHD）是一种常见的神经发育障碍，其特征是持续存在的注意力不集中、多动和冲动症状，显著影响认知、学业和社会功能。尽管脑电图（electroencephalography, EEG）因其高时间分辨率和成本效益，已成为识别 ADHD 客观神经生理生物标志物的一种有前景的非侵入性工具，但许多现有机器学习研究依赖单域 EEG 特征，可能无法充分捕捉大脑复杂的功能组织。【方法】本研究提出一种受试者级 EEG 分类框架，整合三个互补的特征域：频谱特征、基于加权相位滞后指数（weighted Phase Lag Index, wPLI）的功能连接，以及由持续同调导出的拓扑描述符。来自 121 名受试者的 EEG 记录经过预处理，并分割成重叠窗口以提取特征。窗口级特征被聚合成受试者级表示。采用递归特征消除（Recursive Feature Elimination, RFE）从初始 1,043 个描述符中选择 110 个最具信息量的特征。使用分层五折交叉验证评估五种机器学习分类器，包括支持向量机（Support Vector Machine, SVM）、随机森林（Random Forest）、XGBoost、CatBoost 和多层感知机（Multi-Layer Perceptron, MLP）。进一步进行消融研究，以评估每个特征域的贡献。使用 SHapley Additive exPlanations（SHAP）和 Local Interpretable Model-agnostic Explanations（LIME）研究模型可解释性，这两种是广泛采用的、用于解释机器学习模型的可解释人工智能技术。【结果】在受评估的分类器中，SVM 取得最高分类性能，准确率为 80.17%，F1 分数为 80.95%，平衡准确率为 80.14%，受试者工作特征曲线下面积（receiver operating characteristic area under the curve, ROC-AUC）为 86.72%，精确率-召回率曲线下面积（precision-recall area under the curve, PR-AUC）为 87.34%。消融研究表明，结合频谱、功能连接和拓扑特征始终优于单个特征域，凸显了这些表示的互补性质。可解释 AI 分析进一步识别功能连接特征为分类性能的主要贡献者，同时确认了 sp 的附加价值"
 },
 {
-"title": "A Comprehensive Review on RNA Subcellular Localization Prediction",
-"link": "https://arxiv.org/abs/2504.17162",
-"date": "2026-10-11T00:00:00+00:00",
-"source": "arXiv",
-"source_group": "arXiv",
-"home": "",
-"thin": false,
-"badge": "arXiv 2504.17162",
-"pop": null,
-"id": "df4be25dc5f8",
-"keep": true,
-"zh_title": "RNA亚细胞定位预测综述",
-"summary": "预印本综述：梳理用AI与机器学习预测lncRNA、mRNA等RNA亚细胞定位的计算方法，以替代耗时湿实验。",
-"key_points": [
-"RNA定位关系基因表达调控等生物学功能",
-"传统原位杂交耗时、耗资源且成本高",
-"综述AI与机器学习的定位预测方法"
-],
-"section": "生命科学与药物",
-"type": "观点",
-"tags": [
-"基因组学"
-],
-"evidence": "预印本",
-"score": 4,
-"day": "2026-10-14",
-"rank": 6.0,
-"abstract": "The subcellular localization of RNAs, including long non-coding RNAs (lncRNAs), messenger RNAs (mRNAs), microRNAs (miRNAs) and other smaller RNAs, plays a critical role in determining their biological functions. For instance, lncRNAs are predominantly associated with chromatin and act as regulators of gene transcription and chromatin structure, while mRNAs are distributed across the nucleus and cytoplasm, facilitating the transport of genetic information for protein synthesis. Understanding RNA localization sheds light on processes like gene expression regulation with spatial and temporal precision. However, traditional wet lab methods for determining RNA localization, such as in situ hybridization, are often time-consuming, resource-demanding, and costly. To overcome these challenges, computational methods leveraging artificial intelligence (AI) and machine learning (ML) have emerged as powerful alternatives, enabling large-scale prediction of RNA subcellular localization. This paper provides a comprehensive review of the latest advancements in AI-based approaches for RNA subcellular localization prediction, covering various RNA types and focusing on sequence-based, image-based, and hybrid methodologies that combine both data types. We highlight the potential of these methods to accelerate RNA research, uncover molecular pathways, and guide targeted disease treatments. Furthermore, we critically discuss the challenges in AI/ML approaches for RNA subcellular localization, such as data scarcity and lack of benchmarks, and opportunities to address them. This review aims to serve as a valuable resource for researchers seeking to develop innovative solutions in the field of RNA subcellular localization and beyond.",
-"reason": "综述类最高档受限，内容为方法梳理",
-"zh_abstract": "RNA的亚细胞定位，包括长链非编码RNA（lncRNAs）、信使RNA（mRNAs）、微小RNA（miRNAs）和其他较小RNA，在决定其生物学功能方面起着关键作用。例如，lncRNAs主要与染色质相关，并作为基因转录和染色质结构的调控因子，而mRNAs分布于细胞核和细胞质中，促进用于蛋白质合成的遗传信息运输。理解RNA定位有助于阐明诸如以空间和时间精度调控基因表达等过程。然而，用于确定RNA定位的传统湿实验方法，如原位杂交，通常耗时、耗费资源且成本高昂。为克服这些挑战，利用人工智能（AI）和机器学习（ML）的计算方法已成为强有力的替代方案，能够大规模预测RNA亚细胞定位。本文全面综述了基于AI的RNA亚细胞定位预测方法的最新进展，涵盖多种RNA类型，并重点关注基于序列、基于图像以及结合两类数据的混合方法。我们强调了这些方法在加速RNA研究、揭示分子通路和指导靶向疾病治疗方面的潜力。此外，我们批判性地讨论了AI/ML方法用于RNA亚细胞定位所面临的挑战，如数据稀缺和缺乏基准，以及解决这些问题的机会。本综述旨在为寻求在RNA亚细胞定位及相关领域开发创新解决方案的研究人员提供有价值的资源。"
-},
-{
 "title": "ShubhThadani17/DiabetesPredictor",
 "link": "https://github.com/ShubhThadani17/DiabetesPredictor",
 "date": "2026-10-05T18:56:57Z",
@@ -3225,7 +3225,7 @@
 "zh_title": "中新健康：脑机接口告别“讲故事”？",
 "summary": "中新健康报道讨论脑机接口是否已告别“讲故事”阶段。",
 "key_points": [],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "观点",
 "tags": [],
 "evidence": "新闻",
@@ -3316,7 +3316,7 @@
 "AI 将健康信号转为个性化指导",
 "体现谷歌扩展健康监测的意图"
 ],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [
 "数字健康",
@@ -3422,7 +3422,7 @@
 "zh_title": "AI Tracker：Suki获9000万美元融资",
 "summary": "AI Tracker报道Suki获得9000万美元融资。",
 "key_points": [],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [
 "融资与并购"
@@ -3447,7 +3447,7 @@
 "zh_title": "B-Secur与CSEM合作可穿戴心脏监测技术",
 "summary": "B-Secur与CSEM就可穿戴心脏监测技术开展合作。",
 "key_points": [],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [
 "生理信号",
@@ -3497,7 +3497,7 @@
 "zh_title": "医疗科技厂商为何与芯片及云服务企业合作",
 "summary": "有报道分析医疗科技制造企业为何与芯片、云计算公司建立合作关系。",
 "key_points": [],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [],
 "evidence": "新闻",

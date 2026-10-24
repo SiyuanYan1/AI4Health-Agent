@@ -168,44 +168,6 @@
 "zh_abstract": "[神经重症监护] 颅内压升高是创伤性脑损伤后最严重的继发性损害之一。在生理模式进展为危险的颅内压升高之前识别这些模式，可能使干预从反应性转为预防性。在我们先前乌普萨拉（Uppsala）单中心研究中，XGBoost 机器学习模型在预测即将发生的颅内压损害方面表现出高区分性能。该模型识别与即将越过阈值相关的短期生理轨迹，而不是预测独立的未来临床事件。这些结果是否可在各中心间推广尚不清楚。因此，目的是评估在 Uppsala 数据集上训练的 XGBoost 模型应用于多中心 TBI 队列——CENTER-TBI 高分辨率 ICU 队列时是否保持相似性能。在 Uppsala 高频创伤性脑损伤队列上训练的 XGBoost 模型使用多中心 CENTER-TBI 队列的数据进行了外部验证。使用颅内压和侵入性动脉血压的分钟级平均值，基于 4 小时历史窗口预测 30 分钟内颅内压损害的发生。采用双向验证设计，并使用多个指标评估性能。队列包括来自 Uppsala 的 602 例患者和来自 CENTER-TBI 数据库的 255 例患者。当在 Uppsala 队列上训练并在 CENTER-TBI 上测试时，模型达到受试者工作特征曲线下面积（AUROC）97.4%、灵敏度 93.8%、特异度 98.6%。在 CENTER-TBI 上训练并在 Uppsala 数据集上测试得到 AUROC 96.1%、灵敏度 81.2%、特异度 98.7%。两个验证方向的平衡准确率均超过 88%。XGBoost 模型在外部多中心验证下保持高性能，表明颅内压升高之前的损害前生理模式在各队列间共享。观察到两个验证方向之间的灵敏度差异，可能反映队列特征或数据集大小。这些发现支持在临床实施前进行本地评估的必要性。"
 },
 {
-"title": "AI-Assisted Molecular Review Refines SMO Inhibitor Candidacy in SHH Medulloblastoma",
-"link": "https://ai.nejm.org/doi/full/10.1056/AIcs2600997?af=R&rss=currentIssue",
-"date": "2026-10-16T05:00:00+00:00",
-"source": "NEJM AI",
-"source_group": "NEJM AI",
-"home": "",
-"thin": true,
-"badge": "DOI 10.1056/AIcs2600997",
-"pop": null,
-"id": "a38d8363c9d1",
-"_abs_err": "page: HTTP Error 403: Forbidden",
-"keep": true,
-"zh_title": "AI辅助分子审评 refine SHH髓母细胞瘤SMO抑制剂候选",
-"summary": "NEJM AI刊文：AI辅助分子审评用于细化SHH型髓母细胞瘤SMO抑制剂候选。",
-"key_points": [],
-"section": "生命科学与药物",
-"type": "论文",
-"tags": [
-"药物发现",
-"肿瘤"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "同行评审但仅标题信息，无法判断验证与样本，按标题仅档给5",
-"day": "2026-10-18",
-"rank": 10.64,
-"abstract_days": [
-"2026-10-18",
-"2026-10-19",
-"2026-10-20",
-"2026-10-21",
-"2026-10-22",
-"2026-10-23",
-"2026-10-24"
-],
-"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
-},
-{
 "title": "AI-supported first consultation preparation in oncology: a real-world clinical usability study",
 "link": "https://www.nature.com/articles/s41746-026-03396-6",
 "date": "2026-10-17T00:00:00+00:00",
@@ -273,6 +235,44 @@
 "day": "2026-10-18",
 "rank": 10.31,
 "zh_abstract": "密切追踪抑郁变化对临床研究与实践很重要。然而，密集纵向抑郁评估依赖自我报告调查，而后者存在重大局限。使用大型语言模型（LLMs）从自然语言中为抑郁评分可能解决这些缺点。本研究检验了由LLMs根据每日视频日记评定的抑郁的有效性。我们研究了108名因心理健康治疗状态而选取的参与者（45%正在接受治疗）。参与者完成了临床访谈以及14-21天的抑郁调查和视频日记。每日抑郁评分由LLMs根据日记转录文本估计。LLM评分与自我报告抑郁在个体内收敛（r = .45；95% CrI[.40, .49]），并且在跨天平均得到总体抑郁评分时也收敛（r = .61；95% CrI[.43,.75]）。平均LLM评分与通过临床访谈确定的抑郁症状严重程度相关（r = .53；95% CrI[.35, .68]）。LLM评定的抑郁与自我报告在与日常功能变量的关联模式上相似（模式 r = .98 个体内；r = .94 个体间）。多变量回归结果显示，LLM评分在自我报告之外预测日常功能变量（偏 $$\\beta s$$ β s =|.12 | - | .28 | ）以及访谈评定的抑郁（偏 $$\\beta$$ β =.33；95% CrI[.07, .58]），表明LLMs捕捉到自我报告遗漏的临床相关信息。这些发现为一种抑郁评估方法奠定了坚实基础，该方法解决自我报告的缺点，同时满足密集纵向监测的独特需求。"
+},
+{
+"title": "AI-Assisted Molecular Review Refines SMO Inhibitor Candidacy in SHH Medulloblastoma",
+"link": "https://ai.nejm.org/doi/full/10.1056/AIcs2600997?af=R&rss=currentIssue",
+"date": "2026-10-16T05:00:00+00:00",
+"source": "NEJM AI",
+"source_group": "NEJM AI",
+"home": "",
+"thin": true,
+"badge": "DOI 10.1056/AIcs2600997",
+"pop": null,
+"id": "a38d8363c9d1",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "AI辅助分子审评 refine SHH髓母细胞瘤SMO抑制剂候选",
+"summary": "NEJM AI刊文：AI辅助分子审评用于细化SHH型髓母细胞瘤SMO抑制剂候选。",
+"key_points": [],
+"section": "生命科学与药物",
+"type": "论文",
+"tags": [
+"药物发现",
+"肿瘤"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "同行评审但仅标题信息，无法判断验证与样本，按标题仅档给5",
+"day": "2026-10-18",
+"rank": 10.64,
+"abstract_days": [
+"2026-10-18",
+"2026-10-19",
+"2026-10-20",
+"2026-10-21",
+"2026-10-22",
+"2026-10-23",
+"2026-10-24"
+],
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
 },
 {
 "title": "Sycophantic AI, critical-feedback tolerance, and the case for productive friction in medical training",
@@ -820,7 +820,7 @@
 "zh_title": "京东健康与重医附一院共建心理康复与医疗智能体实验室",
 "summary": "标题信息：京东健康与重医附一院战略签约，共建心理康复与医疗智能体实验室。",
 "key_points": [],
-"section": "产业动态",
+"section": "大模型与智能体",
 "type": "观点",
 "tags": [
 "智能体",

@@ -195,66 +195,6 @@
 "zh_abstract": "[Healthcare technology letters] 基于大语言模型（LLM）的生成式AI为患者和照护者提供及时响应健康信息的希望，但在临床监督之外使用时带来伦理和法律挑战。本综述梳理了患者在非临床环境中获取长期疾病信息时的这些考量。遵循PRISMA指南，我们于2025年4月至5月检索了数据库（MEDLINE、CINAHL、EMBASE和Web of Science）。本综述综合了24项关于面向患者的LLM的横断面研究，排除了临床医生支持工具。结果表明，LLM在一般主题上表现良好，但在专业信息方面存在困难，常生成复杂回答且引用不可靠。伦理担忧突出不准确、共情不足以及健康不平等可能加剧，而对法律挑战的分析主要集中于责任和知情同意。我们得出结论，当前在设备分类和安全义务方面的技术局限和监管空白可能给患者带来风险。因此，利益相关者必须建立明确的问责框架，且LLM目前应仅作为补充工具发挥作用，而不是替代专家临床建议。进一步研究使用基于智能体（agent-based）的LLM架构——其中专门的LLM智能体协作验证信息、进行符号推理，并在严格数据治理下与患者健康记录对接——可能为当前LLM的局限性提供解决方案。"
 },
 {
-"title": "医疗AI初创公司Ortet获5亿美元投资，拟从零构建原生医疗基础模型",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wNGhRZGpDcV9kNkxNbTR3MDUxekRkMzNROXBJdVlVSWZ3T1gyVXA1U0hTTnA5V2o2UEUtaWJtZEpyVV9idXJTUEp4UDlIQVlnMmZKTg?oc=5",
-"date": "2026-10-19T00:09:30+00:00",
-"source": "虎嗅网",
-"source_group": "Google News · 中文医疗AI",
-"home": "https://www.huxiu.com",
-"thin": true,
-"badge": "",
-"pop": null,
-"id": "688e0f16d625",
-"keep": true,
-"zh_title": "Ortet获5亿美元投资建医疗基础模型",
-"summary": "医疗AI初创公司Ortet获5亿美元投资，计划从零构建原生医疗基础模型。",
-"key_points": [],
-"section": "产业动态",
-"type": "融资",
-"tags": [
-"融资与并购",
-"医学大模型"
-],
-"evidence": "新闻",
-"score": 6,
-"reason": "大额融资属重要档，但仅有标题、信息有限且上限6分",
-"day": "2026-10-19",
-"rank": 8.5
-},
-{
-"title": "Artificial intelligence-based prediction of postoperative voiding dysfunction following midurethral sling.",
-"link": "https://pubmed.ncbi.nlm.nih.gov/42893494/",
-"date": "2026-10-20T00:00:00+00:00",
-"badge": "DOI 10.1097/GCO.0000000000001148",
-"source": "PubMed · Current opinion in obstetrics & gynecology",
-"source_group": "PubMed",
-"home": "",
-"thin": false,
-"pop": null,
-"id": "1ec3abf1fa77",
-"keep": true,
-"zh_title": "AI预测尿道中段吊带术后排尿功能障碍",
-"summary": "综述指出传统风险分层难以个体化预测吊带术后排尿功能障碍，AI/ML可整合多维数据改进预测。",
-"key_points": [
-"术后尿潴留、残余尿升高等是吊带术常见并发症",
-"传统病史、体检、尿动力学预测能力有限",
-"提出用机器学习整合患者、解剖与手术因素"
-],
-"section": "临床预测与决策",
-"type": "观点",
-"tags": [
-"临床预测",
-"手术"
-],
-"evidence": "同行评审",
-"score": 4,
-"reason": "综述/述评类，无实际模型与验证数据，属增量档",
-"abstract": "[Current opinion in obstetrics & gynecology] Midurethral sling (MUS) surgery is the standard procedure for stress urinary incontinence, offering favorable long-term outcomes. Despite its success, postoperative voiding dysfunction - manifesting as urinary retention, elevated post-void residuals (PVRs), slow or weak stream, hesitancy, or the need for prolonged catheterization - remains a clinically significant complication that is difficult to predict using traditional risk stratification. Conventional methods, including history, physical examination, PVR measurement, and selective urodynamics, provide limited individualized predictive power and fail to integrate the complex interplay of patient, anatomical, and surgical factors. Artificial intelligence and machine learning offer a promising approach to addressing this gap by analyzing multidimensional datasets to forecast individualized risk and guide perioperative management. While artificial intelligence applications in pelvic floor surgery have demonstrated utility in predicting general surgical outcomes, validated models specifically targeting post-MUS voiding dysfunction are lacking. Development of such predictive tools will require high-quality multicenter datasets, careful algorithm selection, and validation. Integrating artificial intelligence into clinical practice has the potential to enhance preoperative counseling, support shared decision-making, optimize surgical planning, and ultimately improve patient outcomes. This perspective highlights the unmet need for predictive modeling of voiding dysfunction after MUS, outlines the promise of artificial intelligence, and emphasizes the importance of responsible implementation.",
-"day": "2026-10-19",
-"rank": 8.5,
-"zh_abstract": "[Current opinion in obstetrics & gynecology] 中段尿道悬吊术（MUS）是压力性尿失禁的标准手术，具有较好的长期结局。尽管其取得成功，术后排尿功能障碍——表现为尿潴留、排尿后残余尿量（PVRs）升高、尿流缓慢或无力、排尿踌躇，或需要长期导尿——仍是一种具有临床意义的并发症，且难以通过传统风险分层进行预测。传统方法，包括病史、体格检查、PVR测量和选择性尿动力学检查，提供的个体化预测能力有限，且未能整合患者、解剖和手术因素之间复杂的相互作用。人工智能和机器学习通过分析多维数据集来预测个体化风险并指导围手术期管理，为解决这一缺口提供了一种有前景的方法。尽管人工智能在盆底手术中的应用已显示出预测一般手术结局的效用，但专门针对MUS术后排尿功能障碍的经过验证的模型仍然缺乏。开发此类预测工具将需要高质量的多中心数据集、谨慎的算法选择和验证。将人工智能整合到临床实践中，有可能加强术前咨询、支持共同决策、优化手术规划，并最终改善患者结局。本观点文章强调了MUS术后排尿功能障碍预测建模方面未满足的需求，概述了人工智能的前景，并强调了负责任实施的重要性。"
-},
-{
 "title": "The Model Knows Better: Defending Medical Multi-Agent Systems Against Prompt Injection",
 "link": "https://arxiv.org/abs/2610.22594",
 "date": "2026-10-15T19:43:57+00:00",
@@ -388,6 +328,66 @@
 "day": "2026-10-19",
 "rank": 8.35,
 "zh_abstract": "基于眼底图像的自动化糖尿病视网膜病变（diabetic retinopathy, DR）分级可大幅扩展筛查能力，但源域训练的模型在不同相机、诊所和患者人群之间会显著退化。现有的测试时自适应方法依赖熵最小化或从图像批次和流中积累的目标信息。这些机制可能强化自信但错误的预测，并在临床图像独立到达时失效。我们提出 CF-NODE，一种用于跨域 DR 分级的新型反事实测试时自适应框架。CF-NODE 不信任预测置信度或估计目标分布，而是询问每个预测在对其支持证据进行受控干预下如何响应。CF-NODE 使用模型衍生的注意力、特征幅度和节点集相似性对内部空间节点排序，逐步衰减排名最高的节点，并使用所得预期分级响应的稳定性对预测分级分布施加有界校准。该框架完全冻结，仅使用几何视图和固定的源域衍生先验即可独立自适应每张图像，无需目标域衍生信息或模型更新。我们在五个外部 DR 数据集上通过重复种子评估，与 TENT、EATA、SAR 和 T3A 进行比较。CF-NODE 优于所有四种方法，相对于第二优方法具有统计学显著改善，在每个目标域上均提高 AUC，并获得最高的平均 AUC 和宏 F1，在提供更强分级判别的同时，在 DR 严重程度级别之间实现更平衡的识别。这些结果表明，反事实干预敏感性为单图像临床推理提供了一致且可部署的域鲁棒性。"
+},
+{
+"title": "医疗AI初创公司Ortet获5亿美元投资，拟从零构建原生医疗基础模型",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wNGhRZGpDcV9kNkxNbTR3MDUxekRkMzNROXBJdVlVSWZ3T1gyVXA1U0hTTnA5V2o2UEUtaWJtZEpyVV9idXJTUEp4UDlIQVlnMmZKTg?oc=5",
+"date": "2026-10-19T00:09:30+00:00",
+"source": "虎嗅网",
+"source_group": "Google News · 中文医疗AI",
+"home": "https://www.huxiu.com",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "688e0f16d625",
+"keep": true,
+"zh_title": "Ortet获5亿美元投资建医疗基础模型",
+"summary": "医疗AI初创公司Ortet获5亿美元投资，计划从零构建原生医疗基础模型。",
+"key_points": [],
+"section": "落地与监管",
+"type": "融资",
+"tags": [
+"融资与并购",
+"医学大模型"
+],
+"evidence": "新闻",
+"score": 6,
+"reason": "大额融资属重要档，但仅有标题、信息有限且上限6分",
+"day": "2026-10-19",
+"rank": 8.5
+},
+{
+"title": "Artificial intelligence-based prediction of postoperative voiding dysfunction following midurethral sling.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42893494/",
+"date": "2026-10-20T00:00:00+00:00",
+"badge": "DOI 10.1097/GCO.0000000000001148",
+"source": "PubMed · Current opinion in obstetrics & gynecology",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "1ec3abf1fa77",
+"keep": true,
+"zh_title": "AI预测尿道中段吊带术后排尿功能障碍",
+"summary": "综述指出传统风险分层难以个体化预测吊带术后排尿功能障碍，AI/ML可整合多维数据改进预测。",
+"key_points": [
+"术后尿潴留、残余尿升高等是吊带术常见并发症",
+"传统病史、体检、尿动力学预测能力有限",
+"提出用机器学习整合患者、解剖与手术因素"
+],
+"section": "临床预测与决策",
+"type": "观点",
+"tags": [
+"临床预测",
+"手术"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "综述/述评类，无实际模型与验证数据，属增量档",
+"abstract": "[Current opinion in obstetrics & gynecology] Midurethral sling (MUS) surgery is the standard procedure for stress urinary incontinence, offering favorable long-term outcomes. Despite its success, postoperative voiding dysfunction - manifesting as urinary retention, elevated post-void residuals (PVRs), slow or weak stream, hesitancy, or the need for prolonged catheterization - remains a clinically significant complication that is difficult to predict using traditional risk stratification. Conventional methods, including history, physical examination, PVR measurement, and selective urodynamics, provide limited individualized predictive power and fail to integrate the complex interplay of patient, anatomical, and surgical factors. Artificial intelligence and machine learning offer a promising approach to addressing this gap by analyzing multidimensional datasets to forecast individualized risk and guide perioperative management. While artificial intelligence applications in pelvic floor surgery have demonstrated utility in predicting general surgical outcomes, validated models specifically targeting post-MUS voiding dysfunction are lacking. Development of such predictive tools will require high-quality multicenter datasets, careful algorithm selection, and validation. Integrating artificial intelligence into clinical practice has the potential to enhance preoperative counseling, support shared decision-making, optimize surgical planning, and ultimately improve patient outcomes. This perspective highlights the unmet need for predictive modeling of voiding dysfunction after MUS, outlines the promise of artificial intelligence, and emphasizes the importance of responsible implementation.",
+"day": "2026-10-19",
+"rank": 8.5,
+"zh_abstract": "[Current opinion in obstetrics & gynecology] 中段尿道悬吊术（MUS）是压力性尿失禁的标准手术，具有较好的长期结局。尽管其取得成功，术后排尿功能障碍——表现为尿潴留、排尿后残余尿量（PVRs）升高、尿流缓慢或无力、排尿踌躇，或需要长期导尿——仍是一种具有临床意义的并发症，且难以通过传统风险分层进行预测。传统方法，包括病史、体格检查、PVR测量和选择性尿动力学检查，提供的个体化预测能力有限，且未能整合患者、解剖和手术因素之间复杂的相互作用。人工智能和机器学习通过分析多维数据集来预测个体化风险并指导围手术期管理，为解决这一缺口提供了一种有前景的方法。尽管人工智能在盆底手术中的应用已显示出预测一般手术结局的效用，但专门针对MUS术后排尿功能障碍的经过验证的模型仍然缺乏。开发此类预测工具将需要高质量的多中心数据集、谨慎的算法选择和验证。将人工智能整合到临床实践中，有可能加强术前咨询、支持共同决策、优化手术规划，并最终改善患者结局。本观点文章强调了MUS术后排尿功能障碍预测建模方面未满足的需求，概述了人工智能的前景，并强调了负责任实施的重要性。"
 },
 {
 "title": "Artificial Intelligence in Vascular and Endovascular Surgery: From Prediction to Surgeon-Led Clinical Implementation.",
@@ -788,105 +788,6 @@
 "zh_abstract": "[Patterns (New York, N.Y.)] 大型语言模型（LLMs）和人工智能（AI）智能体的安全性仍然碎片化；针对越狱的防御与尚未解决的幻觉、公平性和自主控制问题并存。现有框架处理这些风险，但很少有框架说明在一个部署中，一个维度的失败如何改变另一个维度。我们认为，不同的安全失败可以相互作用并相互放大。我们识别出四类安全挑战，分析其相互作用，并将论点建立在涉及复合失败的真实世界事件之上。随后，我们在来自基于美国医师执照考试（United States Medical Licensing Examination）的医学问答基准（MedQA-USMLE）的临床病例摘要上审计 GPT-5 和 Claude-Sonnet-4.6。一次越狱可以影响多个安全维度，尽管模式因模型和攻击而异。我们提出集成安全架构的三项设计原则，并指出智能体安全与机制可解释性是紧迫的开放前沿。"
 },
 {
-"title": "Toward End-to-end Artificial Intelligence Systems for Radiographic Fracture Assessment: A Critical Review of Detection, Explainability, and Prognosis.",
-"link": "https://pubmed.ncbi.nlm.nih.gov/42891461/",
-"date": "2026-09-23T00:00:00+00:00",
-"badge": "DOI 10.4103/jmp.jmp_67_26",
-"source": "PubMed · Journal of medical physics",
-"source_group": "PubMed",
-"home": "",
-"thin": false,
-"pop": null,
-"id": "2a00b2d39af0",
-"keep": true,
-"zh_title": "影像骨折评估的端到端AI系统：批判性综述",
-"summary": "以七阶段全流程框架综述骨折影像AI的检测、可解释性与预后建模进展与缺口。",
-"key_points": [
-"提出涵盖预处理到临床部署的七阶段端到端流程",
-"现有系统擅长基础检测，预后建模与落地不足",
-"量化骨折表征与内在可解释学习进展相对滞后"
-],
-"section": "影像与病理",
-"type": "论文",
-"tags": [
-"医学影像",
-"可解释性",
-"临床落地"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "综述类最高6分；提出统一流程框架具参考价值，但无新实验数据。",
-"abstract": "[Journal of medical physics] This review synthesizes recent advances in fracture intelligence through a unified seven-stage end-to-end pipeline that includes preprocessing and (region of interest) ROI extraction, fracture detection, classification, localization and segmentation, prognostic modeling, explainability, and clinical deployment. By shifting the focus from isolated algorithms to complete clinical workflows, we expose a critical gap: current systems excel at basic detection but struggle with complex prognostic modeling and real-world deployment. Within this framework, we critically analyze methodological progress, highlight enduring research challenges, and demonstrate that fracture artificial intelligence continues to be detection focused with relatively less advancement in quantitative fracture characterization, prognostic intelligence, intrinsically interpretable learning, and prospective clinical validation. Based on these findings, we outline future research directions toward unified, anatomically informed, clinically deployable fracture intelligence systems.",
-"day": "2026-10-19",
-"rank": 7.65,
-"zh_abstract": "《Journal of Medical Physics》本综述通过一个统一的七阶段端到端流程，综合了骨折智能领域的最新进展，该流程包括预处理与感兴趣区（region of interest, ROI）提取、骨折检测、分类、定位与分割、预后建模、可解释性以及临床部署。通过将焦点从孤立算法转向完整临床工作流程，我们揭示了一个关键空白：当前系统擅长基础检测，但在复杂预后建模和真实世界部署方面仍存在困难。在该框架内，我们批判性分析方法学进展，强调持续存在的研究挑战，并表明骨折人工智能仍以检测为重点，在定量骨折表征、预后智能、内在可解释学习和前瞻性临床验证方面进展相对较少。基于这些发现，我们概述了未来研究方向，即朝着统一、基于解剖学信息、临床可部署的骨折智能系统发展。"
-},
-{
-"title": "LigRNA: High-accuracy prediction of RNA-ligand binding sites via dynamic chemical complementarity and language model encoding",
-"link": "https://www.biorxiv.org/content/10.64898/2026.10.15.759315v1?rss=1",
-"date": "2026-10-17T00:00:00+00:00",
-"source": "bioRxiv",
-"source_group": "bioRxiv",
-"home": "",
-"thin": false,
-"badge": "DOI 10.64898/2026.10.15.759315",
-"pop": null,
-"id": "de62571611c4",
-"keep": true,
-"zh_title": "LigRNA：基于动态化学互补与语言模型的 RNA-配体结合位点预测",
-"summary": "预印本提出图神经网络框架，联合编码 RNA 与配体，预测 RNA-小分子结合位点。",
-"key_points": [
-"跨模态联合编码 RNA 残基与配体官能团",
-"融合结构语言模型嵌入与可及表面积等理化特征",
-"配体以图注意力网络编码保留原子级信息"
-],
-"section": "生命科学与药物",
-"type": "论文",
-"tags": [
-"药物发现"
-],
-"evidence": "预印本",
-"score": 5,
-"reason": "有新方法的药物发现预印本，但证据限于方法描述，属值得一看档",
-"abstract": "RNA-binding small molecules represent a validated therapeutic modality, yet pinpointing their exact RNA binding sites remains critical for mechanistic understanding and drug optimization. Experimental methods, while precise, are costly and low-throughput, necessitating robust computational alternatives. Approaches based on static feature concatenation may overlook input-dependent relationships between RNA residues and ligand functional groups. Here we present LigRNA, a graph neural network framework that predicts RNA-ligand binding sites through joint cross-modal encoding of both molecules. LigRNA integrates structure-guided language model embeddings with physicochemical features-solvent-accessible surface area and secondary structure types, to construct comprehensive RNA representations. Ligands are encoded as attributed molecular graphs via graph attention networks, preserving atom-level chemical topology rather than compressing molecules into fixed fingerprints. A cross-attention mechanism then enables dynamic, ligand-dependent modulation of RNA nucleotide attention, capturing context-specific interaction patterns. Benchmarked on TE9 and TE18 datasets, LigRNA achieves F1 scores of 0.73 and 0.58, improving on GATRsite by 7.4% and 18.4%, respectively. Ablation studies identify the RNA residual encoder as the most consistent contributor across the two benchmarks. The source code is freely available at https://github.com/WillowWang0216/LigRNA.",
-"day": "2026-10-19",
-"rank": 7.64,
-"zh_abstract": "RNA结合小分子是一种经过验证的治疗方式，但确定其确切的RNA结合位点仍对机制理解和药物优化至关重要。实验方法虽然精确，但成本高且通量低，因此需要稳健的计算替代方法。基于静态特征拼接的方法可能忽略RNA残基与配体官能团之间依赖于输入的关系。在此我们提出LigRNA，一个图神经网络框架，通过对两种分子的联合跨模态编码来预测RNA-配体结合位点。LigRNA将结构引导的语言模型嵌入与物理化学特征——溶剂可及表面积和二级结构类型——整合，以构建全面的RNA表示。配体通过图注意力网络编码为带属性的分子图，保留原子级化学拓扑结构，而不是将分子压缩为固定指纹。交叉注意力机制随后能够对RNA核苷酸注意力进行动态的、配体依赖的调制，捕获上下文特异性相互作用模式。在TE9和TE18数据集上进行基准测试，LigRNA的F1分数分别为0.73和0.58，较GATRsite分别提高7.4%和18.4%。消融研究确定RNA残基编码器是两项基准中最一致的贡献者。源代码可在https://github.com/WillowWang0216/LigRNA免费获取。"
-},
-{
-"title": "PATHNet: A Thermodynamic Path-Integral-Inspired Neural Network for Protein-Ligand Interaction Prediction",
-"link": "https://www.biorxiv.org/content/10.64898/2026.10.11.758399v1?rss=1",
-"date": "2026-10-17T00:00:00+00:00",
-"source": "bioRxiv",
-"source_group": "bioRxiv",
-"home": "",
-"thin": false,
-"badge": "DOI 10.64898/2026.10.11.758399",
-"pop": null,
-"id": "bf8e896c68fa",
-"keep": true,
-"zh_title": "PATHNet：蛋白-配体相互作用预测网络",
-"summary": "预印本提出物理启发的PATHNet打分框架，在7个DUD-E靶点上分类准确率优于三个基线。",
-"key_points": [
-"基于分子力学描述符学习非线性映射",
-"采用变分最小作用量与谱约束正则",
-"在7个DUD-E靶点上平均准确率最高"
-],
-"section": "生命科学与药物",
-"type": "论文",
-"tags": [
-"药物发现",
-"蛋白质"
-],
-"evidence": "预印本",
-"score": 5,
-"reason": "预印本新方法且有基线对比，但无外部验证，证据有限",
-"abstract": "Protein-ligand scoring functions must capture strongly nonlinear, target-dependent binding physics while remaining generalizable beyond their training data, a balance that purely analytic and purely data-driven models each struggle to achieve on their own. We present PATHNet, a physics-informed framework that learns this unknown functional relationship from molecular-mechanics descriptors using a non-monotonic piecewise-linear mapper with a bounded neural-network correction, trained through a variational, least-action-inspired objective and regulated by a renormalization-group-inspired spectral constraint, with model selection performed through multi-start basin optimization. Across seven DUD-E targets, PATHNet achieved the highest mean active inactive/decoy classification accuracy among the methods tested, outperforming three literature baselines representing distinct architectural families. These results support a physics-grounded, variationally constrained approach to neural-network scoring as a practical route toward more interpretable and transferable protein-ligand interaction models.",
-"day": "2026-10-19",
-"rank": 7.64,
-"zh_abstract": "蛋白质-配体打分函数必须捕捉强非线性、靶点依赖的结合物理，同时保持超出其训练数据的泛化能力，而纯解析模型和纯数据驱动模型各自都难以单独实现这种平衡。我们提出 PATHNet，这是一个物理信息指导的框架，它使用带有有界神经网络校正的非单调分段线性映射器，从分子力学描述符中学习这种未知的函数关系；该框架通过变分、受最小作用量启发的目标函数进行训练，并受受重整化群启发的谱约束调控，模型选择通过多起点盆地优化完成。在七个 DUD-E 靶点上，PATHNet 在所测试方法中取得最高的平均活性物对非活性物/诱饵分类准确率，优于代表不同架构家族的三项文献基线。这些结果支持将基于物理、受变分约束的神经网络打分方法作为通往更可解释、更可迁移的蛋白质-配体相互作用模型的实用途径。"
-},
-{
 "title": "LGGS: Longitudinal MRI Reconstruction via Guided Group Sparsity",
 "link": "https://arxiv.org/abs/2610.22643",
 "date": "2026-10-15T21:02:31+00:00",
@@ -1126,6 +1027,105 @@
 "link": "https://huggingface.co/papers/2610.22659"
 }
 ]
+},
+{
+"title": "Toward End-to-end Artificial Intelligence Systems for Radiographic Fracture Assessment: A Critical Review of Detection, Explainability, and Prognosis.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42891461/",
+"date": "2026-09-23T00:00:00+00:00",
+"badge": "DOI 10.4103/jmp.jmp_67_26",
+"source": "PubMed · Journal of medical physics",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "2a00b2d39af0",
+"keep": true,
+"zh_title": "影像骨折评估的端到端AI系统：批判性综述",
+"summary": "以七阶段全流程框架综述骨折影像AI的检测、可解释性与预后建模进展与缺口。",
+"key_points": [
+"提出涵盖预处理到临床部署的七阶段端到端流程",
+"现有系统擅长基础检测，预后建模与落地不足",
+"量化骨折表征与内在可解释学习进展相对滞后"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"可解释性",
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "综述类最高6分；提出统一流程框架具参考价值，但无新实验数据。",
+"abstract": "[Journal of medical physics] This review synthesizes recent advances in fracture intelligence through a unified seven-stage end-to-end pipeline that includes preprocessing and (region of interest) ROI extraction, fracture detection, classification, localization and segmentation, prognostic modeling, explainability, and clinical deployment. By shifting the focus from isolated algorithms to complete clinical workflows, we expose a critical gap: current systems excel at basic detection but struggle with complex prognostic modeling and real-world deployment. Within this framework, we critically analyze methodological progress, highlight enduring research challenges, and demonstrate that fracture artificial intelligence continues to be detection focused with relatively less advancement in quantitative fracture characterization, prognostic intelligence, intrinsically interpretable learning, and prospective clinical validation. Based on these findings, we outline future research directions toward unified, anatomically informed, clinically deployable fracture intelligence systems.",
+"day": "2026-10-19",
+"rank": 7.65,
+"zh_abstract": "《Journal of Medical Physics》本综述通过一个统一的七阶段端到端流程，综合了骨折智能领域的最新进展，该流程包括预处理与感兴趣区（region of interest, ROI）提取、骨折检测、分类、定位与分割、预后建模、可解释性以及临床部署。通过将焦点从孤立算法转向完整临床工作流程，我们揭示了一个关键空白：当前系统擅长基础检测，但在复杂预后建模和真实世界部署方面仍存在困难。在该框架内，我们批判性分析方法学进展，强调持续存在的研究挑战，并表明骨折人工智能仍以检测为重点，在定量骨折表征、预后智能、内在可解释学习和前瞻性临床验证方面进展相对较少。基于这些发现，我们概述了未来研究方向，即朝着统一、基于解剖学信息、临床可部署的骨折智能系统发展。"
+},
+{
+"title": "LigRNA: High-accuracy prediction of RNA-ligand binding sites via dynamic chemical complementarity and language model encoding",
+"link": "https://www.biorxiv.org/content/10.64898/2026.10.15.759315v1?rss=1",
+"date": "2026-10-17T00:00:00+00:00",
+"source": "bioRxiv",
+"source_group": "bioRxiv",
+"home": "",
+"thin": false,
+"badge": "DOI 10.64898/2026.10.15.759315",
+"pop": null,
+"id": "de62571611c4",
+"keep": true,
+"zh_title": "LigRNA：基于动态化学互补与语言模型的 RNA-配体结合位点预测",
+"summary": "预印本提出图神经网络框架，联合编码 RNA 与配体，预测 RNA-小分子结合位点。",
+"key_points": [
+"跨模态联合编码 RNA 残基与配体官能团",
+"融合结构语言模型嵌入与可及表面积等理化特征",
+"配体以图注意力网络编码保留原子级信息"
+],
+"section": "生命科学与药物",
+"type": "论文",
+"tags": [
+"药物发现"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "有新方法的药物发现预印本，但证据限于方法描述，属值得一看档",
+"abstract": "RNA-binding small molecules represent a validated therapeutic modality, yet pinpointing their exact RNA binding sites remains critical for mechanistic understanding and drug optimization. Experimental methods, while precise, are costly and low-throughput, necessitating robust computational alternatives. Approaches based on static feature concatenation may overlook input-dependent relationships between RNA residues and ligand functional groups. Here we present LigRNA, a graph neural network framework that predicts RNA-ligand binding sites through joint cross-modal encoding of both molecules. LigRNA integrates structure-guided language model embeddings with physicochemical features-solvent-accessible surface area and secondary structure types, to construct comprehensive RNA representations. Ligands are encoded as attributed molecular graphs via graph attention networks, preserving atom-level chemical topology rather than compressing molecules into fixed fingerprints. A cross-attention mechanism then enables dynamic, ligand-dependent modulation of RNA nucleotide attention, capturing context-specific interaction patterns. Benchmarked on TE9 and TE18 datasets, LigRNA achieves F1 scores of 0.73 and 0.58, improving on GATRsite by 7.4% and 18.4%, respectively. Ablation studies identify the RNA residual encoder as the most consistent contributor across the two benchmarks. The source code is freely available at https://github.com/WillowWang0216/LigRNA.",
+"day": "2026-10-19",
+"rank": 7.64,
+"zh_abstract": "RNA结合小分子是一种经过验证的治疗方式，但确定其确切的RNA结合位点仍对机制理解和药物优化至关重要。实验方法虽然精确，但成本高且通量低，因此需要稳健的计算替代方法。基于静态特征拼接的方法可能忽略RNA残基与配体官能团之间依赖于输入的关系。在此我们提出LigRNA，一个图神经网络框架，通过对两种分子的联合跨模态编码来预测RNA-配体结合位点。LigRNA将结构引导的语言模型嵌入与物理化学特征——溶剂可及表面积和二级结构类型——整合，以构建全面的RNA表示。配体通过图注意力网络编码为带属性的分子图，保留原子级化学拓扑结构，而不是将分子压缩为固定指纹。交叉注意力机制随后能够对RNA核苷酸注意力进行动态的、配体依赖的调制，捕获上下文特异性相互作用模式。在TE9和TE18数据集上进行基准测试，LigRNA的F1分数分别为0.73和0.58，较GATRsite分别提高7.4%和18.4%。消融研究确定RNA残基编码器是两项基准中最一致的贡献者。源代码可在https://github.com/WillowWang0216/LigRNA免费获取。"
+},
+{
+"title": "PATHNet: A Thermodynamic Path-Integral-Inspired Neural Network for Protein-Ligand Interaction Prediction",
+"link": "https://www.biorxiv.org/content/10.64898/2026.10.11.758399v1?rss=1",
+"date": "2026-10-17T00:00:00+00:00",
+"source": "bioRxiv",
+"source_group": "bioRxiv",
+"home": "",
+"thin": false,
+"badge": "DOI 10.64898/2026.10.11.758399",
+"pop": null,
+"id": "bf8e896c68fa",
+"keep": true,
+"zh_title": "PATHNet：蛋白-配体相互作用预测网络",
+"summary": "预印本提出物理启发的PATHNet打分框架，在7个DUD-E靶点上分类准确率优于三个基线。",
+"key_points": [
+"基于分子力学描述符学习非线性映射",
+"采用变分最小作用量与谱约束正则",
+"在7个DUD-E靶点上平均准确率最高"
+],
+"section": "生命科学与药物",
+"type": "论文",
+"tags": [
+"药物发现",
+"蛋白质"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "预印本新方法且有基线对比，但无外部验证，证据有限",
+"abstract": "Protein-ligand scoring functions must capture strongly nonlinear, target-dependent binding physics while remaining generalizable beyond their training data, a balance that purely analytic and purely data-driven models each struggle to achieve on their own. We present PATHNet, a physics-informed framework that learns this unknown functional relationship from molecular-mechanics descriptors using a non-monotonic piecewise-linear mapper with a bounded neural-network correction, trained through a variational, least-action-inspired objective and regulated by a renormalization-group-inspired spectral constraint, with model selection performed through multi-start basin optimization. Across seven DUD-E targets, PATHNet achieved the highest mean active inactive/decoy classification accuracy among the methods tested, outperforming three literature baselines representing distinct architectural families. These results support a physics-grounded, variationally constrained approach to neural-network scoring as a practical route toward more interpretable and transferable protein-ligand interaction models.",
+"day": "2026-10-19",
+"rank": 7.64,
+"zh_abstract": "蛋白质-配体打分函数必须捕捉强非线性、靶点依赖的结合物理，同时保持超出其训练数据的泛化能力，而纯解析模型和纯数据驱动模型各自都难以单独实现这种平衡。我们提出 PATHNet，这是一个物理信息指导的框架，它使用带有有界神经网络校正的非单调分段线性映射器，从分子力学描述符中学习这种未知的函数关系；该框架通过变分、受最小作用量启发的目标函数进行训练，并受受重整化群启发的谱约束调控，模型选择通过多起点盆地优化完成。在七个 DUD-E 靶点上，PATHNet 在所测试方法中取得最高的平均活性物对非活性物/诱饵分类准确率，优于代表不同架构家族的三项文献基线。这些结果支持将基于物理、受变分约束的神经网络打分方法作为通往更可解释、更可迁移的蛋白质-配体相互作用模型的实用途径。"
 },
 {
 "title": "Case-Specific Priors-Guided Multimodal Fusion for Prognosis Prediction in Head and Neck Cancer",
@@ -1570,7 +1570,7 @@
 "被投方为VeloSource",
 "投向AI临床人员配置平台"
 ],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [
 "融资与并购",

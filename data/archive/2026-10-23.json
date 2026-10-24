@@ -103,40 +103,6 @@
 "zh_abstract": "[Advanced science (Weinheim, Baden-Wurttemberg, Germany)] 准确预测淋巴结转移（LNM）和生存结局对于膀胱癌的个体化治疗至关重要，但临床上仍具有挑战性。本研究旨在开发一种基于细胞学的多任务预测网络（CytoNet），以同时预测膀胱癌中的 LNM 和无病生存期（DFS），并评估其在宫颈癌和甲状腺癌中的泛化性。本研究纳入了一个由 5273 例患者组成的多中心队列，包括膀胱癌（n = 1134）、宫颈癌（n = 598）和甲状腺癌（n = 3541）。CytoNet 通过一个三阶段流程构建，包括自监督预训练、监督微调和多任务预测。在膀胱癌中，CytoNet 在所有队列中预测 LNM 的曲线下面积（AUC）为 0.831-0.881，预测 DFS 的 C 指数为 0.680-0.710，优于单任务模型和标准影像学评估。在宫颈癌中，CytoNet 在 LNM 预测（AUC 0.847-0.862）和 DFS 预测（C 指数 0.690-0.709）方面均表现出稳健性能，而在甲状腺癌中，其预测 LNM 的 AUC 为 0.819-0.855。总之，CytoNet 是一种可靠的工具，可从细胞病理学图像预测多种癌症类型的 LNM 和预后，显示出作为当前临床决策有价值辅助手段的潜力。仍需进一步的前瞻性验证以评估其临床效用。"
 },
 {
-"title": "Using an Artificial Intelligence (AI) Tool for Melanoma Diagnosis",
-"link": "https://clinicaltrials.gov/study/NCT07890415",
-"date": "2026-10-22T00:00:00+00:00",
-"badge": "NCT07890415",
-"source": "ClinicalTrials.gov",
-"source_group": "ClinicalTrials.gov",
-"home": "",
-"thin": false,
-"pop": null,
-"id": "813e7a0a8ab2",
-"keep": true,
-"zh_title": "DEXI AI辅助黑色素瘤诊断III期试验",
-"summary": "一项正在招募的III期干预性研究将评估DEXI AI工具辅助皮肤科医生诊断黑色素瘤并减少不必要活检，计划入组1.4万人，尚无结果。",
-"key_points": [
-"III期干预性研究，计划入组14000例",
-"DEXI集成于DermaGraphix图像系统",
-"评估辅助诊断与减少活检，尚无结果"
-],
-"section": "影像与病理",
-"type": "论文",
-"tags": [
-"医学影像",
-"肿瘤",
-"临床决策支持"
-],
-"evidence": "新闻",
-"score": 7,
-"reason": "大规模前瞻性III期试验注册且关注活检结局，尚无结果",
-"abstract": "[Newly registered clinical trial, no results yet; sponsor: Memorial Sloan Kettering Cancer Center; conditions: Malignant Melanoma of Skin, Other and Unspecified Malignant Neoplasm of Skin, Melanoma in Situ, Carcinoma in Situ of Skin, Hemangioma; type: INTERVENTIONAL; phase: PHASE3; enrollment: 14000; status: RECRUITING] The purpose of this study is to learn whether a computer-based support tool called DEXI (Dermoscopy EXplainable Intelligence) can help dermatologists decide whether a lesion may be melanoma, a serious type of skin cancer. DEXI uses artificial intelligence, or AI, which means computer technology that looks for patterns in images and information. DEXI works within a software program called the DermaGraphix Visualizer, which displays and organizes skin and lesion images. The goal of this study is to see whether DEXI can help doctors find melanoma and reduce biopsies that may not be needed.",
-"day": "2026-10-23",
-"rank": 10.31,
-"zh_abstract": "[新注册临床试验，尚无结果；申办者：Memorial Sloan Kettering Cancer Center；疾病：皮肤恶性黑色素瘤、其他及未特指的皮肤恶性肿瘤、原位黑色素瘤、皮肤原位癌、血管瘤；类型：干预性；分期：3期；入组人数：14000；状态：招募中] 本研究的目的是了解一种名为 DEXI（Dermoscopy EXplainable Intelligence，皮肤镜可解释智能）的计算机辅助支持工具是否能帮助皮肤科医生判断病变是否可能为黑色素瘤，这是一种严重的皮肤癌。DEXI 使用人工智能（AI），即寻找图像和信息中模式的计算机技术。DEXI 在一个名为 DermaGraphix Visualizer 的软件程序中运行，该程序显示并组织皮肤和病变图像。本研究的目的是观察 DEXI 是否能帮助医生发现黑色素瘤并减少可能不必要的活检。"
-},
-{
 "title": "TRAM-AI: A Framework for Transparency in Reporting of Medical Imaging Datasets for Artificial Intelligence Development.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42905015/",
 "date": "2026-10-21T00:00:00+00:00",
@@ -204,6 +170,40 @@
 "zh_abstract": "[Journal of Clinical Anesthesia] 术中低血压（intraoperative hypotension，IOH）与心肌损伤、急性肾损伤、围手术期卒中和30天死亡率相关。深度学习（deep learning，DL）指通过非线性变换学习多层次数据表示的一类机器学习方法。在围手术期监测中，DL模型可从随时间变化的生理信号中学习模式，并将其与临床变量结合，以估计即将发生的IOH风险。因此，将DL算法应用于连续生理波形代表了早期IOH预测中快速扩展的一种范式，但其汇总诊断准确度尚未在统一的诊断准确度框架内进行综合。旨在量化基于DL的IOH预测模型的汇总诊断准确度，并识别影响其性能的因素。检索PubMed、Embase、Web of Science和Cochrane Library，截至2026年3月。采用PROBAST+AI评价方法学质量，采用GRADE评价证据确定性。双变量随机效应模型生成汇总灵敏度、特异度和SROC-AUC；异质性通过τ2(Se)、τ2(Sp)和ρ量化。进行亚组分析（预测窗口、DL架构、模态、IOH参考标准、分析单位）和随机效应meta回归。共纳入12项研究；其中9项贡献了22个验证数据集。汇总灵敏度为0.78（95% CI 0.73-0.81），特异度为0.88（0.82-0.92），SROC-AUC为0.87（0.83-0.90）；诊断比值比为24.7（16.1-37.9），阳性似然比为6.31，阴性似然比为0.26。异质性为τ2(Se) = 0.25，τ2(Sp) = 1.04，ρ = -0.28。5分钟窗口达到最高性能（灵敏度0.81；特异度0.91）。Meta回归确定DL架构是特异度的唯一显著调节因素（P = 0.02），混合CNN-RNN超过纯CNN（β = 1.77，95% CI 0.45-3.09）。Deeks检验不显著（P = 0.06）。GRADE证据确定性为低。用于IOH预测的DL模型达到中等诊断准确度，其中混合CNN-RNN架构和5分钟预测窗口显示出最有利的性能。普遍缺乏正式校准评估、外部验证稀缺以及地理集中限制了立即的临床转化。PROSPERO CRD420261377604 报告指南：PRISMA-DTA。"
 },
 {
+"title": "Using an Artificial Intelligence (AI) Tool for Melanoma Diagnosis",
+"link": "https://clinicaltrials.gov/study/NCT07890415",
+"date": "2026-10-22T00:00:00+00:00",
+"badge": "NCT07890415",
+"source": "ClinicalTrials.gov",
+"source_group": "ClinicalTrials.gov",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "813e7a0a8ab2",
+"keep": true,
+"zh_title": "DEXI AI辅助黑色素瘤诊断III期试验",
+"summary": "一项正在招募的III期干预性研究将评估DEXI AI工具辅助皮肤科医生诊断黑色素瘤并减少不必要活检，计划入组1.4万人，尚无结果。",
+"key_points": [
+"III期干预性研究，计划入组14000例",
+"DEXI集成于DermaGraphix图像系统",
+"评估辅助诊断与减少活检，尚无结果"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"肿瘤",
+"临床决策支持"
+],
+"evidence": "新闻",
+"score": 7,
+"reason": "大规模前瞻性III期试验注册且关注活检结局，尚无结果",
+"abstract": "[Newly registered clinical trial, no results yet; sponsor: Memorial Sloan Kettering Cancer Center; conditions: Malignant Melanoma of Skin, Other and Unspecified Malignant Neoplasm of Skin, Melanoma in Situ, Carcinoma in Situ of Skin, Hemangioma; type: INTERVENTIONAL; phase: PHASE3; enrollment: 14000; status: RECRUITING] The purpose of this study is to learn whether a computer-based support tool called DEXI (Dermoscopy EXplainable Intelligence) can help dermatologists decide whether a lesion may be melanoma, a serious type of skin cancer. DEXI uses artificial intelligence, or AI, which means computer technology that looks for patterns in images and information. DEXI works within a software program called the DermaGraphix Visualizer, which displays and organizes skin and lesion images. The goal of this study is to see whether DEXI can help doctors find melanoma and reduce biopsies that may not be needed.",
+"day": "2026-10-23",
+"rank": 10.31,
+"zh_abstract": "[新注册临床试验，尚无结果；申办者：Memorial Sloan Kettering Cancer Center；疾病：皮肤恶性黑色素瘤、其他及未特指的皮肤恶性肿瘤、原位黑色素瘤、皮肤原位癌、血管瘤；类型：干预性；分期：3期；入组人数：14000；状态：招募中] 本研究的目的是了解一种名为 DEXI（Dermoscopy EXplainable Intelligence，皮肤镜可解释智能）的计算机辅助支持工具是否能帮助皮肤科医生判断病变是否可能为黑色素瘤，这是一种严重的皮肤癌。DEXI 使用人工智能（AI），即寻找图像和信息中模式的计算机技术。DEXI 在一个名为 DermaGraphix Visualizer 的软件程序中运行，该程序显示并组织皮肤和病变图像。本研究的目的是观察 DEXI 是否能帮助医生发现黑色素瘤并减少可能不必要的活检。"
+},
+{
 "title": "Artificial intelligence apps for medical image analysis using pyCERR and cancer genomics cloud.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42904475/",
 "date": "2026-10-22T00:00:00+00:00",
@@ -235,40 +235,6 @@
 "day": "2026-10-23",
 "rank": 9.31,
 "zh_abstract": "[Medical physics] 提供一个软件资源，使医学研究人员和从业者能够开发并应用可重复、开箱即用的、基于AI的放射学和放射治疗数据分析工作流程。该框架包括两个主要组成部分：用于放射学图像处理的放射学研究原生Python计算环境（pyCERR），以及癌症基因组学云（CGC），后者是由美国国家癌症研究所资助的资源，支持云托管的协作项目，并提供管理合作者以及来自Amazon Web Services和Google Cloud Platform等提供商的计算硬件的工具。pyCERR是开源的（GNU GPL），发布在 https://github.com/cerr/pycerr；它提供用户友好的数据结构、简化访问跨放射成像模态的元数据，以及用于数据转换、基于AI的图像分割、放射组学、动态对比增强MRI分析、放射治疗剂量-体积直方图（DVH）特征提取以及正常组织并发症和肿瘤控制模型的工具。放射组学特征符合影像生物标志物标准化倡议（IBSI）标准，并已对照已发表的参考值进行验证。覆盖数据输入/输出、放射组学、DVH特征和可视化的单元测试在每次代码更新时运行。工作流程经过容器化，以便在CGC和本地硬件上可重复地、完全相同地执行。CGC使来自放射影像的AI推理能够与基因组学和蛋白质组学等其他数据类型结合。我们的公开CGC项目（https://cgc.sbgenomics.com/u/sevenbridges/pycerr-radiological-radiotherapy-imageanalysis）可通过免费注册访问，目前包括基于内部训练并经过临床验证的已发表模型的危及器官（OAR）和肺结节分割应用。这些应用可以从Web浏览器交互式运行，或通过REST API以编程方式运行，客户端支持多种编程语言。展示CGC API和pyCERR能力的Notebooks文档提供在 https://github.com/cerr/pycerr-notebooks。该框架促进端到端放射图像分析和可重复研究，包括从公共和私有存储库访问数据、使用AI模型进行训练和推理，以及用于数据管理、可视化和简化访问图像元数据的实用工具。"
-},
-{
-"title": "AI-Assisted Systemic Health Risk Assessment in General Ophthalmology: A Cluster Randomized Trial",
-"link": "https://clinicaltrials.gov/study/NCT07890922",
-"date": "2026-10-22T00:00:00+00:00",
-"badge": "NCT07890922",
-"source": "ClinicalTrials.gov",
-"source_group": "ClinicalTrials.gov",
-"home": "",
-"thin": false,
-"pop": null,
-"id": "5024a23c9e44",
-"keep": true,
-"zh_title": "AI辅助眼科全科系统性健康风险评估：整群随机试验",
-"summary": "中山眼科中心注册2000人整群随机试验，评估向眼科医生提供视网膜图像AI健康风险信息是否改变后续诊疗。",
-"key_points": [
-"整群随机，2000人，尚未开始招募",
-"AI仅提供补充风险信息，不独立诊断或决定治疗",
-"主要观察对临床诊疗行为的影响，尚无结果"
-],
-"section": "临床预测与决策",
-"type": "论文",
-"tags": [
-"眼科",
-"临床决策支持",
-"临床落地"
-],
-"evidence": "预印本",
-"score": 6,
-"reason": "前瞻性整群随机设计、样本量可观，但仅为试验注册且无结果，属值得一看档",
-"abstract": "[Newly registered clinical trial, no results yet; sponsor: Zhongshan Ophthalmic Center, Sun Yat-sen University; conditions: Systemic Health Risk; type: INTERVENTIONAL; phase: NA; enrollment: 2000; status: NOT_YET_RECRUITING] This study will evaluate whether providing ophthalmologists with additional artificial intelligence (AI)-assisted health risk information derived from routine retinal images affects subsequent clinical care in adults attending general ophthalmology clinics. Participating ophthalmologists will be assigned to either usual ophthalmic care or usual ophthalmic care with access to supplementary information generated by an AI system. The AI system does not independently diagnose disease or determine treatment. All clinical decisions remain the responsibility of the ophthalmologist. Participants will receive routine ophthalmic care and will be followed after the ophthalmology visit to collect information on subsequent medical evaluation, newly identified systemic conditions, and changes in clinical management.",
-"day": "2026-10-23",
-"rank": 9.31,
-"zh_abstract": "[新注册临床试验，尚无结果；申办者：中山大学中山眼科中心；病症：全身健康风险；类型：INTERVENTIONAL（干预性）；阶段：NA；入组人数：2000；状态：NOT_YET_RECRUITING（尚未招募）] 本研究将评估向眼科医生提供由常规视网膜图像衍生的额外人工智能（AI）辅助健康风险信息，是否会影响在普通眼科门诊就诊的成人的后续临床诊疗。参与研究的眼科医生将被分配至常规眼科诊疗组，或常规眼科诊疗加可获取由AI系统生成的补充信息组。该AI系统不独立诊断疾病或决定治疗。所有临床决策仍由眼科医生负责。参与者将接受常规眼科诊疗，并在眼科就诊后进行随访，以收集关于后续医学评估、新发现的全身性疾病以及临床管理变化的信息。"
 },
 {
 "title": "Machine Learning-Based Screening for Osteonecrosis of the Jaw in Panoramic Radiographs.",
@@ -337,6 +303,40 @@
 "zh_abstract": "[JBJS Reviews] 仅凭技术性能并不能确立临床就绪度；较高的准确度或区分度并不能证明人工智能（AI）工具将具有泛化能力、改善临床诊疗或在部署后保持安全。现有AI框架为报告、偏倚风险、模型评价和临床试验提供了重要指导，但未提供描述一项技术从开发到受监测临床部署全过程的单一纵向阶段。我们提出骨科手术临床AI就绪度（Orthopaedic Surgery Clinical AI Readiness，OSCAR）量表，作为一个6阶段概念框架，涵盖模型开发、内部验证和外部验证、早期临床评价、比较性临床验证以及受监测部署。OSCAR的示例性应用表明，技术上强大的模型可能仍停留在第1阶段，外部验证可将工具推进至第2阶段，真实工作流程评价代表第3阶段，而第4阶段需要比较性临床证据。OSCAR旨在补充而非取代已有的报告和偏倚风险标准。该框架仍未经验证，需要利益相关者共识、明确的决策标准、评分者间信度检验以及前瞻性评价。"
 },
 {
+"title": "AI-Assisted Systemic Health Risk Assessment in General Ophthalmology: A Cluster Randomized Trial",
+"link": "https://clinicaltrials.gov/study/NCT07890922",
+"date": "2026-10-22T00:00:00+00:00",
+"badge": "NCT07890922",
+"source": "ClinicalTrials.gov",
+"source_group": "ClinicalTrials.gov",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "5024a23c9e44",
+"keep": true,
+"zh_title": "AI辅助眼科全科系统性健康风险评估：整群随机试验",
+"summary": "中山眼科中心注册2000人整群随机试验，评估向眼科医生提供视网膜图像AI健康风险信息是否改变后续诊疗。",
+"key_points": [
+"整群随机，2000人，尚未开始招募",
+"AI仅提供补充风险信息，不独立诊断或决定治疗",
+"主要观察对临床诊疗行为的影响，尚无结果"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"眼科",
+"临床决策支持",
+"临床落地"
+],
+"evidence": "预印本",
+"score": 6,
+"reason": "前瞻性整群随机设计、样本量可观，但仅为试验注册且无结果，属值得一看档",
+"abstract": "[Newly registered clinical trial, no results yet; sponsor: Zhongshan Ophthalmic Center, Sun Yat-sen University; conditions: Systemic Health Risk; type: INTERVENTIONAL; phase: NA; enrollment: 2000; status: NOT_YET_RECRUITING] This study will evaluate whether providing ophthalmologists with additional artificial intelligence (AI)-assisted health risk information derived from routine retinal images affects subsequent clinical care in adults attending general ophthalmology clinics. Participating ophthalmologists will be assigned to either usual ophthalmic care or usual ophthalmic care with access to supplementary information generated by an AI system. The AI system does not independently diagnose disease or determine treatment. All clinical decisions remain the responsibility of the ophthalmologist. Participants will receive routine ophthalmic care and will be followed after the ophthalmology visit to collect information on subsequent medical evaluation, newly identified systemic conditions, and changes in clinical management.",
+"day": "2026-10-23",
+"rank": 9.31,
+"zh_abstract": "[新注册临床试验，尚无结果；申办者：中山大学中山眼科中心；病症：全身健康风险；类型：INTERVENTIONAL（干预性）；阶段：NA；入组人数：2000；状态：NOT_YET_RECRUITING（尚未招募）] 本研究将评估向眼科医生提供由常规视网膜图像衍生的额外人工智能（AI）辅助健康风险信息，是否会影响在普通眼科门诊就诊的成人的后续临床诊疗。参与研究的眼科医生将被分配至常规眼科诊疗组，或常规眼科诊疗加可获取由AI系统生成的补充信息组。该AI系统不独立诊断疾病或决定治疗。所有临床决策仍由眼科医生负责。参与者将接受常规眼科诊疗，并在眼科就诊后进行随访，以收集关于后续医学评估、新发现的全身性疾病以及临床管理变化的信息。"
+},
+{
 "title": "From clinician review to measurable human oversight of AI-drafted paediatric discharge documents",
 "link": "https://www.medrxiv.org/content/10.64898/2026.10.20.26365977v1?rss=1",
 "date": "2026-10-22T00:00:00+00:00",
@@ -403,73 +403,6 @@
 "day": "2026-10-23",
 "rank": 8.81,
 "zh_abstract": "人类遗传变异是治疗靶点优先排序的强大驱动因素，但当前模型难以汇总每个基因数量可变的变异，并且受到已验证靶点稀缺的瓶颈限制。我们提出 Varformer，一种多模态 transformer，利用跨模态注意力将错义变异的上下文表征与基因水平特征整合。通过在四个遗传祖先群体中临床验证靶点上进行正样本-未标记学习训练，Varformer 在三个难度递增的基准上分别达到 precision@20 为 0.95、0.86 和 0.48。在最难的基准上，它比逻辑回归消融模型高 20%，比 DrugnomeAI 高 23%。跨群体排名归一化可分离出在祖先群体间具有一致遗传支持的靶点。变异编码器还可对单个变异进行评分。在 Genes & Health 的 1,164 个携带者-变异对中，Varformer 在 57% 的对中将已知致病变异排在携带者前 20 位。Varformer 作为开源框架提供，用于统一的靶点和变异优先排序。"
-},
-{
-"title": "AI-Assisted Education Before Surgery to Prevent Lung Complications in Older Surgical Patients",
-"link": "https://clinicaltrials.gov/study/NCT07889557",
-"date": "2026-10-22T00:00:00+00:00",
-"badge": "NCT07889557",
-"source": "ClinicalTrials.gov",
-"source_group": "ClinicalTrials.gov",
-"home": "",
-"thin": false,
-"pop": null,
-"id": "1b1a3753448d",
-"keep": true,
-"zh_title": "AI辅助术前教育预防老年患者肺部并发症的随机试验",
-"summary": "一项新注册、尚未招募的随机对照试验，拟纳入242例老年腹部大手术患者，检验AI辅助制作的术前教育材料能否减少术后肺部并发症。",
-"key_points": [
-"随机分为AI辅助教育组与常规护理组，各含242例总量",
-"教育材料由AI生成并经专家审核",
-"主要观察术后肺部并发症，尚无结果"
-],
-"section": "数字健康",
-"type": "论文",
-"tags": [
-"临床落地",
-"数字健康"
-],
-"evidence": "同行评审",
-"score": 4,
-"reason": "仅临床试验注册信息、无结果；AI仅用于教育材料制作，属增量档",
-"abstract": "[Newly registered clinical trial, no results yet; sponsor: Hilal KAHRAMAN; conditions: Postoperative Pulmonary Complications; type: INTERVENTIONAL; phase: NA; enrollment: 242; status: NOT_YET_RECRUITING] This study aims to determine whether preoperative patient education prepared with the assistance of artificial intelligence can reduce lung complications after major abdominal surgery in older patients. A total of 242 patients will be randomly assigned to an education group or a usual care group. Patients in the education group will receive education from a researcher at least 24 hours before surgery, using educational materials developed with artificial intelligence and reviewed by experts. Their questions will be answered, and they will receive a printed copy of the educational material. Patients in the usual care group will receive standard nursing care. Both groups will be assessed before surgery and on postoperative days 1, 3, 7, and 30. Follow-up assessments will be conducted face-to-face during hospitalization and by telephone after discharge. The researcher assessing postoperative complications will not know which group patients have been assigned to. The occurrence of postoperative lung complications will be compared between the two groups.",
-"day": "2026-10-23",
-"rank": 8.31,
-"zh_abstract": "[新注册临床试验，尚无结果；申办者：Hilal KAHRAMAN；疾病/状况：术后肺部并发症；类型：干预性；分期：不适用（NA）；入组人数：242；状态：尚未招募] 本研究旨在确定在人工智能辅助下准备的术前患者教育能否减少老年患者腹部大手术后肺部并发症。总共242例患者将被随机分配到教育组或常规护理组。教育组患者将在手术前至少24小时接受研究人员的教育，使用由人工智能开发并经专家审核的教育材料。将回答他们的问题，并向他们提供教育材料的印刷副本。常规护理组患者将接受标准护理。两组将在术前以及术后第1、3、7和30天接受评估。随访评估将在住院期间面对面进行，出院后通过电话进行。评估术后并发症的研究人员将不知道患者被分配到哪一组。将比较两组术后肺部并发症的发生情况。"
-},
-{
-"title": "Surgical Intuition in Anastomotic Leakage After Colorectal Surgery",
-"link": "https://clinicaltrials.gov/study/NCT07888478",
-"date": "2026-10-22T00:00:00+00:00",
-"badge": "NCT07888478",
-"source": "ClinicalTrials.gov",
-"source_group": "ClinicalTrials.gov",
-"home": "",
-"thin": false,
-"pop": null,
-"id": "8b3398c50b92",
-"keep": true,
-"zh_title": "外科医生直觉用于结直肠术后吻合口漏预测",
-"summary": "瑞士巴塞尔大学医院注册4300例观察性研究，评估计算机模型及结合外科医生直觉对结直肠术后吻合口漏的预测效能。",
-"key_points": [
-"观察性研究，计划入组4300例，正在招募",
-"验证已有计算机模型对术后30天内漏的预测",
-"比较医生直觉及人机结合预测的准确性"
-],
-"section": "临床预测与决策",
-"type": "论文",
-"tags": [
-"临床预测",
-"手术",
-"临床决策支持"
-],
-"evidence": "新闻",
-"score": 5,
-"reason": "大样本前瞻性观察设计与人机对比，但尚无结果，属值得一看档",
-"abstract": "[Newly registered clinical trial, no results yet; sponsor: University Hospital, Basel, Switzerland; conditions: Anastomotic Leaks; type: OBSERVATIONAL; enrollment: 4300; status: RECRUITING] The SURGUT study aims to assess how well a computer model predicts bowel leaks after surgery. It will also examine whether adding surgeons' intuition improves these predictions. The study will include adults having surgery to remove part of the colon or rectum. During the operation, the remaining bowel ends are joined together. Sometimes, this connection does not heal properly and a leak develops. This is called an anastomotic leak and can cause serious complications. The research questions are: * How well does a previously developed computer model predict a leak within 30 days after surgery? * How accurately do surgeons estimate the risk of a leak? * Does combining the computer model with surgeons' assessments improve prediction compared with the model alone? This observational study will take place at several hospitals in different countries. Researchers will collect information about participants' health, surgery, and presence of complications. Surgeons will complete a pre-operative and an immediately post-operative questionnaire about the estimated risk of a leak, surgical difficulty, and concerns about the bowel connection. Researchers will record whether a leak occurs within 30 days after surgery. They will compare these outcomes with the predictions from the computer model, surgeons' assessments, and the combination of both. The findings may help improve how clinicians identify people at higher risk of a leak after bowel surgery.",
-"day": "2026-10-23",
-"rank": 8.31,
-"zh_abstract": "[新注册临床试验，尚无结果；申办方：瑞士巴塞尔大学医院（University Hospital, Basel, Switzerland）；疾病/状况：吻合口漏（Anastomotic Leaks）；类型：观察性（OBSERVATIONAL）；入组人数：4300；状态：招募中（RECRUITING）] SURGUT研究旨在评估计算机模型预测手术后肠漏的效果。该研究还将考察加入外科医生的直觉是否能改善这些预测。该研究将纳入接受部分结肠或直肠切除术的成人。手术过程中，剩余肠端被连接在一起。有时这种连接愈合不良并发生漏。这称为吻合口漏，可导致严重并发症。研究问题为：* 先前开发的计算机模型对术后30天内漏的预测效果如何？* 外科医生对漏风险的估计有多准确？* 与单独使用模型相比，将计算机模型与外科医生评估相结合是否能改善预测？这项观察性研究将在不同国家的多家医院开展。研究人员将收集参与者健康、手术及并发症存在情况的信息。外科医生将完成术前和术后即刻问卷，内容涉及估计的漏风险、手术难度及对肠连接的担忧。研究人员将记录术后30天内是否发生漏。他们将把这些结局与计算机模型的预测、外科医生的评估以及两者结合后的预测进行比较。研究结果可能有助于改善临床医生识别肠手术后漏风险较高人群的方式。"
 },
 {
 "title": "Artificial Intelligence-Driven Multiscale Design of Protein-Based Materials.",
@@ -670,6 +603,73 @@
 "day": "2026-10-23",
 "rank": 7.85,
 "zh_abstract": "[Ageing research reviews] 外周神经损伤（PNI）仍是长期感觉和运动功能障碍的主要原因，在全球范围内造成重大临床和社会经济负担。尽管外周神经具有内在再生能力，但由于轴突变性、施万细胞可塑性、神经免疫反应、细胞外基质重塑、代谢重编程、髓鞘再生和靶点再支配之间复杂的相互作用，功能恢复往往不完全。转录组学、蛋白质组学、表观基因组学、代谢组学和单细胞技术的最新进展扩展了对神经变性和再生的分子表征，揭示了许多候选生物标志物和治疗靶点。然而，生物异质性、碎片化数据集以及缺乏稳健的预测框架仍限制其转化为临床实践。在本综述中，我们全面概述了调控外周神经修复的细胞和分子机制，并审视了与再生能力、神经炎症、髓鞘再生和功能恢复相关的新兴生物标志物类别。我们还讨论了靶向施万细胞重编程、轴突生长、免疫调节、代谢适应和再生微环境重塑的治疗策略。我们进一步探讨了人工智能（AI）和机器学习（ML）如何支持多组学整合、生物标志物优先级排序、结局预测和治疗靶点发现，同时强调 PNI 特异性临床验证仍然有限。我们提出了一个系统级框架，将分子特征与临床结局联系起来，并强调 AI 赋能的多模态分析支持转化研究的潜力。年龄相关分子变异应作为额外的分析维度纳入，从而能够比较年轻和较老组织中的再生与非再生特征。总之，这些方法为在未来转化研究中检验年龄感知的分子标志物和计算模型提供了一个框架。"
+},
+{
+"title": "AI-Assisted Education Before Surgery to Prevent Lung Complications in Older Surgical Patients",
+"link": "https://clinicaltrials.gov/study/NCT07889557",
+"date": "2026-10-22T00:00:00+00:00",
+"badge": "NCT07889557",
+"source": "ClinicalTrials.gov",
+"source_group": "ClinicalTrials.gov",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "1b1a3753448d",
+"keep": true,
+"zh_title": "AI辅助术前教育预防老年患者肺部并发症的随机试验",
+"summary": "一项新注册、尚未招募的随机对照试验，拟纳入242例老年腹部大手术患者，检验AI辅助制作的术前教育材料能否减少术后肺部并发症。",
+"key_points": [
+"随机分为AI辅助教育组与常规护理组，各含242例总量",
+"教育材料由AI生成并经专家审核",
+"主要观察术后肺部并发症，尚无结果"
+],
+"section": "数字健康",
+"type": "论文",
+"tags": [
+"临床落地",
+"数字健康"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "仅临床试验注册信息、无结果；AI仅用于教育材料制作，属增量档",
+"abstract": "[Newly registered clinical trial, no results yet; sponsor: Hilal KAHRAMAN; conditions: Postoperative Pulmonary Complications; type: INTERVENTIONAL; phase: NA; enrollment: 242; status: NOT_YET_RECRUITING] This study aims to determine whether preoperative patient education prepared with the assistance of artificial intelligence can reduce lung complications after major abdominal surgery in older patients. A total of 242 patients will be randomly assigned to an education group or a usual care group. Patients in the education group will receive education from a researcher at least 24 hours before surgery, using educational materials developed with artificial intelligence and reviewed by experts. Their questions will be answered, and they will receive a printed copy of the educational material. Patients in the usual care group will receive standard nursing care. Both groups will be assessed before surgery and on postoperative days 1, 3, 7, and 30. Follow-up assessments will be conducted face-to-face during hospitalization and by telephone after discharge. The researcher assessing postoperative complications will not know which group patients have been assigned to. The occurrence of postoperative lung complications will be compared between the two groups.",
+"day": "2026-10-23",
+"rank": 8.31,
+"zh_abstract": "[新注册临床试验，尚无结果；申办者：Hilal KAHRAMAN；疾病/状况：术后肺部并发症；类型：干预性；分期：不适用（NA）；入组人数：242；状态：尚未招募] 本研究旨在确定在人工智能辅助下准备的术前患者教育能否减少老年患者腹部大手术后肺部并发症。总共242例患者将被随机分配到教育组或常规护理组。教育组患者将在手术前至少24小时接受研究人员的教育，使用由人工智能开发并经专家审核的教育材料。将回答他们的问题，并向他们提供教育材料的印刷副本。常规护理组患者将接受标准护理。两组将在术前以及术后第1、3、7和30天接受评估。随访评估将在住院期间面对面进行，出院后通过电话进行。评估术后并发症的研究人员将不知道患者被分配到哪一组。将比较两组术后肺部并发症的发生情况。"
+},
+{
+"title": "Surgical Intuition in Anastomotic Leakage After Colorectal Surgery",
+"link": "https://clinicaltrials.gov/study/NCT07888478",
+"date": "2026-10-22T00:00:00+00:00",
+"badge": "NCT07888478",
+"source": "ClinicalTrials.gov",
+"source_group": "ClinicalTrials.gov",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "8b3398c50b92",
+"keep": true,
+"zh_title": "外科医生直觉用于结直肠术后吻合口漏预测",
+"summary": "瑞士巴塞尔大学医院注册4300例观察性研究，评估计算机模型及结合外科医生直觉对结直肠术后吻合口漏的预测效能。",
+"key_points": [
+"观察性研究，计划入组4300例，正在招募",
+"验证已有计算机模型对术后30天内漏的预测",
+"比较医生直觉及人机结合预测的准确性"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"临床预测",
+"手术",
+"临床决策支持"
+],
+"evidence": "新闻",
+"score": 5,
+"reason": "大样本前瞻性观察设计与人机对比，但尚无结果，属值得一看档",
+"abstract": "[Newly registered clinical trial, no results yet; sponsor: University Hospital, Basel, Switzerland; conditions: Anastomotic Leaks; type: OBSERVATIONAL; enrollment: 4300; status: RECRUITING] The SURGUT study aims to assess how well a computer model predicts bowel leaks after surgery. It will also examine whether adding surgeons' intuition improves these predictions. The study will include adults having surgery to remove part of the colon or rectum. During the operation, the remaining bowel ends are joined together. Sometimes, this connection does not heal properly and a leak develops. This is called an anastomotic leak and can cause serious complications. The research questions are: * How well does a previously developed computer model predict a leak within 30 days after surgery? * How accurately do surgeons estimate the risk of a leak? * Does combining the computer model with surgeons' assessments improve prediction compared with the model alone? This observational study will take place at several hospitals in different countries. Researchers will collect information about participants' health, surgery, and presence of complications. Surgeons will complete a pre-operative and an immediately post-operative questionnaire about the estimated risk of a leak, surgical difficulty, and concerns about the bowel connection. Researchers will record whether a leak occurs within 30 days after surgery. They will compare these outcomes with the predictions from the computer model, surgeons' assessments, and the combination of both. The findings may help improve how clinicians identify people at higher risk of a leak after bowel surgery.",
+"day": "2026-10-23",
+"rank": 8.31,
+"zh_abstract": "[新注册临床试验，尚无结果；申办方：瑞士巴塞尔大学医院（University Hospital, Basel, Switzerland）；疾病/状况：吻合口漏（Anastomotic Leaks）；类型：观察性（OBSERVATIONAL）；入组人数：4300；状态：招募中（RECRUITING）] SURGUT研究旨在评估计算机模型预测手术后肠漏的效果。该研究还将考察加入外科医生的直觉是否能改善这些预测。该研究将纳入接受部分结肠或直肠切除术的成人。手术过程中，剩余肠端被连接在一起。有时这种连接愈合不良并发生漏。这称为吻合口漏，可导致严重并发症。研究问题为：* 先前开发的计算机模型对术后30天内漏的预测效果如何？* 外科医生对漏风险的估计有多准确？* 与单独使用模型相比，将计算机模型与外科医生评估相结合是否能改善预测？这项观察性研究将在不同国家的多家医院开展。研究人员将收集参与者健康、手术及并发症存在情况的信息。外科医生将完成术前和术后即刻问卷，内容涉及估计的漏风险、手术难度及对肠连接的担忧。研究人员将记录术后30天内是否发生漏。他们将把这些结局与计算机模型的预测、外科医生的评估以及两者结合后的预测进行比较。研究结果可能有助于改善临床医生识别肠手术后漏风险较高人群的方式。"
 },
 {
 "title": "General Purpose AI for Public Data Analysis and Experimental Hypothesis Generation",
@@ -887,6 +887,125 @@
 "rank": 7.31
 },
 {
+"title": "韩与世卫组织发布《AI健康护理首尔宣言》 推动医疗AI成果普惠全球",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNU1FqU2ZHLXQ1eG5tczBINXdCUWhzenJVOFVZSEFZV0p1Q1MyYTFWOWRVU3pqYm1abUtIc2Z1cHhyY1J1R1U3dWNvNW5oUW8ySTF1LVdMdXB2cDV5VC1ITXZlLWY1MkZOc0VMVldQM1R2aVVk?oc=5",
+"date": "2026-10-22T06:36:18+00:00",
+"source": "Korea.net",
+"source_group": "Google News · 中文医疗AI",
+"home": "https://chinese.korea.net",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "a0c6dcf0131b",
+"keep": true,
+"zh_title": "韩与世卫发布《AI健康护理首尔宣言》",
+"summary": "韩国与世卫组织发布《AI健康护理首尔宣言》，称推动医疗AI成果普惠全球。",
+"key_points": [],
+"section": "落地与监管",
+"type": "监管",
+"tags": [
+"监管政策"
+],
+"evidence": "新闻",
+"score": 5,
+"reason": "国际政策层面宣言，但仅有标题信息，按title_only上限内给中等分",
+"day": "2026-10-23",
+"rank": 7.31
+},
+{
+"title": "Microsoft, Opella partner on agentic AI content verification platform",
+"link": "https://www.fiercehealthcare.com/ai-and-machine-learning/microsoft-opella-partner-agentic-ai-content-verification-platform",
+"date": "2026-10-23T01:42:35.066210+00:00",
+"source": "Fierce Healthcare",
+"source_group": "Fierce Healthcare",
+"home": "",
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "e433ed10bf87",
+"_abs_err": "page: no abstract in meta (816084 bytes; title: Microsoft, Opella collab on agentic content verification pla; text: Microsoft, Opella collab on agentic content verification platform Fierce Pharma Fierce Biotech Fierc)",
+"keep": true,
+"zh_title": "微软与Opella合作开发智能体AI健康内容核查平台",
+"summary": "微软与消费者健康企业Opella合作，建设智能体AI平台以规模化核查健康内容。",
+"key_points": [
+"微软与Opella宣布合作",
+"目标是规模化核查健康内容",
+"平台形态为智能体AI"
+],
+"section": "大模型与智能体",
+"type": "新闻",
+"tags": [
+"医学大模型",
+"智能体"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "企业合作动态，无技术细节与效果数据，属一般行业新闻档",
+"day": "2026-10-23",
+"rank": 7.0
+},
+{
+"title": "BioStack融资950万美元，将全球医院数据转化为用于医疗人工智能的多模态训练数据集",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WNEpyRV9vRU9oRVM5WHA0ZmRxbnVhQUFBcm9MTE1pYUI2UmlIYm4wcEpjY2hNSmRQV0xLUG5fX25WcUt1aDZfNl9YSFROYjJwTldn?oc=5",
+"date": "2026-10-22T19:00:00+00:00",
+"source": "动脉网",
+"source_group": "Google News · 中文医疗AI融资",
+"home": "https://www.vbdata.cn",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "527e7423edd6",
+"keep": true,
+"zh_title": "BioStack融资950万美元构建医院多模态AI数据集",
+"summary": "BioStack融资950万美元，将全球医院数据转化为医疗AI多模态训练数据集。",
+"key_points": [],
+"section": "落地与监管",
+"type": "融资",
+"tags": [
+"融资与并购",
+"多模态",
+"数据集"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "小额融资且仅标题信息，未达大额融资档",
+"day": "2026-10-23",
+"rank": 6.5
+},
+{
+"title": "Semantic distance metrics in anatomy education: Toward AI-assisted mapping of anatomy-to-clinical reasoning.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42900165/",
+"date": "2026-10-20T00:00:00+00:00",
+"badge": "DOI 10.1002/ase.70371",
+"source": "PubMed · Anatomical sciences education",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "45292d3e8b22",
+"keep": true,
+"zh_title": "解剖学教育中的语义距离度量框架",
+"summary": "文章提出概念框架，用大语言模型嵌入空间的分布邻近度作为衡量解剖知识与临床推理之间语义距离的可扩展计算代理指标。",
+"key_points": [
+"提出语义距离的三个分析层次",
+"第三层为LLM嵌入空间的分布邻近度",
+"称其可作为前两层次的可扩展计算代理"
+],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"医学大模型",
+"临床决策支持"
+],
+"evidence": "同行评审",
+"score": 3,
+"reason": "概念框架类观点文章，无实证数据，属增量档",
+"abstract": "[Anatomical sciences education] Anatomy education traditionally emphasizes structural knowledge acquisition, with the implicit assumption that clinical reasoning capabilities will naturally follow. However, the cognitive pathway from anatomical understanding to clinical application is rarely linear or uniform. This article proposes a conceptual framework in which semantic distance-the conceptual separation between anatomical knowledge and clinical endpoints-operates at three analytically distinct levels: (1) the learner's internal cognitive network, shaped by prior experience and schema formation; (2) the structural distance within curriculum maps, ontologies, or knowledge graphs; and (3) the distributional proximity within large language model (LLM) embedding spaces, which may serve as a scalable computational proxy indicator for the first two levels. These three levels must be explicitly distinguished if semantic distance is to function as a useful construct in anatomy education. To illustrate the framework's utility, three worked examples are developed-the femoral nerve, coronary circulation, and spinal cord anatomy-accompanied by a preliminary computational illustration of embedding distances rather than an empirically validated diagnostic instrument. A practical educator workflow is proposed through which computational signals may be translated into targeted curriculum decisions. The article positions semantic distance metrics as complementary to curriculum network analytics and highlights how cross-domain transitions (from anatomy through physiology and pathology to clinical presentation) represent qualitatively different educational problems requiring different interventions. Prospective validation studies, multimodal computational approaches, and longitudinal curriculum outcome analyses are needed before this framework can be applied systematically.",
+"day": "2026-10-23",
+"rank": 6.99,
+"zh_abstract": "[解剖科学教育] 解剖学教育传统上强调结构知识的获取，并隐含假设临床推理能力会自然随之形成。然而，从解剖学理解到临床应用的认知路径很少是线性或一致的。本文提出一个概念框架，其中语义距离——解剖学知识与临床终点之间的概念间隔——在三个分析上不同的层面发挥作用：（1）学习者内部的认知网络，由先前经验和图式形成所塑造；（2）课程图谱、本体或知识图谱中的结构距离；（3）大语言模型（LLM）嵌入空间中的分布邻近性，其可能作为前两个层面的可扩展计算替代指标。若语义距离要在解剖学教育中作为一个有用的构念发挥作用，就必须明确区分这三个层面。为说明该框架的实用性，本文开发了三个示例——股神经、冠状循环和脊髓解剖——并伴随对嵌入距离的初步计算示例，而非经实证验证的诊断工具。本文提出一个实用的教育者工作流程，通过该流程可将计算信号转化为有针对性的课程决策。本文将语义距离指标定位为课程网络分析的补充，并强调跨领域转换（从解剖学经生理学和病理学到临床表现）代表着质性不同的教育问题，需要不同的干预措施。在该框架能够被系统应用之前，仍需开展前瞻性验证研究、多模态计算方法以及纵向课程结局分析。"
+},
+{
 "title": "AI-Simplified Discharge Summaries to Improve Patient Comprehension (ContextCare)",
 "link": "https://clinicaltrials.gov/study/NCT07890532",
 "date": "2026-10-22T00:00:00+00:00",
@@ -985,97 +1104,6 @@
 "day": "2026-10-23",
 "rank": 7.31,
 "zh_abstract": "[新注册临床试验，尚无结果；申办方：Sohag大学（Sohag University）；疾病/状况：SLE；类型：观察性（OBSERVATIONAL）；入组人数：500；状态：招募中（RECRUITING）] 本研究旨在开发一种低成本的、基于患者报告结局（PRO）的机器学习（ML）工具，该工具能够：- 降低实验室成本 - 实现远程医疗监测 - 早期发现疾病发作 - 改善资源有限环境中的照护。"
-},
-{
-"title": "韩与世卫组织发布《AI健康护理首尔宣言》 推动医疗AI成果普惠全球",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNU1FqU2ZHLXQ1eG5tczBINXdCUWhzenJVOFVZSEFZV0p1Q1MyYTFWOWRVU3pqYm1abUtIc2Z1cHhyY1J1R1U3dWNvNW5oUW8ySTF1LVdMdXB2cDV5VC1ITXZlLWY1MkZOc0VMVldQM1R2aVVk?oc=5",
-"date": "2026-10-22T06:36:18+00:00",
-"source": "Korea.net",
-"source_group": "Google News · 中文医疗AI",
-"home": "https://chinese.korea.net",
-"thin": true,
-"badge": "",
-"pop": null,
-"id": "a0c6dcf0131b",
-"keep": true,
-"zh_title": "韩与世卫发布《AI健康护理首尔宣言》",
-"summary": "韩国与世卫组织发布《AI健康护理首尔宣言》，称推动医疗AI成果普惠全球。",
-"key_points": [],
-"section": "落地与监管",
-"type": "监管",
-"tags": [
-"监管政策"
-],
-"evidence": "新闻",
-"score": 5,
-"reason": "国际政策层面宣言，但仅有标题信息，按title_only上限内给中等分",
-"day": "2026-10-23",
-"rank": 7.31
-},
-{
-"title": "Microsoft, Opella partner on agentic AI content verification platform",
-"link": "https://www.fiercehealthcare.com/ai-and-machine-learning/microsoft-opella-partner-agentic-ai-content-verification-platform",
-"date": "2026-10-23T01:42:35.066210+00:00",
-"source": "Fierce Healthcare",
-"source_group": "Fierce Healthcare",
-"home": "",
-"thin": false,
-"badge": "",
-"pop": null,
-"id": "e433ed10bf87",
-"_abs_err": "page: no abstract in meta (816084 bytes; title: Microsoft, Opella collab on agentic content verification pla; text: Microsoft, Opella collab on agentic content verification platform Fierce Pharma Fierce Biotech Fierc)",
-"keep": true,
-"zh_title": "微软与Opella合作开发智能体AI健康内容核查平台",
-"summary": "微软与消费者健康企业Opella合作，建设智能体AI平台以规模化核查健康内容。",
-"key_points": [
-"微软与Opella宣布合作",
-"目标是规模化核查健康内容",
-"平台形态为智能体AI"
-],
-"section": "大模型与智能体",
-"type": "新闻",
-"tags": [
-"医学大模型",
-"智能体"
-],
-"evidence": "新闻",
-"score": 4,
-"reason": "企业合作动态，无技术细节与效果数据，属一般行业新闻档",
-"day": "2026-10-23",
-"rank": 7.0
-},
-{
-"title": "Semantic distance metrics in anatomy education: Toward AI-assisted mapping of anatomy-to-clinical reasoning.",
-"link": "https://pubmed.ncbi.nlm.nih.gov/42900165/",
-"date": "2026-10-20T00:00:00+00:00",
-"badge": "DOI 10.1002/ase.70371",
-"source": "PubMed · Anatomical sciences education",
-"source_group": "PubMed",
-"home": "",
-"thin": false,
-"pop": null,
-"id": "45292d3e8b22",
-"keep": true,
-"zh_title": "解剖学教育中的语义距离度量框架",
-"summary": "文章提出概念框架，用大语言模型嵌入空间的分布邻近度作为衡量解剖知识与临床推理之间语义距离的可扩展计算代理指标。",
-"key_points": [
-"提出语义距离的三个分析层次",
-"第三层为LLM嵌入空间的分布邻近度",
-"称其可作为前两层次的可扩展计算代理"
-],
-"section": "落地与监管",
-"type": "观点",
-"tags": [
-"医学大模型",
-"临床决策支持"
-],
-"evidence": "同行评审",
-"score": 3,
-"reason": "概念框架类观点文章，无实证数据，属增量档",
-"abstract": "[Anatomical sciences education] Anatomy education traditionally emphasizes structural knowledge acquisition, with the implicit assumption that clinical reasoning capabilities will naturally follow. However, the cognitive pathway from anatomical understanding to clinical application is rarely linear or uniform. This article proposes a conceptual framework in which semantic distance-the conceptual separation between anatomical knowledge and clinical endpoints-operates at three analytically distinct levels: (1) the learner's internal cognitive network, shaped by prior experience and schema formation; (2) the structural distance within curriculum maps, ontologies, or knowledge graphs; and (3) the distributional proximity within large language model (LLM) embedding spaces, which may serve as a scalable computational proxy indicator for the first two levels. These three levels must be explicitly distinguished if semantic distance is to function as a useful construct in anatomy education. To illustrate the framework's utility, three worked examples are developed-the femoral nerve, coronary circulation, and spinal cord anatomy-accompanied by a preliminary computational illustration of embedding distances rather than an empirically validated diagnostic instrument. A practical educator workflow is proposed through which computational signals may be translated into targeted curriculum decisions. The article positions semantic distance metrics as complementary to curriculum network analytics and highlights how cross-domain transitions (from anatomy through physiology and pathology to clinical presentation) represent qualitatively different educational problems requiring different interventions. Prospective validation studies, multimodal computational approaches, and longitudinal curriculum outcome analyses are needed before this framework can be applied systematically.",
-"day": "2026-10-23",
-"rank": 6.99,
-"zh_abstract": "[解剖科学教育] 解剖学教育传统上强调结构知识的获取，并隐含假设临床推理能力会自然随之形成。然而，从解剖学理解到临床应用的认知路径很少是线性或一致的。本文提出一个概念框架，其中语义距离——解剖学知识与临床终点之间的概念间隔——在三个分析上不同的层面发挥作用：（1）学习者内部的认知网络，由先前经验和图式形成所塑造；（2）课程图谱、本体或知识图谱中的结构距离；（3）大语言模型（LLM）嵌入空间中的分布邻近性，其可能作为前两个层面的可扩展计算替代指标。若语义距离要在解剖学教育中作为一个有用的构念发挥作用，就必须明确区分这三个层面。为说明该框架的实用性，本文开发了三个示例——股神经、冠状循环和脊髓解剖——并伴随对嵌入距离的初步计算示例，而非经实证验证的诊断工具。本文提出一个实用的教育者工作流程，通过该流程可将计算信号转化为有针对性的课程决策。本文将语义距离指标定位为课程网络分析的补充，并强调跨领域转换（从解剖学经生理学和病理学到临床表现）代表着质性不同的教育问题，需要不同的干预措施。在该框架能够被系统应用之前，仍需开展前瞻性验证研究、多模态计算方法以及纵向课程结局分析。"
 },
 {
 "title": "Development and Preliminary Evaluation of the Patient-Artificial Intelligence Rating Instrument",
@@ -1178,32 +1206,30 @@
 "zh_abstract": "【背景】维基百科是主要的消费者健康资源，但其医学内容几乎仅以英语接受审计，其他语言版本的药物安全警示可能较弱。【目的】检验俄语、阿拉伯语和希伯来语维基百科条目是否比英语条目包含更少的可操作药物安全警示。【方法】我们在四个语言版本中审计了33种药物：24种风险阳性药物（葡萄糖-6-磷酸脱氢酶[G6PD]缺乏症、致畸性和QT间期延长各8种，以参考标准为基准）和9种阴性对照。使用三个大语言模型作为测量工具，对每条警示编码为0（未提及）、1（提及）或2（明确指令）。由一名药师解决G6PD和致畸性方面的分歧；12项QT分歧保留多数编码，并进行极端编码敏感性分析。预设分析为以英语为参照的分层贝叶斯累积logit模型。【结果】与英语相比的合并累积比值比分别为0.41（俄语）、0.25（阿拉伯语）和0.31（希伯来语），英语警示更强的后验概率分别为78%、87%和87%；95%可信区间包含1。九个语言×领域估计中有八个低于1（例外：俄语QT）。探索性分析提示，俄语差距主要反映条目缺失或过短，而阿拉伯语条目较少将已提及的风险升级为明确指令。Wikidata的禁忌证属性总共出现在12条声明中，受审计药物均无此类声明。【结论】在九项比较中的八项中，俄语、阿拉伯语和希伯来语的警示弱于英语，且因小型目的性专家组和尚未经人工编码验证的模型编码而存在较大不确定性。"
 },
 {
-"title": "BioStack融资950万美元，将全球医院数据转化为用于医疗人工智能的多模态训练数据集",
-"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WNEpyRV9vRU9oRVM5WHA0ZmRxbnVhQUFBcm9MTE1pYUI2UmlIYm4wcEpjY2hNSmRQV0xLUG5fX25WcUt1aDZfNl9YSFROYjJwTldn?oc=5",
-"date": "2026-10-22T19:00:00+00:00",
-"source": "动脉网",
+"title": "OpenAI加码AI制药，行业迈入临床验证关键阶段",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbXpBX1h6U0hoVVZKd1UwU0xkT0lZQVphUmROcFVMNHdsQ0JZWjVxVnZvWkVybEh0cXNIZl9rVmNsbVFfUnllYThxamc4SHBWWVFrNjJoR3FBWUVYNHltRG4ydTVJRmp5RGpMTlBzS2I3UmRIOGdMSjBSYkRFUTdfRTA4Y2xycGp2bFlZMFRZWQ?oc=5",
+"date": "2026-10-21T08:34:00+00:00",
+"source": "21财经",
 "source_group": "Google News · 中文医疗AI融资",
-"home": "https://www.vbdata.cn",
+"home": "https://www.21jingji.com",
 "thin": true,
 "badge": "",
 "pop": null,
-"id": "527e7423edd6",
+"id": "1aefedb4d81e",
 "keep": true,
-"zh_title": "BioStack融资950万美元构建医院多模态AI数据集",
-"summary": "BioStack融资950万美元，将全球医院数据转化为医疗AI多模态训练数据集。",
+"zh_title": "OpenAI加码AI制药，行业进入临床验证阶段",
+"summary": "报道称OpenAI加码AI制药，行业迈入临床验证关键阶段，具体细节未披露。",
 "key_points": [],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [
-"融资与并购",
-"多模态",
-"数据集"
+"药物发现"
 ],
 "evidence": "新闻",
 "score": 4,
-"reason": "小额融资且仅标题信息，未达大额融资档",
+"reason": "仅标题的行业动态，无具体数据或研究细节，属增量档",
 "day": "2026-10-23",
-"rank": 6.5
+"rank": 6.14
 },
 {
 "title": "Advancements in peptidomimetics as a strategy against multidrug resistance: Fundamentals, rational design, resistance mechanisms, and artificial intelligence.",
@@ -1239,6 +1265,162 @@
 "zh_abstract": "[Drug resistance updates : reviews and commentaries in antimicrobial and anticancer chemotherapy] 抗菌肽具有快速、通常以膜为中心的作用活性，但其治疗转化受到蛋白水解不稳定性、毒性、生理条件下活性降低、不利药代动力学以及生产制造挑战的限制。拟肽（peptidomimetics）力图在保留抗菌肽功能逻辑的同时改善这些性质。本综述提出了基于拟肽的抗菌药物发现的统一框架。文中描述了抗菌拟肽的基本原理和类别，讨论了抗菌活性机制以及多药耐药的分子基础。本综述还强调了分子建模的进展以及人工智能日益重要的作用。研究使用PubMed、Scopus、Web of Science和Google Scholar进行文献检索，以综述关于拟肽的实验、计算和转化研究。筛选了相关研究。本综述考察了拟肽的基本原理，包括关键类别、结构修饰以及旨在克服抗菌耐药性的优化策略。本综述还强调，有效的抗菌作用涉及静电积聚、选择性膜锚定、转变为膜活性构象，以及在某些情况下渗透至细胞内靶点。在革兰阴性菌中，脂多糖组织和Ca²⁺/Mg²⁺介导的交联增加了膜结合的能量屏障。此外，合成方法学的进展与AI相结合，预期能够实现更快、更高效的合成路线。拟肽力图通过将耐药韧性编码到分子设计中，而不是依赖单一靶点的新颖性，来重新定义抗菌策略。其未来影响将取决于整合构效关系、机制理解与AI引导的设计。"
 },
 {
+"title": "讯飞医疗升级星火大模型V3.7，MedBench5.0评测居首，医疗AI从\"能用\"迈向\"好用\"_公司新闻_财经",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zRmprMWc5TmtSUzhUZ2RZeFVqelBxcTB0eDI3MndQSGxiTThfeWV4ZTRTdE9fTXhWdC1qRDk1SENSSFJBVmRxazQtaWJ2MHRhZFhTZkxVUVFvOUw0ZHFEbw?oc=5",
+"date": "2026-10-22T12:55:02+00:00",
+"source": "证券之星",
+"source_group": "Google News · 中文医疗AI",
+"home": "https://wap.stockstar.com",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "e02fba146c84",
+"keep": true,
+"zh_title": "讯飞医疗升级星火大模型V3.7",
+"summary": "仅标题：讯飞医疗升级星火大模型V3.7，称在MedBench5.0评测中居首。",
+"key_points": [],
+"section": "大模型与智能体",
+"type": "模型",
+"tags": [
+"医学大模型",
+"基准"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "厂商自报榜单成绩，无方法与对照，属增量档",
+"day": "2026-10-23",
+"rank": 6.31
+},
+{
+"title": "千万级医疗AI订单，智谱中标！",
+"link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTzZzRUNjY0N2SENrcmUtSS03U2ZPZUtIQWZNX2Y4U01VQVJYcFVJR1U0T1drRXdMaTIxeTlqVzJ6a2JRcTdyeHc0WlJlNzgwbHpxVUtjWDM3Wl9WaTdHNHM2RHpmeVhvMG1venhvQW9NNDlQbzdmTy04NTY3Ry1fNEpMdTNCMFlZb1c5N285ZUJ3YURYX0wzelZmMHZuOTJUUmc4Q3VPeldVUDZLQk9ZTFlKT2RJRnFDNUhMMmVIMEx3LWdGVXpNTy1OMXZhRjlKbnN0U0ZxTDR6T2tG?oc=5",
+"date": "2026-10-22T08:03:45+00:00",
+"source": "finance.sina.com.cn",
+"source_group": "Google News · 中文医疗AI",
+"home": "https://finance.sina.cn",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "c4569e97604f",
+"also": [
+{
+"source": "搜狐网",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX3ZjN0Jwd0lyYW5VUGZrZFlqRE43SU92TnpDc1ljR1RlSjF0MU1EYWRsNUdpWjFndDlWTHJtcmpCQkxOcW8tNnlya1F5d2VQclZsQnczM3huTWNpeVhMbmc1dVlMNmpfNG1RbmJpdjNIVDNYOWYyNXdqREtpSHYzUVMzQU5jV0Rwb0VR?oc=5"
+},
+{
+"source": "智东西",
+"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1nNXdydmxTbl91Z01DdWlUWldEMjg1VUkzQ2owOUk3Unl5c2pnU1pYdWpyc2xycTQ3U2dJNWxtTDFUTElBb20tSA?oc=5"
+}
+],
+"keep": true,
+"zh_title": "智谱中标千万级医疗AI订单",
+"summary": "报道称智谱中标千万级医疗AI订单，项目具体内容未披露。",
+"key_points": [],
+"section": "落地与监管",
+"type": "融资",
+"tags": [
+"临床落地",
+"医学大模型"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "仅标题的订单类行业动态，信息量有限，属增量档",
+"day": "2026-10-23",
+"rank": 6.31
+},
+{
+"title": "聚焦 | 国家医疗AI中试基地落地广州一年多，这些成果亮了",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MakREUVJaWWJzYnVtMk1TcDk5WWJZeS1jXzRIcUJLYzdTRkVqQTZCalNKSko4YkxWdlRzazJIRkM5OW1YMGNFQjRGWU9wUG9TQTA1enpmUkFScElYMGFiQmNIVVR5UDdFRTZfcUlhd25jOXdrUXc?oc=5",
+"date": "2026-10-22T09:00:00+00:00",
+"source": "新浪财经",
+"source_group": "Google News · 中文医疗AI",
+"home": "https://finance.sina.com.cn",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "b9f6ba988ab7",
+"keep": true,
+"zh_title": "国家医疗AI中试基地落地广州一年多成果发布",
+"summary": "据报道，国家医疗AI中试基地落地广州一年多，相关成果集中披露。",
+"key_points": [],
+"section": "落地与监管",
+"type": "监管",
+"tags": [
+"临床落地",
+"监管政策"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "仅标题无正文，属落地进展类新闻，信息量有限",
+"day": "2026-10-23",
+"rank": 6.31,
+"also": [
+{
+"source": "凤凰网",
+"link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9wWWZIOWV3Mmh3cEI4UUJUbmJBQkJpcWhzNTNWYWpJQjhfbVMyclFVc1VPNF9mM1MzYmdMcjZaNThwRENsR3hXYkdjUkU?oc=5"
+}
+]
+},
+{
+"title": "讯飞医疗科技(02506)全面完成基于全国产算力训练的星火医疗大模型重磅升级 星火医疗大模型V3.7正式发布",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Jb0RXMnpNSGNhd2owX2tieVBITm9YOHZVOVJXT1dnNElZZ0IteFhmaGMxUUFZZDBQcFJJUUZUWXlNdzhUMFBzVkZvWkplM0F0MllNOHZZaHFJeVJEX1BHeA?oc=5",
+"date": "2026-10-22T10:43:20+00:00",
+"source": "证券之星",
+"source_group": "Google News · 中文医疗AI",
+"home": "https://wap.stockstar.com",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "64bf9c488eb4",
+"keep": true,
+"zh_title": "讯飞星火医疗大模型升级至V3.7",
+"summary": "讯飞医疗称基于全国产算力完成星火医疗大模型V3.7升级并发布。",
+"key_points": [],
+"section": "大模型与智能体",
+"type": "模型",
+"tags": [
+"医学大模型"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "仅标题的厂商发布信息，无评测数据，属产品更新档",
+"day": "2026-10-23",
+"rank": 6.31
+},
+{
+"title": "【首发】智宠制药完成数千万元A1轮融资，以\"端到端AI+比较医学\"双轮驱动重塑宠物药研发",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaEstemlLeXdQZjNOemV4X1FpN0tkWVdCTWYyTnVFY3lfMlRrN1oyTEV6R0N1eWlMTGlRczVQS1JiUXpBSUtCYTdMNmM0TDU5OWZySU9PaVFOMlhKZ0dtYWtkVWV4Um9mQkRuM2JsRVk4WWp3UnF2dnI0Y2lHR1hQV0FZNklWV1JT?oc=5",
+"date": "2026-10-23T00:00:00+00:00",
+"source": "搜狐",
+"source_group": "Google News · 中文医疗AI融资",
+"home": "https://m.sohu.com",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "7310b2b6a3ab",
+"keep": true,
+"zh_title": "智宠制药完成数千万元A1轮融资",
+"summary": "仅标题：智宠制药完成数千万元A1轮融资，以“端到端AI+比较医学”推进宠物药研发。",
+"key_points": [],
+"section": "落地与监管",
+"type": "融资",
+"tags": [
+"融资与并购",
+"药物发现"
+],
+"evidence": "新闻",
+"score": 3,
+"reason": "小额融资，宠物药方向与临床医疗AI关联较弱",
+"day": "2026-10-23",
+"rank": 5.5,
+"also": [
+{
+"source": "ByDrug",
+"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HaWhfYlp0UFpfTjJmNDNyd2FBaGRZZGJzUWVxS3psU0dBWmxheXF1UmVWcTlSdE1SQmM4dUcwaWpmWEFNMk03blNuemV5M0VKaDFfR0Qyd0RkdFlzUUxDV2Q0azAwc1lvYzBEWnVRMFVhM0tRN2lsSzJ2Y1dIZw?oc=5"
+}
+]
+},
+{
 "title": "Artificial Intelligence (AI)-Initiated Clinical Decision Support in Hospitalist Practice",
 "link": "https://clinicaltrials.gov/study/NCT07889063",
 "date": "2026-10-22T00:00:00+00:00",
@@ -1270,33 +1452,6 @@
 "day": "2026-10-23",
 "rank": 6.31,
 "zh_abstract": "[新注册临床试验，尚无结果；申办者：Cedars-Sinai Medical Center；疾病：Clinical Decision Support；类型：INTERVENTIONAL；阶段：NA；入组人数：20；状态：NOT_YET_RECRUITING] 本研究将评估在常规住院内科医疗照护中使用人工智能（AI）生成的临床决策支持的可行性。参与的住院医师可能会收到针对其所照护的符合条件住院患者的AI生成建议。符合条件的患者病例将被随机分配到三种AI提示策略之一，这些策略在提供给AI系统的临床信息上有所不同。审阅每条建议后，参与医师将完成一份简短调查，评估该建议的临床有用性、他们如何解读该建议，以及该建议是否已被或将被纳入患者管理。本研究将评估AI生成建议能否在常规临床照护中成功生成和传递，以及医师是否完成研究调查并采纳建议。它还将提供关于医师对三种提示策略下AI生成建议看法的初步信息。这些发现将用于为未来更大规模的AI发起临床决策支持随机试验设计提供信息。"
-},
-{
-"title": "讯飞医疗升级星火大模型V3.7，MedBench5.0评测居首，医疗AI从\"能用\"迈向\"好用\"_公司新闻_财经",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zRmprMWc5TmtSUzhUZ2RZeFVqelBxcTB0eDI3MndQSGxiTThfeWV4ZTRTdE9fTXhWdC1qRDk1SENSSFJBVmRxazQtaWJ2MHRhZFhTZkxVUVFvOUw0ZHFEbw?oc=5",
-"date": "2026-10-22T12:55:02+00:00",
-"source": "证券之星",
-"source_group": "Google News · 中文医疗AI",
-"home": "https://wap.stockstar.com",
-"thin": true,
-"badge": "",
-"pop": null,
-"id": "e02fba146c84",
-"keep": true,
-"zh_title": "讯飞医疗升级星火大模型V3.7",
-"summary": "仅标题：讯飞医疗升级星火大模型V3.7，称在MedBench5.0评测中居首。",
-"key_points": [],
-"section": "大模型与智能体",
-"type": "模型",
-"tags": [
-"医学大模型",
-"基准"
-],
-"evidence": "新闻",
-"score": 4,
-"reason": "厂商自报榜单成绩，无方法与对照，属增量档",
-"day": "2026-10-23",
-"rank": 6.31
 },
 {
 "title": "Assessment of Intelligent Algorithms for Detection, Diagnosis and Risk Stratification of Tumors of the Kidney and Prostate",
@@ -1333,43 +1488,6 @@
 "zh_abstract": "[新注册临床试验，尚无结果；申办者：Aristotle University Of Thessaloniki；疾病/状况：肾癌、前列腺癌；类型：观察性；入组人数：50；状态：尚未招募] COMFORT 研究将评估一个基于人工智能开发的平台，用于支持肾癌和前列腺癌的临床评估。该平台利用影像数据提供 AI 生成的输出，旨在协助临床医生评估可疑病变。本研究的主要目标是评估 COMFORT 平台在管理肾癌或前列腺癌病例的临床医生临床决策过程中的作用。次要目标包括评估 AI 模型在解剖分割、肿瘤表征（定位、体积测量、病变分类和评分（例如 Bosniak、PI-RADS、RENAL））方面的性能。此外，还将评估 AI 模型的可接受性、可用性、效用和可信度。另外，作为平台隐私评估的一部分，将评估与 COMFORT AI 模型相关的潜在隐私泄露原因。"
 },
 {
-"title": "千万级医疗AI订单，智谱中标！",
-"link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTzZzRUNjY0N2SENrcmUtSS03U2ZPZUtIQWZNX2Y4U01VQVJYcFVJR1U0T1drRXdMaTIxeTlqVzJ6a2JRcTdyeHc0WlJlNzgwbHpxVUtjWDM3Wl9WaTdHNHM2RHpmeVhvMG1venhvQW9NNDlQbzdmTy04NTY3Ry1fNEpMdTNCMFlZb1c5N285ZUJ3YURYX0wzelZmMHZuOTJUUmc4Q3VPeldVUDZLQk9ZTFlKT2RJRnFDNUhMMmVIMEx3LWdGVXpNTy1OMXZhRjlKbnN0U0ZxTDR6T2tG?oc=5",
-"date": "2026-10-22T08:03:45+00:00",
-"source": "finance.sina.com.cn",
-"source_group": "Google News · 中文医疗AI",
-"home": "https://finance.sina.cn",
-"thin": true,
-"badge": "",
-"pop": null,
-"id": "c4569e97604f",
-"also": [
-{
-"source": "搜狐网",
-"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX3ZjN0Jwd0lyYW5VUGZrZFlqRE43SU92TnpDc1ljR1RlSjF0MU1EYWRsNUdpWjFndDlWTHJtcmpCQkxOcW8tNnlya1F5d2VQclZsQnczM3huTWNpeVhMbmc1dVlMNmpfNG1RbmJpdjNIVDNYOWYyNXdqREtpSHYzUVMzQU5jV0Rwb0VR?oc=5"
-},
-{
-"source": "智东西",
-"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1nNXdydmxTbl91Z01DdWlUWldEMjg1VUkzQ2owOUk3Unl5c2pnU1pYdWpyc2xycTQ3U2dJNWxtTDFUTElBb20tSA?oc=5"
-}
-],
-"keep": true,
-"zh_title": "智谱中标千万级医疗AI订单",
-"summary": "报道称智谱中标千万级医疗AI订单，项目具体内容未披露。",
-"key_points": [],
-"section": "产业动态",
-"type": "融资",
-"tags": [
-"临床落地",
-"医学大模型"
-],
-"evidence": "新闻",
-"score": 4,
-"reason": "仅标题的订单类行业动态，信息量有限，属增量档",
-"day": "2026-10-23",
-"rank": 6.31
-},
-{
 "title": "Replacing Spatial Filtering With Deep-learning Noise Reduction",
 "link": "https://clinicaltrials.gov/study/NCT07888218",
 "date": "2026-10-22T00:00:00+00:00",
@@ -1400,118 +1518,6 @@
 "day": "2026-10-23",
 "rank": 6.31,
 "zh_abstract": "[新注册临床试验，尚无结果；申办方：法国南锡中央医院（Central Hospital, Nancy, France）；疾病/状况：心脏病（Cardiac Disease）；类型：观察性（OBSERVATIONAL）；入组人数：49；状态：尚未开始招募（NOT_YET_RECRUITING）] 门控SPECT心肌灌注成像通常需要空间滤波以降低统计噪声，但代价是图像模糊。本研究将评估一种基于深度学习的降噪（DLNR）方法——该方法为缩短采集时间而开发——在替代常规空间滤波器（CSF）时的表现。"
-},
-{
-"title": "聚焦 | 国家医疗AI中试基地落地广州一年多，这些成果亮了",
-"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MakREUVJaWWJzYnVtMk1TcDk5WWJZeS1jXzRIcUJLYzdTRkVqQTZCalNKSko4YkxWdlRzazJIRkM5OW1YMGNFQjRGWU9wUG9TQTA1enpmUkFScElYMGFiQmNIVVR5UDdFRTZfcUlhd25jOXdrUXc?oc=5",
-"date": "2026-10-22T09:00:00+00:00",
-"source": "新浪财经",
-"source_group": "Google News · 中文医疗AI",
-"home": "https://finance.sina.com.cn",
-"thin": true,
-"badge": "",
-"pop": null,
-"id": "b9f6ba988ab7",
-"keep": true,
-"zh_title": "国家医疗AI中试基地落地广州一年多成果发布",
-"summary": "据报道，国家医疗AI中试基地落地广州一年多，相关成果集中披露。",
-"key_points": [],
-"section": "落地与监管",
-"type": "监管",
-"tags": [
-"临床落地",
-"监管政策"
-],
-"evidence": "新闻",
-"score": 4,
-"reason": "仅标题无正文，属落地进展类新闻，信息量有限",
-"day": "2026-10-23",
-"rank": 6.31
-},
-{
-"title": "讯飞医疗科技(02506)全面完成基于全国产算力训练的星火医疗大模型重磅升级 星火医疗大模型V3.7正式发布",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Jb0RXMnpNSGNhd2owX2tieVBITm9YOHZVOVJXT1dnNElZZ0IteFhmaGMxUUFZZDBQcFJJUUZUWXlNdzhUMFBzVkZvWkplM0F0MllNOHZZaHFJeVJEX1BHeA?oc=5",
-"date": "2026-10-22T10:43:20+00:00",
-"source": "证券之星",
-"source_group": "Google News · 中文医疗AI",
-"home": "https://wap.stockstar.com",
-"thin": true,
-"badge": "",
-"pop": null,
-"id": "64bf9c488eb4",
-"keep": true,
-"zh_title": "讯飞星火医疗大模型升级至V3.7",
-"summary": "讯飞医疗称基于全国产算力完成星火医疗大模型V3.7升级并发布。",
-"key_points": [],
-"section": "大模型与智能体",
-"type": "模型",
-"tags": [
-"医学大模型"
-],
-"evidence": "新闻",
-"score": 4,
-"reason": "仅标题的厂商发布信息，无评测数据，属产品更新档",
-"day": "2026-10-23",
-"rank": 6.31
-},
-{
-"title": "OpenAI加码AI制药，行业迈入临床验证关键阶段",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbXpBX1h6U0hoVVZKd1UwU0xkT0lZQVphUmROcFVMNHdsQ0JZWjVxVnZvWkVybEh0cXNIZl9rVmNsbVFfUnllYThxamc4SHBWWVFrNjJoR3FBWUVYNHltRG4ydTVJRmp5RGpMTlBzS2I3UmRIOGdMSjBSYkRFUTdfRTA4Y2xycGp2bFlZMFRZWQ?oc=5",
-"date": "2026-10-21T08:34:00+00:00",
-"source": "21财经",
-"source_group": "Google News · 中文医疗AI融资",
-"home": "https://www.21jingji.com",
-"thin": true,
-"badge": "",
-"pop": null,
-"id": "1aefedb4d81e",
-"keep": true,
-"zh_title": "OpenAI加码AI制药，行业进入临床验证阶段",
-"summary": "报道称OpenAI加码AI制药，行业迈入临床验证关键阶段，具体细节未披露。",
-"key_points": [],
-"section": "产业动态",
-"type": "融资",
-"tags": [
-"药物发现"
-],
-"evidence": "新闻",
-"score": 4,
-"reason": "仅标题的行业动态，无具体数据或研究细节，属增量档",
-"day": "2026-10-23",
-"rank": 6.14
-},
-{
-"title": "【首发】智宠制药完成数千万元A1轮融资，以\"端到端AI+比较医学\"双轮驱动重塑宠物药研发",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaEstemlLeXdQZjNOemV4X1FpN0tkWVdCTWYyTnVFY3lfMlRrN1oyTEV6R0N1eWlMTGlRczVQS1JiUXpBSUtCYTdMNmM0TDU5OWZySU9PaVFOMlhKZ0dtYWtkVWV4Um9mQkRuM2JsRVk4WWp3UnF2dnI0Y2lHR1hQV0FZNklWV1JT?oc=5",
-"date": "2026-10-23T00:00:00+00:00",
-"source": "搜狐",
-"source_group": "Google News · 中文医疗AI融资",
-"home": "https://m.sohu.com",
-"thin": true,
-"badge": "",
-"pop": null,
-"id": "7310b2b6a3ab",
-"keep": true,
-"zh_title": "智宠制药完成数千万元A1轮融资",
-"summary": "仅标题：智宠制药完成数千万元A1轮融资，以“端到端AI+比较医学”推进宠物药研发。",
-"key_points": [],
-"section": "产业动态",
-"type": "融资",
-"tags": [
-"融资与并购",
-"药物发现"
-],
-"evidence": "新闻",
-"score": 3,
-"reason": "小额融资，宠物药方向与临床医疗AI关联较弱",
-"day": "2026-10-23",
-"rank": 5.5,
-"also": [
-{
-"source": "ByDrug",
-"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HaWhfYlp0UFpfTjJmNDNyd2FBaGRZZGJzUWVxS3psU0dBWmxheXF1UmVWcTlSdE1SQmM4dUcwaWpmWEFNMk03blNuemV5M0VKaDFfR0Qyd0RkdFlzUUxDV2Q0azAwc1lvYzBEWnVRMFVhM0tRN2lsSzJ2Y1dIZw?oc=5"
-}
-]
 },
 {
 "title": "国家医疗AI中试基地广东发布成果，大模型加速赋能基层",
@@ -1555,7 +1561,7 @@
 "zh_title": "爱朋医疗与商汤医疗深化医疗AI合作",
 "summary": "爱朋医疗宣布与商汤医疗深化医疗AI合作，具体合作内容未披露。",
 "key_points": [],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [
 "临床落地"

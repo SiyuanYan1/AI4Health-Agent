@@ -1030,39 +1030,6 @@
 "zh_abstract": "[Healthcare (Basel, Switzerland)] 肺量计使用不足及其在初级医疗保健（PHC）中的技术质量和解读方面持续存在的局限，导致慢性阻塞性肺疾病（COPD）和哮喘诊断延迟且不准确。人工智能（AI）最近在随机对照试验层面已证明，它可以改善初级保健临床医生对肺量计的解读。最大呼气中期流量（MMEF）是一种通常从每次用力呼气动作中得出的肺量计指标，与随后的气流阻塞和肺功能下降相关，尤其是当常规肺量计指标仍保持正常时，提示它可能有助于更早识别小气道功能障碍。然而，现有综述均未考察 AI 能否专门应对 MMEF 解读的挑战，且 MMEF 在 AI 辅助肺量计模型中的增量价值仍未确立。本叙述性综述综合了关于 AI 辅助肺量计在 PHC 中应用的当前证据，涵盖三个证据领域：诊断分类、质量控制以及计算性小气道评估，并考察将 MMEF 与常规肺量计指标、流量-容积曲线形态、技术质量、临床特征和纵向数据相整合以支持其临床解读的潜力。现有证据支持支撑该拟议框架的各个组成部分的可行性，包括 AI 辅助肺量计解读、自动化质量评估以及从肺量计数据中计算提取小气道信息。然而，MMEF 在 AI 辅助模型中的情境化整合尚未经过前瞻性评估，在其推荐实施之前，需要对其增量预测价值和临床效用进行验证。"
 },
 {
-"title": "Safety, Feasibility, and Acceptability of the MINERVA Voice Conversational Agent for Emergency Department History-Taking",
-"link": "https://clinicaltrials.gov/study/NCT07877883",
-"date": "2026-10-16T00:00:00+00:00",
-"badge": "NCT07877883",
-"source": "ClinicalTrials.gov",
-"source_group": "ClinicalTrials.gov",
-"home": "",
-"thin": false,
-"pop": null,
-"id": "d561097fbdc1",
-"keep": true,
-"zh_title": "MINERVA语音对话智能体用于急诊病史采集的安全性研究",
-"summary": "Beth Israel Deaconess 新注册一项250例观察性研究，评估语音对话智能体MINERVA在急诊采集与总结病史的安全性、可行性与准确性。",
-"key_points": [
-"新注册观察性研究，目前尚无结果公布",
-"计划入组250名成人急诊患者",
-"评估摘要准确性及危险征象独立识别能力"
-],
-"section": "大模型与智能体",
-"type": "论文",
-"tags": [
-"智能体",
-"临床NLP"
-],
-"evidence": "新闻",
-"score": 4,
-"reason": "仅有试验注册信息、无结果数据，样本量中等，属增量档",
-"abstract": "[Newly registered clinical trial, no results yet; sponsor: Beth Israel Deaconess Medical Center; conditions: History Taking, Artificial Intelligence (AI); type: OBSERVATIONAL; enrollment: 250; status: ENROLLING_BY_INVITATION] This study evaluates whether an artificial intelligence (AI) conversational agent called MINERVA (Medical Interface for Navigating the Emergency Room with Voice Assistance) can safely and feasibly gather medical histories from emergency department (ED) patients and produce accurate summaries. The main questions it aims to answer are: Can an AI conversational agent gather and summarize patient histories in the emergency department? Are the resulting summaries accurate? Do they capture essential clinical information? Can an AI agent overseeing these conversations independently identify red-flag symptoms that may need time-sensitive clinical interventions? Adult ED patients interact with MINERVA via either voice chat or typing on a keyboard. MINERVA asks them questions about their symptoms and generates a summary which the patients review for accuracy. MINERVA reviews the conversation for clinical red flags that suggest urgent evaluation is required. Participants fill out a survey providing feedback on their experience. The summary is not saved in the medical record and clinical care is not affected. Physician reviewers will evaluate the safety, accuracy, and clinical value of the MINERVA interview transcripts and summaries using standardized rubrics, including whether MINERVA was correct in identifying red-flag symptoms that may need time-sensitive clinical interventions.",
-"day": "2026-10-17",
-"rank": 7.31,
-"zh_abstract": "[新注册临床试验，尚无结果；申办者：贝斯以色列女执事医疗中心（Beth Israel Deaconess Medical Center）；研究条件：病史采集、人工智能（AI）；类型：观察性（OBSERVATIONAL）；入组人数：250；状态：通过邀请招募（ENROLLING_BY_INVITATION）] 本研究评估一种名为MINERVA（Medical Interface for Navigating the Emergency Room with Voice Assistance，用于通过语音辅助在急诊科进行导航的医疗界面）的人工智能（AI）对话代理，能否安全且可行地从急诊科（ED）患者处采集病史并生成准确的摘要。它旨在回答的主要问题是：AI对话代理能否在急诊科采集并总结患者病史？所得摘要是否准确？它们是否捕获了基本临床信息？监督这些对话的AI代理能否独立识别可能需要进行时间敏感性临床干预的危险信号症状？成年ED患者通过语音聊天或在键盘上打字与MINERVA互动。MINERVA向他们询问有关其症状的问题，并生成摘要，由患者审查其准确性。MINERVA审查对话，以发现提示需要紧急评估的临床危险信号。参与者填写调查问卷，就其体验提供反馈。该摘要不保存在病历中，且不影响临床护理。医师审查者将使用标准化评分表评估MINERVA访谈转录文本和摘要的安全性、准确性和临床价值，包括MINERVA在识别可能需要时间敏感性临床干预的危险信号症状方面是否正确。"
-},
-{
 "title": "Artificial Intelligence and Large Language Models in Surgical Shared Decision-Making and Informed Consent: A Narrative Review.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42881768/",
 "date": "2026-10-06T00:00:00+00:00",
@@ -1155,6 +1122,66 @@
 "day": "2026-10-17",
 "rank": 7.14,
 "zh_abstract": "[The Kaohsiung journal of medical sciences] 牙列拥挤是正畸诊断和治疗计划的基础，然而“拥挤”的构成却出人意料地异质。间隙分析量化牙量与牙弓长度不调，不齐指数刻画排列位移，而临床医生判定的严重程度则反映了更广泛的诊断解读。本叙述性综述考察了拥挤评估的演变，从传统间隙分析和数字化测量，到二维人工智能（AI）、三维点云学习，以及具有临床医生感知能力的智能体式 AI。数字化提高了效率和可重复性，但并未解决对拥挤如何定义、如何解剖学表征以及如何确立参考标准的根本性依赖。二维模型能够基于易于获取的图像进行预测，但受限于投影和尺度；而三维方法直接从牙齿表面表征中学习，能够捕捉局部几何关系。在一项纳入 284 例患者 495 个牙弓的配套研究中，PointNet++ 预测拥挤度达到 R2 为 0.718、平均绝对误差（MAE）为 1.54 mm。在另一项回顾性演示中，一个整合了匹配病历来源言语信息的受限 Gemini 智能体将 MAE 从 1.951 mm 降至 1.437 mm，而不匹配的信息则使性能下降。这些发现还表明，目标构念——即模型被训练去预测的拥挤的特定临床特征——可能在不同评估方法之间有所不同。总体而言，这些发现凸显了一个根本性挑战：改进预测并不能解决目标构念的模糊性。因此，未来的拥挤 AI 应使目标构念、参考标准和输入表征相互对齐；保留来源信息与不确定性；透明地整合互补临床信息；并将不确定的病例转由专家复核。"
+},
+{
+"title": "Safety, Feasibility, and Acceptability of the MINERVA Voice Conversational Agent for Emergency Department History-Taking",
+"link": "https://clinicaltrials.gov/study/NCT07877883",
+"date": "2026-10-16T00:00:00+00:00",
+"badge": "NCT07877883",
+"source": "ClinicalTrials.gov",
+"source_group": "ClinicalTrials.gov",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "d561097fbdc1",
+"keep": true,
+"zh_title": "MINERVA语音对话智能体用于急诊病史采集的安全性研究",
+"summary": "Beth Israel Deaconess 新注册一项250例观察性研究，评估语音对话智能体MINERVA在急诊采集与总结病史的安全性、可行性与准确性。",
+"key_points": [
+"新注册观察性研究，目前尚无结果公布",
+"计划入组250名成人急诊患者",
+"评估摘要准确性及危险征象独立识别能力"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"智能体",
+"临床NLP"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "仅有试验注册信息、无结果数据，样本量中等，属增量档",
+"abstract": "[Newly registered clinical trial, no results yet; sponsor: Beth Israel Deaconess Medical Center; conditions: History Taking, Artificial Intelligence (AI); type: OBSERVATIONAL; enrollment: 250; status: ENROLLING_BY_INVITATION] This study evaluates whether an artificial intelligence (AI) conversational agent called MINERVA (Medical Interface for Navigating the Emergency Room with Voice Assistance) can safely and feasibly gather medical histories from emergency department (ED) patients and produce accurate summaries. The main questions it aims to answer are: Can an AI conversational agent gather and summarize patient histories in the emergency department? Are the resulting summaries accurate? Do they capture essential clinical information? Can an AI agent overseeing these conversations independently identify red-flag symptoms that may need time-sensitive clinical interventions? Adult ED patients interact with MINERVA via either voice chat or typing on a keyboard. MINERVA asks them questions about their symptoms and generates a summary which the patients review for accuracy. MINERVA reviews the conversation for clinical red flags that suggest urgent evaluation is required. Participants fill out a survey providing feedback on their experience. The summary is not saved in the medical record and clinical care is not affected. Physician reviewers will evaluate the safety, accuracy, and clinical value of the MINERVA interview transcripts and summaries using standardized rubrics, including whether MINERVA was correct in identifying red-flag symptoms that may need time-sensitive clinical interventions.",
+"day": "2026-10-17",
+"rank": 7.31,
+"zh_abstract": "[新注册临床试验，尚无结果；申办者：贝斯以色列女执事医疗中心（Beth Israel Deaconess Medical Center）；研究条件：病史采集、人工智能（AI）；类型：观察性（OBSERVATIONAL）；入组人数：250；状态：通过邀请招募（ENROLLING_BY_INVITATION）] 本研究评估一种名为MINERVA（Medical Interface for Navigating the Emergency Room with Voice Assistance，用于通过语音辅助在急诊科进行导航的医疗界面）的人工智能（AI）对话代理，能否安全且可行地从急诊科（ED）患者处采集病史并生成准确的摘要。它旨在回答的主要问题是：AI对话代理能否在急诊科采集并总结患者病史？所得摘要是否准确？它们是否捕获了基本临床信息？监督这些对话的AI代理能否独立识别可能需要进行时间敏感性临床干预的危险信号症状？成年ED患者通过语音聊天或在键盘上打字与MINERVA互动。MINERVA向他们询问有关其症状的问题，并生成摘要，由患者审查其准确性。MINERVA审查对话，以发现提示需要紧急评估的临床危险信号。参与者填写调查问卷，就其体验提供反馈。该摘要不保存在病历中，且不影响临床护理。医师审查者将使用标准化评分表评估MINERVA访谈转录文本和摘要的安全性、准确性和临床价值，包括MINERVA在识别可能需要时间敏感性临床干预的危险信号症状方面是否正确。"
+},
+{
+"title": "一家AI大模型2年冲到254亿估值！9个月签下6家巨头药企",
+"link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9DYVNzQmFvNEh2ek1JS182NnFRY2hKRTRPZ09KZjdMSktMR0xZSW5CMlBGV2ZtMk1ScDAyRU9VeTI2QVA0WGRR?oc=5",
+"date": "2026-10-16T00:00:00+00:00",
+"source": "动脉网",
+"source_group": "Google News · 中文医疗AI融资",
+"home": "https://www.vbdata.cn",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "9017e85a21d5",
+"keep": true,
+"zh_title": "AI大模型公司2年估值254亿、签约6家药企",
+"summary": "标题报道：一家AI大模型公司两年估值达254亿元，九个月签下6家大型药企，无正文细节。",
+"key_points": [],
+"section": "落地与监管",
+"type": "融资",
+"tags": [
+"融资与并购",
+"药物发现"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "仅标题的产业签约与估值动态，无实质技术信息，属增量档",
+"day": "2026-10-17",
+"rank": 6.31
 },
 {
 "title": "Curriculum-Based Deep Learning for Automated Segmental Left Ventricular Hypertrophy Classification Using Short-Axis Echocardiography.",
@@ -1257,6 +1284,10 @@
 {
 "source": "PubMed · Pain research & management",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42893423/"
+},
+{
+"source": "PubMed · PloS one",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42912756/"
 }
 ]
 },
@@ -1294,31 +1325,64 @@
 "zh_abstract": "[International journal of molecular sciences] 人工智能（AI）正在重塑分子肿瘤学，使复杂的生物学数据变得可处理，并拓展精准药物发现的范围。其新兴价值在免疫工程与靶向治疗的交叉领域尤为明显，在该领域，计算模型可帮助优先选择肿瘤选择性抗原、预测新抗原免疫原性、优化工程化受体、支持抗体和抗体-药物偶联物设计、指导小分子发现、改进基因组编辑策略并预测治疗反应。在这些应用中，核心前景并非为自动化而自动化，而是拓宽治疗窗，使肿瘤控制增强的同时脱靶毒性降低。然而，转化差距仍然巨大。许多模型仍处于临床前阶段，外部验证有限，临床实施仍不常见。本评论沿治疗连续体追踪代表性方法，该连续体如今从靶点发现和治疗工程延伸至影像学、液体活检、耐药预测、联合方案选择和药物重定位。我们认为，临床价值将取决于闭环工作流程，在该流程中，多模态预测经过实验验证、外部测试并纵向更新，以指导下一项治疗决策。"
 },
 {
-"title": "一家AI大模型2年冲到254亿估值！9个月签下6家巨头药企",
-"link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9DYVNzQmFvNEh2ek1JS182NnFRY2hKRTRPZ09KZjdMSktMR0xZSW5CMlBGV2ZtMk1ScDAyRU9VeTI2QVA0WGRR?oc=5",
-"date": "2026-10-16T00:00:00+00:00",
-"source": "动脉网",
-"source_group": "Google News · 中文医疗AI融资",
-"home": "https://www.vbdata.cn",
+"title": "肾母细胞瘤AI智能体2.0在渝发布 护航患儿全周期诊疗",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mTC05b1J4UFhZcVFvNnhLa1Q3NWE5d3JCLXVSNXY2MzV0UXNnNU05elp5YTRIcVRHTlFUdjB6MVY2aVc1WElzbjRaZFQ5bldEbGg2OG14TXY4azQ3RXdsenV4a3o5R3AyVnE2RkdnVjVqRnVM?oc=5",
+"date": "2026-10-16T09:35:06+00:00",
+"source": "新华网重庆",
+"source_group": "Google News · 中文医疗AI",
+"home": "http://cq.news.cn",
 "thin": true,
 "badge": "",
 "pop": null,
-"id": "9017e85a21d5",
+"id": "173a1490cb21",
 "keep": true,
-"zh_title": "AI大模型公司2年估值254亿、签约6家药企",
-"summary": "标题报道：一家AI大模型公司两年估值达254亿元，九个月签下6家大型药企，无正文细节。",
+"zh_title": "肾母细胞瘤 AI 智能体 2.0 在渝发布",
+"summary": "重庆发布肾母细胞瘤 AI 智能体 2.0，称用于患儿全周期诊疗。",
 "key_points": [],
-"section": "产业动态",
-"type": "融资",
+"section": "大模型与智能体",
+"type": "模型",
 "tags": [
-"融资与并购",
-"药物发现"
+"智能体",
+"肿瘤",
+"临床落地"
 ],
 "evidence": "新闻",
 "score": 4,
-"reason": "仅标题的产业签约与估值动态，无实质技术信息，属增量档",
+"reason": "产品发布、仅标题信息，无验证数据，属增量档",
 "day": "2026-10-17",
 "rank": 6.31
+},
+{
+"title": "Weekly Rundown: JAMA Network to add AI journal in 2027; UMass Memorial Health partners with Microsoft, Accenture",
+"link": "https://www.fiercehealthcare.com/health-tech/weekly-rundown-97-healthcare-orgs-experienced-cyberattack-past-12-months-proofpoint-inc",
+"date": "2026-10-17T01:23:41.630020+00:00",
+"source": "Fierce Healthcare",
+"source_group": "Fierce Healthcare",
+"home": "",
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "64d9f6ffeb37",
+"keep": true,
+"zh_title": "周报：JAMA Network 2027年增设AI期刊；UMass与微软、埃森哲合作",
+"summary": "行业周报汇总：JAMA Network 计划2027年推出AI期刊，UMass Memorial Health 与微软、埃森哲达成合作。",
+"key_points": [
+"JAMA Network 计划2027年新增AI期刊",
+"UMass Memorial 与微软、埃森哲合作",
+"另含Elation Health、HealthTap等动态"
+],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"临床落地"
+],
+"evidence": "新闻",
+"score": 3,
+"reason": "行业新闻汇总，单条信息量小，属一般性动态",
+"abstract": "Stay up to date on the latest in health tech, digital health and health AI news with this weekly brief. Read below for news from the week of Oct. 12 to 16. | The latest news from UMass Memorial Health, Elation Health, HealthTap, JAMA and more.",
+"day": "2026-10-17",
+"rank": 6.0,
+"zh_abstract": "通过这份每周简报及时了解健康科技、数字健康和健康AI新闻的最新动态。阅读下文了解10月12日至16日这一周的新闻。| 来自UMass Memorial Health、Elation Health、HealthTap、JAMA等的最新消息。"
 },
 {
 "title": "AI-Supported CBT-Based Psychoeducation for Caregivers of Individuals With Schizophrenia",
@@ -1353,34 +1417,6 @@
 "zh_abstract": "[新注册临床试验，尚无结果；申办方：Kastamonu University；条件：精神分裂症照护者、照护者负担、情绪表达性；类型：INTERVENTIONAL；分期：NA；入组人数：88；状态：NOT_YET_RECRUITING] 精神分裂症是一种慢性精神障碍，从生物心理社会视角来看，它不仅影响被诊断者，也影响参与照护过程的家庭成员。疾病的病程、症状的复发以及所需的高强度照护可增加照护者的负担，并使其难以表达情绪。据报道，结构化心理教育和认知行为干预有助于照护者应对这些挑战。本研究旨在为被诊断为精神分裂症个体的照护者开发一项基于认知行为方法的 AI 支持心理教育项目，并评估该项目对照护负担和情绪表达水平的影响。这个为期六周的项目将涵盖以下主题：照护者角色与负担、精神分裂症、思维-情绪-行为循环、识别与表达情绪、有效沟通、设定界限、寻求支持、复发迹象以及危机计划。基于科学文献的内容将由专家评估。人工智能将促进与内容的互动、活动的参与、技能的应用以及结构化反馈。该系统不会提供临床评估、诊断或个性化治疗建议；在需要专业评估的情况下，参与者将被转介至适当的医疗服务。本研究将采用带前测和后测对照组的准实验设计。共将招募88名照护者，其中44名分配至实验组，44名分配至对照组。该项目将施用于实验组，而对照组将接受常规照护。数据将使用照护者描述性信息表、Zarit 照护者负担量表和情绪表达量表收集。实验组还将使用项目评价表。所开发的项目预期可减轻照护者的照护负担并改善其表达情绪的能力。预期研究结果将有助于精神科护理实践、AI 支持心理教育项目的开发，以及加强为照护者提供的社会心理支持。"
 },
 {
-"title": "肾母细胞瘤AI智能体2.0在渝发布 护航患儿全周期诊疗",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mTC05b1J4UFhZcVFvNnhLa1Q3NWE5d3JCLXVSNXY2MzV0UXNnNU05elp5YTRIcVRHTlFUdjB6MVY2aVc1WElzbjRaZFQ5bldEbGg2OG14TXY4azQ3RXdsenV4a3o5R3AyVnE2RkdnVjVqRnVM?oc=5",
-"date": "2026-10-16T09:35:06+00:00",
-"source": "新华网重庆",
-"source_group": "Google News · 中文医疗AI",
-"home": "http://cq.news.cn",
-"thin": true,
-"badge": "",
-"pop": null,
-"id": "173a1490cb21",
-"keep": true,
-"zh_title": "肾母细胞瘤 AI 智能体 2.0 在渝发布",
-"summary": "重庆发布肾母细胞瘤 AI 智能体 2.0，称用于患儿全周期诊疗。",
-"key_points": [],
-"section": "大模型与智能体",
-"type": "模型",
-"tags": [
-"智能体",
-"肿瘤",
-"临床落地"
-],
-"evidence": "新闻",
-"score": 4,
-"reason": "产品发布、仅标题信息，无验证数据，属增量档",
-"day": "2026-10-17",
-"rank": 6.31
-},
-{
 "title": "Artificial Intelligence-Powered Virtual Reality Exposure Therapy for OCD in College Students: A Proof-of-Concept Study",
 "link": "https://clinicaltrials.gov/study/NCT07877363",
 "date": "2026-10-16T00:00:00+00:00",
@@ -1412,38 +1448,6 @@
 "day": "2026-10-17",
 "rank": 6.31,
 "zh_abstract": "[新注册临床试验，尚无结果；申办者：加州大学圣地亚哥分校；疾病：强迫症（OCD）；类型：干预性；分期：NA；入组人数：24；状态：尚未招募] 本研究旨在研究使用人工智能驱动的虚拟现实暴露疗法（AI-VRET）治疗患有强迫症（OCD）的大学生。"
-},
-{
-"title": "Weekly Rundown: JAMA Network to add AI journal in 2027; UMass Memorial Health partners with Microsoft, Accenture",
-"link": "https://www.fiercehealthcare.com/health-tech/weekly-rundown-97-healthcare-orgs-experienced-cyberattack-past-12-months-proofpoint-inc",
-"date": "2026-10-17T01:23:41.630020+00:00",
-"source": "Fierce Healthcare",
-"source_group": "Fierce Healthcare",
-"home": "",
-"thin": false,
-"badge": "",
-"pop": null,
-"id": "64d9f6ffeb37",
-"keep": true,
-"zh_title": "周报：JAMA Network 2027年增设AI期刊；UMass与微软、埃森哲合作",
-"summary": "行业周报汇总：JAMA Network 计划2027年推出AI期刊，UMass Memorial Health 与微软、埃森哲达成合作。",
-"key_points": [
-"JAMA Network 计划2027年新增AI期刊",
-"UMass Memorial 与微软、埃森哲合作",
-"另含Elation Health、HealthTap等动态"
-],
-"section": "产业动态",
-"type": "观点",
-"tags": [
-"临床落地"
-],
-"evidence": "新闻",
-"score": 3,
-"reason": "行业新闻汇总，单条信息量小，属一般性动态",
-"abstract": "Stay up to date on the latest in health tech, digital health and health AI news with this weekly brief. Read below for news from the week of Oct. 12 to 16. | The latest news from UMass Memorial Health, Elation Health, HealthTap, JAMA and more.",
-"day": "2026-10-17",
-"rank": 6.0,
-"zh_abstract": "通过这份每周简报及时了解健康科技、数字健康和健康AI新闻的最新动态。阅读下文了解10月12日至16日这一周的新闻。| 来自UMass Memorial Health、Elation Health、HealthTap、JAMA等的最新消息。"
 },
 {
 "title": "Artificial Intelligence Literacy and Subjective Workload Among Clinical Nurses: A Cross-Sectional Study.",
@@ -1545,7 +1549,7 @@
 "zh_title": "医疗影像走到分叉口：谁在为「AI读片」买单？",
 "summary": "媒体文章讨论医疗影像 AI 读片的商业化路径与付费方问题。",
 "key_points": [],
-"section": "产业动态",
+"section": "影像与病理",
 "type": "观点",
 "tags": [
 "医学影像",

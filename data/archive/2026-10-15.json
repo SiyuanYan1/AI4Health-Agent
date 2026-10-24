@@ -193,41 +193,6 @@
 "abstract_err": "springer-api: empty; springer: empty; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
-"title": "No Mastery without the Machine — Medical Education in the Age of Clinical AI",
-"link": "https://ai.nejm.org/doi/full/10.1056/AIp2600773?af=R&rss=currentIssue",
-"date": "2026-10-13T05:00:00+00:00",
-"source": "NEJM AI",
-"source_group": "NEJM AI",
-"home": "",
-"thin": true,
-"badge": "DOI 10.1056/AIp2600773",
-"pop": null,
-"id": "ec6713e2ea00",
-"keep": true,
-"zh_title": "没有机器就没有精通——临床AI时代的医学教育",
-"summary": "NEJM AI预发表观点文章，讨论临床AI时代的医学教育，题为《没有机器就没有精通》。",
-"key_points": [],
-"section": "落地与监管",
-"type": "观点",
-"tags": [
-"临床落地"
-],
-"evidence": "同行评审",
-"score": 4,
-"day": "2026-10-15",
-"rank": 9.64,
-"abstract_days": [
-"2026-10-15",
-"2026-10-16",
-"2026-10-17",
-"2026-10-18",
-"2026-10-19",
-"2026-10-20",
-"2026-10-21"
-],
-"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
-},
-{
 "title": "From compliance to competence: a multi-level model for AI governance in undergraduate medical education",
 "link": "https://www.nature.com/articles/s41746-026-03390-y",
 "date": "2026-10-14T00:00:00+00:00",
@@ -300,6 +265,41 @@
 ]
 },
 {
+"title": "No Mastery without the Machine — Medical Education in the Age of Clinical AI",
+"link": "https://ai.nejm.org/doi/full/10.1056/AIp2600773?af=R&rss=currentIssue",
+"date": "2026-10-13T05:00:00+00:00",
+"source": "NEJM AI",
+"source_group": "NEJM AI",
+"home": "",
+"thin": true,
+"badge": "DOI 10.1056/AIp2600773",
+"pop": null,
+"id": "ec6713e2ea00",
+"keep": true,
+"zh_title": "没有机器就没有精通——临床AI时代的医学教育",
+"summary": "NEJM AI预发表观点文章，讨论临床AI时代的医学教育，题为《没有机器就没有精通》。",
+"key_points": [],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 4,
+"day": "2026-10-15",
+"rank": 9.64,
+"abstract_days": [
+"2026-10-15",
+"2026-10-16",
+"2026-10-17",
+"2026-10-18",
+"2026-10-19",
+"2026-10-20",
+"2026-10-21"
+],
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
+},
+{
 "title": "Confido Health nabs $12.5M to scale agentic AI across PE-backed medical groups",
 "link": "https://www.fiercehealthcare.com/ai-and-machine-learning/confido-health-expands-beyond-voice-ai-agentic-platform-medical-practices",
 "date": "2026-10-15T06:22:19.309189+00:00",
@@ -318,7 +318,7 @@
 "此前9月宣布1000万美元A轮",
 "用于扩展端到端医疗运营AI平台"
 ],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [
 "融资与并购",
@@ -395,6 +395,105 @@
 "rank": 8.42
 },
 {
+"title": "PatientPheX: A Full-Text Biomedical Corpus for Patient-Specific Phenotype Information Extraction",
+"link": "https://www.biorxiv.org/content/10.64898/2026.10.07.757319v1?rss=1",
+"date": "2026-10-15T00:00:00+00:00",
+"source": "bioRxiv",
+"source_group": "bioRxiv",
+"home": "",
+"thin": false,
+"badge": "DOI 10.64898/2026.10.07.757319",
+"pop": null,
+"id": "13393b70cbbb",
+"keep": true,
+"zh_title": "PatientPheX：患者特异性表型抽取全文语料",
+"summary": "bioRxiv 发布 PatientPheX 语料，含 200 篇全文文献的患者—表型实体标注与跨句关联，用于病例报告表型抽取。",
+"key_points": [
+"含 200 篇全文文献，以病例报告与病例系列为主",
+"标注 7 类生物医学实体及患者—实体关联",
+"覆盖跨句跨段关联，并标注否定与复合表型"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"临床NLP",
+"数据集"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "新标注语料有方法新意，但仅200篇、无外部评测，属值得一看档",
+"abstract": "Patient-specific phenotype information extraction identifiers and normalizes phenotype entities and links them with individual patients, supporting rare disease research and genotype-phenotype analysis. However, existing datasets rarely combine full-text biomedical content with detailed annotations of patients, phenotypes, related entities, and their associations. In this work, we present PatientPheX, a corpus for patient-specific phenotype information extraction comprising 200 full-text articles, primarily case reports and case series. The corpus provides mention annotations and normalization for seven biomedical entity types, together with explicit associations between patients and entities across sentences, paragraphs, and sections. Negated findings and composite phenotype mentions are also annotated. Corpus construction combines automated pre-annotation, large language model (LLM)-assisted verification, and manual review and adjudication. Benchmarks cover entity recognition and normalization and patient-phenotype association extraction using gold-standard and predicted entities. The overall document-level entity F1 was 86.95%, while phenotype F1 was 79.33%. The best relation extraction macro-F1 decreased from 84.14% with gold-standard entities to 54.98% with predicted entities, highlighting the combined challenges of phenotype extraction and patient attribution. PatientPheX provides a resource for developing and evaluating patient-centered information extraction methods and supports the construction of structured patient-level knowledge resources for phenotype-driven biomedical research.",
+"day": "2026-10-15",
+"rank": 8.0,
+"zh_abstract": "患者特异性表型信息抽取（patient-specific phenotype information extraction）识别并规范化表型实体，并将其与个体患者关联，支持罕见病研究和基因型-表型分析。然而，现有数据集很少将全文生物医学内容与患者、表型、相关实体及其关联的详细标注相结合。在本研究中，我们提出 PatientPheX，一个用于患者特异性表型信息抽取的语料库，包含 200 篇全文文章，主要是病例报告和病例系列。该语料库为七种生物医学实体类型提供提及标注和规范化，并提供跨句子、段落和章节的患者与实体之间的显式关联。否定发现和复合表型提及也进行了标注。语料库构建结合了自动预标注、大型语言模型（LLM）辅助验证以及人工审核和裁定。基准测试涵盖使用金标准和预测实体的实体识别与规范化以及患者-表型关联抽取。整体文档级实体 F1 为 86.95%，而表型 F1 为 79.33%。最佳关系抽取宏 F1 从使用金标准实体时的 84.14% 下降到使用预测实体时的 54.98%，凸显了表型抽取和患者归属的综合挑战。PatientPheX 为开发和评估以患者为中心的信息抽取方法提供了资源，并支持为表型驱动的生物医学研究构建结构化的患者级知识资源。"
+},
+{
+"title": "Characterizing time-of-day physical activity patterns across cognitive trajectories in older adults: a longitudinal cohort study",
+"link": "https://www.nature.com/articles/s41746-026-03370-2",
+"date": "2026-10-15T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03370-2",
+"pop": null,
+"id": "52f525dc0a40",
+"keep": true,
+"zh_title": "老年人认知轨迹与一天中体力活动时段特征",
+"summary": "ARIC队列811名老年人中，认知下降较慢与中午时段活动更多、久坐更少相关，短窗口指标与全天相近。",
+"key_points": [
+"ARIC队列811名认知未受损老年人",
+"认知下降慢者10–15点活动更多、久坐更少",
+"11–13点短窗口与24小时指标关联相近"
+],
+"section": "数字健康",
+"type": "论文",
+"tags": [
+"数字健康",
+"生理信号"
+],
+"evidence": "同行评审",
+"score": 2,
+"reason": "未涉及AI/算法方法，仅纵向关联分析，与AI主题关系很弱",
+"day": "2026-10-15",
+"rank": 9.5,
+"abstract": "Declining cognitive function is a growing health challenge, yet how cognitive decline influences time-of-day physical activity (PA) patterns remains underexplored. Among cognitively unimpaired participants from the Atherosclerosis Risk in Communities Study, we modeled general and domain-specific cognitive trajectories and related them to accelerometry-derived PA a median of 8.2 years later in 811 participants (mean baseline age 73.1 years) using function-on-scalar and multivariable regression. Slower cognitive decline was associated with more favorable midday PA (10 AM–3 PM), including higher movement volume, less sedentary time, fewer interruptions to active periods, and greater activity variability. In adjusted linear regression models, associations with PA patterns derived from a window as short as 11 AM-1 PM were comparable to those with 24-hour measures. The executive function trajectory exhibited the strongest associations with PA patterns, and over the longest period of the day; the language trajectory showed non-linear associations, and the peak association for the memory trajectory with PA occurred in the late morning (10:30–11:30 AM). Associations between cognitive decline and activity variability were stronger than for other PA metrics. Our findings highlight the potential of PA patterns, particularly activity variability, as a non-invasive way to help monitor cognitive decline before clinical impairment emerges.",
+"zh_abstract": "认知功能下降是一个日益严峻的健康挑战，但认知下降如何影响一天中不同时段的身体活动（PA）模式仍未得到充分探索。在社区动脉粥样硬化风险研究（Atherosclerosis Risk in Communities Study）中认知未受损的参与者中，我们对一般认知和领域特异性认知轨迹进行建模，并使用 function-on-scalar 回归和多变量回归，将其与中位 8.2 年后 811 名参与者（基线平均年龄 73.1 岁）通过加速度计得出的 PA 相关联。较慢的认知下降与更有利的午间 PA（上午 10 点至下午 3 点）相关，包括更高的活动量、更少的久坐时间、活动期更少的中断以及更大的活动变异性。在调整后的线性回归模型中，来自短至上午 11 点至下午 1 点时间窗的 PA 模式关联与 24 小时测量的关联相当。执行功能轨迹与 PA 模式的关联最强，且覆盖一天中最长的时间段；语言轨迹显示出非线性关联；记忆轨迹与 PA 的关联峰值出现在上午晚些时候（上午 10:30 至 11:30）。认知下降与活动变异性之间的关联强于其他 PA 指标。我们的发现凸显了 PA 模式，特别是活动变异性，作为一种非侵入性方式帮助在临床损害出现前监测认知下降的潜力。"
+},
+{
+"title": "Implementation and effectiveness of a smartphone app targeted at improving physicians adherence to antimicrobial treatment guidelines",
+"link": "https://www.nature.com/articles/s41746-026-03401-y",
+"date": "2026-10-15T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03401-y",
+"pop": null,
+"id": "e84bdc4ba132",
+"keep": true,
+"zh_title": "智能手机指南App提升抗菌药物指南依从性：整群随机试验",
+"summary": "埃塞俄比亚20家医院整群随机试验，App加培训对比纸质指南，以1433份病历评估处方指南依从性。",
+"key_points": [
+"埃塞俄比亚20家医院整群随机对照试验",
+"主要结局为1433份病历的指南依从处方",
+"含抗生素总体使用与广谱用药等次要结局"
+],
+"section": "数字健康",
+"type": "论文",
+"tags": [
+"数字健康",
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 2,
+"reason": "移动健康干预试验，无AI/算法要素，与AI主题关系很弱",
+"day": "2026-10-15",
+"rank": 9.5,
+"abstract": "The effectiveness of mHealth interventions for improving antimicrobial guideline adherence remains insufficiently understood in resource-limited settings. This study evaluated a context-adapted smartphone Standard Treatment Guideline (STG) app designed to improve physicians’ adherence to antimicrobial treatment guidelines in Ethiopia. A type 1 hybrid effectiveness–implementation cluster-randomized trial was conducted in 20 hospitals randomized to a smartphone app plus training or paper-based guidelines and retrospectively registered (PACTR202504495116733). The primary outcome was guideline-adherent prescribing, defined as correct antibiotic selection, dose, frequency, and duration when treatment was indicated, or appropriately documented non-prescribing when antibiotics were not indicated across 1433 patient charts. Secondary outcomes included overall antibiotic use and broad-spectrum antibiotic use. Guideline adherence improved by 26.7 percentage points in crude difference-in-differences analysis, and the adjusted intervention-by-endline effect showed higher odds of guideline-adherent prescribing (aOR 3.89; 95% CI: 1.96–7.73). Overall, antibiotic use declined from 96.9% to 82.2% in the intervention arm. In a post-hoc sensitivity analysis using all eligible charts, broad-spectrum antibiotic use declined from 83.9 to 57.5%. These findings support the potential value of a multicomponent intervention combining an offline STG app with training and implementation support for improving guideline-concordant antimicrobial prescribing; however, the independent contribution of the mobile application cannot be determined.",
+"zh_abstract": "在资源有限环境中，移动健康（mHealth）干预对改善抗菌药物指南依从性的有效性仍未被充分了解。本研究评估了一款适应具体情境的智能手机标准治疗指南（Standard Treatment Guideline, STG）应用程序，该应用程序旨在提高埃塞俄比亚医生对抗菌药物治疗指南的依从性。研究在20家医院开展了一项1型混合效果-实施整群随机试验，医院被随机分配至智能手机应用程序加培训组或纸质指南组，并进行了回顾性注册（PACTR202504495116733）。主要结局是指南依从性处方，其定义为：在1433份患者病历中，当有治疗指征时正确选择抗生素、剂量、频率和疗程，或当无抗生素指征时适当记录不处方。次要结局包括总体抗生素使用和广谱抗生素使用。在粗双重差分分析中，指南依从性提高了26.7个百分点，校正后的干预×终点效应显示，指南依从性处方的几率更高（aOR 3.89；95% CI：1.96–7.73）。总体上，干预组抗生素使用率从96.9%降至82.2%。在一项使用所有合格病历的事后敏感性分析中，广谱抗生素使用率从83.9%降至57.5%。这些发现支持一种多组分干预的潜在价值，该干预将离线STG应用程序与培训及实施支持相结合，以改善与指南一致的抗菌药物处方；然而，移动应用程序的独立贡献无法确定。"
+},
+{
 "title": "STAT+: Lobbyists and trade groups fight to shape how states regulate medical AI",
 "link": "https://www.statnews.com/2026/10/14/lobbyists-trade-groups-ama-push-autonomous-clinical-ai-regulations/?utm_campaign=rss",
 "date": "2026-10-14T08:30:00+00:00",
@@ -455,39 +554,6 @@
 "reason": "对FDA审评治理与利益冲突的实证分析,具监管参考价值,属值得一看档。",
 "day": "2026-10-15",
 "rank": 8.31
-},
-{
-"title": "PatientPheX: A Full-Text Biomedical Corpus for Patient-Specific Phenotype Information Extraction",
-"link": "https://www.biorxiv.org/content/10.64898/2026.10.07.757319v1?rss=1",
-"date": "2026-10-15T00:00:00+00:00",
-"source": "bioRxiv",
-"source_group": "bioRxiv",
-"home": "",
-"thin": false,
-"badge": "DOI 10.64898/2026.10.07.757319",
-"pop": null,
-"id": "13393b70cbbb",
-"keep": true,
-"zh_title": "PatientPheX：患者特异性表型抽取全文语料",
-"summary": "bioRxiv 发布 PatientPheX 语料，含 200 篇全文文献的患者—表型实体标注与跨句关联，用于病例报告表型抽取。",
-"key_points": [
-"含 200 篇全文文献，以病例报告与病例系列为主",
-"标注 7 类生物医学实体及患者—实体关联",
-"覆盖跨句跨段关联，并标注否定与复合表型"
-],
-"section": "大模型与智能体",
-"type": "论文",
-"tags": [
-"临床NLP",
-"数据集"
-],
-"evidence": "预印本",
-"score": 5,
-"reason": "新标注语料有方法新意，但仅200篇、无外部评测，属值得一看档",
-"abstract": "Patient-specific phenotype information extraction identifiers and normalizes phenotype entities and links them with individual patients, supporting rare disease research and genotype-phenotype analysis. However, existing datasets rarely combine full-text biomedical content with detailed annotations of patients, phenotypes, related entities, and their associations. In this work, we present PatientPheX, a corpus for patient-specific phenotype information extraction comprising 200 full-text articles, primarily case reports and case series. The corpus provides mention annotations and normalization for seven biomedical entity types, together with explicit associations between patients and entities across sentences, paragraphs, and sections. Negated findings and composite phenotype mentions are also annotated. Corpus construction combines automated pre-annotation, large language model (LLM)-assisted verification, and manual review and adjudication. Benchmarks cover entity recognition and normalization and patient-phenotype association extraction using gold-standard and predicted entities. The overall document-level entity F1 was 86.95%, while phenotype F1 was 79.33%. The best relation extraction macro-F1 decreased from 84.14% with gold-standard entities to 54.98% with predicted entities, highlighting the combined challenges of phenotype extraction and patient attribution. PatientPheX provides a resource for developing and evaluating patient-centered information extraction methods and supports the construction of structured patient-level knowledge resources for phenotype-driven biomedical research.",
-"day": "2026-10-15",
-"rank": 8.0,
-"zh_abstract": "患者特异性表型信息抽取（patient-specific phenotype information extraction）识别并规范化表型实体，并将其与个体患者关联，支持罕见病研究和基因型-表型分析。然而，现有数据集很少将全文生物医学内容与患者、表型、相关实体及其关联的详细标注相结合。在本研究中，我们提出 PatientPheX，一个用于患者特异性表型信息抽取的语料库，包含 200 篇全文文章，主要是病例报告和病例系列。该语料库为七种生物医学实体类型提供提及标注和规范化，并提供跨句子、段落和章节的患者与实体之间的显式关联。否定发现和复合表型提及也进行了标注。语料库构建结合了自动预标注、大型语言模型（LLM）辅助验证以及人工审核和裁定。基准测试涵盖使用金标准和预测实体的实体识别与规范化以及患者-表型关联抽取。整体文档级实体 F1 为 86.95%，而表型 F1 为 79.33%。最佳关系抽取宏 F1 从使用金标准实体时的 84.14% 下降到使用预测实体时的 54.98%，凸显了表型抽取和患者归属的综合挑战。PatientPheX 为开发和评估以患者为中心的信息抽取方法提供了资源，并支持为表型驱动的生物医学研究构建结构化的患者级知识资源。"
 },
 {
 "title": "SVC: A Vision Transformer-based Spatially and Virtually Embedded Cell Model for Deciphering Subcellular Spatial Transcriptomic Heterogeneity",
@@ -654,70 +720,37 @@
 "zh_abstract": "在辅助治疗背景下，靶向新抗原的个性化癌症疫苗在多种恶性肿瘤中日益受到关注。在此，我们报告一项 1 期临床试验的结果，该试验在高级别上皮性卵巢癌中检验靶向新抗原的个性化癌症疫苗的可行性和安全性。“NeoVax”由靶向患者特异性新抗原的合成长肽库与免疫刺激剂 poly-ICLC 混合组成，与延迟给予的抗 PD-1 抗体联合，并在十例铂敏感卵巢癌患者（一例新诊断患者（队列 A）和九例首次复发患者（队列 B））中，于标准治疗铂类双药化疗后进行了测试。队列 B 中 12 例可评估患者中有 9 例接种了疫苗（75%，90% CI 47–93%），队列 A 中 9 例中有 1 例接种（11%，90% CI 0.6–43%）。未遇到意外的安全性信号，且没有患者因毒性停止治疗。在患者中，尽管从诊断活检到疫苗接种的中位时间为 6.5 个月，在此期间患者接受了标准治疗化疗，>70% 的所选靶标仍可通过无创游离 DNA 分析检测到。生物标志物分析提示疫苗在十例患者中的六例具有生物学活性，并且这与接种后血液和肿瘤中更广泛的肿瘤及疫苗特异性免疫反应相关。耐药肿瘤克隆反映了影响抗原呈递的多种机制，提示疫苗接种施加的免疫选择压力。总体而言，肿瘤所呈递抗原库与诱导免疫广度之间的相互作用似乎决定了疫苗接种后的临床疗效。ClinicalTrials.gov 标识符：NCT04024878。"
 },
 {
-"title": "Characterizing time-of-day physical activity patterns across cognitive trajectories in older adults: a longitudinal cohort study",
-"link": "https://www.nature.com/articles/s41746-026-03370-2",
-"date": "2026-10-15T00:00:00+00:00",
+"title": "A “growth mindset of mental health” intervention increases the likelihood of initiating self-help on a mental health app: a randomized controlled trial",
+"link": "https://www.nature.com/articles/s41746-026-03322-w",
+"date": "2026-10-13T00:00:00+00:00",
 "source": "npj Digital Medicine",
 "source_group": "npj Digital Medicine",
 "home": "",
 "thin": false,
-"badge": "DOI 10.1038/s41746-026-03370-2",
+"badge": "DOI 10.1038/s41746-026-03322-w",
 "pop": null,
-"id": "52f525dc0a40",
+"id": "9e98d8f89cd5",
 "keep": true,
-"zh_title": "老年人认知轨迹与一天中体力活动时段特征",
-"summary": "ARIC队列811名老年人中，认知下降较慢与中午时段活动更多、久坐更少相关，短窗口指标与全天相近。",
+"zh_title": "思维干预提升心理健康App自助使用率：随机对照试验",
+"summary": "N=252随机对照试验显示，成长型思维心理健康干预可提高三个月内再次使用App自助功能的比例。",
 "key_points": [
-"ARIC队列811名认知未受损老年人",
-"认知下降慢者10–15点活动更多、久坐更少",
-"11–13点短窗口与24小时指标关联相近"
+"研究设计为随机对照试验",
+"干预为心理健康成长型思维",
+"结局为启动App自助的可能性"
 ],
 "section": "数字健康",
 "type": "论文",
 "tags": [
-"数字健康",
-"生理信号"
+"心理健康",
+"数字健康"
 ],
 "evidence": "同行评审",
 "score": 2,
-"reason": "未涉及AI/算法方法，仅纵向关联分析，与AI主题关系很弱",
 "day": "2026-10-15",
-"rank": 9.5,
-"abstract": "Declining cognitive function is a growing health challenge, yet how cognitive decline influences time-of-day physical activity (PA) patterns remains underexplored. Among cognitively unimpaired participants from the Atherosclerosis Risk in Communities Study, we modeled general and domain-specific cognitive trajectories and related them to accelerometry-derived PA a median of 8.2 years later in 811 participants (mean baseline age 73.1 years) using function-on-scalar and multivariable regression. Slower cognitive decline was associated with more favorable midday PA (10 AM–3 PM), including higher movement volume, less sedentary time, fewer interruptions to active periods, and greater activity variability. In adjusted linear regression models, associations with PA patterns derived from a window as short as 11 AM-1 PM were comparable to those with 24-hour measures. The executive function trajectory exhibited the strongest associations with PA patterns, and over the longest period of the day; the language trajectory showed non-linear associations, and the peak association for the memory trajectory with PA occurred in the late morning (10:30–11:30 AM). Associations between cognitive decline and activity variability were stronger than for other PA metrics. Our findings highlight the potential of PA patterns, particularly activity variability, as a non-invasive way to help monitor cognitive decline before clinical impairment emerges.",
-"zh_abstract": "认知功能下降是一个日益严峻的健康挑战，但认知下降如何影响一天中不同时段的身体活动（PA）模式仍未得到充分探索。在社区动脉粥样硬化风险研究（Atherosclerosis Risk in Communities Study）中认知未受损的参与者中，我们对一般认知和领域特异性认知轨迹进行建模，并使用 function-on-scalar 回归和多变量回归，将其与中位 8.2 年后 811 名参与者（基线平均年龄 73.1 岁）通过加速度计得出的 PA 相关联。较慢的认知下降与更有利的午间 PA（上午 10 点至下午 3 点）相关，包括更高的活动量、更少的久坐时间、活动期更少的中断以及更大的活动变异性。在调整后的线性回归模型中，来自短至上午 11 点至下午 1 点时间窗的 PA 模式关联与 24 小时测量的关联相当。执行功能轨迹与 PA 模式的关联最强，且覆盖一天中最长的时间段；语言轨迹显示出非线性关联；记忆轨迹与 PA 的关联峰值出现在上午晚些时候（上午 10:30 至 11:30）。认知下降与活动变异性之间的关联强于其他 PA 指标。我们的发现凸显了 PA 模式，特别是活动变异性，作为一种非侵入性方式帮助在临床损害出现前监测认知下降的潜力。"
-},
-{
-"title": "Implementation and effectiveness of a smartphone app targeted at improving physicians adherence to antimicrobial treatment guidelines",
-"link": "https://www.nature.com/articles/s41746-026-03401-y",
-"date": "2026-10-15T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03401-y",
-"pop": null,
-"id": "e84bdc4ba132",
-"keep": true,
-"zh_title": "智能手机指南App提升抗菌药物指南依从性：整群随机试验",
-"summary": "埃塞俄比亚20家医院整群随机试验，App加培训对比纸质指南，以1433份病历评估处方指南依从性。",
-"key_points": [
-"埃塞俄比亚20家医院整群随机对照试验",
-"主要结局为1433份病历的指南依从处方",
-"含抗生素总体使用与广谱用药等次要结局"
-],
-"section": "数字健康",
-"type": "论文",
-"tags": [
-"数字健康",
-"临床落地"
-],
-"evidence": "同行评审",
-"score": 2,
-"reason": "移动健康干预试验，无AI/算法要素，与AI主题关系很弱",
-"day": "2026-10-15",
-"rank": 9.5,
-"abstract": "The effectiveness of mHealth interventions for improving antimicrobial guideline adherence remains insufficiently understood in resource-limited settings. This study evaluated a context-adapted smartphone Standard Treatment Guideline (STG) app designed to improve physicians’ adherence to antimicrobial treatment guidelines in Ethiopia. A type 1 hybrid effectiveness–implementation cluster-randomized trial was conducted in 20 hospitals randomized to a smartphone app plus training or paper-based guidelines and retrospectively registered (PACTR202504495116733). The primary outcome was guideline-adherent prescribing, defined as correct antibiotic selection, dose, frequency, and duration when treatment was indicated, or appropriately documented non-prescribing when antibiotics were not indicated across 1433 patient charts. Secondary outcomes included overall antibiotic use and broad-spectrum antibiotic use. Guideline adherence improved by 26.7 percentage points in crude difference-in-differences analysis, and the adjusted intervention-by-endline effect showed higher odds of guideline-adherent prescribing (aOR 3.89; 95% CI: 1.96–7.73). Overall, antibiotic use declined from 96.9% to 82.2% in the intervention arm. In a post-hoc sensitivity analysis using all eligible charts, broad-spectrum antibiotic use declined from 83.9 to 57.5%. These findings support the potential value of a multicomponent intervention combining an offline STG app with training and implementation support for improving guideline-concordant antimicrobial prescribing; however, the independent contribution of the mobile application cannot be determined.",
-"zh_abstract": "在资源有限环境中，移动健康（mHealth）干预对改善抗菌药物指南依从性的有效性仍未被充分了解。本研究评估了一款适应具体情境的智能手机标准治疗指南（Standard Treatment Guideline, STG）应用程序，该应用程序旨在提高埃塞俄比亚医生对抗菌药物治疗指南的依从性。研究在20家医院开展了一项1型混合效果-实施整群随机试验，医院被随机分配至智能手机应用程序加培训组或纸质指南组，并进行了回顾性注册（PACTR202504495116733）。主要结局是指南依从性处方，其定义为：在1433份患者病历中，当有治疗指征时正确选择抗生素、剂量、频率和疗程，或当无抗生素指征时适当记录不处方。次要结局包括总体抗生素使用和广谱抗生素使用。在粗双重差分分析中，指南依从性提高了26.7个百分点，校正后的干预×终点效应显示，指南依从性处方的几率更高（aOR 3.89；95% CI：1.96–7.73）。总体上，干预组抗生素使用率从96.9%降至82.2%。在一项使用所有合格病历的事后敏感性分析中，广谱抗生素使用率从83.9%降至57.5%。这些发现支持一种多组分干预的潜在价值，该干预将离线STG应用程序与培训及实施支持相结合，以改善与指南一致的抗菌药物处方；然而，移动应用程序的独立贡献无法确定。"
+"rank": 9.14,
+"abstract": "Abstract Mental health apps hold potential to improve access to treatment, but engagement remains low. One barrier may be the belief that mental health cannot be meaningfully improved. In a randomized controlled trial ( N = 252), we examined whether a brief growth-mindset-of-mental-health intervention—portraying mental health as improvable, not fixed—can initiate mental health app engagement among people with mental health needs. Participants completed baseline well-being measures (stress, anxiety and depression, and positive mental well-being) and were randomly assigned to the growth-mindset-of-mental-health or active control condition. Over the subsequent three months, we tracked whether they re-engaged with the app overall (i.e., completed at least a second self-help feature), and with features categorized as low-, moderate-, and high-intensity. Analyses revealed that participants in the growth-mindset condition (vs. control) with poorer baseline mental well-being (i.e., higher stress, anxiety and depressive symptoms, and lower positive mental well-being) were significantly more likely to show repeat app engagement. Moreover, those with higher anxiety and depressive symptoms were more likely to show repeat engagement with moderate-intensity features, while those experiencing higher stress and lower positive mental well-being were more likely to do so with both low- and moderate-intensity features. Together, these findings demonstrate the benefits of the growth-mindset intervention for successful initiation of self-help on a mental health app. Trial Registration: The trial was registered on ClinicalTrials.gov (Identifier: NCT07071311) on July 25, 2025.",
+"reason": "无AI或算法成分，与医疗AI主题无关，属边缘档",
+"zh_abstract": "摘要 心理健康应用有潜力改善治疗可及性，但参与度仍然较低。一个障碍可能是认为心理健康无法得到有意义的改善。在一项随机对照试验（N = 252）中，我们检验了一项简短的心理健康成长型思维干预——将心理健康描绘为可改善而非固定不变——能否在存在心理健康需求的人群中启动心理健康应用参与。参与者完成了基线幸福感测量（压力、焦虑和抑郁，以及积极心理健康），并被随机分配到心理健康成长型思维组或主动对照组。在随后的三个月中，我们追踪了他们总体是否重新参与该应用（即完成至少第二个自助功能），以及是否参与被归类为低、中和高强度的功能。分析显示，基线心理健康较差（即压力、焦虑和抑郁症状较高，积极心理健康较低）的成长型思维组参与者（相较于对照组）显著更可能表现出重复应用参与。此外，焦虑和抑郁症状较高者更可能表现出对中等强度功能的重复参与，而压力较高和积极心理健康较低者则更可能对低强度和中等强度功能均表现出重复参与。总之，这些发现证明了成长型思维干预对成功启动心理健康应用上的自助的益处。试验注册：该试验于2025年7月25日在 ClinicalTrials.gov 注册（标识符：NCT07071311）。"
 },
 {
 "title": "eyonis Inc., a Median Technologies Company, to Present Study Results Supporting eyonis® LCS Performance Claims at CHEST 2026",
@@ -753,6 +786,36 @@
 ]
 },
 {
+"title": "Readily secures $11M series A to continue building out AI regulatory compliance platform",
+"link": "https://www.fiercehealthcare.com/finance/readily-secures-11m-series-continue-building-out-ai-regulatory-compliance-platform",
+"date": "2026-10-15T06:22:19.309189+00:00",
+"source": "Fierce Healthcare",
+"source_group": "Fierce Healthcare",
+"home": "",
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "c1e09d0e22a5",
+"keep": true,
+"zh_title": "Readily 获 1100 万美元 A 轮融资",
+"summary": "AI 合规平台 Readily 完成 1100 万美元 A 轮融资，用于推进企业监督平台开发。",
+"key_points": [
+"融资额 1100 万美元，A 轮",
+"用于企业监督平台开发",
+"聚焦 AI 监管合规"
+],
+"section": "落地与监管",
+"type": "融资",
+"tags": [
+"监管政策",
+"融资与并购"
+],
+"evidence": "新闻",
+"score": 4,
+"day": "2026-10-15",
+"rank": 7.0
+},
+{
 "title": "STAT+: The startup chasing ‘general biological intelligence’",
 "link": "https://www.statnews.com/2026/10/14/the-startup-chasing-general-biological-intelligence-ai-prognosis/?utm_campaign=rss",
 "date": "2026-10-14T13:17:57+00:00",
@@ -771,7 +834,7 @@
 "CEO为Eric Nguyen",
 "方向为通用生物智能"
 ],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [
 "融资与并购"
@@ -809,69 +872,6 @@
 "day": "2026-10-15",
 "rank": 7.31,
 "zh_abstract": "一项新研究发现，在最近20年间举行的FDA咨询委员会会议中，近40%包括了一名与制药公司资助的倡导组织有积极联系的患者代表或消费者代表。了解更多："
-},
-{
-"title": "A “growth mindset of mental health” intervention increases the likelihood of initiating self-help on a mental health app: a randomized controlled trial",
-"link": "https://www.nature.com/articles/s41746-026-03322-w",
-"date": "2026-10-13T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03322-w",
-"pop": null,
-"id": "9e98d8f89cd5",
-"keep": true,
-"zh_title": "思维干预提升心理健康App自助使用率：随机对照试验",
-"summary": "N=252随机对照试验显示，成长型思维心理健康干预可提高三个月内再次使用App自助功能的比例。",
-"key_points": [
-"研究设计为随机对照试验",
-"干预为心理健康成长型思维",
-"结局为启动App自助的可能性"
-],
-"section": "数字健康",
-"type": "论文",
-"tags": [
-"心理健康",
-"数字健康"
-],
-"evidence": "同行评审",
-"score": 2,
-"day": "2026-10-15",
-"rank": 9.14,
-"abstract": "Abstract Mental health apps hold potential to improve access to treatment, but engagement remains low. One barrier may be the belief that mental health cannot be meaningfully improved. In a randomized controlled trial ( N = 252), we examined whether a brief growth-mindset-of-mental-health intervention—portraying mental health as improvable, not fixed—can initiate mental health app engagement among people with mental health needs. Participants completed baseline well-being measures (stress, anxiety and depression, and positive mental well-being) and were randomly assigned to the growth-mindset-of-mental-health or active control condition. Over the subsequent three months, we tracked whether they re-engaged with the app overall (i.e., completed at least a second self-help feature), and with features categorized as low-, moderate-, and high-intensity. Analyses revealed that participants in the growth-mindset condition (vs. control) with poorer baseline mental well-being (i.e., higher stress, anxiety and depressive symptoms, and lower positive mental well-being) were significantly more likely to show repeat app engagement. Moreover, those with higher anxiety and depressive symptoms were more likely to show repeat engagement with moderate-intensity features, while those experiencing higher stress and lower positive mental well-being were more likely to do so with both low- and moderate-intensity features. Together, these findings demonstrate the benefits of the growth-mindset intervention for successful initiation of self-help on a mental health app. Trial Registration: The trial was registered on ClinicalTrials.gov (Identifier: NCT07071311) on July 25, 2025.",
-"reason": "无AI或算法成分，与医疗AI主题无关，属边缘档",
-"zh_abstract": "摘要 心理健康应用有潜力改善治疗可及性，但参与度仍然较低。一个障碍可能是认为心理健康无法得到有意义的改善。在一项随机对照试验（N = 252）中，我们检验了一项简短的心理健康成长型思维干预——将心理健康描绘为可改善而非固定不变——能否在存在心理健康需求的人群中启动心理健康应用参与。参与者完成了基线幸福感测量（压力、焦虑和抑郁，以及积极心理健康），并被随机分配到心理健康成长型思维组或主动对照组。在随后的三个月中，我们追踪了他们总体是否重新参与该应用（即完成至少第二个自助功能），以及是否参与被归类为低、中和高强度的功能。分析显示，基线心理健康较差（即压力、焦虑和抑郁症状较高，积极心理健康较低）的成长型思维组参与者（相较于对照组）显著更可能表现出重复应用参与。此外，焦虑和抑郁症状较高者更可能表现出对中等强度功能的重复参与，而压力较高和积极心理健康较低者则更可能对低强度和中等强度功能均表现出重复参与。总之，这些发现证明了成长型思维干预对成功启动心理健康应用上的自助的益处。试验注册：该试验于2025年7月25日在 ClinicalTrials.gov 注册（标识符：NCT07071311）。"
-},
-{
-"title": "Readily secures $11M series A to continue building out AI regulatory compliance platform",
-"link": "https://www.fiercehealthcare.com/finance/readily-secures-11m-series-continue-building-out-ai-regulatory-compliance-platform",
-"date": "2026-10-15T06:22:19.309189+00:00",
-"source": "Fierce Healthcare",
-"source_group": "Fierce Healthcare",
-"home": "",
-"thin": false,
-"badge": "",
-"pop": null,
-"id": "c1e09d0e22a5",
-"keep": true,
-"zh_title": "Readily 获 1100 万美元 A 轮融资",
-"summary": "AI 合规平台 Readily 完成 1100 万美元 A 轮融资，用于推进企业监督平台开发。",
-"key_points": [
-"融资额 1100 万美元，A 轮",
-"用于企业监督平台开发",
-"聚焦 AI 监管合规"
-],
-"section": "产业动态",
-"type": "融资",
-"tags": [
-"监管政策",
-"融资与并购"
-],
-"evidence": "新闻",
-"score": 4,
-"day": "2026-10-15",
-"rank": 7.0
 },
 {
 "title": "Instability as Signal: Diagnosing Latent Heterogeneity in Multimodal Survival Models",
@@ -1058,6 +1058,32 @@
 "rank": 6.5
 },
 {
+"title": "When AI Outruns the Doctor: A New Framework Measures the Human Oversight Gap in Cardiology",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT1dGa2I2NkpEOHN6ZHJxcDhtNDU0OHo2ekxGNjM1VzVzV2pvMkZwNWl5eWpyUkhSS0t3VEVGYklDX1VfZEliMHlRVzg4bjdhWVZkRlYwcUdZYktzOWtFU0FWMGJ0N2NQa3MtUVlWaVlWc1lDTDlqdDdiSGJhWW9IOXlpVjdUSXZKaUZzaTNndWtKNnpXNEZNSkh3STgyTXVPNzN6VzdOMmJzdmotMEZRSV92cTM?oc=5",
+"date": "2026-10-14T13:58:50+00:00",
+"source": "Bioengineer.org",
+"source_group": "Google News · FDA AI",
+"home": "https://bioengineer.org",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "061da85ed391",
+"keep": true,
+"zh_title": "当AI超越医生：新框架衡量心脏病学中的人类监督差距",
+"summary": "报道称有新框架用于衡量心脏病学领域中AI与医生之间的人类监督差距。",
+"key_points": [],
+"section": "临床预测与决策",
+"type": "观点",
+"tags": [
+"临床决策支持",
+"公平与安全"
+],
+"evidence": "新闻",
+"score": 4,
+"day": "2026-10-15",
+"rank": 6.31
+},
+{
 "title": "Former FDA officials blast DOGE as ‘one of the biggest disasters in American history’",
 "link": "https://www.statnews.com/2026/10/14/former-fda-commissioners-say-recruit-defend-support-agency-workforce/?utm_campaign=rss",
 "date": "2026-10-14T23:23:20+00:00",
@@ -1088,59 +1114,6 @@
 "rank": 6.5
 },
 {
-"title": "When AI Outruns the Doctor: A New Framework Measures the Human Oversight Gap in Cardiology",
-"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT1dGa2I2NkpEOHN6ZHJxcDhtNDU0OHo2ekxGNjM1VzVzV2pvMkZwNWl5eWpyUkhSS0t3VEVGYklDX1VfZEliMHlRVzg4bjdhWVZkRlYwcUdZYktzOWtFU0FWMGJ0N2NQa3MtUVlWaVlWc1lDTDlqdDdiSGJhWW9IOXlpVjdUSXZKaUZzaTNndWtKNnpXNEZNSkh3STgyTXVPNzN6VzdOMmJzdmotMEZRSV92cTM?oc=5",
-"date": "2026-10-14T13:58:50+00:00",
-"source": "Bioengineer.org",
-"source_group": "Google News · FDA AI",
-"home": "https://bioengineer.org",
-"thin": true,
-"badge": "",
-"pop": null,
-"id": "061da85ed391",
-"keep": true,
-"zh_title": "当AI超越医生：新框架衡量心脏病学中的人类监督差距",
-"summary": "报道称有新框架用于衡量心脏病学领域中AI与医生之间的人类监督差距。",
-"key_points": [],
-"section": "临床预测与决策",
-"type": "观点",
-"tags": [
-"临床决策支持",
-"公平与安全"
-],
-"evidence": "新闻",
-"score": 4,
-"day": "2026-10-15",
-"rank": 6.31
-},
-{
-"title": "Funding Tracker '26: Ours Privacy, Arintra and Happy Health",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
-"date": "2026-10-15T00:56:23+00:00",
-"source": "Fierce Healthcare",
-"source_group": "Google News · FDA AI",
-"home": "https://www.fiercehealthcare.com",
-"thin": true,
-"badge": "",
-"pop": null,
-"id": "9b6679e9ae6f",
-"keep": true,
-"zh_title": "2026融资追踪：Ours Privacy、Arintra与Happy Health",
-"summary": "融资追踪报道Ours Privacy、Arintra与Happy Health三家公司的融资动态。",
-"key_points": [],
-"section": "产业动态",
-"type": "融资",
-"tags": [
-"数字健康",
-"融资与并购"
-],
-"evidence": "新闻",
-"score": 3,
-"reason": "标题仅列公司名，信息量低且非AI专指，属增量档上限",
-"day": "2026-10-15",
-"rank": 6.0
-},
-{
 "title": "As prior auth becomes an AI ‘arms race,’ Otter Health raises $8M for a different approach",
 "link": "https://www.fiercehealthcare.com/ai-and-machine-learning/otter-health-launches-8m-take-prior-authorization",
 "date": "2026-10-15T13:29:10.234543+00:00",
@@ -1159,7 +1132,7 @@
 "定位预授权AI竞争下的替代路线",
 "以实时影响诊疗决策替代申请审批"
 ],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [
 "融资与并购",
@@ -1236,6 +1209,33 @@
 "rank": 5.51
 },
 {
+"title": "Funding Tracker '26: Ours Privacy, Arintra and Happy Health",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
+"date": "2026-10-15T00:56:23+00:00",
+"source": "Fierce Healthcare",
+"source_group": "Google News · FDA AI",
+"home": "https://www.fiercehealthcare.com",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "9b6679e9ae6f",
+"keep": true,
+"zh_title": "2026融资追踪：Ours Privacy、Arintra与Happy Health",
+"summary": "融资追踪报道Ours Privacy、Arintra与Happy Health三家公司的融资动态。",
+"key_points": [],
+"section": "落地与监管",
+"type": "融资",
+"tags": [
+"数字健康",
+"融资与并购"
+],
+"evidence": "新闻",
+"score": 3,
+"reason": "标题仅列公司名，信息量低且非AI专指，属增量档上限",
+"day": "2026-10-15",
+"rank": 6.0
+},
+{
 "title": "World's First AI System That Prescribes Medications Directly Without Doctor Oversight: Is It a Revolutionary Breakthrough or a Hidden Risk?",
 "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JTDRpZHNjWElLMmhvRFBjMkJ6Z3BKVEd6N05QbTlIZVd5bkhqZTd2cnZjWlYtRFBFSlUwQmxFNmxmOGx5cm9JX0RCWlJaWFV6SFVz?oc=5",
 "date": "2026-10-15T09:32:20+00:00",
@@ -1281,7 +1281,7 @@
 "Outro融资700万美元用于减药（deprescribing）服务",
 "属健康科技与数字健康风投汇总报道"
 ],
-"section": "产业动态",
+"section": "落地与监管",
 "type": "融资",
 "tags": [
 "融资与并购",
