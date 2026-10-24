@@ -32,7 +32,7 @@ TAG_SECTION = {"监管政策": "落地与监管", "医疗器械": "落地与监�
   "临床预测": "临床预测与决策", "临床决策支持": "临床预测与决策", "生理信号": "临床预测与决策", "肿瘤": "临床预测与决策", "神经科学": "临床预测与决策"}
 OLD_SECTION = {"产业与融资": "落地与监管", "产业动态": "落地与监管", "临床落地与监管": "落地与监管"}
 SOURCES = [
- dict(name="arXiv", kind="arxiv", oai_sets=["cs:cs:AI","cs:cs:CV","cs:cs:CL","eess:eess:IV","q-bio:q-bio:QM"], url="https://export.arxiv.org/api/query?search_query=(cat:cs.AI+OR+cat:cs.CV+OR+cat:cs.CL+OR+cat:cs.LG+OR+cat:eess.IV+OR+cat:q-bio.QM)+AND+(abs:medical+OR+abs:clinical+OR+abs:radiology+OR+abs:pathology+OR+abs:histopathology+OR+abs:dermatology+OR+abs:ophthalmology+OR+abs:biomedical+OR+abs:patient+OR+abs:%22scientific+discovery%22+OR+abs:%22drug+discovery%22)&sortBy=submittedDate&sortOrder=descending&max_results=80", keywords=MED + ["scientific discovery", "drug discovery"], limit=80, evidence="预印本"),
+ dict(name="arXiv", kind="arxiv", oai_sets=["cs:cs:AI","cs:cs:CV","cs:cs:CL","eess:eess:IV","q-bio:q-bio:QM"], url="https://export.arxiv.org/api/query?search_query=(cat:cs.AI+OR+cat:cs.CV+OR+cat:cs.CL+OR+cat:cs.LG+OR+cat:eess.IV+OR+cat:q-bio.QM)+AND+(abs:medical+OR+abs:clinical+OR+abs:radiology+OR+abs:pathology+OR+abs:histopathology+OR+abs:dermatology+OR+abs:ophthalmology+OR+abs:biomedical+OR+abs:patient+OR+abs:%22scientific+discovery%22+OR+abs:%22drug+discovery%22+OR+abs:%22social+simulation%22+OR+abs:%22generative+agents%22+OR+abs:%22computational+social+science%22+OR+abs:%22trial+matching%22)&sortBy=submittedDate&sortOrder=descending&max_results=90", keywords=MED + ["scientific discovery", "drug discovery", "social simulation", "generative agent", "generative agents", "computational social science", "persona", "trial matching"], limit=90, evidence="预印本"),
  dict(name="medRxiv", url="https://connect.medrxiv.org/medrxiv_xml.php?subject=Health_Informatics", evidence="预印本"),
  dict(name="bioRxiv", url="https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics", keywords=["deep learning","machine learning","language model","neural","AI","foundation model","transformer"], evidence="预印本"),
  dict(name="PubMed", kind="pubmed", max_age=30, reldate=3, limit=60, term='("artificial intelligence"[tiab] OR "deep learning"[tiab] OR "large language model"[tiab]) AND hasabstract', evidence="同行评审"),
@@ -81,7 +81,7 @@ SOURCES = [
 ]
 PROMPT = """你是严谨克制的医疗 AI 情报编辑。根据给定条目（仅依据其中提供的信息）生成中文结构化摘要。
 规则：只陈述来源中的事实，绝不编造数字、结论或机构；不夸大；绝不给出任何医疗建议或诊疗推荐；预印本须视为未经同行评审。
-若条目与 AI/算法在医疗健康、生物医学中的应用无关，keep=false；AI 只是顺带提及、信息几乎为零的宣传稿或旧闻重复报道，也 keep=false。拿不准时倾向 keep=false。"""
+若条目与 AI/算法在医疗健康、生物医学中的应用无关，keep=false；例外：大规模智能体/persona 社会模拟、AI for social science、computational social science 类研究即使不直接涉及医疗也 keep=true（归入 大模型与智能体）。AI 只是顺带提及、信息几乎为零的宣传稿或旧闻重复报道，keep=false。拿不准时倾向 keep=false。"""
 RUBRIC = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "prompts", "score_rubric.md"), encoding="utf-8").read()
 FIELDS = """keep(bool), zh_title(中文标题,≤40字), summary(一句话摘要,≤80字), key_points(3条要点数组,每条≤30字), section(从可选 section 中按研究/事件所属方向选一，见各方向说明), type(论文/模型/监管/融资/观点 之一，表示内容形式), tags(从可选 tags 中选 1-3 个), evidence(预印本/同行评审/已获批/新闻 之一, 参考 evidence_hint；FDA/NMPA 批准类为 已获批), score(1-10 重要性整数，严格按下方评分标准), reason(打分理由,≤40字,点明对应评分标准中的档位与加减分依据,如「多中心外部验证+临床结局，属重要档」)"""
 

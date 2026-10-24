@@ -45,6 +45,8 @@ score 衡量「一位医疗 AI 研究者 / 从业者今天值不值得花 3 分�
 - AI / agent for scientific discovery、biomedical discovery、drug discovery
 - human-AI collaboration、reader study、人机对照评估
 - 可穿戴与睡眠方向的基础模型或大规模队列研究
+- 大规模智能体 / persona 社会模拟、AI for social science（如生成式智能体社会、computational social science）
+- 临床试验匹配（trial matching）与 AI 辅助试验设计
 
 命中以下主题时在档位内下调：融资并购与市场动态、产品宣传与功能更新、医院 IT 采购与一般行业新闻（除非达到里程碑档）。
 
