@@ -761,6 +761,19 @@ def cite_text(i):
     ref = i.get("badge") or i["link"]
     return f"{i['title']}. {i['source']}, {(i.get('date') or '')[:10]}. {ref.replace('DOI ', 'https://doi.org/') if ref.startswith('DOI ') else ref}"
 
+CODE_RE = re.compile(r'https?://(?:www\.)?(?:github\.com|huggingface\.co)/[\w.\-/%#]+')
+def code_links(i):
+    """GitHub / Hugging Face links mentioned in the abstract or summary, for a quick code/data shortcut."""
+    txt = " ".join([i.get("abstract") or "", i.get("summary") or "", i.get("desc") or ""])
+    out = []
+    for m in CODE_RE.finditer(txt):
+        u = m.group(0).rstrip(".,;)]}>")
+        if u != i.get("link") and u not in out and len(u.split("/")) > 3: out.append(u)
+    return out[:2]
+
+def code_html(i, cls="ext code"):
+    return "".join(f'<a class="{cls}" href="{E(u)}" target="_blank" rel="noopener">{"GitHub" if "github.com" in u else "🤗 HF"} ↗</a>' for u in code_links(i))
+
 def card(i, featured=False, top=False, base=""):
     health = SITE["mode"] == "health"
     tags = i.get("tags") or []
@@ -778,9 +791,10 @@ def card(i, featured=False, top=False, base=""):
     meta = (f'<div class="meta">{sb}{fav_img(i, base)}<span>{E(i["source"])}</span>'
             f'<span>·</span><span>发布于 {zh_date(i.get("date",""))}</span>' + (f'<span>·</span><span class="mono">{E(i["pop"])}</span>' if i.get("pop") else "") + evm +
             (f'<span class="badge" title="{E(i["badge"])}">{E(i["badge"])}</span>' if health and i.get("badge") else "") +
-            f'<a class="ext" href="{E(i["link"])}" target="_blank" rel="noopener" title="打开原文">原文 ↗</a></div>')
-    t = f'<a class="t stretch" href="{base}items/{E(i["id"])}/">{E(title)}</a>'
-    orig = f'<div class="orig">{E(i["title"])}</div>' if health and title != i["title"] else ""
+            f'<a class="ext" href="{E(i["link"])}" target="_blank" rel="noopener" title="打开原文">原文 ↗</a>{code_html(i) if health else ""}</div>')
+    ena = f' data-en="{E(i["title"])}"' if health and title != i["title"] else ""
+    t = f'<a class="t stretch" href="{base}items/{E(i["id"])}/"{ena}>{E(title)}</a>'
+    orig = f'<div class="orig" data-en="{E(title)}">{E(i["title"])}</div>' if health and title != i["title"] else ""
     s = f'<p class="s">{E(i.get("summary"))}</p>'
     kp = "".join(f"<li>{E(k)}</li>" for k in (i.get("key_points") or [])[:3])
     kp = f'<ul class="kp">{kp}</ul>' if kp and not i.get("thin") else ""
@@ -849,7 +863,7 @@ def header(base, tabs=True, active=""):
             f'<div class="sfoot"><span id="busuanzi_container_site_pv" class="bsz" style="display:none">总访问 <b id="busuanzi_value_site_pv"></b> 次<br>访客 <b id="busuanzi_value_site_uv"></b> 人</span><a href="{base}feed.xml">RSS 订阅</a><a href="{base}status.html">数据源状态</a><a href="{SITE["repo"]}" target="_blank" rel="noopener">GitHub</a></div></aside>'
             f'<nav class="bnav">{links}</nav>')
     t = ('<nav class="tabs" id="tabs">' + "".join(f'<button class="tab{" on" if s=="全部" else ""}" data-s="{E(s)}">{E(s)}</button>' for s in ["全部"] + SECTIONS) + "</nav>") if tabs else ""
-    return side + f'<header{"" if tabs else " class=notabs"}><div class="wrap"><a class="brand" href="{base}./">{SITE["wordmark"]}</a>{t}</div></header>'
+    return side + f'<header{"" if tabs else " class=notabs"}><div class="wrap"><a class="brand" href="{base}./">{SITE["wordmark"]}</a>{t}<button id="lang" class="langb" title="切换标题语言 / Toggle title language">EN</button></div></header>'
 
 def footer(base, st=None):
     srcs = "、".join(sorted({s["name"] for s in SOURCES}))
@@ -1007,7 +1021,8 @@ def item_page(i, related, url):
     also = ""
     if i.get("also"):
         also = "<h2>其他来源报道</h2><ul class=\"list\">" + "".join(f'<li><a href="{E(a["link"])}" target="_blank" rel="noopener">{E(a["source"])} ↗</a></li>' for a in i["also"]) + "</ul>"
-    side = (f'<a class="btn" href="{E(i["link"])}" target="_blank" rel="noopener">阅读原文 ↗</a>'
+    side = (f'<a class="btn" href="{E(i["link"])}" target="_blank" rel="noopener">阅读原文 ↗</a>' +
+            "".join(f'<a class="btn code" href="{E(u)}" target="_blank" rel="noopener">{"GitHub 代码" if "github.com" in u else "🤗 模型 / 数据"} ↗</a>' for u in code_links(i)) +
             f'<div class="box scorecard {tc}"><div class="big"><b>{E(i.get("score") or "–")}</b><span>/10</span></div><div class="tn">{tn}</div>' +
             (f'<p class="rs">{E(i["reason"])}</p>' if i.get("reason") else "") + f'<div class="ev">{E(score_tip(i))}</div></div>'
             f'<dl class="box kv"><dt>方向</dt><dd><a href="../../#tab={urllib.parse.quote(section_of(i))}">{E(section_of(i))}</a></dd><dt>形式</dt><dd>{E(form_of(i))}</dd>'
@@ -1015,10 +1030,11 @@ def item_page(i, related, url):
             (f'<dt>标识</dt><dd class="mono">{E(i["badge"])}</dd>' if i.get("badge") else "") + "</dl>" +
             ('<div class="chips">' + "".join(f'<span class="chip">{E(t)}</span>' for t in i.get("tags") or []) + "</div>" if i.get("tags") else "") +
             (f'<button class="cite" data-cite="{E(cite_text(i))}">复制引用 / DOI</button>' if i.get("badge") or i.get("type") == "论文" else ""))
+    h1a = f' data-en="{E(i["title"])}"' if title != i["title"] else ""
     relh = "同方向的高分顶会论文" if i.get("source_group") == "顶会论文" else "同方向的其他条目"
     rel = (f'<h2 class="relh">{relh}</h2><div class="feed">' + "".join(card(r, base="../../") for r in related) + "</div>") if related else ""
-    body = (header("../../", False, "papers" if i.get("source_group") == "顶会论文" else "hot") + f'<main class="wrap item"><a class="back" href="../../{"papers/" if i.get("source_group") == "顶会论文" else ""}">← 返回{"论文库" if i.get("source_group") == "顶会论文" else "首页"}</a><div class="igrid"><article class="imain">{meta}<h1>{E(title)}</h1>'
-            + (f'<div class="orig">{E(i["title"])}</div>' if title != i["title"] else "") +
+    body = (header("../../", False, "papers" if i.get("source_group") == "顶会论文" else "hot") + f'<main class="wrap item"><a class="back" href="../../{"papers/" if i.get("source_group") == "顶会论文" else ""}">← 返回{"论文库" if i.get("source_group") == "顶会论文" else "首页"}</a><div class="igrid"><article class="imain">{meta}<h1{h1a}>{E(title)}</h1>'
+            + (f'<div class="orig" data-en="{E(title)}">{E(i["title"])}</div>' if title != i["title"] else "") +
             f'<h2>AI 导读</h2>{digest}{abstract}{also}<p class="muted note">导读与中文摘要由 AI 生成 / 翻译，仅供参考，请以原文为准；不构成医疗建议。</p></article>'
             f'<aside class="iside">{side}</aside></div>{rel}</main>' + footer("../../"))
     return page(f'{title} · {SITE["title"]}', i.get("summary") or title, url + f'items/{i["id"]}/', body, 2)

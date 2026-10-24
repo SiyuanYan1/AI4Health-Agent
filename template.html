@@ -8,7 +8,11 @@
 a{color:inherit;text-decoration:none}.mono{font-family:"JetBrains Mono",ui-monospace,monospace}
 .wrap{max-width:1080px;margin:0 auto;padding:0 24px}@media(max-width:640px){.wrap{padding:0 16px}}
 header{position:sticky;top:0;z-index:10;height:56px;border-bottom:1px solid var(--bd);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:color-mix(in srgb,var(--bg) 85%,transparent)}
-header .wrap{display:flex;align-items:center;gap:20px;height:56px}.brand{font-size:20px;font-weight:600;white-space:nowrap}.brand b{color:var(--ac);font-weight:600}
+header .wrap{display:flex;align-items:center;gap:20px;height:56px}
+.langb{flex:0 0 auto;margin-left:auto;border:1px solid var(--bd);background:var(--sf);color:var(--mu);border-radius:999px;padding:3px 11px;font:inherit;font-size:12.5px;line-height:1.6;cursor:pointer}
+.langb:hover{color:var(--ac);border-color:var(--ac)}
+a.ext.code{color:var(--ac2)}
+a.btn.code{background:var(--sf);color:var(--tx);border:1px solid var(--bd)}.brand{font-size:20px;font-weight:600;white-space:nowrap}.brand b{color:var(--ac);font-weight:600}
 .tabs{display:flex;gap:18px;overflow-x:auto;flex:1;scrollbar-width:none;height:100%}.tabs::-webkit-scrollbar{display:none}
 .tab{white-space:nowrap;color:var(--mu);cursor:pointer;border:0;background:none;font:500 14px/56px inherit;padding:0;border-bottom:2px solid transparent;font-family:inherit}
 .tab.on{color:var(--tx);border-bottom-color:var(--ac)}
@@ -105,6 +109,18 @@ h2 small{font-size:12px;font-weight:500;color:var(--mu);letter-spacing:.02em}
 </style></head><body class="{{MODE}}">{{BODY}}<script>
 (function(){
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+/* ---- 中/EN toggle: swap item titles to the original English and translate UI labels; choice persists ---- */
+const ZEN={'每日 HOT':'Daily','论文库':'Papers','周报':'Weekly','归档':'Archive','全部':'All','大模型与智能体':'LLMs & Agents','影像与病理':'Imaging & Pathology','临床预测与决策':'Clinical Prediction','生命科学与药物':'Life Science & Drugs','数字健康':'Digital Health','落地与监管':'Deployment & Regulation','全部形式':'All formats','研究论文':'Papers','综述与观点':'Reviews & Opinion','开源模型与代码':'Models & Code','新闻与监管':'News & Regulation','今日必读':'Must-read today','话题趋势':'Trending topics','要点与评分理由':'Key points & scoring','详情':'Details','原文 ↗':'Source ↗','复制引用 / DOI':'Copy citation / DOI','阅读原文 ↗':'Read source ↗','中文摘要':'Abstract (Chinese)','原文摘要':'Original abstract','查看英文原文摘要':'Show original English abstract','其他来源报道':'Also covered by','同方向的其他条目':'More in this topic','同方向的高分顶会论文':'Top conference papers in this topic','← 返回首页':'← Back to home','← 返回论文库':'← Back to papers','RSS 订阅':'RSS','数据源状态':'Source status','方向':'Topic','形式':'Format','证据':'Evidence','来源':'Source','标识':'ID','GitHub 代码 ↗':'GitHub code ↗','🤗 模型 / 数据 ↗':'🤗 model / data ↗','预印本 · 未经同行评审':'Preprint · not peer-reviewed','同行评审':'Peer-reviewed','已获批':'Approved','新闻':'News','仅基于标题':'Title-only','论文':'Paper','模型':'Model','监管':'Regulation','融资':'Funding','观点':'Opinion'};
+function setLang(l){
+ $$('[data-en]').forEach(e=>{if(!e.dataset.zh)e.dataset.zh=e.textContent;e.textContent=l==='en'?e.dataset.en:e.dataset.zh});
+ $$('.snav a span,.bnav a span,.tab,#formBar button,h2,summary,a.ext,button.cite,.sfoot a,a.btn,a.back,dt,h2.relh,.evm,.chip.ty,dd').forEach(e=>{
+  const n=e.firstChild;if(!n||n.nodeType!==3)return;const t=n.nodeValue.trim();
+  if(l==='en'){if(ZEN[t]!==undefined){e.dataset.zhl=t;n.nodeValue=ZEN[t]}}else if(e.dataset.zhl!==undefined){n.nodeValue=e.dataset.zhl}});
+ const lb=$('#lang');if(lb)lb.textContent=l==='en'?'中':'EN';
+ document.documentElement.dataset.lang=l;
+ try{localStorage.setItem('lang',l)}catch(_){}}
+const lb=$('#lang');if(lb)lb.onclick=()=>{let cur='zh';try{cur=localStorage.getItem('lang')||'zh'}catch(_){}setLang(cur==='en'?'zh':'en')};
+try{if(localStorage.getItem('lang')==='en')setLang('en')}catch(_){}
 let sec='全部',q='',tag='',form='全部形式',C=null,page=0;const PER=30;
 document.addEventListener('click',e=>{const r=e.target.closest('.tr');if(r){tag=tag===r.dataset.tag?'':r.dataset.tag;page=0;apply();return}
  const t=e.target.closest('.chip.tag');if(t){e.preventDefault();tag=t.dataset.tag;page=0;apply();window.scrollTo({top:0,behavior:'smooth'});return}
