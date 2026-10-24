@@ -39,7 +39,8 @@ score 衡量「一位医疗 AI 研究者 / 从业者今天值不值得花 3 分�
 
 - 医学 / 生物医学基础模型：尤其大规模预训练、longitudinal、patient-level 建模，以及大厂或顶校发布的此类模型与系统（如 AMIE、GigaPath 一类）
 - 多模态 LLM、视觉-语言模型在医疗中的方法与应用
-- 病理、皮肤、眼科等影像专科；肿瘤转移（metastasis）相关的 AI 研究
+- 病理、皮肤、眼科等影像专科；肿瘤转移（metastasis）与治疗反应 / 预后预测的 AI 研究（传统深度学习与微调方法同样适用，不限于大模型）
+- 精神健康、痴呆等神经退行性疾病方向的 LLM / 多模态研究
 - 领域专用语言模型 / 基础模型（如 dementia LM、单专科 LLM、纯文本医学大模型）
 - world model 在 medical / biomedical 中的应用
 - AI / agent for scientific discovery、biomedical discovery、drug discovery

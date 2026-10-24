@@ -11,9 +11,9 @@ ZH_AI = ["AI", "人工智能", "大模型", "算法", "智能体", "机器学习
 GN_EN = "&hl=en-US&gl=US&ceid=US:en"; GN_ZH = "&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
 # 主导航按「方向」分区；内容形式（论文 / 模型与代码 / 新闻 / 观点与综述）是第二层筛选，由 type 推出
 SECTION_HINTS = {
-  "大模型与智能体": "医学大语言模型、临床 NLP、电子病历文本、医患对话、临床智能体与 AI 助手",
-  "影像与病理": "放射影像、病理、内镜、眼科、超声、手术视频等以图像为主的研究与产品",
-  "临床预测与决策": "基于结构化数据或生理信号的风险预测、预后、分诊、临床决策支持、ICU / 急诊",
+  "大模型与智能体": "医学大语言模型、多模态医学大模型、临床 NLP（含 dementia / 精神健康等专病语言模型）、电子病历文本、医患对话、临床智能体与 AI 助手、智能体社会模拟",
+  "影像与病理": "放射影像、病理、皮肤、眼科、内镜、超声、手术视频等以图像为主的研究与产品（含传统深度学习与微调方法）",
+  "临床预测与决策": "基于结构化数据或生理信号的风险预测、预后（含转移与治疗反应预测）、分诊、临床决策支持、临床试验匹配、ICU / 急诊",
   "生命科学与药物": "药物发现、蛋白质、基因组与单细胞、分子与类器官等生物医学基础研究",
   "数字健康": "可穿戴、睡眠、远程医疗、慢病与心理健康管理、公共卫生与流行病预测",
   "落地与监管": "部署与实施经验、FDA / NMPA 等监管与审批、证据标准、安全公平与隐私、治理与医学教育、重要产业动态",
@@ -54,6 +54,8 @@ SOURCES = [
  dict(name="Nature Communications", max_age=60, url="https://www.nature.com/ncomms.rss", keywords=AIK, evidence="同行评审"),
  dict(name="Nature Biotechnology", max_age=60, url="https://www.nature.com/nbt.rss", keywords=AIK, evidence="同行评审"),
  dict(name="Nature Cancer", max_age=60, url="https://www.nature.com/natcancer.rss", keywords=AIK, evidence="同行评审"),
+ dict(name="Nature Mental Health", max_age=60, url="https://www.nature.com/natmentalhealth.rss", keywords=AIK, evidence="同行评审"),
+ dict(name="Nature Aging", max_age=60, url="https://www.nature.com/nataging.rss", keywords=AIK, evidence="同行评审"),
  dict(name="npj Precision Oncology", max_age=60, url="https://www.nature.com/npjprecisiononcology.rss", keywords=AIK, evidence="同行评审"),
  dict(name="eClinicalMedicine", max_age=60, url="https://www.thelancet.com/rssfeed/eclinm_current.xml", keywords=AIK, evidence="同行评审"),
  dict(name="Cell Reports Medicine", max_age=60, url="https://www.cell.com/cell-reports-medicine/inpress.rss", keywords=AIK, evidence="同行评审"),
@@ -101,7 +103,7 @@ TAG_SYNONYMS = {"分割": "医学影像", "图像分割": "医学影像", "超�
 SOURCE_WEIGHTS = {"NEJM AI": 3.0, "Nature Medicine": 3.0, "Lancet Digital Health": 3.0, "npj Digital Medicine": 3.0, "PubMed": 1.5, "medRxiv": 1.0, "bioRxiv": 1.0,
   "arXiv": 1.2, "Hugging Face": 1.0, "GitHub": 1.0, "STAT News": 1.0, "Google News · FDA AI": 0.5, "Google News · NMPA AI": 0.5,
   "PubMed · 重点期刊": 2.5, "Nature Biomedical Engineering": 3.0, "Nature Machine Intelligence": 3.0, "eClinicalMedicine": 2.0, "Cell Reports Medicine": 2.0,
-  "Nature": 3.0, "Nature Communications": 2.5, "Nature Biotechnology": 2.0, "Nature Cancer": 2.0, "npj Precision Oncology": 2.0,
+  "Nature": 3.0, "Nature Communications": 2.5, "Nature Biotechnology": 2.0, "Nature Cancer": 2.0, "npj Precision Oncology": 2.0, "Nature Mental Health": 2.0, "Nature Aging": 2.0,
   "Medical Image Analysis": 2.0, "Hugging Face Daily Papers": 1.5, "Google Research": 2.5, "Google DeepMind": 2.5, "Microsoft Research": 2.5, "OpenAI": 2.0,
   "NVIDIA Blog": 1.0, "Google News · AI 公司动态": 1.0, "FDA 新闻稿": 2.0, "FDA AI 器械清单": 2.5, "EMA": 1.5, "MHRA": 1.5, "WHO": 1.5,
   "Google News · 中文医疗AI": 0.5, "Hugging Face 数据集": 1.0}
