@@ -1,8 +1,15 @@
-# AI4Health-Hub
+# AI4Health-Agent
 
-医疗 AI 每日动态，按方向分为：影像与病理、大模型与智能体、临床预测与决策、生命科学与药物、数字健康、落地与监管、产业动态；每个方向内可再按形式筛选（研究论文 / 综述与观点 / 开源模型与代码 / 新闻与监管，四类互斥）。顶会论文在单独的「论文库」页面 `/papers/`。内容由 LLM 自动摘要，仅供参考，不构成医疗建议；预印本未经同行评审。
+Siyuan Yan 的个人定制版医疗 AI 每日简报，fork 自 [ChunXiaostudy/AI4Health-Hub](https://github.com/ChunXiaostudy/AI4Health-Hub)。按方向分为：影像与病理、大模型与智能体、临床预测与决策、生命科学与药物、数字健康、落地与监管；每个方向内可再按形式筛选（研究论文 / 综述与观点 / 开源模型与代码 / 新闻与监管，四类互斥）。顶会论文在单独的「论文库」页面 `/papers/`。内容由 LLM 自动摘要，仅供参考，不构成医疗建议；预印本未经同行评审。
 
-- 网站: https://chunxiaostudy.github.io/AI4Health-Hub/
+## 相对原版的定制
+
+- **加源**：Nature 正刊、Nature Communications、Nature Biotechnology、Nature Cancer、npj Precision Oncology（均按 AI 关键词过滤）；arXiv 检索加入 histopathology / dermatology / ophthalmology / scientific discovery / drug discovery。
+- **减噪**：移除「产业动态」板块及融资并购、行业媒体、Hacker News、ClinicalTrials.gov 等信源；遗留条目并入「落地与监管」。
+- **个性化评分**：`prompts/score_rubric.md` 增加「读者偏好」——医学/生物医学基础模型（longitudinal、patient-level、大厂大模型）、多模态 LLM、病理/皮肤/眼科、领域专用 LM、world model in medical、AI/agent for scientific & biomedical & drug discovery、human-AI collaboration、可穿戴与睡眠基础模型加分；融资宣传减分。
+- **来源权重**：Nature 家族整体上调，新闻与监管类下调；默认模型改为 `anthropic/claude-sonnet-5.5`（经 OpenRouter）。
+
+- 网站: https://siyuanyan1.github.io/AI4Health-Agent/
 - 每日 07:30（北京时间）由 GitHub Actions 自动抓取 → LLM 中文摘要/分类/打分 → 构建静态站 → 发布到 GitHub Pages。
 - 数据源见 `config.py`（约 40 个），历史数据保存在 `data/items.json`（保留 30 天）。分为：预印本与 PubMed（含 JAMA Netw Open / Radiology: AI / JAMIA / IEEE TMI 的期刊检索）、高影响力期刊 RSS、Hugging Face Daily Papers、大厂与实验室博客（Google Research / DeepMind / Microsoft Research / OpenAI / NVIDIA，其余公司走 Google News `site:` 检索）、监管机构（FDA 新闻稿与 AI 器械清单、EMA、MHRA、WHO）、中英文行业与融资媒体、Hacker News、ClinicalTrials.gov 新注册 AI 试验、Hugging Face 模型与数据集。
 - RSS 被拦截（403）或没有 RSS 的站点（MobiHealthNews、Healthcare IT News、Fierce Biotech、Endpoints、36氪、机器之心、量子位、动脉网等）暂由 Google News 检索代替，只有标题；要拿全文需自建 RSSHub / WeWe-RSS 后改成直连。
