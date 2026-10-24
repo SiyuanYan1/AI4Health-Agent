@@ -1,50 +1,29 @@
 # AI4Health-Agent
 
-Siyuan Yan 的个人定制版医疗 AI 每日简报，fork 自 [ChunXiaostudy/AI4Health-Hub](https://github.com/ChunXiaostudy/AI4Health-Hub)。按方向分为：影像与病理、大模型与智能体、临床预测与决策、生命科学与药物、数字健康、落地与监管；每个方向内可再按形式筛选（研究论文 / 综述与观点 / 开源模型与代码 / 新闻与监管，四类互斥）。顶会论文在单独的「论文库」页面 `/papers/`。内容由 LLM 自动摘要，仅供参考，不构成医疗建议；预印本未经同行评审。
+**医疗 AI 每日简报（个人定制版）** · 网站：**https://siyuanyan1.github.io/AI4Health-Agent/**
 
-## 相对原版的定制
+每天北京时间 07:30 自动抓取约 40 个信源（Nature 系与高影响力期刊 RSS、arXiv / medRxiv / PubMed、Hugging Face、Google / DeepMind / Microsoft 等实验室博客、FDA / EMA 等监管机构），由 LLM（`anthropic/claude-sonnet-5.5`，经 OpenRouter）生成中文摘要、分类与重要性评分，构建静态网站发布到 GitHub Pages。另有顶会论文库（`/papers/`，CVPR / ICCV / NeurIPS / ICML / ICLR / ACL / AAAI / MICCAI / ISBI / MIDL / CHIL / ML4H）、每周汇总和 RSS 输出。
 
-- **加源**：Nature 正刊、Nature Communications、Nature Biotechnology、Nature Cancer、npj Precision Oncology（均按 AI 关键词过滤）；arXiv 检索加入 histopathology / dermatology / ophthalmology / scientific discovery / drug discovery。
-- **减噪**：移除「产业动态」板块及融资并购、行业媒体、Hacker News、ClinicalTrials.gov 等信源；遗留条目并入「落地与监管」。
-- **个性化评分**：`prompts/score_rubric.md` 增加「读者偏好」——医学/生物医学基础模型（longitudinal、patient-level、大厂大模型）、多模态 LLM、病理/皮肤/眼科、领域专用 LM、world model in medical、AI/agent for scientific & biomedical & drug discovery、human-AI collaboration、可穿戴与睡眠基础模型加分；融资宣传减分。
-- **来源权重**：Nature 家族整体上调，新闻与监管类下调；默认模型改为 `anthropic/claude-sonnet-5.5`（经 OpenRouter）。
+内容由程序自动生成，仅供科研参考，不构成医疗建议；预印本未经同行评审。
 
-- 网站: https://siyuanyan1.github.io/AI4Health-Agent/
-- 每日 07:30（北京时间）由 GitHub Actions 自动抓取 → LLM 中文摘要/分类/打分 → 构建静态站 → 发布到 GitHub Pages。
-- 数据源见 `config.py`（约 40 个），历史数据保存在 `data/items.json`（保留 30 天）。分为：预印本与 PubMed（含 JAMA Netw Open / Radiology: AI / JAMIA / IEEE TMI 的期刊检索）、高影响力期刊 RSS、Hugging Face Daily Papers、大厂与实验室博客（Google Research / DeepMind / Microsoft Research / OpenAI / NVIDIA，其余公司走 Google News `site:` 检索）、监管机构（FDA 新闻稿与 AI 器械清单、EMA、MHRA、WHO）、中英文行业与融资媒体、Hacker News、ClinicalTrials.gov 新注册 AI 试验、Hugging Face 模型与数据集。
-- RSS 被拦截（403）或没有 RSS 的站点（MobiHealthNews、Healthcare IT News、Fierce Biotech、Endpoints、36氪、机器之心、量子位、动脉网等）暂由 Google News 检索代替，只有标题；要拿全文需自建 RSSHub / WeWe-RSS 后改成直连。
-- 每次运行先按 `hub.prescore()`（AI + 医疗关键词命中、是否有摘要、星标/点赞/热度）在每个来源内部排序，再按来源权重轮询，最多送 `MAX_NEW`（workflow 里为 200）条给 LLM；没轮到的下次运行继续排队。
+## 覆盖方向
+
+影像与病理 · 大模型与智能体 · 临床预测与决策 · 生命科学与药物 · 数字健康 · 落地与监管；每个方向内可按形式筛选（研究论文 / 综述与观点 / 开源模型与代码 / 新闻与监管）。
+
+## 相对上游的定制
+
+按个人研究方向（医学影像与医学基础模型）做了小幅修改：
+
+- **信源**：新增 Nature 正刊、Nature Communications、Nature Biotechnology、Nature Cancer、npj Precision Oncology；扩展 arXiv 检索（病理 / 皮肤 / 眼科 / scientific & drug discovery）；移除融资并购与行业新闻类信源及「产业动态」板块。
+- **评分**：`prompts/score_rubric.md` 增加读者偏好——医学基础模型（longitudinal、patient-level）、多模态 LLM、影像专科、领域专用 LM、world model in medical、AI for scientific discovery、human-AI collaboration 等加分；产业宣传减分。
+- **权重**：Nature 家族信源上调，新闻监管类下调。
 
 ## 运行
-```
-pip install feedparser
-LLM_API_KEY=... LLM_BASE_URL=... python hub.py   # 输出到 site/
-```
-Secrets: `LLM_API_KEY`, `LLM_BASE_URL`；可选 `SPRINGER_API_KEY`（[dev.springernature.com](https://dev.springernature.com) 免费申请的 Meta API key，用于 Nature / Springer 论文摘要；nature.com 会对 GitHub Actions 时不时弹机器人验证页）；可选 `NCBI_API_KEY`（NCBI 账号设置里免费生成，PubMed E-utilities 限速从 3 次/秒升到 10 次/秒；无 key 时所有 PubMed 请求全局串行、间隔 0.5s，429 自动退避）；可选变量 `LLM_MODEL`（默认 deepseek-v4-flash）。
 
-## 致谢
-思路参考 [wuyoscar/AISafetyHot-Hub](https://github.com/wuyoscar/AISafetyHot-Hub)（内容 CC BY-NC 4.0）与 [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT)（MIT）。本仓库代码为独立重写，未复制其内容。条目版权归原始来源所有。
+GitHub Actions 全自动（`.github/workflows/update.yml`）。需配置 Secrets：`LLM_API_KEY`、`LLM_BASE_URL`；变量 `LLM_MODEL`；可选 `SPRINGER_API_KEY`、`NCBI_API_KEY`。本地构建：`pip install feedparser && python hub.py build`。实现细节、评分评测流程见[上游 README](https://github.com/ChunXiaostudy/AI4Health-Hub#readme)。
 
-代码以 MIT 许可发布。
+## Attribution
 
-## 顶会论文
-`conf.py` 通过 Semantic Scholar bulk search API 检索 2025–2026 年顶会（ACL/AAAI/IJCAI/NeurIPS/ICML/CVPR/ICCV/KDD/WWW/SIGIR/MM，及 EMNLP/NAACL/ICLR/MICCAI；CCF 等级按实际标注）中标题含医疗/临床/生物医学关键词的论文，以及医疗 AI 专门会议 ISBI / MIDL / CHIL / ML4H 的论文（这几个会议不按标题过滤；MIDL / ML4H 在 S2 上 venue 写法不统一，改为直接读 PMLR 对应卷的 `bibliography.bib`，卷号从 PMLR 首页按名称自动发现，无引用数），持久保存在 `data/conf.json`（不过期），每日刷新，每次最多新摘要 120 篇（`CONF_MAX`）。展示时经 `conf.as_item()` 转成与每日条目相同的结构，用同一个 `hub.card()` 渲染（预渲染进 `site/conf.json`，论文库页只做筛选和分页），并同样生成 `/items/<id>/` 详情页；摘要中文翻译每次按分数从高到低补 100 篇（`CONF_TRANSLATE`），未翻译的先显示英文原文摘要。
+本仓库 **heavily based on [ChunXiaostudy/AI4Health-Hub](https://github.com/ChunXiaostudy/AI4Health-Hub)**（直接 fork，核心代码与架构均来自该项目，MIT 许可），仅按个人阅读偏好做了信源与评分定制。上游项目的思路参考了 [wuyoscar/AISafetyHot-Hub](https://github.com/wuyoscar/AISafetyHot-Hub)（内容 CC BY-NC 4.0）与 [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT)（MIT），一并致谢。
 
-## 结构（v2）
-- `hub.py`：抓取 → 去重（标题相似度 + 事件合并，显示「N 个来源报道」）→ LLM 摘要（固定标签枚举）→ 综合排序（LLM 分 + 来源权重 + 证据级别 + 星标/引用/HN 分）→ 预渲染静态 HTML。
-- 每个条目有站内详情页 `/items/<id>/`：AI 导读、原文摘要的中文全文翻译（结构化摘要保留【背景】【方法】【结果】【结论】）、评分卡、方向/形式/证据、复制引用、「阅读原文」按钮。原文摘要（≤2500 字）存为 `abstract`，译文存为 `zh_abstract`（`hub.translate_all`，只翻译 ≥200 字的摘要）。摘要功能上线前收录的论文类条目由 `hub.backfill()` 逐步补齐（每次最多 60 条，依次尝试：本次抓到的同一条 RSS 全文 → Nature 系期刊用 Springer Nature Meta API（需 `SPRINGER_API_KEY`，没有则跳过）→ Springer 引用导出（RIS）/ 其他文章页 meta → bioRxiv / medRxiv 官方 API → PubMed / Europe PMC / OpenAlex），补到摘要后重新生成导读与评分并翻译。新收录的论文在同一次运行里就会进入补摘要；Nature 系 RSS 的「期刊名, Published online: …; doi:…」简介不算摘要。依次尝试的来源还包括 OpenAlex；每条每天最多尝试一次，最多尝试 7 个不同的日子（新刊文章要过几天才会进 OpenAlex 等索引），失败原因记在条目的 `abstract_err` 字段。NEJM AI 因 RSS 只有一句话且站点拒绝抓取，通常补不到。
-- `data/items.json` 滚动 30 天；`data/archive/YYYY-MM-DD.json` 永久归档 → `/YYYY-MM-DD/` 与 `/archive/`。
-- `data/status.json` 记录每次各来源条数 → `/status.html`；连续 3 次为 0 自动开/更新 issue。
-- RSS：`feed.xml`；按方向 `feed-{imaging,llm-agents,clinical-prediction,life-science,digital-health,regulation,industry}.xml`；按形式 `feed-{papers,models,news,opinion}.xml`；周报 `weekly/feed.xml`。旧的 `feed-clinical-regulatory.xml` 继续生成（= 落地与监管）。
-- `weekly.py` + `.github/workflows/weekly.yml`：每周一生成周报 `/weekly/YYYY-Www/`。
-- 测试：`python tests/test_hub.py`。
-
-## 打分标准与评测集
-- 评分标准写在 [`prompts/score_rubric.md`](prompts/score_rubric.md)，会拼进 LLM 的系统提示。改标准只改这个文件。
-- `hub.py` 每天把送进 LLM 的原始输入和模型判定（收 / 不收、分数）存到 `data/pool/YYYY-MM-DD.jsonl`（保留 30 天），包括被模型丢掉的条目。
-- 评测流程：
-  1. `python evalset.py sample --n 100`：从 pool（为空时退回归档）按来源 × 分数段分层抽样，追加到 `eval/labels.csv`。
-  2. 用 Excel / Numbers 打开 `eval/labels.csv`，在 `label` 列填 **精选 / 收录 / 不收**（`note` 列可写理由），保存后提交。建议先标 100–200 条。
-  3. `python evalset.py run --offline`：评测生产环境当时打的分，不需要 API Key。
-  4. 改了 `score_rubric.md` 后，在 Actions 里手动运行 **Scoring Eval**（或本地设好 `LLM_*` 后 `python evalset.py run`），用新提示词重新打分，对比报告里的精选 precision / recall、Spearman 和「主要分歧」列表。
-- 报告写到 `eval/last_report.md`，在 Actions 里也会显示在运行摘要页。
+所有条目内容版权归原始来源（期刊、预印本平台、媒体等）所有；本仓库代码以 MIT 许可发布。
