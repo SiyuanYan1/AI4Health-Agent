@@ -119,7 +119,7 @@ def section_of(it):
     """Topic section; migrates items labelled with the old content-form sections and backs up off-list LLM answers."""
     if it.get("section") in SECTIONS: return it["section"]
     if it.get("type") == "监管": return "落地与监管"
-    if it.get("type") == "融资": return "产业动态"
+    if it.get("type") == "融资": return "落地与监管"
     for t in it.get("tags") or []:
         if t in getattr(C, "TAG_SECTION", {}): return C.TAG_SECTION[t]
     if it.get("section") in getattr(C, "OLD_SECTION", {}): return C.OLD_SECTION[it["section"]]

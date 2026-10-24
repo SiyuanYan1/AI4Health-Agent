@@ -33,6 +33,21 @@ score 衡量「一位医疗 AI 研究者 / 从业者今天值不值得花 3 分�
 
 仅内部验证 · 仅回顾性 · 样本小 · 只有指标没有对照 · 厂商自我宣传 · 结论超出数据 · 只是旧工作的小改进
 
+## 读者偏好（在档位内调节，可与上面的加减分信号叠加，但不得突破硬性约束）
+
+读者是医学 AI 研究者，方向为医学影像与医学基础模型（发表于 Nature 系列），也做多模态与智能体研究。命中以下主题时在档位内上调（多项命中合计最多 +2）：
+
+- 医学 / 生物医学基础模型：尤其大规模预训练、longitudinal、patient-level 建模，以及大厂或顶校发布的此类模型与系统（如 AMIE、GigaPath 一类）
+- 多模态 LLM、视觉-语言模型在医疗中的方法与应用
+- 病理、皮肤、眼科等影像专科；肿瘤转移（metastasis）相关的 AI 研究
+- 领域专用语言模型 / 基础模型（如 dementia LM、单专科 LLM、纯文本医学大模型）
+- world model 在 medical / biomedical 中的应用
+- AI / agent for scientific discovery、biomedical discovery、drug discovery
+- human-AI collaboration、reader study、人机对照评估
+- 可穿戴与睡眠方向的基础模型或大规模队列研究
+
+命中以下主题时在档位内下调：融资并购与市场动态、产品宣传与功能更新、医院 IT 采购与一般行业新闻（除非达到里程碑档）。
+
 ## 硬性约束
 
 - title_only=true（只有标题）时最高 6 分。

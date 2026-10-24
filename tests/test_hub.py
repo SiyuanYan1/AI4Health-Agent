@@ -60,7 +60,7 @@ def test_sections_and_forms():
     assert hub.section_of(dict(section="影像与病理")) == "影像与病理"
     assert hub.section_of(dict(section="研究论文", tags=["病理", "肿瘤"])) == "影像与病理"
     assert hub.section_of(dict(section="临床落地与监管", type="监管", tags=["医学影像"])) == "落地与监管"
-    assert hub.section_of(dict(section="产业与融资", tags=[])) == "产业动态"
+    assert hub.section_of(dict(section="产业与融资", tags=[])) == "落地与监管"
     assert hub.section_of(dict(section="研究论文", tags=[], zh_title="单细胞基因调控")) == "生命科学与药物"
     f = lambda **k: hub.form_of(k)
     assert f(type="模型", source_group="bioRxiv") == "研究论文"          # a paper proposing a model is still a paper
