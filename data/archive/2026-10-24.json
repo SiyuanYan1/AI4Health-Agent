@@ -3520,6 +3520,39 @@
 "zh_abstract": "[Frontiers in physiology] 在精英运动中优化训练并管理损伤风险，需要能够从异质且不平衡的运动员记录中学习、同时不污染评估数据的模型。本研究提出了 PTI-GANFormer（基于生成对抗网络-Former 的个性化训练与损伤风险预测），这是一个集成的决策支持框架。其贡献并不在于单独使用 CTGAN 或自注意力，而在于将仅限训练集的条件性数据增强、三条功能分离的注意力通路、五个领域工程化指标以及透明的风险到行动建议层以防泄漏的方式结合起来。经过中位数插补、考虑合理性的异常值处理、类别嵌入、标准化和特征工程后，数据被分层划分为训练集和未经触碰的测试集。CTGAN 仅在训练集上拟合，并生成少数类记录，直至每个训练类别与原始多数类数量 7,894 相匹配。该混合分类器可区分无损伤、轻度损伤和重度损伤，而建议引擎将预测的风险转化为需经从业人员审核的工作负荷与恢复建议选项。在重复的分层评估中，PTI-GANFormer 的准确率为 0.960 ± 0.004（95% CI：0.957–0.963），精确率为 0.950 ± 0.006，召回率为 0.960 ± 0.005，F1 分数为 0.950 ± 0.005，宏平均 ROC-AUC 为 0.981 ± 0.004。这些结果支持预测性风险分层和决策支持；但其本身并不能证明可预防损伤或提升运动表现。"
 },
 {
+"title": "Towards the One Exposome: harnessing artificial intelligence and digital health technologies across One Health toxicology, new approach methodologies, and environmental public health.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42903297/",
+"date": "2026-10-06T00:00:00+00:00",
+"badge": "DOI 10.3389/fpubh.2026.1921273",
+"source": "PubMed · Frontiers in public health",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "d7e013364994",
+"keep": true,
+"zh_title": "迈向“单一暴露组”：AI与数字健康在One Health毒理学和环境公共卫生中的应用",
+"summary": "该综述提出“单一暴露组”框架，整合暴露组学、One Health毒理学、新方法学（NAMs）与AI，推动环境健康从被动风险评估转向预测、预防和参与式科学。",
+"key_points": [
+"整合暴露组学、One Health毒理学、NAMs与AI",
+"借助数字与AI工具整合跨尺度、基于AOP的机制证据",
+"关注抗菌素耐药、内分泌干扰等多重应激暴露"
+],
+"section": "数字健康",
+"type": "观点",
+"tags": [
+"公共卫生",
+"数字健康"
+],
+"evidence": "同行评审",
+"score": 3,
+"reason": "概念性综述，无原始数据或验证，属增量档，综述上限",
+"abstract": "[Frontiers in public health] The One Exposome framework integrates exposomics, One Health toxicology, New Approach Methodologies (NAMs) and artificial intelligence to advance environmental health from reactive risk assessment towards predictive, preventive, and participatory science. The paper positions One Health as the ethical and conceptual rationale for recognizing the interdependence of human, animal, and environmental health, the Exposome as the framework for measuring cumulative and life-course exposures, and NAMs together with digital and AI-enabled tools as the means to generate, integrate, and interpret mechanistic and adverse outcome pathway (AOP)-based evidence across biological scales. In this review, environmental health challenges such as antimicrobial resistance, endocrine disruption, and other complex multi-stressor exposures cannot be adequately addressed through compartmentalized, single-substance, or purely retrospective approaches. The One Exposome paradigm instead proposes a systems-based model that links exposure data, mechanistic toxicology, and public health intelligence across humans, animals, and ecosystems. It draws on human-relevant NAMs, including microphysiological systems, together with AI and multi-omics approaches, to support cross-species interpretation, earlier hazard identification, and more preventive intervention strategies. Within this framework, sentinel surveillance, integrated monitoring, and interoperable data systems are central for detecting shared risks across environmental, veterinary, food, and human health domains. The approach is also presented as requiring governance reform so that agricultural practice, environmental management, and clinical stewardship are aligned within a common preventive and planetary health perspective. Overall, the paper frames the One Exposome as a transdisciplinary architecture for environmental public health that combines measurable environments, mechanistic understanding, and computational integration. By connecting cumulative exposures to biological responses and population-level consequences, it offers a foundation for more anticipatory, equitable, and scientifically integrated environmental health decision-making.",
+"day": "2026-10-24",
+"rank": 5.84,
+"zh_abstract": "[Frontiers in public health] “同一暴露组”（One Exposome）框架整合了暴露组学、同一健康（One Health）毒理学、新方法学（New Approach Methodologies，NAMs）和人工智能，旨在推动环境健康从被动的风险评估走向预测性、预防性和参与性的科学。本文将同一健康定位为认识人类、动物与环境健康相互依存的伦理和概念依据，将暴露组定位为测量累积暴露和全生命周期暴露的框架，并将NAMs以及数字和人工智能工具定位为跨生物学尺度生成、整合和解读基于机制和有害结局路径（adverse outcome pathway，AOP）的证据的手段。在本综述中，抗菌药物耐药性、内分泌干扰以及其他复杂的多重应激源暴露等环境健康挑战，无法通过分割式、单一物质或纯回顾性的方法得到充分解决。“同一暴露组”范式则提出一种基于系统的模型，将暴露数据、机制毒理学和公共卫生情报在人类、动物和生态系统之间联系起来。该范式借助与人类相关的NAMs（包括微生理系统），结合人工智能和多组学方法，以支持跨物种解读、更早的危害识别以及更具预防性的干预策略。在此框架下，哨点监测、整合监测和可互操作的数据系统对于发现环境、兽医、食品和人类健康领域中的共同风险至关重要。该方法还被认为需要治理改革，使农业实践、环境管理和临床管理在共同的预防和地球健康视角下协调一致。总体而言，本文将“同一暴露组”界定为环境公共卫生的一种跨学科架构，它结合了可测量的环境、机制性理解和计算整合。通过将累积暴露与生物学反应和人群层面的后果相联系，它为更具前瞻性、更公平且科学上更整合的环境健康决策奠定了基础。"
+},
+{
 "title": "Comparative Evaluation of Artificial Intelligence-Assisted Versus Conventional Guided Implant Planning in Free End Saddle Cases",
 "link": "https://clinicaltrials.gov/study/NCT07891442",
 "date": "2026-10-23T00:00:00+00:00",
