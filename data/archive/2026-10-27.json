@@ -31,10 +31,8 @@
 "reason": "多中心基准属影像肿瘤方向，但正文细节缺失，往低打",
 "day": "2026-10-27",
 "rank": 11.81,
-"abstract_days": [
-"2026-10-27"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract": "Clinically significant prostate cancer (csPCa) guides-biopsy and treatment decisions, yet its non-invasive diagnosis remains challenging. The incremental value of PSMA PET/CT beyond multiparametric MRI (mpMRI), and the optimal strategy for multimodal fusion, remain unclear. We established a real-world, multicentre benchmark using 527 patients from three hospitals with fully paired PSMA PET, CT, T2-weighted MRI, and diffusion-weighted imaging (DWI), together with pathology-confirmed biopsy labels. Models were developed in one centre ( n = 363) and independently evaluated in two external centres ( n = 164). We compared frozen pretrained encoders, fine-tuned 2D and 3D CNN and Vision Transformer models, three fusion strategies, and an interpretable cross-modal Transformer. PSMA PET provided the greatest incremental value, with its removal producing the largest AUC reduction internally (−0.077) and externally (−0.055), supported by the highest attention attribution (αPET = 0.45). PSMA PET/CT also outperformed mpMRI externally (AUC 0.753 vs. 0.653). DWI was the principal source of domain shift, as its exclusion improved external AUC by 0.079 amid inter-centre b-value heterogeneity. Intermediate fusion performed most consistently internally, whereas late fusion and pretrained 2D models generalised better externally. This benchmark supports robust, non-invasive csPCa diagnosis by identifying modalities and fusion strategies that generalise reliably across institutions.",
+"zh_abstract": "具有临床意义的前列腺癌（csPCa）指导活检和治疗决策，但其无创诊断仍具挑战性。PSMA PET/CT 相对于多参数 MRI（mpMRI）的增量价值，以及多模态融合的最佳策略，仍不明确。我们利用来自三家医院的 527 例患者建立了真实世界多中心基准，这些患者均具有完整配对的 PSMA PET、CT、T2 加权 MRI 和扩散加权成像（DWI），并有病理证实的活检标签。模型在一个中心开发（n = 363），并在两个外部中心独立评估（n = 164）。我们比较了冻结的预训练编码器、微调的 2D 和 3D CNN 及 Vision Transformer 模型、三种融合策略，以及一种可解释的跨模态 Transformer。PSMA PET 提供了最大的增量价值：去除该模态后，内部（−0.077）和外部（−0.055）AUC 下降幅度均最大，且其注意力归因最高（αPET = 0.45）。在外部验证中，PSMA PET/CT 的表现也优于 mpMRI（AUC 0.753 vs. 0.653）。DWI 是域偏移的主要来源，在各中心 b 值不一致的情况下，排除 DWI 使外部 AUC 提高了 0.079。中间融合在内部表现最为一致，而晚期融合和预训练 2D 模型在外部的泛化能力更好。该基准通过识别能够在不同机构间可靠泛化的模态和融合策略，支持稳健的 csPCa 无创诊断。"
 },
 {
 "title": "Systemwide adoption patterns of ambient AI scribe technology in an integrated academic health system",
@@ -49,24 +47,27 @@
 "id": "43ad87bd837e",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "综合学术医疗系统中环境AI书记技术的全系统采用模式",
-"summary": "npj Digital Medicine 刊文，研究综合学术医疗系统内环境AI书记技术的全系统采用模式，仅有标题级信息。",
-"key_points": [],
+"zh_title": "综合学术医疗系统中环境AI书记员技术的全系统采用模式",
+"summary": "回顾性观察研究分析2901名门诊医生在全系统推广环境AI书记员后的采用情况，不同专科、科室和医生类型差异显著。",
+"key_points": [
+"2901名门诊医生，2024年12月至2025年5月",
+"社区儿科、内科采用率约67–69%，较高",
+"普外科、妇产科采用率仅16–18%"
+],
 "section": "落地与监管",
 "type": "论文",
 "tags": [
 "临床落地",
-"临床NLP"
+"电子病历",
+"医学大模型"
 ],
 "evidence": "同行评审",
 "score": 5,
-"reason": "大型医疗系统规模化部署研究，但细节与效果未提供",
+"reason": "大型机构规模化部署的采用数据，但为回顾性且未见临床结局，属值得一看档",
 "day": "2026-10-27",
 "rank": 10.81,
-"abstract_days": [
-"2026-10-27"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract": "Ambient artificial intelligence (AI) scribes may reduce documentation burden, but little is known about their adoption during enterprise-scale ambulatory rollout. We conducted a retrospective observational cohort study of 2901 ambulatory clinicians at an integrated academic health system using linked electronic health record and vendor usage data from December 2024 through May 2025. Clinician adoption was defined as any use during the study period, and monthly visit-level uptake as the proportion of eligible ambulatory visits in which the ambient AI scribe was used. Adoption and uptake varied substantially across practice settings, specialties, and clinician types. Clinician-level adoption was highest in community internal medicine (67%), community general pediatrics (69%), and academic neurology (53%), and lowest in academic general surgery (16%), obstetrics and gynecology (18%), and psychiatry (19%). Community attending physicians and advanced practice providers showed marked increases in median visit-level uptake, reaching approximately 80%-90% in some groups by May 2025. Distinct longitudinal patterns included slow and steady adoption, early use followed by discontinuation, transient use, and late adoption. These findings suggest that implementation support and evaluation strategies should be tailored to local practice context rather than applied uniformly across a health system.",
+"zh_abstract": "环境式人工智能（AI）抄写员可能减轻文书记录负担，但对其在企业级门诊推广过程中的采用情况知之甚少。我们在一家综合性学术医疗系统中对 2901 名门诊临床医生开展了一项回顾性观察队列研究，使用 2024 年 12 月至 2025 年 5 月的关联电子健康记录和供应商使用数据。临床医生采用定义为研究期间有任何使用，月度就诊层面的使用率定义为使用环境式 AI 抄写员的符合条件门诊就诊所占比例。采用率和使用率在不同执业环境、专科和临床医生类型之间差异显著。临床医生层面的采用率在社区内科（67%）、社区普通儿科（69%）和学术神经科（53%）最高，在学术普通外科（16%）、妇产科（18%）和精神科（19%）最低。社区主治医师和高级实践提供者的就诊层面使用率中位数显著上升，到 2025 年 5 月部分群体达到约 80%–90%。纵向模式各不相同，包括缓慢稳步采用、早期使用后停用、短暂使用以及晚期采用。这些发现提示，实施支持和评估策略应根据当地执业环境量身定制，而不是在整个医疗系统中统一应用。"
 },
 {
 "title": "Visual-affective decoding enhances neurofunctional objective and generalizable signatures in unseen adolescent depression diagnosis",
@@ -81,30 +82,28 @@
 "id": "674e093c78cd",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "视觉-情感解码增强青少年抑郁诊断的神经功能特征泛化",
-"summary": "npj Digital Medicine 论文，探讨视觉-情感解码用于增强神经功能客观特征，并在未见过的青少年抑郁诊断中的泛化。",
+"zh_title": "视觉-情感解码提升青少年抑郁症诊断的神经功能特征泛化性",
+"summary": "提出视觉-情感解码（VAD）框架，基于自然电影观看全脑fMRI，用仅在健康对照上训练的双通路异常检测模型识别青少年抑郁症，200人中AUC为0.87。",
 "key_points": [
-"主题为青少年抑郁诊断",
-"基于视觉-情感解码的神经功能特征",
-"强调对未见数据的泛化能力"
+"200名青少年（112例MDD、88名健康对照）",
+"AUC 0.87，敏感度95.56%，特异度72.22%",
+"同一阈值下在独立数据上泛化（摘要截断）"
 ],
-"section": "数字健康",
+"section": "临床预测与决策",
 "type": "论文",
 "tags": [
-"心理健康",
 "神经科学",
+"心理健康",
 "临床预测"
 ],
 "evidence": "同行评审",
 "score": 5,
-"reason": "同行评审，精神健康方向有泛化评估，但摘要信息不足，属值得一看档",
+"reason": "新颖异常检测方法，有独立泛化测试，但样本仅200例、特异度偏低，属值得一看档",
 "title_only": false,
 "day": "2026-10-27",
 "rank": 10.81,
-"abstract_days": [
-"2026-10-27"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract": "Adolescent major depressive disorder is a highly prevalent and debilitating condition, yet objective and generalizable neurofunctional signatures remain elusive. Existing neuroimaging approaches largely rely on resting-state fMRI, or controlled tasks often lack ecological validity and generalizable signatures of depression-related neural dysfunctions. This study proposes a Visual–Affective Decoding (VAD) framework integrating cross-subject visual and affective decoding from whole-brain fMRI acquired during naturalistic movie viewing. A dual-pathway anomaly detection model trained exclusively on healthy controls establishes normative brain function and identifies MDD through deviations from this norm. In 200 adolescents (112 MDD, 88 HC), VAD achieved an AUC of 0.87, 95.56% sensitivity, 83.89% accuracy, and 72.22% specificity. Using the same anomaly threshold, it generalized to an independent external adolescent cohort (70 MDD, 68 HC), achieving an AUC of 0.81 with an accuracy of 75.36%, supporting its cross-site generalizability. VAD further revealed interpretable neurofunctional signatures, including blunted emotional reactivity, attenuated visual representation, and affective patterns consistent with emotional rumination. Region-level contribution analyses identified dissociable visual- and affective-sensitive cortical regions, consistent with dysfunctions in visual, default-mode, salience, and higher-order associative networks. These findings demonstrate that VAD provides objective, interpretable, and generalizable neurofunctional signatures for adolescent depression diagnosis and clinically relevant biomarker development.",
+"zh_abstract": "青少年重度抑郁症（MDD）高度流行且致残，但客观且可泛化的神经功能特征仍然缺乏。现有神经影像方法主要依赖静息态 fMRI，或受控任务，往往缺乏生态效度，也缺少可泛化的抑郁相关神经功能障碍特征。本研究提出一种视觉–情感解码（VAD）框架，对自然观影期间采集的全脑 fMRI 进行跨被试的视觉和情感解码。一个仅用健康对照训练的双通路异常检测模型建立正常脑功能基线，并通过偏离该基线来识别 MDD。在 200 名青少年（112 例 MDD，88 名健康对照）中，VAD 的 AUC 为 0.87，敏感度 95.56%，准确率 83.89%，特异度 72.22%。使用相同的异常阈值，该模型可泛化至独立的外部青少年队列（70 例 MDD，68 名健康对照），AUC 为 0.81，准确率 75.36%，支持其跨站点泛化能力。VAD 还揭示了可解释的神经功能特征，包括情绪反应迟钝、视觉表征减弱，以及与情绪反刍一致的情感模式。脑区层面的贡献分析识别出可分离的视觉敏感和情感敏感皮层区域，与视觉、默认模式、突显及高阶联合网络的功能障碍相一致。这些发现表明，VAD 为青少年抑郁症诊断及具有临床意义的生物标志物开发提供了客观、可解释且可泛化的神经功能特征。"
 },
 {
 "title": "Masked Position Modeling as a Pre-Training Strategy for Foundational Deformable Image Registration Models.",
@@ -152,24 +151,26 @@
 "id": "f04e236253e1",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "GliaDose：PBPK与胶质母细胞瘤芯片整合预测CAR-T剂量",
-"summary": "npj Digital Medicine文章，提出结合PBPK模型与胶质母细胞瘤芯片的CAR-T临床剂量预测方法。",
-"key_points": [],
+"zh_title": "GliaDose：PBPK与胶质母细胞瘤芯片结合的CAR-T剂量预测",
+"summary": "提出GliaDose混合框架，将生理药代动力学（PBPK）模型与血管化胶质母细胞瘤芯片平台结合，用于CAR-T疗法的首次人体剂量定量预测。",
+"key_points": [
+"针对CAR-T非线性药代与组织转运难以外推的问题",
+"整合PBPK建模与血管化GBM芯片平台",
+"PBPK模型仅用人体生理参数构建"
+],
 "section": "生命科学与药物",
 "type": "论文",
 "tags": [
-"肿瘤",
-"药物发现"
+"药物发现",
+"肿瘤"
 ],
 "evidence": "同行评审",
 "score": 4,
-"reason": "仅有标题级信息，无法评估验证，往低打",
+"reason": "方法新颖但摘要未见临床验证，AI成分有限，属增量档",
 "day": "2026-10-27",
 "rank": 9.81,
-"abstract_days": [
-"2026-10-27"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract": "Abstract Glioblastoma (GBM) is a highly aggressive brain tumor with poor prognosis and limited treatment options. Chimeric antigen receptor T cell (CAR-T) therapy has emerged as a promising immunotherapy for GBM. However, unlike conventional drugs, CAR-T cells are living therapeutics that exhibit non-linear pharmacokinetics, expansion, and complex tissue trafficking, making conventional animal-to-human dose extrapolation unreliable. Furthermore, species-specific differences and the vasculature limit the translational relevance of preclinical models. To address these challenges, we developed GliaDose, a hybrid framework that integrates physiologically based pharmacokinetic (PBPK) modeling with a vascularized glioblastoma-on-a-chip (GoC) platform to support quantitative first-in-human dose (FIHD) prediction for CAR-T therapy. The PBPK model was parameterized exclusively with human physiological data and incorporates a brain-tumor compartment to explicitly capture CAR-T transport across the vasculature. Complementarily, the GoC platform recapitulates key features of the GBM microenvironment, including three-dimensional tumor architecture, extracellular matrix, and perfusable human vascular networks, enabling assessment of CAR-T transmigration under flow conditions. Integration of GoC-derived efficacy data into the PBPK framework enabled quantitative dose–response predictions and identified vascular barriers as critical determinants of CAR-T tumor access. GliaDose provides a human-relevant, mechanistic alternative to animal-based dose selection and may improve FIHD prediction and personalized CAR-T therapy for GBM.",
+"zh_abstract": "摘要 胶质母细胞瘤（GBM）是一种侵袭性很强的脑肿瘤，预后差，治疗选择有限。嵌合抗原受体 T 细胞（CAR-T）疗法已成为有前景的 GBM 免疫治疗方法。然而，与传统药物不同，CAR-T 细胞是活的治疗制剂，表现出非线性药代动力学、扩增以及复杂的组织转运，使得传统的动物到人剂量外推不可靠。此外，物种特异性差异和脉管系统限制了临床前模型的转化相关性。为应对这些挑战，我们开发了 GliaDose，这是一种混合框架，将基于生理的药代动力学（PBPK）建模与血管化胶质母细胞瘤芯片（GoC）平台相结合，以支持 CAR-T 疗法的首次人体剂量（FIHD）定量预测。该 PBPK 模型仅使用人体生理数据进行参数化，并纳入脑–肿瘤隔室以明确刻画 CAR-T 跨血管的转运。与之互补，GoC 平台再现了 GBM 微环境的关键特征，包括三维肿瘤结构、细胞外基质和可灌注的人血管网络，从而能够在流动条件下评估 CAR-T 的跨内皮迁移。将 GoC 得到的疗效数据整合入 PBPK 框架，实现了定量的剂量–反应预测，并确定血管屏障是 CAR-T 到达肿瘤的关键决定因素。GliaDose 为基于动物的剂量选择提供了一种与人体相关、基于机制的替代方案，并可能改进 GBM 的 FIHD 预测和个体化 CAR-T 治疗。"
 },
 {
 "title": "Feasibility of Real-Time Integration of a Large Language Model in the EHR to Identify Goals-of-Care Documentation.",
@@ -337,7 +338,8 @@
 "day": "2026-10-27",
 "rank": 9.0,
 "abstract_days": [
-"2026-10-27"
+"2026-10-27",
+"2026-10-28"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -677,7 +679,8 @@
 "day": "2026-10-27",
 "rank": 8.67,
 "abstract_days": [
-"2026-10-27"
+"2026-10-27",
+"2026-10-28"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -1080,7 +1083,8 @@
 "day": "2026-10-27",
 "rank": 7.91,
 "abstract_days": [
-"2026-10-27"
+"2026-10-27",
+"2026-10-28"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -2664,7 +2668,13 @@
 "score": 4,
 "reason": "仅有代码仓库简介，无评测信息，信息不足；视觉tokenizer略有关联",
 "day": "2026-10-27",
-"rank": 6.29
+"rank": 6.29,
+"also": [
+{
+"source": "arXiv",
+"link": "https://arxiv.org/abs/2610.35842"
+}
+]
 },
 {
 "title": "Bottlenecks in cardiovascular prevention: Can artificial intelligence close the gap?",
@@ -3043,7 +3053,13 @@
 "reason": "仅有标题、产品版本更新，信息有限，属增量档",
 "title_only": true,
 "day": "2026-10-27",
-"rank": 5.5
+"rank": 5.5,
+"also": [
+{
+"source": "驱动之家",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAydjhHbXRLM0NjdEVMcWhQeXFqNWlHUTJ2Y0R3WFNUUF9fMDdJdTVqVTVwQ0oteVVoNVNzQk5iZk1ZcG5hY2Y5OUp6cG5OQm53UDVZVjFSSFc?oc=5"
+}
+]
 },
 {
 "title": "医疗人工智能(AI)企业Lunit与美国生物企业Summit Therapeutics为开发抗癌新药而展开AI研究合作的消息在开盘初期创下了上限。截至26日上午9时56分，在KOSDAQ市场，Luni..",
