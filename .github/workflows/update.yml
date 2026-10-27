@@ -1,7 +1,7 @@
 name: Update & Deploy
 on:
   schedule:
-    - cron: "30 23 * * *"   # daily 07:30 Beijing time
+    - cron: "0 18 * * *"   # daily 05:00 Melbourne (AEDT) / 02:00 Beijing — ready before the morning read
   workflow_dispatch:
 permissions:
   contents: write
@@ -31,6 +31,7 @@ jobs:
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           MAX_NEW: "200"
       - name: Source health alert (0 items for 3+ runs)
+        continue-on-error: true
         env: { GH_TOKEN: "${{ github.token }}" }
         run: |
           if [ -s data/alerts.md ]; then
