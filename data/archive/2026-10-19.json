@@ -587,7 +587,13 @@
 "abstract": "[Frontiers in neurology] Alzheimer's disease (AD) is a progressive neurodegenerative disorder, where traditional diagnostic methods are constrained by limited sensitivity and restricted clinical utility. This review synthesizes recent applications of artificial intelligence (AI) in AD diagnostics, focusing on machine learning (ML) and deep learning (DL) across neuroimaging modalities and multi-omics research. AI algorithms can automatically extract subtle microstructural, metabolic, and molecular features, enabling high-precision classification of AD stages, patient stratification, and non-invasive early screening through multimodal data integration. However, translating AI into routine clinical practice still faces critical challenges, including high equipment costs, insufficient model generalizability across real-world cohorts, data class imbalance, and complex cross-platform standardization barriers. Future research should prioritize cost-effective surrogate modeling, robust multi-center validation, dynamic longitudinal integration, and mechanistic interpretability to accelerate the standardized clinical translation of AI-driven AD diagnostics.",
 "day": "2026-10-19",
 "rank": 7.84,
-"zh_abstract": "［Frontiers in neurology］阿尔茨海默病（Alzheimer's disease，AD）是一种进行性神经退行性疾病，传统诊断方法受限于敏感性有限和临床实用性受限。本综述综合了人工智能（artificial intelligence，AI）在 AD 诊断中的近期应用，重点关注机器学习（machine learning，ML）和深度学习（deep learning，DL）在神经影像模态和多组学研究中的应用。AI 算法能够自动提取细微的微结构、代谢和分子特征，从而通过多模态数据整合实现 AD 分期的高精度分类、患者分层和无创早期筛查。然而，将 AI 转化为常规临床实践仍面临关键挑战，包括设备成本高、模型在真实世界队列中的泛化能力不足、数据类别不平衡以及复杂的跨平台标准化障碍。未来研究应优先关注具有成本效益的替代建模、稳健的多中心验证、动态纵向整合和机制可解释性，以加速 AI 驱动的 AD 诊断的标准化临床转化。"
+"zh_abstract": "［Frontiers in neurology］阿尔茨海默病（Alzheimer's disease，AD）是一种进行性神经退行性疾病，传统诊断方法受限于敏感性有限和临床实用性受限。本综述综合了人工智能（artificial intelligence，AI）在 AD 诊断中的近期应用，重点关注机器学习（machine learning，ML）和深度学习（deep learning，DL）在神经影像模态和多组学研究中的应用。AI 算法能够自动提取细微的微结构、代谢和分子特征，从而通过多模态数据整合实现 AD 分期的高精度分类、患者分层和无创早期筛查。然而，将 AI 转化为常规临床实践仍面临关键挑战，包括设备成本高、模型在真实世界队列中的泛化能力不足、数据类别不平衡以及复杂的跨平台标准化障碍。未来研究应优先关注具有成本效益的替代建模、稳健的多中心验证、动态纵向整合和机制可解释性，以加速 AI 驱动的 AD 诊断的标准化临床转化。",
+"also": [
+{
+"source": "arXiv",
+"link": "https://arxiv.org/abs/2610.35294"
+}
+]
 },
 {
 "title": "Deep learning and metaheuristic optimization for predicting drug release from nanocarrier systems: a data-driven framework for formulation development.",
