@@ -1009,6 +1009,40 @@
   "rank": 8.81
  },
  {
+  "title": "Building virtual cell dynamics that evolve with biological measurements",
+  "link": "https://www.biorxiv.org/content/10.64898/2026.10.23.761350v1?rss=1",
+  "date": "2026-10-27T00:00:00+00:00",
+  "source": "bioRxiv",
+  "source_group": "bioRxiv",
+  "home": "",
+  "thin": false,
+  "badge": "DOI 10.64898/2026.10.23.761350",
+  "pop": null,
+  "id": "14522792859c",
+  "keep": true,
+  "zh_title": "CellCompass：随生物测量演化的虚拟细胞动力学智能体",
+  "summary": "提出智能体系统CellCompass，将科学智能体与可扩展动力学引擎结合，建模细胞状态转变与群体变化，并构建含100个模拟场景的DynBench100基准。",
+  "key_points": [
+   "智能体按新测量设计并改进动力学模型",
+   "涵盖状态转变、群体变化、命运与分子读出",
+   "发布DynBench100模拟单细胞时间序列基准"
+  ],
+  "section": "生命科学与药物",
+  "type": "论文",
+  "tags": [
+   "智能体",
+   "基因组学",
+   "基准"
+  ],
+  "evidence": "预印本",
+  "score": 6,
+  "reason": "虚拟细胞智能体方法新颖并带基准，但为预印本且基于模拟，值得一看档，偏好加分",
+  "abstract": "Virtual cell models built from single-cell measurements need to predict how cells change over time, but new biological measurements often reveal dynamical relationships that existing models cannot express. Translating such measurements into dynamics therefore requires deciding what biological relation should be modeled, where it should enter the formulation and how its recovery should be validated. Here we present CellCompass, an agentic AI system that couples a scientific agent with an extensible dynamical engine for modeling state transitions and population change, along with fate and molecular readout. CellCompass reuses existing formulations when sufficient and designs, implements and refines new ones when experimental measurements introduce additional constraints. To assess this capability, we developed DynBench100, a benchmark of 100 simulated single-cell time-course scenarios with hidden dynamical ground truth. CellCompass achieved the highest aggregate performance among the tested general-purpose and biomedical agents across six dynamical tasks. Across four real single-cell studies, it retained an existing velocity-growth model to reconstruct context-dependent epithelial-mesenchymal transition and developed three new dynamical formulations for distinct experimental measurements. In drug-response data, incorporating metabolic RNA labeling reduced pulse-control identifiability error by 31.1%, revealing staged response programs and generating testable predictions for perturbing a candidate adaptive program. In hematopoietic lineage tracing, incorporating clonal barcodes improved clone-fate agreement by 54% over the strongest dynamical baseline, identifying early lineage priming among transcriptionally similar progenitors. Finally, in time-resolved CITE-seq data, CellCompass reduced future surface-protein distribution error by 13.2% for RNA-initialized trajectories, uncovering lineage-specific temporal offsets between transcriptional and protein programs. Together, CellCompass provides a framework in which virtual-cell dynamics can expand with the biological measurements used to constrain them.",
+  "day": "2026-10-28",
+  "rank": 8.81,
+  "zh_abstract": "基于单细胞测量构建的虚拟细胞模型需要预测细胞如何随时间变化，但新的生物学测量往往揭示出现有模型无法表达的动力学关系。因此，将此类测量转化为动力学，需要决定应对何种生物学关系建模、该关系应在公式的何处引入，以及如何验证其恢复结果。在此，我们提出 CellCompass，这是一种智能体（agentic）人工智能系统，它将一个科学智能体与一个可扩展的动力学引擎相结合，用于对状态转变和群体变化以及命运和分子读出进行建模。当现有公式足够时，CellCompass 会重用它们；当实验测量引入额外约束时，它会设计、实现并改进新的公式。为评估这一能力，我们构建了 DynBench100，这是一个包含 100 个模拟单细胞时间序列场景、且带有隐藏动力学真值的基准。在六项动力学任务中，CellCompass 在所测试的通用型和生物医学智能体中取得了最高的综合性能。在四项真实单细胞研究中，它保留了现有的速度-增长模型以重建依赖于情境的上皮-间充质转化，并针对不同的实验测量开发了三种新的动力学公式。在药物应答数据中，纳入代谢性 RNA 标记使脉冲对照可识别性误差降低了 31.1%，揭示了分阶段的应答程序，并为扰动某一候选适应性程序产生了可检验的预测。在造血谱系追踪中，纳入克隆条形码使克隆命运一致性比最强的动力学基线提高了 54%，识别出转录相似的祖细胞之间存在早期谱系启动。最后，在时间分辨的 CITE-seq 数据中，对于以 RNA 初始化的轨迹，CellCompass 使未来表面蛋白分布误差降低了 13.2%，揭示了转录程序与蛋白程序之间存在谱系特异性的时间偏移。总之，CellCompass 提供了一个框架，使虚拟细胞动力学能够随用于约束它的生物学测量而扩展。"
+ },
+ {
   "title": "From task-specific AI to multimodal foundation models in PET/CT: a readiness framework for clinical translation.",
   "link": "https://pubmed.ncbi.nlm.nih.gov/42923220/",
   "date": "2026-10-08T00:00:00+00:00",
@@ -2648,7 +2682,13 @@
   "abstract": "Despite rapid advances in large language models (LLMs), their deployment in the sports and health domain remains high-risk due to the absence of domain-specific evaluation benchmarks. Existing general-purpose benchmarks (e.g., MMLU and HELM) primarily assess broad knowledge and reasoning capabilities, but fail to capture critical domain requirements such as exercise safety, physiological appropriateness, personalization, and actionable coaching quality. This gap is particularly concerning in fitness and health applications, where incorrect or unsafe recommendations can lead to physical harm. To address this limitation, we introduce MoveBench, the first comprehensive benchmarking framework specifically designed for evaluating LLMs in sports and health coaching. The proposed benchmark integrates heterogeneous task formats, including multiple-choice questions (MCQs) and open-ended question ",
   "day": "2026-10-28",
   "rank": 7.84,
-  "zh_abstract": "尽管大语言模型（LLM）发展迅速，但由于缺乏针对特定领域的评估基准，其在运动与健康领域的部署仍然风险很高。现有的通用基准（如 MMLU 和 HELM）主要评估广泛的知识和推理能力，却无法涵盖运动安全、生理适宜性、个性化以及可操作的指导质量等关键领域要求。这一差距在健身与健康应用中尤其令人担忧，因为不正确或不安全的建议可能造成身体伤害。为弥补这一不足，我们提出 MoveBench，这是首个专为评估 LLM 在运动与健康指导中的表现而设计的综合基准框架。该基准整合了异构的任务形式，包括多项选择题（MCQ）和开放式问题"
+  "zh_abstract": "尽管大语言模型（LLM）发展迅速，但由于缺乏针对特定领域的评估基准，其在运动与健康领域的部署仍然风险很高。现有的通用基准（如 MMLU 和 HELM）主要评估广泛的知识和推理能力，却无法涵盖运动安全、生理适宜性、个性化以及可操作的指导质量等关键领域要求。这一差距在健身与健康应用中尤其令人担忧，因为不正确或不安全的建议可能造成身体伤害。为弥补这一不足，我们提出 MoveBench，这是首个专为评估 LLM 在运动与健康指导中的表现而设计的综合基准框架。该基准整合了异构的任务形式，包括多项选择题（MCQ）和开放式问题",
+  "also": [
+   {
+    "source": "Hugging Face Daily Papers",
+    "link": "https://huggingface.co/papers/2610.26185"
+   }
+  ]
  },
  {
   "title": "Faithful Explanations under Missing Modalities in Multimodal Dementia Prognosis",
@@ -2983,6 +3023,40 @@
   "zh_abstract": "[In silico pharmacology] 传统药物发现过程复杂、昂贵、耗时，且淘汰率高。为解决这些低效问题，人工智能（AI）和机器学习（ML）作为合理药物设计的变革者应运而生。本综述强调了深度学习和生成模型等AI技术在药物发现与开发中的革命性潜力。我们讨论了AI如何在药物发现中改进蛋白质-配体相互作用预测、定量构效关系（QSAR）建模以及虚拟筛选。此外，AI可通过在早期预测关键的吸收、分布、代谢、排泄和毒性（ADMET）性质，显著加速先导化合物优化，从而在耗时的实验测试之前对有前景的候选物进行优先排序。尽管已取得这些进展，AI系统在现实世界中的广泛应用仍存在若干局限，包括数据偏倚、模型可靠性以及“黑箱”神经网络的不可解释性。为应对这些监管和伦理挑战，必须采用可解释AI（XAI）。最终，AI与多组学以及量子计算等其他技术的结合，将在更为精准的层面实现个体化治疗，并显著缩短研发时间、降低成本。"
  },
  {
+  "title": "Deep learning-based breast lesion classification using treatment response assessment maps with uncertainty quantification.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42920997/",
+  "date": "2026-10-23T00:00:00+00:00",
+  "badge": "DOI 10.1117/1.JMI.13.5.054503",
+  "source": "PubMed · Journal of medical imaging (Bellingham, Wash.)",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "d3b13ccb81a6",
+  "keep": true,
+  "zh_title": "基于治疗反应评估图与不确定性量化的乳腺病灶深度学习分类",
+  "summary": "利用TCIA的乳腺MRI数据集，以3D ResNet18处理多期DCE-MRI与TRAM图像，并用测试时增强估计不确定性，用于乳腺病灶分类。",
+  "key_points": [
+   "TRAM由延迟增强成像衍生，旨在提升特异性",
+   "3D ResNet18提取特征并接全连接分类器",
+   "测试时增强估计偶然不确定性并对比影像组学"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "肿瘤",
+   "可解释性"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "公开数据集内部验证，无外部验证，增量档",
+  "abstract": "[Journal of medical imaging (Bellingham, Wash.)] Dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is widely used for breast cancer diagnosis due to its high sensitivity; however, limited specificity often leads to false positives and unnecessary biopsies. Treatment response assessment maps (TRAMs), derived from delayed contrast-enhanced imaging, characterize contrast accumulation and clearance and may improve diagnostic specificity. We utilized the Advanced MRI Breast Lesions dataset from The Cancer Imaging Archive to develop deep learning-based models for breast lesion classification using both multiphase DCE-MRI and TRAM images. A 3D convolutional residual network (ResNet18) was employed for feature extraction, followed by a fully connected classifier. To assess prediction reliability, test-time augmentation was used to estimate aleatoric uncertainty. Radiomics-based models were also implemented for comparison. The TRAM-based deep learning model achieved numerically higher area under the receiver operating characteristic curve (0.870 versus 0.835), sensitivity (0.848 versus 0.818), and specificity (0.823 versus 0.759) compared with DCE-MRI. Radiomics analysis showed similar trends. Uncertainty stratification demonstrated improved performance in low-uncertainty predictions for both modalities, where high-uncertainty DCE-MRI predictions showed a marked performance decline compared with TRAM. These results suggest that TRAM-based deep learning models may provide a promising complementary imaging approach for breast lesion classification. Integration of uncertainty quantification could further enhance reliability, showing the potential of this framework for improving breast cancer diagnosis.",
+  "day": "2026-10-28",
+  "rank": 7.72,
+  "zh_abstract": "[Journal of medical imaging (Bellingham, Wash.)] 动态对比增强磁共振成像（DCE-MRI）因其高敏感性而被广泛用于乳腺癌诊断；然而，其特异性有限，常导致假阳性和不必要的活检。由延迟对比增强成像得到的治疗反应评估图（TRAM）可表征对比剂的蓄积与清除，可能提高诊断特异性。我们利用癌症影像档案库（The Cancer Imaging Archive）中的 Advanced MRI Breast Lesions 数据集，开发了同时使用多期相 DCE-MRI 和 TRAM 图像的基于深度学习的乳腺病灶分类模型。我们采用三维卷积残差网络（ResNet18）进行特征提取，随后接全连接分类器。为评估预测可靠性，使用测试时增强来估计偶然不确定性。同时还实现了基于影像组学的模型作为比较。与 DCE-MRI 相比，基于 TRAM 的深度学习模型在受试者工作特征曲线下面积（0.870 对 0.835）、敏感性（0.848 对 0.818）和特异性（0.823 对 0.759）上数值更高。影像组学分析显示出相似趋势。不确定性分层显示，两种模态在低不确定性预测中的性能均有所提高，其中高不确定性的 DCE-MRI 预测的性能较 TRAM 明显下降。这些结果提示，基于 TRAM 的深度学习模型可能为乳腺病灶分类提供一种有前景的补充成像方法。整合不确定性量化可进一步提高可靠性，显示出该框架在改善乳腺癌诊断方面的潜力。"
+ },
+ {
   "title": "Health-SCORE: Towards Scalable Rubrics for Improving Health-LLMs",
   "link": "https://arxiv.org/abs/2601.18706",
   "date": "2026-10-25T00:00:00+00:00",
@@ -3248,6 +3322,39 @@
   "day": "2026-10-28",
   "rank": 7.69,
   "zh_abstract": "串联质谱在用于鉴定未知小分子的科学发现工作流程中地位突出，但高通量结构解析仍具挑战性。尽管近期的自回归模型和图扩散模型在从头解析方面显示出前景，其性能仍受限于训练和推理阶段较差的可扩展性。在本工作中，我们提出 FRIGID，这是一个采用新型扩散语言模型的框架，该模型以质谱为条件，通过中间的指纹表示和已确定的化学式生成分子结构，并在数亿个未标注结构的规模上进行训练。随后我们展示了前向碎裂模型如何通过识别与谱图不一致的碎片，并通过有针对性的重新掩码和去噪对其进行优化，从而实现推理时扩展。尽管 FRIGID 已经取得了很强的性能"
+ },
+ {
+  "title": "Artificial Intelligence for Therapeutic Peptide Discovery and Development.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42939699/",
+  "date": "2026-10-03T00:00:00+00:00",
+  "badge": "DOI 10.3390/biom16101445",
+  "source": "PubMed · Biomolecules",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "9e431208c64c",
+  "keep": true,
+  "zh_title": "人工智能用于治疗性多肽的发现与开发",
+  "summary": "批判性综述AI在多肽药物各类别中的应用，比较序列、化学、图、结构感知及多模态表示，强调多肽开发不止于序列生成。",
+  "key_points": [
+   "覆盖受体激动剂、抗菌肽、大环肽等类别",
+   "比较预测、生成与实验整合的方法",
+   "指出稳定性、递送、安全性等限制因素"
+  ],
+  "section": "生命科学与药物",
+  "type": "观点",
+  "tags": [
+   "药物发现",
+   "生成模型"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "有信息量的综述，命中药物发现方向，综述上限6",
+  "abstract": "[Biomolecules] Therapeutic peptides combine biological specificity with chemical versatility, and artificial intelligence (AI) now contributes to their identification, design, and optimisation. Peptide discovery, however, cannot be reduced to generating amino-acid sequences: therapeutic performance also depends on chemistry, conformation, assay context, stability, delivery, safety, manufacturability, and in vivo exposure. This critical review examines AI use across the major peptide classes: receptor agonists, protein-protein interaction inhibitors, oncology and tumour-targeting peptides, antimicrobial and phenotype-driven peptides, delivery peptides, vaccine epitopes, self-assembling materials, and chemically constrained macrocycles. It compares sequence-based, chemical, graph, structure-aware, and multimodal representations across predictive, generative, and experimentally integrated workflows. Coverage spans recent general protein foundation, prediction, and design systems (ProtGPT2, ESM-2/ESM3, ProGen/ProGen2, ProteinMPNN, RFdiffusion, and AlphaFold 3) and peptide-focused methods (RFpeptides, PepFlow, and PepGLAD). Particular attention is given to benchmark integrity, the limits of structure prediction for short and non-canonical molecules, and the gap between retrospective and prospective evidence. To make claims comparable, the review adapts established reporting, validation, and readiness concepts into a peptide-specific, two-dimensional Peptide-AI Evidence Grid that separates methodological rigour (M0-M3) from translational depth (T0-T3), applies it to representative studies, and provides a checklist extending DOME, TRIPOD + AI, and FAIR guidance with the chemistry- and assay-specific items peptide work requires.",
+  "day": "2026-10-28",
+  "rank": 7.67,
+  "zh_abstract": "[Biomolecules] 治疗性肽兼具生物学特异性和化学多样性，人工智能（AI）目前已用于其识别、设计和优化。然而，肽类药物发现不能简化为生成氨基酸序列：治疗效果还取决于化学性质、构象、检测情境、稳定性、递送、安全性、可制造性和体内暴露。本批判性综述考察了AI在主要肽类中的应用：受体激动剂、蛋白-蛋白相互作用抑制剂、肿瘤学和肿瘤靶向肽、抗菌肽和表型驱动肽、递送肽、疫苗表位、自组装材料以及受化学约束的大环化合物。综述比较了预测性、生成性和实验整合工作流中基于序列、化学、图、结构感知和多模态的表示方法。内容涵盖近期通用蛋白质基础模型、预测和设计系统（ProtGPT2、ESM-2/ESM3、ProGen/ProGen2、ProteinMPNN、RFdiffusion和AlphaFold 3）以及聚焦肽的方法（RFpeptides、PepFlow和PepGLAD）。特别关注基准的完整性、结构预测对短肽和非经典分子的局限性，以及回顾性证据与前瞻性证据之间的差距。为使各项主张具有可比性，本综述将既有的报告、验证和成熟度概念调整为肽特异性的二维“肽-AI证据网格”（Peptide-AI Evidence Grid），将方法学严谨性（M0-M3）与转化深度（T0-T3）区分开来，并将其应用于代表性研究，同时提供了一份清单，在DOME、TRIPOD + AI和FAIR指南的基础上扩展了肽类研究所需的化学和检测特异性条目。"
  },
  {
   "title": "Artificial Intelligence in Acute Coronary Syndromes: From Early Diagnosis to Culprit Lesion Characterization, Coronary Physiology, and Risk Stratification.",
@@ -3939,6 +4046,39 @@
   "zh_abstract": "交互式娱乐和社交应用中的大语言模型（LLM）智能体，包括陪伴型角色、角色扮演角色和人格克隆体，需要基于人格和过往经历做出决策。我们提出 HEART-Bench，用于评估基于记忆的、与人格一致的回应选择。该基准将 11 个以大五人格为锚点的合成角色（每个角色拥有 1,000 条自传式记忆）与 64 个由 DIAMONDS 引导的决策场景结合，构成 673 道选择题。领域专家独立比较候选回应，由一名资深专家解决分歧并在必要时修订回应；其他角色针对同一场景的经裁定回应作为干扰项。在主要评估中，模型会获得角色 ID 和职业、场景及选项，在记忆增强设置中还会加入检索到的记忆。详细的人格与价值观画像则不予提供。"
  },
  {
+  "title": "Deep Learning-Based Multiple Sclerosis Lesion Segmentation at 7 Tesla: Comparison of Single- and Multi-Contrast MRI Inputs.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42930661/",
+  "date": "2026-10-14T00:00:00+00:00",
+  "badge": "DOI 10.3390/jimaging12100510",
+  "source": "PubMed · Journal of imaging",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "7ae2d85e2b6a",
+  "keep": true,
+  "zh_title": "7T下多发性硬化病灶深度学习分割：单/多对比度输入比较",
+  "summary": "在115例7T纵向MRI上评估nnUNet，比较FLAIR、MP2RAGE及二者联合输入的病灶分割效果，并以DeepMedic作对照。",
+  "key_points": [
+   "数据含57例MS患者115次扫描",
+   "测试集20次扫描来自11名独立患者",
+   "联合输入nnUNet平均DSC为0.72"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "神经科学"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "增量档，样本小、单中心，有独立患者测试",
+  "abstract": "[Journal of imaging] Automated lesion segmentation can support rapid and reproducible quantitative assessment and long-term monitoring of multiple sclerosis. Ultra-high-field 7T MRI provides increased spatial resolution and lesion visibility but introduces challenges for automated analysis, including field inhomogeneity, susceptibility-related artifacts, and spatially varying image contrast. Although deep learning methods perform well at conventional field strengths, their application to 7T MRI remains underexplored. We evaluated nnUNet using FLAIR alone, MP2RAGE alone, and combined MP2RAGE+FLAIR. The dataset included 115 longitudinal 7T MRI scans from 57 patients with MS, with 20 scans from 11 independent patients reserved for testing. DeepMedic was included as a comparative architecture. On the test set, nnUNet achieved mean DSC values of 0.72, 0.71, and 0.66 for combined, MP2RAGE-only, and FLAIR-only inputs, respectively. No significant DSC differences were observed between nnUNet and DeepMedic. For both architectures, adding FLAIR to MP2RAGE did not show a statistically significant additional benefit in the present test cohort, whereas MP2RAGE-containing inputs significantly outperformed FLAIR-only input. The findings of the present study provide preliminary evidence suggesting that the observed voxel-level segmentation performance was primarily associated with the inclusion of MP2RAGE. However, lesion-level performance depended on lesion size, indicating further investigation of contrast-specific effects on small-lesion detection.",
+  "day": "2026-10-28",
+  "rank": 7.0,
+  "zh_abstract": "[Journal of imaging] 自动化病灶分割可支持多发性硬化的快速、可重复的定量评估和长期监测。超高场7T MRI提供了更高的空间分辨率和病灶可见度，但也给自动化分析带来了挑战，包括场不均匀性、磁化率相关伪影以及空间上变化的图像对比度。尽管深度学习方法在常规场强下表现良好，但其在7T MRI中的应用仍研究不足。我们评估了nnUNet分别使用单独FLAIR、单独MP2RAGE以及MP2RAGE+FLAIR联合输入的表现。数据集包括来自57例MS患者的115份纵向7T MRI扫描，其中来自11例独立患者的20份扫描留作测试。DeepMedic作为对比架构纳入。在测试集上，nnUNet在联合输入、仅MP2RAGE输入和仅FLAIR输入下的平均DSC值分别为0.72、0.71和0.66。nnUNet与DeepMedic之间未观察到显著的DSC差异。对于两种架构，在本测试队列中，在MP2RAGE基础上加入FLAIR并未显示出具有统计学意义的额外获益，而包含MP2RAGE的输入显著优于仅FLAIR输入。本研究结果提供了初步证据，提示所观察到的体素水平分割性能主要与是否包含MP2RAGE相关。然而，病灶水平的表现取决于病灶大小，提示需要进一步研究不同对比度对小病灶检测的影响。"
+ },
+ {
   "title": "DeepAVPred: A Deep Learning Framework Integrating RECM-DWT and BiGRU for Accurate Antiviral Peptide Prediction.",
   "link": "https://pubmed.ncbi.nlm.nih.gov/42941859/",
   "date": "2026-10-13T00:00:00+00:00",
@@ -4569,6 +4709,38 @@
   "rank": 6.8
  },
  {
+  "title": "A Survey on U-Net with Variants and Their Applications in Two-Dimensional Medical Image Segmentations.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42930648/",
+  "date": "2026-10-09T00:00:00+00:00",
+  "badge": "DOI 10.3390/jimaging12100497",
+  "source": "PubMed · Journal of imaging",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "6cbdfddc2f1a",
+  "keep": true,
+  "zh_title": "U-Net及其变体在二维医学图像分割中的应用综述",
+  "summary": "综述U-Net及代表性变体在二维医学图像分割中的架构演化，涵盖注意力、跳跃连接增强、可变形卷积与Transformer扩展，并讨论优缺点。",
+  "key_points": [
+   "梳理注意力、可变形卷积、Transformer等变体",
+   "汇总已发表结果，未做新基准实验",
+   "讨论各方法局限与适用边界"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "传统方法综述，未做新基准，综述上限内偏低",
+  "abstract": "[Journal of imaging] Medical image segmentation plays a critical role in computer-assisted diagnosis, treatment planning, surgical navigation, and quantitative medical image analysis. Among deep learning-based segmentation architectures, U-Net has become one of the most influential frameworks because of its encoder-decoder structure and skip connections for integrating semantic and spatial information. This review focuses on U-Net and representative variants for two-dimensional medical image segmentation. We systematically analyze their architectural evolution, including attention-based designs, enhanced skip connections, deformable convolutions, and Transformer-based extensions and discuss their advantages, limitations, and application boundaries. Quantitative performance results are synthesized from published studies rather than reproduced through new benchmarking experiments; direct numerical comparisons are restricted to models evaluated within the same study or under clearly defined benchmark settings. We further relate architectural modifications to modality-specific challenges in MRI, CT, ultrasound, fundus imaging, dermoscopy, and microscopy. Finally, current challenges in computational efficiency, cross-domain generalization, data scarcity, interpretability, and clinical deployment are discussed, together with promising directions for future research.",
+  "day": "2026-10-28",
+  "rank": 6.8,
+  "zh_abstract": "[Journal of imaging] 医学图像分割在计算机辅助诊断、治疗计划、手术导航和定量医学图像分析中发挥着关键作用。在基于深度学习的分割架构中，U-Net 因其编码器-解码器结构以及用于整合语义信息与空间信息的跳跃连接，已成为最具影响力的框架之一。本综述聚焦于 U-Net 及其用于二维医学图像分割的代表性变体。我们系统分析了其架构演进，包括基于注意力的设计、增强的跳跃连接、可变形卷积以及基于 Transformer 的扩展，并讨论了它们的优势、局限性和应用边界。定量性能结果综合自已发表的研究，而非通过新的基准实验重现；直接的数值比较仅限于在同一研究中或在明确定义的基准设置下评估的模型。我们还将架构改进与 MRI、CT、超声、眼底成像、皮肤镜和显微镜成像中特定模态的挑战相联系。最后，我们讨论了计算效率、跨域泛化、数据稀缺、可解释性和临床部署方面的当前挑战，以及未来研究的有前景方向。"
+ },
+ {
   "title": "Transformer models in cardiovascular medicine: current applications, translational challenges, and future directions.",
   "link": "https://pubmed.ncbi.nlm.nih.gov/42923828/",
   "date": "2026-10-08T00:00:00+00:00",
@@ -4633,6 +4805,39 @@
   "day": "2026-10-28",
   "rank": 6.78,
   "zh_abstract": "[Frontiers in medicine] 人工智能（AI）正在重塑医学影像，深度学习与机器学习目前已被用于脊柱骨折的检测、分类和鉴别诊断。在本综述中，我们梳理了目前支持脊柱影像的主要AI架构，包括卷积神经网络、目标检测器和混合模型，并评估了它们在骨质疏松性、创伤性和病理性椎体骨折中的已报告性能。我们的综合分析表明，AI在受控的、通常为单中心回顾性的研究环境中可达到较高的诊断准确性，但其性能在轻度骨折、退变脊柱和术后解剖结构中持续下降。关键的是，大多数已发表的模型缺乏外部验证，许多研究存在方法学缺陷，如选择性报告、样本量不足以及缺少预先设定的分析计划，这些因素会系统性地夸大表面准确性。除检测之外，我们还探讨了AI在手术规划、并发症预测和功能结局评估中日益增多的应用，同时强调大多数证据仍属初步。我们指出了持续存在的不足，包括基础模型和公共基准的利用不足，以及对商业工具的独立评估有限。最后，我们建议从性能报告转向方法学严谨、前瞻性设计的研究，纳入偏倚评估、标准化报告和以患者为中心的终点——这些步骤对于将技术前景转化为切实的患者获益至关重要。"
+ },
+ {
+  "title": "Multimodal artificial intelligence assessment of simulated cardiac arrest performance: a pilot study.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42935848/",
+  "date": "2026-10-06T00:00:00+00:00",
+  "badge": "DOI 10.1016/j.resplu.2026.101517",
+  "source": "PubMed · Resuscitation plus",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "c1010cec9ef8",
+  "keep": true,
+  "zh_title": "多模态AI评估模拟心脏骤停表现的初步研究",
+  "summary": "用Gemini 1.5 Pro对6段模拟心脏骤停视频评分，与两名ACLS讲师共识比较一致性，属小规模试点。",
+  "key_points": [
+   "6段脚本化模拟视频，共504项逐条评分",
+   "以专家共识评分为参考标准",
+   "报告kappa、AC1及敏感度/特异度"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "多模态",
+   "医学大模型"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "增量档，仅6段模拟视频的试点，但有专家对照",
+  "abstract": "[Resuscitation plus] Assessment of simulated cardiac arrest performance is resource-intensive and subject to inter-rater variability. We evaluated whether a multimodal artificial intelligence (AI) system could score video-recorded cardiac arrest megacode simulations with agreement comparable to expert raters. Six scripted megacode simulations (three ventricular fibrillation, three pulseless electrical activity) representing exemplar, guideline-deviation and non-technical-deficiency performance were scored by two ACLS instructors using a validated team-leader checklist; consensus ratings served as the reference. Two operators analysed each video with Gemini 1.5 Pro at three temperature settings (504 item-level ratings). We calculated Cohen's kappa, Gwet's AC1, and sensitivity and specificity for identifying performed and omitted actions, and compared AI self-reported confidence between correct and incorrect ratings. Expert inter-rater agreement was κ = 0.78 (95% CI 0.64-0.93). AI-expert agreement was κ = 0.62 (95% CI 0.49-0.75; range 0.40-0.86 across configurations) and AC1 = 0.77. The AI identified performed actions with high sensitivity (0.98, 95% CI 0.96-0.99) but detected omitted actions poorly (specificity 0.58, 95% CI 0.44-0.72), particularly omissions defined by timing or sequence. Temperature had no consistent effect. Incorrect ratings of actions as performed carried lower mean self-reported confidence than correct ones (93.6 vs 98.1), but 48% were made with maximal confidence. A multimodal AI system reliably confirmed completed actions but frequently failed to detect omitted actions, yielding moderate overall agreement that was below expert-expert agreement. Current systems may support, but not replace, expert assessment of cardiac arrest simulation.",
+  "day": "2026-10-28",
+  "rank": 6.73,
+  "zh_abstract": "[Resuscitation plus] 模拟心脏骤停表现的评估耗费资源，且存在评分者间差异。我们评估了多模态人工智能（AI）系统对视频记录的心脏骤停综合演练（megacode）模拟评分时，能否达到与专家评分者相当的一致性。六个脚本化的综合演练模拟（三个心室颤动、三个无脉性电活动）代表了范例、偏离指南和非技术性缺陷的表现，由两名ACLS导师使用经验证的团队领导者检查表评分；共识评分作为参照。两名操作者使用Gemini 1.5 Pro在三种温度设置下分析每段视频（共504项条目级评分）。我们计算了Cohen's kappa、Gwet's AC1，以及识别已执行和遗漏动作的敏感性和特异性，并比较了正确与错误评分之间AI自报的置信度。专家评分者间一致性为κ = 0.78（95% CI 0.64-0.93）。AI与专家的一致性为κ = 0.62（95% CI 0.49-0.75；不同配置下范围为0.40-0.86），AC1 = 0.77。AI识别已执行动作的敏感性高（0.98，95% CI 0.96-0.99），但对遗漏动作的检测较差（特异性0.58，95% CI 0.44-0.72），尤其是由时间或顺序定义的遗漏。温度没有一致的影响。将动作错误评为已执行的评分，其平均自报置信度低于正确评分（93.6 vs 98.1），但其中48%是在最大置信度下做出的。多模态AI系统能够可靠地确认已完成的动作，但常常无法检测遗漏的动作，总体一致性为中等，低于专家间一致性。目前的系统可辅助但不能取代专家对心脏骤停模拟的评估。"
  },
  {
   "title": "Coherence-Guided Pyramid Self-Contrastive Disentanglement for Ultrasound Imaging via Single-Shot Test-Time Training",
@@ -4830,6 +5035,39 @@
   "zh_abstract": "人工智能推动了科学发现，但大多数 AI4Science 系统仍是零散的工具，依赖人类来协调问题提出、文献依据、模型使用、模拟、验证和知识复用。本文提出 \\textbf{SCION（Scientific Collaborative Innovation with Agentic Organizational Nexus）}，这是一种作为\\textbf{组织枢纽}的智能体式科学操作系统。通过充当\\textbf{元框架（Meta-Harness）}的科学智能体（Science Agent），SCION 连接科学任务、工具、智能体、产物和记忆，将研究转变为可执行、可审计且可复用的操作流程。其核心是\\textbf{研究执行计划（Research Execution Plan，REP）}，它将高层科学意图编译为分阶段的目标、依赖关系、验证检查点、工具需求、预期产物和回退条件。SCION 进一步"
  },
  {
+  "title": "AAV-CapNet: Multi-Omics Deep Learning with Fourier Enhancement and Cross-Attention for Predicting Infectivity of Known AAV Capsid Variants.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42944013/",
+  "date": "2026-10-03T00:00:00+00:00",
+  "badge": "DOI 10.3390/v18101093",
+  "source": "PubMed · Viruses",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "415a5e464775",
+  "keep": true,
+  "zh_title": "AAV-CapNet：融合傅里叶增强与交叉注意力的多组学AAV衣壳感染性预测",
+  "summary": "提出AAV-CapNet，整合衣壳特征与宿主转录组，预测20种AAV衣壳变体在52种癌细胞系中的感染性，但对未见血清型泛化较差。",
+  "key_points": [
+   "自建多组学数据集含392条验证测量",
+   "采用傅里叶增强与交叉注意力融合",
+   "对未见血清型泛化差"
+  ],
+  "section": "生命科学与药物",
+  "type": "论文",
+  "tags": [
+   "蛋白质",
+   "可解释性"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "增量档，数据量小、泛化受限，仅内部交叉验证",
+  "abstract": "[Viruses] This work builds AAV-CapNet, a deep learning model integrating Fourier frequency enhancement and cross-attention fusion, to predict the infectivity of 20 AAV capsid variants across 52 cancer cell lines with a self-built multi-omics dataset of 392 validated measurements. Validated via stratified splitting and repeated five-fold cross-validation, it extracts dual-domain capsid features fused with host transcriptomics for joint classification and regression. The model exhibits favourable performance under low-false-positive-rate conditions suitable for high-throughput screening. Attention mapping and ablation tests validate core modules' necessity. Despite poor generalization to unseen serotypes, this interpretable tool facilitates intraserotype capsid screening and rational engineering.",
+  "day": "2026-10-28",
+  "rank": 6.67,
+  "zh_abstract": "本研究构建了AAV-CapNet，这是一种整合傅里叶频率增强和交叉注意力融合的深度学习模型，利用包含392个已验证测量值的自建多组学数据集，预测20种AAV衣壳变体在52种癌细胞系中的感染能力。通过分层划分和重复五折交叉验证，该模型提取衣壳的双域特征，并与宿主转录组数据融合，用于联合分类和回归。该模型在适用于高通量筛选的低假阳性率条件下表现良好。注意力图谱和消融试验验证了核心模块的必要性。尽管对未见过的血清型泛化能力较差，这一可解释的工具仍有助于血清型内衣壳筛选和理性工程改造。"
+ },
+ {
   "title": "Machine learning classification of fibromyalgia from blood transcriptomes: confounder benchmarking and implications for endometriosis-associated pain",
   "link": "https://www.biorxiv.org/content/10.64898/2026.10.21.753755v1?rss=1",
   "date": "2026-10-26T00:00:00+00:00",
@@ -4952,6 +5190,38 @@
   "rank": 6.5
  },
  {
+  "title": "Automated Platelet Classification Under Different Solvent Conditions Through Deep Learning.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42930670/",
+  "date": "2026-10-19T00:00:00+00:00",
+  "badge": "DOI 10.3390/jimaging12100519",
+  "source": "PubMed · Journal of imaging",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "079d66675b32",
+  "keep": true,
+  "zh_title": "基于深度学习的不同溶剂条件下血小板自动分类",
+  "summary": "用10种预训练CNN对176张血小板显微图像做二分类和四分类，识别锌和米力农引起的形态变化。",
+  "key_points": [
+   "数据集共176张图像，来自Hull York医学院",
+   "评估10种预训练CNN架构",
+   "任务含处理与否及四类处理分类"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像"
+  ],
+  "evidence": "同行评审",
+  "score": 3,
+  "reason": "增量档，样本很小、单来源，无外部验证",
+  "abstract": "[Journal of imaging] Platelets undergo significant morphological transformations during activation influenced by chemical compounds such as zinc and milrinone. Manual classification methods are subjective, time-consuming, and prone to error. This research aimed to apply and evaluate the efficacy of different pre-trained deep learning Convolution Neural Networks, used for automated binary (treated vs untreated) and multiclass classification (control vs zinc vs milrinone vs combination) of platelet morphological changes induced by these solvents, addressing the limitations of manual classification methods. A dataset of 176 microscopic platelet images from Hull York Medical School was processed, comprising control (n = 43), zinc-treated (n = 45), milrinone-treated (n = 40), and combination treatment (n = 48) samples. Ten pre-trained CNN architectures were evaluated across 166 individual training iterations for both binary and multiclass classification tasks. Progressive optimisation strategies included contrast-limited adaptive histogram equalisation (CLAHE) enhancement, selective layer unfreezing, cross-validation, and hyperparameter tuning. For binary classification, Xception achieved optimal balanced performance (81% accuracy, 76% precision, 74% recall) with proper inter-class discrimination, despite higher numerical metrics (91% accuracy) showing classification bias. For multiclass classification, InceptionV3 and Xception demonstrated superior effectiveness with 72% accuracy. This study demonstrated that Xception and InceptionV3 architectures effectively capture subtle morphological features distinguishing treated platelets, offering reproducible alternatives to subjective manual methods.",
+  "day": "2026-10-28",
+  "rank": 6.32,
+  "zh_abstract": "[Journal of imaging] 在锌和米力农等化合物的影响下，血小板在活化过程中会发生显著的形态学转变。人工分类方法主观性强、耗时且易出错。本研究旨在应用并评估不同预训练深度学习卷积神经网络（Convolution Neural Networks, CNN）的效能，用于对这些溶剂所诱导的血小板形态变化进行自动化二分类（处理组与未处理组）和多分类（对照组、锌、米力农、联合处理），以解决人工分类方法的局限性。研究处理了来自赫尔约克医学院（Hull York Medical School）的176幅血小板显微图像数据集，包括对照组（n = 43）、锌处理组（n = 45）、米力农处理组（n = 40）和联合处理组（n = 48）样本。针对二分类和多分类任务，共对10种预训练CNN架构进行了166次独立训练迭代评估。逐步优化策略包括对比度受限自适应直方图均衡化（CLAHE）增强、选择性解冻网络层、交叉验证和超参数调优。在二分类中，Xception取得了最优的均衡性能（准确率81%、精确率76%、召回率74%），类间区分良好；尽管另有模型数值指标更高（准确率91%），但存在分类偏倚。在多分类中，InceptionV3和Xception表现更优，准确率为72%。本研究表明，Xception和InceptionV3架构能够有效捕捉区分处理后血小板的细微形态特征，为主观的人工方法提供了可重复的替代方案。"
+ },
+ {
   "title": "AI drug recommendations show bias toward costly branded products",
   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ2FtdVRoc0hSc0tYMDFCNG9PRFQ5bGVOUmcxRUlBaGFoVGlQdldKZE1HYng1YlhtbnNVR2xsTmlKbXdBTlU0cTJBcjY3NHVPbGEzUXJzY0JMY0YteG1rc0JSaGRiN0JyU3NuRFNILTBiSGNyeW5kN2s1TTlqTklCNVF1NlljYTRNcEljQUlDYlNNT245MWdZM2NJZEtsVW9zQmNwV0tZZndmV29UeWFnWmNB?oc=5",
   "date": "2026-10-27T02:39:00+00:00",
@@ -5008,6 +5278,73 @@
   "reason": "厂商自我宣传，无独立评估，增量档",
   "day": "2026-10-28",
   "rank": 6.22
+ },
+ {
+  "title": "xxPcy/PharmaLLM-Agent",
+  "link": "https://github.com/xxPcy/PharmaLLM-Agent",
+  "date": "2026-10-26T14:05:15Z",
+  "pop": "★ 6",
+  "image": "https://avatars.githubusercontent.com/u/57864359?v=4",
+  "shot": "https://opengraph.githubassets.com/1/xxPcy/PharmaLLM-Agent",
+  "source": "GitHub",
+  "source_group": "GitHub",
+  "home": "",
+  "thin": false,
+  "badge": "",
+  "id": "aa6e3a9f4456",
+  "keep": true,
+  "zh_title": "PharmaLLM-Agent：医学LLM智能体与MRI分割工作区",
+  "summary": "GitHub开源项目，基于PharmaLLM，结合LangGraph、vLLM与BEU-Net，构建医学LLM智能体及MRI分割工作区。",
+  "key_points": [
+   "基于PharmaLLM构建",
+   "使用LangGraph与vLLM",
+   "集成BEU-Net进行MRI分割"
+  ],
+  "section": "大模型与智能体",
+  "type": "模型",
+  "tags": [
+   "智能体",
+   "医学大模型",
+   "医学影像"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "小型开源项目，信息有限且无评测，属增量档",
+  "day": "2026-10-28",
+  "rank": 6.15
+ },
+ {
+  "title": "Research and Application of Tongue Image Segmentation Method Based on Lightweight Deep Learning.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/42939056/",
+  "date": "2026-10-15T00:00:00+00:00",
+  "badge": "DOI 10.3390/bioengineering13101201",
+  "source": "PubMed · Bioengineering (Basel, Switzerland)",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "9c07447e159c",
+  "keep": true,
+  "zh_title": "基于轻量级深度学习的舌象分割方法及移动端部署",
+  "summary": "比较多种深度学习模型在舌象分割上的表现，UNet++精度最高，BiSeNet速度最快，并在三款安卓设备上部署PP-LiteSeg。",
+  "key_points": [
+   "UNet++ 测试mIoU 0.9543、Dice 0.9764",
+   "BiSeNet推理达310.03 FPS",
+   "PP-LiteSeg在安卓设备延迟约233-262 ms"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 3,
+  "reason": "增量档，常规分割对比，未见外部验证",
+  "abstract": "[Bioengineering (Basel, Switzerland)] Intelligent tongue diagnosis demands high-precision segmentation on resource-constrained mobile devices. All deep learning models outperform conventional approaches, improving mean intersection over union (mIoU) by approximately 9% and accelerating inference by more than two orders of magnitude. Among the evaluated models, UNet++ achieves the highest test mIoU (0.9543) and Dice (0.9764), with paired bootstrap analysis confirming statistically significant advantages over BiSeNet, PP-LiteSeg, and HRNet. BiSeNet achieves the fastest inference speed (310.03 FPS) and the highest mPA (0.9766), making it the most efficient model for real-time deployment. HRNet and PP-LiteSeg provide a favorable accuracy-efficiency balance, suitable for mobile-based tongue diagnosis. Deployment of PP-LiteSeg on three Android devices achieved inference latency of 233-262 ms and throughput of 3.2-3.4 FPS, demonstrating the feasibility of lightweight models on commodity mobile hardware. These findings establish an evidence-based framework for model selection in mobile tongue diagnosis, supporting AI deployment on portable devices for clinical assistance and remote monitoring.",
+  "day": "2026-10-28",
+  "rank": 6.05,
+  "zh_abstract": "[Bioengineering (Basel, Switzerland)] 智能舌诊需要在资源受限的移动设备上实现高精度分割。所有深度学习模型均优于传统方法，平均交并比（mIoU）提高约 9%，推理速度加快两个数量级以上。在所评估的模型中，UNet++ 取得了最高的测试 mIoU（0.9543）和 Dice（0.9764），配对 bootstrap 分析证实其相对于 BiSeNet、PP-LiteSeg 和 HRNet 具有统计学显著优势。BiSeNet 的推理速度最快（310.03 FPS），mPA 最高（0.9766），使其成为实时部署中效率最高的模型。HRNet 和 PP-LiteSeg 在精度与效率之间取得了良好平衡，适用于基于移动端的舌诊。将 PP-LiteSeg 部署于三台 Android 设备上，推理延迟为 233–262 ms，吞吐量为 3.2–3.4 FPS，证明了轻量级模型在普通移动硬件上的可行性。这些发现为移动舌诊中的模型选择建立了循证框架，支持在便携式设备上部署人工智能以用于临床辅助和远程监测。"
  },
  {
   "title": "Interpretable Deep Learning Models for Breast Cancer Diagnosis Using Medical Imaging",
@@ -14418,6 +14755,10 @@
    {
     "source": "动脉网",
     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9tNkFtQjN5RkZCVFJiT2hQSjJVZ1pMenNSVWtwT2hrQmJOb09OaU1UaVhabjZlaFloSElZdVFnWkxLQ2FBcVNJ?oc=5"
+   },
+   {
+    "source": "新浪财经",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNlJMalBMNGRWTk1mTWpTNTlEc2VUSVEwX0RPSXZVRTlUSERqN1pqYkItcm5XYmNJLVRWaG85bUtadlFaaHU2WV9talp5Y0JiVzB4YlZiUzZPb1pOUjE0THdPaWFsSk5POHdzMGczSVE4d1pHUGlpT18xeHFZRzR0QXpsRQ?oc=5"
    }
   ]
  },
