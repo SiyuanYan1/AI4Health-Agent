@@ -241,6 +241,41 @@
 "zh_abstract": "超声心动图是心血管诊断的基石，但经验丰富的判读者严重短缺限制了其在全球的应用。目前的人工智能（AI）方案仍然有限，通常作为不透明的“黑箱”运行，或专注于狭窄的任务，无法体现临床医生整体性、以指南为导向的推理。在此，我们介绍 EchoChat，一种生成式多模态视觉-语言模型，可进行全面的超声心动图分析以辅助临床医生判读。通过模拟心脏科医生的认知工作流程，EchoChat 将海量医学知识与思维链推理机制相结合，使其结论明确基于视觉证据。该模型在来自 46,358 次检查的超声心动图-指令配对数据上训练，在来自六个国际医疗中心的多样化队列中确立了新的最先进水平。它支持最广的诊断范围，涵盖 33 种心脏疾病和表现，其中包括 15 种新增疾病，在可用的外部评估中对这些新增疾病的平均 F1 为 73.7%。在心脏疾病识别（共有任务上平均召回率提高 13.54%）和定量分析（共有任务上平均 R2 得分提高 0.275）方面，它超过了现有表现最佳的基础模型。此外，在对来源设盲的超声心动图医师读片研究中，两位资深超声心动图医师认为由 EchoChat 协同生成的超声心动图报告在诊断准确性和完整性方面评分更高，并且相较于仅由常规读片者出具的报告，F1 得分所反映的诊断性能从 72.78% 提高到 82.75%。这些结果表明，将临床推理融入多模态 AI 可使专科专业知识更加普及，并提升心血管诊疗的标准。"
 },
 {
+"title": "Deep learning of brain–behavior dimensions identifies transdiagnostic biotypes in youth with ADHD and anxiety disorders",
+"link": "https://www.nature.com/articles/s44220-026-00740-3",
+"date": "2026-10-16T00:00:00+00:00",
+"source": "Nature Mental Health",
+"source_group": "Nature Mental Health",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s44220-026-00740-3",
+"pop": null,
+"id": "d05f1af767e8",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "深度学习脑-行为维度识别ADHD与焦虑青少年的跨诊断生物亚型",
+"summary": "基于ABCD研究3,508名9–11岁儿童，深度学习整合功能连接与认知行为指标，得到两个脑-行为维度和三种跨诊断生物亚型。",
+"key_points": [
+"整合功能连接与认知、行为测量的可解释深度学习框架",
+"识别出认知控制、情绪-注意调节两个可重复维度",
+"得到外化-去抑制、内化-苦恼、混合失调三种生物亚型"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"神经科学",
+"心理健康",
+"可解释性"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "3,508例大样本、有可重复性，但摘要未见外部验证，属值得一看档；心理健康方向小幅加分",
+"day": "2026-10-27",
+"rank": 8.67,
+"abstract": "Attention-deficit/hyperactivity disorder and anxiety disorders are highly prevalent in youth and frequently co-occur, yet substantial within- and cross-disorder heterogeneity limits neurobiological specificity and complicates treatment selection. Here we conducted an observational cohort analysis and developed a deep learning framework that integrates clinically salient functional connectivity with cognitive and behavioral measures to identify interpretable transdiagnostic dimensions and biologically grounded biotypes. In 3,508 children aged 9–11 years from the Adolescent Brain Cognitive Development study, the model revealed two reproducible brain–behavior dimensions reflecting cognitive control and emotion–attention regulation. These dimensions yielded three biotypes (externalizing–disinhibited, internalizing–distressed and mixed dysregulation) with distinct symptom profiles, network organization and brain development. They generalized to 224 age-matched Healthy Brain Network participants and were detectable before symptom onset, indicating preclinical expression. These findings support brain–behavior dimensions for parsing transdiagnostic heterogeneity and motivating early risk stratification and mechanism-informed intervention in youth mental health.",
+"zh_abstract": "注意缺陷/多动障碍和焦虑障碍在青少年中高度流行且常常共病，但障碍内部及障碍之间存在显著异质性，限制了神经生物学特异性，也使治疗选择变得复杂。在此，我们开展了一项观察性队列分析，并开发了一个深度学习框架，该框架将具有临床显著性的功能连接与认知和行为测量相整合，以识别可解释的跨诊断维度和具有生物学基础的生物型。在青少年大脑认知发育（Adolescent Brain Cognitive Development）研究中 3,508 名 9–11 岁儿童中，该模型揭示了两个可重复的脑–行为维度，分别反映认知控制和情绪–注意调节。这两个维度产生了三种生物型（外化–去抑制型、内化–痛苦型和混合失调型），它们具有不同的症状特征、网络组织和大脑发育情况。这些生物型可推广至 224 名年龄匹配的健康大脑网络（Healthy Brain Network）参与者，并且在症状出现之前即可检测到，提示其临床前表达。这些发现支持利用脑–行为维度解析跨诊断异质性，并为青少年心理健康的早期风险分层和基于机制的干预提供依据。"
+},
+{
 "title": "Bridge2AI recommendations for AI-ready genomic data.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42928829/",
 "date": "2026-10-25T00:00:00+00:00",
@@ -645,44 +680,6 @@
 "day": "2026-10-27",
 "rank": 8.69,
 "zh_abstract": "增强型大语言模型（LLM）系统在罕见病诊断基准测试中报告了较高的准确率，但其真实临床实用性尚未得到证实。一项近期的荟萃分析指出，增强型LLM诊断评估因疑似数据泄露而存在较高的偏倚风险；然而，这些漏洞对模型推理的确切影响尚未得到充分量化。在本研究中，我们开展了一项全面的实证审计，利用来自多种公共及独立临床队列的6万余例病例库，对当前主流人工智能范式中的评估伪影进行量化。通过重建一个最先进的智能体（agentic）框架，我们证明候选空间污染会人为抬高性能：实施严格的跨数据集隔离后，性能显著下降，跨数据集平均Recall@1由54.3%（常规one-vs-rest评估下）降至40.3%（Hedges' g = 0.94）。监督分类器中类似的空间过拟合导致诊断准确率由内部平均42.9%降至外部队列的16.7%（Cohen's d = 2.01）。此外，我们量化了LLM如何通过利用临床叙述中的回顾性治疗线索来推断诊断，以及基础知识库中的时间错位如何导致性能波动。我们的结论是，当前增强型LLM系统的主流评估方案在不经意间反映的是数据泄露，而非真正的医学推理。为解决这些系统性伪影，我们提出了一个严格的评估框架——将严格的数据隔离方案与标准化的基准测试保障措施相结合——以确保未来的罕见病诊断人工智能是依据其实际临床稳健性来评估的。"
-},
-{
-"title": "Deep learning of brain–behavior dimensions identifies transdiagnostic biotypes in youth with ADHD and anxiety disorders",
-"link": "https://www.nature.com/articles/s44220-026-00740-3",
-"date": "2026-10-16T00:00:00+00:00",
-"source": "Nature Mental Health",
-"source_group": "Nature Mental Health",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s44220-026-00740-3",
-"pop": null,
-"id": "d05f1af767e8",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "深度学习识别青少年ADHD与焦虑的跨诊断脑-行为生物型",
-"summary": "Nature Mental Health研究用深度学习框架分析功能连接与行为数据，识别ADHD和焦虑障碍青少年的脑-行为维度与生物型，支持早期风险分层。",
-"key_points": [
-"分析功能连接与行为数据",
-"识别跨诊断脑-行为维度与生物型",
-"可用于早期风险分层"
-],
-"section": "临床预测与决策",
-"type": "论文",
-"tags": [
-"心理健康",
-"神经科学",
-"临床预测"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "精神健康方向同行评审，摘要无外部验证信息",
-"day": "2026-10-27",
-"rank": 8.67,
-"abstract_days": [
-"2026-10-27",
-"2026-10-28"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "U-NeXt: General-purpose event detection for neonatal EEG",

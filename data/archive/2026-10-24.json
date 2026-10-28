@@ -796,44 +796,6 @@
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
-"title": "Lagrangian–Eulerian learning of flow field and trajectories with TrajectoryFlowNet",
-"link": "https://www.nature.com/articles/s42256-026-01316-7",
-"date": "2026-10-20T00:00:00+00:00",
-"source": "Nature Machine Intelligence",
-"source_group": "Nature Machine Intelligence",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s42256-026-01316-7",
-"pop": null,
-"id": "2ae4788d7b1d",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "TrajectoryFlowNet：流场与轨迹的拉格朗日-欧拉学习",
-"summary": "提出物理信息学习模型，基于极少轨迹测量同时预测长程粒子路径与流场，并在模拟与血流实验中验证。",
-"key_points": [
-"物理信息模型联合预测轨迹与流场",
-"仅需非常有限的轨迹测量",
-"在模拟及血流实验中验证"
-],
-"section": "临床预测与决策",
-"type": "论文",
-"tags": [
-"生理信号"
-],
-"evidence": "同行评审",
-"score": 4,
-"reason": "方法新但医疗应用仅为血流实验验证，增量档",
-"day": "2026-10-24",
-"rank": 9.35,
-"abstract_days": [
-"2026-10-24",
-"2026-10-26",
-"2026-10-27",
-"2026-10-28"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
-},
-{
 "title": "Large Language Model Framework for Structured Biomarker Extraction and Triple-Negative Breast Cancer Identification From Pathology Reports: Development and Evaluation Study.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42913472/",
 "date": "2026-10-23T00:00:00+00:00",
@@ -3397,6 +3359,39 @@
 "day": "2026-10-24",
 "rank": 6.41,
 "zh_abstract": "[Revista da Associacao Medica Brasileira (1992)] 本研究旨在评估基于智能手机的便携式眼底照相机在巴西圣保罗一家专门收容机构老年居民中筛查糖尿病视网膜病变的适用性，并考虑由非眼科专业人员进行图像采集和远程病例分类。在Centro de Acolhida Especial para Idosos Morada São João进行前瞻性试点干预研究。38名参与者（76只眼）由接受过培训的非眼科专业人员使用Eyer®便携式眼底照相机（Phelcom Technologies，巴西）进行视网膜成像。图像由视网膜专科医生远程评估，并与EyerMaps®人工智能系统进行比较。平均年龄为71.6±7.0岁；78.9%为男性。15名参与者（39.5%）确诊糖尿病。专科医生在76只眼中的70只（92.1%）发现异常，最常见的是疑似青光眼、提示白内障的屈光介质混浊、脉络膜视网膜改变以及年龄相关性黄斑变性体征；未发现糖尿病视网膜病变。以专科医生对任何眼部异常的评估作为参考标准，人工智能系统将22只眼分类为异常，灵敏度为25.7%（95%CI 16.9–37.0），特异度为33.3%（95%CI 9.7–70.0），阳性预测值为81.8%（95%CI 61.5–92.7），阴性预测值为3.7%（95%CI 1.0–12.5），总体准确率为26.3%（95%CI 17.7–37.2）。Eyer®设备证明了由受过培训的非眼科专业人员进行眼部筛查在操作上的可行性。屈光介质混浊和非糖尿病视网膜病变疾病的高患病率损害了人工智能性能，突显了在老年和社会弱势人群中采用更广泛筛查策略的必要性。"
+},
+{
+"title": "Lagrangian–Eulerian learning of flow field and trajectories with TrajectoryFlowNet",
+"link": "https://www.nature.com/articles/s42256-026-01316-7",
+"date": "2026-10-20T00:00:00+00:00",
+"source": "Nature Machine Intelligence",
+"source_group": "Nature Machine Intelligence",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s42256-026-01316-7",
+"pop": null,
+"id": "2ae4788d7b1d",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "TrajectoryFlowNet：拉格朗日-欧拉流场与轨迹学习",
+"summary": "提出物理信息神经网络TrajectoryFlowNet，用于预测流场与长程粒子轨迹，属流体力学领域，与医疗健康无关。",
+"key_points": [
+"物理信息模型联合预测轨迹与流场",
+"仅需非常有限的轨迹测量",
+"在模拟及血流实验中验证"
+],
+"section": "生命科学与药物",
+"type": "论文",
+"tags": [
+"生成模型"
+],
+"evidence": "同行评审",
+"score": 1,
+"reason": "与医疗健康应用无关，边缘档",
+"day": "2026-10-24",
+"rank": 9.35,
+"abstract": "Predicting particle transport in complex flows is traditionally achieved by solving the Navier–Stokes equations. Numerical and experimental methods typically require deep physical insights and incur high computational costs. Although machine learning offers an alternative, existing approaches fail to generalize the prediction of long-range particle trajectories in sparse data regimes. Here, to this end, we propose TrajectoryFlowNet, a Lagrangian–Eulerian physics-informed neural network architecture, for fluid flow velocimetry and imaging via learning to predict spatiotemporal flow fields and long-range particle trajectories. The salient features of our model include its ability to handle complex flow patterns with irregular boundaries, predict the full-field flows, image the long-range flow trajectory of any arbitrary particle, and ensure physical consistency in predictions based on only scarce measurement of flow trajectories. We validate TrajectoryFlowNet via both numerical examples (for example, lid-driven cavity flow and complex cylinder flow) and experimental test cases (for example, aortic and ventricle blood flows) across diverse flow scenarios. The results demonstrate our model’s effectiveness in capturing intricate particle-laden flow dynamics, enabling long-range tracking of particles and accurate construction of flow fields in real-world applications.",
+"zh_abstract": "传统上，预测复杂流动中的粒子输运是通过求解纳维–斯托克斯（Navier–Stokes）方程实现的。数值和实验方法通常需要深入的物理洞察，并带来高昂的计算成本。尽管机器学习提供了一种替代方案，但现有方法无法在稀疏数据条件下对长程粒子轨迹的预测进行泛化。为此，我们提出了 TrajectoryFlowNet，这是一种拉格朗日–欧拉物理信息神经网络架构，通过学习预测时空流场和长程粒子轨迹，用于流体测速和成像。我们模型的突出特点包括：能够处理具有不规则边界的复杂流动模式，预测全场流动，对任意粒子的长程流动轨迹进行成像，并且仅基于稀少的流动轨迹测量即可确保预测的物理一致性。我们通过数值算例（例如顶盖驱动方腔流和复杂圆柱绕流）以及实验测试案例（例如主动脉和心室血流），在多种流动场景下验证了 TrajectoryFlowNet。结果表明，我们的模型能够有效捕捉复杂的载粒子流动动力学，在实际应用中实现粒子的长程追踪和流场的准确构建。"
 },
 {
 "title": "stefanogarzon/clinical-ai-skills",
