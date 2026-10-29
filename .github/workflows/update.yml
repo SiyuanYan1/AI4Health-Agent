@@ -1,7 +1,7 @@
 name: Update & Deploy
 on:
   schedule:
-    - cron: "0 18 * * *"   # daily 05:00 Melbourne (AEDT) / 02:00 Beijing — ready before the morning read
+    - cron: "23 17 * * *"   # daily 04:23 Melbourne (AEDT) / 01:23 Beijing — odd minute avoids GitHub's congested on-the-hour slots
   workflow_dispatch:
 permissions:
   contents: write
