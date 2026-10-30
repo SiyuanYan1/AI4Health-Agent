@@ -114,24 +114,26 @@
 "id": "1d490ace71f5",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "物理信息外周血流动力学数字孪生用于个体化动脉硬度估计",
-"summary": "提出一种物理信息驱动的外周血流动力学数字孪生，用于个体化估计动脉硬度；仅有标题级信息。",
-"key_points": [],
+"zh_title": "基于物理信息的外周血流动力学数字孪生用于动脉僵硬度个体化估计",
+"summary": "该框架利用单一肱动脉压力波形，通过PDE约束优化个性化降阶波传播模型，估计中心-肱动脉僵硬度；118人队列盲测中PWV估计r=0.67。",
+"key_points": [
+"仅需单点肱动脉波形，无需双点测量",
+"118名受试者，自研袖带设备采集",
+"盲测队列r=0.67，RMSE=1.12 m/s"
+],
 "section": "数字健康",
 "type": "论文",
 "tags": [
 "生理信号",
-"数字健康"
+"临床预测"
 ],
 "evidence": "同行评审",
 "score": 4,
-"reason": "仅有标题信息，无验证细节，属增量档",
+"reason": "样本仅118例，相关性中等，无外部验证，属增量档",
 "day": "2026-10-29",
 "rank": 9.81,
-"abstract_days": [
-"2026-10-29"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract": "Arterial stiffness, commonly assessed by pulse wave velocity (PWV), is an important biomarker of cardiovascular risk, yet conventional PWV measurements require dual-site recordings that limit scalability in clinical settings. Here we introduce a physics-informed peripheral hemodynamic digital twin framework for estimating central-brachial arterial stiffness from a single brachial pressure waveform. Using our laboratory-developed cuff device, high-resolution brachial pulse waveforms were collected in a cohort of 118 subjects. The digital twin then personalizes a reduced-order wave propagation model through PDE-constrained optimization, generating a compact parameter space that encodes ventricular–vascular characteristics relevant to stiffness. Incorporating digital-twin-derived parameters improved PWV estimation on a blind test cohort (r = 0.67, RMSE = 1.12 m/s) compared with a baseline model using only age and blood pressure (r = 0.22, RMSE = 1.90 m/s). These results indicate that physics-informed digital twins can enable scalable, noninvasive assessment of vascular aging from accessible peripheral waveforms.",
+"zh_abstract": "动脉僵硬度通常通过脉搏波传导速度（PWV）进行评估，是心血管风险的重要生物标志物，但传统 PWV 测量需要双部位记录，限制了其在临床环境中的可推广性。在此，我们提出一种基于物理信息的外周血流动力学数字孪生框架，可由单一肱动脉压力波形估计中心—肱动脉僵硬度。我们利用实验室自行研制的袖带设备，在 118 名受试者的队列中采集了高分辨率肱动脉脉搏波形。随后，数字孪生通过偏微分方程（PDE）约束优化对降阶波传播模型进行个体化，生成一个紧凑的参数空间，用以编码与僵硬度相关的心室—血管特征。在盲法测试队列中，纳入数字孪生衍生参数后 PWV 估计的表现（r = 0.67，RMSE = 1.12 m/s）优于仅使用年龄和血压的基线模型（r = 0.22，RMSE = 1.90 m/s）。这些结果表明，基于物理信息的数字孪生可利用易于获取的外周波形，实现可扩展的、无创的血管老化评估。"
 },
 {
 "title": "Moving beyond overconfidence: A clinical roadmap for integrating uncertainty-aware AI models into medical workflows",
@@ -196,9 +198,10 @@
 "day": "2026-10-29",
 "rank": 9.81,
 "abstract_days": [
-"2026-10-29"
+"2026-10-29",
+"2026-10-30"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "FDA clears Deep Reasoning AI’s NeuroDR for neurovascular CT scans",
