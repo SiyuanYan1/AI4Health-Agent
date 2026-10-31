@@ -167,7 +167,13 @@
 "abstract": "Luo et al. review uncertainty quantification in medical AI from a clinical perspective and propose a practical roadmap for translating uncertainty estimates into meaningful action. They highlight the need to validate uncertainty against clinically relevant errors and embed its use within real-world workflows and governance.",
 "day": "2026-10-29",
 "rank": 9.81,
-"zh_abstract": "Luo 等从临床角度综述了医学AI中的不确定性量化，并提出了一条将不确定性估计转化为有意义行动的实用路线图。他们强调，需要针对具有临床相关性的错误来验证不确定性，并将其使用嵌入真实世界的工作流程和治理体系之中。"
+"zh_abstract": "Luo 等从临床角度综述了医学AI中的不确定性量化，并提出了一条将不确定性估计转化为有意义行动的实用路线图。他们强调，需要针对具有临床相关性的错误来验证不确定性，并将其使用嵌入真实世界的工作流程和治理体系之中。",
+"also": [
+{
+"source": "PubMed · Cell reports. Medicine",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42950830/"
+}
+]
 },
 {
 "title": "Tracking cancer drug resistance with longitudinal multimodal AI: from biological signals to clinical decisions",
@@ -199,7 +205,8 @@
 "rank": 9.81,
 "abstract_days": [
 "2026-10-29",
-"2026-10-30"
+"2026-10-30",
+"2026-10-31"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },

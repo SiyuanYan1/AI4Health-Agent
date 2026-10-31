@@ -131,7 +131,13 @@
 "abstract": "Liu et al. present MorphX, an interpretable deep learning framework that decodes cancer prognosis from whole-slide histological images and reveals morphological biomarkers. Across independent cohorts, MorphX identifies eight morphology-based biomarkers, supporting trustworthy, transparent, AI-driven precision oncology.",
 "day": "2026-10-30",
 "rank": 10.81,
-"zh_abstract": "Liu等人提出了MorphX，这是一个可解释的深度学习框架，可从全切片组织学图像中解码癌症预后并揭示形态学生物标志物。在多个独立队列中，MorphX识别出八种基于形态学的生物标志物，支持可信、透明、由AI驱动的精准肿瘤学。"
+"zh_abstract": "Liu等人提出了MorphX，这是一个可解释的深度学习框架，可从全切片组织学图像中解码癌症预后并揭示形态学生物标志物。在多个独立队列中，MorphX识别出八种基于形态学的生物标志物，支持可信、透明、由AI驱动的精准肿瘤学。",
+"also": [
+{
+"source": "PubMed · Cell reports. Medicine",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42956750/"
+}
+]
 },
 {
 "title": "Applying digital twins to prevent preterm births",
@@ -165,9 +171,10 @@
 "day": "2026-10-30",
 "rank": 10.81,
 "abstract_days": [
-"2026-10-30"
+"2026-10-30",
+"2026-10-31"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "Large Language Model-Assisted Radiology Report Quality Assurance: Real-World Multicenter Evaluation.",
@@ -235,7 +242,8 @@
 "day": "2026-10-30",
 "rank": 10.0,
 "abstract_days": [
-"2026-10-30"
+"2026-10-30",
+"2026-10-31"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -303,9 +311,10 @@
 "day": "2026-10-30",
 "rank": 9.81,
 "abstract_days": [
-"2026-10-30"
+"2026-10-30",
+"2026-10-31"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "Efficient biological design via genomic in-context learning",
@@ -2534,7 +2543,13 @@
 "score": 3,
 "reason": "仅标题的行业观点转述，信息有限",
 "day": "2026-10-30",
-"rank": 5.5
+"rank": 5.5,
+"also": [
+{
+"source": "AgeClub",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwaTQxeEZ4VGlLdXRKd2RNa3BtQjN2bE9kczZJa2hENFNjRGY1WmFYM1kzbmtlZFVsT0gzUlc1VHJmMlVtVXZtdENqM3EteGJJLWlLSA?oc=5"
+}
+]
 },
 {
 "title": "FDA Issues List of Proposed Guidances for FY 2027",
