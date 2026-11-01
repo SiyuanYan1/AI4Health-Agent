@@ -86,7 +86,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://doi.org/10.18653/v1/2025.findings-acl.751",
-"cites": 77,
+"cites": 78,
 "zh_title": "用可验证医学问题提升大模型复杂推理",
 "summary": "该研究提出以可验证的医学问题训练与评估大模型，提升其医学复杂推理能力。",
 "key_points": [
@@ -187,7 +187,7 @@
 "year": 2025,
 "date": "2025-02-26",
 "link": "https://doi.org/10.48550/arXiv.2502.19175",
-"cites": 37,
+"cites": 38,
 "zh_title": "MEDDxAgent：可解释自动鉴别诊断框架",
 "summary": "提出模块化统一Agent框架MEDDxAgent，支持可解释的自动鉴别诊断，解决现有LLM评估与优化局限。",
 "key_points": [
@@ -1330,7 +1330,7 @@
 "year": 2025,
 "date": "2025-04-10",
 "link": "https://doi.org/10.18653/v1/2026.findings-acl.247",
-"cites": 7,
+"cites": 9,
 "zh_title": "RA-RRG：多模态检索增强的放射报告生成",
 "summary": "ACL 2025 Findings 提出 RA-RRG，结合多模态检索增强生成胸片报告并抽取关键短语。",
 "key_points": [
@@ -4151,7 +4151,7 @@
 "year": 2026,
 "date": "2026-04-19",
 "link": "https://doi.org/10.48550/arXiv.2604.17629",
-"cites": 1,
+"cites": 2,
 "zh_title": "BioVLM：以提示路由提升生物医学视觉语言模型泛化",
 "summary": "提出提示学习框架BioVLM，通过多样化提示库提升生物医学视觉语言模型的跨模态泛化。",
 "key_points": [
@@ -6345,7 +6345,7 @@
 "year": 2026,
 "date": "2026-01-01",
 "link": "https://doi.org/10.18653/v1/2026.acl-demo.67",
-"cites": 0,
+"cites": 1,
 "zh_title": "AnnoHID：低资源医学文本的LLM辅助标注框架",
 "summary": "提出面向低资源医学文本的LLM辅助标注框架AnnoHID，用于缓解医学文本标注困难。",
 "key_points": [
@@ -7120,7 +7120,7 @@
 "year": 2025,
 "date": "2025-03-26",
 "link": "https://doi.org/10.18653/v1/2025.emnlp-main.1353",
-"cites": 18,
+"cites": 19,
 "zh_title": "3MDBench：医学多模态多智能体对话基准",
 "summary": "开源框架，通过患者与评估智能体模拟并评测大视觉语言模型驱动的远程医疗问诊。",
 "key_points": [
@@ -8212,7 +8212,7 @@
 "year": 2025,
 "date": "2025-05-29",
 "link": "https://doi.org/10.48550/arXiv.2505.23987",
-"cites": 5,
+"cites": 6,
 "zh_title": "面向可控多属性多目标分子优化的大语言模型",
 "summary": "论文提出首个多属性优化指令微调数据集C-MuMOInstruct，以支持药物设计中按需选择性提升多个分子属性的分子优化。",
 "key_points": [
@@ -9413,7 +9413,7 @@
 "year": 2025,
 "date": "2025-06-21",
 "link": "https://doi.org/10.48550/arXiv.2506.17844",
-"cites": 0,
+"cites": 1,
 "zh_title": "THCM-CAL：时序分层因果建模与共形校准的临床风险预测",
 "summary": "提出THCM-CAL，融合结构化诊断编码与叙述性病历文本进行临床风险预测。",
 "key_points": [
@@ -9690,7 +9690,7 @@
 "year": 2025,
 "date": "2025-01-24",
 "link": "https://doi.org/10.48550/arXiv.2501.16382",
-"cites": 8,
+"cites": 9,
 "zh_title": "GraPPI：面向大规模蛋白质相互作用探索的GraphRAG框架",
 "summary": "NAACL 2025提出GraPPI检索-分解-求解GraphRAG框架，用于大规模蛋白质相互作用探索，服务于药物发现中的靶点识别。",
 "key_points": [
@@ -13840,7 +13840,7 @@
 "year": 2026,
 "date": "2026-03-14",
 "link": "https://doi.org/10.1609/aaai.v40i10.37751",
-"cites": 2,
+"cites": 3,
 "zh_title": "BioDPP：生物医学视觉语言模型的动态提示策略学习",
 "summary": "AAAI 2026提出BioDPP，为生物医学视觉语言模型学习动态提示策略，应对标注稀缺与低对比度特征的适配难题。",
 "key_points": [
@@ -19297,7 +19297,7 @@
 "year": 2025,
 "date": "2025-06-11",
 "link": "https://doi.org/10.48550/arXiv.2506.11147",
-"cites": 26,
+"cites": 27,
 "zh_title": "3D-RAD：三维放射学医学VQA数据集",
 "summary": "NeurIPS 2025 发布基于放射科CT扫描的大规模3D医学视觉问答数据集，涵盖六类任务并支持多时间点分析。",
 "key_points": [
@@ -24083,7 +24083,7 @@
 "year": 2025,
 "date": "2025-05-31",
 "link": "https://doi.org/10.48550/arXiv.2506.00406",
-"cites": 5,
+"cites": 6,
 "zh_title": "iDPA：面向增量医学目标检测的实例解耦提示注意力",
 "summary": "iDPA 通过解耦前景背景信息与提示-图文令牌注意力，改进增量式医学目标检测。",
 "key_points": [
@@ -25411,7 +25411,7 @@
 "year": 2025,
 "date": "2025-02-27",
 "link": "https://doi.org/10.1109/CVPR52734.2025.00968",
-"cites": 87,
+"cites": 88,
 "zh_title": "多视角纵向数据增强对比学习生成胸片报告",
 "summary": "CVPR 2025提出方法，利用多视角纵向数据与增强对比学习生成胸部X光报告。",
 "key_points": [
@@ -25437,7 +25437,7 @@
 "year": 2025,
 "date": "2025-06-10",
 "link": "https://doi.org/10.1109/CVPR52734.2025.01942",
-"cites": 58,
+"cites": 59,
 "zh_title": "nnWNet：重新思考生物医学图像分割中的Transformer",
 "summary": "提出nnWNet重新思考Transformer在生物医学图像分割中的使用，并呼吁统一评估基准。",
 "key_points": [
@@ -25489,7 +25489,7 @@
 "year": 2025,
 "date": "2025-03-04",
 "link": "https://doi.org/10.1109/CVPR52734.2025.01805",
-"cites": 42,
+"cites": 43,
 "zh_title": "MM-OR：大型多模态手术室数据集",
 "summary": "研究提出MM-OR，一个真实大规模多模态时空手术室数据集，用于手术环境语义理解。",
 "key_points": [
@@ -25592,7 +25592,7 @@
 "year": 2025,
 "date": "2025-04-06",
 "link": "https://doi.org/10.1109/CVPR52734.2025.02873",
-"cites": 30,
+"cites": 31,
 "zh_title": "DyCON：动态不确定性感知的半监督医学图像分割",
 "summary": "CVPR 2025 提出 DyCON 框架，用动态不确定性感知的一致性与对比学习缓解类别不平衡与高不确定性，改善 3D 医学图像分割。",
 "key_points": [
@@ -26649,7 +26649,7 @@
 "year": 2025,
 "date": "2025-03-19",
 "link": "https://doi.org/10.1109/ICCV51701.2025.01178",
-"cites": 37,
+"cites": 39,
 "zh_title": "Derm1M：百万级皮肤科视觉-语言数据集",
 "summary": "构建百万规模并对齐临床本体知识的皮肤科图文数据集，弥补现有数据在规模与标注深度上的不足。",
 "key_points": [
@@ -27027,7 +27027,7 @@
 "year": 2025,
 "date": "2025-05-21",
 "link": "https://doi.org/10.1109/ICCV51701.2025.02266",
-"cites": 8,
+"cites": 9,
 "zh_title": "重思弱监督医学视觉定位：见树亦见林",
 "summary": "针对医学视觉定位，指出当前视觉语言模型注意力机制低效、缺乏细粒度token表示，难以关联文本与病灶区域。",
 "key_points": [
@@ -28722,7 +28722,7 @@
 "year": 2025,
 "date": "2025-02-06",
 "link": "https://doi.org/10.1145/3696410.3714782",
-"cites": 216,
+"cites": 217,
 "zh_title": "MedRAG：知识图谱增强的医疗RAG助手",
 "summary": "WWW 2025提出MedRAG，用知识图谱激发推理增强检索生成，用于医疗Copilot，减少误诊。",
 "key_points": [
@@ -30569,7 +30569,7 @@
 "year": 2025,
 "date": "2025-08-01",
 "link": "https://doi.org/10.1145/3746027.3755076",
-"cites": 42,
+"cites": 43,
 "zh_title": "Mobile U-ViT：高效医学图像分割轻量模型",
 "summary": "提出Mobile U-ViT，结合大卷积核与U形ViT，面向移动端医学图像分割。",
 "key_points": [
@@ -31697,7 +31697,7 @@
 "year": 2025,
 "date": "2025-10-27",
 "link": "https://doi.org/10.1145/3746027.3755440",
-"cites": 1,
+"cites": 2,
 "zh_title": "Rodecon-net：鲁棒解耦与对比增强融合的医学图像分割",
 "summary": "提出Rodecon-net，以鲁棒解耦与对比增强融合应对医学图像分割中前景背景软边界与显著目标共现问题。",
 "key_points": [
@@ -34497,7 +34497,7 @@
 "year": 2025,
 "date": "2025-06-29",
 "link": "https://doi.org/10.48550/arXiv.2506.23298",
-"cites": 7,
+"cites": 8,
 "zh_title": "揭示与缓解MLLM医学图像少样本学习的校准偏差与不公平",
 "summary": "首次考察多模态大模型少样本医学图像分类的校准偏差与人群不公平，并提出缓解方法。",
 "key_points": [
@@ -35075,7 +35075,7 @@
 "year": 2025,
 "date": "2025-09-20",
 "link": "https://doi.org/10.1007/978-3-032-05114-1_55",
-"cites": 6,
+"cites": 7,
 "zh_title": "Surgical-MambaLLM：机器人手术VQLA多模态大模型",
 "summary": "提出 Mamba2 增强的多模态大语言模型，用于机器人手术视觉问答与定位。",
 "key_points": [
@@ -36004,7 +36004,7 @@
 "year": 2025,
 "date": "2025-08-31",
 "link": "https://doi.org/10.1007/978-3-032-05169-1_45",
-"cites": 5,
+"cites": 6,
 "zh_title": "姿态作为临床先验的脊柱侧弯筛查双表征学习",
 "summary": "提出将姿态数据作为临床先验，学习双表征用于脊柱侧弯筛查，以提升临床可解释性。",
 "key_points": [
@@ -36078,7 +36078,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://doi.org/10.1007/978-3-032-05182-0_60",
-"cites": 7,
+"cites": 8,
 "zh_title": "ThyroidXL：专家标注病理验证甲状腺结节诊断数据集",
 "summary": "提出ThyroidXL数据集，用于甲状腺结节诊断，具备专家标注与病理验证。",
 "key_points": [
@@ -38087,7 +38087,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://doi.org/10.1007/978-3-032-04947-6_22",
-"cites": 3,
+"cites": 4,
 "zh_title": "GLM-SFNet：全局-局部视觉Mamba语义融合分割",
 "summary": "GLM-SFNet 结合全局与局部视觉Mamba及语义融合，用于医学图像分割（来源无摘要）。",
 "key_points": [
@@ -43689,7 +43689,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://doi.org/10.1007/978-3-032-05325-1_32",
-"cites": 1,
+"cites": 2,
 "zh_title": "MedGNN：基于GNN视觉表示的通用医学图像识别网络",
 "summary": "提出MedGNN，利用图神经网络视觉表示进行通用医学图像识别。",
 "key_points": [
@@ -45494,7 +45494,7 @@
 "year": 2025,
 "date": "2025-09-20",
 "link": "https://doi.org/10.1007/978-3-032-04937-7_20",
-"cites": 5,
+"cites": 6,
 "zh_title": "通过学习模板形变生成新的大脑形态",
 "summary": "MICCAI 2025 提出 MorphLDM，基于潜在扩散模型对学习到的脑模板施加合成形变场，生成形态合理且具属性特异性的 3D 脑 MRI。",
 "key_points": [
@@ -45925,7 +45925,7 @@
 "year": 2025,
 "date": "2025-07-01",
 "link": "https://doi.org/10.1007/978-3-032-04978-0_62",
-"cites": 4,
+"cites": 5,
 "zh_title": "文本引导多示例学习的步态视频脊柱侧弯筛查",
 "summary": "提出TG-MILNet，以文本引导多示例学习从步态视频无创检测脊柱侧弯，含DTW聚类与边界感知模型。",
 "key_points": [
@@ -47960,7 +47960,7 @@
 "year": 2025,
 "date": "2025-01-22",
 "link": "https://doi.org/10.1109/ISBI60581.2025.10980985",
-"cites": 14,
+"cites": 15,
 "zh_title": "AMM-Diff：自适应多模态扩散缺失模态补全",
 "summary": "提出自适应多模态扩散网络，可接受任意数量输入模态并生成缺失的MRI模态，用于脑肿瘤分割。",
 "key_points": [
@@ -50778,7 +50778,7 @@
 "year": 2025,
 "date": "2025-04-14",
 "link": "https://doi.org/10.1109/ISBI60581.2025.10981008",
-"cites": 3,
+"cites": 4,
 "zh_title": "潜在扩散模型用于胸部X线肺病分类",
 "summary": "ISBI 2025研究以放射报告为条件训练潜在扩散模型，通过比较不同疾病提示下的噪声估计误差对胸部X线做肺病分类。",
 "key_points": [
@@ -56611,7 +56611,7 @@
 "year": 2025,
 "date": "2025-04-14",
 "link": "https://doi.org/10.1109/ISBI60581.2025.10980781",
-"cites": 1,
+"cites": 2,
 "zh_title": "结构功能有效连接融合癫痫分类",
 "summary": "构建结构、功能与有效连接网络，用图卷积和交叉注意力融合进行癫痫分类。",
 "key_points": [
@@ -71475,7 +71475,7 @@
 "year": 2025,
 "date": "2025-10-28",
 "link": "https://doi.org/10.1109/ISBI61048.2026.11515504",
-"cites": 0,
+"cites": 1,
 "zh_title": "卒中后脑异常的无监督检测",
 "summary": "评估基于流的生成模型REFLECT，在ATLAS数据上无监督检测卒中后局灶与非病灶异常，IXI训练模型Dice 0.37高于0.27。",
 "key_points": [
@@ -83816,5 +83816,32 @@
 "section": "大模型与智能体",
 "score": 5,
 "zh_abstract": "对脑活动进行可扩展且可泛化的分析，对于推进临床诊断和认知研究至关重要。脑电图（Electroencephalography，EEG）是一种具有高时间分辨率的无创检测方式，已被广泛用于脑状态分析。然而，现有的大多数 EEG 模型通常是针对单一特定任务定制的，这限制了它们在现实场景中的实用性，因为在现实场景中 EEG 分析往往涉及多任务和持续推理。在这项工作中，我们提出了 EEG Agent，这是一个通用框架，利用大语言模型（LLMs）调度并规划多种工具，以自动完成与 EEG 相关的任务。EEG Agent 能够执行以下关键功能：EEG 基本信息感知、EEG 时空探索、EEG 事件检测、与用户交互以及 EEG 报告生成。为实现上述能力，我们设计了一个由……组成的工具箱（原文在此处截断）"
+},
+"f1880d46a6cf3a036c9dfa45dc7ab9487b44436f": {
+"pid": "f1880d46a6cf3a036c9dfa45dc7ab9487b44436f",
+"title": "CalcSeg: Confidence-aware 3D Latent Context Curriculum Learning For Myocardial Scar Segmentation From Single-Stack LGE-CMRs.",
+"abstract": "Myocardial scar segmentation from single-stack late gadolinium-enhanced cardiac magnetic resonance (LGE-CMR) imaging has been a longstanding and clinically important challenge, particularly in the presence of low tissue contrast, diffuse, and small scar regions. These challenges are further intensified by the limited availability of 3D spatial context. This paper presents CalcSeg, a Confidence-aware latent context curriculum learning framework that leverages fused 3D feature representations from single-stack 2D LGE-CMR images for robust scar segmentation. Specifically, we introduce a dynamic semi-supervised curriculum learning strategy that progressively expands training from easier to more challenging scar cases using a learned confidence-aware scoring function. Such a function integrates errors in the predicted scar maps with quantified epistemic uncertainty and scar burden estimation ",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-08-20",
+"link": "https://doi.org/10.1007/978-3-032-38085-2_10",
+"cites": 0,
+"zh_title": "CalcSeg：基于单叠层LGE-CMR的置信度感知3D潜在上下文课程学习心肌瘢痕分割",
+"summary": "提出CalcSeg框架，融合单叠层2D LGE-CMR的3D特征，通过置信度感知的半监督课程学习，实现低对比度、弥散和小瘢痕的分割。",
+"key_points": [
+"融合单叠层2D图像的3D潜在特征表示",
+"动态半监督课程学习，由易到难扩展训练",
+"置信度评分结合预测误差、认知不确定性与瘢痕负荷"
+],
+"tags": [
+"医学影像",
+"临床预测"
+],
+"reason": "新方法的影像分割研究，摘要未显示外部验证或临床结局，属增量档",
+"section": "影像与病理",
+"score": 4,
+"zh_abstract": "基于单叠层（single-stack）延迟钆增强心脏磁共振（LGE-CMR）成像的心肌瘢痕分割一直是一项长期存在且具有重要临床意义的难题，尤其是在组织对比度低、瘢痕弥散且范围较小的情况下。三维空间上下文信息有限进一步加剧了这些挑战。本文提出了 CalcSeg，一种置信度感知的潜在上下文课程学习（Confidence-aware latent context curriculum learning）框架，该框架利用由单叠层二维 LGE-CMR 图像融合得到的三维特征表示，实现稳健的瘢痕分割。具体而言，我们引入了一种动态半监督课程学习策略，通过习得的置信度感知评分函数，使训练由较易的瘢痕病例逐步扩展到更具挑战性的病例。该函数将预测瘢痕图中的误差与量化的认知不确定性（epistemic uncertainty）以及瘢痕负荷估计相结合。"
 }
 }

@@ -1,5 +1,108 @@
 [
 {
+"title": "AnySleep: a channel-agnostic deep learning system for high-resolution sleep staging in multi-center cohorts",
+"link": "https://www.nature.com/articles/s41746-026-03406-7",
+"date": "2026-10-30T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03406-7",
+"pop": null,
+"id": "877feb979098",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "AnySleep：跨通道通用的多中心高分辨率睡眠分期系统",
+"summary": "AnySleep可对任意EEG/EOG数据按可调时间分辨率进行睡眠分期，在28个数据集、超2万条整夜记录上训练和验证，表现达到或优于现有方法。",
+"key_points": [
+"适配不同电极数量与导联配置",
+"训练数据：28个数据集、20000余条记录",
+"支持短于30秒的可调时间分辨率"
+],
+"section": "数字健康",
+"type": "论文",
+"tags": [
+"生理信号",
+"临床预测",
+"多模态"
+],
+"evidence": "同行评审",
+"score": 7,
+"reason": "睡眠方向大规模多中心队列、跨站点泛化，属重要档，睡眠偏好加分",
+"day": "2026-10-31",
+"rank": 10.81,
+"abstract": "Sleep is essential for health, yet studying its dynamics requires manual sleep staging, a labor-intensive step in research and clinical care. Across centers, polysomnography (PSG) recordings are traditionally scored in 30-s epochs for pragmatic, not physiological, reasons and vary in electrode count, montage, and subject characteristics. These constraints challenge harmonized multi-center studies and the discovery of robust biomarkers on shorter timescales. We present AnySleep, a deep neural network that scores sleep from any electroencephalography (EEG) or electrooculography (EOG) data at adjustable temporal resolutions. We trained and validated the model on over 20,000 overnight recordings (>200,000 h of EEG and EOG) from 28 datasets across multiple clinics to promote robust generalization across sites. The model attains state-of-the-art performance and surpasses or equals established baselines at 30-s epochs. Performance improves with more channels, yet remains strong when EOG is absent, or only EOG or single EEG derivations (frontal, central, or occipital) are available. On sub-30-s timescales, the model captures short wake intrusions consistent with arousals and improves the prediction of pathophysiological conditions (obstructive sleep apnea, narcolepsy type 1, insomnia) over 30-s scoring. We make the model publicly available to facilitate large-scale studies with heterogeneous electrode setups and accelerate biomarker discovery in sleep."
+},
+{
+"title": "Interpretable graph learning of spatial TME patterns in digital pathology for gastric cancer prognosis",
+"link": "https://www.nature.com/articles/s41746-026-03398-4",
+"date": "2026-10-30T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03398-4",
+"pop": null,
+"id": "8fc708f368bb",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "基于可解释图学习的胃癌病理TME空间模式预后模型",
+"summary": "GTMA框架将全切片图像建模为空间图，所得风险评分在1871例队列和TCGA-STAD（213例）中提供了独立于TNM分期的预后信息。",
+"key_points": [
+"将WSI建模为空间图，解析肿瘤微环境相互作用",
+"大队列（n=1871）及TCGA-STAD（n=213）验证",
+"风险评分可在相同TNM分期和分子亚型内进一步分层"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"病理",
+"肿瘤",
+"可解释性"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "病理预后方向，有外部公共队列验证，但摘要未见前瞻性或临床结局，属值得一看档",
+"day": "2026-10-31",
+"rank": 10.81,
+"abstract": "Current gastric cancer (GC) risk stratification, based on TNM staging and molecular subtypes, often fails to capture intratumoral heterogeneity driving variable outcomes. Although the tumor microenvironment (TME) spatial architecture within histopathological images holds critical prognostic value, quantifying these interactions remains challenging. We present the Graph-based Tumor Microenvironment Aggregation (GTMA) framework, an interpretable deep learning approach modeling whole-slide images as spatial graphs to decipher tissue interactions. Validated in a large cohort ( n = 1871) and TCGA-STAD dataset ( n = 213), the GTMA-derived Risk Score (RS) provided prognostic information complementary to TNM staging and clinical models. Notably, the RS stratified patients into distinct risk groups within identical TNM stages and molecular subtypes, identifying high-risk patients traditionally overlooked. Integrative analysis revealed high-RS tumors feature a fibroblast-dominant, immune-excluded phenotype and distinct stromal spatial patterns. By linking digital pathology to biological TME patterns, GTMA offers a robust, interpretable AI tool for individualized prognostic risk stratification and precision oncology in GC.",
+"zh_abstract": "目前基于TNM分期和分子亚型的胃癌（GC）风险分层，往往无法反映导致预后差异的肿瘤内异质性。尽管组织病理图像中肿瘤微环境（TME）的空间结构具有重要的预后价值，但对这些相互作用进行量化仍具挑战。我们提出了基于图的肿瘤微环境聚合（Graph-based Tumor Microenvironment Aggregation，GTMA）框架，这是一种可解释的深度学习方法，将全切片图像建模为空间图，以解析组织间的相互作用。在一个大型队列（n = 1871）和TCGA-STAD数据集（n = 213）中验证表明，GTMA衍生的风险评分（RS）可提供与TNM分期及临床模型互补的预后信息。值得注意的是，RS可在相同TNM分期和分子亚型内将患者分为不同的风险组，识别出传统上被忽视的高风险患者。整合分析显示，高RS肿瘤具有成纤维细胞占主导、免疫排斥的表型以及独特的基质空间模式。通过将数字病理与TME的生物学模式相联系，GTMA为胃癌个体化预后风险分层和精准肿瘤学提供了一种稳健、可解释的人工智能工具。"
+},
+{
+"title": "Platform evaluation and lessons learned with IT-supported patient recruitment",
+"link": "https://www.nature.com/articles/s41746-026-03366-y",
+"date": "2026-10-30T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03366-y",
+"pop": null,
+"id": "586f53a122cd",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "IT支持的患者招募平台评估与经验总结",
+"summary": "在德国MIRACUM联盟6家大学医院开展多中心分段中断时间序列评估，比较两种临床试验招募支持系统（CTRSS）启用前后的入组情况。",
+"key_points": [
+"评估recruIT与KAS+两个基于EHR的系统",
+"覆盖29项试验、814个观察周",
+"使用分段负二项混合模型分析入组变化"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"电子病历",
+"临床落地",
+"临床决策支持"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "多中心真实世界评估试验招募，有工作流效果，但摘要未给出结果，属值得一看档",
+"day": "2026-10-31",
+"rank": 9.81,
+"abstract": "Recruiting participants for clinical trials is a challenge, often limited by inefficient methods for identifying eligible candidates. Clinical trial recruitment support systems (CTRSS) can enhance recruitment efficiency by leveraging data from electronic health records (EHR). We evaluated two CTRSS-recruIT and KAS+-to quantify their real-world impact on enrollment. Within the German MIRACUM consortium, we conducted a multicenter segmented interrupted time-series (ITS) evaluation across six university hospitals. Twenty-nine trials contributed 814 observation weeks spanning a control phase (usual practice) and an intervention phase (CTRSS active). Weekly enrollments were compared using segmented negative binomial mixed models estimating level and slope changes at implementation, complemented by Wilcoxon signed-rank tests. A criteria revision covariate captured iterative refinement of computable cohort definitions. In pooled ITS analyses, we observed neither a statistically significant immediate level change nor a statistically significant post-implementation slope change in weekly enrollments. Effects were highly heterogeneous across trials and specialties; implemented eligibility logic most often relied on diagnosis, age, and visit data, while laboratory values and structured observations were seldom available. Higher values of the criteria revision covariate were associated with higher recruitment in some settings, with the most exploratory signal observed at the single KAS+ site. Despite the potential benefits of CTRSS, their effectiveness depends on careful customization and implementation. Overall, our findings suggest that CTRSS impact is context-dependent and that measurable benefit is more likely driven by iterative computable phenotyping and local workflow fit rather than a simple \"switch-on\" effect. Context-specific adaptation and continual revision of eligibility logic appear critical to realizing benefit. Future studies should reduce trial heterogeneity, strengthen compliance incentives, and employ granular outcomes, such as identification-to-enrollment latency, to better capture workflow-mediated effects."
+},
+{
 "title": "AI for detection of adverse events in the real world",
 "link": "https://www.nature.com/articles/s43018-026-01258-4",
 "date": "2026-10-29T00:00:00+00:00",
@@ -32,7 +135,8 @@
 "day": "2026-10-31",
 "rank": 11.64,
 "abstract_days": [
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -105,43 +209,6 @@
 "zh_abstract": "基于纵向电子健康记录（EHR）训练的基础模型可以预测未来数年的临床诊断，使其成为疾病筛查的潜在工具。我们开发了 TRACER（Temporal Risk Assessment with Clinical EHR Representations），这是一种基于解码器的基础模型，使用来自四个医疗系统的450多万名患者的数据进行预训练，并在两个未参与模型开发的医疗系统中的200多万名患者中，针对16种新发疾病在1年、2年和5年时间范围内进行了评估。与通常关注全局指标（如 AUROC）的评估不同，我们在筛查中现实可行的低假阳性率下衡量了性能。我们发现，TRACER 在外部医疗系统中保持了其区分能力；在95%特异度下，被其标记的患者在一年内被诊断的可能性最高可达未经选择患者的八倍。在该工作点进行评估还揭示了仅凭全局指标无法发现的情况：即使区分能力看似稳定，不同疾病和不同医疗系统之间的检出率和假警报负担也存在差异。我们的结果说明了基础模型用于筛查的潜力，并强调有必要在未参与开发的医疗系统中进行评估，以便在适合预期临床用途的水平上评估疾病检出情况和假警报负担。"
 },
 {
-"title": "Interpretable graph learning of spatial TME patterns in digital pathology for gastric cancer prognosis",
-"link": "https://www.nature.com/articles/s41746-026-03398-4",
-"date": "2026-10-30T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03398-4",
-"pop": null,
-"id": "8fc708f368bb",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "胃癌预后：数字病理中空间肿瘤微环境的可解释图学习",
-"summary": "npj Digital Medicine 发表研究，利用可解释图学习分析数字病理中的空间肿瘤微环境模式以预测胃癌预后；仅有标题级信息。",
-"key_points": [
-"方法为可解释图学习",
-"数据为数字病理切片",
-"目标为胃癌预后预测"
-],
-"section": "影像与病理",
-"type": "论文",
-"tags": [
-"病理",
-"肿瘤",
-"可解释性"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "病理预后方向契合，但摘要无验证信息，按5–6档偏中",
-"day": "2026-10-31",
-"rank": 10.81,
-"abstract_days": [
-"2026-10-31"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
 "title": "Accuracy and impact of an AI safety system for missed specialist referrals in primary care",
 "link": "https://www.nature.com/articles/s41746-026-03444-1",
 "date": "2026-10-30T00:00:00+00:00",
@@ -169,79 +236,10 @@
 "day": "2026-10-31",
 "rank": 10.81,
 "abstract_days": [
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
-"title": "AnySleep: a channel-agnostic deep learning system for high-resolution sleep staging in multi-center cohorts",
-"link": "https://www.nature.com/articles/s41746-026-03406-7",
-"date": "2026-10-30T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03406-7",
-"pop": null,
-"id": "877feb979098",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "AnySleep：多中心队列中通道无关的高分辨率睡眠分期系统",
-"summary": "npj Digital Medicine 发表一种与信号通道无关的深度学习睡眠分期系统，面向多中心队列。",
-"key_points": [],
-"section": "数字健康",
-"type": "论文",
-"tags": [
-"生理信号",
-"数字健康"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "仅有标题级信息，睡眠方向多中心，但细节不足",
-"day": "2026-10-31",
-"rank": 10.81,
-"abstract_days": [
-"2026-10-31"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
-"title": "Implementation strategies for digital relapse prevention in schizophrenia identified during a randomized controlled trial",
-"link": "https://www.nature.com/articles/s41746-026-03435-2",
-"date": "2026-10-30T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03435-2",
-"pop": null,
-"id": "7d5400d9a1ec",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "精神分裂症数字化复发预防RCT中的实施策略",
-"summary": "npj Digital Medicine 发表文章，基于一项随机对照试验，识别精神分裂症数字化复发预防的实施策略。仅有标题级信息。",
-"key_points": [
-"主题为精神分裂症数字化复发预防",
-"来自随机对照试验过程",
-"聚焦实施策略而非疗效结论"
-],
-"section": "数字健康",
-"type": "论文",
-"tags": [
-"心理健康",
-"数字健康",
-"临床落地"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "RCT背景的实施研究，但摘要信息有限，非AI核心",
-"title_only": false,
-"day": "2026-10-31",
-"rank": 10.81,
-"abstract_days": [
-"2026-10-31"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "Deep learning predicts IDH1 mutation status in acute myeloid leukemia from bone marrow smears.",
@@ -315,7 +313,8 @@
 "day": "2026-10-31",
 "rank": 10.0,
 "abstract_days": [
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -383,40 +382,74 @@
 "zh_abstract": "医学人工智能（AI）从医生记录的答案中学习，却很少从医生如何解读证据并得出这些答案的过程中学习。本文介绍PathCowork，这是一个将病理医生口述的阅片检查转化为视觉定位监督信号以及指导诊断AI智能体的流程的框架。同步的视线、口述和导航记录将视觉发现与其解读过程联系起来。在来自16位病理医生的48次会话中，该平台记录了1,028分钟的切片阅片。利用这些数据，我们训练了用于服务器部署的PathCowork-1T和用于本地部署的PathCowork-27B，其视觉定位能力有所提升。在五项器官特异性评估中，将这种定位能力与所记录的诊断流程相结合的智能体，其主要任务得分平均分别比Claude Code和Codex高17.9和24.1个百分点，同时处理时间更短、推理成本更低。与最先进的多实例学习（multiple-instance learning）AI相比，PathCowork智能体提出的区域在仅有有限切片标签的情况下取得了更高的前列腺分级得分。PathCowork还可帮助构建病理AI基准，其中源自这些记录的问题揭示了在识别观察情境和拒绝不适用前提方面的困难。总之，PathCowork提出了一种新范式，即通过诊断会话中透明的推理来扩大数据采集规模并训练病理AI，为直接从常规临床实践中学习的系统开辟了道路。"
 },
 {
-"title": "Platform evaluation and lessons learned with IT-supported patient recruitment",
-"link": "https://www.nature.com/articles/s41746-026-03366-y",
+"title": "Implementation strategies for digital relapse prevention in schizophrenia identified during a randomized controlled trial",
+"link": "https://www.nature.com/articles/s41746-026-03435-2",
 "date": "2026-10-30T00:00:00+00:00",
 "source": "npj Digital Medicine",
 "source_group": "npj Digital Medicine",
 "home": "",
 "thin": false,
-"badge": "DOI 10.1038/s41746-026-03366-y",
+"badge": "DOI 10.1038/s41746-026-03435-2",
 "pop": null,
-"id": "586f53a122cd",
+"id": "7d5400d9a1ec",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "IT支持的患者招募平台评估与经验总结",
-"summary": "npj Digital Medicine 发表文章，评估IT支持的患者招募平台并总结经验教训，摘要信息有限。",
+"zh_title": "精神分裂症数字复发预防的实施策略：来自RCT的启示",
+"summary": "在一项进行中的多中心RCT中期，16名利益相关者通过R(E)-AIM框架讨论智能手机复发预防应用的实施障碍，提出结构、技术和人员调整建议。",
 "key_points": [
-"主题为IT支持的患者招募",
-"包含平台评估与经验总结",
-"条目未给出具体数据与结果"
+"16名开发者、研究者和临床医生参与研讨",
+"采用R(E)-AIM框架分析讨论内容",
+"建议将数字工具整合进出院等常规流程"
 ],
 "section": "落地与监管",
 "type": "论文",
 "tags": [
-"临床落地",
-"电子病历"
+"心理健康",
+"数字健康",
+"临床落地"
 ],
 "evidence": "同行评审",
 "score": 4,
-"reason": "涉及试验招募落地经验，但信息有限、无具体证据",
+"reason": "质性实施研究，样本小，非AI算法本身，属增量档",
+"title_only": false,
 "day": "2026-10-31",
-"rank": 9.81,
-"abstract_days": [
-"2026-10-31"
+"rank": 10.81,
+"abstract": "Digital mental health technologies hold promise, yet their integration into routine care remains challenging. This study reports findings from an implementation workshop conducted midway through an ongoing multi-site randomized controlled trial (RCT) evaluating a smartphone-based relapse prevention app for patients with schizophrenia and schizoaffective disorder. Sixteen stakeholders, including developers, researchers, and clinicians, discussed experiences and barriers using a semi-structured agenda, incorporating prior feedback from three focus groups with people with lived experience, and analyzed the discussions using an adopted R(E)-AIM framework (Reach, Adoption, Implementation, and Maintenance). Findings highlight the need for structural, technical, and personnel adjustments to support sustainable implementation. Key recommendations include integrating digital tools into discharge planning, enhancing interdisciplinary collaboration, delegating digital responsibilities, and streamlining technical workflows to facilitate seamless adoption. These insights inform feasibility considerations and strategic requirements for digital interventions in severe mental illness, offering guidance for future RCTs and practice-oriented integration of digital therapeutics in psychiatric care."
+},
+{
+"title": "Decoding small cell lung cancer vulnerabilities: the AI pathway to next-gen therapeutics",
+"link": "https://www.nature.com/articles/s41698-026-01705-6",
+"date": "2026-10-30T00:00:00+00:00",
+"source": "npj Precision Oncology",
+"source_group": "npj Precision Oncology",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41698-026-01705-6",
+"pop": null,
+"id": "36162180ad28",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "解码小细胞肺癌脆弱性：AI驱动的新一代疗法之路",
+"summary": "综述评述生成式AI、图神经网络、分子语言和扩散模型等如何用于小细胞肺癌小分子药物发现，并强调基准化与前瞻性验证的工作流。",
+"key_points": [
+"涵盖生成式AI、GNN、扩散模型与多模态学习",
+"涉及生物标志物分层、耐药与联合治疗",
+"强调不确定性感知和前瞻性验证"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"section": "生命科学与药物",
+"type": "观点",
+"tags": [
+"药物发现",
+"肿瘤",
+"生成模型"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "综述类，药物发现方向略有加分，但综述上限6分",
+"day": "2026-10-31",
+"rank": 8.81,
+"abstract": "Small cell lung cancer (SCLC) is aggressive, treatment-sensitive, and prone to relapse. This Review evaluates how generative AI, graph neural networks, molecular language and diffusion models, structure-based design, and multimodal learning can exploit SCLC dependencies for small-molecule discovery. It integrates biomarker-guided patient stratification, resistance, combination therapy, medicinal chemistry, pharmacology, safety, manufacturing, and clinical translation, emphasizing benchmarked, uncertainty-aware, prospectively validated design–build–test–learn workflows.",
+"zh_abstract": "小细胞肺癌（SCLC）侵袭性强，对治疗敏感，但易复发。本综述评估了生成式人工智能、图神经网络、分子语言模型与扩散模型、基于结构的设计以及多模态学习如何利用SCLC的依赖性来发现小分子药物。本文整合了生物标志物指导的患者分层、耐药、联合治疗、药物化学、药理学、安全性、生产制造和临床转化，并强调经过基准测试、具备不确定性感知能力并经前瞻性验证的设计—构建—测试—学习（design–build–test–learn）工作流程。"
 },
 {
 "title": "A Fast and Generalizable Deep Neural Network for the Detection of Atrial Fibrillation.",
@@ -821,42 +854,6 @@
 "zh_abstract": "表格基础模型是无需拟合模型、即可根据表格预测风险的预训练网络。其风险预测是否正确（校准良好）此前是在真实数据上评判的，而真实数据中真实风险未知。在一项预先注册、真实风险已知的模拟研究中，我们在58种情景和1000个随机设计中，将TabPFN-3.5、TabICLv2和Mitra-v2与带截距校正的Firth逻辑回归（FLIC）进行比较，随后在四个临床数据集上进行了比较。基础模型并不是实现校准的捷径。在48个核心情景中，有36或37个情景的校准斜率与FLIC在预先注册的界值内相当，仅在n = 200且事件率为3%时更好。即使有3000名患者也往往不够：对于FLIC、TabPFN-3.5或Mitra-v2，在事件率为10%和30%时，63%-83%的样本给出的风险在平均值、截距和斜率上接近真实值，事件率为3%时为35%-50%。TabICLv2表现更差（分别为8%-39%和1%-3%）。在各随机设计中，基础模型的真实校准误差超出界值低于FLIC的比例为25%-38%，高于FLIC的比例为0，不过预计在n = 3000时会有小幅损失。在真实数据上，没有任何模型能抵御不同人群间事件率的变化；使用500名本地患者进行重新校准在很大程度上修复了这一问题。"
 },
 {
-"title": "Decoding small cell lung cancer vulnerabilities: the AI pathway to next-gen therapeutics",
-"link": "https://www.nature.com/articles/s41698-026-01705-6",
-"date": "2026-10-30T00:00:00+00:00",
-"source": "npj Precision Oncology",
-"source_group": "npj Precision Oncology",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41698-026-01705-6",
-"pop": null,
-"id": "36162180ad28",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "解析小细胞肺癌脆弱性：下一代疗法的AI路径",
-"summary": "npj Precision Oncology 文章，标题指向以AI解析小细胞肺癌脆弱性、推动新一代疗法；正文信息缺失。",
-"key_points": [
-"聚焦小细胞肺癌",
-"涉及AI用于治疗靶点发现",
-"仅有标题级信息"
-],
-"section": "生命科学与药物",
-"type": "论文",
-"tags": [
-"药物发现",
-"肿瘤"
-],
-"evidence": "同行评审",
-"score": 4,
-"reason": "信息不足，类型不明，往低打",
-"day": "2026-10-31",
-"rank": 8.81,
-"abstract_days": [
-"2026-10-31"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
 "title": "Deep learning reveals prognostic information beyond AJCC stage in routine histopathology of early-stage melanoma: the population-based D-ESMEL study",
 "link": "https://www.medrxiv.org/content/10.64898/2026.10.29.26366599v1?rss=1",
 "date": "2026-10-30T00:00:00+00:00",
@@ -995,27 +992,30 @@
 "source": "PubMed · Journal of the American Medical Informatics Association : JAMIA",
 "source_group": "PubMed · 重点期刊",
 "home": "",
-"thin": true,
+"thin": false,
 "pop": null,
 "id": "a136f4b61581",
 "keep": true,
-"zh_title": "无厂商名称的可复现性：AI评估应强调设计而非品牌",
-"summary": "JAMIA 文章，标题提出AI评估中应强调设计而非厂商品牌以提升可复现性；仅有标题。",
-"key_points": [],
+"zh_title": "无需厂商名称的可重复性：AI评估应重设计轻品牌",
+"summary": "作者回应关于厂商AI工具评估透明度的来函，认为在随机交叉试验中披露具体厂商未必提升可重复性，因厂商产品迭代迅速。",
+"key_points": [
+"回应对透明度与可重复性的质疑",
+"指出厂商产品更新快，难以固定版本",
+"主张强调评估设计而非品牌"
+],
 "section": "落地与监管",
 "type": "观点",
 "tags": [
+"临床落地",
 "基准"
 ],
 "evidence": "同行评审",
 "score": 3,
-"reason": "仅标题、观点类，信息有限",
+"reason": "通信类回应文章，信息量有限，属增量档",
 "day": "2026-10-31",
 "rank": 8.14,
-"abstract_days": [
-"2026-10-31"
-],
-"abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
+"abstract": "To: Suzanne Bakken, PhD, RN, FAAN, FACMI, FIAHSI Editor-in-Chief Journal of the American Medical Informatics Association (JAMIA) Oxford University Press Dear Dr. Bakken, We thank the authors for their thoughtful correspondence and for raising important issues regarding transparency, reproducibility, and generalizability in evaluations of vendor-based artificial intelligence tools. We agree that these are important goals. However, in this instance, we do not believe that identifying the specific vendors evaluated in our randomized crossover trial would, by itself, substantially advance those goals. A central challenge in evaluating vendor-based AI products is that they evolve far more rapidly than most other clinical technologies or interventions. In the broader data science literature, authors can often specify model versions with some precision. In contrast, vendor-based products may change through frequent feature releases, workflow modifications, or institution-specific customization without a clear, standardized mechanism for communicating those changes to readers. Even during the course of our trial, both products continued to evolve. As a result, naming the vendors could create a false impression that any single vendor is persistently superior to another, which does not reflect how these systems are deployed in practice.",
+"zh_abstract": "致：Suzanne Bakken, PhD, RN, FAAN, FACMI, FIAHSI 主编 美国医学信息学会杂志（JAMIA） 牛津大学出版社 尊敬的 Bakken 博士： 感谢作者们周到的来信，并就基于供应商的人工智能工具评估中的透明度、可重复性和可推广性提出了重要问题。我们同意这些都是重要目标。然而，就本次情况而言，我们认为，仅仅指明我们的随机交叉试验中所评估的具体供应商，本身并不会实质性地推进这些目标。评估基于供应商的人工智能产品所面临的一个核心挑战是，这些产品的演进速度远快于大多数其他临床技术或干预措施。在更广泛的数据科学文献中，作者通常可以较为精确地说明模型版本。相比之下，基于供应商的产品可能会因频繁的功能发布、工作流程修改或针对特定机构的定制而发生变化，而并没有清晰、标准化的机制向读者传达这些变化。即便在我们试验进行期间，两种产品也在持续演进。因此，点名供应商可能造成一种错误印象，即某一供应商始终优于另一供应商，而这并不反映这些系统在实际中的部署方式。"
 },
 {
 "title": "Harnessing artificial intelligence to understand enzyme catalysis and discover new enzymes.",
@@ -2927,7 +2927,13 @@
 "reason": "仅标题，院企合作发布，无效果数据",
 "title_only": true,
 "day": "2026-10-31",
-"rank": 5.31
+"rank": 5.31,
+"also": [
+{
+"source": "新浪网",
+"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5iLXFCa2RvOHRCT0hhbS1IUzJnUlAtQjE5Z1dtcEwtN29EMlpDQ2tCODFEbzV3Q19hS2tzUVgyN28zbjJPVUxsRTdCZw?oc=5"
+}
+]
 },
 {
 "title": "Sued If You Do, Sued If You Don’t: The AI Malpractice Trap",
@@ -3009,7 +3015,13 @@
 "score": 2,
 "reason": "仅标题，与AI关联弱，信息几乎为零",
 "day": "2026-10-31",
-"rank": 4.31
+"rank": 4.31,
+"also": [
+{
+"source": "搜狐网",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CYXlXeG03dkIwaVdHSDhoQUdmektrM1NpSmZtX2NXWmFQQTdaZVR5TDV2MUViVHozN2Y1cl9PMnhBdXBHakNGUC01TjBxSDV1ZzM4?oc=5"
+}
+]
 },
 {
 "title": "讯飞医疗AI患者管理的长期主义：建底座、做场景、定标准",

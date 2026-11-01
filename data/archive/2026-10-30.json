@@ -172,7 +172,8 @@
 "rank": 10.81,
 "abstract_days": [
 "2026-10-30",
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -243,7 +244,8 @@
 "rank": 10.0,
 "abstract_days": [
 "2026-10-30",
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -312,7 +314,8 @@
 "rank": 9.81,
 "abstract_days": [
 "2026-10-30",
-"2026-10-31"
+"2026-10-31",
+"2026-11-01"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -512,7 +515,13 @@
 "abstract": "[Journal of imaging informatics in medicine] Small unruptured intracranial aneurysms (UIAs; ≤ 7 mm) carry collectively significant rupture risk, yet conventional scoring tools (PHASES, ELAPSS) perform near chance-level in this subgroup. This systematic review and meta-analysis evaluated the pooled diagnostic accuracy of AI-based models for rupture risk prediction in small UIAs and compared performance across algorithmic architectures. Prospectively registered with PROSPERO (CRD420251142915) and conducted per PRISMA-DTA/PRISMA-S standards. MEDLINE, Scopus, and Web of Science were searched in October 2025 and updated on June 2026. Eligible studies applied machine learning (ML), deep learning (DL), radiomics, or computational fluid dynamics-integrated models to small UIAs. Area under the receiver operating characteristic curve (AUC) was pooled via a three-level random-effects model with restricted maximum likelihood estimation and Knapp-Hartung correction; heterogeneity was explored through multivariable meta-regression. Bias and reporting quality were assessed using QUADAS-3 and METRICS, respectively. Ten studies (2019-2025) encompassing 5409 patients, 7057 aneurysms, and 62 models were included. Pooled AUC was 0.793 (95% CI 0.754-0.827), with sensitivity of 0.713 and specificity of 0.780. Conventional ML achieved the highest AUC (0.827), followed by statistical models (0.779) and DL (0.741). Meta-regression explained 76.2% of variance; statistical model family was the sole significant predictor of inferior performance (p = 0.002). Nine of ten studies carried high risk of bias. No publication bias was detected (p = 0.186). AI-based models, particularly conventional ML ensemble architectures, demonstrate moderate-to-good discriminative accuracy for small UIA rupture risk stratification, meaningfully surpassing conventional scoring tools. Multicenter prospective registries, pre-rupture imaging protocols, and explainable AI frameworks are essential to support transparent neurosurgical decision-making.",
 "day": "2026-10-30",
 "rank": 8.99,
-"zh_abstract": "[医学影像信息学杂志] 小型未破裂颅内动脉瘤（UIA；≤ 7 mm）总体上具有显著的破裂风险，但传统评分工具（PHASES、ELAPSS）在该亚组中的表现接近随机水平。本系统评价和荟萃分析评估了基于人工智能的模型预测小型 UIA 破裂风险的合并诊断准确性，并比较了不同算法架构的表现。本研究已在 PROSPERO 前瞻性注册（CRD420251142915），并按照 PRISMA-DTA/PRISMA-S 标准开展。于 2025 年 10 月检索 MEDLINE、Scopus 和 Web of Science，并于 2026 年 6 月更新检索。纳入的研究须将机器学习（ML）、深度学习（DL）、影像组学或整合计算流体动力学的模型应用于小型 UIA。采用三层随机效应模型，结合限制性最大似然估计和 Knapp-Hartung 校正，合并受试者操作特征曲线下面积（AUC）；通过多变量元回归探讨异质性。分别采用 QUADAS-3 和 METRICS 评估偏倚和报告质量。共纳入 10 项研究（2019–2025 年），涉及 5409 例患者、7057 个动脉瘤和 62 个模型。合并 AUC 为 0.793（95% CI 0.754–0.827），敏感性为 0.713，特异性为 0.780。传统机器学习的 AUC 最高（0.827），其次为统计模型（0.779）和深度学习（0.741）。元回归解释了 76.2% 的方差；统计模型类别是表现较差的唯一显著预测因素（p = 0.002）。十项研究中有九项存在高偏倚风险。未检测到发表偏倚（p = 0.186）。基于人工智能的模型，尤其是传统机器学习集成架构，在小型 UIA 破裂风险分层方面显示出中等至良好的区分准确性，明显优于传统评分工具。多中心前瞻性登记研究、破裂前影像学方案以及可解释人工智能框架，对于支持透明的神经外科决策至关重要。"
+"zh_abstract": "[医学影像信息学杂志] 小型未破裂颅内动脉瘤（UIA；≤ 7 mm）总体上具有显著的破裂风险，但传统评分工具（PHASES、ELAPSS）在该亚组中的表现接近随机水平。本系统评价和荟萃分析评估了基于人工智能的模型预测小型 UIA 破裂风险的合并诊断准确性，并比较了不同算法架构的表现。本研究已在 PROSPERO 前瞻性注册（CRD420251142915），并按照 PRISMA-DTA/PRISMA-S 标准开展。于 2025 年 10 月检索 MEDLINE、Scopus 和 Web of Science，并于 2026 年 6 月更新检索。纳入的研究须将机器学习（ML）、深度学习（DL）、影像组学或整合计算流体动力学的模型应用于小型 UIA。采用三层随机效应模型，结合限制性最大似然估计和 Knapp-Hartung 校正，合并受试者操作特征曲线下面积（AUC）；通过多变量元回归探讨异质性。分别采用 QUADAS-3 和 METRICS 评估偏倚和报告质量。共纳入 10 项研究（2019–2025 年），涉及 5409 例患者、7057 个动脉瘤和 62 个模型。合并 AUC 为 0.793（95% CI 0.754–0.827），敏感性为 0.713，特异性为 0.780。传统机器学习的 AUC 最高（0.827），其次为统计模型（0.779）和深度学习（0.741）。元回归解释了 76.2% 的方差；统计模型类别是表现较差的唯一显著预测因素（p = 0.002）。十项研究中有九项存在高偏倚风险。未检测到发表偏倚（p = 0.186）。基于人工智能的模型，尤其是传统机器学习集成架构，在小型 UIA 破裂风险分层方面显示出中等至良好的区分准确性，明显优于传统评分工具。多中心前瞻性登记研究、破裂前影像学方案以及可解释人工智能框架，对于支持透明的神经外科决策至关重要。",
+"also": [
+{
+"source": "PubMed · Frontiers in public health",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42948225/"
+}
+]
 },
 {
 "title": "Beyond a single ratio: an adaptable deep learning approach to analyze the prognostic value of TSP distribution in ovarian cancer.",
@@ -2687,7 +2696,13 @@
 "score": 2,
 "reason": "仅有标题，属产品宣传类动态",
 "day": "2026-10-30",
-"rank": 4.5
+"rank": 4.5,
+"also": [
+{
+"source": "Sohu",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT1dnRmVkc0xhcWtQUU5qeVdpNkUtZWFBTHdQWmNDTWVaY2NCX1BzdVlwLXRLcHFFZEs1ajBTZWRCNW5VNnB5Q3haNDlNUm9YYVo2Y2JSOVkyZXJMT0p1cDduQ0xhUnozY1hESndGTU1tcGtGaWlGRHpzTXh6M21qWFJGOUVOYUZV?oc=5"
+}
+]
 },
 {
 "title": "园区企业达摩院医疗AI获2026全国智慧医保大赛一等奖",
