@@ -890,7 +890,13 @@
 "abstract": "[Frontiers in digital health] Medication errors and adverse drug events remain causes of patient harm, underscoring the need for technologies supporting medication identification, verification, and medication safety. Artificial intelligence (AI), computer vision, optical character recognition (OCR), and digital health technologies are applied to medication recognition. To systematically review AI-based medication recognition systems and characterize recognition tasks, computational approaches, datasets, evaluation, validation, generalizability, deployment, applications, and emerging directions. A systematic review was conducted in accordance with PRISMA 2020. Scopus, Web of Science, IEEE Xplore, and PubMed/MEDLINE were searched for publications from 1 January 2016 to 4 September 2026, using two conceptual blocks covering medication recognition and AI methods. Of 895 retrieved records, 136 duplicates were removed, and 759 records underwent screening. After full-text assessment, 14 reports were excluded, and 91 studies were included. Title-and-abstract screening yielded 84.72% observed agreement (Cohen's κ = 0.527 ). For methodological assessment, both reviewers independently applied D1-D8 to the 91 included studies before consensus resolution. Across 728 domain-level assessments, observed agreement was 97.66%, with an aggregate Cohen's κ of 0.959; domain-specific κ values ranged from 0.857 to 1.000. Evidence was synthesized through cross-study analysis and four evidence maps. Evidence shows use of detection, classification, OCR/imprint recognition, hybrid and multimodal architectures, alongside few-shot, low-shot, zero-shot, and incremental learning. Applications extend to assistive, mobile, and IoT-enabled systems, medication verification, and clinical decision support. Heterogeneity in datasets, imaging conditions, evaluation protocols, and validation strategies limits comparison and generalizability. External validation, cross-dataset testing, unseen-medication evaluation, prospective deployment, and clinical testing remain limited. AI-based medication recognition is evolving from a computer vision task into a digital informatics component supporting medication safety, accessibility, verification, and patient care. Future research should prioritize diverse datasets, leakage control, independent multicenter validation, unseen-medication evaluation, explainable and privacy-preserving AI, interoperability, and resource-efficient deployment. Evaluation should extend beyond accuracy to cl",
 "day": "2026-11-01",
 "rank": 6.87,
-"zh_abstract": "[Frontiers in digital health] 用药错误和药物不良事件仍是造成患者伤害的原因，凸显了对支持药物识别、核对和用药安全的技术的需求。人工智能（AI）、计算机视觉、光学字符识别（OCR）和数字健康技术已应用于药物识别。目的：系统综述基于 AI 的药物识别系统，并描述其识别任务、计算方法、数据集、评估、验证、泛化能力、部署、应用及新兴方向。按照 PRISMA 2020 进行了系统评价。检索 Scopus、Web of Science、IEEE Xplore 和 PubMed/MEDLINE 中 2016 年 1 月 1 日至 2026 年 9 月 4 日发表的文献，使用涵盖药物识别和 AI 方法的两个概念块。在 895 条检索记录中，剔除 136 条重复，759 条记录进入筛选。经全文评估，排除 14 篇报告，纳入 91 项研究。标题和摘要筛选的观察一致率为 84.72%（Cohen's κ = 0.527）。在方法学评估中，两名评价者在达成共识前独立对 91 项纳入研究应用 D1-D8。在 728 项领域级评估中，观察一致率为 97.66%，总体 Cohen's κ 为 0.959；各领域的 κ 值介于 0.857 至 1.000 之间。通过跨研究分析和四幅证据图对证据进行了综合。证据显示，目前采用了检测、分类、OCR/压印标识识别、混合和多模态架构，以及少样本、低样本、零样本和增量学习。应用已扩展到辅助、移动和物联网系统、药物核对及临床决策支持。数据集、成像条件、评估方案和验证策略的异质性限制了比较和泛化。外部验证、跨数据集测试、未见药物评估、前瞻性部署和临床测试仍然有限。基于 AI 的药物识别正从计算机视觉任务演变为支持用药安全、可及性、核对和患者照护的数字信息学组成部分。未来研究应优先考虑多样化的数据集、数据泄漏控制、独立的多中心验证、未见药物评估、可解释且保护隐私的 AI、互操作性以及资源高效的部署。评估不应仅限于准确性，还应扩展至 cl"
+"zh_abstract": "[Frontiers in digital health] 用药错误和药物不良事件仍是造成患者伤害的原因，凸显了对支持药物识别、核对和用药安全的技术的需求。人工智能（AI）、计算机视觉、光学字符识别（OCR）和数字健康技术已应用于药物识别。目的：系统综述基于 AI 的药物识别系统，并描述其识别任务、计算方法、数据集、评估、验证、泛化能力、部署、应用及新兴方向。按照 PRISMA 2020 进行了系统评价。检索 Scopus、Web of Science、IEEE Xplore 和 PubMed/MEDLINE 中 2016 年 1 月 1 日至 2026 年 9 月 4 日发表的文献，使用涵盖药物识别和 AI 方法的两个概念块。在 895 条检索记录中，剔除 136 条重复，759 条记录进入筛选。经全文评估，排除 14 篇报告，纳入 91 项研究。标题和摘要筛选的观察一致率为 84.72%（Cohen's κ = 0.527）。在方法学评估中，两名评价者在达成共识前独立对 91 项纳入研究应用 D1-D8。在 728 项领域级评估中，观察一致率为 97.66%，总体 Cohen's κ 为 0.959；各领域的 κ 值介于 0.857 至 1.000 之间。通过跨研究分析和四幅证据图对证据进行了综合。证据显示，目前采用了检测、分类、OCR/压印标识识别、混合和多模态架构，以及少样本、低样本、零样本和增量学习。应用已扩展到辅助、移动和物联网系统、药物核对及临床决策支持。数据集、成像条件、评估方案和验证策略的异质性限制了比较和泛化。外部验证、跨数据集测试、未见药物评估、前瞻性部署和临床测试仍然有限。基于 AI 的药物识别正从计算机视觉任务演变为支持用药安全、可及性、核对和患者照护的数字信息学组成部分。未来研究应优先考虑多样化的数据集、数据泄漏控制、独立的多中心验证、未见药物评估、可解释且保护隐私的 AI、互操作性以及资源高效的部署。评估不应仅限于准确性，还应扩展至 cl",
+"also": [
+{
+"source": "PubMed · Revista brasileira de medicina do trabalho : publicacao oficial da Associacao Nacional de Medicina do Trabalho-ANAMT",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42964748/"
+}
+]
 },
 {
 "title": "Artificial intelligence innovations in low vision rehabilitation: a systematic review of emerging technologies.",
@@ -1303,7 +1309,13 @@
 "score": 3,
 "reason": "仅标题的医院合作动态，无效果数据，属增量档",
 "day": "2026-11-01",
-"rank": 5.31
+"rank": 5.31,
+"also": [
+{
+"source": "科技行者",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Sa0pUaHVCTk8takZaS24tTFdIRWpvakl2V3pYYTBfNUlEV0twbWJrYS1fal9FOGVObmV3UVBoakV6RExDN0NUMXJQWk5JLWdUUkp0UWUtbFNPM3ZuQ3FB?oc=5"
+}
+]
 },
 {
 "title": "The Disability Gap in Healthcare AI: From Bias to Inclusive Co-Design, Testing, Deployment, and Governance",

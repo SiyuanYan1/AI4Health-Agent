@@ -34,6 +34,41 @@
 "abstract": "Sleep is essential for health, yet studying its dynamics requires manual sleep staging, a labor-intensive step in research and clinical care. Across centers, polysomnography (PSG) recordings are traditionally scored in 30-s epochs for pragmatic, not physiological, reasons and vary in electrode count, montage, and subject characteristics. These constraints challenge harmonized multi-center studies and the discovery of robust biomarkers on shorter timescales. We present AnySleep, a deep neural network that scores sleep from any electroencephalography (EEG) or electrooculography (EOG) data at adjustable temporal resolutions. We trained and validated the model on over 20,000 overnight recordings (>200,000 h of EEG and EOG) from 28 datasets across multiple clinics to promote robust generalization across sites. The model attains state-of-the-art performance and surpasses or equals established baselines at 30-s epochs. Performance improves with more channels, yet remains strong when EOG is absent, or only EOG or single EEG derivations (frontal, central, or occipital) are available. On sub-30-s timescales, the model captures short wake intrusions consistent with arousals and improves the prediction of pathophysiological conditions (obstructive sleep apnea, narcolepsy type 1, insomnia) over 30-s scoring. We make the model publicly available to facilitate large-scale studies with heterogeneous electrode setups and accelerate biomarker discovery in sleep."
 },
 {
+"title": "Accuracy and impact of an AI safety system for missed specialist referrals in primary care",
+"link": "https://www.nature.com/articles/s41746-026-03444-1",
+"date": "2026-10-30T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03444-1",
+"pop": null,
+"id": "f6945d7159cb",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "初级保健漏转诊AI安全系统的准确性与影响",
+"summary": "在新加坡七家诊所的准实验研究中，MR-AI每周扫描约2.5万份病历，漏转诊检出量约提升七倍。",
+"key_points": [
+"特异性99.9%，敏感性48.8%",
+"428例被标记，225例经医生核实",
+"盲法对比中PPV 61.8%，高于人工51.8%"
+],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"临床落地",
+"临床NLP",
+"公平与安全"
+],
+"evidence": "同行评审",
+"score": 7,
+"reason": "多诊所真实部署的准实验，有人机对照与工作流效果，属重要档",
+"day": "2026-10-31",
+"rank": 10.81,
+"abstract": "Missed specialist referrals in primary care pose substantial health and medico-legal risks, yet remain poorly understood. We developed an AI-supported safety system (MR-AI) to identify missed referrals from consultation notes, evaluated in a quasi-experimental study across seven primary care clinics in Singapore. MR-AI scanned ~25,000 notes weekly for referral intent without a corresponding order, achieving an estimated sevenfold increase in weekly missed referral detection (4.7 percentage point level increase; 95% CI 0.024–0.069; p < 0.001). Of 428 cases flagged, 225 were clinician-verified, alongside 31 patient-reported cases, yielding 256 total detections. MR-AI demonstrated 99.9% specificity and 48.8% sensitivity. In a blinded one-week comparison against seven physician reviewers, MR-AI achieved a PPV of 61.8% versus a human confirmation rate of 51.8% across 83 flagged cases, while requiring approximately 41 fewer projected staff-hours. AI-enabled surveillance substantially assisted in missed referral detection, though sustainable improvement will require complementary preventive workflow changes and future cost-effectiveness assessment.",
+"zh_abstract": "基层医疗中漏转专科会诊带来重大的健康风险和医疗法律风险，但目前对其了解仍十分有限。我们开发了一种人工智能辅助的安全系统（MR-AI），可从诊疗记录中识别漏转诊，并在新加坡七家基层医疗诊所开展了一项准实验研究对其进行评估。MR-AI 每周扫描约 25,000 份诊疗记录，查找存在转诊意图但无相应转诊医嘱的情况，估计使每周漏转诊的检出量提高了七倍（水平上升 4.7 个百分点；95% CI 0.024–0.069；p < 0.001）。在 428 例被标记的病例中，225 例经临床医生核实，另有 31 例由患者报告，共检出 256 例。MR-AI 的特异度为 99.9%，敏感度为 48.8%。在与七名医师审阅者进行的为期一周的盲法比较中，针对 83 例被标记病例，MR-AI 的阳性预测值（PPV）为 61.8%，而人工确认率为 51.8%，同时预计可减少约 41 个工时的人力投入。人工智能支持的监测显著促进了漏转诊的发现，但要实现可持续的改善，仍需配合预防性的工作流程调整，并有待未来开展成本效益评估。"
+},
+{
 "title": "Interpretable graph learning of spatial TME patterns in digital pathology for gastric cancer prognosis",
 "link": "https://www.nature.com/articles/s41746-026-03398-4",
 "date": "2026-10-30T00:00:00+00:00",
@@ -136,7 +171,8 @@
 "rank": 11.64,
 "abstract_days": [
 "2026-10-31",
-"2026-11-01"
+"2026-11-01",
+"2026-11-02"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -207,39 +243,6 @@
 "day": "2026-10-31",
 "rank": 11.01,
 "zh_abstract": "基于纵向电子健康记录（EHR）训练的基础模型可以预测未来数年的临床诊断，使其成为疾病筛查的潜在工具。我们开发了 TRACER（Temporal Risk Assessment with Clinical EHR Representations），这是一种基于解码器的基础模型，使用来自四个医疗系统的450多万名患者的数据进行预训练，并在两个未参与模型开发的医疗系统中的200多万名患者中，针对16种新发疾病在1年、2年和5年时间范围内进行了评估。与通常关注全局指标（如 AUROC）的评估不同，我们在筛查中现实可行的低假阳性率下衡量了性能。我们发现，TRACER 在外部医疗系统中保持了其区分能力；在95%特异度下，被其标记的患者在一年内被诊断的可能性最高可达未经选择患者的八倍。在该工作点进行评估还揭示了仅凭全局指标无法发现的情况：即使区分能力看似稳定，不同疾病和不同医疗系统之间的检出率和假警报负担也存在差异。我们的结果说明了基础模型用于筛查的潜力，并强调有必要在未参与开发的医疗系统中进行评估，以便在适合预期临床用途的水平上评估疾病检出情况和假警报负担。"
-},
-{
-"title": "Accuracy and impact of an AI safety system for missed specialist referrals in primary care",
-"link": "https://www.nature.com/articles/s41746-026-03444-1",
-"date": "2026-10-30T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03444-1",
-"pop": null,
-"id": "f6945d7159cb",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "初级保健中漏转专科转诊的AI安全系统：准确性与影响",
-"summary": "npj Digital Medicine 刊文，评估一种用于发现初级保健中漏转专科转诊的AI安全系统的准确性与影响；仅有标题级信息。",
-"key_points": [],
-"section": "落地与监管",
-"type": "论文",
-"tags": [
-"临床落地",
-"公平与安全"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "描述信息极少，无法确认验证设计，按增量至值得一看档偏低评分",
-"day": "2026-10-31",
-"rank": 10.81,
-"abstract_days": [
-"2026-10-31",
-"2026-11-01"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "Deep learning predicts IDH1 mutation status in acute myeloid leukemia from bone marrow smears.",
@@ -314,7 +317,8 @@
 "rank": 10.0,
 "abstract_days": [
 "2026-10-31",
-"2026-11-01"
+"2026-11-01",
+"2026-11-02"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -2932,6 +2936,14 @@
 {
 "source": "新浪网",
 "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5iLXFCa2RvOHRCT0hhbS1IUzJnUlAtQjE5Z1dtcEwtN29EMlpDQ2tCODFEbzV3Q19hS2tzUVgyN28zbjJPVUxsRTdCZw?oc=5"
+},
+{
+"source": "中国科技网",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxSGpYRW1NS0tuVlN1WGNZemQ1SGpkWDRhOE5xQm00YkpBU3dGODBQNWtWZDlaMGlya045WkVtMHVRdnl1dzVGUndXM21hNENZYTBLQUpYbnJpRVFVbkN4VEh1Zm5OSm1XWWdsbDBWV0M?oc=5"
+},
+{
+"source": "搜狐网",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX2RJbXNXamxfSWFBMWRKOFFRRmlXWWk3MjRsc2pHcEl3NXRnQW5TZXNzWURDZEQyZWtkZS1yWGU2YkIyZkQ2M2lHdzhrUVRaUWMzSDBGeEtxenVWTm56czBXUHpSOXlvMm5RUHN1dk1MSlVkSnlHdXJaSF9xbVRvYnZ2RDI2Q0RKYTFRalJ1dw?oc=5"
 }
 ]
 },
