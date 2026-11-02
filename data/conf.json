@@ -86,7 +86,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://doi.org/10.18653/v1/2025.findings-acl.751",
-"cites": 78,
+"cites": 79,
 "zh_title": "用可验证医学问题提升大模型复杂推理",
 "summary": "该研究提出以可验证的医学问题训练与评估大模型，提升其医学复杂推理能力。",
 "key_points": [
@@ -265,7 +265,7 @@
 "year": 2025,
 "date": "2025-06-01",
 "link": "https://doi.org/10.48550/arXiv.2506.00777",
-"cites": 29,
+"cites": 30,
 "zh_title": "LLM-as-Judge改进生物医学关系抽取自动评测",
 "summary": "用大模型作为评判者，改善生物医学关系抽取中传统自动评测对同义词与缩写的不可靠问题。",
 "key_points": [
@@ -690,7 +690,7 @@
 "year": 2025,
 "date": "2025-05-23",
 "link": "https://doi.org/10.18653/v1/2025.acl-industry.36",
-"cites": 17,
+"cites": 18,
 "zh_title": "RedactOR：大模型驱动的临床数据自动去标识框架",
 "summary": "提出全自动多模态框架RedactOR，对结构化与非结构化电子健康记录去标识，针对既有方法召回错误、泛化有限与效率不足的问题。",
 "key_points": [
@@ -894,7 +894,7 @@
 "year": 2025,
 "date": "2025-05-21",
 "link": "https://doi.org/10.18653/v1/2025.acl-industry.99",
-"cites": 11,
+"cites": 12,
 "zh_title": "大模型生成临床笔记的可靠性评估",
 "summary": "评估大语言模型在临床笔记生成中的可靠性，关注其输出变异性对临床流程整合的挑战。",
 "key_points": [
@@ -4127,7 +4127,7 @@
 "year": 2026,
 "date": "2026-01-01",
 "link": "https://doi.org/10.18653/v1/2026.findings-acl.1713",
-"cites": 2,
+"cites": 3,
 "zh_title": "Biomed-Enriched：段落级标注的生物医学预训练",
 "summary": "提出通过段落级标注实现数据高效的生物医学预训练，来源未提供摘要细节。",
 "key_points": [
@@ -4329,7 +4329,7 @@
 "year": 2026,
 "date": "2026-01-01",
 "link": "https://doi.org/10.18653/v1/2026.acl-long.121",
-"cites": 1,
+"cites": 2,
 "zh_title": "PUPPET：心理健康神经符号标准化病人",
 "summary": "提出首个面向心理健康的神经符号虚拟标准化病人PUPPET，可对临床错误作出忠实反应并提供可解释反馈。",
 "key_points": [
@@ -5897,7 +5897,7 @@
 "year": 2026,
 "date": "2026-05-01",
 "link": "https://doi.org/10.18653/v1/2026.findings-acl.2114",
-"cites": 0,
+"cites": 1,
 "zh_title": "长临床文本的预算感知路由",
 "summary": "ACL 2026 Findings 研究在严格 token 预算下选取临床文档单元子集，以满足固定成本与延迟约束。",
 "key_points": [
@@ -6829,7 +6829,7 @@
 "year": 2025,
 "date": "2025-06-11",
 "link": "https://doi.org/10.48550/arXiv.2506.09513",
-"cites": 40,
+"cites": 41,
 "zh_title": "ReasonMed：37万条多智能体生成医学推理数据集",
 "summary": "EMNLP 2025发布迄今最大医学推理数据集ReasonMed，含37万条高质量样本。",
 "key_points": [
@@ -7451,7 +7451,7 @@
 "year": 2025,
 "date": "2025-09-17",
 "link": "https://doi.org/10.48550/arXiv.2509.14464",
-"cites": 9,
+"cites": 10,
 "zh_title": "LLM 去标识化综述：量化临床信息损失",
 "summary": "综述基于大语言模型的临床文本去标识化研究，并量化由此带来的临床信息损失。",
 "key_points": [
@@ -7576,7 +7576,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://doi.org/10.18653/v1/2025.findings-emnlp.396",
-"cites": 9,
+"cites": 10,
 "zh_title": "LIFTED：基于大模型与混合专家的多模态临床试验结果预测",
 "summary": "提出LIFTED方法，利用大语言模型与混合专家进行多模态临床试验结果预测。",
 "key_points": [
@@ -8565,7 +8565,7 @@
 "year": 2025,
 "date": "2025-10-02",
 "link": "https://doi.org/10.48550/arXiv.2510.02463",
-"cites": 5,
+"cites": 6,
 "zh_title": "CLARITY：临床分诊与转诊智能助手平台",
 "summary": "EMNLP 2025 提出 CLARITY，结合有限状态机与大模型协作智能体，支持患者分诊、转诊与病情严重度评估。",
 "key_points": [
@@ -10164,7 +10164,7 @@
 "year": 2025,
 "date": "2025-05-16",
 "link": "https://doi.org/10.48550/arXiv.2505.11404",
-"cites": 49,
+"cites": 50,
 "zh_title": "Patho-R1：多模态强化学习的病理专家推理器",
 "summary": "针对病理视觉语言模型诊断准确性与推理合理性不足，提出基于多模态强化学习的病理专家推理器。",
 "key_points": [
@@ -10747,7 +10747,7 @@
 "year": 2025,
 "date": "2025-08-12",
 "link": "https://doi.org/10.1609/aaai.v40i8.37593",
-"cites": 11,
+"cites": 12,
 "zh_title": "SurgPub-Video：面向手术智能的视频视觉语言框架",
 "summary": "发布含3000余个手术视频、2500万标注帧的数据集，并构建专用手术视觉语言模型。",
 "key_points": [
@@ -15926,7 +15926,7 @@
 "year": 2026,
 "date": "2026-03-14",
 "link": "https://doi.org/10.1609/aaai.v40i9.37693",
-"cites": 0,
+"cites": 1,
 "zh_title": "LUMIN：预测乳腺癌复发的纵向多模态网络",
 "summary": "提出纵向多模态知识分解网络LUMIN，通过语义解耦融合跨模态与时间信息预测乳腺癌治疗后复发。",
 "key_points": [
@@ -19465,7 +19465,7 @@
 "year": 2025,
 "date": "2025-05-29",
 "link": "https://doi.org/10.52202/085713-0076",
-"cites": 19,
+"cites": 20,
 "zh_title": "EndoBench：内镜分析多模态大模型综合评测",
 "summary": "NeurIPS 2025提出EndoBench，针对内镜分析的多模态大语言模型综合基准，覆盖多场景与多临床任务。",
 "key_points": [
@@ -19772,7 +19772,7 @@
 "year": 2025,
 "date": "2025-06-04",
 "link": "https://doi.org/10.52202/085713-0344",
-"cites": 13,
+"cites": 14,
 "zh_title": "异构冷冻电镜数据的多尺度蛋白结构预测引导",
 "summary": "利用异构冷冻电镜数据多尺度引导蛋白质结构预测，以捕捉动态复合物的构象多样性。",
 "key_points": [
@@ -20669,7 +20669,7 @@
 "year": 2025,
 "date": "2025-05-26",
 "link": "https://doi.org/10.48550/arXiv.2505.20578",
-"cites": 5,
+"cites": 6,
 "zh_title": "Ctrl-DNA：可控细胞类型特异性调控DNA设计",
 "summary": "提出约束强化学习框架Ctrl-DNA，设计具有可靠细胞特异性活性的新型调控DNA序列。",
 "key_points": [
@@ -22947,7 +22947,7 @@
 "year": 2025,
 "date": "2025-01-30",
 "link": "https://doi.org/10.48550/arXiv.2501.18362",
-"cites": 275,
+"cites": 277,
 "zh_title": "MedXpertQA：专家级医学推理与理解基准",
 "summary": "ICML 2025提出MedXpertQA基准，含4460道题，覆盖17个专科与11个身体系统，分文本与多模态子集。",
 "key_points": [
@@ -23101,7 +23101,7 @@
 "year": 2025,
 "date": "2025-03-07",
 "link": "https://doi.org/10.48550/arXiv.2503.05979",
-"cites": 36,
+"cites": 37,
 "zh_title": "学习顺序自回归模型及其分子图生成应用",
 "summary": "提出以可训练的概率顺序替代固定顺序的自回归模型，适用于图等无自然序列顺序的数据，并应用于分子图生成。",
 "key_points": [
@@ -23204,7 +23204,7 @@
 "year": 2025,
 "date": "2025-06-11",
 "link": "https://doi.org/10.48550/arXiv.2506.21803",
-"cites": 28,
+"cites": 29,
 "zh_title": "ECG-语言多尺度预训练方法",
 "summary": "提出多尺度ECG-语言预训练方法，利用自监督学习减少标注依赖，提升下游任务迁移能力。",
 "key_points": [
@@ -23434,7 +23434,7 @@
 "year": 2025,
 "date": "2025-04-10",
 "link": "https://doi.org/10.48550/arXiv.2504.08051",
-"cites": 13,
+"cites": 14,
 "zh_title": "组合生成流：三维分子与合成路径协同设计",
 "summary": "提出组合生成流 CGFlow，将流匹配扩展到组合步骤生成并建模连续状态，用于三维分子与合成路径协同设计。",
 "key_points": [
@@ -24059,7 +24059,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://www.semanticscholar.org/paper/62cae5f19858d4e80f42bd519476c5b0840859af",
-"cites": 4,
+"cites": 5,
 "zh_title": "H-Tuning：低成本高效心电心血管疾病检测",
 "summary": "研究提出H-Tuning方法，旨在借助预训练模型实现低成本、高效的心电图心血管疾病检测（条目未提供摘要）。",
 "key_points": [
@@ -25617,7 +25617,7 @@
 "year": 2025,
 "date": "2025-03-25",
 "link": "https://doi.org/10.1109/CVPR52734.2025.01940",
-"cites": 26,
+"cites": 27,
 "zh_title": "Iris：基于上下文学习的通用医学图像分割框架",
 "summary": "CVPR 2025 提出 Iris 框架，通过参考示例的上下文学习适配新分割任务，无需微调。",
 "key_points": [
@@ -26077,7 +26077,7 @@
 "year": 2025,
 "date": "2025-03-11",
 "link": "https://doi.org/10.1109/CVPR52734.2025.02866",
-"cites": 12,
+"cites": 13,
 "zh_title": "面向通用医学图像重识别的基准与统一模型",
 "summary": "构建医学图像重识别基准并提出统一模型，含连续模态参数适配器ComPA以应对多种医学模态。",
 "key_points": [
@@ -30212,7 +30212,7 @@
 "year": 2025,
 "date": "2025-07-13",
 "link": "https://doi.org/10.1145/3726302.3730292",
-"cites": 2,
+"cites": 3,
 "zh_title": "稠密检索与用户交互改进的医学搜索",
 "summary": "复现并扩展日志增强稠密检索方法，使用全部训练数据并结合用户交互改进医学检索效果。",
 "key_points": [
@@ -32514,7 +32514,7 @@
 "year": 2025,
 "date": "2025-02-26",
 "link": "https://doi.org/10.48550/arXiv.2502.19634",
-"cites": 224,
+"cites": 226,
 "zh_title": "MedVLM-R1：强化学习激励医学VLM推理",
 "summary": "MICCAI 2025提出MedVLM-R1，让医学视觉语言模型显式生成自然语言推理，提升透明度与可信度。",
 "key_points": [
@@ -32540,7 +32540,7 @@
 "year": 2025,
 "date": "2025-01-27",
 "link": "https://doi.org/10.48550/arXiv.2501.16239",
-"cites": 61,
+"cites": 62,
 "zh_title": "面向数字病理的鲁棒高效基础模型蒸馏",
 "summary": "探索将大型数字病理基础模型蒸馏为小模型，参数量降低数个数量级，以缓解计算成本与推理耗时。",
 "key_points": [
@@ -32591,7 +32591,7 @@
 "year": 2025,
 "date": "2025-04-07",
 "link": "https://doi.org/10.48550/arXiv.2504.05186",
-"cites": 40,
+"cites": 41,
 "zh_title": "用更少数据训练先进病理基础模型",
 "summary": "该工作借鉴近期改进，用远少于常规的数据训练先进病理基础模型。",
 "key_points": [
@@ -33151,7 +33151,7 @@
 "year": 2025,
 "date": "2025-06-30",
 "link": "https://doi.org/10.48550/arXiv.2506.23810",
-"cites": 15,
+"cites": 16,
 "zh_title": "MadCLIP：基于CLIP的少样本医学异常检测",
 "summary": "利用预训练CLIP与双分支适配器，实现少样本图像级异常分类与像素级分割。",
 "key_points": [
@@ -34473,7 +34473,7 @@
 "year": 2025,
 "date": "2025-06-30",
 "link": "https://doi.org/10.48550/arXiv.2507.00377",
-"cites": 8,
+"cites": 9,
 "zh_title": "MedDiff-FT：结构引导的数据高效扩散微调",
 "summary": "提出可控医学图像生成方法MedDiff-FT，以结构引导微调扩散基础模型，缓解医数据稀缺。",
 "key_points": [
@@ -36230,7 +36230,7 @@
 "year": 2025,
 "date": "2025-06-17",
 "link": "https://doi.org/10.48550/arXiv.2506.14560",
-"cites": 5,
+"cites": 6,
 "zh_title": "基于X射线扩散模型多任务预测的膝骨关节炎进展风险评估",
 "summary": "利用高效扩散模型对X射线图像进行多任务预测建模，估计膝骨关节炎进展风险。",
 "key_points": [
@@ -36980,7 +36980,7 @@
 "year": 2025,
 "date": "2025-03-02",
 "link": "https://doi.org/10.48550/arXiv.2503.00741",
-"cites": 4,
+"cites": 5,
 "zh_title": "LesionDiffusion：文本可控的通用病灶合成",
 "summary": "提出面向3D CT的文本可控病灶合成框架，以缓解全监督病灶识别对大规模标注数据的依赖。",
 "key_points": [
@@ -45115,7 +45115,7 @@
 "year": 2025,
 "date": "2025-08-04",
 "link": "https://doi.org/10.1007/978-3-032-04965-0_43",
-"cites": 8,
+"cites": 9,
 "zh_title": "REFLECT：整流流高效脑异常矫正",
 "summary": "提出REFLECT，用整流流学习一步线性矫正映射，将异常脑MR映射至正常分布并据此定位异常。",
 "key_points": [
@@ -45335,7 +45335,7 @@
 "year": 2025,
 "date": "2025-03-17",
 "link": "https://doi.org/10.48550/arXiv.2503.13560",
-"cites": 6,
+"cites": 7,
 "zh_title": "MSWAL：全腹部病变三维多类分割数据集",
 "summary": "发布首个全腹部病变三维多类分割数据集，涵盖结石、肝肿瘤、胰腺癌等多种常见病变。",
 "key_points": [
@@ -45602,7 +45602,7 @@
 "year": 2025,
 "date": "2025-09-24",
 "link": "https://doi.org/10.1007/978-3-032-04947-6_5",
-"cites": 6,
+"cites": 7,
 "zh_title": "用Dirichlet过程混合聚类DINO嵌入的异常检测",
 "summary": "MICCAI 2025 用Dirichlet过程混合模型建模DINOv2正常特征分布，替代记忆库，实现无监督医学图像异常检测。",
 "key_points": [
@@ -51515,7 +51515,7 @@
 "year": 2025,
 "date": "2025-04-14",
 "link": "https://doi.org/10.1109/ISBI60581.2025.10980728",
-"cites": 2,
+"cites": 3,
 "zh_title": "生成式AI合成肺超声图像检测肺实变",
 "summary": "提出DiffUltra，按病灶解剖库条件生成多样化肺超声图像，实变检测AP提升5.6%，稀有病例检测AP提升25%。",
 "key_points": [
@@ -52488,7 +52488,7 @@
 "year": 2025,
 "date": "2025-01-15",
 "link": "https://doi.org/10.1109/ISBI60581.2025.10981125",
-"cites": 2,
+"cites": 3,
 "zh_title": "潜码投影与优化的生成式医学图像匿名化",
 "summary": "两阶段方法：编码器投影到潜空间并联合训练，再用两个深度损失函数优化，兼顾身份保护与数据效用。",
 "key_points": [
@@ -53843,7 +53843,7 @@
 "year": 2026,
 "date": "2026-01-21",
 "link": "https://doi.org/10.1109/ISBI61048.2026.11515546",
-"cites": 1,
+"cites": 2,
 "zh_title": "U-Harmony：异构数据联合训练分割模型",
 "summary": "提出通用协调方法，通过域门控头对特征分布先归一化再反归一化，使单一分割模型可同时学习异构数据集。",
 "key_points": [
@@ -68273,7 +68273,7 @@
 "year": 2025,
 "date": "2025-03-21",
 "link": "https://doi.org/10.1109/ISBI60581.2025.10981242",
-"cites": 0,
+"cites": 1,
 "zh_title": "面向超声视频分析的上下文感知视频管状体时空学习",
 "summary": "提出轻量框架，将管状体位置、大小与置信度作为分类器输入，并利用预训练检测模型的ROI对齐特征，保留全局空间上下文。",
 "key_points": [
@@ -83843,5 +83843,1043 @@
 "section": "影像与病理",
 "score": 4,
 "zh_abstract": "基于单叠层（single-stack）延迟钆增强心脏磁共振（LGE-CMR）成像的心肌瘢痕分割一直是一项长期存在且具有重要临床意义的难题，尤其是在组织对比度低、瘢痕弥散且范围较小的情况下。三维空间上下文信息有限进一步加剧了这些挑战。本文提出了 CalcSeg，一种置信度感知的潜在上下文课程学习（Confidence-aware latent context curriculum learning）框架，该框架利用由单叠层二维 LGE-CMR 图像融合得到的三维特征表示，实现稳健的瘢痕分割。具体而言，我们引入了一种动态半监督课程学习策略，通过习得的置信度感知评分函数，使训练由较易的瘢痕病例逐步扩展到更具挑战性的病例。该函数将预测瘢痕图中的误差与量化的认知不确定性（epistemic uncertainty）以及瘢痕负荷估计相结合。"
+},
+"c6b64c8341709c57e395b188fa6963f614f54e85": {
+"pid": "c6b64c8341709c57e395b188fa6963f614f54e85",
+"title": "OmniBrainBench: A Comprehensive Multimodal Benchmark for Brain Imaging Analysis Across Multi-stage Clinical Tasks",
+"abstract": "Brain imaging analysis is crucial for diagnosing and treating brain disorders, and multimodal large language models (MLLMs) are increasingly supporting it. However, current brain imaging visual question-answering (VQA) benchmarks either cover a limited number of imaging modalities or are restricted to coarse-grained pathological descriptions, hindering a comprehensive assessment of MLLMs across the full clinical continuum. To address these, we introduce OmniBrainBench, the first comprehensive multimodal VQA benchmark specifically designed to assess the multimodal comprehension capabilities of MLLMs in brain imaging analysis with closed- and open-ended evaluations. OmniBrainBench comprises 15 distinct brain imaging modalities collected from 30 verified medical sources, yielding 9,527 validated VQA pairs and 31,706 images. It simulates clinical workflows and encompasses 15 multi-stage clin",
+"conf": "CVPR",
+"rank": "CCF-A",
+"conf_label": "CVPR 2025",
+"year": 2025,
+"date": "2025-11-02",
+"link": "https://doi.org/10.48550/arXiv.2511.00846",
+"cites": 8,
+"zh_title": "OmniBrainBench：脑影像多模态VQA综合基准",
+"summary": "提出覆盖15种脑影像模态、9,527个验证VQA对和31,706张图像的基准，用于评估多模态大模型在多阶段临床任务中的能力。",
+"key_points": [
+"涵盖15种影像模态，来自30个医学来源",
+"含封闭式与开放式评估",
+"模拟临床工作流的多阶段任务"
+],
+"tags": [
+"基准",
+"多模态",
+"医学影像"
+],
+"reason": "规模较大的新基准，多模态LLM方向加分，但公开情况未明",
+"section": "大模型与智能体",
+"score": 6,
+"zh_abstract": "脑部影像分析对于脑部疾病的诊断和治疗至关重要，多模态大语言模型（MLLM）对其的支持也日益增多。然而，目前的脑部影像视觉问答（VQA）基准要么涵盖的影像模态数量有限，要么局限于粗粒度的病理描述，妨碍了对 MLLM 在完整临床连续过程中的全面评估。为此，我们提出 OmniBrainBench，这是首个专门用于评估 MLLM 在脑部影像分析中多模态理解能力的综合性多模态 VQA 基准，包含封闭式和开放式评估。OmniBrainBench 包含从 30 个经核实的医学来源收集的 15 种不同的脑部影像模态，共有 9,527 个经验证的 VQA 对和 31,706 张图像。它模拟临床工作流程，并涵盖 15 个多阶段临床"
+},
+"d475006665705143926418bf3f2fe337b0ccaeca": {
+"pid": "d475006665705143926418bf3f2fe337b0ccaeca",
+"title": "Diffusion MRI Transformer with a Diffusion Space Rotary Positional Embedding (D-RoPE)",
+"abstract": "Diffusion Magnetic Resonance Imaging (dMRI) plays a critical role in studying microstructural changes in the brain. It is, therefore, widely used in clinical practice; yet progress in learning general-purpose representations from dMRI has been limited. A key challenge is that existing deep learning approaches are not well-suited to capture the unique properties of diffusion signals. Brain dMRI is normally composed of several brain volumes, each with different attenuation characteristics dependent on the direction and strength of the diffusion-sensitized gradients. Thus, there is a need to jointly model spatial, diffusion-weighting, and directional dependencies in dMRI. Furthermore, varying acquisition protocols (e.g., differing numbers of directions) further limit traditional models. To address these gaps, we introduce a diffusion space rotatory positional embedding (D-RoPE) plugged into",
+"conf": "CVPR",
+"rank": "CCF-A",
+"conf_label": "CVPR 2026",
+"year": 2026,
+"date": "2026-03-26",
+"link": "https://doi.org/10.48550/arXiv.2603.25977",
+"cites": 0,
+"zh_title": "带扩散空间旋转位置编码的扩散MRI Transformer",
+"summary": "提出D-RoPE，嵌入Transformer以联合建模扩散MRI的空间、扩散加权与方向依赖，并应对不同采集协议差异。",
+"key_points": [
+"针对dMRI信号特性设计位置编码",
+"可适应不同扩散方向数的采集协议",
+"面向通用dMRI表征学习"
+],
+"tags": [
+"医学影像",
+"神经科学",
+"医学大模型"
+],
+"reason": "有新意的方法，摘要未显示外部验证或结果数据",
+"section": "影像与病理",
+"score": 5,
+"zh_abstract": "扩散磁共振成像（dMRI）在研究脑微结构变化方面发挥着关键作用，因此在临床实践中被广泛应用；然而，从 dMRI 中学习通用表征的进展一直有限。一个关键挑战在于，现有的深度学习方法不太适合捕捉扩散信号的独特性质。脑部 dMRI 通常由多个脑容积组成，每个容积具有不同的衰减特征，取决于扩散敏感梯度的方向和强度。因此，需要对 dMRI 中的空间、扩散加权和方向依赖性进行联合建模。此外，不同的采集方案（例如方向数不同）进一步限制了传统模型。为解决这些不足，我们引入了一种扩散空间旋转位置嵌入（D-RoPE），并将其接入"
+},
+"840c4b8eecd5087fcf8065b4fa9e54c098d56d12": {
+"pid": "840c4b8eecd5087fcf8065b4fa9e54c098d56d12",
+"title": "Learning Surgical Robotic Manipulation with 3D Spatial Priors",
+"abstract": "Achieving 3D spatial awareness is crucial for surgical robotic manipulation, where precise and delicate operations are required. Existing methods either explicitly reconstruct the surgical scene prior to manipulation, or enhance multi-view features by adding wrist-mounted cameras to supplement the default stereo endoscopes. However, both paradigms suffer from notable limitations: the former easily leads to error accumulation and prevents end-to-end optimization due to its multi-stage nature, while the latter is rarely adopted in clinical practice since wrist-mounted cameras can interfere with the motion of surgical robot arms. In this work, we introduce the Spatial Surgical Transformer (SST), an end-to-end visuomotor policy that empowers surgical robots with 3D spatial awareness by directly exploring 3D spatial cues embedded in endoscopic images. First, we build Surgical3D, a large-scale",
+"conf": "CVPR",
+"rank": "CCF-A",
+"conf_label": "CVPR 2026",
+"year": 2026,
+"date": "2026-03-04",
+"link": "https://doi.org/10.48550/arXiv.2603.03798",
+"cites": 0,
+"zh_title": "利用3D空间先验学习手术机器人操作",
+"summary": "提出端到端视觉运动策略Spatial Surgical Transformer，直接从内镜图像挖掘3D空间线索，并构建大规模Surgical3D数据，无需腕部相机。",
+"key_points": [
+"避免多阶段重建的误差累积",
+"不依赖干扰机械臂的腕部相机",
+"构建大规模Surgical3D数据集"
+],
+"tags": [
+"手术",
+"医学影像",
+"数据集"
+],
+"reason": "方法与数据均有新意，摘要未见临床验证",
+"section": "影像与病理",
+"score": 5,
+"zh_abstract": "实现三维空间感知对于需要精确而精细操作的手术机器人操控至关重要。现有方法要么在操作前显式重建手术场景，要么在默认的立体内窥镜之外增加腕部相机以增强多视角特征。然而，这两种范式均存在明显局限：前者由于其多阶段特性，容易导致误差累积，且无法进行端到端优化；后者因腕部相机可能干扰手术机器人手臂的运动，在临床实践中很少被采用。在本研究中，我们提出了空间手术Transformer（Spatial Surgical Transformer，SST），这是一种端到端的视觉运动策略，通过直接挖掘内窥镜图像中蕴含的三维空间线索，使手术机器人具备三维空间感知能力。首先，我们构建了Surgical3D，一个大规模"
+},
+"40602bde8563bd36485405ca41f8398a4e436b2a": {
+"pid": "40602bde8563bd36485405ca41f8398a4e436b2a",
+"title": "MedLIME: A Distribution-Aligned and Evidence-Supported Framework for Medical Saliency Explanations",
+"abstract": "",
+"conf": "CVPR",
+"rank": "CCF-A",
+"conf_label": "CVPR 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://www.semanticscholar.org/paper/40602bde8563bd36485405ca41f8398a4e436b2a",
+"cites": 0,
+"zh_title": "MedLIME：分布对齐且有证据支持的医学显著性解释框架",
+"summary": "仅有标题，提示提出面向医学场景的显著性解释框架MedLIME。",
+"key_points": [],
+"tags": [
+"可解释性",
+"医学影像"
+],
+"reason": "仅有标题，信息不足，按增量档处理",
+"section": "影像与病理",
+"score": 3
+},
+"1b16a8dc6ba10968f09c62d7ec27865cff5129dc": {
+"pid": "1b16a8dc6ba10968f09c62d7ec27865cff5129dc",
+"title": "KAMP: Knowledge-Anchored Multimodal Pretraining Framework for Medical Image Representation",
+"abstract": "",
+"conf": "CVPR",
+"rank": "CCF-A",
+"conf_label": "CVPR 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://www.semanticscholar.org/paper/1b16a8dc6ba10968f09c62d7ec27865cff5129dc",
+"cites": 0,
+"zh_title": "KAMP：面向医学图像表征的知识锚定多模态预训练框架",
+"summary": "CVPR 2026 论文，标题显示提出知识锚定的多模态预训练框架用于医学图像表征学习（仅有标题）。",
+"key_points": [],
+"tags": [
+"医学影像",
+"多模态",
+"医学大模型"
+],
+"reason": "仅标题，医学多模态预训练方向相关，信息不足",
+"section": "影像与病理",
+"score": 5
+},
+"06b6d29159801199917ebefbf3d9d23db90fcbc9": {
+"pid": "06b6d29159801199917ebefbf3d9d23db90fcbc9",
+"title": "cryoSENSE: Compressive Sensing Enables High-throughput Microscopy with Sparse and Generative Priors on the Protein Cryo-EM Image Manifold",
+"abstract": "Cryo-electron microscopy (cryo-EM) enables the atomic-resolution visualization of biomolecules; however, modern direct detectors generate data volumes that far exceed the available storage and transfer bandwidth, thereby constraining practical throughput. We introduce cryoSENSE, the computational realization of a hardware-software co-designed framework for compressive cryo-EM sensing and acquisition. We show that cryo-EM images of proteins lie on low-dimensional manifolds that can be independently represented using sparse priors in predefined bases and generative priors captured by a denoising diffusion model. cryoSENSE leverages these low-dimensional manifolds to enable faithful image reconstruction from spatial and Fourier-domain undersampled measurements while preserving downstream structural resolution. In experiments, cryoSENSE increases acquisition throughput by up to 2.5$\\times$ w",
+"conf": "CVPR",
+"rank": "CCF-A",
+"conf_label": "CVPR 2025",
+"year": 2025,
+"date": "2025-11-17",
+"link": "https://arxiv.org/abs/2511.12931",
+"cites": 0,
+"zh_title": "cryoSENSE：基于稀疏与生成先验的压缩感知冷冻电镜",
+"summary": "提出利用稀疏先验与扩散生成先验的压缩感知冷冻电镜框架，在欠采样下重建图像，称采集通量最高提升2.5倍并保持下游分辨率。",
+"key_points": [
+"蛋白冷冻电镜图像位于低维流形",
+"支持空间与傅里叶域欠采样重建",
+"通量最高提升2.5倍"
+],
+"tags": [
+"蛋白质",
+"生成模型"
+],
+"reason": "有新意的方法并有定量增益，证据范围有限",
+"section": "生命科学与药物",
+"score": 5,
+"zh_abstract": "冷冻电子显微镜（cryo-EM）能够以原子分辨率可视化生物分子；然而，现代直接探测器产生的数据量远超可用的存储和传输带宽，从而限制了实际通量。我们提出了cryoSENSE，这是一种面向压缩式冷冻电镜传感与采集的软硬件协同设计框架的计算实现。我们证明，蛋白质的冷冻电镜图像位于低维流形上，这些流形可以分别通过预定义基下的稀疏先验以及去噪扩散模型所捕获的生成先验来独立表示。cryoSENSE利用这些低维流形，从空间域和傅里叶域欠采样测量中实现忠实的图像重建，同时保持下游结构分辨率。在实验中，cryoSENSE将采集通量最高提升了2.5$\\times$"
+},
+"84c65a406994d8d57628f09f1e47b3521196efc9": {
+"pid": "84c65a406994d8d57628f09f1e47b3521196efc9",
+"title": "CRIMSON: A Clinically-Grounded LLM-Based Metric for Generative Radiology Report Evaluation",
+"abstract": "We introduce CRIMSON, a clinically grounded evaluation framework for chest X-ray report generation that assesses reports based on diagnostic correctness, contextual relevance, and patient safety. Unlike prior metrics, CRIMSON incorporates full clinical context, including patient age, indication, and guideline-based decision rules, and prevents normal or clinically insignificant findings from exerting disproportionate influence on the overall score. The framework categorizes errors into a comprehensive taxonomy covering false findings, missing findings, and eight attribute-level errors (e.g., location, severity, measurement, and diagnostic overinterpretation). Each finding is assigned a clinical significance level (urgent, actionable non-urgent, non-actionable, or expected/benign), based on a guideline developed in collaboration with attending cardiothoracic radiologists, enabling severit",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-03-06",
+"link": "https://doi.org/10.48550/arXiv.2603.06183",
+"cites": 11,
+"zh_title": "CRIMSON：基于临床背景的胸片报告生成LLM评估指标",
+"summary": "提出面向胸片报告生成的临床导向评估框架CRIMSON，结合患者背景与指南规则，按诊断正确性、相关性和患者安全评分，并建立错误分类体系。",
+"key_points": [
+"纳入年龄、检查指征及指南决策规则",
+"错误分类含假阳性、漏诊及八类属性错误",
+"临床重要性分级由胸部放射科医师参与制定"
+],
+"tags": [
+"医学影像",
+"基准",
+"医学大模型"
+],
+"reason": "有新意的评估指标，临床医师参与制定，但摘要未见外部验证细节",
+"section": "影像与病理",
+"score": 6,
+"zh_abstract": "我们提出 CRIMSON，这是一个以临床为基础的胸部 X 线报告生成评估框架，依据诊断正确性、上下文相关性和患者安全性对报告进行评估。与以往指标不同，CRIMSON 纳入了完整的临床背景，包括患者年龄、检查指征以及基于指南的决策规则，并防止正常或临床意义不大的发现对总体评分产生不成比例的影响。该框架将错误归入一个全面的分类体系，涵盖假阳性发现、遗漏发现以及八类属性层面的错误（例如部位、严重程度、测量值和诊断过度解读）。每一项发现都根据与胸部放射科主治医师合作制定的指南被赋予临床意义等级（紧急、可处理的非紧急、无需处理，或预期/良性），从而实现按严重程度"
+},
+"9df5496e2c9e614e80481a150c54104a41696ba3": {
+"pid": "9df5496e2c9e614e80481a150c54104a41696ba3",
+"title": "Distilling Photon-Counting CT into Routine Chest CT through Clinically Validated Degradation Modeling",
+"abstract": "Photon-counting CT (PCCT) provides superior image quality with higher spatial resolution and lower noise compared to conventional energy-integrating CT (EICT), but its limited clinical availability restricts large-scale research and clinical deployment. To bridge this gap, we propose SUMI, a simulated degradation-to-enhancement method that learns to reverse realistic acquisition artifacts in low-quality EICT by leveraging high-quality PCCT as reference. Our central insight is to explicitly model realistic acquisition degradations, transforming PCCT into clinically plausible lower-quality counterparts and learning to invert this process. The simulated degradations were validated for clinical realism by board-certified radiologists, enabling faithful supervision without requiring paired acquisitions at scale. As outcomes of this technical contribution, we: (1) train a latent diffusion mode",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-04-08",
+"link": "https://doi.org/10.48550/arXiv.2604.07329",
+"cites": 1,
+"zh_title": "通过临床验证的退化建模将光子计数CT蒸馏至常规胸部CT",
+"summary": "提出SUMI方法，以光子计数CT为参照模拟真实退化并学习逆过程，增强常规胸部CT图像质量，退化模拟经放射科医师验证。",
+"key_points": [
+"将PCCT转为临床合理的低质量图像训练",
+"无需大规模配对采集",
+"基于潜在扩散模型训练"
+],
+"tags": [
+"医学影像",
+"生成模型"
+],
+"reason": "方法新颖且有医师验证，但摘要缺少外部验证与结局证据",
+"section": "影像与病理",
+"score": 5,
+"zh_abstract": "光子计数 CT（PCCT）与传统能量积分 CT（EICT）相比，具有更高的空间分辨率和更低的噪声，因而图像质量更优，但其临床可及性有限，制约了大规模研究和临床应用。为弥合这一差距，我们提出了 SUMI，这是一种“模拟退化到增强”的方法，通过以高质量 PCCT 作为参照，学习逆转低质量 EICT 中真实的采集伪影。我们的核心见解是显式建模真实的采集退化，将 PCCT 转换为临床上合理的较低质量对应图像，并学习逆转这一过程。所模拟的退化经委员会认证的放射科医生验证，具有临床真实性，从而无需大规模配对采集即可提供可靠的监督。作为这一技术贡献的成果，我们：(1) 训练了一个潜在扩散模型"
+},
+"08197c5ff8295a223d8cf14388c5e365be2e1138": {
+"pid": "08197c5ff8295a223d8cf14388c5e365be2e1138",
+"title": "Merlin Plus: A Large-Scale, Multi-cancer, Image-Mask-Report Dataset",
+"abstract": "Multi-cancer segmentation in computed tomography (CT) is fundamentally limited by the scarcity of tumor masks across different organs. We present Merlin Plus, the first large-scale CT dataset with radiologist-created tumor masks across 9 organs. Merlin Plus extends the Merlin dataset by adding 1,153 per-voxel tumor masks and longitudinal metadata. To create these tumor masks, we developed a report-based active-learning framework in which radiology reports identify tumor cases for annotation and support training of a tumor segmentation model. The model generates initial masks, which radiologists review and correct to produce the final masks, reducing annotation burden while maintaining high-quality annotations. Besides tumor masks, the longitudinal metadata in Merlin Plus enables temporal modeling of cancer progression. By directly addressing the major bottleneck of limited multi-cancer s",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-09-29",
+"link": "https://doi.org/10.1007/978-3-032-38470-6_19",
+"cites": 1,
+"zh_title": "Merlin Plus：大规模多癌种影像-掩码-报告数据集",
+"summary": "发布首个含放射科医师标注、覆盖9个器官的大规模CT肿瘤掩码数据集，新增1,153个体素级掩码与纵向元数据，并用基于报告的主动学习标注。",
+"key_points": [
+"覆盖9个器官的肿瘤掩码",
+"基于报告的主动学习降低标注负担",
+"纵向元数据支持肿瘤进展建模"
+],
+"tags": [
+"数据集",
+"医学影像",
+"肿瘤"
+],
+"reason": "大规模多癌种公开数据集，含纵向信息，属数据集档并有肿瘤方向加分",
+"section": "影像与病理",
+"score": 7,
+"zh_abstract": "计算机断层扫描（CT）中的多癌种分割从根本上受限于不同器官肿瘤掩膜的稀缺。我们提出 Merlin Plus，这是首个包含放射科医师创建的、覆盖 9 个器官的肿瘤掩膜的大规模 CT 数据集。Merlin Plus 在 Merlin 数据集的基础上新增了 1,153 个逐体素肿瘤掩膜以及纵向元数据。为创建这些肿瘤掩膜，我们开发了一种基于报告的主动学习框架：放射学报告用于识别需要标注的肿瘤病例，并支持肿瘤分割模型的训练。该模型生成初始掩膜，再由放射科医师审阅并修正以得到最终掩膜，从而在保持高质量标注的同时减轻标注负担。除肿瘤掩膜外，Merlin Plus 中的纵向元数据还可用于对癌症进展进行时间建模。通过直接应对多癌种分割数据有限这一主要瓶颈"
+},
+"e6b15c64566156ecf0641964e91af977e595cc9d": {
+"pid": "e6b15c64566156ecf0641964e91af977e595cc9d",
+"title": "REVEAL++: Differentiable Phenotypic Grouping for Vision-Language Retinal Modeling of Alzheimer's Disease Risk",
+"abstract": "The retina offers a noninvasive window into neurodegenerative disease, capturing subtle structural patterns associated with a risk of future cognitive decline. Vision-language alignment frameworks such as REVEAL have shown that pairing retinal fundus images with structured clinical risk narratives improves early prediction of Alzheimer's disease (AD). A key design choice in these approaches is the use of phenotypic grouping, where individuals with similar risk profiles are treated as multi-positive pairs during contrastive learning. However, existing methods operationalize phenotypic similarity as a discrete construct, relying on hard group assignments that impose rigid supervision and decouple group formation from representation learning. We propose a continuous formulation of phenotypic structure within contrastive learning. Rather than assigning samples to fixed clusters, we model int",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-06-17",
+"link": "https://doi.org/10.48550/arXiv.2606.19522",
+"cites": 0,
+"zh_title": "REVEAL++：用于阿尔茨海默病风险的可微表型分组视觉-语言视网膜建模",
+"summary": "提出在对比学习中以连续方式刻画表型结构，替代硬分组，用于眼底图像与临床风险叙述对齐以预测阿尔茨海默病风险。",
+"key_points": [
+"在REVEAL基础上改进表型分组",
+"以连续相似度取代固定聚类分配",
+"眼底图像与结构化风险文本对齐"
+],
+"tags": [
+"眼科",
+"多模态",
+"神经科学"
+],
+"reason": "眼科+痴呆视觉语言方法，有新意，但摘要未见外部验证，属值得一看档",
+"section": "影像与病理",
+"score": 6,
+"zh_abstract": "视网膜为神经退行性疾病提供了一个无创的观察窗口，可捕捉与未来认知功能下降风险相关的细微结构模式。REVEAL 等视觉-语言对齐框架已表明，将视网膜眼底图像与结构化的临床风险叙述配对，可改善阿尔茨海默病（AD）的早期预测。这些方法中的一个关键设计选择是表型分组，即在对比学习中将风险特征相似的个体视为多正样本对。然而，现有方法将表型相似性作为离散概念来实现，依赖硬性分组分配，施加了僵化的监督，并使分组形成与表征学习相互脱节。我们提出在对比学习中对表型结构采用连续的表述。我们不再将样本分配到固定的簇中，而是对……进行建模"
+},
+"e2fc444be99633921c548d8544e4c9f0da3a2ef3": {
+"pid": "e2fc444be99633921c548d8544e4c9f0da3a2ef3",
+"title": "Situational Context Embedding and Knowledge-Based Grounding for LLMs in Surgical Training Assistance",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38233-7_47",
+"cites": 0,
+"zh_title": "面向手术培训辅助的大模型情境嵌入与知识接地",
+"summary": "MICCAI 2026 论文，标题涉及为手术培训辅助的大语言模型引入情境嵌入和基于知识的接地（仅有标题）。",
+"key_points": [],
+"tags": [
+"医学大模型",
+"手术"
+],
+"reason": "仅标题，信息有限，手术LLM方向",
+"section": "大模型与智能体",
+"score": 4
+},
+"de2cb36c0eec790161df3918e5a9a0f4a5928517": {
+"pid": "de2cb36c0eec790161df3918e5a9a0f4a5928517",
+"title": "PALETTE: Pathology-Aware Latent Embedding for Targeted Tissue Expression",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38470-6_53",
+"cites": 0,
+"zh_title": "PALETTE：面向靶向组织表达的病理感知潜在嵌入",
+"summary": "MICCAI 2026 论文，标题显示用病理感知潜在嵌入处理靶向组织表达问题（仅有标题）。",
+"key_points": [],
+"tags": [
+"病理",
+"基因组学"
+],
+"reason": "仅标题，病理方向相关但细节不明",
+"section": "影像与病理",
+"score": 4
+},
+"d330d87b45ec543279601a7fad4c6b7f71826bb3": {
+"pid": "d330d87b45ec543279601a7fad4c6b7f71826bb3",
+"title": "SutureFormer: Learning Surgical Trajectories via Goal-Conditioned Offline RL in Pixel Space",
+"abstract": "Predicting surgical needle trajectories from endoscopic video is critical for robot-assisted suturing, enabling anticipatory planning, real-time guidance, and safer motion execution. Existing methods that directly learn motion distributions from visual observations tend to overlook the sequential dependency among adjacent motion steps. Moreover, sparse waypoint annotations often fail to provide sufficient supervision, further increasing the difficulty of supervised or imitation learning methods. To address these challenges, we formulate image-based needle trajectory prediction as a sequential decision-making problem, in which the needle tip is treated as an agent that moves step by step in pixel space. This formulation naturally captures the continuity of needle motion and enables the explicit modeling of physically plausible pixel-wise state transitions over time. From this perspective,",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-03-19",
+"link": "https://doi.org/10.1007/978-3-032-38236-8_49",
+"cites": 0,
+"zh_title": "SutureFormer：像素空间中基于目标条件离线强化学习的手术轨迹学习",
+"summary": "将内镜视频中缝合针轨迹预测建模为像素空间的序贯决策问题，针尖作为智能体，采用目标条件离线强化学习。",
+"key_points": [
+"针尖视为像素空间中逐步移动的智能体",
+"缓解稀疏路点标注监督不足",
+"面向机器人辅助缝合的轨迹预测"
+],
+"tags": [
+"手术",
+"医学影像"
+],
+"reason": "新颖的离线RL手术轨迹方法，摘要未见临床验证",
+"section": "影像与病理",
+"score": 5,
+"zh_abstract": "从内窥镜视频中预测手术缝针轨迹对于机器人辅助缝合至关重要，可实现预判性规划、实时引导和更安全的运动执行。现有直接从视觉观察中学习运动分布的方法往往忽视相邻运动步之间的序列依赖关系。此外，稀疏的路径点标注往往无法提供足够的监督，进一步增加了监督学习或模仿学习方法的难度。为应对这些挑战，我们将基于图像的缝针轨迹预测表述为序列决策问题，其中将针尖视为在像素空间中逐步移动的智能体。该表述自然地刻画了缝针运动的连续性，并能够显式建模随时间变化的、物理上合理的逐像素状态转移。从这一视角出发，"
+},
+"d32f982d68c0d7ee0f49a9305464ad1f51219487": {
+"pid": "d32f982d68c0d7ee0f49a9305464ad1f51219487",
+"title": "A Neurosymbolic Framework for Interpretable Skeleton-Based Seizure Detection via Concept-Driven Logical Reasoning",
+"abstract": "Video-based seizure detection is essential for the management of epilepsy patients, offering a non-invasive complement to electroencephalography. While several deep learning approaches have been developed for video-based seizure detection, none are inherently interpretable, limiting their adoption and translation into clinical practice. We present, to our knowledge, the first exploration of a neurosymbolic framework for video-based seizure detection that directly addresses this gap. Our approach (1) extracts patient-centric skeleton sequences from epilepsy monitoring units via a prompt-guided foundation model, (2) predicts binary spatio-temporal concept activations grounded in clinical motor semiology guidelines, and (3) composes them via differentiable logic into interpretable Boolean rules with auditable contributions. Furthermore, to mitigate false positives arising from the tradition",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-06-19",
+"link": "https://doi.org/10.48550/arXiv.2606.21252",
+"cites": 0,
+"zh_title": "基于骨架的可解释癫痫发作检测：概念驱动逻辑推理的神经符号框架",
+"summary": "提出神经符号框架，从癫痫监测视频提取骨架序列，预测临床运动语义概念，并经可微逻辑组合为可解释布尔规则。",
+"key_points": [
+"提示引导基础模型提取患者骨架序列",
+"预测基于临床运动语义指南的概念激活",
+"可微逻辑生成可审计的布尔规则"
+],
+"tags": [
+"可解释性",
+"神经科学",
+"医学影像"
+],
+"reason": "可解释性新方法，摘要未见外部验证，属值得一看档",
+"section": "影像与病理",
+"score": 5,
+"zh_abstract": "基于视频的癫痫发作检测对于癫痫患者的管理至关重要，可作为脑电图的无创补充。尽管已有多种深度学习方法用于基于视频的癫痫发作检测，但均不具备内在可解释性，限制了其在临床实践中的采用和转化。据我们所知，我们首次探索了一种用于基于视频的癫痫发作检测的神经符号框架，直接弥补了这一空白。我们的方法（1）通过提示引导的基础模型，从癫痫监测病房中提取以患者为中心的骨架序列；（2）预测基于临床运动症状学指南的二值时空概念激活；（3）通过可微逻辑将其组合为具有可审计贡献的可解释布尔规则。此外，为减轻由传统"
+},
+"d234aa5b233f5745ec8437f003a2469b289fee2b": {
+"pid": "d234aa5b233f5745ec8437f003a2469b289fee2b",
+"title": "On the Robustness of Temporal Vision-Language Models for Surgical Endoscopy Videos",
+"abstract": "Temporal vision-language models (TVLMs) offer a reusable, prompt-based interface for surgical video understanding, yet, their robustness under clinically realistic acquisition artifacts in endoscopy remains insufficiently characterized. In practice, degradations such as defocus, haze, motion blur, noise, cautery smoke, and packet loss introduce structured distribution shifts which may compromise video-text alignment. We study the robustness of temporal VLMs under such shifts caused by corruptions in clip frames. We introduce Endo-C6, a compact corruption benchmark of six endoscopy-realistic perturbations evaluated at a fixed high severity, and apply it to public Gastrointestinal (GI) endoscopy and laparoscopic cholecystectomy videos. Under a standardized prompt protocol, we benchmark 3 recent surgical TVLM baselines and analyze robustness in both mean and worst-case settings, spanning 29",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-08-14",
+"link": "https://doi.org/10.1007/978-3-032-38233-7_32",
+"cites": 0,
+"zh_title": "时序视觉-语言模型在手术内镜视频中的鲁棒性研究",
+"summary": "提出含六种内镜真实扰动的Endo-C6基准，评测3个手术时序视觉语言模型在公开消化内镜与腹腔镜胆囊切除视频上的鲁棒性。",
+"key_points": [
+"Endo-C6：六种内镜真实退化扰动",
+"评测3个手术TVLM基线",
+"分析平均与最差情形下的鲁棒性"
+],
+"tags": [
+"基准",
+"手术",
+"多模态"
+],
+"reason": "医学视觉语言模型鲁棒性基准，有对比评测，规模有限",
+"section": "影像与病理",
+"score": 6,
+"zh_abstract": "时序视觉-语言模型（temporal vision-language models，TVLMs）为手术视频理解提供了一种可复用的、基于提示词的接口，然而在内镜检查中，其在临床真实采集伪影条件下的鲁棒性仍未得到充分刻画。在实际情况中，离焦、雾化、运动模糊、噪声、电凝烟雾和丢包等退化会引入结构化的分布偏移，可能损害视频-文本对齐。我们研究了时序 VLM 在由片段帧损坏所导致的此类偏移下的鲁棒性。我们提出了 Endo-C6，这是一个紧凑的损坏基准，包含六种符合内镜真实情况的扰动，并在固定的高严重程度下进行评估，我们将其应用于公开的胃肠（GI）内镜视频和腹腔镜胆囊切除术视频。在标准化的提示词方案下，我们对 3 个近期的手术 TVLM 基线进行了基准测试，并在平均情况和最坏情况两种设置下分析其鲁棒性，涵盖 29"
+},
+"cc67b13faf515df84bb478e4bc7b2b43f791d36d": {
+"pid": "cc67b13faf515df84bb478e4bc7b2b43f791d36d",
+"title": "Conditional Diffusion Prompting for Ambiguous Medical Image Segmentation",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38082-1_5",
+"cites": 0,
+"zh_title": "面向歧义医学图像分割的条件扩散提示方法",
+"summary": "MICCAI 2026 论文，标题显示以条件扩散提示处理存在歧义的医学图像分割（仅有标题）。",
+"key_points": [],
+"tags": [
+"医学影像",
+"生成模型"
+],
+"reason": "仅标题，分割方法细节不明",
+"section": "影像与病理",
+"score": 4
+},
+"c2951f15fe6b41a488d6a19cbf4e60e448c804f9": {
+"pid": "c2951f15fe6b41a488d6a19cbf4e60e448c804f9",
+"title": "KJD-25K: A 3D Multi-modal Dataset and Benchmark for Knee Joint Diagnosis",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38470-6_14",
+"cites": 0,
+"zh_title": "KJD-25K：膝关节诊断3D多模态数据集与基准",
+"summary": "标题显示该工作提出面向膝关节诊断的3D多模态数据集与基准 KJD-25K（仅有标题信息）。",
+"key_points": [],
+"tags": [
+"数据集",
+"基准",
+"多模态"
+],
+"reason": "仅有标题，数据集与基准类，信息不足，按标题封顶往低打",
+"section": "影像与病理",
+"score": 5
+},
+"c1bac6e78444906cff4e39a148f69930f1faa854": {
+"pid": "c1bac6e78444906cff4e39a148f69930f1faa854",
+"title": "Anatomy-Guided Residual Motion Diffusion for Controllable 4D Cardiac MRI Synthesis",
+"abstract": "Developing robust artificial intelligence models for 4D (3D + time) medical imaging is constrained by limited annotated data, inter-device domain shifts, and privacy restrictions. To address this, we propose a 4D controllable generative framework for anatomically consistent data augmentation. A semi-supervised variational autoencoder learns a compact latent representation of anatomical volumes while jointly predicting aligned segmentation masks in a unified framework. Anatomical structure is then disentangled from temporal dynamics through a cascaded latent diffusion model (LDM). A static LDM generates subject-specific anatomy conditioned on clinical priors (diagnosis and volumes measures) and a subsequent motion LDM estimates residual latent motions, ensuring strict temporal coherence across the 4D sequence. The proposed approach was evaluated on cine cardiac MRI as a representative 4D ",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-06-25",
+"link": "https://doi.org/10.48550/arXiv.2606.26764",
+"cites": 0,
+"zh_title": "解剖引导残差运动扩散用于可控4D心脏MRI合成",
+"summary": "提出级联潜在扩散框架：先生成受临床先验条件约束的静态解剖，再估计残差运动，用于4D心脏cine MRI的数据增强。",
+"key_points": [
+"半监督VAE同时学习解剖潜变量并预测分割掩码",
+"静态LDM按诊断与容积条件生成个体解剖",
+"运动LDM估计残差潜在运动以保证时序一致"
+],
+"tags": [
+"医学影像",
+"生成模型"
+],
+"reason": "新颖的生成方法，摘要未见外部验证或临床结局，属值得一看档",
+"section": "影像与病理",
+"score": 5,
+"zh_abstract": "为4D（3D+时间）医学影像开发稳健的人工智能模型，受到标注数据有限、设备间域偏移以及隐私限制的制约。为此，我们提出了一种用于解剖一致性数据增强的4D可控生成框架。一种半监督变分自编码器（variational autoencoder）在统一框架中学习解剖容积的紧凑潜在表示，同时联合预测与之对齐的分割掩膜。随后，通过级联潜在扩散模型（latent diffusion model，LDM）将解剖结构与时间动态解耦。静态LDM以临床先验（诊断和容积测量值）为条件生成个体特异性解剖结构，随后的运动LDM估计残余潜在运动，从而确保整个4D序列严格的时间连贯性。所提出的方法以电影心脏MRI作为代表性4D"
+},
+"b9f1d7a3f98ba5e2268252cb672738a14b31d625": {
+"pid": "b9f1d7a3f98ba5e2268252cb672738a14b31d625",
+"title": "S2DLight: Single Step Diffusion Network via Degradation-Aware Adaptation for Surgical Endoscopic Image Low-Light Enhancement",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38233-7_42",
+"cites": 0,
+"zh_title": "S2DLight：面向手术内镜低光增强的单步扩散网络",
+"summary": "标题显示提出一种基于退化感知适配的单步扩散网络，用于手术内镜图像低光增强（仅有标题信息）。",
+"key_points": [],
+"tags": [
+"手术",
+"生成模型",
+"医学影像"
+],
+"reason": "仅有标题，图像增强类增量方法，信息不足",
+"section": "影像与病理",
+"score": 4
+},
+"b9eab7eabb99276e6f4891e0e8ea9a4f8524117d": {
+"pid": "b9eab7eabb99276e6f4891e0e8ea9a4f8524117d",
+"title": "Pulmonary Embolism Risk Stratification from CTPA and Medical Records: Vascular Graphs Are Not All You Need",
+"abstract": "Risk stratification for pulmonary embolism (PE) is critical for clinical decision-making. Stratification guidelines are based on patient medical records, parameters measured from computed tomography pulmonary angiography (CTPA), and blood tests. However, blood tests are often missing in routine practice. This work studies whether state-of-the-art models can accurately classify risk stratification from only medical records and biomarkers extracted from CTPA images. We benchmark different approaches to combine medical records and cardiac biomarkers with rich pulmonary vascular information; we add vascular biomarkers to tabular models and apply graph neural networks (GNNs) on the vascular tree's intrinsic graph representation. We use a private dataset (n=353) with uniquely complete data for PE risk stratification. Our results show that, among global features, medical records and cardiac bio",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-06-24",
+"link": "https://doi.org/10.1007/978-3-032-38172-9_47",
+"cites": 0,
+"zh_title": "基于CTPA与病历的肺栓塞风险分层：血管图并非必需",
+"summary": "在仅用病历和CTPA提取的生物标志物条件下，比较表格模型与血管树图神经网络做肺栓塞风险分层，使用353例私有数据集。",
+"key_points": [
+"血液检查常缺失，研究仅用病历与CTPA生物标志物",
+"比较表格模型加血管标志物与血管树GNN",
+"私有数据集n=353，标题指出血管图并非必需"
+],
+"tags": [
+"临床预测",
+"医学影像",
+"多模态"
+],
+"reason": "单中心小样本（353例），无外部验证，属增量档",
+"section": "临床预测与决策",
+"score": 4,
+"zh_abstract": "肺栓塞（PE）的风险分层对临床决策至关重要。分层指南基于患者病历、CT 肺动脉造影（CTPA）测量的参数以及血液检查。然而，常规实践中血液检查常常缺失。本研究探讨最先进的模型能否仅凭病历和从 CTPA 图像中提取的生物标志物准确地进行风险分层分类。我们对多种将病历和心脏生物标志物与丰富的肺血管信息相结合的方法进行了基准测试：在表格模型中加入血管生物标志物，并在血管树固有的图表示上应用图神经网络（GNN）。我们使用了一个私有数据集（n=353），其 PE 风险分层所需数据异常完整。结果显示，在全局特征中，病历和心脏生物标志物"
+},
+"b38e4e9f926a81a36bc0ccd6a7a70d8a42fe5230": {
+"pid": "b38e4e9f926a81a36bc0ccd6a7a70d8a42fe5230",
+"title": "MedEnv: Scaling Multimodal Virtual Medical Environments for Long-Horizon Diagnosis",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38098-2_40",
+"cites": 0,
+"zh_title": "MedEnv：面向长程诊断的多模态虚拟医疗环境扩展",
+"summary": "标题显示该工作构建可扩展的多模态虚拟医疗环境，用于长程诊断任务（仅有标题信息）。",
+"key_points": [],
+"tags": [
+"智能体",
+"多模态",
+"基准"
+],
+"reason": "仅有标题，智能体环境方向契合偏好，但信息不足",
+"section": "大模型与智能体",
+"score": 5
+},
+"a6af90f87111fbe9a6601640606c572f0944b3c1": {
+"pid": "a6af90f87111fbe9a6601640606c572f0944b3c1",
+"title": "VOGeo-Gaze: Calibration-Free, Geometry-Aware Deep Learning for Real-Time Gaze Tracking in Clinical Video-Oculography",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38260-3_61",
+"cites": 0,
+"zh_title": "VOGeo-Gaze：临床视频眼动图中免校准的几何感知实时视线追踪",
+"summary": "标题显示提出免校准、几何感知的深度学习方法，用于临床视频眼动图的实时视线追踪（仅有标题信息）。",
+"key_points": [],
+"tags": [
+"眼科",
+"医疗器械"
+],
+"reason": "仅有标题，方法类增量工作，信息不足",
+"section": "影像与病理",
+"score": 3
+},
+"9ab98728f2a3edfecb77e93fb4a6142f9c695a34": {
+"pid": "9ab98728f2a3edfecb77e93fb4a6142f9c695a34",
+"title": "Learning to Optimize Radiotherapy Plans via Fluence Maps Diffusion Model Generation and LSTM-based Optimization",
+"abstract": "Volumetric Modulated Arc Therapy (VMAT) is a cornerstone of modern radiation therapy, enabling highly conformal tumor irradiation and healthy-tissue sparing. Yet, its planning solves inverse and nested optimization for multi-leaf collimators, monitor units and dose parameters, while enforcing their consistency to ensure mechanical deliverability. Nevertheless, this process often requires repeated re-optimization when treatment configurations change, resulting in substantial planning time per patient. To address these problems, we present a diffusion-driven Learning-to-Optimize (L2O) method for end-to-end VMAT planning. A distribution-matching distilled diffusion model learns a clinically feasible manifold of fluence maps, enabling their one-shot generation. On top of this, an LSTM-based L2O module learns gradient update dynamics to swiftly refine fluence maps toward prescribed dose objec",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-05-13",
+"link": "https://doi.org/10.48550/arXiv.2605.13713",
+"cites": 0,
+"zh_title": "扩散模型生成注量图与LSTM优化的放疗计划学习",
+"summary": "提出扩散驱动的学习优化（L2O）方法用于端到端VMAT计划：蒸馏扩散模型一次性生成注量图，LSTM模块再快速优化至目标剂量。",
+"key_points": [
+"蒸馏扩散模型学习可行注量图流形并一次生成",
+"LSTM学习梯度更新动态以细化注量图",
+"目标是减少配置变化时重复优化的计划时间"
+],
+"tags": [
+"生成模型",
+"肿瘤",
+"临床决策支持"
+],
+"reason": "方法新颖，摘要未见外部验证或临床结局，属值得一看档",
+"section": "临床预测与决策",
+"score": 5,
+"zh_abstract": "容积旋转调强放疗（Volumetric Modulated Arc Therapy，VMAT）是现代放射治疗的基石，可实现高度适形的肿瘤照射并保护健康组织。然而，其计划需要针对多叶准直器、监测跳数和剂量参数求解逆向嵌套优化问题，同时还须强制保证它们之间的一致性，以确保机械上可执行。尽管如此，当治疗配置发生变化时，这一过程往往需要反复重新优化，导致每位患者的计划时间相当可观。为解决这些问题，我们提出了一种由扩散驱动的“学习优化”（Learning-to-Optimize，L2O）方法，用于端到端的VMAT计划。一个分布匹配蒸馏扩散模型学习临床可行的注量图流形，从而实现其一步生成。在此基础上，一个基于LSTM的L2O模块学习梯度更新动态，以快速优化注量图，使其趋向处方剂量目标"
+},
+"986fa2204fde6b96d9c5d1459068147e631ffdd9": {
+"pid": "986fa2204fde6b96d9c5d1459068147e631ffdd9",
+"title": "PCRP: Progressive Coarse-to-Fine Refinement for Pathology Grounding",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38224-5_36",
+"cites": 0,
+"zh_title": "PCRP：用于病理定位的渐进式由粗到细精修",
+"summary": "标题显示提出渐进式由粗到细的精修方法，用于病理图像的定位（grounding）任务（仅有标题信息）。",
+"key_points": [],
+"tags": [
+"病理",
+"多模态"
+],
+"reason": "仅有标题，病理视觉-语言定位方向契合偏好，但信息不足",
+"section": "影像与病理",
+"score": 5
+},
+"9119a2e02871a07ca3cf4cd9d432220d08170faf": {
+"pid": "9119a2e02871a07ca3cf4cd9d432220d08170faf",
+"title": "SSPT: Spiking Serialized Point Transformer for Couinaud Segmentation in 3D Medical Data",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38082-1_53",
+"cites": 0,
+"zh_title": "SSPT：用于3D医学数据Couinaud分段的脉冲序列化点Transformer",
+"summary": "MICCAI 2026 论文，标题显示提出脉冲序列化点Transformer用于3D医学数据的Couinaud肝段分割。",
+"key_points": [],
+"tags": [
+"医学影像"
+],
+"reason": "仅有标题，信息不足，按增量档并受标题上限约束",
+"section": "影像与病理",
+"score": 3
+},
+"8d7386f62ede43f2273bb2b63b21e7f545e037b2": {
+"pid": "8d7386f62ede43f2273bb2b63b21e7f545e037b2",
+"title": "DLCE-MIL: Depth-Aware Local Context Enhanced Multiple Instance Learning for Patient-Level IVCM Fungal Keratitis Classification",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38098-2_24",
+"cites": 0,
+"zh_title": "DLCE-MIL：面向患者级IVCM真菌性角膜炎分类的深度感知局部上下文增强多实例学习",
+"summary": "MICCAI 2026 论文，标题显示提出深度感知多实例学习方法，用于患者级IVCM真菌性角膜炎分类。",
+"key_points": [],
+"tags": [
+"眼科",
+"医学影像"
+],
+"reason": "仅有标题，眼科影像方向略加分但信息不足",
+"section": "影像与病理",
+"score": 4
+},
+"720dc9a72e46ab1b9feda0542b9b34687f48d8d5": {
+"pid": "720dc9a72e46ab1b9feda0542b9b34687f48d8d5",
+"title": "DenseTRF: Texture-Aware Unsupervised Representation Adaptation for Surgical Scene Dense Prediction",
+"abstract": "Dense prediction tasks in surgical computer vision, such as segmentation and surgical zone prediction, can provide valuable guidance for laparoscopic and robotic surgery. However, these models often suffer from distribution shifts, as training datasets rarely cover the variability encountered during deployment, leading to poor generalization. We propose DenseTRF, a self-supervised representation adaptation framework based on texture-centric attention. Our method leverages slot attention to learn texture-aware representations that capture invariant visual structures. By adapting these representations to the target distribution without supervision, DenseTRF significantly improves robustness to domain shifts. The framework is implemented through conditioning dense prediction on slot attention and model merging strategies. Experiments across multiple surgical procedures demonstrate improved ",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-05-11",
+"link": "https://doi.org/10.48550/arXiv.2605.11265",
+"cites": 0,
+"zh_title": "DenseTRF：面向手术场景密集预测的纹理感知无监督表征适应",
+"summary": "提出基于slot attention的自监督表征适应框架，以提升手术场景分割等密集预测在域偏移下的鲁棒性。",
+"key_points": [
+"以纹理为中心的slot attention学习不变表征",
+"无监督适配目标分布，结合模型合并策略",
+"多种手术场景实验显示鲁棒性提升"
+],
+"tags": [
+"手术",
+"医学影像"
+],
+"reason": "方法有新意，但摘要未见规模与外部验证细节",
+"section": "影像与病理",
+"score": 4,
+"zh_abstract": "外科计算机视觉中的密集预测任务，如分割和手术区域预测，可为腹腔镜和机器人手术提供有价值的指导。然而，这些模型常受分布偏移的影响，因为训练数据集很少涵盖部署时遇到的变异，导致泛化能力较差。我们提出 DenseTRF，一种基于以纹理为中心的注意力的自监督表征适应框架。我们的方法利用槽注意力（slot attention）学习能够捕捉不变视觉结构的纹理感知表征。通过在无监督条件下使这些表征适应目标分布，DenseTRF 显著提高了对域偏移的鲁棒性。该框架通过将密集预测以槽注意力为条件以及模型合并策略来实现。在多种外科手术中的实验显示出改进的"
+},
+"66afaeb6d62502046045f47f1004137df795d350": {
+"pid": "66afaeb6d62502046045f47f1004137df795d350",
+"title": "HERO: Hypothesis-Driven Evidence Retrieval from Omics for Multi-Task Breast Cancer Analysis",
+"abstract": "Matched multi-omics can improve WSI-based biomarker and prognosis prediction, but most existing pipelines use omics as a paral lel feature stream or textual context rather than as an explicit retrieval constraint. HERO asks whether observed omics can be a testable mor phology hypothesis: a sparse pathway-to-morphology prior maps DNA methylation and miRNA into a K-dimensional intent vector m (K=16), TF-IDF retrieval over structured 10 captions selects endpoint-relevant regions, and a cosine gate c=cos(m,v) triggers deterministic deficit driven repair when c<{\\tau}c. This closed-loop design bounds VLM calls, reduces reliance on embedding-based semantic matching, and makes every retrieval and verification step lexically auditable. On TCGA-BRCA (930WSIs, patient-level 5-fold CV), HERO sets new state-of-the-art across ER, PR, HER2, subtype, and risk prediction, outperforming both multimodal f",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-06-19",
+"link": "https://doi.org/10.48550/arXiv.2606.21174",
+"cites": 0,
+"zh_title": "HERO：假设驱动的组学证据检索用于乳腺癌多任务分析",
+"summary": "将甲基化与miRNA组学映射为形态学假设，引导WSI区域检索与验证，在TCGA-BRCA上完成多任务预测。",
+"key_points": [
+"稀疏通路先验将组学映射为16维意图向量",
+"TF-IDF检索结合余弦门控修复，检索过程可审计",
+"TCGA-BRCA 930张WSI五折交叉验证，称优于基线"
+],
+"tags": [
+"病理",
+"多模态",
+"肿瘤"
+],
+"reason": "病理多模态与预后预测命中偏好，但仅TCGA内部交叉验证",
+"section": "影像与病理",
+"score": 5,
+"zh_abstract": "匹配的多组学数据可以改善基于全切片图像（WSI）的生物标志物和预后预测，但现有大多数流程将组学数据作为并行特征流或文本上下文使用，而非作为显式的检索约束。HERO探讨观测到的组学数据能否成为可检验的形态学假设：稀疏的通路到形态学先验将DNA甲基化和miRNA映射为一个K维意图向量m（K=16），基于TF-IDF的检索在结构化的10条描述文本上选择与终点相关的区域，余弦门控c=cos(m,v)在c<τc时触发确定性的、由缺陷驱动的修复。这种闭环设计限制了VLM的调用次数，减少了对基于嵌入的语义匹配的依赖，并使每一步检索和验证在词汇层面均可审计。在TCGA-BRCA（930张WSI，患者层面5折交叉验证）上，HERO在ER、PR、HER2、亚型和风险预测方面均创下新的最优水平，优于多模态"
+},
+"65b76a30f732a8afd8f953402a3e6bd43c3c532d": {
+"pid": "65b76a30f732a8afd8f953402a3e6bd43c3c532d",
+"title": "Frequency-Aware Post-Training Quantization for Medical Image Denoising",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38189-7_20",
+"cites": 0,
+"zh_title": "面向医学图像去噪的频率感知训练后量化",
+"summary": "MICCAI 2026 论文，标题显示提出频率感知的训练后量化方法，用于医学图像去噪模型压缩。",
+"key_points": [],
+"tags": [
+"医学影像"
+],
+"reason": "仅有标题，信息不足，属增量档",
+"section": "影像与病理",
+"score": 3
+},
+"560539383a5e347f246602b656e6c0537c75312c": {
+"pid": "560539383a5e347f246602b656e6c0537c75312c",
+"title": "AnomExpert: Identifying and Selecting Anatomical Planes for Prenatal Ultrasound Anomaly Diagnosis",
+"abstract": "Life-limiting congenital anomalies require accurate prenatal diagnosis for appropriate clinical decision-making. Prenatal ultrasound (US) examinations involve multiple anatomical planes, and diagnosis depends on identifying anatomical planes and selecting diagnostically relevant planes for each anomaly. Existing automated methods either rely on plane-level annotations or aggregate heterogeneous images without explicitly modeling these diagnostic capabilities. We propose AnomExpert, a prototype-driven framework for prenatal US anomaly diagnosis using only case-level supervision. AnomExpert introduces learnable plane prototypes to organize unordered images into latent representations corresponding to anatomical planes without requiring plane annotations. A disease-aware sparse selection mechanism further selects diagnostically relevant planes for each anomaly. Experiments on a multi-center",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-07-15",
+"link": "https://doi.org/10.48550/arXiv.2607.13409",
+"cites": 0,
+"zh_title": "AnomExpert：产前超声异常诊断的解剖切面识别与选择",
+"summary": "提出原型驱动框架，仅用病例级监督识别解剖切面并选择与各异常相关的切面，用于产前超声异常诊断。",
+"key_points": [
+"可学习切面原型，无需切面标注",
+"疾病感知的稀疏切面选择机制",
+"在多中心数据上进行实验"
+],
+"tags": [
+"医学影像",
+"临床决策支持"
+],
+"reason": "多中心数据与弱监督设计，有新意但细节有限",
+"section": "影像与病理",
+"score": 5,
+"zh_abstract": "危及生命的先天性异常需要准确的产前诊断，以便做出恰当的临床决策。产前超声（US）检查涉及多个解剖切面，诊断取决于识别解剖切面并为每种异常选择具有诊断相关性的切面。现有自动化方法要么依赖切面级标注，要么汇集异质图像而未显式建模这些诊断能力。我们提出了AnomExpert，一种仅使用病例级监督的、由原型驱动的产前超声异常诊断框架。AnomExpert引入可学习的切面原型，将无序图像组织为对应于解剖切面的潜在表示，而无需切面标注。疾病感知的稀疏选择机制进一步为每种异常选择具有诊断相关性的切面。在一项多中心"
+},
+"4dc7bc3158d7c1951cb5f175b219f21dbf767f98": {
+"pid": "4dc7bc3158d7c1951cb5f175b219f21dbf767f98",
+"title": "Seeing Through Smoke: Surgical Desmoking for Improved Visual Perception",
+"abstract": "Minimally invasive and robot-assisted surgery relies heavily on endoscopic imaging, yet surgical smoke produced by electrocautery and vessel-sealing instruments can severely degrade visual perception and hinder vision-based functionalities. We present a transformer-based surgical desmoking model with a physics-inspired desmoking head that jointly predicts smoke-free image and corresponding smoke map. To address the scarcity of paired smoky-to-smoke-free training data, we develop a synthetic data generation pipeline that blends artificial smoke patterns with real endoscopic images, yielding over 80,000 paired samples for supervised training. We further curate, to our knowledge, the largest paired surgical smoke dataset to date, comprising 5,817 image pairs captured with the da Vinci robotic surgical system, enabling benchmarking on high-resolution endoscopic images. Extensive experiments ",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-03-26",
+"link": "https://doi.org/10.48550/arXiv.2603.25867",
+"cites": 0,
+"zh_title": "透过烟雾：用于改善视觉感知的手术去烟方法",
+"summary": "提出基于Transformer的手术去烟模型，并构建合成数据管线及含5,817对达芬奇图像的配对数据集。",
+"key_points": [
+"同时预测去烟图像与烟雾图",
+"合成生成超过8万对训练样本",
+"整理5,817对达芬奇真实配对基准数据"
+],
+"tags": [
+"手术",
+"数据集",
+"医学影像"
+],
+"reason": "新配对数据集有价值，但规模中等且缺临床结局",
+"section": "影像与病理",
+"score": 5,
+"zh_abstract": "微创和机器人辅助手术高度依赖内镜成像，然而电刀和血管闭合器械产生的手术烟雾会严重降低视觉感知，并妨碍基于视觉的功能。我们提出了一种基于 Transformer 的手术去烟模型，该模型带有受物理启发的去烟头，可联合预测无烟图像及相应的烟雾图。为解决成对的有烟—无烟训练数据稀缺的问题，我们开发了一种合成数据生成流程，将人工烟雾模式与真实内镜图像融合，生成了超过 80,000 个成对样本用于监督训练。我们进一步整理了据我们所知迄今最大的成对手术烟雾数据集，包含使用达芬奇（da Vinci）机器人手术系统采集的 5,817 对图像，可用于在高分辨率内镜图像上进行基准测试。大量实验"
+},
+"4dc4b1516362e27e2402cd0bbd697b60a3efa76d": {
+"pid": "4dc4b1516362e27e2402cd0bbd697b60a3efa76d",
+"title": "Learning to Trim: End-to-End Causal Graph Pruning with Dynamic Anatomical Feature Banks for Medical VQA",
+"abstract": "Medical Visual Question Answering (MedVQA) models often exhibit limited generalization due to reliance on dataset-specific correlations, such as recurring anatomical patterns or question-type regularities, rather than genuine diagnostic evidence. Existing causal approaches are typically implemented as static adjustments or post-hoc corrections. To address this issue, we propose a Learnable Causal Trimming (LCT) framework that integrates causal pruning into end-to-end optimization. We introduce a Dynamic Anatomical Feature Bank (DAFB), updated via a momentum mechanism, to capture global prototypes of frequent anatomical and linguistic patterns, serving as an approximation of dataset-level regularities. We further design a differentiable trimming module that estimates the dependency between instance-level representations and the global feature bank. Features highly correlated with global p",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-03-27",
+"link": "https://doi.org/10.48550/arXiv.2603.26028",
+"cites": 0,
+"zh_title": "Learning to Trim：面向医学VQA的端到端因果图剪枝与动态解剖特征库",
+"summary": "提出可学习因果修剪框架与动量更新的动态解剖特征库，以降低医学VQA对数据集相关性的依赖。",
+"key_points": [
+"动态解剖特征库捕获高频解剖与语言模式",
+"可微修剪模块估计实例与全局特征的依赖",
+"将因果剪枝纳入端到端优化"
+],
+"tags": [
+"多模态",
+"医学大模型",
+"可解释性"
+],
+"reason": "医学VQA方法有新意，摘要未见外部验证与结果数字",
+"section": "大模型与智能体",
+"score": 5,
+"zh_abstract": "医学视觉问答（MedVQA）模型常因依赖特定数据集的相关性（如反复出现的解剖模式或问题类型规律）而非真正的诊断证据，导致泛化能力有限。现有的因果方法通常以静态调整或事后校正的方式实现。为解决这一问题，我们提出了可学习因果修剪（Learnable Causal Trimming，LCT）框架，将因果剪枝整合到端到端优化中。我们引入了通过动量机制更新的动态解剖特征库（Dynamic Anatomical Feature Bank，DAFB），用于捕捉频繁出现的解剖和语言模式的全局原型，作为数据集层面规律的近似。我们进一步设计了一个可微分的修剪模块，用于估计实例级表征与全局特征库之间的依赖关系。与全局原型高度相关的特征"
+},
+"4ba237d87d32c640cf6aad5902e59d37d78c572b": {
+"pid": "4ba237d87d32c640cf6aad5902e59d37d78c572b",
+"title": "Speech-Guided Multimodal Learning for Vocal Tract Segmentation in Real-Time MRI",
+"abstract": "Segmenting vocal tract articulators in real-time MRI (rtMRI) is a challenging dynamic image segmentation problem characterized by low contrast, rapid motion, and limited spatial resolution. However, while rtMRI acquisitions may provide synchronized acoustic signals, existing methods discard this information, and the few multimodal approaches that incorporate audio cannot be deployed when audio is unavailable. We propose a three-stage framework that leverages acoustic and phonological supervision during training while requiring only the rtMRI image at inference: phonological representations are converted into spatial bounding-box priors for articulator localization, visual and acoustic encoders are aligned via dual-level cross-modal contrastive pretraining, and the learned representations are fused through a cross-attention decoder, effectively transferring multimodal knowledge into a sin",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-05-18",
+"link": "https://doi.org/10.48550/arXiv.2605.18466",
+"cites": 0,
+"zh_title": "语音引导的多模态学习用于实时MRI声道分割",
+"summary": "提出三阶段框架，训练时利用声学与音系监督，推理时仅需rtMRI图像，用于声道发音器官分割。",
+"key_points": [
+"音系表征转为空间边界框先验",
+"视觉与声学编码器双层跨模态对比预训练",
+"交叉注意力解码器融合，推理无需音频"
+],
+"tags": [
+"医学影像",
+"多模态"
+],
+"reason": "新颖多模态方法，但摘要未见外部验证，属增量档",
+"section": "影像与病理",
+"score": 4,
+"zh_abstract": "在实时磁共振成像（rtMRI）中分割声道发音器官是一个具有挑战性的动态图像分割问题，其特点是对比度低、运动快速且空间分辨率有限。然而，尽管 rtMRI 采集可能提供同步的声学信号，现有方法却舍弃了这些信息，而少数纳入音频的多模态方法在无法获得音频时又无法部署。我们提出一个三阶段框架，在训练期间利用声学和音系学监督，而推理时仅需 rtMRI 图像：将音系学表征转换为用于发音器官定位的空间边界框先验，通过双层次跨模态对比预训练对齐视觉和声学编码器，并通过交叉注意力解码器融合所学表征，从而有效地将多模态知识迁移到单"
+},
+"4864ca4b53b34bdb61233c91c51186e142a5d514": {
+"pid": "4864ca4b53b34bdb61233c91c51186e142a5d514",
+"title": "Scalable Training of Spatially Grounded 2D Vision-Language Models for Radiology",
+"abstract": "We study how to train visually grounded vision-language models (VLMs) for radiology without manual spatial annotations. We introduce RefRad2D, a large-scale bilingual (German/English) dataset of 1.2M CT and MR image-text pairs derived from clinical practice, with task-specific VQA and spatial grounding subsets generated automatically via LLM-based curation and automated segmentation. Trained on this data, our model RadGrounder jointly performs report generation, visual question answering, and spatial grounding via bounding-box detection or segmentation. On external VQA benchmarks (Slake, VQA-RAD), RadGrounder achieves competitive results with specialized medical VLMs. Adding our clinical data to the training mixture improves open-ended VQA over fine-tuning on the downstream datasets alone, showing the transferability of our dataset. Crucially, adding grounding supervision does not degrad",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-06-18",
+"link": "https://doi.org/10.48550/arXiv.2606.20477",
+"cites": 0,
+"zh_title": "面向放射学的空间定位2D视觉语言模型可扩展训练",
+"summary": "构建120万对CT/MR图文的德英双语数据集RefRad2D，训练可同时做报告生成、VQA与空间定位的RadGrounder。",
+"key_points": [
+"自动经LLM整理与分割生成定位与VQA子集",
+"在Slake、VQA-RAD外部基准上结果有竞争力",
+"加入定位监督不降低其他任务表现"
+],
+"tags": [
+"医学大模型",
+"多模态",
+"数据集"
+],
+"reason": "大规模放射VLM与数据集，命中偏好；数据是否公开未知，故5-6档上限",
+"section": "大模型与智能体",
+"score": 6,
+"zh_abstract": "我们研究如何在没有人工空间标注的情况下训练具备视觉定位能力的放射学视觉-语言模型（VLMs）。我们提出了 RefRad2D，这是一个大规模双语（德语/英语）数据集，包含来自临床实践的 120 万个 CT 和 MR 图像-文本对，并通过基于大语言模型（LLM）的整理和自动分割，自动生成了针对特定任务的视觉问答（VQA）和空间定位子集。基于这些数据训练，我们的模型 RadGrounder 可联合执行报告生成、视觉问答，以及通过边界框检测或分割进行的空间定位。在外部 VQA 基准（Slake、VQA-RAD）上，RadGrounder 取得了与专门的医学 VLM 相当的结果。将我们的临床数据加入训练混合集，相比仅在下游数据集上微调，可提升开放式 VQA 的表现，显示了我们数据集的可迁移性。至关重要的是，加入定位监督并不会降低"
+},
+"47c3a8c842098eaa6258d970e6c0d042ffbb2c46": {
+"pid": "47c3a8c842098eaa6258d970e6c0d042ffbb2c46",
+"title": "Understanding Model Behavior in Monocular Polyp Sizing",
+"abstract": "Accurate polyp size stratification guides surveillance decisions, with lesions larger than 5 mm typically requiring closer follow-up. However, monocular colonoscopy lacks a reliable metric reference. We present a diagnostic audit of binary polyp size classification (<=5 mm vs.>5 mm) across multiple public multi-center datasets, model families, and patient-stratified cross-validation. Across architectures and input modalities, including RGB appearance, relative depth, and photometry, model performance is moderately consistent, suggesting reliance on cues correlated with examination behavior rather than true metric scales. By providing ground-truth scale at varying granularities, we quantify the potential improvement from perfect scale information and show that current depth estimation and global calibration offer limited gains. We further demonstrate that segmentation errors under distrib",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-05-19",
+"link": "https://doi.org/10.48550/arXiv.2605.20461",
+"cites": 0,
+"zh_title": "单目息肉尺寸估计的模型行为分析",
+"summary": "对单目结肠镜息肉尺寸二分类（≤5mm vs >5mm）开展诊断性审计，发现模型可能依赖与检查行为相关的线索而非真实尺度。",
+"key_points": [
+"跨多个公开多中心数据集与模型族评估",
+"RGB、相对深度、光度输入表现中等且一致",
+"现有深度估计与全局校准增益有限"
+],
+"tags": [
+"医学影像",
+"可解释性"
+],
+"reason": "多公开数据集的分析性研究，有洞见但无新模型，属值得一看档",
+"section": "影像与病理",
+"score": 5,
+"zh_abstract": "准确的息肉大小分层可指导随访决策，大于 5 mm 的病变通常需要更密切的随访。然而，单目结肠镜检查缺乏可靠的度量参照。我们在多个公开的多中心数据集、多种模型家族以及按患者分层的交叉验证中，对息肉大小二分类（≤5 mm 与 >5 mm）进行了诊断性审查。在不同架构和输入模态（包括 RGB 外观、相对深度和光度信息）下，模型性能呈中等程度的一致性，提示模型依赖的是与检查行为相关的线索，而非真实的度量尺度。通过提供不同粒度的真实尺度，我们量化了完美尺度信息可能带来的改进，并表明当前的深度估计和全局校准所带来的收益有限。我们进一步证明，在分布"
+},
+"3ae01bf004ab4bbe40fabfae6c896b71bae77eeb": {
+"pid": "3ae01bf004ab4bbe40fabfae6c896b71bae77eeb",
+"title": "MiGAD: Gut Microbiota-Informed Genetic Surrogates for Multimodal Alzheimer's Disease Diagnosis",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38098-2_42",
+"cites": 0,
+"zh_title": "MiGAD：肠道菌群引导的遗传替代用于多模态阿尔茨海默病诊断",
+"summary": "仅有标题，涉及肠道菌群信息、遗传替代与多模态阿尔茨海默病诊断。",
+"key_points": [],
+"tags": [
+"多模态",
+"神经科学"
+],
+"reason": "仅标题，信息不足，按增量档处理",
+"section": "临床预测与决策",
+"score": 4
+},
+"39f17b3e000e9732baeaf3b3f6fb64059eb5925e": {
+"pid": "39f17b3e000e9732baeaf3b3f6fb64059eb5925e",
+"title": "Human-in-the-Loop Multi-Agent Ventilator Decision Support with Contextual Bandit Preference Learning",
+"abstract": "Ventilator decision support requires sequential decisions that track evolving physiology and disease trajectories while respecting safety boundaries and clinician specific tuning styles. Rule based approaches rarely generalize personalization, and end to end reinforcement learning or single large language model systems remain difficult to control and audit. We propose the Ventilator Decision Support System (VDSS), a human in the loop multi agent framework that coordinates modular decision components through contract driven structured interfaces and produces traceable evidence for review. VDSS performs online preference adaptation with a contextual bandit, updating clinician specific preferences from the final accepted decision at each adjustment cycle and using them to guide subsequent recommendations. Structured rejection feedback triggers targeted replanning to reduce unproductive iter",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-05-22",
+"link": "https://doi.org/10.48550/arXiv.2605.23320",
+"cites": 0,
+"zh_title": "带上下文赌博机偏好学习的人在回路多智能体呼吸机决策支持",
+"summary": "提出VDSS多智能体框架，通过结构化接口生成可追溯证据，并用上下文赌博机在线适应医生个人偏好。",
+"key_points": [
+"模块化组件经契约式结构化接口协同",
+"依据医生最终采纳决策更新偏好",
+"拒绝反馈触发针对性重新规划"
+],
+"tags": [
+"智能体",
+"临床决策支持"
+],
+"reason": "ICU智能体与人机协作设计新颖，但摘要未见临床验证",
+"section": "临床预测与决策",
+"score": 5,
+"zh_abstract": "呼吸机决策支持需要能够追踪不断变化的生理状态和疾病轨迹、同时遵守安全边界并适应临床医生个人调节风格的序贯决策。基于规则的方法很难实现个性化泛化，而端到端强化学习或单一大语言模型系统仍难以控制和审计。我们提出了呼吸机决策支持系统（Ventilator Decision Support System，VDSS），这是一种人在回路的多智能体框架，通过契约驱动的结构化接口协调模块化决策组件，并生成可供审查的可追溯证据。VDSS 使用上下文赌博机（contextual bandit）进行在线偏好适应，在每个调整周期根据最终被接受的决策更新特定临床医生的偏好，并利用这些偏好指导后续推荐。结构化的拒绝反馈会触发有针对性的重新规划，以减少无效迭代"
+},
+"2f12d36dc3bded31d4ea2f1128004d10351ab6cb": {
+"pid": "2f12d36dc3bded31d4ea2f1128004d10351ab6cb",
+"title": "SurgZSD: Zero-Shot Surgical Action Triplet Detection via Attribute Composition and Clinical Feasibility Inference",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38233-7_55",
+"cites": 0,
+"zh_title": "SurgZSD：基于属性组合与临床可行性推理的零样本手术动作三元组检测",
+"summary": "仅有标题，涉及零样本手术动作三元组检测，采用属性组合与临床可行性推理。",
+"key_points": [],
+"tags": [
+"手术",
+"医学影像"
+],
+"reason": "仅标题，信息不足，按增量档处理",
+"section": "影像与病理",
+"score": 4
+},
+"2d6b0ea46738333bc42d2a0b42435d53e49a368f": {
+"pid": "2d6b0ea46738333bc42d2a0b42435d53e49a368f",
+"title": "R-MSA: Rhythm-Conditioned Surgical Video Skill Assessment via Morphology Synchronization and Uncertainty Calibration",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38233-7_38",
+"cites": 0,
+"zh_title": "R-MSA：节律条件化的手术视频技能评估",
+"summary": "仅有标题，涉及基于形态同步与不确定性校准的手术视频技能评估。",
+"key_points": [],
+"tags": [
+"手术",
+"医学影像"
+],
+"reason": "仅标题，信息不足，按增量档处理",
+"section": "影像与病理",
+"score": 4
+},
+"204616bcdb36d159b1637edde05a281ec9addc42": {
+"pid": "204616bcdb36d159b1637edde05a281ec9addc42",
+"title": "EdgeCVS: Democratization of Surgical AI with a Distilled Edge-Deployable Critical View of Safety (CVS) Model",
+"abstract": "",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-01-01",
+"link": "https://doi.org/10.1007/978-3-032-38233-7_13",
+"cites": 0,
+"zh_title": "EdgeCVS：蒸馏的可边缘部署安全视野（CVS）手术AI模型",
+"summary": "仅有标题，涉及用于手术安全视野（CVS）评估的蒸馏式边缘可部署模型。",
+"key_points": [],
+"tags": [
+"手术",
+"医学影像"
+],
+"reason": "仅标题，信息不足，按增量档处理",
+"section": "影像与病理",
+"score": 4
+},
+"0a109a55d8042d9769bb21c3f310c01764ef26ce": {
+"pid": "0a109a55d8042d9769bb21c3f310c01764ef26ce",
+"title": "GLeVE: Graph-Guided Lesion Grounding with Proposal Verification in 3D CT",
+"abstract": "Grounding radiology report descriptions to 3D CT volumes is essential for verifiable clinical interpretation, yet remains challenging due to the semantic-spatial gap between free-text narratives and volumetric anatomy. Existing report-assisted and vision-language grounding methods typically rely on phrase-level alignment or dense pixel supervision, resulting in limited lesion-wise correspondence and suboptimal localization accuracy. We propose GLeVE, a graph-guided lesion grounding framework with anatomical prior verification and octree-based autoregressive refinement. GLeVE treats each lesion description as an atomic semantic unit and encodes organ attribution, attributes, and inter-lesion relations through relation-aware graph reasoning to produce discriminative lesion-wise queries. Anatomy-aware proposal generation with region-level verification enforces one-to-one text-lesion alignme",
+"conf": "MICCAI",
+"rank": "CCF-B",
+"conf_label": "MICCAI 2026",
+"year": 2026,
+"date": "2026-05-21",
+"link": "https://doi.org/10.48550/arXiv.2605.22619",
+"cites": 0,
+"zh_title": "GLeVE：基于图引导与候选验证的3D CT病灶定位",
+"summary": "提出图引导病灶定位框架GLeVE，把报告中的每条病灶描述作为语义单元，结合解剖先验验证与八叉树自回归细化，实现文本到3D CT病灶的一一对应。",
+"key_points": [
+"以病灶描述为原子单元，用关系感知图推理生成病灶级查询",
+"解剖感知候选生成加区域级验证，强制文本与病灶一一对齐",
+"采用八叉树自回归方式细化定位"
+],
+"tags": [
+"医学影像",
+"多模态"
+],
+"reason": "新颖的3D CT报告-病灶定位方法，摘要未见外部验证与结果，属值得一看档；视觉语言方向略加分",
+"section": "影像与病理",
+"score": 5,
+"zh_abstract": "将放射学报告中的描述与三维 CT 容积进行对应（grounding）对于可验证的临床解读至关重要，但由于自由文本叙述与容积解剖结构之间存在语义-空间鸿沟，这一任务仍具挑战性。现有的报告辅助和视觉-语言定位方法通常依赖短语级对齐或密集像素监督，导致病灶层面的对应关系有限，定位精度欠佳。我们提出 GLeVE，一种结合解剖先验验证和基于八叉树的自回归精细化的图引导病灶定位框架。GLeVE 将每条病灶描述视为一个原子语义单元，通过关系感知的图推理对器官归属、属性及病灶间关系进行编码，从而生成具有区分性的病灶级查询。结合区域级验证的解剖感知候选框生成，确保文本与病灶之间的一一对齐"
 }
 }

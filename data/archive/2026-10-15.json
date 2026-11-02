@@ -297,7 +297,13 @@
 "2026-10-20",
 "2026-10-21"
 ],
-"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty",
+"also": [
+{
+"source": "NEJM AI",
+"link": "https://www.nejm.org/doi/full/10.1056/AIp2600773?af=R&rss=currentIssue"
+}
+]
 },
 {
 "title": "Confido Health nabs $12.5M to scale agentic AI across PE-backed medical groups",

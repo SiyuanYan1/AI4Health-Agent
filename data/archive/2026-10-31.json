@@ -172,7 +172,8 @@
 "abstract_days": [
 "2026-10-31",
 "2026-11-01",
-"2026-11-02"
+"2026-11-02",
+"2026-11-03"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -318,7 +319,8 @@
 "abstract_days": [
 "2026-10-31",
 "2026-11-01",
-"2026-11-02"
+"2026-11-02",
+"2026-11-03"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -2944,6 +2946,10 @@
 {
 "source": "搜狐网",
 "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX2RJbXNXamxfSWFBMWRKOFFRRmlXWWk3MjRsc2pHcEl3NXRnQW5TZXNzWURDZEQyZWtkZS1yWGU2YkIyZkQ2M2lHdzhrUVRaUWMzSDBGeEtxenVWTm56czBXUHpSOXlvMm5RUHN1dk1MSlVkSnlHdXJaSF9xbVRvYnZ2RDI2Q0RKYTFRalJ1dw?oc=5"
+},
+{
+"source": "新浪财经",
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84bV9QckZwbDEtSEdobnpMOU1GLUZ0aWdpTUFGVmRtOWhSMlFRb3pMSGxfZFo3TS0zZ2hzZm9pbGx0QTFXYUtQYUdOYnBWakxocVJOY2pFbEhWS25FQkV4Nk5lNllDYjhYazVyeS1UaXpocjFFQks1Qw?oc=5"
 }
 ]
 },

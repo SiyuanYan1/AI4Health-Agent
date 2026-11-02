@@ -35,7 +35,13 @@
 "2026-10-31",
 "2026-11-01"
 ],
-"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty",
+"also": [
+{
+"source": "NEJM AI",
+"link": "https://www.nejm.org/doi/full/10.1056/AIx2601335?af=R&rss=currentIssue"
+}
+]
 },
 {
 "title": "Anatomy-informed multi-task framework for visceral artery aneurysm screening on non-contrast CT",

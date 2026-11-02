@@ -100,7 +100,8 @@
 "day": "2026-11-02",
 "rank": 11.0,
 "abstract_days": [
-"2026-11-02"
+"2026-11-02",
+"2026-11-03"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -174,6 +175,41 @@
 "abstract": "Generating clinical synthetic text represents an effective solution for common clinical NLP issues like sparsity and privacy. This paper aims to conduct a systematic review on generating synthetic medical free-text by formulating quantitative analysis to three research questions concerning (i) the purpose of generation, (ii) the techniques, and (iii) the evaluation methods. We searched PubMed, ScienceDirect, Web of Science, Scopus, IEEE, Google Scholar, and arXiv databases for publications associated with generating synthetic medical unstructured free-text. We have identified 94 relevant articles out of 1,398 collected ones. A great deal of attention has been given to the generation of synthetic medical text from 2018 onwards, where the main purpose of such a generation is towards text augmentation, assistive writing, corpus building, privacy-preserving, annotation, and usefulness. Transformer architectures were the main predominant technique used to generate the text, especially the GPTs. On the other hand, there were four main aspects of evaluation, including similarity, privacy, structure, and utility, where utility was the most frequent method used to assess the generated synthetic medical text. Although the generated synthetic medical text demonstrated a moderate possibility to act as real medical documents in different downstream NLP tasks, it has proven to be a great asset as augmented, complementary to the real documents, towards improving the accuracy and overcoming sparsity/undersampling issues. Yet, privacy is still a major issue behind generating synthetic medical text, where more human assessments are needed to check for the existence of any sensitive information. Despite that, advances in generating synthetic medical text will considerably accelerate the adoption of workflows and pipeline development, discarding the time-consuming legalities of data transfer."
 },
 {
+"title": "AI-HistoPS: decoding proteomic heterogeneity with subtype resolution from histopathology in liver metastases",
+"link": "https://www.nature.com/articles/s41698-026-01752-z",
+"date": "2026-10-31T00:00:00+00:00",
+"source": "npj Precision Oncology",
+"source_group": "npj Precision Oncology",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41698-026-01752-z",
+"pop": null,
+"id": "7572b4f0aaed",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "AI-HistoPS：从病理切片推断肝转移蛋白质组亚型",
+"summary": "AI-HistoPS 结合病理基础模型表征与智能体介导的多实例学习，从 H&E 全切片图像推断肝转移灶的蛋白质组亚型（LMS1-3），并分析其形态学关联。",
+"key_points": [
+"整合病理基础模型与智能体式多实例学习",
+"使用多中心、多原发肿瘤类型的肝转移队列",
+"关联组织形态、肿瘤微环境与三种蛋白质组亚型"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"病理",
+"肿瘤",
+"医学大模型"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "肝转移病理基础模型方法，多中心队列但摘要缺外部验证与样本量，属值得一看档，偏好上调",
+"day": "2026-11-02",
+"rank": 9.64,
+"abstract": "Liver metastasis is a lethal manifestation of diverse malignancies, but its molecular heterogeneity is not readily captured by routine histopathology. Proteomic profiling has identified functional states of metastatic lesions, although their histomorphological and tumor microenvironmental correlates remain incompletely understood. Here, we developed AI-HistoPS, a computational pathology framework for inferring proteomics-informed states from H&E-stained whole slide images. AI-HistoPS integrates pathology foundation model representations with agent-mediated multiple instance learning to capture subtype-associated morphological patterns. Using multicentre cohorts of liver metastases from multiple primary tumor types, we evaluated associations between histomorphology and three proteomic liver metastasis subtypes (LMS1-3). These states were associated with differences in tumor architecture, stromal composition, and immune cell distribution. AI-HistoPS showed subtype discrimination in the discovery cohort and was evaluated across external cohorts, demonstrating the feasibility of histology-derived representations for proteomics-informed stratification across heterogeneous clinical settings. Attention-guided analyses identified tissue regions associated with subtype-related morphological and microenvironmental features. Multiplex immunohistochemistry supported spatial associations between histological patterns and subtype-related protein markers. These findings suggest that routine histopathology may provide a lower-cost approach for approximating proteomics-informed stratification of liver metastases. Further validation in larger, more diverse, prospectively collected cohorts is required before clinical implementation or use in prognostic or treatment-related decision-making.",
+"zh_abstract": "肝转移是多种恶性肿瘤的致死性表现，但其分子异质性难以通过常规组织病理学充分体现。蛋白质组学分析已识别出转移灶的功能状态，然而其组织形态学及肿瘤微环境相关特征仍未被完全阐明。在此，我们开发了 AI-HistoPS，这是一种计算病理学框架，可从 H&E 染色的全切片图像推断蛋白质组学相关状态。AI-HistoPS 将病理基础模型（pathology foundation model）的表征与智能体介导的多示例学习（agent-mediated multiple instance learning）相结合，以捕捉与亚型相关的形态学模式。我们利用来自多种原发肿瘤类型的肝转移多中心队列，评估了组织形态学与三种蛋白质组学肝转移亚型（LMS1-3）之间的关联。这些状态与肿瘤结构、基质组成和免疫细胞分布的差异相关。AI-HistoPS 在发现队列中显示出亚型区分能力，并在外部队列中进行了评估，表明在异质性临床环境中，利用组织学来源的表征进行蛋白质组学相关分层是可行的。基于注意力引导的分析识别出与亚型相关的形态学和微环境特征相关的组织区域。多重免疫组化支持组织学模式与亚型相关蛋白标志物之间存在空间关联。这些发现提示，常规组织病理学可能为近似实现肝转移的蛋白质组学相关分层提供一种成本更低的方法。在临床应用或用于预后及治疗相关决策之前，仍需在更大规模、更具多样性、前瞻性收集的队列中进一步验证。"
+},
+{
 "title": "A latent ODE approach to full-cycle biventricular cardiac motion modeling from cine MRI",
 "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004457?dgcid=rss_sd_all",
 "date": "2026-11-02T02:00:29.710717+00:00",
@@ -205,7 +241,8 @@
 "day": "2026-11-02",
 "rank": 10.0,
 "abstract_days": [
-"2026-11-02"
+"2026-11-02",
+"2026-11-03"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -241,7 +278,8 @@
 "day": "2026-11-02",
 "rank": 10.0,
 "abstract_days": [
-"2026-11-02"
+"2026-11-02",
+"2026-11-03"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -278,43 +316,6 @@
 "day": "2026-11-02",
 "rank": 9.85,
 "zh_abstract": "[Annals of noninvasive electrocardiology:国际动态心电图与无创心电学学会官方期刊] 左心室收缩功能障碍(LVSD)常见且可治疗,但常未被诊断,尤其是在症状无特异性的早期阶段。将人工智能应用于标准心电图可为低射血分数(EF)提供低成本筛查,但其对诊断的实际影响仍不明确。一项针对随机对照试验(RCT)的系统评价和荟萃分析评估了AI-ECG筛查低EF在临床实践中的作用。研究方案已在PROSPERO注册(CRD420261287652)。检索了PubMed、Scopus、Cochrane Central和Google Scholar自建库至2026年1月18日的数据库,纳入比较AI-ECG筛查与常规诊疗、研究对象为接受常规心电图检查且无已知心力衰竭的成人的RCT。主要结局为经超声心动图确认的新发低EF(≤50%)。次要结局包括超声心动图转诊率、阳性预测值和心脏科转诊率。采用随机效应模型计算合并风险比(RR)及95% CI。共纳入3项RCT(2项个体随机、1项整群随机),共37,467名参与者。校正聚集效应后,与常规诊疗相比,AI-ECG筛查显著提高了新发低EF诊断的检出率(RR 1.36,95% CI 1.12至1.64;p = 0.002;I2 = 0%),需筛查人数为204。超声心动图转诊率无显著差异(RR 1.02,95% CI 0.96至1.09;p = 0.55;I2 = 36%)。各研究中该AI工具的阳性预测值约为20%至34%。在常规诊疗基础上增加AI-ECG筛查可提高低EF的检出率,且不会明显增加超声心动图转诊。这些结果支持在高危人群中使用AI-ECG以更早发现LVSD,但仍需在不同AI平台上进一步验证。"
-},
-{
-"title": "AI-HistoPS: decoding proteomic heterogeneity with subtype resolution from histopathology in liver metastases",
-"link": "https://www.nature.com/articles/s41698-026-01752-z",
-"date": "2026-10-31T00:00:00+00:00",
-"source": "npj Precision Oncology",
-"source_group": "npj Precision Oncology",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41698-026-01752-z",
-"pop": null,
-"id": "7572b4f0aaed",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "AI-HistoPS：从组织病理推断肝转移瘤的亚型分辨蛋白质组异质性",
-"summary": "npj Precision Oncology 论文，利用 AI 从组织病理图像解析肝转移瘤的蛋白质组异质性并实现亚型分辨；仅有标题信息。",
-"key_points": [
-"对象为肝转移瘤",
-"输入为组织病理图像",
-"目标为推断蛋白质组异质性"
-],
-"section": "影像与病理",
-"type": "论文",
-"tags": [
-"病理",
-"肿瘤",
-"多模态"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "病理结合转移瘤与蛋白质组，方向相关；验证信息缺失，属值得一看档",
-"day": "2026-11-02",
-"rank": 9.64,
-"abstract_days": [
-"2026-11-02"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "国家药监局印发《医疗器械生产质量管理规范独立软件检查指导原则》",
@@ -1902,6 +1903,12 @@
 "abstract": "Calculates Levine PhenoAge biological age, aging acceleration velocity, and clinical intervention priorities from standard blood biomarkers. (language: Python, homepage: , topics: ai-agent, genpark, mcp, mcp-server, model-context-protocol, openclaw, personal-agent, production-ready, productivity, python, wellness, zero-dependency)",
 "day": "2026-11-02",
 "rank": 5.35,
-"zh_abstract": "根据标准血液生物标志物计算 Levine PhenoAge 生物学年龄、衰老加速速度和临床干预优先级。（语言：Python，主页：空，主题：ai-agent、genpark、mcp、mcp-server、model-context-protocol、openclaw、personal-agent、production-ready、productivity、python、wellness、zero-dependency）"
+"zh_abstract": "根据标准血液生物标志物计算 Levine PhenoAge 生物学年龄、衰老加速速度和临床干预优先级。（语言：Python，主页：空，主题：ai-agent、genpark、mcp、mcp-server、model-context-protocol、openclaw、personal-agent、production-ready、productivity、python、wellness、zero-dependency）",
+"also": [
+{
+"source": "GitHub",
+"link": "https://github.com/Alpha-Park/genpark-personal-agent-longevity-biomarker-velocity-skill"
+}
+]
 }
 ]

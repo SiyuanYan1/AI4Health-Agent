@@ -208,7 +208,8 @@
 "2026-10-30",
 "2026-10-31",
 "2026-11-01",
-"2026-11-02"
+"2026-11-02",
+"2026-11-03"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -829,7 +830,13 @@
 "abstract": "[Psychology research and behavior management] Associations of artificial intelligence (AI) tool use with concurrent depressive and anxiety symptoms among rural university students remain uncertain. We explored associations of any AI tool use experience with depression-anxiety symptom profiles. This cross-sectional survey included 1529 students with rural household registration from three universities in Zhejiang, China. GAD-7 and PHQ-9 scores informed latent profile analysis; five conceptually ordered multinomial models compared profile membership with the low-symptom profile. The profiles comprised low symptoms (n=896; 58.6%), anxiety-predominant symptoms (n=587; 38.4%), and depression-predominant symptoms (n=46; 3.0%). In the reported fully adjusted model, AI use experience was associated with lower odds of anxiety-predominant membership (OR=0.764, 95% CI 0.654-0.893) and depression-predominant membership (OR=0.239, 95% CI 0.101-0.566) compared with low-symptom membership. AI use experience and symptom patterns were associated in this exploratory sample. These observations warrant longitudinal assessment with more detailed measures of AI engagement.",
 "day": "2026-10-29",
 "rank": 6.6,
-"zh_abstract": "[心理学研究与行为管理] 农村大学生使用人工智能（AI）工具与同时存在的抑郁和焦虑症状之间的关联仍不明确。我们探讨了任何 AI 工具使用经历与抑郁-焦虑症状类型之间的关联。这项横断面调查纳入了来自中国浙江三所大学的 1529 名农村户籍学生。以 GAD-7 和 PHQ-9 得分进行潜在剖面分析；采用五个概念上有序的多项模型，将各剖面的归属与低症状剖面进行比较。这些剖面包括低症状型（n=896；58.6%）、焦虑为主型（n=587；38.4%）和抑郁为主型（n=46；3.0%）。在报告的完全调整模型中，与低症状型相比，有 AI 使用经历与归入焦虑为主型的较低几率相关（OR=0.764，95% CI 0.654-0.893），也与归入抑郁为主型的较低几率相关（OR=0.239，95% CI 0.101-0.566）。在这一探索性样本中，AI 使用经历与症状模式存在关联。这些观察结果值得通过纵向研究并采用更详细的 AI 使用程度测量方法加以评估。"
+"zh_abstract": "[心理学研究与行为管理] 农村大学生使用人工智能（AI）工具与同时存在的抑郁和焦虑症状之间的关联仍不明确。我们探讨了任何 AI 工具使用经历与抑郁-焦虑症状类型之间的关联。这项横断面调查纳入了来自中国浙江三所大学的 1529 名农村户籍学生。以 GAD-7 和 PHQ-9 得分进行潜在剖面分析；采用五个概念上有序的多项模型，将各剖面的归属与低症状剖面进行比较。这些剖面包括低症状型（n=896；58.6%）、焦虑为主型（n=587；38.4%）和抑郁为主型（n=46；3.0%）。在报告的完全调整模型中，与低症状型相比，有 AI 使用经历与归入焦虑为主型的较低几率相关（OR=0.764，95% CI 0.654-0.893），也与归入抑郁为主型的较低几率相关（OR=0.239，95% CI 0.101-0.566）。在这一探索性样本中，AI 使用经历与症状模式存在关联。这些观察结果值得通过纵向研究并采用更详细的 AI 使用程度测量方法加以评估。",
+"also": [
+{
+"source": "PubMed · Frontiers in psychology",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42964234/"
+}
+]
 },
 {
 "title": "When AI Becomes a Medical Device: FDA Boundaries for Patient-Facing Health Tools",
@@ -997,7 +1004,13 @@
 "score": 2,
 "reason": "仅标题的行业观点，信息有限",
 "day": "2026-10-29",
-"rank": 4.31
+"rank": 4.31,
+"also": [
+{
+"source": "搜狐网",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5rQ0pJRnhoaUtoamhLeVVHTy02UTdMMm5DNFRfNEhGbVBjaHFyZE1ZbmEzOWhrUWM2Z1oyMUFJTTZqZmgxLU9pN2JfcWVlSmtlY1FZ?oc=5"
+}
+]
 },
 {
 "title": "一堂医疗AI产业硬核课，一场18强同台较量——医工创谷创新影像与AI辅助诊断专场赛收官",
