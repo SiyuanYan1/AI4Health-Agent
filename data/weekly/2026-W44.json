@@ -1,0 +1,109 @@
+{
+ "week": "2026-W44",
+ "range": "2026-10-26 ~ 2026-11-01",
+ "partial": false,
+ "generated": "2026-11-02T07:01:00.833067+00:00",
+ "summary": "本周基础模型与智能体系统继续向多场景、跨机构扩展。Nature Medicine 报道的 EVLF-FM 覆盖六个专科、十种影像模态，支持诊断、视觉问答和像素级定位，开发使用130万+样本，外部验证用了13,443例独立样本 [1]。Nature Cancer 的两项研究关注基于大语言模型的智能体系统识别免疫相关不良事件：该系统可在前瞻性收集的临床记录中完成识别，并使人工审阅更快、更一致 [12]；另一项研究从病历提取六类 irAE 信息，评估涵盖回顾性分析、前瞻性静默部署和试验人员随机交叉研究 [13]。预印本方面，TRACER 基于四个医疗系统逾450万患者预训练，在两个未参与开发的系统、逾200万患者中评估16种新发疾病；FOCUS 在27,930张冰冻切片 WSI 上预训练，在术中中枢神经系统病理任务中表现领先。这两项均未经同行评审，结论有待正式评审确认 [16][15]。\n\n影像与病理仍是成果最集中的方向，其中骨折检测的证据最为丰富。一项伞状综述纳入50项系统综述/meta分析，其中21项进入二阶汇总，AI 合并敏感性为0.897（95% CI 0.882–0.911）[6]。在单家急诊科三个月的前瞻部署中，13名放射技师对2496例检查配对阅片，AI 独立敏感性为75.6%，辅助后技师准确率由97.6%小幅升至98.0% [4]。病理与眼科方面，GTMA 将全切片图像建模为空间图，所得风险评分在1871例队列和 TCGA-STAD（213例）中提供了独立于 TNM 分期的预后信息 [10]。MorphX 在独立队列中识别出八种形态学标志物 [19]。FFA-RGNet 在2651例患者25,312张图像上训练，内部测试 F1 为95.38% [5]。\n\n落地与监管层面的证据提示，从模型到实践仍有距离。对1072个2017–2019年机器学习临床预测模型的元流行病学分析显示，88.1%缺乏后续转化，仅9.9%做过外部验证，5.2%进入临床实施 [14]。已部署的系统则呈现具体收益：新加坡七家诊所的准实验研究中，MR-AI 每周扫描约2.5万份病历，漏转诊检出量约提升七倍 [3]。MMC+ 框架面向医学影像 AI 的实时漂移监测，并以 MGH 新冠期间数据验证 [18]。德国 MIRACUM 联盟6家大学医院则采用分段中断时间序列设计，评估两种临床试验招募支持系统启用前后的入组情况 [11]。糖尿病足溃疡的可解释预后系统经多中心推导验证并有前瞻随机评估，但其复发估计需谨慎解读 [7]。\n\n在生命科学与数字健康方面，一项涉及189例原发结直肠癌的单核 RNA 测序图谱发现，微卫星稳定型早发肿瘤的基质比例升高、上皮比例降低 [8]。Cell Metabolism 的研究提出 MetLLM 与含3,900个候选的 MetSpace，经粪便质谱确认多种新胆汁酸，并在体外验证 MS2141 调控 M2 受体相关信号 [17]。Nature Medicine 另有研究构建数字孪生框架，用于安全评估药物对免疫系统及分娩时间的影响 [20]。睡眠分期方面，AnySleep 在28个数据集、超2万条整夜记录上训练和验证，表现达到或优于现有方法 [2]。此外，PSMA PET/CT 与 mpMRI 融合诊断临床显著前列腺癌的多中心基准研究目前仅有标题级信息，本期不作展开 [9]。",
+ "items": [
+  {
+   "title": "EVLF-FM：具细粒度可解释性的临床多模态视觉语言基础模型",
+   "link": "https://www.nature.com/articles/s41591-026-04655-5",
+   "source": "Nature Medicine"
+  },
+  {
+   "title": "AnySleep：跨通道通用的多中心高分辨率睡眠分期系统",
+   "link": "https://www.nature.com/articles/s41746-026-03406-7",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "初级保健漏转诊AI安全系统的准确性与影响",
+   "link": "https://www.nature.com/articles/s41746-026-03444-1",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "急诊科前瞻性使用中放射技师有无AI辅助的骨折检测",
+   "link": "https://www.nature.com/articles/s41746-026-03313-x",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "可解释图推理框架用于荧光素眼底血管造影诊断",
+   "link": "https://www.nature.com/articles/s41746-026-03428-1",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "AI骨折检测性能：伞状综述与二阶meta分析",
+   "link": "https://www.nature.com/articles/s41746-026-03303-z",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "糖尿病足溃疡预后评估可解释AI系统：多中心推导验证与前瞻随机评估",
+   "link": "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(26)00537-7/fulltext?rss=yes",
+   "source": "eClinicalMedicine"
+  },
+  {
+   "title": "跨年龄结直肠癌单核RNA测序图谱解析早发性结直肠癌",
+   "link": "https://www.nature.com/articles/s41591-026-04721-y",
+   "source": "Nature Medicine"
+  },
+  {
+   "title": "PSMA PET/CT与mpMRI融合诊断临床显著前列腺癌的多中心基准",
+   "link": "https://www.nature.com/articles/s41746-026-03358-y",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "基于可解释图学习的胃癌病理TME空间模式预后模型",
+   "link": "https://www.nature.com/articles/s41746-026-03398-4",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "IT支持的患者招募平台评估与经验总结",
+   "link": "https://www.nature.com/articles/s41746-026-03366-y",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "真实世界中AI检测免疫治疗不良事件",
+   "link": "https://www.nature.com/articles/s43018-026-01258-4",
+   "source": "Nature Cancer"
+  },
+  {
+   "title": "智能体AI系统在多阶段验证中提升免疫相关不良事件的临床检出",
+   "link": "https://www.nature.com/articles/s43018-026-01264-6",
+   "source": "Nature Cancer"
+  },
+  {
+   "title": "临床预测模型外部验证与落地的系统综述",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42962244/",
+   "source": "PubMed · Journal of the American Medical Informatics Association : JAMIA"
+  },
+  {
+   "title": "FOCUS：术中中枢神经系统病理亚专科基础模型",
+   "link": "https://arxiv.org/abs/2610.16914",
+   "source": "arXiv"
+  },
+  {
+   "title": "TRACER：跨医疗系统疾病检测的时间-事件EHR基础模型",
+   "link": "https://arxiv.org/abs/2610.40536",
+   "source": "arXiv"
+  },
+  {
+   "title": "AI引导的人类胆汁酸图谱发现与扩展",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42945968/",
+   "source": "PubMed · Cell metabolism"
+  },
+  {
+   "title": "医学影像AI的可扩展漂移监测",
+   "link": "https://www.nature.com/articles/s41746-026-03301-1",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "MorphX：可解释深度学习将空间形态表型映射至肝癌与肺腺癌生存",
+   "link": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00543-4?rss=yes",
+   "source": "Cell Reports Medicine"
+  },
+  {
+   "title": "应用数字孪生预防早产",
+   "link": "https://www.nature.com/articles/d41591-026-00056-w",
+   "source": "Nature Medicine"
+  }
+ ]
+}
