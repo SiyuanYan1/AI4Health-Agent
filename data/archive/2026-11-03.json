@@ -1,5 +1,40 @@
 [
 {
+"title": "Predicting different dimensions of fatigue from speech data: a longitudinal study in shift workers",
+"link": "https://www.nature.com/articles/s41746-026-03437-0",
+"date": "2026-11-03T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03437-0",
+"pop": null,
+"id": "81e647f4c6d2",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "基于语音数据预测倒班工人疲劳的多维度纵向研究",
+"summary": "在六国1197名倒班工人中，每日两次、持续两周采集语音，用副语言特征预测急性与慢性疲劳，并在留出数据上评估。",
+"key_points": [
+"N=1,197，来自六个国家的多语言队列",
+"密集纵向设计，每日两次测量，为期两周",
+"同时报告整体模型与个体化模型的结果"
+],
+"section": "数字健康",
+"type": "论文",
+"tags": [
+"数字健康",
+"生理信号",
+"临床预测"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "大样本多国纵向队列，但仅留出数据评估、无独立外部验证，属值得一看档",
+"day": "2026-11-03",
+"rank": 10.0,
+"abstract": "ABSTRACT Background Shift work, or working outside of normal circadian cycles, is associated with both experience of fatigue and poorer long-term physical and mental health. However, current methods for assessing fatigue present several barriers to building understanding of how these risks develop over time within individuals. Objective Here, we explore the potential of momentary speech activity-based fatigue measurement in a large, multi-lingual cohort of shift workers, using an intensive longitudinal study design (twice-daily measurement over two weeks in N =1,197 individuals from six different countries). Methods Paralinguistic speech features were used to predict different aspects of acute and chronic fatigue at each study time-point, with performance assessed in unseen (held-out) data. Results are reported both across the dataset as a whole, and for user-specific prediction models. Findings In the cross-sectional analysis, good (close to or exceeding current state-of-the-art) performance was achieved for both current sleep deprivation and self-reported sleepiness levels. The within-user analysis revealed robust increases in performance, yielding the ability to detect more subjective aspects of fatigue such as pervasive physical and mental exhaustion. Conclusions These findings offer preliminary support for the utility of using brief momentary speech samples as a low-burden, acceptable, and reliable measure of different aspects of fatigue in high-risk populations such as shift workers. Clinical Implications Developing brief, accessible measures of different dimensions of fatigue is an important step towards building understanding of how risks for poorer health outcomes develop over time within individuals exposed to significant circadian disruption. Summary What is already known on this topic Previous studies have indicated that speech data may be a promising source of information about fatigue: however to date these have primarily been carried out in small, unrepresentative samples and in non-naturalistic settings, making results hard to generalize. What this study adds Here, we present evidence from a large international study where participants both provided momentary speech activity data and reported levels of different aspects of fatigue, as they went about their usual working lives. Importantly, we use a modelling framework that explicitly takes into account potential influences of factors such as age, sex, and language on speech features and tar",
+"zh_abstract": "【摘要】【背景】轮班工作，即在正常昼夜节律周期之外工作，与疲劳体验以及较差的长期身心健康相关。然而，目前评估疲劳的方法存在若干障碍，难以了解这些风险如何在个体内随时间发展。【目的】本研究采用密集纵向研究设计（在来自六个不同国家的 N = 1,197 名个体中，两周内每日测量两次），探索基于即时语音活动的疲劳测量在大型多语言轮班工作者队列中的潜力。【方法】利用副语言语音特征预测每个研究时间点上急性和慢性疲劳的不同方面，并在未见过（留出）的数据中评估性能。结果既报告整个数据集的情况，也报告针对用户个体的预测模型。【结果】在横断面分析中，对于当前睡眠剥夺和自我报告的嗜睡程度均取得了良好的性能（接近或超过目前的最先进水平）。个体内分析显示性能显著提升，能够检测疲劳中更主观的方面，如普遍存在的身体和精神衰竭。【结论】这些发现初步支持将简短的即时语音样本作为一种低负担、可接受且可靠的方法，用于测量轮班工作者等高风险人群疲劳的不同方面。【临床意义】开发简短、易获取的疲劳不同维度的测量方法，是了解暴露于显著昼夜节律紊乱的个体其不良健康结局风险如何随时间发展的重要一步。【摘要要点】关于该主题已知的内容：既往研究表明，语音数据可能是有关疲劳的有前景的信息来源；然而迄今这些研究主要在小规模、缺乏代表性的样本和非自然情境中进行，使结果难以推广。本研究的新增内容：我们提供了一项大型国际研究的证据，参与者在日常工作生活中既提供即时语音活动数据，又报告疲劳不同方面的水平。重要的是，我们采用的建模框架明确考虑了年龄、性别和语言等因素对语音特征和目标的潜在影响"
+},
+{
 "title": "Re-timing mortality risk through individualized modelling of lifespan trajectories",
 "link": "https://www.nature.com/articles/s41551-026-01822-4",
 "date": "2026-11-02T00:00:00+00:00",
@@ -31,10 +66,8 @@
 "reason": "眼科影像预后预测有新意，但摘要未给出外部验证信息，属值得一看档",
 "day": "2026-11-03",
 "rank": 11.81,
-"abstract_days": [
-"2026-11-03"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract": "There is an urgent global need for affordable, large-scale health screening to enhance preventive care in the ageing population. Using low-cost, non-invasive retinal photographs and leveraging large foundation models, we developed a deep learning-based biomarker, Retinal Mortality Equivalent (RetiME), that directly mapped retinal features to individual mortality risk. Trained on a European cohort and externally validated across three independent external cohorts spanning Southeast Asia, Eurasia and North America, RetiME showed robust associations with all-cause and cause-specific mortality and predicted the incidence of a wide range of systemic and ocular diseases. Crucially, beyond static risk estimation, RetiME re-timed mortality risk by reconstructing personalized lifespan trajectories that were associated with observed mortality outcomes (for example, age of death). Clustering of these trajectories revealed distinct mortality patterns, spanning cancer-predominant, cardiometabolic and neurodegenerative risks, reflecting diverse ageing pathways captured by RetiME. Interpretability analyses showed that RetiME captures diverse biological and retinal features underlying mortality risk. Genome-wide analyses further identified genetic loci associated with RetiME. Collectively, these findings support further evaluation of retinal imaging and trajectory modelling as one component of a comprehensive assessment of mortality risk.",
+"zh_abstract": "全球迫切需要经济实惠、大规模的健康筛查，以加强老龄人口的预防性医疗。我们利用低成本、无创的视网膜照片，并借助大型基础模型，开发了一种基于深度学习的生物标志物——视网膜死亡当量（Retinal Mortality Equivalent，RetiME），可将视网膜特征直接映射为个体死亡风险。RetiME 在一个欧洲队列中训练，并在涵盖东南亚、欧亚地区和北美的三个独立外部队列中进行了外部验证，结果显示其与全因死亡及特定原因死亡均有稳健的关联，并可预测多种全身性疾病和眼部疾病的发生。关键的是，除静态风险估计外，RetiME 还通过重建个体化寿命轨迹对死亡风险进行了“重新定时”，这些轨迹与观察到的死亡结局（例如死亡年龄）相关。对这些轨迹进行聚类，揭示了不同的死亡模式，涵盖以癌症为主、心血管代谢以及神经退行性风险，反映了 RetiME 所捕捉到的多样化衰老路径。可解释性分析显示，RetiME 捕捉了与死亡风险相关的多种生物学和视网膜特征。全基因组分析进一步鉴定出与 RetiME 相关的遗传位点。总体而言，这些发现支持进一步评估视网膜成像和轨迹建模，将其作为死亡风险综合评估的组成部分之一。"
 },
 {
 "title": "AI needs meaningful versioning",
@@ -68,45 +101,10 @@
 "day": "2026-11-03",
 "rank": 10.81,
 "abstract_days": [
-"2026-11-03"
+"2026-11-03",
+"2026-11-04"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
-"title": "Predicting different dimensions of fatigue from speech data: a longitudinal study in shift workers",
-"link": "https://www.nature.com/articles/s41746-026-03437-0",
-"date": "2026-11-03T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03437-0",
-"pop": null,
-"id": "81e647f4c6d2",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "基于语音数据预测疲劳的不同维度：轮班工作者纵向研究",
-"summary": "研究在轮班工作者中开展纵向研究，利用语音数据预测疲劳的不同维度。",
-"key_points": [
-"对象为轮班工作者",
-"采用纵向研究设计",
-"利用语音预测多维度疲劳"
-],
-"section": "数字健康",
-"type": "论文",
-"tags": [
-"数字健康",
-"生理信号"
-],
-"evidence": "同行评审",
-"score": 4,
-"reason": "仅有标题信息，样本与验证不明，属增量档",
-"day": "2026-11-03",
-"rank": 10.0,
-"abstract_days": [
-"2026-11-03"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "A prospective randomized study of patient-centered AI for clinical visit preparation",
@@ -2364,7 +2362,13 @@
 "score": 2,
 "reason": "仅标题的科普类报道，信息有限",
 "day": "2026-11-03",
-"rank": 4.5
+"rank": 4.5,
+"also": [
+{
+"source": "凤凰网",
+"link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE83eDNLc2lRZzJRT203eGNrVTYyMHJud01mYWZxVHBuTkFUR1BScWp3eTFuR3pIN2xldU5LTjB1bEFqakJDU3ZxT2l5MGs?oc=5"
+}
+]
 },
 {
 "title": "IT Eyes与NTL Healthcare签署合作协议：“开发AI女性癌症诊断解决方案”",
