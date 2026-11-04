@@ -32,7 +32,13 @@
 "day": "2026-10-29",
 "rank": 10.81,
 "abstract": "Many adolescents seek mental health advice from general-purpose artificial intelligence (AI) chatbots, despite limited evaluations against youth-relevant clinical standards. Here we developed the Adolescent Mental Health AI Response Tool (AMHART), a clinician-informed instrument for auditing the presence of guideline-informed response content across seven domains, and applied it to four major AI chatbots. Candidate items were reviewed by clinicians for their evidence base, objectivity and clinical importance, yielding a subset with strong content validity and inter-rater reliability. We then configured a three-model large language model evaluator ensemble, assessed its agreement with human reference labels and scored multiturn conversations in which adolescent personas (varying by sex, diagnosis and symptom severity) engaged with ChatGPT-5, ChatGPT-4, Claude 4.5 and Gemini 2.5. AMHART scores indicated greater coverage of applicable criteria for anxiety than depression and for moderate than severe presentations. The findings suggest AMHART offers a reliable, clinician-informed benchmark for evaluating chatbot responses to adolescent anxiety and depression disclosures.",
-"zh_abstract": "许多青少年向通用型人工智能（AI）聊天机器人寻求心理健康建议，但针对与青少年相关的临床标准对这些聊天机器人进行的评估十分有限。在此，我们开发了青少年心理健康AI应答工具（Adolescent Mental Health AI Response Tool，AMHART），这是一种由临床医生参与制定的工具，用于审查七个领域中是否存在符合指南的应答内容，并将其应用于四种主流AI聊天机器人。临床医生对候选条目的证据基础、客观性和临床重要性进行了评审，最终得到一组具有较强内容效度和评分者间信度的条目。随后，我们配置了由三个模型组成的大语言模型评估器集成，评估其与人工参考标注的一致性，并对多轮对话进行评分；在这些对话中，青少年角色（按性别、诊断和症状严重程度而异）与ChatGPT-5、ChatGPT-4、Claude 4.5和Gemini 2.5进行互动。AMHART评分显示，对于适用标准的覆盖程度，焦虑高于抑郁，中度表现高于重度表现。这些发现提示，AMHART可为评估聊天机器人对青少年焦虑和抑郁倾诉的应答提供一个可靠的、由临床医生参与制定的基准。"
+"zh_abstract": "许多青少年向通用型人工智能（AI）聊天机器人寻求心理健康建议，但针对与青少年相关的临床标准对这些聊天机器人进行的评估十分有限。在此，我们开发了青少年心理健康AI应答工具（Adolescent Mental Health AI Response Tool，AMHART），这是一种由临床医生参与制定的工具，用于审查七个领域中是否存在符合指南的应答内容，并将其应用于四种主流AI聊天机器人。临床医生对候选条目的证据基础、客观性和临床重要性进行了评审，最终得到一组具有较强内容效度和评分者间信度的条目。随后，我们配置了由三个模型组成的大语言模型评估器集成，评估其与人工参考标注的一致性，并对多轮对话进行评分；在这些对话中，青少年角色（按性别、诊断和症状严重程度而异）与ChatGPT-5、ChatGPT-4、Claude 4.5和Gemini 2.5进行互动。AMHART评分显示，对于适用标准的覆盖程度，焦虑高于抑郁，中度表现高于重度表现。这些发现提示，AMHART可为评估聊天机器人对青少年焦虑和抑郁倾诉的应答提供一个可靠的、由临床医生参与制定的基准。",
+"also": [
+{
+"source": "PubMed · Nature. Mental health",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42974409/"
+}
+]
 },
 {
 "title": "Automation Bias and Deskilling in Radiology AI: A Confidence-stratified Triage Model for Workflow Integration.",

@@ -34,6 +34,43 @@
 "zh_abstract": "KITE-CRM 提高了辅助判读和报告的效率。管理方面的结果并不能证明其长期肿瘤学安全性，也不能证明其在 CRM 方面具有特定的临床优势。该模型是对 Bosniak 分级评估、必要时的多期 CT 或磁共振成像（MRI）以及临床判断的补充，而非替代。仍需更广泛的前瞻性评估。"
 },
 {
+"title": "RETBind: a patient-level multimodal foundation model for unified cross-modal retinal representation learning",
+"link": "https://www.nature.com/articles/s41746-026-03426-3",
+"date": "2026-11-03T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03426-3",
+"pop": null,
+"id": "55ab07a6b6f0",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "RETBind：患者级多模态视网膜基础模型",
+"summary": "npj Digital Medicine 发表 RETBind，一种患者级多模态基础模型，用于统一的跨模态视网膜表征学习。仅有标题与简短描述，细节未知。",
+"key_points": [
+"患者级多模态视网膜基础模型",
+"目标为跨模态统一表征学习",
+"摘要未给出数据规模与验证信息"
+],
+"section": "影像与病理",
+"type": "模型",
+"tags": [
+"医学大模型",
+"眼科",
+"多模态"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "眼科多模态基础模型命中偏好，但摘要无验证细节，归入值得一看档",
+"day": "2026-11-04",
+"rank": 11.81,
+"abstract_days": [
+"2026-11-04"
+],
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+},
+{
 "title": "The TEMPO program and the future of digital mental health regulation in the US",
 "link": "https://www.nature.com/articles/s41746-026-03464-x",
 "date": "2026-11-03T00:00:00+00:00",
@@ -244,6 +281,72 @@
 "rank": 9.5
 },
 {
+"title": "A Scoping Review of Deep Learning Methods for Photoplethysmography Data.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42973931/",
+"date": "2026-11-02T00:00:00+00:00",
+"badge": "DOI 10.34133/hds.0474",
+"source": "PubMed · Health data science",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "d6701f892c65",
+"keep": true,
+"zh_title": "光电容积描记（PPG）深度学习方法的范围综述",
+"summary": "系统检索2017至2025年文献，纳入460篇将深度学习用于PPG信号分析的论文，从任务、模型和数据三个角度归纳。",
+"key_points": [
+"纳入460篇PPG深度学习论文",
+"从任务、模型、数据三角度分析",
+"覆盖临床监测与可穿戴设备应用"
+],
+"section": "数字健康",
+"type": "观点",
+"tags": [
+"生理信号",
+"数字健康"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "纳入文献量大的范围综述，可穿戴方向略加分",
+"i_note": "",
+"abstract": "[Health data science] Background: Photoplethysmography (PPG) is a noninvasive optical sensing technique widely used to capture hemodynamic information, with broad deployment in both clinical monitoring systems and wearable devices. In recent years, the integration of deep learning has substantially advanced PPG signal analysis and expanded its applications across healthcare and nonhealthcare domains. Methods: We conducted a comprehensive literature search for studies applying deep learning to PPG data published between 2017 January 1 and 2025 December 31, using Google Scholar, PubMed, and Dimensions. The included studies were analyzed from 3 key perspectives: tasks, models, and data. Results: A total of 460 papers applying deep learning techniques to PPG signal analysis were included. These studies span a wide range of application domains, from traditional physiological monitoring tasks such as cardiovascular assessment to emerging applications including sleep analysis, cross-modality signal reconstruction, and biometric identification. Conclusions: Deep learning has substantially advanced PPG signal analysis by enabling more effective extraction of physiological information. Compared with traditional machine learning approaches reliant on handcrafted features, deep learning methods generally achieve improved performance and offer greater flexibility in model development. Nevertheless, several challenges remain, including limited availability of large-scale high-quality datasets, insufficient validation in real-world environments, and concerns over model interpretability, scalability, and computational efficiency. Addressing these challenges and exploring emerging research directions will be essential for further progress in deep learning-based PPG analysis.",
+"day": "2026-11-04",
+"rank": 9.14,
+"zh_abstract": "[健康数据科学]【背景】光电容积脉搏波描记法（photoplethysmography，PPG）是一种无创光学传感技术，广泛用于获取血流动力学信息，在临床监测系统和可穿戴设备中均有广泛应用。近年来，深度学习的引入显著推动了PPG信号分析的发展，并拓展了其在医疗健康及非医疗领域的应用。【方法】我们使用Google Scholar、PubMed和Dimensions，对2017年1月1日至2025年12月31日期间发表的将深度学习应用于PPG数据的研究进行了全面的文献检索。从任务、模型和数据3个关键角度对纳入的研究进行了分析。【结果】共纳入460篇将深度学习技术应用于PPG信号分析的论文。这些研究涵盖广泛的应用领域，既包括心血管评估等传统生理监测任务，也包括睡眠分析、跨模态信号重建和生物特征识别等新兴应用。【结论】深度学习通过更有效地提取生理信息，显著推动了PPG信号分析的发展。与依赖手工特征的传统机器学习方法相比，深度学习方法总体上取得了更好的性能，并在模型开发方面具有更大的灵活性。然而，仍存在若干挑战，包括大规模高质量数据集的可获得性有限、在真实环境中的验证不足，以及对模型可解释性、可扩展性和计算效率的担忧。应对这些挑战并探索新兴研究方向，对于基于深度学习的PPG分析取得进一步进展至关重要。"
+},
+{
+"title": "Silent Manipulation of Mental Health Treatment Recommendations From a Large Language Model.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42975904/",
+"date": "2026-11-02T00:00:00+00:00",
+"badge": "DOI 10.1001/jamanetworkopen.2026.41142",
+"source": "PubMed · JAMA network open",
+"source_group": "PubMed",
+"home": "",
+"thin": true,
+"pop": null,
+"id": "5c0f0ee51fac",
+"keep": true,
+"zh_title": "大语言模型对心理健康治疗建议的隐性操纵",
+"summary": "JAMA Network Open 文章，标题显示研究大模型在心理健康治疗建议中可被隐性操纵；仅有标题，无更多信息。",
+"key_points": [],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"公平与安全",
+"心理健康",
+"医学大模型"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "仅标题，主题涉及LLM安全与心理健康，信息不足，上限内居中",
+"day": "2026-11-04",
+"rank": 9.14,
+"abstract_days": [
+"2026-11-04"
+],
+"abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: HTTP Error 404: Not Found"
+},
+{
 "title": "DiabAgent: Toward Agentic Physiological Control",
 "link": "https://arxiv.org/abs/2611.03601",
 "date": "2026-11-02T18:41:02+00:00",
@@ -342,6 +445,272 @@
 "day": "2026-11-04",
 "rank": 9.01,
 "zh_abstract": "大语言模型（LLM）在科学发现方面展现出越来越大的前景，但关于是什么使可靠的发现成为可能，仍有一些基本问题尚未解决。我们如何将LLM的科学发现能力追溯到其训练数据？我们将这一问题作为缺失概率质量的问题来研究，并提出一个理论解释：单事实（monofacts，即训练中仅出现一次的事实）决定发现能力。在材料科学和调控基因组学中，我们直接操控训练集中的单事实比率，发现在两个开放权重模型家族、不同采样策略和推理预算下，单事实越多，发现持续越多。进一步实验表明，这一关系不能仅由训练集多样性来解释，并且在与领域内数据配合时可以跨科学领域迁移。总之，我们的结果表明，训练数据中的单事实比率是决定语言模型发现能力的关键因素。"
+},
+{
+"title": "MIMIC-Note-Extract: A Large-Scale Structured Dataset Extracted from MIMIC-IV-Note Discharge Summaries",
+"link": "https://arxiv.org/abs/2611.04685",
+"date": "2026-11-03T11:08:51+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.04685",
+"pop": null,
+"id": "9f9f37a58aea",
+"keep": true,
+"zh_title": "MIMIC-Note-Extract：从MIMIC-IV出院小结提取的大规模结构化数据集",
+"summary": "该数据集用确定性解析结合模式引导的LLM生成，将30万余份出院小结的16个章节转为结构化表格，补充MIMIC缺失的病史等信息。",
+"key_points": [
+"处理300,720份出院小结、16个章节",
+"混合提取流程：确定性解析加LLM生成",
+"病史条目数量较原有增加约10倍"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"数据集",
+"电子病历",
+"临床NLP"
+],
+"evidence": "预印本",
+"score": 6,
+"reason": "大规模公开数据集，惠及EHR研究；预印本，摘要未见质量验证",
+"abstract": "MIMIC is one of the most widely used public hospital datasets for machine learning on electronic health records, yet clinically important information, such as past medical history, allergies, and diagnostic findings, remains confined to free-text discharge summaries. Studies requiring this information must therefore build their own extraction pipelines, duplicating substantial effort across projects. We release MIMIC-Note-Extract (MNE), a large-scale dataset that uses a hybrid extraction pipeline combining deterministic parsing with schema-guided large language model generation to transform 16 sections from 300,720 discharge summaries into structured tables. MNE adds information that has no structured MIMIC counterpart and enriches related tables with broader coverage and greater clinical detail, including 10 times more patient-history entries and medication histories for more than twice as many admissions. Validation by medical doctors confirms extraction accuracy above 92% across sections. Using MNE, we construct a clinical decision-making benchmark for LLM agents, demonstrating how reusable structured representations of clinical narratives reduce data curation effort.",
+"day": "2026-11-04",
+"rank": 9.01,
+"zh_abstract": "MIMIC是用于电子健康记录机器学习的使用最广泛的公开医院数据集之一，但诸如既往病史、过敏史和诊断发现等临床重要信息仍局限于自由文本的出院小结中。因此，需要这些信息的研究必须自行构建提取流程，造成各项目间大量重复劳动。我们发布了MIMIC-Note-Extract（MNE），这是一个大规模数据集，采用将确定性解析与基于模式（schema）引导的大语言模型生成相结合的混合提取流程，将300,720份出院小结中的16个章节转换为结构化表格。MNE补充了MIMIC中没有对应结构化数据的信息，并以更广的覆盖范围和更丰富的临床细节充实了相关表格，包括患者病史条目增加10倍，以及用药史所涵盖的入院次数增加一倍以上。医生验证证实各章节的提取准确率均高于92%。利用MNE，我们构建了一个面向大语言模型智能体的临床决策基准，展示了临床叙述的可复用结构化表示如何减少数据整理工作量。"
+},
+{
+"title": "El Agente Fármaco: A Scalable AI Scientist for Drug Discovery",
+"link": "https://arxiv.org/abs/2611.03832",
+"date": "2026-11-02T19:08:49+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.03832",
+"pop": null,
+"id": "d5a9879b54db",
+"keep": true,
+"zh_title": "El Agente Fármaco：可扩展的药物发现AI科学家",
+"summary": "提出基于LLM的智能体，将自然语言目标转为可扩展计算筛选流程，并以共享科学记忆Fármaco Atlas记录分子、结构与结果溯源。",
+"key_points": [
+"智能体自主选择工具、审阅结果并调整步骤",
+"Fármaco Atlas存储数据及其来源",
+"单次请求可对整批分子启动计算"
+],
+"section": "生命科学与药物",
+"type": "论文",
+"tags": [
+"智能体",
+"药物发现",
+"医学大模型"
+],
+"evidence": "预印本",
+"score": 6,
+"reason": "药物发现AI科学家智能体命中偏好，但为预印本且摘要无验证细节",
+"abstract": "Computational drug discovery offers a growing range of tools for proposing and evaluating molecules, but combining them and deciding what to do next still requires substantial expert effort. Here, we introduce El Agente Fármaco, an AI scientist that uses modern large language model (LLM) technology to turn discovery goals expressed in everyday language into complex, scalable computational screening workflows. The agentic harness selects scientific tools, reviews their results, and adjusts subsequent steps to the target and the user's objectives. Our approach centers on a shared scientific memory: Fármaco Atlas, which stores molecules, structures, and results together with their provenance -- a record of how they were obtained. The agent uses targeted database queries to retrieve the evidence needed for each decision. A single request can launch calculations for an entire collection of molecules, without requiring a separate LLM decision for every compound. This design limits the information the model must process as screening collections grow, while keeping the underlying results available for inspection and further analysis. The integrated tools support molecule generation, prediction of binding and molecular properties, and searches for compounds available for purchase. In a retrospective comparison with an expert-led campaign, the agent proposed chemically distinct candidates with competitive docking scores and higher calculated drug-likeness under explicitly imposed selection criteria. In a 22-task benchmark against plain tool calls and Codex, the agent achieved the highest observed mean model-judged score, with lower median cumulative token use and peak context. Fármaco provides a foundation for flexible, scalable drug discovery workflows that connect scientific reasoning with an enduring, traceable record of computational work.",
+"day": "2026-11-04",
+"rank": 9.01,
+"zh_abstract": "计算药物发现提供了越来越多用于提出和评估分子的工具，但将它们组合起来并决定下一步该做什么，仍需要大量专家投入。在此，我们介绍 El Agente Fármaco，这是一种 AI 科学家，利用现代大语言模型（LLM）技术，将以日常语言表达的发现目标转化为复杂、可扩展的计算筛选工作流。该智能体框架会选择科学工具、审查其结果，并根据靶点和用户目标调整后续步骤。我们的方法以共享的科学记忆为核心：Fármaco Atlas，它存储分子、结构和结果及其来源（即它们是如何获得的记录）。智能体使用有针对性的数据库查询来检索每个决策所需的证据。单个请求即可对整个分子集合启动计算，而无需对每个化合物单独进行一次 LLM 决策。这一设计限制了随着筛选集合增大模型必须处理的信息量，同时使底层结果可供检查和进一步分析。所集成的工具支持分子生成、结合及分子性质预测，以及可购买化合物的检索。在与专家主导的研究项目的回顾性比较中，在明确施加的筛选标准下，该智能体提出了化学结构不同的候选物，其对接评分具有竞争力，且计算得到的类药性更高。在针对单纯工具调用和 Codex 的 22 项任务基准测试中，该智能体取得了观察到的最高平均模型评判得分，同时累计 token 使用量中位数和峰值上下文更低。Fármaco 为灵活、可扩展的药物发现工作流奠定了基础，将科学推理与持久、可追溯的计算工作记录联系起来。"
+},
+{
+"title": "CardioVascBench:Prioritized Diagnosis Generation from Real-World Chinese Cardiovascular Records",
+"link": "https://arxiv.org/abs/2611.04687",
+"date": "2026-11-03T11:09:56+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.04687",
+"pop": null,
+"id": "75e8872cc71c",
+"keep": true,
+"zh_title": "CardioVascBench：中文心血管病历的优先级诊断生成基准",
+"summary": "发布含3,262例真实中文心血管住院病历的诊断生成基准，含ECG文本报告与ICD-10有序出院诊断，并评测36个系统。",
+"key_points": [
+"3,262例脱敏病例，1,088例用于评测",
+"提供英文翻译评测集，支持跨语言比较",
+"主诊断准确率高不代表列表精确率高"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"基准",
+"临床NLP",
+"电子病历"
+],
+"evidence": "预印本",
+"score": 6,
+"reason": "新的真实病历基准，评测36个系统，但规模中等且为预印本",
+"abstract": "Identifying the primary diagnosis alone does not fully characterize a model's diagnosis-generation performance. We introduce CardioVascBench, a retrospective benchmark for prioritized diagnosis generation from real-world Chinese cardiovascular inpatient records. It contains 3,262 de-identified cases, with 2,174 for training and 1,088 for evaluation, linking clinical narratives and textual ECG reports to expert-verified, ordered discharge diagnoses standardized to ICD-10. An English translation of the evaluation set supports aligned cross-lingual comparison. Our evaluation protocol combines terminology normalization and rank-aware scoring to separately assess primary-diagnosis identification, reference-diagnosis coverage, and list precision. Evaluation across 36 systems shows that higher primary-diagnosis accuracy does not necessarily imply higher list precision against discharge references. We also provide CardioKG-Agent, a knowledge-enhanced baseline combining entity normalization, constrained graph retrieval, and guideline evidence. In a staged comparison of three baseline models, supervised fine-tuning plus the agent achieves a 73.5% higher mean composite score than fine-tuning alone, representing a system-level gain. These results measure retrospective agreement with recorded diagnoses; agreement between metric rankings and physician judgments remains to be validated. CardioVascBench supports research on diagnosis prioritization and knowledge-enhanced generation.",
+"day": "2026-11-04",
+"rank": 9.01,
+"zh_abstract": "仅识别主要诊断并不能全面刻画模型的诊断生成性能。我们提出了CardioVascBench，这是一个基于真实世界中文心血管住院病历、用于优先排序诊断生成的回顾性基准。该基准包含3,262例去标识化病例，其中2,174例用于训练，1,088例用于评估，将临床叙述和文本形式的心电图报告与经专家核实、按顺序排列且标准化为ICD-10的出院诊断相关联。评估集的英文翻译支持对齐的跨语言比较。我们的评估方案结合术语规范化和考虑排名的评分，分别评估主要诊断识别、参考诊断覆盖率和列表精确度。对36个系统的评估表明，较高的主要诊断准确率并不一定意味着相对于出院参考诊断具有更高的列表精确度。我们还提供了CardioKG-Agent，这是一个知识增强的基线，结合了实体规范化、受约束的图检索和指南证据。在对三个基线模型的分阶段比较中，监督微调加该智能体的平均综合得分比单独微调高73.5%，体现了系统层面的提升。这些结果衡量的是与已记录诊断之间的回顾性一致性；指标排名与医师判断之间的一致性仍有待验证。CardioVascBench支持诊断优先排序和知识增强生成方面的研究。"
+},
+{
+"title": "Measuring Model-Specific Alignment Drift in LLM-Based Opinion Dynamics",
+"link": "https://arxiv.org/abs/2611.03980",
+"date": "2026-11-02T21:20:30+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.03980",
+"pop": null,
+"id": "f23f3f241ac4",
+"keep": true,
+"zh_title": "基于LLM的观点动力学中的模型特异性对齐漂移",
+"summary": "研究LLM智能体在多轮政策讨论中的立场变化，发现人设在无同伴时稳定，讨论引发的对齐漂移因模型而异，涉及六个LLM。",
+"key_points": [
+"无同伴输入时人设20轮保持稳定",
+"漂移由交互引起且具模型特异性",
+"不同模型保持观点分群的程度不同"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"智能体"
+],
+"evidence": "预印本",
+"score": 6,
+"reason": "智能体社会模拟方向，质疑合成参与者假设有方法学意义，预印本",
+"abstract": "Large language model (LLM) agents are increasingly used as synthetic participants in opinion-dynamics experiments, often assuming that an agent's behaviour is fully determined by its prompt. We test this assumption with a framework in which LLM agents discuss a contested policy issue over repeated rounds while their stance is quantified by a fixed psychometric instrument independent of any dynamics model. Across six LLMs, committed personas are intrinsically stable: in each of the five models tested without peer input, every agent keeps its assigned side for 20 rounds. The observed loss of alignment under discussion is therefore interaction-induced, we call it alignment drift, and model-specific: gpt-4.1 keeps opinion clusters apart, claude-sonnet-5 holds them partially, and gpt-5.6-sol and claude-opus-5 abandon them. Under selective attention, one LLM maintains separated opinion clusters under stance-homophilous attention. Qualitative profiles persist at doubled population and horizon and on a second issue. Such heterogeneity makes the LLM choice a first-class validity variable for social simulation.",
+"day": "2026-11-04",
+"rank": 9.01
+},
+{
+"title": "A Novel Conditional Adversarial Diffusion Model for High-Fidelity OCT-to-OCT Image Translation and Precise Anti-VEGF Therapy Response Prediction in Diabetic Macular Edema",
+"link": "https://arxiv.org/abs/2611.03958",
+"date": "2026-11-02T20:59:00+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.03958",
+"pop": null,
+"id": "ad3ec79283d8",
+"keep": true,
+"zh_title": "条件对抗扩散模型用于OCT图像转换与DME抗VEGF疗效预测",
+"summary": "提出条件对抗扩散框架，由基线OCT合成治疗后OCT，用于预测糖尿病黄斑水肿抗VEGF治疗反应；在美国队列(n=127)交叉验证并做外部验证。",
+"key_points": [
+"由基线OCT生成治疗后OCT图像",
+"美国队列127例，受试者级5折交叉验证",
+"包含外部队列验证"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"眼科",
+"生成模型",
+"临床预测"
+],
+"evidence": "预印本",
+"score": 6,
+"reason": "眼科治疗反应预测，有外部验证，但样本小、预印本",
+"abstract": "Diabetic macular edema (DME) is a leading cause of severe vision loss among working-age adults. Although intravitreal anti-vascular endothelial growth factor (anti-VEGF) injections currently serve as the first-line therapy for DME, a notable subset of patients fails to respond despite the substantial cost and clinical burden, suggesting they may benefit more from alternative interventions. Automated, noninvasive pre-treatment response assessment could therefore spare non-responders from the current trial-and-error treatment paradigm. In this study, we propose a novel conditional adversarial diffusion framework that synthesizes post-treatment optical coherence tomography (OCT) images from baseline scans, enabling the derivation of each patient's initial response to anti-VEGF therapy. The model was developed with subject-level 5-fold cross-validation on a US cohort (n = 127) and externally validated on an independent Iranian cohort (n = 44). Benchmarked against fourteen baseline and state-of-the-art translation models, the proposed model achieved the best treatment-response prediction performance among the methods evaluated for that task on both cohorts, with balanced accuracies of 85.7% and 93.0% on the US cohort and 85.2% and 95.3% on the external Iranian cohort at the 10% and 20% central subfield thickness reduction thresholds, respectively. Ultimately, this framework offers a decision-support tool to help ophthalmologists anticipate initial anti-VEGF outcomes in DME prior to treatment initiation, toward personalized therapy selection. The source code will be made publicly available upon acceptance.",
+"day": "2026-11-04",
+"rank": 9.01,
+"zh_abstract": "糖尿病性黄斑水肿（DME）是导致工作年龄成年人严重视力丧失的主要原因。尽管玻璃体腔内注射抗血管内皮生长因子（anti-VEGF）目前是DME的一线治疗方法，但仍有相当一部分患者尽管付出了高昂的费用和临床负担却对治疗无应答，提示这些患者可能更适合接受其他干预措施。因此，自动化、无创的治疗前应答评估可使无应答者免于当前反复试错的治疗模式。在本研究中，我们提出了一种新型条件对抗扩散框架，可根据基线扫描合成治疗后的光学相干断层扫描（OCT）图像，从而推导出每位患者对anti-VEGF治疗的初始应答。该模型在美国队列（n = 127）上通过受试者水平的5折交叉验证进行开发，并在独立的伊朗队列（n = 44）上进行外部验证。与十四种基线模型和最先进的转换模型相比，所提出的模型在两个队列上均取得了在为该任务评估的方法中最佳的治疗应答预测性能：在中心子区厚度降低10%和20%的阈值下，美国队列的平衡准确率分别为85.7%和93.0%，外部伊朗队列的平衡准确率分别为85.2%和95.3%。最终，该框架提供了一种决策支持工具，可帮助眼科医生在开始治疗前预判DME患者对anti-VEGF的初始疗效，以实现个体化治疗选择。源代码将在论文被接受后公开。"
+},
+{
+"title": "Learning from Unlabeled Photographs for General Oral Image Analysis",
+"link": "https://arxiv.org/abs/2611.04709",
+"date": "2026-11-03T11:28:54+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.04709",
+"pop": null,
+"id": "a941458f710d",
+"keep": true,
+"zh_title": "从无标注照片学习通用口腔图像分析（DOVE）",
+"summary": "预印本用约53万张无标注口腔照片自监督预训练DOVE编码器，在5个分类和4个分割数据集上优于3个基线。",
+"key_points": [
+"约53万张公开来源口腔照片自监督预训练",
+"覆盖冻结骨干与端到端微调评估",
+"少样本迁移与标签效率多数基准最佳"
+],
+"section": "影像与病理",
+"type": "模型",
+"tags": [
+"医学影像",
+"医学大模型"
+],
+"evidence": "预印本",
+"score": 6,
+"reason": "专科影像基础模型预印本，多基准对比，缺外部临床验证",
+"abstract": "Oral photographs contain rich clinical information and hold significant potential for artificial intelligence applications; however, most models are trained for individual tasks and rely on costly expert annotations. We hypothesized that self-supervised training on unlabeled oral photographs could produce transferable visual representations for heterogeneous vision tasks. To test this hypothesis, we developed DOVE (Dental Optical Visual Encoder) by domain-adaptive self-supervised pretraining on approximately 530,000 unlabeled oral photographs collected from publicly accessible sources. DOVE was benchmarked against 3 established baselines across 5 classification datasets and 4 segmentation datasets, covering both frozen backbone evaluation and end-to-end finetuning. DOVE achieved the strongest overall performance, ranking best in few-shot transfer and label efficiency on most benchmarks. Under the 20-shot frozen-backbone protocol, DOVE outperformed the second best DINOv3 by 4.37 percentage points in mean macro-F1 across classification datasets and by 4.49 percentage points in mean macro-Dice across segmentation tasks. Under end-to-end finetuning, DOVE achieved at least 80% of the strongest full-data baseline's performance across most evaluation datasets using only 10% of the labeled training data. Qualitative retrieval and feature analyses further indicated better organization of image-level and spatial representations. These findings support DOVE as a generalizable and label-efficient backbone for oral vision research.",
+"day": "2026-11-04",
+"rank": 9.01
+},
+{
+"title": "Mitigating Spatial Blindness in Multiple Instance Learning for Whole-Slide Image Analysis",
+"link": "https://arxiv.org/abs/2611.04337",
+"date": "2026-11-03T05:23:23+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.04337",
+"pop": null,
+"id": "7aacba95fa25",
+"keep": true,
+"zh_title": "缓解全切片图像多示例学习中的空间盲区",
+"summary": "提出ResTopoMIL，先冻结组成预测器再训练图残差并加坐标重分配分离损失，以解决WSI多示例学习对空间组织利用不足的问题。",
+"key_points": [
+"指出训练后的预测器未必真正利用组织邻域",
+"受控空间任务AUC 0.987，联合训练仅0.684",
+"分阶段训练在纯组成任务上性能保持较高"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"病理",
+"医学影像",
+"可解释性"
+],
+"evidence": "预印本",
+"score": 6,
+"reason": "病理WSI新方法，有机制分析与对比；预印本，病理方向加分",
+"abstract": "Whole-slide multiple instance learning can predict diagnostic and prognostic labels from tissue composition while making limited use of spatial organization. Providing coordinates or a graph does not establish that a trained predictor uses tissue neighborhoods. We examine this gap as spatial blindness and hypothesize that early composition learning can weaken supervision of a spatial pathway. We introduce ResTopoMIL, which freezes a learned composition predictor before training a graph residual with a coordinate-reassignment separation loss. Permutation and information analyses distinguish architectural symmetry, available spatial information and the proposed optimization mechanism. On a controlled spatial task, staged training achieved an AUC of 0.987, compared with 0.684 for the same jointly trained architecture. Performance remained high on a composition-only task. Across four WSI classification and five survival benchmarks, ResTopoMIL improved mean primary performance on eight tasks; four improvements remained significant after Holm-adjusted patient-cluster tests. Coordinate-free residual controls recovered some of the gains, while neighborhood destruction reduced performance close to the composition anchor. Neighborhood-preserving transformations and anatomy-stratified perturbations further characterized this dependence. These results support fixing a composition reference as a practical intervention for learning spatial corrections, while retaining additional appearance capacity as a contributing explanation.",
+"day": "2026-11-04",
+"rank": 9.01
+},
+{
+"title": "Intraoperative artificial intelligence for brain tumor surgery: from tissue diagnosis to real-time surgical guidance.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42967344/",
+"date": "2026-11-01T00:00:00+00:00",
+"badge": "DOI 10.3171/2026.8.FOCUS26439",
+"source": "PubMed · Neurosurgical focus",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "18045305e0c8",
+"keep": true,
+"zh_title": "脑肿瘤手术中的术中AI：从组织诊断到实时导航",
+"summary": "综述术中AI模型如何在手术现场实时提取脑胶质瘤分子与组织学信息，以弥补分子结果延迟到术后的缺口。",
+"key_points": [
+"WHO 2021分类以分子标志物定义胶质瘤",
+"分子结果常在术后数日至数周才出",
+"综述术中实时AI模型的现状"
+],
+"section": "影像与病理",
+"type": "观点",
+"tags": [
+"手术",
+"肿瘤",
+"医学影像"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "综述类文章，上限6分；主题相关但无新数据",
+"abstract": "[Neurosurgical focus] The 2021 WHO CNS tumor classification marked a fundamental shift in neuro-oncology: molecular markers rather than histological appearance now define glioma diagnosis and guide treatment. Yet, in clinical practice the molecular information that matters most to a surgeon-IDH status, 1p/19q codeletion, and methylation class-typically arrives days to weeks after the operation it was meant to inform. Artificial intelligence (AI) is beginning to close that gap. Over the past several years, a growing body of work has demonstrated that AI models can extract diagnostically relevant molecular and histological information from data sources available in the operating room, in real time, at the point of surgical decision-making. In this review, the authors provide a comprehensive overview of state-of-the-art intraoperative AI models available to neurosurgeons during brain tumor resections. They examine AI-augmented approaches to established intraoperative techniques, such as cryosection and fluorescence-guided surgery, before turning to novel technologies including nanopore sequencing and stimulated Raman histology (SRH). The authors conclude by discussing barriers to widespread clinical adoption and what lies ahead for this field. For cryosection, models such as LGNet and the Cryosection Histopathology Assessment and Review Machine (CHARM) have demonstrated strong performance on intraoperative discrimination of primary CNS lymphoma and molecular subtyping of glioma, respectively, with CHARM achieving areas under the receiver operating characteristic curve of 0.88-0.93 across glioma subtypes. In fluorescence-guided surgery, hyperspectral imaging combined with machine learning has enabled classification of tumor type, grade, and IDH mutation based on the 5-aminolevulinic acid (5-ALA) signal with up to 93% accuracy, extracting molecular information from a modality already present in the operating room. For nanopore-based methylation classification, ensemble models such as Rapid Nanopore Brain Intraoperative Classification (ROBIN) have achieved 90% concordance with the final diagnosis prospectively in under 2 hours. In SRH, foundation models for infiltration detection now outperform FLAIR, contrast enhancement, and 5-ALA fluorescence in identifying tumor margins, while molecular classification models have achieved over 90% glioma subtype accuracy in multi-institutional cohorts. At the single-cell level, morphometric profiling of SRH images has revealed nuclear features di",
+"day": "2026-11-04",
+"rank": 8.99,
+"zh_abstract": "[神经外科视角] 2021年WHO中枢神经系统肿瘤分类标志着神经肿瘤学的根本转变：目前是分子标志物而非组织学表现来定义胶质瘤诊断并指导治疗。然而在临床实践中，对外科医生最重要的分子信息——IDH状态、1p/19q共缺失和甲基化分类——通常在本应受其指导的手术之后数天至数周才获得。人工智能（AI）正开始弥合这一差距。过去几年中，越来越多的研究表明，AI模型可以从手术室中可获得的数据源中，在手术决策点实时提取具有诊断相关性的分子和组织学信息。在本综述中，作者全面概述了神经外科医生在脑肿瘤切除术中可用的最先进术中AI模型。他们先考察了AI增强的既有术中技术，如冰冻切片和荧光引导手术，随后转向纳米孔测序和受激拉曼组织学（SRH）等新技术。最后讨论了广泛临床应用的障碍以及该领域的未来。在冰冻切片方面，LGNet和冰冻切片组织病理学评估与审阅机器（CHARM）等模型分别在术中鉴别原发性中枢神经系统淋巴瘤和胶质瘤分子分型方面表现出色，其中CHARM在各胶质瘤亚型中的受试者工作特征曲线下面积为0.88-0.93。在荧光引导手术中，高光谱成像结合机器学习可基于5-氨基酮戊酸（5-ALA）信号对肿瘤类型、级别和IDH突变进行分类，准确率最高达93%，从手术室中已有的一种模态中提取了分子信息。在基于纳米孔的甲基化分类方面，快速纳米孔脑术中分类（ROBIN）等集成模型已在前瞻性研究中于2小时内达到与最终诊断90%的一致性。在SRH中，用于浸润检测的基础模型在识别肿瘤边缘方面现已优于FLAIR、对比增强和5-ALA荧光，而分子分类模型在多机构队列中的胶质瘤亚型准确率已超过90%。在单细胞水平，SRH图像的形态计量分析揭示了核特征 di（原文此处截断）"
 },
 {
 "title": "Findings-aware Language-Image Pretraining for CT Volume Interpretation",
@@ -513,6 +882,43 @@
 "zh_abstract": "人工智能模型被用于生物学研究，以研究疾病机制、发现潜在治疗方法、分析实验数据、排查问题并规划后续步骤。有效的辅助取决于处理各种科学格式的数据、解释结果以及决定下一步要检验什么。我们提出BioResearchBench，这是一个由生物学博士依据其深厚的研究专长、为反映其领域中遇到的真实问题而设计的包含50个研究问题的基准。这些问题经过专家评审和迭代式模型测试后得到完善。该集合涵盖10个不同的生物学子领域，包括测序数据、蛋白质组测量、显微镜图像、检测读数和临床数据集。我们比较了记录的结果，并对OpenAI GPT-6 Astra、Claude Opus 5.5、Gemini 4 Argon、Meta Muse Wonder和SpaceXSI Grok 4.7在50项任务上的模型回答进行了深入考察。在我们的基准中，成功率分别为：Claude Opus 5.5为18%，Gemini 4 Argon为13%，Meta Muse Wonder为11%，GPT-6 Astra为4%，Grok 4.7为4%。这些结果描述的是一个经专家评审和模型测试而刻意选取的高难度集合。尽管整体任务成功率较低，所选回答平均仍满足大部分评分标准要求：各模型未满足标准的平均比例介于18%至32%之间。在各模型中，至少存在一个类别失败的合格任务所占比例，在计算与数据处理方面最高（66.9%失败），其次为不确定性与识别（55.3%失败）、报告与完整性（54.7%失败）、生物学解释（39.0%失败）、对照与因果论断（37.2%失败），以及选择下一步实验或决策（31.0%失败）。Gemini 4 Argon在计算与数据处理（45%成功）和生物学解释（69%成功）方面，无类别失败记录的已评审任务比例最高。Claude Opus 5.5在对照与因果论断（72%成功）和选择下一步实验或决策（75%成功）方面领先。GPT-6 Astra在不确定性与识别方面领先（56%成功），该类别包括判断估计的精确度，以及识别测量何时无法区分不同的生物学解释。GPT-6 Astra与Meta Muse Wonder并列，在无遗漏或报告失败记录的回答比例上最高（51%成功）。此处呈现的五个案例研究显示了顶级人工智能模型如何能够执行许多分析步骤并得出正确的corre"
 },
 {
+"title": "Emerging applications of machine learning and AI for predictive modeling in precision medicine",
+"link": "https://www.nature.com/articles/s41746-026-03393-9",
+"date": "2026-11-03T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03393-9",
+"pop": null,
+"id": "c0330a2c0879",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "精准医学预测建模中机器学习与AI的新兴应用（社论）",
+"summary": "社论总结31篇论文，指出纯数据驱动AI不足以临床应用，精准医学需在训练前融入领域结构知识。",
+"key_points": [
+"提出三项必要转变：以生物学规律锚定算法、提升机制可解释性",
+"设计协作式、以人为中心的临床界面",
+"扩展公平的人群层面干预"
+],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"临床预测",
+"可解释性",
+"公平与安全"
+],
+"evidence": "同行评审",
+"score": 3,
+"reason": "社论观点类，泛泛总结，无新数据",
+"day": "2026-11-04",
+"rank": 8.81,
+"abstract_days": [
+"2026-11-04"
+],
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+},
+{
 "title": "Assessment, intervention, and ethical considerations of artificial intelligence for depression and suicide risk: A scoping review.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42971091/",
 "date": "2026-10-14T00:00:00+00:00",
@@ -679,6 +1085,40 @@
 "day": "2026-11-04",
 "rank": 8.69,
 "zh_abstract": "临床脑电图（EEG）判读需要在长时程记录中整合技术质量、背景活动与行为状态、发作间期和发作期异常以及整体临床背景。我们提出 ERIA（EEG Reporting and Instruction-Optimized Agent，EEG 报告与指令优化智能体），这是一个可本地部署的框架，其中单个 270 亿参数（27B）的语言模型控制器通过调度专门的参数化工具和信号处理工具来分析完整记录的 EEG。ERIA 将针对背景异常、睡眠-觉醒状态、类发作活动和发作间期癫痫样放电的学习型工具，与确定性的频谱、波幅、对称性、导联组合（montage）及信号质量分析相结合。ERIA 既不对控制器进行微调，也不采用多智能体编排，而是保持控制器权重、专用工具和安全约束固定不变，仅利用专家撰写的 EEG 报告所提供的反馈，通过 GEPA（Genetic-Pareto）优化其自然语言分析策略。与原始策略相比，GEPA 提升了与医师判断一致的全记录报告质量，且优化后的策略可迁移至外部 EEG 基准。在 CerebraGloss-Bench 和 BrainBench Foundational Analysis 上，ERIA 与原始基准中所评估的模型相比仍具竞争力。这些结果表明，专用工具与语言层面的策略优化能够扩展单个可本地运行模型在临床及通用 EEG 方面的能力，同时保持本地推理和可追溯的工具使用。"
+},
+{
+"title": "Artificial intelligence-driven pharmacovigilance: transforming signal detection, real-world drug safety monitoring, and regulatory decision-making.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42975625/",
+"date": "2026-11-03T00:00:00+00:00",
+"badge": "DOI 10.1080/14740338.2026.2759573",
+"source": "PubMed · Expert opinion on drug safety",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "dfe3595507b4",
+"keep": true,
+"zh_title": "AI驱动的药物警戒：信号检测、真实世界安全监测与监管决策",
+"summary": "综述评估机器学习、深度学习与NLP在药物警戒中的应用，涵盖不良事件检测、文献挖掘、信号优先排序及EHR与社交媒体数据分析。",
+"key_points": [
+"传统方法存在漏报、信号识别延迟、数据碎片化问题",
+"AI用于不良事件检测与信号优先排序",
+"讨论监管科学中的应用与新兴技术"
+],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"临床NLP",
+"监管政策",
+"公共卫生"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "专家意见式综述，泛泛，无新证据",
+"abstract": "[Expert opinion on drug safety] Pharmacovigilance is undergoing rapid transformation due to the expansion of digital healthcare systems, biomedical data generation, and pharmaceutical innovation. Conventional drug-safety monitoring methods remain limited by underreporting, delayed signal identification, fragmented datasets, and restricted predictive capability. Artificial intelligence (AI) has emerged as a promising approach for improving signal detection, real-world drug-safety surveillance, and regulatory decision-making. This review evaluates application of AI technologies in modern pharmacovigilance and regulatory science. It discusses use of machine learning, deep learning, neural networks, and natural language processing for adverse-event detection, literature mining, signal prioritization, and analysis of electronic health records (EHR) and social-media data. Emerging technologies, including large language models, federated learning, blockchain, digital twins, and Internet of Things (IoT)-enabled monitoring systems, are also explored. Literature was identified through structured searches of MEDLINE/PubMed, Scopus, Web of Science, Embase, and Google Scholar, covering publications from January 2000 to February 2026. AI-driven pharmacovigilance has potential to improve real-time safety surveillance, predictive risk assessment, and automated regulatory workflows. However, broader implementation remains challenged by concerns related to interpretability, data quality, cybersecurity, algorithmic bias, and regulatory validation. Future progress will depend on transparent, explainable, and human-supervised AI systems integrated within globally interoperable healthcare infrastructures.",
+"day": "2026-11-04",
+"rank": 8.31,
+"zh_abstract": "[药物安全专家意见] 随着数字医疗系统的扩展、生物医学数据的生成和药物创新，药物警戒正经历快速变革。传统的药物安全监测方法仍受限于漏报、信号识别延迟、数据集碎片化以及预测能力有限。人工智能（AI）已成为改进信号检测、真实世界药物安全监测和监管决策的一种有前景的方法。本综述评估了AI技术在现代药物警戒和监管科学中的应用，讨论了机器学习、深度学习、神经网络和自然语言处理在不良事件检测、文献挖掘、信号优先级排序，以及电子健康记录（EHR）和社交媒体数据分析中的应用，并探讨了包括大语言模型、联邦学习、区块链、数字孪生和物联网（IoT）监测系统在内的新兴技术。文献通过对MEDLINE/PubMed、Scopus、Web of Science、Embase和Google Scholar的结构化检索获得，涵盖2000年1月至2026年2月发表的文献。AI驱动的药物警戒有望改善实时安全监测、预测性风险评估和自动化监管工作流程。然而，更广泛的实施仍面临可解释性、数据质量、网络安全、算法偏倚和监管验证等方面问题的挑战。未来的进展将取决于在全球可互操作的医疗基础设施中整合透明、可解释且有人类监督的AI系统。"
 },
 {
 "title": "Performance of Deep Learning Algorithms for Segmentation of Shoulder Anatomy on MRI: A Systematic Review.",
@@ -914,6 +1354,271 @@
 "rank": 8.01
 },
 {
+"title": "Rethinking Next-Visit Diagnosis Prediction Beyond Aggregate Metrics: Retrieval--Memory Multi-Agent Adjudication",
+"link": "https://arxiv.org/abs/2611.03826",
+"date": "2026-11-02T19:03:08+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.03826",
+"pop": null,
+"id": "543bdf43eee6",
+"keep": true,
+"zh_title": "超越聚合指标的下次就诊诊断预测：检索-记忆多智能体裁决",
+"summary": "提出沿分布与时间维度评估下次就诊诊断预测的框架，发现重复上次就诊的诊断优于多数基于LLM的方法。",
+"key_points": [
+"评估框架覆盖标签分布与时间转移",
+"重复上次就诊整体优于多数LLM方法",
+"检索与记忆方法在不同时间转移上各有优势"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"电子病历",
+"智能体",
+"临床预测"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "预印本，有新评估视角与多方法对比，但证据有限",
+"abstract": "Next-visit diagnosis prediction forecasts the diagnoses documented at a patient's next encounter, turning retrospective electronic health records into prospective clinical prediction. However, conventional aggregate evaluation obscures its multifaceted nature: distributionally, models must handle variable-size diagnosis sets and long-tailed labels; temporally, they must distinguish persistent, newly recorded, and recurrent diagnoses; and both vary with observed history depth. We introduce an evaluation framework along these dimensions and apply it to rule-based heuristics, LLM-based prompting, retrieval, memory, and multi-agent approaches. This reveals that repeating the last visit outperforms most LLM-based approaches overall despite predicting no new or recurrent diagnoses, and that retrieval and memory exhibit distinct profiles whose relative strengths vary across temporal transitions and backbones. Motivated by this, we propose LONGINUS, a retrieval-memory multi-agent adjudication framework combining evidence retrieved from patient records with structured memory of the patient trajectory. Using cross-view agreement as a reliability heuristic, it preserves shared predictions and adjudicates disagreements without revealing their source. Across MIMIC-III and MIMIC-IV with four LLM backbones, LONGINUS achieves the best transition-specific performance among LLM-based methods in nearly all settings while remaining competitive with them on aggregate metrics.",
+"day": "2026-11-04",
+"rank": 8.01,
+"zh_abstract": "下一次就诊诊断预测是对患者下一次就诊时所记录的诊断进行预测，将回顾性电子健康记录转化为前瞻性临床预测。然而，传统的整体评估掩盖了该任务的多面性：在分布层面，模型必须处理大小可变的诊断集合以及长尾标签；在时间层面，模型必须区分持续性诊断、新记录的诊断和复发性诊断；并且二者都随已观察到的病史深度而变化。我们提出了一个沿这些维度展开的评估框架，并将其应用于基于规则的启发式方法、基于大语言模型（LLM）的提示方法、检索、记忆以及多智能体方法。结果显示，尽管不预测任何新发或复发诊断，直接重复上一次就诊的诊断在总体上仍优于大多数基于 LLM 的方法；并且检索与记忆表现出不同的特征，其相对优势随时间转变类型和骨干模型而变化。受此启发，我们提出了 LONGINUS，一个检索-记忆多智能体裁决框架，将从患者记录中检索到的证据与患者病程的结构化记忆相结合。该框架以跨视角一致性作为可靠性启发式，保留共同的预测，并在不披露来源的情况下对分歧进行裁决。在 MIMIC-III 和 MIMIC-IV 上，使用四种 LLM 骨干模型，LONGINUS 在几乎所有设置中都取得了基于 LLM 的方法中最佳的转变类型特异性表现，同时在总体指标上与这些方法保持竞争力。"
+},
+{
+"title": "DUNEDepth: Bronchoscopic Depth and Pose Estimation via Hybrid Adaptation of a 3D-Vision Foundation Model",
+"link": "https://arxiv.org/abs/2611.04025",
+"date": "2026-11-02T22:13:02+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.04025",
+"pop": null,
+"id": "a482296576fe",
+"keep": true,
+"zh_title": "DUNEDepth：基于3D视觉基础模型的支气管镜深度与位姿估计",
+"summary": "基于3D视觉基础模型，结合DUNE ViT编码器与MASt3R解码器，并用合成监督加自监督策略微调，用于支气管镜深度和相机位姿估计。",
+"key_points": [
+"混合架构：DUNE编码器加MASt3R风格解码器",
+"合成监督与自监督混合训练策略",
+"目标是将支气管镜视频与术前CT关联"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"手术"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "预印本新方法，基础模型适配内镜，证据有限",
+"i_note": "",
+"abstract": "State-of-the-art bronchoscopy guidance systems and computer-aided diagnosis methods have emerged as important tools for early lung cancer detection. Effective use of these tools depends on being able to accurately link a patient's bronchoscopic airway exam video to their pre-operative 3D chest CT scan. Unfortunately, the derivation of such links, which include bronchoscope depth and camera motion, from the exam video remains an open problem. Building on recently proposed 3D-vision foundation models, we propose DUNEDepth, a hybrid architecture that combines a shared DUNE ViT encoder, a twin MASt3R cross-attention decoder structure, and a prediction head that includes elements of the MASt3R and Reloc3r models. To fine-tune the architecture to our application, we utilize an integrated hybrid synthetic-supervised/self-supervised training strategy that draws on both bronchoscopic video and CT-derived virtual bronchoscopic views. Experiments drawing on bronchoscopic video sequences demonstrate that DUNEDepth more accurately derives depth information and camera motion trajectories than previously proposed self-supervised methods.",
+"day": "2026-11-04",
+"rank": 8.01
+},
+{
+"title": "Measure Before You Repair: An Explainable Agent for Blind Restoration of Multi-Artifact 3-D MRI",
+"link": "https://arxiv.org/abs/2611.03996",
+"date": "2026-11-02T21:37:26+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.03996",
+"pop": null,
+"id": "43044f1befff",
+"keep": true,
+"zh_title": "先测后修：用于多伪影3D MRI盲修复的可解释智能体",
+"summary": "提出Dx-Rx智能体，由多模态大模型调用诊断与修复工具，对整幅3D脑MRI进行盲修复并生成放射学风格报告，在模拟伪影数据上评估。",
+"key_points": [
+"MLLM循环调用5个诊断和4个修复工具",
+"首个修复完整3D MRI体数据的智能体",
+"在148个T1体数据上模拟最多5种伪影"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"智能体",
+"医学影像",
+"多模态"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "新颖的影像智能体方法，但仅模拟伪影、预印本，属值得一看档",
+"abstract": "A brain MRI scan can carry an unknown mix of artifacts, so restoration has to be blind, yet most deep-learning methods are built to correct one known artifact. We present Dx-Rx, an agent in which a multimodal large language model (MLLM) measures suspected artifacts before it repairs them. To our knowledge, it is the first agent to restore whole 3-D MRI volumes, whereas earlier MRI agents restore 2-D slices. In a loop, it looks at slices of the 3-D volume, calls five diagnostic tools (noise, spike, ghosting, bias field, motion) and four restoration tools in any order it chooses, checks each repair, can return to any earlier version to change the order, and ends with a radiology-style report of its diagnostic reasons, the repairs it applied and their results. We simulated up to five artifacts on 148 whole 3-D T1-weighted volumes, at levels calibrated to radiologists' grades of real scans. An MLLM that only looked at the image, as earlier MRI agents do, removed at most 19.7 % of the artifact error. With the best of five MLLMs, Dx-Rx removed a mean 64.5 %, nearly matching the 64.6 % of the same tools given the ground-truth artifacts, which are never known for a clinical scan. With all five models, it made no volume worse and was on par with or better than an expert rule-based pipeline built from the same tools (62.3 %). Code and demo are public at https://itu-biai.github.io/measure-before-you-repair.",
+"day": "2026-11-04",
+"rank": 8.01
+},
+{
+"title": "A Guideline-Grounded Multi-Agent Framework for Personalized Exercise Prescription from Clinical and Wearable Data",
+"link": "https://arxiv.org/abs/2611.03983",
+"date": "2026-11-02T21:22:18+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.03983",
+"pop": null,
+"id": "540ae9c2bfec",
+"keep": true,
+"zh_title": "FITTER：基于指南的多智能体个性化运动处方框架",
+"summary": "FITTER整合临床与可穿戴数据生成FITT-VP运动处方，并做确定性安全审查；在400名All of Us参与者上与5个LLM对比，安全合规率98.5%。",
+"key_points": [
+"多智能体结合指南与确定性安全审计修复",
+"400例（300癌症、100卒中）计算评估",
+"安全合规98.5%，对照为75.8–85.8%"
+],
+"section": "数字健康",
+"type": "论文",
+"tags": [
+"智能体",
+"数字健康",
+"临床决策支持"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "可穿戴+多智能体新方法，有基线对比和临床医生评审，但为预印本",
+"abstract": "Translating population-level exercise guidance into individualized prescriptions requires integrating clinical and wearable data, including diagnoses, medications, functional limitations, and baseline activity, with condition-specific recommendations, a process difficult to scale beyond specialist rehabilitation settings. We developed FITTER, a multi-agent framework that integrates these data with condition-specific guidance to generate personalized FITT-VP prescriptions and applies deterministic safety audit and repair to correct rule-checkable violations. We evaluated FITTER using data from 400 All of Us participants (300 cancer, 100 stroke) against five LLM comparators through computational evaluation, ablation, and structured clinician review. FITTER achieved 98.5% safety-constraint compliance versus 75.8-85.8% for comparators and showed greater quantitative dosing precision and guideline alignment. Cancer-cohort ablation identified safety audit and repair as the largest contributor to safety-constraint compliance. Clinicians reviewed 80 prescriptions across safety, personalization, instruction concreteness, anticipated effectiveness, and clinical acceptability. FITTER provides a clinician-facing approach integrating clinical and wearable data, guidance, and explicit safety constraints.",
+"day": "2026-11-04",
+"rank": 8.01
+},
+{
+"title": "Improving PI-RADS Prediction and Prostate Cancer Detection from Multiparametric MRI with Anatomical Guidance",
+"link": "https://arxiv.org/abs/2611.04155",
+"date": "2026-11-03T01:45:41+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.04155",
+"pop": null,
+"id": "6ac22fd413e1",
+"keep": true,
+"zh_title": "解剖引导提升mpMRI的PI-RADS预测与前列腺癌检测",
+"summary": "在mpMRI中加入前列腺分区掩码，在3D ResNet与ViT上提升PI-RADS预测与csPCa检测，并在外部数据集微调验证。",
+"key_points": [
+"PI-RADS预测最佳QWK为0.511",
+"csPCa检测最佳AUC为0.809",
+"外部数据集微调结果同样受益"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"肿瘤"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "大规模内部数据加外部微调，多架构对比，但指标提升有限，预印本",
+"abstract": "Accurate prediction of Prostate Imaging Reporting and Data System (PI-RADS) scores from multiparametric MRI (mpMRI) remains challenging, more so than clinically significant prostate cancer (csPCa) detection. Given the importance of lesion location in PI-RADS scoring, we evaluated whether incorporating prostate zonal masks improves PI-RADS prediction and csPCa detection across multiple architectures (3D ResNet-18, ResNet-50, and ViT) using a large-scale internal dataset. Anatomical guidance generally improved performance across architectures, with the best results achieved by ResNet-18 with 2-zone guidance for PI-RADS prediction (QWK = 0.511) and ResNet-50 with 5-zone guidance for csPCa detection (AUC = 0.809). Fine-tuned results on external datasets further demonstrated the benefits of anatomical guidance. Furthermore, models with anatomical guidance improved the utility of model-predicted PI-RADS scores for PI-RADS-based csPCa detection (positive defined as PI-RADS>=3). Combining model-predicted and expert-assigned PI-RADS scores significantly increased the AUC from 0.711 to 0.756 (p < 0.05), suggesting that AI-derived PI-RADS scores may provide complementary information to expert assessment for csPCa detection. Overall, our findings highlight the value of incorporating prostate zonal anatomy into deep learning-based prostate MRI assessment.",
+"day": "2026-11-04",
+"rank": 8.01
+},
+{
+"title": "iMED: A Multi-Endoscope Dataset for Surgical 3D Perception",
+"link": "https://arxiv.org/abs/2611.04755",
+"date": "2026-11-03T12:06:58+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.04755",
+"pop": null,
+"id": "2855e55ee2c3",
+"keep": true,
+"zh_title": "iMED：面向手术三维感知的多内镜数据集",
+"summary": "预印本提出首个同步多内镜机器人微创手术数据集，含340个序列、约17万同步时间点，提供独立留出视角。",
+"key_points": [
+"两台立体内镜同步采集，每时间点4视角",
+"涵盖离体、尸体与在体手术场景，14个标本",
+"含相机标定、位姿估计和器械分割掩码"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"数据集",
+"手术",
+"医学影像"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "新的手术视觉数据集，规模可观，但为预印本且信息有限",
+"abstract": "We introduce iMED, the first synchronized multi-endoscope dataset for robot-assisted minimally invasive surgery (RAMIS), designed to address a fundamental limitation in surgical vision benchmarking: the absence of independent held-out viewpoints. Existing surgical datasets capture single-trajectory sequences from a single endoscope, making it impossible to distinguish geometric generalization from photometric interpolation along a narrow forward-facing path. iMED provides 340 sequences ~170K synchronized timepoints with 4 views per timepoint) recorded simultaneously from two independent stereo endoscopes across ex vivo, postmortem, and live surgical settings, spanning 14 specimens with diverse anatomical regions and motion regimes. The dataset includes calibrated camera intrinsics, ArUco-based frame-wise pose estimates with uncertainty quantification, instrument segmentation masks, and rich clinical metadata. Using a train-on-one-endoscope, test-on-another evaluation protocol, we benchmark 23 state-of-the-art methods across rigid and deformable novel view synthesis, pose estimation, feature matching, and monocular depth estimation. Our experiments show that methods relying primarily on photometric supervision degrade substantially under this held-out-endoscope setting, while methods with explicit geometric regularization are more robust across views in our benchmark. Notably, large-scale foundation models transfer surprisingly well to surgical imagery, often outperforming domain-specific models, suggesting pitfalls in current fine-tuning protocols. iMED establishes a new evaluation protocol for geometric generalization in surgical vision.",
+"day": "2026-11-04",
+"rank": 8.01
+},
+{
+"title": "Therapy-FIS: A Dataset for Assessing Facilitative Interpersonal Skills in Psychotherapeutic Setting",
+"link": "https://arxiv.org/abs/2611.04645",
+"date": "2026-11-03T10:35:21+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.04645",
+"pop": null,
+"id": "d904c275b1de",
+"keep": true,
+"zh_title": "Therapy-FIS：心理治疗中促进性人际技能评估数据集",
+"summary": "预印本发布首个公开的心理治疗促进性人际技能自动评估数据集，含面部、声学和文本信号，基于890段治疗师视频。",
+"key_points": [
+"首个该领域公开数据集",
+"基于890段治疗师视频与模拟患者刺激片段",
+"提供面部、声学、文本多模态信号"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"数据集",
+"心理健康",
+"多模态"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "心理健康多模态新公开数据集，但规模中等、预印本",
+"abstract": "Facilitative Interpersonal Skills (FIS) is a performance-based assessment method that provides a structured framework for evaluating the interpersonal competencies of mental health professionals. However, existing FIS assessment relies heavily on human observer ratings, making the evaluation process labor-intensive, costly, and difficult to scale. Progress toward automated FIS assessment has also been constrained by the lack of publicly available professional data in psychotherapy settings. To address this limitation, we introduce Therapy-FIS, a dataset for automated FIS assessment in standardized psychotherapy tasks. To our knowledge, Therapy-FIS is the first publicly available dataset in this domain. It contains facial, acoustic, and textual signals derived from standardized therapist responses to standardized mock patient stimulus clips, based on 890 therapist video recordings and 8 patient videos, and is rated with eight FIS subscale ratings and an overall FIS score. Built on Therapy-FIS, we further establish a benchmark with two downstream tasks: Therapist Performance Rating and Joint Therapist--mock-Patient Performance Rating. We also introduce a competitive baseline, DyadicFIS, with gated fusion and routed readout under therapist-only and dyadic settings. DyadicFIS obtains the best macro CCC(Concordance Correlation Coefficient) scores on both tasks (0.2807 and 0.3299). Therapy-FIS offers a reproducible resource for data-driven automated assessment of therapeutic interpersonal skills in mental health.",
+"day": "2026-11-04",
+"rank": 8.01,
+"zh_abstract": "促进性人际技能（Facilitative Interpersonal Skills，FIS）是一种基于表现的评估方法，为评价心理健康专业人员的人际能力提供了结构化框架。然而，现有的FIS评估严重依赖人工观察者评分，使评估过程费时费力、成本高昂且难以规模化。心理治疗场景中缺乏可公开获取的专业数据，也限制了自动化FIS评估的进展。为解决这一局限，我们提出了Therapy-FIS，这是一个用于标准化心理治疗任务中自动化FIS评估的数据集。据我们所知，Therapy-FIS是该领域首个可公开获取的数据集。它包含源自治疗师对标准化模拟患者刺激片段所作标准化回应的面部、声学和文本信号，基于890段治疗师视频记录和8段患者视频，并配有八项FIS子量表评分和一个FIS总分。基于Therapy-FIS，我们进一步建立了包含两项下游任务的基准：治疗师表现评分（Therapist Performance Rating）以及治疗师—模拟患者联合表现评分（Joint Therapist–mock-Patient Performance Rating）。我们还提出了一个具有竞争力的基线模型DyadicFIS，其在仅治疗师和二元（dyadic）设置下采用门控融合和路由读出。DyadicFIS在两项任务上均取得了最佳的宏平均CCC（一致性相关系数）得分（分别为0.2807和0.3299）。Therapy-FIS为心理健康领域中治疗性人际技能的数据驱动自动化评估提供了可复现的资源。"
+},
+{
+"title": "Balancing Chain-of-Thought and Answer Supervision for Small Language Models on Medical Question Answering",
+"link": "https://arxiv.org/abs/2611.03948",
+"date": "2026-11-02T20:48:29+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.03948",
+"pop": null,
+"id": "24e6758d3794",
+"keep": true,
+"zh_title": "小语言模型医学问答中思维链与答案监督的平衡",
+"summary": "比较两种思维链监督微调方法（UaS与SwS）在≤9B小模型上的医学问答表现，结果显示没有普遍最优的方法。",
+"key_points": [
+"在MedQA、EMS-MCQA、Med-O1上评估六个模型",
+"选择题上SwS总体更好，通用模型获益最大",
+"Qwen3.5-4B在MedQA较零样本最多提升44.8%"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"医学大模型",
+"基准",
+"临床NLP"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "小型医学LLM微调对比较充分，但无外部临床验证；预印本，领域LM小幅加分",
+"abstract": "Small language models (<=9B parameters) can support local medical question answering (QA) while reducing privacy and latency concerns, but effective fine-tuning remains challenging. This paper compares two chain-of-thought (CoT) supervised fine-tuning methods: Uniform-across-Sequence (UaS), which applies equal loss weighting to the full CoT-and-answer sequence, and Segment-weighted (SwS), which separately weights CoT and answer losses. We evaluate six general- and medical-domain models on multiple-choice QA (MedQA and EMS-MCQA) and free-text QA (Med-O1). Results show that neither method is universally best: on multiple-choice QA (MedQA and EMS-MCQA), SwS generally performs better, with general-purpose models benefiting most; notably, Qwen3.5-4B improves by up to 44.8% over its zero-shot baseline on MedQA. In contrast, medical-domain models show smaller or even negative gains on MCQs. On free-text QA (Med-O1), UaS performs best for nearly all models and provides consistent improvements across both model types, with the 3B Llama-3.2 model approaching the performance of much larger 7B medical-domain models. We also find that excessively long CoT generation is associated with lower performance in some models on either multiple-choice or free-text QA tasks, suggesting that limiting the CoT length during training may benefit selected models. Overall, the results show that CoT loss weighting should be matched to the task format and the knowledge already encoded in the base model, rather than using a single fine-tuning strategy for all clinical QA tasks.",
+"day": "2026-11-04",
+"rank": 8.01
+},
+{
 "title": "Neurotronics Receives FDA Clearance for Sleep Analysis Module, Advancing Nihon Kohden’s AI/ML-Enabled Sleep Analysis Capabilities",
 "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcHhZcTM1aTRfYS0ycmNqOV83cGF0eUM0OWV3NG84dEZfNGpYcEJuUzR1UmVqcnZPVzBaa1RHRS10NDgwYjR5aEZDZmZ4SEY1azdXYS1zWVp6TzZSYVFJd1Y4OVpyXzdOZF81ZXY0RFY1Z3lOVTBySEU0ZTV1NGc3MGRFVlpZZG5IMUF4WXA4czgyVTZ6ZXNaamtBZWttYmdvM2F6ZA?oc=5",
 "date": "2026-11-03T16:00:00+00:00",
@@ -939,7 +1644,13 @@
 "reason": "仅标题，FDA许可但属常规产品许可，信息有限",
 "title_only": true,
 "day": "2026-11-04",
-"rank": 8.0
+"rank": 8.0,
+"also": [
+{
+"source": "01net",
+"link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMlV3aWcydHZfLUVadUxKa05mOG1iYWlld1gzV0FjUFN3R3VTQWJUa1R2b09YWm14cGY5cVM0VUROQ2hWOG9lUThEUlFISUFQS3RnRDZFeElsTFZfdTZZODBxTTRCbzFvalNIdkl5bnI5Ry1MdVd4M3RySkdGMlI2VWJsdUtQNXRwWmxGbFpYTTZUcGtTRVJHN00weW9jZEJOX2x1ZENJRERBdVJtUHlNdllCZWRwbkxicTBoNlhheEFsUTBwaDduSHJwb0VhRkZRdFdZbmNoMmVBUlBWSkhpSXRBUQ?oc=5"
+}
+]
 },
 {
 "title": "Artificial Intelligence in Cataract Care: A Narrative Review of Evidence Maturity and Clinical Readiness.",
@@ -1040,6 +1751,40 @@
 "day": "2026-11-04",
 "rank": 7.85,
 "zh_abstract": "[Critical reviews in oncology/hematology] 胶质瘤是中枢神经系统最常见的原发性恶性肿瘤，由于其弥漫浸润和分子异质性，仍然难以处理。随着胶质瘤分类日益依赖分子生物标志物，人们对能够在术中提供实时生化信息的无标记技术的兴趣不断增加。尽管拉曼光谱已成为一种有前景的光学方法，但其诊断性能和转化应用的成熟度仍未被充分界定。本系统综述已在 PROSPERO 注册，并按照 PRISMA 2020 指南开展。检索了 PubMed、Embase、Scopus 和 Web of Science 中 2015 年至 2025 年间发表的评估基于拉曼技术用于胶质瘤诊断的研究。两名评审员独立进行研究筛选、数据提取，并使用 QUADAS-2 评估偏倚风险。由于方法学异质性，采用 SWiM 指导的叙述性方法对结果进行综合。共有 47 项研究符合纳入标准。在传统拉曼光谱、表面增强拉曼光谱、受激拉曼组织学、受激拉曼散射以及多模态平台中，基于拉曼的技术在组织鉴别、肿瘤边界评估、分子特征分析和术中组织评估方面始终表现出较强的性能。近期研究越来越多地整合人工智能用于自动化组织分类和分子预测。然而，采集方案、分析流程和验证策略存在显著异质性，加之研究以回顾性单中心为主且外部验证有限，降低了对其临床可推广性的信心。QUADAS-2 显示偏倚风险最大的是患者选择和待评价试验两个领域。拉曼光谱正从一种光学成像技术发展为面向精准神经肿瘤学的分子决策支持平台。未来的临床转化将取决于方法学标准化、前瞻性多中心验证、可解释的人工智能，以及融入常规神经外科工作流程。"
+},
+{
+"title": "Updates in cardiovascular CT imaging in 2025: A year in review.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42966716/",
+"date": "2026-10-31T00:00:00+00:00",
+"badge": "DOI 10.1016/j.jcct.2026.09.012",
+"source": "PubMed · Journal of cardiovascular computed tomography",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "a8cf5b20b792",
+"keep": true,
+"zh_title": "2025年心血管CT成像进展年度回顾",
+"summary": "综述总结2025年心血管CT进展，涵盖CCTA管理的长期结局数据、斑块定量、光子计数CT，以及全国性AI FFR-CT项目的首个大规模真实世界评估。",
+"key_points": [
+"CCTA指导稳定性胸痛管理有长期结局数据",
+"首个全国AI FFR-CT项目真实世界评估",
+"涵盖斑块分析、钙化积分、光子计数CT等"
+],
+"section": "影像与病理",
+"type": "观点",
+"tags": [
+"医学影像",
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "年度综述，AI只是部分内容，综述上限内偏低",
+"i_note": "",
+"abstract": "[Journal of cardiovascular computed tomography] The year 2025 brought long-term outcome data supporting coronary CT angiography (CCTA)-guided management of stable chest pain, a proposed reframing of coronary artery disease around atherosclerosis rather than ischemia, and the first large-scale real-world evaluation of a national artificial intelligence (AI)-enabled CT-derived fractional flow reserve (FFR-CT) program. This review summarizes selected advances in cardiovascular computed tomography (CCT) published in print or online during 2025. The studies span coronary artery disease outcomes and prevention, quantitative plaque analysis, photon-counting detector CT, coronary artery calcium scoring, pericoronary inflammation imaging, AI and machine learning, structural and congenital heart disease, and consensus and training documents. For each study we summarize the design, principal findings, limitations, and likely clinical implications, and we close with the barriers, including technical standardization, vendor-specific thresholds, equitable access, and the need for randomized outcome trials, that must be addressed before many of these advances can be implemented broadly.",
+"day": "2026-11-04",
+"rank": 7.85,
+"zh_abstract": "[Journal of cardiovascular computed tomography] 2025年带来了支持以冠状动脉CT血管造影（CCTA）指导稳定型胸痛管理的长期结局数据、一项主张围绕动脉粥样硬化而非缺血来重新界定冠状动脉疾病的提议，以及首个对全国性人工智能（AI）赋能的CT衍生血流储备分数（FFR-CT）项目的大规模真实世界评估。本综述总结了2025年在纸质版或在线发表的心血管计算机断层扫描（CCT）领域的部分进展。这些研究涵盖冠状动脉疾病结局与预防、定量斑块分析、光子计数探测器CT、冠状动脉钙化积分、冠状动脉周围炎症成像、AI与机器学习、结构性和先天性心脏病，以及共识和培训文件。对于每项研究，我们总结了其设计、主要发现、局限性及可能的临床意义，并在最后讨论了在许多此类进展得以广泛应用之前必须解决的障碍，包括技术标准化、厂商特异性阈值、公平可及性，以及开展随机结局试验的必要性。"
 },
 {
 "title": "Benchmark of THReD: Evaluating an LLM Agent and Its Preprocessing Tools for Turning Electronic Health Records into AI-Ready Datasets",
@@ -1656,6 +2401,40 @@
 "day": "2026-11-04",
 "rank": 7.81,
 "zh_abstract": "单细胞测序中的破坏性取样会掩盖祖先与后代之间的关系，限制了对细胞命运动态的连续重建。在此，我们提出用于非平衡单细胞动态的谱系感知最优传输（Lineage-aware optimal transport for unbalanced single-cell dynamics，LOTUS）框架，该框架将时间分辨的转录组快照与来自工程化条形码或内源性T细胞受体克隆型的克隆谱系信息整合在一起。LOTUS将克隆水平的最优传输与神经非平衡传输相结合，在谱系一致性约束下对连续的细胞状态变化、群体增长和克隆扩增进行建模。在分支模拟中，相较于基准方法，LOTUS减少了谱系不一致的传输，将脱靶路由从4.94-14.84%降至1.10%。在造血系统的LARRY谱系条形码scRNA-seq数据上，LOTUS重建了分支轨迹，改善了早期中性粒细胞-单核细胞命运边界的预测，并推断出多命运祖细胞和命运偏向性元克隆，将它们各自不同的命运潜能与推断的表观遗传预置（priming）联系起来。在成纤维细胞重编程的CellTagging scRNA-seq数据上，它区分了重编程成功与失败的轨迹，并对与命运相关的扰动基因进行了优先排序。在疟疾应答性记忆（CD45RA-）CD4+ T细胞的纵向scRNA-seq和TCR-seq数据中，它保留了内源性克隆型结构，并重建了TR1动态及调控网络。因此，LOTUS可将谱系解析的单细胞快照转化为可解释的、连续的命运动态模型及其调控程序。"
+},
+{
+"title": "Development and cross-cohort evaluation of a multimodal deep-learning model for ER, PR and HER2 status classification in breast cancer",
+"link": "https://www.biorxiv.org/content/10.64898/2026.11.01.761587v1?rss=1",
+"date": "2026-11-03T00:00:00+00:00",
+"source": "bioRxiv",
+"source_group": "bioRxiv",
+"home": "",
+"thin": false,
+"badge": "DOI 10.64898/2026.11.01.761587",
+"pop": null,
+"id": "a4c30883c559",
+"keep": true,
+"zh_title": "乳腺癌ER、PR、HER2状态分类的多模态深度学习模型及跨队列评估",
+"summary": "模型整合全切片图像、转录组、年龄和分期，在TCGA-BRCA开发并在CPTAC-BRCA外部评估，考察增量价值、对HER2转录本依赖及校准迁移。",
+"key_points": [
+"TCGA-BRCA 1051例开发，CPTAC-BRCA 120例评估",
+"分析含配对比较、转录本移除、重校准",
+"CPTAC曾在早期开发中被观察，仅13例HER2阳性"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"病理",
+"多模态",
+"肿瘤"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "病理多模态有跨队列评估，但外部样本小且存在数据泄露风险，预印本",
+"abstract": "Background. Estrogen receptor (ER), progesterone receptor (PR) and HER2 status guide systemic treatment in breast cancer. Multimodal models are rarely benchmarked against key biomarker molecular baselines or evaluated for cross-cohort calibration. We assessed incremental value, dependence on label-proximal HER2 transcripts, and transport of discrimination and calibration. Methods. A model combining whole-slide images, transcriptomes, age and stage was developed in TCGA-BRCA (1051 patients; ER/PR/HER2 analysis sets: 1001/998/1006) and evaluated in CPTAC-BRCA (120 patients; 118/113/95). CPTAC had been observed during earlier development and included 13 HER2-positive cases. Analyses included paired model comparisons, transcript removal, alternative loss functions and recalibration. Internal discrimination used pooled out-of-fold predictions; external discrimination used fold-mean estimates, with ensemble calibration reported separately. Internal calibration and macro-AUC uncertainty were interpreted as exploratory. Results. Internal AUCs were 0.943 for ER, 0.901 for PR, and 0.860 for HER2; external AUCs were 0.952, 0.937, and 0.918, respectively. External macro-AUC was 0.936 for the multimodal model and 0.957 for logistic regression using ESR1, PGR, and ERBB2 (difference -0.021). Removal of the extended 29-transcript 17q12-q21 region changed HER2 AUC by -0.035 [-0.058 to -0.013] (95% CI) internally and by -0.042 [-0.089 to -0.007] externally relative to the baseline multimodal model. For external 15-model ensemble predictions, recalibrated HER2 expected calibration error (ECE) was 0.236, exceeding the ECE reference ceiling of 0.125, while calibration-in-the-large was -1.657 [-2.373 to -1.023] (profile-likelihood 95% CI), indicating systematic overprediction. ER and PR also showed overprediction. In paired fold-mean comparisons, HER2 ECE and Brier score favoured the three-transcript model (ESR1, PGR, and ERBB2). Conclusions. A multimodal deep-learning model achieved high discrimination across cohorts but did not demonstrate clear incremental value over a parsimonious three-transcript baseline, while cross-cohort calibration remained a substantial challenge. These findings highlight the importance of evaluating incremental value, calibration, and clinical utility alongside discrimination when assessing AI-based prediction models for medical use.",
+"day": "2026-11-04",
+"rank": 7.81,
+"zh_abstract": "【背景】雌激素受体（ER）、孕激素受体（PR）和HER2状态指导乳腺癌的全身治疗。多模态模型很少与关键生物标志物的分子基线进行基准比较，也很少评估其跨队列校准。我们评估了增量价值、对与标签邻近的HER2转录本的依赖性，以及区分度和校准度的可迁移性。【方法】在TCGA-BRCA（1051例患者；ER/PR/HER2分析集分别为1001/998/1006）中开发了一个整合全切片图像、转录组、年龄和分期的模型，并在CPTAC-BRCA（120例患者；118/113/95）中进行评估。CPTAC在早期开发阶段已被观察过，且包含13例HER2阳性病例。分析包括配对模型比较、转录本剔除、替代损失函数和重新校准。内部区分度使用汇总的折外预测；外部区分度使用折均值估计，集成校准单独报告。内部校准和宏平均AUC的不确定性作为探索性结果解读。【结果】内部AUC分别为：ER 0.943、PR 0.901、HER2 0.860；外部AUC分别为0.952、0.937和0.918。外部宏平均AUC在多模态模型中为0.936，在使用ESR1、PGR和ERBB2的逻辑回归中为0.957（差值-0.021）。相对于基线多模态模型，剔除扩展的29个转录本的17q12-q21区域后，HER2 AUC在内部变化-0.035 [-0.058至-0.013]（95% CI），在外部变化-0.042 [-0.089至-0.007]。对于外部15模型集成预测，重新校准后的HER2预期校准误差（ECE）为0.236，超过ECE参考上限0.125，而整体校准（calibration-in-the-large）为-1.657 [-2.373至-1.023]（剖面似然95% CI），提示系统性高估。ER和PR同样表现为高估。在配对折均值比较中，HER2的ECE和Brier评分均更有利于三转录本模型（ESR1、PGR和ERBB2）。【结论】多模态深度学习模型在各队列中实现了较高的区分度，但相对于精简的三转录本基线并未显示出明确的增量价值，而跨队列校准仍是一项重大挑战。这些发现凸显了在评估用于医疗的基于AI的预测模型时，除区分度外，还需评估增量价值、校准度和临床效用。"
 },
 {
 "title": "Accuracy Is Not Risk: Why Medical AI Should Not Report Only Its Most Likely Label",
@@ -2568,6 +3347,169 @@
 "zh_abstract": "自杀预防仍是一项严峻的公共卫生挑战，而电子健康记录（EHR）为利用已记录的临床、行为、医疗及社会情境信息来刻画自杀相关风险指标提供了契机。本文提出了一个多维机器学习框架，利用 MIMIC-IV EHR 数据对自杀相关结局进行建模和估计。我们构建了具有临床依据的诊断类别，并根据对应于自杀意念、自杀未遂、既往自杀行为和故意自伤的已记录编码定义了一个复合结局。为应对严重的类别不平衡并减少与年龄相关的混杂，我们采用了年龄匹配重采样方法，即保留全部阳性患者，并从相同年龄组中抽取对照队列患者。我们在重采样前后评估了逻辑回归、随机森林和 XGBoost 分类器，并采用等渗校准（isotonic calibration）。经校准的 XGBoost 模型在匹配队列中表现最佳，优于其他被评估的分类器。基于 SHAP 的解释显示，诊断负担、抑郁相关特征、年龄、人格障碍病史、与暴力相关的社会决定因素以及内科合并症均会使预测概率升高。我们的结果表明，将广泛的 EHR 衍生特征、年龄匹配的队列构建、校准和特征层面的解释相结合，可为回顾性自杀相关风险建模提供一个实用的框架。"
 },
 {
+"title": "ScienceVision: Can AI Observe and Reason Like a Scientist?",
+"link": "https://arxiv.org/abs/2611.04087",
+"date": "2026-11-02T23:55:01+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.04087",
+"pop": null,
+"id": "a69f5fc37017",
+"keep": true,
+"zh_title": "ScienceVision：AI能否像科学家一样观察与推理",
+"summary": "提出跨领域科学3D理解与推理的VQA基准，含250道专家级题目，覆盖生物、化学、医学影像、机械CAD和建筑，各50题。",
+"key_points": [
+"面向科学3D数据的专家级VQA基准",
+"五个领域各50题，共250题",
+"结合合成题生成与领域专家审核标注"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"基准",
+"多模态"
+],
+"evidence": "预印本",
+"score": 4,
+"reason": "预印本基准，规模较小，医学仅占其一",
+"i_note": "",
+"abstract": "Scientific discovery builds on accurate observations interpreted through domain knowledge and reasoning. For scientific 3D data, this requires understanding structures and spatial relationships, from protein contacts to anatomical organization. Existing multimodal benchmarks largely evaluate text and 2D images, while scientific 3D evaluations vary in representations and protocols across disciplines, limiting cross-disciplinary comparison. To assess these foundational capabilities, we introduce ScienceVision, a cross-domain benchmark for scientific 3D understanding and reasoning through expert-level visual question answering (VQA). We construct 250 questions, with 50 each from Biology, Chemistry, Medical Imaging, Mechanical CAD, and Architecture, through a pipeline combining synthetic question generation with domain-expert review and annotation. Each task pairs a native 3D artifact with a scientific question, a specified response format, and a task-specific reference answer, requiring domain knowledge to be applied to geometric or topological evidence. We evaluate 12 models on the same questions in three settings: visual question answering with native 3D artifacts accessed through an agent harness's file and code-execution tools; the same workflow augmented with expert-inspired viewer inspection and measurement tools exposed through the Model Context Protocol (MCP); and visual question answering from prescribed rendered 2D images using an agent harness. All settings use the same task-specific deterministic final-answer scoring. The inspection environment supports view changes, target isolation, and slice inspection. In this main comparison, the best mean answer score is 0.53 out of 1. Mean scores in the native-artifact workflow without additional MCP tools exceed those in the rendered-image workflow for every model, by 17.2 percentage points on average.",
+"day": "2026-11-04",
+"rank": 7.01,
+"zh_abstract": "科学发现建立在通过领域知识和推理加以解读的准确观察之上。对于科学三维数据而言，这需要理解结构和空间关系，从蛋白质接触到解剖组织结构皆然。现有的多模态基准主要评估文本和二维图像，而科学三维评估在不同学科间的表示方式和评测协议各不相同，限制了跨学科比较。为评估这些基础能力，我们提出了 ScienceVision，这是一个通过专家级视觉问答（VQA）来评估科学三维理解与推理的跨领域基准。我们通过将合成问题生成与领域专家审核和标注相结合的流程，构建了250个问题，生物学、化学、医学影像、机械CAD和建筑各50个。每项任务将一个原生三维制品与一个科学问题、指定的回答格式以及任务特定的参考答案配对，要求将领域知识应用于几何或拓扑证据。我们在相同的问题上以三种设置评估了12个模型：一是通过智能体框架的文件和代码执行工具访问原生三维制品进行视觉问答；二是在同一工作流基础上，增加通过模型上下文协议（MCP）提供的、受专家启发的查看器检查与测量工具；三是使用智能体框架，基于规定渲染的二维图像进行视觉问答。所有设置均采用相同的、任务特定的确定性最终答案评分。该检查环境支持视角切换、目标隔离和切片检查。在此主要比较中，最佳平均答案得分为0.53（满分1）。对每个模型而言，不使用额外MCP工具的原生制品工作流的平均得分均高于渲染图像工作流，平均高出17.2个百分点。"
+},
+{
+"title": "Polyp Matching Using Deep Learning",
+"link": "https://arxiv.org/abs/2611.04624",
+"date": "2026-11-03T10:13:53+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.04624",
+"pop": null,
+"id": "05f4e794fdb2",
+"keep": true,
+"zh_title": "基于深度学习的结肠胶囊内镜息肉匹配",
+"summary": "采用孪生网络与对比学习判断胶囊内镜图像是否为同一息肉，使用丹麦CareForColon2015试验的10,206对图像训练，比较多种骨干网络。",
+"key_points": [
+"孪生网络加余弦距离对比学习",
+"5,103对相同与5,103对不同息肉图像",
+"比较ResNet、DenseNet、EfficientNet骨干"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"临床落地"
+],
+"evidence": "预印本",
+"score": 4,
+"reason": "单一数据源、方法常规，属增量档",
+"abstract": "A key challenge in colon capsule endoscopy (CCE) analysis is accurately identifying whether multiple images depict the same polyp, which is critical to avoid over-counting and unnecessary clinical interventions. Additionally, this prevents prolonged follow-up colonoscopies where endoscopists search for duplicate polyps without precise localization. This study presents a novel contrastive learning-based approach to polyp matching using a Siamese neural network architecture. The model was trained on a dataset from the Danish CareForColon2015 trial. The dataset comprises 5,103 image pairs of confirmed same polyp and 5,103 pairs of different polyps, annotated by experienced clinicians. The proposed model employs ResNet variants (ResNet18, ResNet34, ResNet50), DenseNet121 and EfficientNet B0/B3 as backbones and utilizes contrastive learning with cosine vector distance metric for classification. Experimental results demonstrate high classification accuracies of up to 92% and AUC values close to 0.98. These results suggest that automated polyp matching has the potential to reduce polyp over-counting, improve patient risk stratification, and reduce unnecessary follow-up colonoscopies.",
+"day": "2026-11-04",
+"rank": 7.01
+},
+{
+"title": "Performance, Scalability and Maintenance: An Experimental Study of RPA vs. Autonomous Agents in the Healthcare Domain",
+"link": "https://arxiv.org/abs/2611.03853",
+"date": "2026-11-02T19:22:22+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.03853",
+"pop": null,
+"id": "cd16f329f90e",
+"keep": true,
+"zh_title": "医疗领域RPA与自主智能体的性能、可扩展性与维护对比",
+"summary": "预印本对比Playwright RPA与基于LLM的自主智能体，从实验室门户检索乳腺影像报告；RPA准确率更高、更快更便宜。",
+"key_points": [
+"RPA准确率98.90%，APA为96.49%",
+"RPA每患者16.07秒，APA为207.21秒",
+"单报告成本RPA 0.030美元，APA 0.187美元"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"智能体",
+"临床落地"
+],
+"evidence": "预印本",
+"score": 4,
+"reason": "预印本，单一任务工程对比，无外部验证，属增量档",
+"abstract": "Healthcare information systems are fragmented, and retrieving data from legacy web portals is a recurrent need. Robotic Process Automation (RPA) is deterministic but sensitive to interface changes, whereas autonomous agents based on large language models (Agent Process Automation, APA) promise adaptability at a higher computational cost. Following Design Science Research, we developed and compared an RPA solution (Playwright) and an APA solution (browser-use, LangGraph and Gemini 2.5 Flash-lite) to retrieve mammography and breast ultrasound reports from a laboratory portal, treating reports solely as informational artifacts. Across two rounds (T and T+7), RPA reached 98.90% accuracy and 98.27% F1-score versus 96.49% and 94.48% for APA, was about 13 times faster (16.07 s vs. 207.21 s per patient) and cost about six times less per report (USD 0.030 vs. 0.187). Both reached 100% step success rates; APA varied more over time. For a stable interface, RPA was superior.",
+"day": "2026-11-04",
+"rank": 7.01
+},
+{
+"title": "Sparse-View 3D Coronary Reconstruction from Vessel Segmentations Using a Diffusion Prior",
+"link": "https://arxiv.org/abs/2611.04604",
+"date": "2026-11-03T09:58:45+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.04604",
+"pop": null,
+"id": "9f86d586b720",
+"keep": true,
+"zh_title": "基于扩散先验的稀疏视角冠状动脉三维重建",
+"summary": "预印本结合三维扩散先验、视觉外壳初始化和投影数据一致性，从稀疏造影视角的血管分割重建冠脉三维结构。",
+"key_points": [
+"扩散模型仅用血管掩码训练，无需配对2D-3D数据",
+"同一模型可用于不同视角数而无需重训",
+"在ImageCAS模拟造影上测试2、4、8视角"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"生成模型"
+],
+"evidence": "预印本",
+"score": 4,
+"reason": "方法新颖但仅模拟数据评估，预印本",
+"abstract": "Reconstructing three-dimensional (3D) coronary anatomy from sparse angiographic views could support percutaneous coronary intervention, but limited angular coverage and imperfect vessel segmentations introduce substantial geometric ambiguity. We propose a vessel-specific reconstruction framework combining a learned 3D diffusion prior, visual-hull initialization, and projection-based data consistency. The unconditional diffusion model is trained on coronary vessel masks without paired 2D--3D data and reused across different view counts without retraining. During inference, a scaled visual hull initializes reconstruction, while projection-based updates constrain diffusion refinement using patient-specific vessel observations. We evaluated the framework on simulated angiograms derived from ImageCAS computed tomography angiography volumes using two, four, and eight views at two contrast levels. Across 50 evaluation coronary-tree cases, the proposed method achieved higher mean Dice and clDice than visual hull, deep image prior (DIP), and hash-grid implicit neural representation (INR) at all view counts under reduced contrast. With eight views, improvements over DIP, the best-performing baseline at lower contrast, were approximately 0.13 in Dice and 0.22 in clDice. At higher contrast, performance remained competitive with hash-grid INR, the best-performing eight-view baseline. The preferred diffusion starting timestep depended on observation quality and view count, with excessive refinement reducing accuracy at higher contrast. Projection guidance improved both metrics across all conditions. Averaging stochastic reconstructions further improved accuracy, while sample disagreement localized errors with average-precision gains of 0.14--0.21 over error prevalence. These findings support diffusion-prior reconstruction from sparse vessel observations, although clinical validation remains necessary.",
+"day": "2026-11-04",
+"rank": 7.01,
+"zh_abstract": "从稀疏血管造影视角重建三维（3D）冠状动脉解剖结构可为经皮冠状动脉介入治疗提供支持，但有限的角度覆盖和不完美的血管分割会带来显著的几何歧义。我们提出了一种血管特异性重建框架，结合了习得的3D扩散先验、视觉外壳（visual hull）初始化和基于投影的数据一致性。无条件扩散模型在冠状动脉血管掩膜上训练，无需配对的2D–3D数据，并可在不同视角数下复用而无需重新训练。在推理过程中，缩放后的视觉外壳用于初始化重建，而基于投影的更新则利用患者特异性的血管观测来约束扩散细化。我们在由ImageCAS计算机断层血管造影体数据生成的模拟血管造影上评估了该框架，采用两、四、八个视角及两种对比度水平。在50例冠状动脉树评估病例中，在低对比度条件下，所提方法在所有视角数下的平均Dice和clDice均高于视觉外壳、深度图像先验（DIP）和哈希网格隐式神经表示（INR）。在八视角下，相较于低对比度下表现最佳的基线DIP，Dice提高约0.13，clDice提高约0.22。在较高对比度下，其性能与八视角下表现最佳的基线哈希网格INR相当。较优的扩散起始时间步取决于观测质量和视角数，在较高对比度下过度细化会降低准确性。投影引导在所有条件下均改善了两项指标。对随机重建结果取平均可进一步提高准确性，而样本间不一致性可定位误差，其平均精度较误差发生率提高0.14–0.21。这些发现支持基于扩散先验从稀疏血管观测中进行重建，但仍需临床验证。"
+},
+{
+"title": "ProGeo-RC: Prototype-guided Semantic Reliability and Geometric Error Calibration for Semi-supervised Cardiac Image Segmentation",
+"link": "https://arxiv.org/abs/2611.04257",
+"date": "2026-11-03T03:49:50+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.04257",
+"pop": null,
+"id": "e1c3d13e9ed0",
+"keep": true,
+"zh_title": "ProGeo-RC：半监督心脏图像分割的原型语义可靠性与几何误差校准",
+"summary": "预印本提出原型引导的语义可靠性估计与符号距离场几何误差校准，用于半监督心脏图像分割的伪标签优化。",
+"key_points": [
+"PSRE用概率类原型估计伪标签语义可靠性",
+"S-SGEC引入符号距离场校准几何误差",
+"针对仅靠置信度判断伪标签的不足"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像"
+],
+"evidence": "预印本",
+"score": 4,
+"reason": "半监督分割方法改进，摘要未见外部验证，预印本",
+"abstract": "Semi-supervised medical image segmentation aims to train reliable segmentation models using limited labeled data and abundant unlabeled data. However, existing methods typically rely on prediction confidence or model consistency to estimate pseudo-label reliability, but these criteria are insufficient to characterize both semantic reliability and geometric plausibility. To address this issue, we propose ProGeo-RC, a prototype-guided semantic reliability and geometric error calibration framework for semi-supervised medical image segmentation. ProGeo-RC consists of two key modules: Prototype-guided Semantic Reliability Estimation (PSRE) and Structured Semantic-Geometric Error Calibration (S-SGEC). PSRE uses probabilistic class prototypes to estimate the semantic reliability of unlabeled predictions and calibrate pixel-wise teacher pseudo labels, while S-SGEC introduces signed-distance-field-based geometric constraints to refine ambiguous boundaries and suppress spurious foreground responses outside target structures. Experiments on the ACDC and MVAA-CT datasets show that ProGeo-RC achieves better performance compared with representative semi-supervised segmentation methods. Under the 10\\% labeled setting on ACDC, ProGeo-RC improves DSC and Jaccard by 0.37\\% and 0.49\\% over the corresponding second-best results, while reducing 95HD and ASD by 0.61 and 0.21, respectively. These results indicate that joint semantic reliability estimation and geometric error calibration can provide more reliable pseudo supervision for semi-supervised medical image segmentation.",
+"day": "2026-11-04",
+"rank": 7.01,
+"zh_abstract": "半监督医学图像分割旨在利用有限的标注数据和大量未标注数据训练可靠的分割模型。然而，现有方法通常依赖预测置信度或模型一致性来估计伪标签的可靠性，但这些标准不足以同时刻画语义可靠性和几何合理性。为解决这一问题，我们提出了ProGeo-RC，一种用于半监督医学图像分割的原型引导语义可靠性与几何误差校准框架。ProGeo-RC包含两个关键模块：原型引导语义可靠性估计（PSRE）和结构化语义-几何误差校准（S-SGEC）。PSRE利用概率类别原型估计未标注预测的语义可靠性，并校准教师模型逐像素的伪标签；S-SGEC则引入基于有符号距离场的几何约束，以细化模糊边界并抑制目标结构之外的虚假前景响应。在ACDC和MVAA-CT数据集上的实验表明，ProGeo-RC相比代表性的半监督分割方法取得了更好的性能。在ACDC的10%标注设置下，ProGeo-RC的DSC和Jaccard分别比相应的次优结果提高0.37%和0.49%，同时95HD和ASD分别降低0.61和0.21。这些结果表明，联合进行语义可靠性估计和几何误差校准可为半监督医学图像分割提供更可靠的伪监督。"
+},
+{
 "title": "Artificial intelligence in healthcare: clinical applications, evidence maturity, risks, and life-cycle governance.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42967409/",
 "date": "2026-10-21T00:00:00+00:00",
@@ -2990,6 +3932,38 @@
 "score": 4,
 "reason": "单中心回顾性预印本，方法为增量改进",
 "abstract": "Radiomic features derived from magnetic resonance imaging (MRI) are sensitive to scanners; therefore, they require harmonization across scanners. In a radiomic feature dataset, some batches may be severely underrepresented compared to the others e.g., the Erasmus Glioma Database, which may provide harmonized features biased towards the larger batches in the dataset. We investigated whether reweighting underrepresented scanner batches before empirical-Bayes ComBat estimation improves feature harmonization and reduces residual scanner association while retaining grade-related information. In this retrospective, the Erasmus Glioma Database included 733 eligible patients acquired at a single center across nine vendor-by-field-strength configurations. Structural MRI acquired at 1 T, 1.5 T, and 3 T; four structural MRI sequences were analyzed. From four structural MRI sequences, 428 features were computed using an IBSI-compliant PyRadiomics implementation. The sample sizes of some scanner batches were very small compared to others, which may produce unequal precision and shrinkage of batch-effect estimates. We proposed a data augmentation approach to overcome the limitation of ComBat. We provided exploratory evidence, along with confirmatory Kruskal-Wallis tests with a Benjamini-Hochberg correction to assess the proposed method. Before harmonization, 392/428 features (91.6%) differed significantly across scanner batches (median eta-squared=0.463). Standard ComBat reduced this to 13/428 (3.0%), whereas batch-augmented ComBat reduced it to 8/428 (1.9%); the median residual effect size was <0.001 for both harmonized conditions. Batch augmentation appeared to be a useful strategy to improve the performance of ComBat for feature harmonization under severe batch-size imbalance.",
+"day": "2026-11-04",
+"rank": 6.84
+},
+{
+"title": "Metadata-Conditioned Audio Transformers for Adaptive Respiratory Sound Classification",
+"link": "https://arxiv.org/abs/2611.03769",
+"date": "2026-11-02T15:53:27+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.03769",
+"pop": null,
+"id": "014747df49d1",
+"keep": true,
+"zh_title": "面向呼吸音分类的元数据条件音频Transformer",
+"summary": "为音频频谱Transformer设计多种元数据条件机制（含TAFiLM、SoftFiLM），以应对设备、听诊部位等采集差异对呼吸音分类的干扰。",
+"key_points": [
+"从门控残差融合到适配Transformer的FiLM",
+"提出TAFiLM与SoftFiLM两种新变体",
+"针对设备、部位和患者特征带来的系统性变异"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"生理信号",
+"临床预测"
+],
+"evidence": "预印本",
+"score": 4,
+"reason": "新方法但摘要无结果与外部验证，属增量档；预印本",
+"abstract": "Respiratory sound classification from auscultation recordings is confounded by heterogeneous acquisition conditions, including recording device, auscultation site, and patient characteristics, that introduce systematic variability unrelated to the underlying pathology. Although such metadata is often available, existing approaches either ignore it or rely on naïve fusion strategies that do not model how distinct metadata sources influence different components of the acoustic representation. We propose a family of metadata-conditioning mechanisms for the Audio Spectrogram Transformer (AST), progressing from gated residual fusion to Feature-wise Linear Modulation (FiLM) adapted to the Transformer architecture. We further introduce two novel variants: Token-Aware FiLM (TAFiLM), which applies distinct modulation to classification and patch tokens, and Soft-Factorized FiLM (SoftFiLM), which learns soft masks to align metadata factors with disentangled feature subspaces. Experiments on the ICBHI benchmark demonstrate consistent gains across all conditioning strategies. SoftFiLM achieves 64.11% on the official 4-class task (+3.94% over the baseline) and 72.40% on the 2-class task, establishing a new state-of-the-art on the 2-class task and competitive performance on the 4-class benchmark.",
 "day": "2026-11-04",
 "rank": 6.84
 },
@@ -3445,6 +4419,74 @@
 "rank": 6.21
 },
 {
+"title": "DR-LiteNet: A Lightweight Explainable Hybrid CNN Framework for Imbalanced Diabetic Retinopathy Grading via Adaptive SMOTE Fusion",
+"link": "https://arxiv.org/abs/2611.04405",
+"date": "2026-11-03T06:44:25+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.04405",
+"pop": null,
+"id": "23acf24b36c9",
+"keep": true,
+"zh_title": "DR-LiteNet：轻量可解释混合CNN用于不平衡糖网分级",
+"summary": "预印本提出结合EfficientNetB0深度特征与手工病灶特征的双分支网络，并用ADASYN缓解糖尿病视网膜病变分级的类别不平衡。",
+"key_points": [
+"EfficientNetB0提取1280维深度特征",
+"51维手工病灶描述符与之拼接为1331维",
+"在特征空间应用ADASYN合成少数类"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"眼科",
+"医学影像",
+"可解释性"
+],
+"evidence": "预印本",
+"score": 3,
+"reason": "常规眼底分级改进，摘要未见外部验证，属增量档",
+"abstract": "Automated diabetic retinopathy (DR) grading from colour fundus photographs is held back by two compounding challenges: severe class imbalance across five severity grades and the heavy computational cost of large scale architectures in resource constrained clinical settings. We introduce DR-LiteNet, a dual branch hybrid convolutional neural network that tackles both problems at once. The CNN branch extracts 1,280 dimensional deep features through EfficientNetB0, while the handcrafted (HC) branch produces a compact 51 dimensional lesion descriptor capturing vessel density, exudate intensity, texture entropy, and HSV colour histograms. Concatenating both branches yields a 1,331-d hybrid embedding, on which Adaptive SMOTE (ADASYN) is applied during training to synthesise minority class feature vectors, correcting distributional skew without touching the image space. A two phase training protocol first warms up the classification head on balanced features, then fine tunes the full network end to end. Grad CAM saliency maps deliver post-hoc clinical explainability. Tested on APTOS 2019 under five fold stratified cross validation, DR-LiteNet reaches 88.77% +/- 0.61 accuracy, a quadratic weighted kappa (QWK) of 0.884 +/- 0.010, and a macro F1 of 0.792 +/- 0.008 with only 4.69 M parameters beating ResNet50 (23.5 M) by DeltaQWK = 0.022 while staying practical on a single Google Colab T4 GPU. The source code of this project is available at: https://github.com/Nishi-Kanta-Paul/DR-LiteNet.",
+"day": "2026-11-04",
+"rank": 6.01,
+"zh_abstract": "基于彩色眼底照片的糖尿病视网膜病变（DR）自动分级受到两方面叠加挑战的制约：五个严重程度等级之间严重的类别不平衡，以及大规模架构在资源受限的临床环境中高昂的计算成本。我们提出了DR-LiteNet，一种双分支混合卷积神经网络，可同时应对这两个问题。CNN分支通过EfficientNetB0提取1,280维深度特征，而手工特征（HC）分支生成紧凑的51维病灶描述符，涵盖血管密度、渗出物强度、纹理熵和HSV颜色直方图。将两个分支拼接得到1,331维混合嵌入，训练期间在其上应用自适应SMOTE（ADASYN）合成少数类特征向量，在不触及图像空间的情况下纠正分布偏斜。两阶段训练方案首先在平衡特征上预热分类头，然后对整个网络进行端到端微调。Grad-CAM显著性图提供事后的临床可解释性。在APTOS 2019数据集上采用五折分层交叉验证，DR-LiteNet取得88.77% ± 0.61的准确率、0.884 ± 0.010的二次加权kappa（QWK）以及0.792 ± 0.008的宏平均F1，仅有469万参数，QWK较ResNet50（2350万参数）高出0.022，同时在单块Google Colab T4 GPU上仍具实用性。本项目源代码见：https://github.com/Nishi-Kanta-Paul/DR-LiteNet。"
+},
+{
+"title": "Structured Clinical Memory as Context for Probabilistic Decision Models: A Synthetic Evaluation with Jev",
+"link": "https://arxiv.org/abs/2611.04101",
+"date": "2026-11-03T00:22:39+00:00",
+"source": "arXiv",
+"source_group": "arXiv",
+"home": "",
+"thin": false,
+"badge": "arXiv 2611.04101",
+"pop": null,
+"id": "e511fd40e086",
+"keep": true,
+"zh_title": "结构化临床记忆作为概率决策模型上下文：合成评估",
+"summary": "在30例完全合成病例、120个问题上，加入结构化记忆使准确率由90.0%升至93.3%，差异无统计学显著性（McNemar p=0.219）。",
+"key_points": [
+"仅用合成病例，共120个类型化问题",
+"准确率90.0%→93.3%，对数损失0.258→0.175",
+"每次调用增加约310输入token，延迟基本不变"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"临床NLP",
+"电子病历",
+"临床决策支持"
+],
+"evidence": "预印本",
+"score": 3,
+"reason": "小样本合成数据、差异不显著，属增量档；预印本",
+"abstract": "Longitudinal clinical context is often distributed across noisy, repetitive forms and narrative records. We study whether a compact structured memory can improve a probabilistic decision model's answers when the underlying patient vignette is already available. We created 30 fully synthetic cases spanning twelve clinical domains, paired each with synthetically generated structured memory, and evaluated 120 typed questions with Jev. The raw-vignette arm achieved 90.0% accuracy (95% normal-approximation confidence interval: 84.6%-95.4%); adding memory achieved 93.3% (88.9%-97.8%). Five questions changed from incorrect to correct and one changed in the opposite direction (exact McNemar $p=0.219$). Choice log loss decreased from 0.258 to 0.175 and binary Brier score from 0.054 to 0.022. Memory added 310 input tokens per call on average, while observed mean latency was unchanged at approximately 0.5 seconds. These results are directionally positive rather than clinically validating: the cases are synthetic, the labels are single-author judgments, and the memory is an oracle upper bound rather than extracted production output. The pilot supports evaluating structured clinical memory as a reusable state interface for decision models.",
+"day": "2026-11-04",
+"rank": 6.01,
+"zh_abstract": "纵向临床背景信息通常分散在嘈杂、重复的表单和叙述性记录中。我们研究在已有患者病例描述（vignette）的情况下，紧凑的结构化记忆能否改善概率性决策模型的回答。我们创建了 30 个完全合成的病例，涵盖十二个临床领域，每个病例配以合成生成的结构化记忆，并使用 Jev 评估 120 道分类型问题。仅使用原始病例描述组的准确率为 90.0%（95% 正态近似置信区间：84.6%–95.4%）；加入记忆后为 93.3%（88.9%–97.8%）。有五道题由错误变为正确，一道题发生相反变化（精确 McNemar 检验 $p=0.219$）。选项对数损失（choice log loss）由 0.258 降至 0.175，二分类 Brier 评分由 0.054 降至 0.022。记忆平均每次调用增加 310 个输入 token，而观察到的平均延迟不变，约为 0.5 秒。这些结果在方向上是积极的，但不构成临床验证：病例为合成数据，标签为单一作者的判断，且记忆是理想（oracle）上限，而非从实际生产环境中提取的输出。该初步研究支持将结构化临床记忆作为决策模型可复用的状态接口加以评估。"
+},
+{
 "title": "From FAIR to AI-FAIR Metadata-First Infrastructure for AI-Enabled Science",
 "link": "https://arxiv.org/abs/2611.03327",
 "date": "2026-11-02T15:49:34+00:00",
@@ -3766,6 +4808,32 @@
 "evidence": "新闻",
 "score": 2,
 "reason": "仅有标题，与AI关联不明，信息极少",
+"day": "2026-11-04",
+"rank": 4.5
+},
+{
+"title": "临床试验凑不齐人，AI如何制造“患者”？",
+"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9YWXhidW8zbEdPNENkVlozcndXUVh0RTcydmdvcDFIYTFDejI1d1hLaTl3X1hYWDV2V0pWZnpqSTBKanVmVUtsdXBNdjRmZw?oc=5",
+"date": "2026-10-28T11:14:00+00:00",
+"source": "36Kr",
+"source_group": "Google News · NMPA AI",
+"home": "https://m.36kr.com",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "12464b062c87",
+"keep": true,
+"zh_title": "临床试验招不齐人，AI如何制造“患者”？",
+"summary": "标题提及AI用于生成“患者”以应对临床试验入组不足的问题，无正文信息。",
+"key_points": [],
+"section": "临床预测与决策",
+"type": "观点",
+"tags": [
+"生成模型"
+],
+"evidence": "新闻",
+"score": 3,
+"reason": "仅有标题，信息不足，按增量档",
 "day": "2026-11-04",
 "rank": 4.5
 },
