@@ -6179,6 +6179,10 @@
 {
 "source": "PubMed · Survey of ophthalmology",
 "link": "https://pubmed.ncbi.nlm.nih.gov/42887655/"
+},
+{
+"source": "PubMed · Frontiers in oncology",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42979228/"
 }
 ]
 },
@@ -10468,7 +10472,13 @@
 "abstract": "[Psychiatry investigation] To conduct a systematic bibliometric review of artificial intelligence (AI)-based multimodal neuroimaging research in depression, mapping its evolution, collaborative networks, and intellectual foundations to guide future translation. Records were retrieved from Web of Science Core Collection (search date: 1 September 2025) using terms for depression, neuroimaging modalities, and AI/machine learning (ML)/deep learning. English, peer-reviewed articles/reviews (2001-2025) were screened; 1,232 studies were retained after deduplication and filtering. Analyses included annual output trends, co-authorship networks (countries/institutions/authors), keyword co-occurrence clustering with burst detection, and co-citation/bibliographic coupling using VOSviewer (v1.6.20) and Bibliometrix (v4.5.1). Annual publications rose from <20/year to 202 in 2024; 2025 counts (n=173) reflect January-August only. The international network spans 42 countries/regions linked by 320 co-authorship ties (total link strength=1,228; density of approximately 0.37). USA, China, and the UK constitute the epistemic core, with expanding participation from India, Brazil, and Iran. Institutional and author overlays indicate a small-world, hierarchical organization (205 institutions; 10 collaboration communities; author network 168 researchers) characterized by a productive core and long tail. Six keyword clusters delineate a functional workflow: 1) biomarkers/phenotypes, 2) functional connectivity, 3) machine-learning/computational approaches, 4) multimodal/precision psychiatry, 5) diagnostic classification/algorithm development, and 6) structural imaging/comorbidity. Co-citation and coupling reveal a progression from early ML and connectivity foundations to deep/graph models, multimodal fusion, explainability, and treatment-oriented prediction. AI-based multimodal neuroimaging in depression has evolved into a coherent, translationally focused field. Current trends emphasize model validation, interpretability, and cross-site generalization, supported by expanding international collaboration. Future priorities include harmonized data sharing, explainable modeling, and theory-informed clinical translation.",
 "day": "2026-10-16",
 "rank": 6.71,
-"zh_abstract": "[Psychiatry investigation] 旨在对抑郁症中基于人工智能（AI）的多模态神经影像研究进行系统性文献计量学综述，描绘其演变、合作网络与知识基础，以指导未来的转化应用。从 Web of Science 核心合集（检索日期：2025年9月1日）检索记录，使用与抑郁症、神经影像模态以及 AI/机器学习（ML）/深度学习相关的检索词。筛选了英文同行评审的文章/综述（2001—2025年）；去重和过滤后保留1,232项研究。分析内容包括年度产出趋势、合著网络（国家/机构/作者）、带突现检测的关键词共现聚类，以及使用 VOSviewer（v1.6.20）和 Bibliometrix（v4.5.1）进行的共被引/文献耦合分析。年度发文量从每年<20篇上升至2024年的202篇；2025年的计数（n=173）仅涵盖1月至8月。该国际网络覆盖42个国家/地区，由320条合著联系相连（总联系强度=1,228；密度约为0.37）。美国、中国和英国构成知识核心，印度、巴西和伊朗的参与不断扩大。机构与作者叠加图谱显示其呈小世界、层级化组织（205个机构；10个合作团体；作者网络168位研究者），特征为高产核心与长尾。六个关键词聚类勾勒出一个功能性工作流程：1）生物标志物/表型，2）功能连接，3）机器学习/计算方法，4）多模态/精准精神病学，5）诊断分类/算法开发，6）结构影像/共病。共被引与耦合分析揭示了一条演进路径：从早期 ML 与连接性基础，发展到深度/图模型、多模态融合、可解释性以及面向治疗的预测。抑郁症中基于 AI 的多模态神经影像已发展成为一个连贯的、以转化为导向的领域。当前趋势强调模型验证、可解释性和跨站点泛化能力，并得到不断扩大的国际合作的支撑。未来的优先事项包括协调一致的数据共享、可解释建模以及以理论为依据的临床转化。"
+"zh_abstract": "[Psychiatry investigation] 旨在对抑郁症中基于人工智能（AI）的多模态神经影像研究进行系统性文献计量学综述，描绘其演变、合作网络与知识基础，以指导未来的转化应用。从 Web of Science 核心合集（检索日期：2025年9月1日）检索记录，使用与抑郁症、神经影像模态以及 AI/机器学习（ML）/深度学习相关的检索词。筛选了英文同行评审的文章/综述（2001—2025年）；去重和过滤后保留1,232项研究。分析内容包括年度产出趋势、合著网络（国家/机构/作者）、带突现检测的关键词共现聚类，以及使用 VOSviewer（v1.6.20）和 Bibliometrix（v4.5.1）进行的共被引/文献耦合分析。年度发文量从每年<20篇上升至2024年的202篇；2025年的计数（n=173）仅涵盖1月至8月。该国际网络覆盖42个国家/地区，由320条合著联系相连（总联系强度=1,228；密度约为0.37）。美国、中国和英国构成知识核心，印度、巴西和伊朗的参与不断扩大。机构与作者叠加图谱显示其呈小世界、层级化组织（205个机构；10个合作团体；作者网络168位研究者），特征为高产核心与长尾。六个关键词聚类勾勒出一个功能性工作流程：1）生物标志物/表型，2）功能连接，3）机器学习/计算方法，4）多模态/精准精神病学，5）诊断分类/算法开发，6）结构影像/共病。共被引与耦合分析揭示了一条演进路径：从早期 ML 与连接性基础，发展到深度/图模型、多模态融合、可解释性以及面向治疗的预测。抑郁症中基于 AI 的多模态神经影像已发展成为一个连贯的、以转化为导向的领域。当前趋势强调模型验证、可解释性和跨站点泛化能力，并得到不断扩大的国际合作的支撑。未来的优先事项包括协调一致的数据共享、可解释建模以及以理论为依据的临床转化。",
+"also": [
+{
+"source": "PubMed · Naunyn-Schmiedeberg's archives of pharmacology",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42980763/"
+}
+]
 },
 {
 "title": "Factorized Hypothesis Search for Evidence-to-Taxonomy Retrieval",

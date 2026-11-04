@@ -174,7 +174,8 @@
 "2026-11-01",
 "2026-11-02",
 "2026-11-03",
-"2026-11-04"
+"2026-11-04",
+"2026-11-05"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -322,7 +323,8 @@
 "2026-11-01",
 "2026-11-02",
 "2026-11-03",
-"2026-11-04"
+"2026-11-04",
+"2026-11-05"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },

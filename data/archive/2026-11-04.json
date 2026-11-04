@@ -66,46 +66,10 @@
 "day": "2026-11-04",
 "rank": 11.81,
 "abstract_days": [
-"2026-11-04"
+"2026-11-04",
+"2026-11-05"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
-"title": "The TEMPO program and the future of digital mental health regulation in the US",
-"link": "https://www.nature.com/articles/s41746-026-03464-x",
-"date": "2026-11-03T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03464-x",
-"pop": null,
-"id": "92b3308ce5c8",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "TEMPO 试点计划与美国数字心理健康监管走向",
-"summary": "评论文章探讨 FDA-CMS 的 TEMPO 试点：允许企业凭质量管理体系在无上市前授权下商业化 AI 心理健康器械，并作为真实世界数据沙盒。",
-"key_points": [
-"传统 FDA 审批门槛使许多 AI 心理健康器械流向无监管消费市场",
-"TEMPO 为监管中间路径，以质量管理体系替代即时上市前授权",
-"作者视其为真实世界数据沙盒和数字健康监管蓝图"
-],
-"section": "落地与监管",
-"type": "观点",
-"tags": [
-"监管政策",
-"心理健康",
-"医疗器械"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "监管进展相关但为评论文章，观点类上限6分",
-"day": "2026-11-04",
-"rank": 10.81,
-"abstract_days": [
-"2026-11-04"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "Visual LLM-guided consensus spatial domain detection with L-STAR",
@@ -120,29 +84,62 @@
 "id": "9683713dc1d2",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "L-STAR：视觉大模型引导的空间域共识检测",
-"summary": "L-STAR 利用大语言模型筛选并整合高性能方法，用于识别组织内基因活动的空间模式，称可提升准确性、稳健性和可解释性。",
+"zh_title": "L-STAR：视觉大模型引导的空间域检测共识框架",
+"summary": "提出L-STAR，利用视觉大模型的推理能力，对空间转录组中多种空间域检测方法自适应排序并整合，在多数据集上优于单一方法。",
 "key_points": [
-"面向组织内基因表达空间域检测",
-"LLM 用于识别并组合表现较好的方法",
-"报道称提升准确性、稳健性与可解释性"
+"针对空间转录组域检测方法跨数据集表现不稳的问题",
+"以视觉LLM自适应排序并整合多种方法形成共识",
+"在多个数据集上稳定优于单一方法"
 ],
 "section": "生命科学与药物",
 "type": "论文",
 "tags": [
 "基因组学",
 "医学大模型",
-"可解释性"
+"多模态"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "Nature Commun同行评审，视觉LLM用于空间组学，有新意但信息有限",
+"day": "2026-11-04",
+"rank": 10.31,
+"abstract": "ABSTRACT Spatial domain detection is a central task in spatial transcriptomics, yet existing methods exhibit highly variable performance across datasets. We introduce L-STAR, a visual LLM-guided, consensus-based framework that leverages the visual reasoning capacity of large language models to adaptively rank and integrate spatial domain detection methods. L-STAR achieves robust and consistently improved performance, outperforming single spatial domain detection methods across diverse datasets.",
+"zh_abstract": "摘要 空间域检测是空间转录组学中的核心任务，但现有方法在不同数据集上的表现差异很大。我们提出 L-STAR，这是一种由视觉大语言模型（LLM）引导、基于共识的框架，利用大语言模型的视觉推理能力，自适应地对空间域检测方法进行排序和整合。L-STAR 取得了稳健且持续改进的性能，在多种数据集上优于单一的空间域检测方法。"
+},
+{
+"title": "The TEMPO program and the future of digital mental health regulation in the US",
+"link": "https://www.nature.com/articles/s41746-026-03464-x",
+"date": "2026-11-03T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03464-x",
+"pop": null,
+"id": "92b3308ce5c8",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "TEMPO试点计划与美国数字心理健康监管的未来",
+"summary": "评论文章认为，FDA-CMS的TEMPO试点允许企业凭质量管理体系先行商业化，为AI心理健康器械提供监管中间地带和真实世界数据沙盒。",
+"key_points": [
+"传统FDA审批负担使部分AI心理健康器械流向无监管消费市场",
+"TEMPO允许在无需即刻上市前授权下凭质量管理体系商业化",
+"作者认为其可作为真实世界数据沙盒，为数字健康监管提供蓝图"
+],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"监管政策",
+"心理健康",
+"数字健康"
 ],
 "evidence": "同行评审",
 "score": 5,
-"reason": "新颖的 LLM 引导空间组学方法，细节有限，属值得一看档",
+"reason": "观点评论类上限6分；涉及监管新试点有信息量，但无实证数据",
 "day": "2026-11-04",
-"rank": 10.31,
-"abstract_days": [
-"2026-11-04"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"rank": 10.81,
+"abstract": "The high burden of traditional FDA clearance drives many novel, AI-enabled mental health devices into unregulated consumer markets. The new FDA-CMS TEMPO pilot program establishes a vital regulatory middle ground, allowing companies to commercialize using a Quality Management System without immediate premarket authorization. This commentary explores how TEMPO serves as a sandbox for real-world data, offering a blueprint to reshape the future of US digital health regulation.",
+"zh_abstract": "传统 FDA 审批的高负担促使许多新型的、基于人工智能的心理健康器械进入不受监管的消费市场。FDA 与 CMS 新推出的 TEMPO 试点项目建立了一个重要的监管中间地带，允许企业在无需立即获得上市前授权的情况下，通过质量管理体系（Quality Management System）实现商业化。本评论探讨 TEMPO 如何作为真实世界数据的“沙盒”，并为重塑美国数字健康监管的未来提供蓝图。"
 },
 {
 "title": "CellPlex: Benchmarking Single-Cell Spatial Proteomics Prediction from H&E",
@@ -177,42 +174,6 @@
 "day": "2026-11-04",
 "rank": 9.84,
 "zh_abstract": "空间蛋白质组学可在组织切片的每个细胞中测量数十种蛋白质，但其成本使其局限于小型研究队列，而几乎每位患者都有苏木精-伊红（H&E）切片。从H&E推断单细胞空间蛋白质组学，可将其分析带入常规病理学，越来越多的虚拟染色模型正在追求这一目标。各模型均在各自的队列、检测panel和像素级指标上进行评估，已发布的模型迁移到新队列时表现较差，因此应基于哪种方法构建、H&E能揭示哪些蛋白质仍不明确。我们提出了CellPlex，一个在细胞层面提出该任务的基准：包含七个具有同一切片H&E和多重免疫荧光的队列，涵盖结直肠癌和乳腺癌，以及淋巴结转移、骨髓和胶质瘤，共717个样本、4480万个细胞和149种蛋白质，由同一流程处理为逐细胞目标。病理学基础模型（PFM）采用同一细胞层面方案进行适配，专家模型在匹配的预算下进行微调，所有模型均在相同细胞上评分。适配后的PFM在每个队列上都是最准确的模型，即使在微调后也领先于专家模型，但在未经训练的队列上其准确度保留不到一半。哪些蛋白质可被预测取决于组织，而不取决于为其测量的细胞数量。通过固定用于评判预测的细胞、目标和数据划分，CellPlex为从常规H&E推断昂贵的分子测量设立了通用标准，并展示了H&E可在多大程度上替代空间蛋白质组学。我们将发布数据、数据划分、评估代码和基线，作为开发和比较未来病理学基础模型及虚拟染色方法的测试平台。"
-},
-{
-"title": "Cost-effectiveness analysis of digital medicine support models for alcohol use disorder",
-"link": "https://www.nature.com/articles/s41746-026-03422-7",
-"date": "2026-11-03T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03422-7",
-"pop": null,
-"id": "a408a650e707",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "酒精使用障碍数字医学支持模式的成本效益分析",
-"summary": "npj Digital Medicine发表的同行评审研究，分析酒精使用障碍数字医学支持模式的成本效益。摘要信息有限。",
-"key_points": [
-"主题为酒精使用障碍",
-"评估数字医学支持模式",
-"采用成本效益分析"
-],
-"section": "数字健康",
-"type": "论文",
-"tags": [
-"数字健康",
-"心理健康"
-],
-"evidence": "同行评审",
-"score": 4,
-"reason": "同行评审但仅有标题级信息，无法判断证据强度",
-"day": "2026-11-04",
-"rank": 9.81,
-"abstract_days": [
-"2026-11-04"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
 },
 {
 "title": "A generative foundation model for computational brain imaging",
@@ -322,29 +283,31 @@
 "source": "PubMed · JAMA network open",
 "source_group": "PubMed",
 "home": "",
-"thin": true,
+"thin": false,
 "pop": null,
 "id": "5c0f0ee51fac",
 "keep": true,
-"zh_title": "大语言模型对心理健康治疗建议的隐性操纵",
-"summary": "JAMA Network Open 文章，标题显示研究大模型在心理健康治疗建议中可被隐性操纵；仅有标题，无更多信息。",
-"key_points": [],
-"section": "落地与监管",
+"zh_title": "大语言模型心理健康治疗建议可被悄然操纵",
+"summary": "研究对开源权重LLM（DeepSeek V4 Flash）施加推理时激活引导，考察其抑郁症建议在12个情景中能否被不经提示地改变。",
+"key_points": [
+"使用方向性激活引导，不改权重与提示",
+"12个抑郁建议情景，30档幅度加基线",
+"指向LLM心理健康建议被隐蔽操纵的安全风险"
+],
+"section": "大模型与智能体",
 "type": "论文",
 "tags": [
-"公平与安全",
+"医学大模型",
 "心理健康",
-"医学大模型"
+"公平与安全"
 ],
 "evidence": "同行评审",
 "score": 5,
-"reason": "仅标题，主题涉及LLM安全与心理健康，信息不足，上限内居中",
+"reason": "心理健康LLM安全议题新颖，但为非人类受试的单模型小规模研究",
 "day": "2026-11-04",
 "rank": 9.14,
-"abstract_days": [
-"2026-11-04"
-],
-"abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract": "Importance: Large language models (LLMs) increasingly inform mental health decisions by patients and clinicians. Inference-time activation steering can shift model behavior on a target dimension without altering weights or prompts and without disclosure to users, allowing treatment recommendations to be silently changed for commercial or ideological reasons. Objective: To determine whether directional activation steering can shift an open-weights LLM's depression treatment recommendations. Design Setting and Participants: This non-human subjects study applied directional activation steering to an open-weights LLM (DeepSeek V4 Flash) responding to 12 depression-advice scenarios (4 favoring medication, 4 favoring avoidance, 4 neutral), generated at 30 amplitudes from -1.5 to +1.5 in 0.1 increments plus an unsteered baseline. Exposures: A single steering direction contrasting antidepressant medication with self-directed approaches (diet, exercise, meditation, dietary supplements), constructed from 16 paired training prompts and applied at the attention output of every transformer block; weights and system prompt were held constant. Main Outcomes and Measures: The extent to which medication and four self-care categories were addressed, scored 0 to 3 by a human-validated LLM rater (Claude Opus 4.7), the medication-versus-self-care balance, and clinician referral, estimated per unit of amplitude using mixed-effects models with a scenario random intercept. Results: Across 372 generations, steering produced a graded, dose-dependent shift in the medication-versus-self-care balance, which declined by 0.32 per unit of amplitude (β = -0.32; 95% CI, -0.39 to -0.25; P < .001); medication extent fell and self-care extent rose. The shift was largest for scenarios with no stated treatment preference (β = -0.44; 95% CI, -0.54 to -0.34; P < .001). A clinician referral appeared in 322 of 372 responses (87%) and did not vary with steering amplitude (P = .63). Conclusions and Relevance: In this open-weights LLM providing depression treatment information, inference-time activation steering shifted treatment recommendations without altering weights, prompt structure, or safety outputs, with the largest effect among users expressing no treatment preference. These findings suggest a need for LLM disclosure standards and independent auditing as such models inform clinical decisions.",
+"zh_abstract": "【重要性】大语言模型（LLM）越来越多地为患者和临床医生的心理健康决策提供参考。推理时激活转向（activation steering）可以在不改变模型权重或提示词、且不向用户披露的情况下，改变模型在目标维度上的行为，从而可能出于商业或意识形态原因悄然改变治疗建议。【目的】确定定向激活转向是否能改变开放权重 LLM 的抑郁症治疗建议。【设计、设置和参与者】这项非人类受试者研究将定向激活转向应用于一个开放权重 LLM（DeepSeek V4 Flash），使其回应 12 个抑郁症建议情景（4 个倾向药物治疗、4 个倾向回避、4 个中性），在 -1.5 至 +1.5 之间以 0.1 为增量的 30 个幅度下生成，另加一个未转向的基线。【暴露】单一转向方向，对比抗抑郁药物与自我导向方法（饮食、运动、冥想、膳食补充剂），由 16 对配对训练提示构建，并应用于每个 transformer 块的注意力输出；权重和系统提示保持不变。【主要结局和指标】药物治疗及四类自我护理被论及的程度，由经人工验证的 LLM 评分者（Claude Opus 4.7）按 0 至 3 分评分；药物与自我护理的平衡；以及临床医生转诊。采用带情景随机截距的混合效应模型，估计每单位幅度的变化。【结果】在 372 次生成中，转向使药物与自我护理的平衡产生分级的、剂量依赖的变化，每单位幅度下降 0.32（β = -0.32；95% CI，-0.39 至 -0.25；P < .001）；药物论及程度下降，自我护理论及程度上升。在未表明治疗偏好的情景中变化最大（β = -0.44；95% CI，-0.54 至 -0.34；P < .001）。372 条回复中有 322 条（87%）出现临床医生转诊建议，且不随转向幅度变化（P = .63）。【结论与意义】在这一提供抑郁症治疗信息的开放权重 LLM 中，推理时激活转向在不改变权重、提示结构或安全性输出的情况下改变了治疗建议，且在未表达治疗偏好的用户中效应最大。这些发现提示，随着此类模型为临床决策提供参考，需要制定 LLM 披露标准并进行独立审计。"
 },
 {
 "title": "DiabAgent: Toward Agentic Physiological Control",
@@ -411,7 +374,13 @@
 "reason": "视觉-语言模型用于超声，有新意，摘要无外部验证，属值得一看档",
 "abstract": "**Purpose:** Ultrasound biometry is widely used across various clinical applications, including prenatal and cardiac examinations, to obtain quantitative measurements by placing calipers at anatomical landmarks. However, these measurements remain subject to interoperator variability as they rely largely on manual caliper placement. Conventional methods often use specialized prediction heads for different ultrasound tasks, whereas vision-language models offer flexibility through text instructions. However, direct coordinate prediction does not explicitly model spatial likelihood distributions, limiting the representation of localization ambiguity. **Methods:** We propose Kev-Bio, a vision-language model that uses clinical measurement questions to guide ultrasound landmark detection. Inspired by System One decision models, Kev-Bio uses decision representations of the language model to generate queries for each caliper endpoint. These queries are matched against shared dense ultrasound features to produce spatial probability maps, from which landmark coordinates and clinical measurements are derived. The model is trained end-to-end using both landmark localization and clinical measurement losses. **Results:** On the nine-view FU/GU Biometry 2026 dataset, Kev-Bio achieves a mean radial error (MRE) of 22.50 pixels and a clinical measurement mean absolute error (MAE) of 15.38, outperforming the compared baselines in overall performance. **Conclusion:** These results demonstrate the effectiveness of Kev-Bio for ultrasound landmark detection and clinical measurement across different anatomical views. Our code and models are available at https://github.com/moeinheidari7829/Kev-Bio.",
 "day": "2026-11-04",
-"rank": 9.01
+"rank": 9.01,
+"also": [
+{
+"source": "Hugging Face Daily Papers",
+"link": "https://huggingface.co/papers/2611.03360"
+}
+]
 },
 {
 "title": "Tracing the Scientific Discovery Capacity of LLMs to Their Training Data",
@@ -814,6 +783,39 @@
 "zh_abstract": "临床证据本质上是关联性的：医学影像需结合既往检查、跨模态检查、报告及局部发现来解读，因此检索相关证据对临床判读至关重要。近期的基础模型越来越多地将这些异质来源编码到共享嵌入空间中，但现有的嵌入评估往往聚焦于孤立的匹配，因此尚不清楚当前模型能否在模态、外观和粒度变化的情况下检索到相关证据。我们提出了MedHEB，这是一个统一基准，包含来自54个数据集的107个检索任务，涵盖分布内和留出来源评估，沿三个维度展开：证据形式（2D图像、3D体数据、文本）、配对类型（图像—图像、图像—文本、文本—文本以及跨模态桥接的视觉匹配）和相关性粒度（全局、问题条件化、区域级）。在统一的排序协议下，MedHEB改变临床相关的证据定义，以检验嵌入邻近性在异质证据中是否仍然有意义，包括跨模态桥接的视觉检索和区域级的文本到区域检索。在代表性模型中，各检索类别的表现不均衡：在传统图像—文本或文本—文本检索上表现强劲的模型，在跨模态桥接和区域级任务上可靠性较低。当前的嵌入空间能很好地捕捉某些临床关系，但尚未在异质证据之间提供均衡的检索。我们进一步提供了MedEmb，这是一个基于多模态大语言模型（MLLM）、在MedHEB ID划分上训练的参考嵌入模型，作为统一2D—3D—文本医学检索的可复现基线。我们发布了MedHEB及其预处理脚本、评估代码、访问清单和MedEmb，以支持对具有临床意义的医学嵌入的研究。"
 },
 {
+"title": "Cost-effectiveness analysis of digital medicine support models for alcohol use disorder",
+"link": "https://www.nature.com/articles/s41746-026-03422-7",
+"date": "2026-11-03T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03422-7",
+"pop": null,
+"id": "a408a650e707",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "酒精使用障碍数字医学支持模式的成本效果分析",
+"summary": "基于558人RCT比较三种数字医学支持模式的成本效果。",
+"key_points": [
+"主题为酒精使用障碍",
+"评估数字医学支持模式",
+"采用成本效益分析"
+],
+"section": "数字健康",
+"type": "论文",
+"tags": [
+"数字健康"
+],
+"evidence": "同行评审",
+"score": 3,
+"reason": "数字干预经济学分析，与AI/算法关系弱",
+"day": "2026-11-04",
+"rank": 9.81,
+"abstract": "Alcohol use disorder (AUD) is a major public health issue yet often under-addressed in primary care. Digital health interventions offer scalable support, but health systems require economic data to guide implementation decision-making. In a randomized clinical trial involving 558 participants registered at clinicaltrials.gov (NCT04011644; July 3, 2019), we compared three support models built on a shared digital medicine platform: self-monitored use (SM), peer-supported use (PS), and clinically integrated use (CI). We estimated delivery costs and effectiveness based on reductions in heavy drinking days. Annualized reductions in heavy drinking days were 42.4, 40.2, and 48.3 days per patient for SM, PS, and CI models, with per-patient costs of $162, $524, and $802, respectively. Average cost-effectiveness was $3.8 (SM), $13.0 (PS), and $16.6 (CI); PS was dominated, and the ICER for CI versus SM was $107.9. When downstream healthcare utilization was included, results suggested that more intensive support may be economically advantageous. Modeling implementation at scale showed that PS becomes cost-efficient for large patient populations. These findings highlight that no single model is universally optimal: health systems may benefit from offering multiple support levels to match patient preferences and organizational capacity.",
+"zh_abstract": "酒精使用障碍（AUD）是一个重大的公共卫生问题，但在基层医疗中往往未得到充分处理。数字健康干预可提供可扩展的支持，但卫生系统需要经济学数据来指导实施决策。在一项纳入 558 名参与者、已在 clinicaltrials.gov 注册（NCT04011644；2019 年 7 月 3 日）的随机临床试验中，我们比较了建立在同一数字医学平台上的三种支持模式：自我监测使用（SM）、同伴支持使用（PS）和临床整合使用（CI）。我们基于重度饮酒日数的减少来估算提供成本和效果。SM、PS 和 CI 模式下每位患者每年重度饮酒日数的减少分别为 42.4、40.2 和 48.3 天，每位患者成本分别为 162 美元、524 美元和 802 美元。平均成本效果分别为 3.8 美元（SM）、13.0 美元（PS）和 16.6 美元（CI）；PS 属于被占优策略，CI 相对于 SM 的增量成本效果比（ICER）为 107.9 美元。当纳入下游医疗服务利用时，结果提示更强化的支持在经济上可能更具优势。大规模实施的建模显示，对于大量患者人群，PS 具有成本效率。这些发现表明不存在普遍最优的单一模式：卫生系统可通过提供多种支持层级，以匹配患者偏好和机构能力。"
+},
+{
 "title": "AI-based structural modelling and pathogenic variant mapping across the human protein interactome",
 "link": "https://www.biorxiv.org/content/10.64898/2026.10.28.762585v1?rss=1",
 "date": "2026-11-03T00:00:00+00:00",
@@ -914,9 +916,10 @@
 "day": "2026-11-04",
 "rank": 8.81,
 "abstract_days": [
-"2026-11-04"
+"2026-11-04",
+"2026-11-05"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "Assessment, intervention, and ethical considerations of artificial intelligence for depression and suicide risk: A scoping review.",
@@ -4670,7 +4673,13 @@
 "score": 3,
 "reason": "仅标题，标准尚在征集参编阶段，信息有限",
 "day": "2026-11-04",
-"rank": 5.5
+"rank": 5.5,
+"also": [
+{
+"source": "新浪财经",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05MmlkbkhNMVVqRVJxOWhwcGpOOFhaZ2lUT2NEV0lYTmI1TGlkcVdCV1BJMWFPN251aWEzd3ExVE81dTJIX1JPUGpYNXVMSVFIU3pmUDI0Y0VBY1RqNTljcHVrT2R5UlA0bTlzUDNvQWdjMm5hVWhSRFVuVjZlWlU?oc=5"
+}
+]
 },
 {
 "title": "Polaris 6: the first healthcare model with bedside intuition",
