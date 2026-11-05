@@ -894,29 +894,25 @@
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
 "zh_title": "精准医学预测建模中机器学习与AI的新兴应用（社论）",
-"summary": "社论总结31篇论文，指出纯数据驱动AI不足以临床应用，精准医学需在训练前融入领域结构知识。",
+"summary": "社论总结31篇论文，指出精准医学AI需在训练前融入领域知识，并强调机制可解释、以人为本界面和公平的人群干预。",
 "key_points": [
-"提出三项必要转变：以生物学规律锚定算法、提升机制可解释性",
-"设计协作式、以人为中心的临床界面",
-"扩展公平的人群层面干预"
+"纯数据驱动AI不足以支撑临床采用",
+"三大转变：生物规律锚定、人本临床界面、公平的人群规模干预",
+"推动医学AI走向可信、临床扎根"
 ],
-"section": "落地与监管",
+"section": "临床预测与决策",
 "type": "观点",
 "tags": [
 "临床预测",
-"可解释性",
-"公平与安全"
+"可解释性"
 ],
 "evidence": "同行评审",
 "score": 3,
-"reason": "社论观点类，泛泛总结，无新数据",
+"reason": "社论/观点类，泛泛总结，属增量档",
 "day": "2026-11-04",
 "rank": 8.81,
-"abstract_days": [
-"2026-11-04",
-"2026-11-05"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
+"abstract": "Pure data-driven artificial intelligence (AI) is insufficient for clinical adoption. This editorial summarizes 31 papers showing that precision medicine requires integrating structural domain knowledge before model training. We identify three necessary transitions: anchoring algorithms in biological laws for mechanistic interpretability; designing collaborative, human-centered clinical interfaces; and scaling equitable, population-level interventions. These shifts advance medical AI from technical novelty toward trustworthy, clinically grounded, and ethically deployed foundational science.",
+"zh_abstract": "单纯依靠数据驱动的人工智能（AI）不足以实现临床应用。本社论总结了31篇论文，表明精准医学要求在模型训练之前整合结构化的领域知识。我们指出三个必要的转变：将算法建立在生物学规律之上以实现机制可解释性；设计协作式、以人为本的临床界面；以及推广公平的、人群层面的干预。这些转变将推动医学AI从技术新颖性迈向可信赖、以临床为基础且符合伦理部署的基础科学。"
 },
 {
 "title": "Assessment, intervention, and ethical considerations of artificial intelligence for depression and suicide risk: A scoping review.",
