@@ -6777,7 +6777,7 @@
 "year": 2025,
 "date": "2025-06-04",
 "link": "https://doi.org/10.48550/arXiv.2506.04078",
-"cites": 48,
+"cites": 50,
 "zh_title": "LLMEval-Med：经医生验证的真实临床医学大模型基准",
 "summary": "提出基于真实临床场景并由医生验证的医学大模型评测基准，旨在改进题目设计、数据来源和复杂推理评估。",
 "key_points": [
@@ -6905,7 +6905,7 @@
 "year": 2025,
 "date": "2025-02-18",
 "link": "https://doi.org/10.18653/v1/2025.findings-emnlp.679",
-"cites": 30,
+"cites": 31,
 "zh_title": "智能体医学知识图谱增强医学问答",
 "summary": "提出AMG-RAG框架，自动构建并持续更新医学知识图谱以增强大模型医学问答。",
 "key_points": [
@@ -7426,7 +7426,7 @@
 "year": 2025,
 "date": "2025-09-21",
 "link": "https://doi.org/10.48550/arXiv.2509.17228",
-"cites": 11,
+"cites": 12,
 "zh_title": "非随机模态缺失下多模态临床记录的因果表征学习",
 "summary": "针对临床笔记缺失问题（MIMIC-IV中24.5%患者无出院小结），提出多模态临床记录的因果表征学习。",
 "key_points": [
@@ -7476,7 +7476,7 @@
 "year": 2025,
 "date": "2025-09-18",
 "link": "https://doi.org/10.48550/arXiv.2509.14998",
-"cites": 9,
+"cites": 10,
 "zh_title": "知识驱动的LLM自适应协作提升医疗决策",
 "summary": "针对多智能体协作中角色静态预设的局限，提出知识驱动的LLM自适应协作方法以增强医疗决策。",
 "key_points": [
@@ -7576,7 +7576,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://doi.org/10.18653/v1/2025.findings-emnlp.396",
-"cites": 10,
+"cites": 11,
 "zh_title": "LIFTED：基于大模型与混合专家的多模态临床试验结果预测",
 "summary": "提出LIFTED方法，利用大语言模型与混合专家进行多模态临床试验结果预测。",
 "key_points": [
@@ -7626,7 +7626,7 @@
 "year": 2025,
 "date": "2025-05-26",
 "link": "https://doi.org/10.48550/arXiv.2505.20354",
-"cites": 9,
+"cites": 10,
 "zh_title": "重新思考基于文本的蛋白质理解：检索还是LLM？",
 "summary": "EMNLP 2025论文，分析基于文本的蛋白质理解现有模型与基准，探讨检索与LLM路径。",
 "key_points": [
@@ -7883,7 +7883,7 @@
 "year": 2025,
 "date": "2025-11-04",
 "link": "https://doi.org/10.1145/3757887.3767687",
-"cites": 7,
+"cites": 8,
 "zh_title": "非洲健康检查：探查医学大模型的文化偏见",
 "summary": "以非洲传统草药数据集评估指令微调医学大模型的文化偏见，涵盖选择题与填空任务。",
 "key_points": [
@@ -9639,7 +9639,7 @@
 "year": 2025,
 "date": "2025-03-04",
 "link": "https://doi.org/10.48550/arXiv.2503.02374",
-"cites": 14,
+"cites": 15,
 "zh_title": "MedEthicEval：中文医学伦理大模型评测基准",
 "summary": "NAACL 2025提出MedEthicEval，从知识与应用两方面评测中文医学伦理。",
 "key_points": [
@@ -24523,7 +24523,7 @@
 "year": 2025,
 "date": "2025-03-02",
 "link": "https://doi.org/10.48550/arXiv.2503.00710",
-"cites": 110,
+"cites": 112,
 "zh_title": "Proteina：规模化流式蛋白质结构生成模型",
 "summary": "ICLR 2025提出Proteina，基于流的大规模蛋白质骨架生成器，用层级折叠类标签条件化。",
 "key_points": [
@@ -24549,7 +24549,7 @@
 "year": 2025,
 "date": "2025-01-24",
 "link": "https://doi.org/10.48550/arXiv.2501.14548",
-"cites": 75,
+"cites": 76,
 "zh_title": "大规模细粒度视觉-语言预训练提升CT图像理解",
 "summary": "提出利用放射报告监督的大规模细粒度视觉-语言预训练方法，增强CT图像理解。",
 "key_points": [
@@ -24575,7 +24575,7 @@
 "year": 2025,
 "date": "2025-02-15",
 "link": "https://doi.org/10.48550/arXiv.2502.10707",
-"cites": 57,
+"cites": 58,
 "zh_title": "以心电“词句”预训练的心电语言模型",
 "summary": "论文借鉴语言建模思路对心电信号进行预训练，改善以往自监督方法固定窗口切分带来的表征局限。",
 "key_points": [
@@ -24601,7 +24601,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://www.semanticscholar.org/paper/3e3085d79c20d02170bf9ee419593c182780a65b",
-"cites": 34,
+"cites": 35,
 "zh_title": "多模态多任务混合专家动态建模患者、模态与任务",
 "summary": "标题提出通过多模态多任务混合专家方法，动态建模患者、模态与任务。",
 "key_points": [
@@ -24678,7 +24678,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://www.semanticscholar.org/paper/82ba71096d06ae4ef6edb5e8c63af1ef7db2f574",
-"cites": 23,
+"cites": 24,
 "zh_title": "长上下文模型用于EHR临床预测任务的评估",
 "summary": "评估长上下文模型在电子健康记录临床预测任务上的表现（来源仅提供标题，无摘要）。",
 "key_points": [
@@ -26521,7 +26521,7 @@
 "year": 2025,
 "date": "2025-05-05",
 "link": "https://doi.org/10.1109/CVPR52734.2025.02419",
-"cites": 3,
+"cites": 4,
 "zh_title": "基于异常感知开放词汇注意力与冻结扩散模型的泛化肿瘤分割",
 "summary": "论文提出利用冻结医学基础扩散模型内部表征实现跨解剖区域的零样本肿瘤分割框架。",
 "key_points": [
@@ -26598,7 +26598,7 @@
 "year": 2025,
 "date": "2025-02-13",
 "link": "https://doi.org/10.1109/ICCV51701.2025.02175",
-"cites": 57,
+"cites": 58,
 "zh_title": "PathFinder：病理诊断多模态多智能体系统",
 "summary": "提出面向组织病理全切片图像的多模态多智能体诊断系统PathFinder，模拟病理医生的迭代诊断流程。",
 "key_points": [
@@ -26727,7 +26727,7 @@
 "year": 2025,
 "date": "2025-08-01",
 "link": "https://doi.org/10.1109/ICCV51701.2025.02139",
-"cites": 20,
+"cites": 21,
 "zh_title": "引入解剖正常性建模的医学视觉语言预训练",
 "summary": "ICCV 2025提出提升视觉语义密度，缓解医学图像与报告间的语义密度差。",
 "key_points": [
@@ -26752,7 +26752,7 @@
 "year": 2025,
 "date": "2025-04-09",
 "link": "https://doi.org/10.1109/ICCV51701.2025.01999",
-"cites": 19,
+"cites": 20,
 "zh_title": "MedSegFactory：文本引导生成医学图像-分割掩膜对",
 "summary": "ICCV 2025 论文提出 MedSegFactory，以双流扩散模型跨模态、跨任务生成配对的医学图像与分割掩膜，作为可无限供给的数据来源。",
 "key_points": [
@@ -26931,7 +26931,7 @@
 "year": 2025,
 "date": "2025-06-27",
 "link": "https://doi.org/10.1109/ICCV51701.2025.01321",
-"cites": 9,
+"cites": 10,
 "zh_title": "UniFuse：应对退化与错位的统一多模态医学图像融合",
 "summary": "提出UniFuse统一框架，在图像退化与错位条件下实现多模态医学图像融合。",
 "key_points": [
@@ -30645,7 +30645,7 @@
 "year": 2025,
 "date": "2025-05-09",
 "link": "https://doi.org/10.1145/3746027.3755187",
-"cites": 23,
+"cites": 24,
 "zh_title": "MM-Skin：基于教材图文数据增强皮肤科视觉语言模型",
 "summary": "提出首个大规模皮肤科多模态数据集MM-Skin，涵盖三种成像模态，用于增强皮肤科视觉语言模型的诊断分析能力。",
 "key_points": [
@@ -30721,7 +30721,7 @@
 "year": 2025,
 "date": "2025-06-12",
 "link": "https://doi.org/10.1145/3746027.3758267",
-"cites": 14,
+"cites": 15,
 "zh_title": "GynSurg：妇科院腔镜手术综合数据集",
 "summary": "MM 2025 发布 GynSurg 妇科院腔镜手术数据集，面向手术场景理解与动作识别，为智能手术系统研发提供大规模高质量标注数据。",
 "key_points": [
@@ -31072,7 +31072,7 @@
 "year": 2025,
 "date": "2025-08-03",
 "link": "https://doi.org/10.1145/3746027.3755546",
-"cites": 6,
+"cites": 7,
 "zh_title": "TopoImages：面向医学图像分类的局部拓扑编码深度学习",
 "summary": "MM 2025 提出 TopoImages，将局部拓扑结构编码引入深度学习模型表示，提升医学图像分类对拓扑结构的敏感性。",
 "key_points": [
@@ -31545,7 +31545,7 @@
 "year": 2025,
 "date": "2025-07-25",
 "link": "https://doi.org/10.1145/3746027.3755641",
-"cites": 2,
+"cites": 3,
 "zh_title": "SP-Mamba：无监督医学异常检测空间感知模型",
 "summary": "基于Mamba的状态空间模型，利用空间感知实现无监督医学异常检测，兼顾长程建模与计算效率。",
 "key_points": [
@@ -47932,7 +47932,7 @@
 "year": 2025,
 "date": "2025-04-14",
 "link": "https://doi.org/10.1109/ISBI60581.2025.10981134",
-"cites": 324,
+"cites": 323,
 "zh_title": "ASAM：解剖编码的医学图像分割基础模型",
 "summary": "在SAM基础上提出解剖编码的ASAM，用无监督交叉注意力在傅里叶域以卷积/反卷积模拟成像过程，聚焦CT。",
 "key_points": [
@@ -47960,7 +47960,7 @@
 "year": 2025,
 "date": "2025-01-22",
 "link": "https://doi.org/10.1109/ISBI60581.2025.10980985",
-"cites": 15,
+"cites": 16,
 "zh_title": "AMM-Diff：自适应多模态扩散缺失模态补全",
 "summary": "提出自适应多模态扩散网络，可接受任意数量输入模态并生成缺失的MRI模态，用于脑肿瘤分割。",
 "key_points": [
@@ -48531,7 +48531,7 @@
 "year": 2025,
 "date": "2025-01-18",
 "link": "https://doi.org/10.1109/ISBI60581.2025.10980947",
-"cites": 6,
+"cites": 7,
 "zh_title": "分层Log贝叶斯神经网络提升主动脉分割",
 "summary": "结合3D U-Net与分层高斯拉普拉斯流的贝叶斯网络，用于多尺度主动脉及分支分割并给出置信区间。",
 "key_points": [
@@ -48801,7 +48801,7 @@
 "year": 2025,
 "date": "2025-01-04",
 "link": "https://doi.org/10.1109/ISBI60581.2025.10980900",
-"cites": 5,
+"cites": 6,
 "zh_title": "血浆标志物引导的MRI到PET跨模态翻译",
 "summary": "ISBI 2025研究表明引入血浆生物标志物可稳定提升MRI到PET生成质量，并提出Plasma-CycleGAN。",
 "key_points": [
@@ -50969,7 +50969,7 @@
 "year": 2025,
 "date": "2025-01-30",
 "link": "https://doi.org/10.1109/ISBI60581.2025.10980765",
-"cites": 2,
+"cites": 3,
 "zh_title": "PSO-Net：可解释神经网络银屑病评估系统",
 "summary": "ISBI 2025 提出可解释深度网络 PSO-Net，由不同部位数字图像得出区域分数并合成绝对 PASI 评分。",
 "key_points": [
@@ -52245,7 +52245,7 @@
 "year": 2026,
 "date": "2026-03-25",
 "link": "https://doi.org/10.1109/ISBI61048.2026.11515908",
-"cites": 2,
+"cites": 3,
 "zh_title": "标签引导3D潜在扩散模型合成高分辨MR影像",
 "summary": "提出3D-LLDM，用720例真实肝胆期MR扫描训练，生成带肝脏、门静脉、肝静脉及肝癌分割掩膜的高质量合成MR体积。",
 "key_points": [
@@ -54307,7 +54307,7 @@
 "year": 2025,
 "date": "2025-12-01",
 "link": "https://doi.org/10.1109/ISBI61048.2026.11515670",
-"cites": 1,
+"cites": 2,
 "zh_title": "基线与24小时扩散MRI预测卒中功能结局比较",
 "summary": "比较基线及24小时扩散MRI的多模态深度嵌入对急性缺血性卒中三个月功能结局的预测能力，纳入74例患者。",
 "key_points": [
@@ -56297,7 +56297,7 @@
 "year": 2026,
 "date": "2026-04-08",
 "link": "https://doi.org/10.1109/ISBI61048.2026.11515433",
-"cites": 1,
+"cites": 2,
 "zh_title": "雅可比行列式量化抑郁症SSRI应答相关白质可塑性",
 "summary": "构建三步分析流程，以雅可比行列式度量白质形状变化，在51例SSRI治疗的抑郁患者中检测到治疗相关神经可塑性。",
 "key_points": [
@@ -66558,7 +66558,7 @@
 "year": 2025,
 "date": "2025-04-14",
 "link": "https://doi.org/10.1109/ISBI60581.2025.10981156",
-"cites": 0,
+"cites": 1,
 "zh_title": "MedVisioChat：带视觉定位的胸片可解释诊断多模态大模型",
 "summary": "提出面向胸片的多模态大模型，经大数据预训练并用GPT-4 Turbo指令微调，支持视觉定位与交互诊断。",
 "key_points": [
@@ -66995,7 +66995,7 @@
 "year": 2025,
 "date": "2025-11-15",
 "link": "https://doi.org/10.1109/ISBI61048.2026.11515635",
-"cites": 0,
+"cites": 1,
 "zh_title": "RAA-MIL：口腔细胞学全切片分类新框架",
 "summary": "首个面向口腔细胞学WSI的患者级弱监督框架，基于来自印度十家医疗中心的数据集，提出区域亲和注意力MIL。",
 "key_points": [
@@ -71571,7 +71571,7 @@
 "year": 2026,
 "date": "2026-02-02",
 "link": "https://doi.org/10.1109/ISBI61048.2026.11515617",
-"cites": 0,
+"cites": 1,
 "zh_title": "LmPT：用于3D点云解剖标志点检测的条件点Transformer",
 "summary": "提出基于点云的Landmark Point Transformer，通过条件机制实现跨物种同源骨骼的解剖标志点自动检测。",
 "key_points": [
@@ -72062,7 +72062,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://www.semanticscholar.org/paper/ead0ed2ecc38775d6557753d51069a18f2d5f21c",
-"cites": 9,
+"cites": 10,
 "zh_title": "MedMod：电子病历与胸片多模态医学预测基准",
 "summary": "CHIL 2025发布MedMod，一个结合电子病历与胸部X光片的多模态医学预测任务基准。",
 "key_points": [],
@@ -85060,7 +85060,7 @@
 "year": 2025,
 "date": "2025-11-29",
 "link": "https://doi.org/10.48550/arXiv.2512.00306",
-"cites": 19,
+"cites": 20,
 "zh_title": "VCWorld：用于虚拟细胞模拟的生物世界模型",
 "summary": "提出白盒细胞级模拟器VCWorld，将结构化生物知识与大语言模型迭代推理结合，以数据高效方式预测细胞对扰动的响应。",
 "key_points": [
@@ -85680,7 +85680,7 @@
 "year": 2026,
 "date": "2026-01-13",
 "link": "https://doi.org/10.48550/arXiv.2601.08758",
-"cites": 4,
+"cites": 5,
 "zh_title": "M3CoTBench：医学图像理解中多模态大模型思维链基准",
 "summary": "提出评测医学图像理解中MLLM思维链推理的基准，从正确性、效率、影响和一致性多方面评估，而非仅看最终答案。",
 "key_points": [
@@ -85846,7 +85846,7 @@
 "year": 2025,
 "date": "2025-10-29",
 "link": "https://doi.org/10.48550/arXiv.2510.25232",
-"cites": 3,
+"cites": 4,
 "zh_title": "PsyCoTalk：精神共病诊断对话数据集与多智能体生成方法",
 "summary": "构建502份合成电子病历，并用多智能体框架生成3000条经精神科医生验证的共病诊断多轮对话数据集PsyCoTalk。",
 "key_points": [
@@ -98418,7 +98418,7 @@
 "year": 2026,
 "date": "2026-01-10",
 "link": "https://doi.org/10.48550/arXiv.2601.06519",
-"cites": 1,
+"cites": 2,
 "zh_title": "MedRAGChecker：生物医学RAG的声明级验证",
 "summary": "提出将回答拆解为原子声明、结合NLI与知识图谱一致性进行验证的框架，并蒸馏为紧凑模型，用于诊断生物医学RAG的忠实性与安全错误。",
 "key_points": [
@@ -99311,7 +99311,7 @@
 "year": 2026,
 "date": "2026-09-11",
 "link": "https://doi.org/10.18653/2026.findings-emnlp.2094",
-"cites": 0,
+"cites": 1,
 "zh_title": "Asclepius：面向长时程临床智能体的自适应框架",
 "summary": "在模拟急诊科整班次的CES环境中发现智能体诊断多正确但关键处置不完整、不及时，提出具自演化机制的自适应智能体脚手架Asclepius。",
 "key_points": [
@@ -101434,7 +101434,7 @@
 "year": 2025,
 "date": "2025-03-25",
 "link": "https://arxiv.org/abs/2503.19740",
-"cites": 24,
+"cites": 25,
 "zh_title": "LEMON：大规模内镜单目数据集与手术感知基础模型",
 "summary": "LEMON 汇集 4K+ 手术视频、938 小时、8500 万帧，并提出自监督知识蒸馏预训练的基础模型 LemonFM。",
 "key_points": [
@@ -101546,7 +101546,7 @@
 "year": 2025,
 "date": "2025-06-23",
 "link": "https://doi.org/10.48550/arXiv.2506.18512",
-"cites": 11,
+"cites": 12,
 "zh_title": "MedTVT-R1：赋能医学推理与诊断的多模态大模型",
 "summary": "提出多模态LLM框架MedTVT-R1，整合异质临床多模态数据做多疾病诊断，构建MedTVT-QA指令数据集，并采用GRPO强化微调。",
 "key_points": [
@@ -101741,7 +101741,7 @@
 "year": 2026,
 "date": "2026-03-15",
 "link": "https://doi.org/10.48550/arXiv.2603.14647",
-"cites": 5,
+"cites": 6,
 "zh_title": "TopoCL：面向医学影像的拓扑对比学习",
 "summary": "提出拓扑对比学习框架TopoCL，利用持续图的拓扑感知增强与层次拓扑编码器，在无标注医学图像表征学习中引入连通性等拓扑特征。",
 "key_points": [

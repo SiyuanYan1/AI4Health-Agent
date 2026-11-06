@@ -1050,7 +1050,13 @@
 "score": 4,
 "reason": "仅标题，常规510(k)类产品许可，非首个或重大批准",
 "day": "2026-10-27",
-"rank": 8.0
+"rank": 8.0,
+"also": [
+{
+"source": "www.dicardiology.com",
+"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOU1pEYWp0M2FzaUFNNTdSazk3MXdLdVFUZmllMDVneUFGRWdpRlZYSWZVdmpDNzVRcHd0dTdBMlB3UDBLOEJCWkZHNEd4SWdLbVZZOXFIN3c0NnJSUVphVHhuRGFGQUdXVXlaejBCc0VKdnQxN0Z2ZGlWeXpWc2pWXzlCVkVYMHl5VE1fdGlTaW11MGs?oc=5"
+}
+]
 },
 {
 "title": "Improving safety frameworks for generative AI and youth well-being policy",

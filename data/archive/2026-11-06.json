@@ -12,28 +12,62 @@
 "id": "c08ca52a4249",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "智利四家公立医院仅用超声图像预测分娩日期模型的外部验证",
-"summary": "研究在智利四家公立医院对仅基于超声图像的分娩日期预测模型进行外部验证。",
+"zh_title": "智利四家公立医院纯超声图像分娩日期预测模型的外部验证",
+"summary": "在智利四家公立医院3788例单胎超声研究中，仅用超声图像的AI预测分娩日期，平均绝对误差6.9天。",
 "key_points": [
-"仅使用超声图像作为输入",
-"在四家智利公立医院进行外部验证",
-"任务为分娩日期预测"
+"独立多中心外部验证，2550例妊娠",
+"仅输入超声帧，不用孕周、生物测量等",
+"在缺乏可靠早期定期的妊娠中精度未下降"
 ],
 "section": "影像与病理",
 "type": "论文",
 "tags": [
 "医学影像",
-"临床预测"
+"临床落地",
+"多模态"
 ],
 "evidence": "同行评审",
-"score": 6,
-"reason": "同行评审且多医院外部验证，但详细结果与样本量未提供，属值得一看档",
+"score": 7,
+"reason": "独立多中心外部验证、已前瞻部署、样本数千例，属重要档",
 "day": "2026-11-06",
 "rank": 11.81,
-"abstract_days": [
-"2026-11-06"
+"abstract": "Abstract Accurate delivery-date estimation underpins obstetric care, yet conventional dating performs worst where it is most needed: late-presenting pregnancies without reliable early ultrasound or menstrual history, common in public-sector and migrant populations. We report an independent, multicentre external validation of a prospectively deployed, image-only ultrasound artificial-intelligence (AI) system that predicts days to delivery from standard ultrasound frames alone—without gestational age, biometry, demographics, annotations, or any dating input. Across 3,788 singleton studies from 2,550 pregnancies at four Chilean public hospitals, the AI predicted the delivery date with a mean absolute error (MAE) of 6.9 days (95% confidence interval [CI] 6.7–7.0). Critically, its accuracy was undiminished where conventional dating is structurally weakest: in pregnancies lacking reliable first-trimester dating the AI achieved an MAE of 6.4 days, whereas estimation from the established due date deteriorated to 13.2 days. The model’s high-coverage prediction intervals were well calibrated (96.5% empirical coverage of the approximately 94% interval), supporting a calibrated delivery-date range rather than a single date. Head-to-head within the same studies, the image-only estimate was more accurate than the due date as used in practice in 69% of pregnancies; prespecified sensitivity analyses showed that part of this margin reflects correction of a systematic, population-specific bias in the 280-day convention, with a smaller residual advantage in dispersion. This dating-independent, calibrated estimate could narrow a persistent equity gap for the patients whom conventional dating serves least well.",
+"zh_abstract": "摘要 准确估算分娩日期是产科诊疗的基础，然而传统的孕周推算在最需要的场合表现最差：即晚期就诊、缺乏可靠早期超声或末次月经史的妊娠，这在公立医疗机构和移民人群中很常见。我们报告了对一种已前瞻性部署的、仅基于图像的超声人工智能（AI）系统进行的独立多中心外部验证；该系统仅凭标准超声图像帧即可预测距分娩的天数，无需孕周、生物测量、人口统计学信息、标注或任何孕周推算输入。在智利四家公立医院2,550例妊娠的3,788项单胎检查中，该AI预测分娩日期的平均绝对误差（MAE）为6.9天（95%置信区间[CI] 6.7–7.0）。关键的是，在传统孕周推算结构性最薄弱的情形下，其准确性并未下降：在缺乏可靠孕早期孕周推算的妊娠中，AI的MAE为6.4天，而根据既定预产期进行估算则恶化至13.2天。该模型的高覆盖率预测区间校准良好（约94%区间的实际经验覆盖率为96.5%），支持给出经校准的分娩日期范围，而非单一日期。在相同检查中进行直接比较，在69%的妊娠中，仅基于图像的估算比实际使用的预产期更准确；预先设定的敏感性分析显示，这一优势的一部分反映了对280天惯例中系统性的、人群特异性偏倚的校正，而在离散度方面则存在较小的残余优势。这种不依赖孕周推算的、经校准的估算有望缩小传统孕周推算对其服务最差的患者所存在的持续性公平差距。"
+},
+{
+"title": "Collaborative generalist-specialist AI for safe worklist deprioritization of non-contrast brain computed tomography",
+"link": "https://www.nature.com/articles/s41746-026-03447-y",
+"date": "2026-11-05T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03447-y",
+"pop": null,
+"id": "d4d95b166c32",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "通勤式通用-专科协作AI用于头颅CT平扫安全降优先级",
+"summary": "将CLIP式通用基础模型BrainCT-CLIP与商用检测器结合，在2001例多中心回顾性外部验证中用于头颅非增强CT工作列表降优先级。",
+"key_points": [
+"所有检查仍留在报告流程，仅全阴性时降优先级",
+"商用检测器单独使用漏掉31/324例异常检查",
+"协作系统在预设阈值下召回全部异常检查"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"医学大模型",
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 7,
+"reason": "多中心外部验证、基础模型与商用工具协作，属重要档；回顾性且样本约2000例",
+"title_only_note": null,
+"day": "2026-11-06",
+"rank": 10.81,
+"abstract": "Safe deprioritization of non-contrast brain computed tomography (NCCT) demands high sensitivity and negative predictive value (NPV) across common and uncommon findings requiring clinical attention. Here, we present a collaborative safety net integrating BrainCT-CLIP, a generalist foundation model via contrastive language-image pre-training (CLIP), with commercial detectors. Every examination remained in the reporting workflow, deprioritized only when no model returned a positive result. In a retrospective multicenter external validation of consecutive emergency and trauma cohorts ( n = 2001), standalone commercial detectors left 31 of 324 remarkable examinations deprioritized, including 16 target-disease false negatives and 15 outside their indications. In contrast, the collaborative system recovered every remarkable examination at a threshold prespecified in the development cohort, achieving 100% sensitivity and NPV while deprioritizing 18% of examinations (368/2001; 95% CI, 17–20). These findings support generalist-specialist AI for safe worklist deprioritization under radiologist oversight, with high sensitivity for intracranial findings requiring clinical attention."
 },
 {
 "title": "Deep Learning for AD Risk Screening and Progression Prediction.",
@@ -101,9 +135,10 @@
 "day": "2026-11-06",
 "rank": 10.81,
 "abstract_days": [
-"2026-11-06"
+"2026-11-06",
+"2026-11-07"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "AI-driven multi-horizon risk stratification for heart failure hospitalization in UA with HFpEF: a Chinese multi-center cohort study",
@@ -137,43 +172,10 @@
 "day": "2026-11-06",
 "rank": 10.81,
 "abstract_days": [
-"2026-11-06"
+"2026-11-06",
+"2026-11-07"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
-"title": "Collaborative generalist-specialist AI for safe worklist deprioritization of non-contrast brain computed tomography",
-"link": "https://www.nature.com/articles/s41746-026-03447-y",
-"date": "2026-11-05T00:00:00+00:00",
-"source": "npj Digital Medicine",
-"source_group": "npj Digital Medicine",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41746-026-03447-y",
-"pop": null,
-"id": "d4d95b166c32",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "通才-专才协作AI用于非增强头颅CT的安全工作列表降级",
-"summary": "npj Digital Medicine 刊文，提出通才与专才协作的AI，用于非增强头颅CT工作列表的安全降级。来源仅给出标题，细节不详。",
-"key_points": [],
-"section": "影像与病理",
-"type": "论文",
-"tags": [
-"医学影像",
-"临床落地",
-"多模态"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "仅有标题，无法评估验证与结局，按信息不足取中档",
-"title_only_note": null,
-"day": "2026-11-06",
-"rank": 10.81,
-"abstract_days": [
-"2026-11-06"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "Physical Limits to AI Substitution across Physician Specialties — Implications for the Physician Workforce",
@@ -340,7 +342,8 @@
 "day": "2026-11-06",
 "rank": 10.0,
 "abstract_days": [
-"2026-11-06"
+"2026-11-06",
+"2026-11-07"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -436,7 +439,21 @@
 "score": 6,
 "reason": "FDA许可但仅标题，无细节，上限6分",
 "day": "2026-11-06",
-"rank": 9.81
+"rank": 9.81,
+"also": [
+{
+"source": "Medical Device Network",
+"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRHhncnE1LXF1YTUwZXpyRU5ZdmVyWXNfMEEyXzk5NDZSaVZ2bXFQVzE3NGNMOVhrdlBjSXZSQmF0YzFqQzJRYk5zaVdyRDI4Q1FxOE9kOFZuUy1Xdnk0Rk9xcVV4YW1JNmpPNmJudi1zN0xCdzBFaTdKNlpmTU5aQ3dpNUdXNDA2Q1g2cGlPMnFyZXRxengzTEZqNHJkeXNNOS1aTEs0allnWUR2MGsteQ?oc=5"
+},
+{
+"source": "PR Newswire",
+"link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOeW8ydWZfOTg5ckM3c0VCUHRkZHNUZHl3OTBUUTRXNTZCbjRNTEgyMThqV0lSZWlyN3RzMXB4T1c5aHI4cU5XX0tJV2FOSEZYV2dpZTRTX2lTM2xkR2c4cHFOd0JtN2lDZHpoSDM2cmxRbHRiZWUyZHA4dFZHd3U4NXNVV1c3OWNEX29PTUstUlE3RllRUWJzUlhlWHVtamw3THpQSFI4N2c0aWRXcWUtb1RNbjlNNUl3RERxdllINjdiWTRxVlIxWDluQl9SV1hUY3lRaGp3SmI4NHkxS3I3Yml3?oc=5"
+},
+{
+"source": "Medical Product Outsourcing",
+"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd20yQjBYRnJuQzJUOEVwSDZIVU5rSWpqSUZKR005Q1k5OXRjZ1ZqR3RpYW0wVGJPX2c5bVNqN1VROU1qbDU5REszajB4d2pXZHp3d0UzRzBsVDM4VDhmM0N5aHpobGJ6bXlPTjJ1QWJiTnR2OFh6N0xlamZfZmd3SnZLRkotcV9aNmVteVNjTWh2QmNRMm5OSE5RSQ?oc=5"
+}
+]
 },
 {
 "title": "Vibe Coding versus Clinical Reality",
@@ -809,7 +826,8 @@
 "day": "2026-11-06",
 "rank": 9.0,
 "abstract_days": [
-"2026-11-06"
+"2026-11-06",
+"2026-11-07"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -845,7 +863,8 @@
 "day": "2026-11-06",
 "rank": 9.0,
 "abstract_days": [
-"2026-11-06"
+"2026-11-06",
+"2026-11-07"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -2063,7 +2082,13 @@
 "abstract": "[Oncology nursing forum] Cancer care requires critical reasoning, ethical judgment, therapeutic communication, and individualized decisions that cannot be delegated to technology. Oncology nurses must retain authority to question, escalate, report, a.",
 "day": "2026-11-06",
 "rank": 7.31,
-"zh_abstract": "[肿瘤护理论坛] 癌症照护需要批判性推理、伦理判断、治疗性沟通以及个体化决策，这些都不能委托给技术。肿瘤专科护士必须保留质疑、上报、报告……的权力。（注：原文在此处被截断。）"
+"zh_abstract": "[肿瘤护理论坛] 癌症照护需要批判性推理、伦理判断、治疗性沟通以及个体化决策，这些都不能委托给技术。肿瘤专科护士必须保留质疑、上报、报告……的权力。（注：原文在此处被截断。）",
+"also": [
+{
+"source": "PubMed · Current opinion in nephrology and hypertension",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42989632/"
+}
+]
 },
 {
 "title": "AI in health care: from clinical support to algorithmic management?",

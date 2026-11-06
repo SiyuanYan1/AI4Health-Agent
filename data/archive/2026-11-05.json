@@ -101,7 +101,8 @@
 "rank": 11.81,
 "abstract_days": [
 "2026-11-05",
-"2026-11-06"
+"2026-11-06",
+"2026-11-07"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -247,7 +248,8 @@
 "rank": 10.81,
 "abstract_days": [
 "2026-11-05",
-"2026-11-06"
+"2026-11-06",
+"2026-11-07"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -416,7 +418,8 @@
 "rank": 10.0,
 "abstract_days": [
 "2026-11-05",
-"2026-11-06"
+"2026-11-06",
+"2026-11-07"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -453,7 +456,8 @@
 "rank": 9.81,
 "abstract_days": [
 "2026-11-05",
-"2026-11-06"
+"2026-11-06",
+"2026-11-07"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -824,7 +828,8 @@
 "rank": 9.0,
 "abstract_days": [
 "2026-11-05",
-"2026-11-06"
+"2026-11-06",
+"2026-11-07"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -860,7 +865,8 @@
 "rank": 9.0,
 "abstract_days": [
 "2026-11-05",
-"2026-11-06"
+"2026-11-06",
+"2026-11-07"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -927,7 +933,8 @@
 "rank": 8.99,
 "abstract_days": [
 "2026-11-05",
-"2026-11-06"
+"2026-11-06",
+"2026-11-07"
 ],
 "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
 },
@@ -2612,6 +2619,10 @@
 {
 "source": "El Paso Times",
 "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNamwxX1hrZ0NYeTlWTnprNEx3eTBRVHlpRjQyVkNvN1BTdzlBbU9IVE1Sd3phMVVvSE12emFSVmlscGlmNWRyNTREbWpYRzg4LWxvMDd4b0dXU3ExUjVULUd6QUtiWWdrcTV5LW9wbEZQX3R6ckNwR25ueExfZjRBWUY3VENZOV9NQkRYZjltLXQxSWl5bThTeTJLeU9Tbk5IVVJ6b3hPZEE5WVhRUWtzU1haUzJKNlgtZnQ5OXk0ZUlLa2VzTkpZSGo3RC1UbFJyanVBT21fcUgxN21x?oc=5"
+},
+{
+"source": "The Tennessean",
+"link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYmFNR21rYk0xU3ZxMnVueUgzNmtQeWpLQlFmTkNuRVNsTjlnM3BUeEI3OXZmQUZEbnNUZ2traVBseDZkUmlDZ0lBWEJKNnR0MWx4Nm42V09CZDhzdXltTndiQURTeEJkUkNkSXhoN2p3aHJyenJRVWhSbXJkRW1XdUFZVVd6UV82dXdnSTR6c2t4czNhZ0pvOWxSWllUc1BhbTV2dU43dU9mWm1XZWJMQ1JlNjlxTldKZmlFRFVlb2VrYmdTeERUOXRmTjI1R1kxSzZ1YWxHaXNRMHc?oc=5"
 }
 ]
 },

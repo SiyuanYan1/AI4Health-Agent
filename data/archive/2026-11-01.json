@@ -726,7 +726,13 @@
 "reason": "新意尚可的预印本，基因组深度学习模型，证据有限，未经同行评审",
 "abstract": "Transcription initiation is a key marker of active enhancers and promoters. Here we describe an atlas of efficient and interpretable deep learning models trained on over 200 transcription initiation profiling experiments representing all major human organs and many cancer types. We show that our models accurately predict initiation patterns from local DNA sequence and decode their sequence determinants across diverse cellular contexts.",
 "day": "2026-11-01",
-"rank": 7.64
+"rank": 7.64,
+"also": [
+{
+"source": "PubMed · bioRxiv : the preprint server for biology",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42990552/"
+}
+]
 },
 {
 "title": "Artificial Intelligence-powered Advances in Phytomedicine: A Systematic Review on Plant-based Drug Discovery Software.",
