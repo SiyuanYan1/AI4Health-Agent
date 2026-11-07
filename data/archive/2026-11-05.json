@@ -2895,7 +2895,13 @@
 "score": 3,
 "reason": "仅有标题的访谈观点，信息少",
 "day": "2026-11-05",
-"rank": 5.5
+"rank": 5.5,
+"also": [
+{
+"source": "新浪网",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5kTVRuX1YzYkJzZGsxY2Z0RGVibGY5Yl9xUEszd3BIc01ESzBTTzd4NlBLa3Y1djI1WWw3Q3pVZlpYLUJUZ3ZMdl80QUdhZnJCNmZGSVR2eGlDUzlDNVlfVk5vN2NGMlRfd1BGQkdWaVhHdw?oc=5"
+}
+]
 },
 {
 "title": "lexthirteen-ai/orinyx-mcp",
