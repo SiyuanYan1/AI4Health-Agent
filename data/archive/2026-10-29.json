@@ -279,7 +279,13 @@
 "abstract": "Autonomous artificial intelligence agents are transforming the practice of science. Across every discipline, researchers are handing data analysis to coding agents that can design and execute complex studies from a single prompt. Yet this revolution carries a threat. When agents improvise in local environments, they leave no verifiable record, ultimately risking a wave of irreproducible science. Solving this crisis requires moving agentic science onto public infrastructure where every action leaves an examinable trail. Here we connect autonomous coding agents to shared computing resources, turning ephemeral prompts into auditable scientific records. After showing that 30 unguided local agents splinter into 18 incompatible pipelines on the same dataset, we conduct an agentic reproduction and discovery study on a large scale---reproducing a large, diverse array of studies with every workflow, history, and intermediate dataset publicly accessible. This complete provenance trail exposes unstated modeling choices, reference mismatches, and subsampled tutorial inputs in published studies, and establishes a new foundation where human scientists can understand, steer, and trust AI-driven discovery.",
 "day": "2026-10-29",
 "rank": 8.81,
-"zh_abstract": "自主人工智能智能体正在改变科学实践。在各个学科中，研究人员正将数据分析交给编码智能体，这些智能体仅凭一条提示即可设计并执行复杂的研究。然而，这场变革也带来了威胁。当智能体在本地环境中即兴发挥时，不会留下可验证的记录，最终可能引发一波不可重复的科学研究。要解决这一危机，需要将智能体驱动的科学迁移到公共基础设施上，使每一步操作都留下可检查的轨迹。在此，我们将自主编码智能体连接到共享计算资源，把转瞬即逝的提示转变为可审计的科学记录。我们首先表明，30个无引导的本地智能体在同一数据集上分裂成18条互不兼容的分析流程；随后开展了一项大规模的智能体复现与发现研究——复现了大量多样的研究，且每个工作流、历史记录和中间数据集均可公开获取。这一完整的溯源轨迹揭示了已发表研究中未说明的建模选择、参考不匹配以及经过子采样的教程输入，并建立了一个新的基础，使人类科学家能够理解、引导并信任由AI驱动的科学发现。"
+"zh_abstract": "自主人工智能智能体正在改变科学实践。在各个学科中，研究人员正将数据分析交给编码智能体，这些智能体仅凭一条提示即可设计并执行复杂的研究。然而，这场变革也带来了威胁。当智能体在本地环境中即兴发挥时，不会留下可验证的记录，最终可能引发一波不可重复的科学研究。要解决这一危机，需要将智能体驱动的科学迁移到公共基础设施上，使每一步操作都留下可检查的轨迹。在此，我们将自主编码智能体连接到共享计算资源，把转瞬即逝的提示转变为可审计的科学记录。我们首先表明，30个无引导的本地智能体在同一数据集上分裂成18条互不兼容的分析流程；随后开展了一项大规模的智能体复现与发现研究——复现了大量多样的研究，且每个工作流、历史记录和中间数据集均可公开获取。这一完整的溯源轨迹揭示了已发表研究中未说明的建模选择、参考不匹配以及经过子采样的教程输入，并建立了一个新的基础，使人类科学家能够理解、引导并信任由AI驱动的科学发现。",
+"also": [
+{
+"source": "PubMed · bioRxiv : the preprint server for biology",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42990352/"
+}
+]
 },
 {
 "title": "EM-BENCH: A Reproducible Framework for Benchmarking Guideline-Concordant Clinical Decision Making in Large Language Models",

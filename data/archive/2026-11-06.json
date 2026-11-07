@@ -136,7 +136,8 @@
 "rank": 10.81,
 "abstract_days": [
 "2026-11-06",
-"2026-11-07"
+"2026-11-07",
+"2026-11-08"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -153,29 +154,26 @@
 "id": "e935f7bbd731",
 "_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
 "keep": true,
-"zh_title": "HFpEF合并不稳定型心绞痛心衰住院的多时间窗AI风险分层",
-"summary": "npj Digital Medicine发表中国多中心队列研究，用AI对HFpEF合并不稳定型心绞痛患者的心衰住院风险做多时间窗分层；仅有标题级信息。",
+"zh_title": "UA合并HFpEF患者心衰住院多时间窗AI风险分层：中国多中心队列",
+"summary": "多中心回顾性队列纳入4367例UA合并HFpEF患者，经集成特征筛选训练12种机器学习算法，预测12、24、36个月心衰住院风险并作外部验证。",
 "key_points": [
-"面向HFpEF合并UA人群",
-"多时间窗心衰住院风险分层",
-"中国多中心队列设计"
+"纳入4367例，LASSO、SVM-RFE与Boruta筛选特征",
+"最优模型训练集AUC为0.818、0.834、0.863",
+"外部验证AUC分别为0.839、0.836等"
 ],
 "section": "临床预测与决策",
 "type": "论文",
 "tags": [
 "临床预测",
-"临床决策支持"
+"电子病历"
 ],
 "evidence": "同行评审",
 "score": 5,
-"reason": "多中心队列但摘要信息有限，无法确认外部验证，属值得一看档",
+"reason": "多中心回顾性且有外部验证，样本较大，但为传统ML无临床结局对照",
 "day": "2026-11-06",
 "rank": 10.81,
-"abstract_days": [
-"2026-11-06",
-"2026-11-07"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
+"abstract": "Heart failure with preserved ejection fraction (HFpEF) complicated by unstable angina (UA) represents a major challenge in chronic disease management with high risk of recurrent heart failure hospitalization (HFH), and despite the availability of multicenter real-world data, AI-driven tools for multi-horizon risk assessment remain limited. This multicenter retrospective cohort enrolled 4367 patients with UA and HFpEF, and an ensemble feature selection pipeline integrating LASSO, SVM-RFE and Boruta identified robust predictors, followed by training of twelve machine learning algorithms to estimate HFH risk at 12-, 24- and 36-month horizons with external validation. The optimal time-specific models (ET, GBDT and LightGBM) achieved strong discrimination in the training cohort with AUCs of 0.818, 0.834 and 0.863, and maintained performance in external validation with AUCs of 0.839, 0.836 and 0.851, respectively, while SHAP analysis highlighted diabetes mellitus, TyG-BMI and NT-proBNP as the most influential predictors. We developed and externally validated a multi-time-point machine learning framework for HFH risk stratification in UA and HFpEF, which showed acceptable calibration and potential clinical utility on decision-curve analysis. Further prospective and real-world validation across diverse populations and healthcare systems is needed to confirm clinical effectiveness and support translation into routine practice.",
+"zh_abstract": "射血分数保留的心力衰竭（HFpEF）合并不稳定型心绞痛（UA）是慢性病管理中的一大挑战，再次发生心力衰竭住院（HFH）的风险较高；尽管已有多中心真实世界数据，用于多时间节点风险评估的人工智能工具仍然有限。这项多中心回顾性队列研究纳入了4367例UA合并HFpEF患者，采用整合LASSO、SVM-RFE和Boruta的集成特征选择流程识别出稳健的预测因子，随后训练十二种机器学习算法，以估计12个月、24个月和36个月时的HFH风险，并进行了外部验证。各时间点的最优模型（ET、GBDT和LightGBM）在训练队列中表现出较强的区分能力，AUC分别为0.818、0.834和0.863；在外部验证中保持了性能，AUC分别为0.839、0.836和0.851。SHAP分析显示，糖尿病、TyG-BMI和NT-proBNP是影响最大的预测因子。我们开发并外部验证了一种多时间点机器学习框架，用于UA合并HFpEF患者的HFH风险分层，该框架显示出可接受的校准度，并在决策曲线分析中显示出潜在的临床实用性。仍需在不同人群和医疗体系中开展进一步的前瞻性和真实世界验证，以确认其临床有效性并支持其转化应用于常规临床实践。"
 },
 {
 "title": "Physical Limits to AI Substitution across Physician Specialties — Implications for the Physician Workforce",
@@ -343,7 +341,8 @@
 "rank": 10.0,
 "abstract_days": [
 "2026-11-06",
-"2026-11-07"
+"2026-11-07",
+"2026-11-08"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -827,7 +826,8 @@
 "rank": 9.0,
 "abstract_days": [
 "2026-11-06",
-"2026-11-07"
+"2026-11-07",
+"2026-11-08"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -864,7 +864,8 @@
 "rank": 9.0,
 "abstract_days": [
 "2026-11-06",
-"2026-11-07"
+"2026-11-07",
+"2026-11-08"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
