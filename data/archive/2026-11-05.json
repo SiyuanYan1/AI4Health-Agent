@@ -103,7 +103,8 @@
 "2026-11-05",
 "2026-11-06",
 "2026-11-07",
-"2026-11-08"
+"2026-11-08",
+"2026-11-09"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -251,7 +252,8 @@
 "2026-11-05",
 "2026-11-06",
 "2026-11-07",
-"2026-11-08"
+"2026-11-08",
+"2026-11-09"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -422,7 +424,8 @@
 "2026-11-05",
 "2026-11-06",
 "2026-11-07",
-"2026-11-08"
+"2026-11-08",
+"2026-11-09"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -461,7 +464,8 @@
 "2026-11-05",
 "2026-11-06",
 "2026-11-07",
-"2026-11-08"
+"2026-11-08",
+"2026-11-09"
 ],
 "abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
@@ -834,7 +838,8 @@
 "2026-11-05",
 "2026-11-06",
 "2026-11-07",
-"2026-11-08"
+"2026-11-08",
+"2026-11-09"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -872,7 +877,8 @@
 "2026-11-05",
 "2026-11-06",
 "2026-11-07",
-"2026-11-08"
+"2026-11-08",
+"2026-11-09"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -941,7 +947,8 @@
 "2026-11-05",
 "2026-11-06",
 "2026-11-07",
-"2026-11-08"
+"2026-11-08",
+"2026-11-09"
 ],
 "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
 },
@@ -2131,7 +2138,13 @@
 "abstract": "[British journal of hospital medicine (London, England : 2005)] The application of artificial intelligence (AI) in valvular heart disease (VHD) has advanced significantly in recent years. However, a systematic evaluation of this field's historical development, knowledge structure, and global research patterns has yet to be conducted. This paper aims to outline the global evolution of AI research in VHD utilizing bibliometric and knowledge-mapping methods. Publications related to AI and VHD from 1991 to 2025 were retrieved from the Web of Science Core Collection database to investigate research progress. CiteSpace software was employed for bibliometric and knowledge mapping analyses, assessing indicators such as publication trends, keyword networks, collaboration patterns, co-citation relationships, and emerging topics. A total of 3291 pieces of literature were identified. Research productivity remained low until the year before 2004, followed by steady growth and a sharp increase after 2015, culminating in 461 articles by the end of 2025. Network analysis revealed three sequential stages: image-assisted applications, prediction modeling, and recent advancements in deep-learning-based integrated systems. The United States accounted for the largest research volume, while England and Germany served as core nodes in the international cooperation network. Co-citation analysis identified significant clinical guidelines and pioneering interventional studies as key intellectual pillars in this domain. Over the past 35 years, significant progress has been achieved, transitioning from computer systems used solely for image analysis to more integrated clinical applications. Currently, deep learning techniques are increasingly prevalent, accompanied by a focus on multimodal data integration and a stronger linkage between computational methods and clinical decision-making.",
 "day": "2026-11-05",
 "rank": 7.31,
-"zh_abstract": "[British journal of hospital medicine (London, England : 2005)] 近年来，人工智能（AI）在瓣膜性心脏病（VHD）中的应用取得了显著进展。然而，针对该领域的历史发展、知识结构和全球研究格局，尚未有系统评估。本文旨在利用文献计量学和知识图谱方法，概述 VHD 领域 AI 研究的全球演变。从 Web of Science 核心合集数据库检索 1991 年至 2025 年与 AI 和 VHD 相关的出版物，以考察研究进展。采用 CiteSpace 软件进行文献计量和知识图谱分析，评估发文趋势、关键词网络、合作模式、共被引关系和新兴主题等指标。共纳入 3291 篇文献。2004 年之前研究产出一直较低，此后稳步增长，2015 年后急剧增加，至 2025 年底达到 461 篇。网络分析揭示了三个相继的阶段：影像辅助应用、预测建模，以及近期基于深度学习的集成系统方面的进展。美国的研究数量最多，而英格兰和德国是国际合作网络中的核心节点。共被引分析确定了重要的临床指南和开创性的介入研究是该领域的关键知识支柱。在过去 35 年中，该领域取得了显著进展，已从仅用于图像分析的计算机系统转变为更为综合的临床应用。目前，深度学习技术日益普遍，同时更加关注多模态数据整合，以及计算方法与临床决策之间更紧密的联系。"
+"zh_abstract": "[British journal of hospital medicine (London, England : 2005)] 近年来，人工智能（AI）在瓣膜性心脏病（VHD）中的应用取得了显著进展。然而，针对该领域的历史发展、知识结构和全球研究格局，尚未有系统评估。本文旨在利用文献计量学和知识图谱方法，概述 VHD 领域 AI 研究的全球演变。从 Web of Science 核心合集数据库检索 1991 年至 2025 年与 AI 和 VHD 相关的出版物，以考察研究进展。采用 CiteSpace 软件进行文献计量和知识图谱分析，评估发文趋势、关键词网络、合作模式、共被引关系和新兴主题等指标。共纳入 3291 篇文献。2004 年之前研究产出一直较低，此后稳步增长，2015 年后急剧增加，至 2025 年底达到 461 篇。网络分析揭示了三个相继的阶段：影像辅助应用、预测建模，以及近期基于深度学习的集成系统方面的进展。美国的研究数量最多，而英格兰和德国是国际合作网络中的核心节点。共被引分析确定了重要的临床指南和开创性的介入研究是该领域的关键知识支柱。在过去 35 年中，该领域取得了显著进展，已从仅用于图像分析的计算机系统转变为更为综合的临床应用。目前，深度学习技术日益普遍，同时更加关注多模态数据整合，以及计算方法与临床决策之间更紧密的联系。",
+"also": [
+{
+"source": "PubMed · Frontiers in oncology",
+"link": "https://pubmed.ncbi.nlm.nih.gov/42984517/"
+}
+]
 },
 {
 "title": "Automated Detection of Positioning Errors in Bitewing Radiographs Using Deep Learning.",
@@ -2630,6 +2643,10 @@
 {
 "source": "The Tennessean",
 "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYmFNR21rYk0xU3ZxMnVueUgzNmtQeWpLQlFmTkNuRVNsTjlnM3BUeEI3OXZmQUZEbnNUZ2traVBseDZkUmlDZ0lBWEJKNnR0MWx4Nm42V09CZDhzdXltTndiQURTeEJkUkNkSXhoN2p3aHJyenJRVWhSbXJkRW1XdUFZVVd6UV82dXdnSTR6c2t4czNhZ0pvOWxSWllUc1BhbTV2dU43dU9mWm1XZWJMQ1JlNjlxTldKZmlFRFVlb2VrYmdTeERUOXRmTjI1R1kxSzZ1YWxHaXNRMHc?oc=5"
+},
+{
+"source": "FL Times-Union",
+"link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQY1VreG04Zm5ORG1wUGNmUUdWdEFFX05TOUU4ajI3dlNxSFMwNGEyT1M2Vkd1MTlOMTZQXzEwb0hwU19tMHIwaVJzSkg4Wm1ITkxxWk5XVzVUdWpUY25qZGtuWV9iOXlPNWs0NXQwQ1B6UmlScEVVaXJudV8ydk1ESEFtSWV4RzhhYXlub3hNdXJ4b0VLb2dQREQ4WDBESHFVOTBVWENONEtVbl9adG1OV0RNNk9Md01GbDVQMTR3ZWhDSE1MMFlkLUtOeVg2U2d1Vlg5T21HdzVxWUQzZlZv?oc=5"
 }
 ]
 },
