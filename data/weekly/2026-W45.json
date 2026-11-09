@@ -1,0 +1,109 @@
+{
+ "week": "2026-W45",
+ "range": "2026-11-02 ~ 2026-11-08",
+ "partial": false,
+ "generated": "2026-11-09T07:30:18.927676+00:00",
+ "summary": "本周20条条目均为同行评审成果。临床预测方面，AURA将可解释预测模型嵌入EHR，在单一学术医疗系统中对ANA阳性者1:1随机分组，评估其对自身免疫病确诊时间的影响，这是一项为期2年的务实性研究[1]。慢性乙肝研究基于3.6万条住院记录，用SHAP主效应与交互项构建紧凑模型，预测非进展、肝硬化和肝癌，并做了时间与外部验证[14]。谵妄风险分层模型在西奈山医院实时部署，并在Morningside医院做跨院外部验证[20]。RetiME将视网膜特征映射为个体死亡风险，并重建个性化寿命轨迹[8]。\n\n影像与病理条目最多。智利四家公立医院3788例单胎超声研究显示，仅用超声图像的AI预测分娩日期，平均绝对误差为6.9天[3]。头颅非增强CT方面，BrainCT-CLIP与商用检测器结合，在2001例多中心回顾性外部验证中用于工作列表降优先级[4]。KITE-CRM在多中心验证、读片研究和随机实施研究中改善了辅助判读与报告效率，但未证明长期肿瘤学安全性或临床优越性[9]。RETBind用患者级配对的OCT与超广角眼底影像预训练统一编码器[10]。一项MRI分类器在西方样本上预训练，无需重训即在722人的中国SILCODE队列中验证[17]。ISLES'24总结了卒中最终梗死预测方法的现状[18]。病理基础模型的连续放大倍数采样研究，来源仅提供标题与作者信息，具体结果无从判断[19]。\n\n数字健康方面，研究尝试从可穿戴与传感数据中提取多种信息。腕部PPG与文本对齐的语言模型在110万餐数据上训练，在摄入与饱腹感任务中提升了AUC[2]。步态基础模型利用单深度相机记录的3,328名成人的3D骨骼数据，通过学习嵌入预测涉及18个身体系统的健康表型[5]。六国1197名倒班工人的研究则用每日两次、持续两周采集的语音副语言特征，预测急性与慢性疲劳[7]。\n\n大模型与智能体方面，评估与稳健性问题受到关注。四个德语临床数据集上的审计发现，六个开源模型作为评审者的各配置均不稳定，存在位置与身份偏倚，替代专家会漏掉部分临床错误[11]。另一项研究用3035个扰动样本评估GPT-5、MedGemma-27B等模型的推理稳定性，并以稀疏自编码器分析内部表征[13]。AMDagent把定量影像分析与指南检索结合，为AMD纵向随访生成有证据依据的结构化输出[15]。\n\n生命科学方面，自动化实验室是本周亮点。Nature论文提出AI原生的自主生物分子工程实验室AutoDNA，面向跨多种仪器的多目标实验，通过模型、实验与仪器协同设计，使AI与自动化系统共同演化[6]。同期Nature报道，一种AI系统可协调实验室仪器，在较少人工干预下完成多步分子生物学实验[12]。在空间转录组领域，L-STAR借助视觉大模型对多种空间域检测方法自适应排序并整合，在多数据集上优于单一方法[16]。",
+ "items": [
+  {
+   "title": "自身免疫病预测模型AURA的随机化评估",
+   "link": "https://ai.nejm.org/doi/full/10.1056/AIoa2600112?af=R&rss=currentIssue",
+   "source": "NEJM AI"
+  },
+  {
+   "title": "腕部PPG编码饮食信息",
+   "link": "https://www.nature.com/articles/s41746-026-03425-4",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "智利四家公立医院纯超声图像分娩日期预测模型的外部验证",
+   "link": "https://www.nature.com/articles/s41746-026-03453-0",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "通勤式通用-专科协作AI用于头颅CT平扫安全降优先级",
+   "link": "https://www.nature.com/articles/s41746-026-03447-y",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "基于3D骨骼运动预测多系统健康表型的步态基础模型",
+   "link": "https://www.nature.com/articles/s41591-026-04724-9",
+   "source": "Nature Medicine"
+  },
+  {
+   "title": "面向自主生物分子操作的AI原生实验室AutoDNA",
+   "link": "https://www.nature.com/articles/s41586-026-11228-6",
+   "source": "Nature"
+  },
+  {
+   "title": "基于语音数据预测倒班工人疲劳的多维度纵向研究",
+   "link": "https://www.nature.com/articles/s41746-026-03437-0",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "RetiME：通过个体化寿命轨迹建模重新定时死亡风险",
+   "link": "https://www.nature.com/articles/s41551-026-01822-4",
+   "source": "Nature Biomedical Engineering"
+  },
+  {
+   "title": "CT 囊性肾肿块 AI 风险支持：多中心验证、读片研究与随机实施研究",
+   "link": "https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(26)00532-8/fulltext?rss=yes",
+   "source": "eClinicalMedicine"
+  },
+  {
+   "title": "RETBind：患者级多模态视网膜基础模型",
+   "link": "https://www.nature.com/articles/s41746-026-03426-3",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "临床文本评估中大模型评审者的跨范式审计",
+   "link": "https://www.nature.com/articles/s41746-026-03443-2",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "AI智能体进入“湿实验室”",
+   "link": "https://www.nature.com/articles/d41586-026-03270-1",
+   "source": "Nature"
+  },
+  {
+   "title": "医学大模型临床推理变异性的机制可解释性研究",
+   "link": "https://www.nature.com/articles/s41746-026-03423-6",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "可解释性驱动的特征工程用于慢性乙肝住院多结局风险分层",
+   "link": "https://www.nature.com/articles/s41746-026-03439-y",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "AMDagent：面向AMD纵向随访的多模态工具增强智能体",
+   "link": "https://www.nature.com/articles/s41746-026-03412-9",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "L-STAR：视觉大模型引导的空间域检测共识框架",
+   "link": "https://www.nature.com/articles/s41467-026-78923-w",
+   "source": "Nature Communications"
+  },
+  {
+   "title": "深度学习用于阿尔茨海默病风险筛查与进展预测",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42985795/",
+   "source": "PubMed · Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+  },
+  {
+   "title": "ISLES'24：多模态影像与临床数据预测卒中最终梗死",
+   "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004317?dgcid=rss_sd_all",
+   "source": "Medical Image Analysis"
+  },
+  {
+   "title": "弥合差距：病理基础模型的连续放大倍数采样",
+   "link": "https://www.sciencedirect.com/science/article/pii/S1361841526003968?dgcid=rss_sd_all",
+   "source": "Medical Image Analysis"
+  },
+  {
+   "title": "谵妄风险机器学习模型的跨院外部验证",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42981091/",
+   "source": "PubMed · JAMA network open"
+  }
+ ]
+}
