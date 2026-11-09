@@ -104,45 +104,6 @@
 "zh_abstract": "阿尔茨海默病（AD）免疫疗法的兴起凸显了对可及、省时的早期诊断生物标志物的需求。基于MRI的深度学习在这方面显示出前景，但很少有模型经过全面的临床验证。我们利用SILCODE队列（722名中国参与者，1,105次扫描），在不重新训练的情况下，检验了我们的分类器（在西方样本上预训练）向独立中国队列的可迁移性。我们考察了风险评分与疾病进展、认知表现和血浆生物标志物之间的关联。此外，还开发了一个可解释框架，以生成个体化脑风险图并识别亚型。该模型对AD分类的AUC为0.913，灵敏度为95.2%，可在临床诊断前2-3年识别出90.5%的高风险个体。风险评分与认知指标和血浆指标显著相关，尤其是p-tau 217。脑风险图揭示了AD亚型，包括一个认知快速下降的亚组。这些发现确立了一种适用于不同人群、具有临床相关性的基于MRI的模型，可用于AD早期检测和风险分层。"
 },
 {
-"title": "Digital readiness for cardiovascular care in high-burden US communities with cardiology workforce constraints",
-"link": "https://www.nature.com/articles/s41591-026-04800-0",
-"date": "2026-11-05T00:00:00+00:00",
-"source": "Nature Medicine",
-"source_group": "Nature Medicine",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41591-026-04800-0",
-"pop": null,
-"id": "2268ac6a4881",
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "美国心血管高负担社区的数字医疗就绪度分析",
-"summary": "基于美国人口普查等全国数据，识别心血管需求高且心脏科人力受限的社区，并评估其部署数字医疗的就绪程度。",
-"key_points": [
-"使用美国人口普查及其他全国健康数据",
-"识别心血管照护需求高的社区",
-"评估卫生系统部署数字医疗的就绪度"
-],
-"section": "数字健康",
-"type": "论文",
-"tags": [
-"数字健康",
-"公共卫生"
-],
-"evidence": "同行评审",
-"score": 5,
-"reason": "同行评审的公共卫生分析，与AI关联较弱，属值得一看档",
-"day": "2026-11-06",
-"rank": 10.81,
-"abstract_days": [
-"2026-11-06",
-"2026-11-07",
-"2026-11-08",
-"2026-11-09"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
-},
-{
 "title": "AI-driven multi-horizon risk stratification for heart failure hospitalization in UA with HFpEF: a Chinese multi-center cohort study",
 "link": "https://www.nature.com/articles/s41746-026-03427-2",
 "date": "2026-11-05T00:00:00+00:00",
@@ -344,7 +305,8 @@
 "2026-11-06",
 "2026-11-07",
 "2026-11-08",
-"2026-11-09"
+"2026-11-09",
+"2026-11-10"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -830,7 +792,8 @@
 "2026-11-06",
 "2026-11-07",
 "2026-11-08",
-"2026-11-09"
+"2026-11-09",
+"2026-11-10"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -869,7 +832,8 @@
 "2026-11-06",
 "2026-11-07",
 "2026-11-08",
-"2026-11-09"
+"2026-11-09",
+"2026-11-10"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -2617,6 +2581,39 @@
 "day": "2026-11-06",
 "rank": 6.84,
 "zh_abstract": "准确的靶区（TV）分割对放射治疗（RT）计划至关重要，但仍然耗时。此外，最终轮廓取决于放射肿瘤医师的专业水平。尽管深度学习改进了医学图像分割，但仅基于图像的模型无法编码支配靶区勾画的临床推理，对于临床靶区（CTV）尤其如此，其边界由临床知识而非仅由影像特征界定。提示驱动的分割最近已成为解决这一局限的策略。本文旨在综述这些用于 RT 靶区分割的方法，有四个目标：(1) 比较所使用的不同提示技术；(2) 比较其与仅基于图像的基线的性能；(3) 评估其如何依据标准指标进行评价，包括 Dice 相似系数（DSC）、第 95 百分位 Hausdorff 距离、敏感性、精确率和临床评估；(4) 找出临床转化所需弥补的差距。我们系统检索了 PubMed、Embase 和 arXiv，纳入将几何提示、临床文本提示或交互式提示引入深度学习模型以进行 RT 靶区勾画的研究。13 项研究符合纳入标准，涵盖头颈部、乳腺、前列腺、肺、宫颈和直肠癌。7 项研究使用临床文本提示，4 项使用几何提示，2 项使用交互式提示；3 项结合了多种模式。报告的 DSC 范围为 0.67 至 0.93，而仅基于图像的基线为 0.65 至 0.91。没有研究报告敏感性或精确率。临床文本提示似乎很适合 CTV 勾画。目前证据仍然有限，在这些方法能够转化为常规 RT 实践之前，需要标准化的提示工程和临床验证。"
+},
+{
+"title": "Digital readiness for cardiovascular care in high-burden US communities with cardiology workforce constraints",
+"link": "https://www.nature.com/articles/s41591-026-04800-0",
+"date": "2026-11-05T00:00:00+00:00",
+"source": "Nature Medicine",
+"source_group": "Nature Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41591-026-04800-0",
+"pop": null,
+"id": "2268ac6a4881",
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "美国高负担社区心血管照护的数字就绪度",
+"summary": "基于美国人口普查等全国数据，识别心血管需求高且心脏科人力受限的社区，并评估其部署数字医疗的就绪程度。",
+"key_points": [
+"使用美国人口普查及其他全国健康数据",
+"识别心血管照护需求高的社区",
+"评估卫生系统部署数字医疗的就绪度"
+],
+"section": "数字健康",
+"type": "论文",
+"tags": [
+"数字健康"
+],
+"evidence": "同行评审",
+"score": 1,
+"reason": "主要是社区数字基础设施与心脏科医生人力的数据关联分析，未涉及AI或算法，与医疗AI无关",
+"day": "2026-11-06",
+"rank": 10.81,
+"abstract": "Digital health may extend cardiovascular care in communities with limited specialist access, but its effectiveness depends on whether communities have the infrastructure, devices, affordability, and capacity needed to use digital services. We linked national data on cardiometabolic disease burden, cardiology workforce, and digital readiness across 82,999 US census tracts. Among high-burden tracts in counties with no cardiologist or declining per-capita cardiologist supply, 4,765 (18.0%) tracts representing 19.9 million residents had higher digital readiness and were thus classified as deployment-priority tracts, whereas 21,752 (82.0%) tracts representing 74.1 million residents had lower readiness and were investment-priority tracts. Investment-priority tracts were spread across the urban-rural continuum and faced different barriers (adoption versus infrastructure). Contrasting classifications frequently occurred among neighboring census tracts within the same metropolitan area, highlighting geographic variation not captured by county-level targeting. Findings were broadly consistent across nine additional analyses with varying measures of readiness, workforce access, and classification thresholds. These findings provide a national framework for distinguishing communities where digital cardiovascular care may be deployed from those where infrastructure and adoption support may first be needed to enable equitable implementation.",
+"zh_abstract": "数字健康或许可以在专科医疗资源有限的社区中扩展心血管疾病的诊疗服务，但其成效取决于这些社区是否具备使用数字服务所需的基础设施、设备、可负担性和能力。我们将美国82,999个人口普查区（census tract）的心血管代谢疾病负担、心脏病专科医师人力和数字化准备度的全国性数据进行了关联。在没有心脏病专科医师或人均心脏病专科医师供给下降的县中，高负担普查区里，4,765个（18.0%）普查区（代表1,990万居民）的数字化准备度较高，因此被归类为优先部署（deployment-priority）普查区；而21,752个（82.0%）普查区（代表7,410万居民）的准备度较低，为优先投入（investment-priority）普查区。优先投入普查区分布于城乡连续体的各个层级，所面临的障碍也不同（采用障碍与基础设施障碍）。在同一都市区内，相邻普查区之间经常出现截然相反的分类结果，凸显了县级层面的目标定位所无法反映的地理差异。在另外九项采用不同准备度指标、人力可及性指标和分类阈值的分析中，结果大体一致。这些发现提供了一个全国性框架，用以区分哪些社区可以直接部署数字心血管诊疗，哪些社区则可能需要首先提供基础设施和采用方面的支持，以实现公平的实施。"
 },
 {
 "title": "STAT+: As more doctors consult chatbots, health systems can block them — or buy in",

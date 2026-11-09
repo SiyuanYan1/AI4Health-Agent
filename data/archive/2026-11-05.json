@@ -104,9 +104,10 @@
 "2026-11-06",
 "2026-11-07",
 "2026-11-08",
-"2026-11-09"
+"2026-11-09",
+"2026-11-10"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
+"abstract_err": "springer: empty; page: no abstract in meta (248755 bytes; title: AI agents enter the ‘wet lab’ | Nature; text: AI agents enter the ‘wet lab’ | Nature Skip to main content Thank you for visiting nature.com. You a); europepmc: empty; openalex: empty"
 },
 {
 "title": "A multimodal tool-augmented agent for evidence-based clinical decision support in longitudinal AMD follow-up",
@@ -209,53 +210,6 @@
 "day": "2026-11-05",
 "rank": 10.99,
 "zh_abstract": "[JAMA network open] 生成式人工智能（AI）聊天机器人越来越多地用于支持孕产妇健康，但随机化证据有限。目的：评估使用生成式AI孕产妇健康聊天机器人是否能改善12个月时的孕产妇健康结局。这项两组随机临床试验于2023年10月至2024年12月纳入400名参与者，12个月随访于2025年12月完成。参与者通过在线方式从美国49个州和哥伦比亚特区招募。符合条件的参与者为说英语、年龄14岁及以上、怀孕或正在养育6个月以下婴儿、并自认为属于种族和/或族裔少数群体者。参与者按1:1随机分配，获得聊天机器人使用权限或作为积极对照的每月儿童图书。主要结局为12个月时的焦虑和抑郁症状，分别采用广泛性焦虑障碍量表-7（Generalized Anxiety Disorder-7）和患者健康问卷-9（Patient Health Questionnaire-9）测量。次要结局包括急诊就诊、妊娠相关并发症、产后保健检查、有效避孕使用和睡眠时长。在400名随机分组的参与者中，平均（标准差）年龄为32.6（5.1）岁；200人（50%）入组时正在养育婴儿；10人（2%）为美洲印第安人或阿拉斯加原住民，80人（20%）为亚裔，188人（47%）为黑人或非裔美国人，57人（14%）为多种族，65人（16%）为西班牙裔或拉丁裔。AI聊天机器人与焦虑评分（校正后平均差值0.10；95% CI，-0.77至0.96）或抑郁评分（校正后平均差值-0.23；95% CI，-1.05至0.59）的差异无关，也与急诊就诊、产后保健、避孕使用或睡眠时长无关。在入组时怀孕的参与者中，在12个月终点的次要分析中，聊天机器人与更多自我报告的妊娠相关并发症相关，但在纵向分析中并非如此。在探索性组内分析中，较高的聊天机器人使用参与度与较长的睡眠时长和较高的焦虑评分相关。在这项针对来自种族和族裔少数群体的孕妇及产后人群的随机临床试验中，与积极对照相比，使用生成式人工智能孕产妇健康聊天机器人并未改善12个月时的孕产妇焦虑或抑郁。次要和探索性结果应谨慎解读。ClinicalTrials.gov 标识符：NCT06053515。"
-},
-{
-"title": "Screening for Parkinson’s disease across questionnaires using language models",
-"link": "https://www.nature.com/articles/s43587-026-01271-3",
-"date": "2026-11-04T00:00:00+00:00",
-"source": "Nature Aging",
-"source_group": "Nature Aging",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s43587-026-01271-3",
-"pop": null,
-"id": "488726adb6cb",
-"also": [
-{
-"source": "Nature Aging",
-"link": "https://www.nature.com/articles/s43587-026-01260-6"
-}
-],
-"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
-"keep": true,
-"zh_title": "用语言模型跨问卷筛查帕金森病",
-"summary": "Quest2Dx编码问卷问题与回答的语义，使模型能在训练中未见过的问卷上筛查帕金森病，缓解问卷措辞和格式差异带来的泛化问题。",
-"key_points": [
-"编码问题-回答对的语义",
-"可迁移至未见过的问卷",
-"面向帕金森病早期筛查"
-],
-"section": "大模型与智能体",
-"type": "论文",
-"tags": [
-"医学大模型",
-"神经科学",
-"临床预测"
-],
-"evidence": "同行评审",
-"score": 6,
-"reason": "神经退行性疾病语言模型，跨问卷泛化有新意，但摘要缺少样本与指标",
-"day": "2026-11-05",
-"rank": 10.81,
-"abstract_days": [
-"2026-11-05",
-"2026-11-06",
-"2026-11-07",
-"2026-11-08",
-"2026-11-09"
-],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
 },
 {
 "title": "MedGenAgent: a closed-loop agent for oncology CT foundation model pretraining",
@@ -425,9 +379,50 @@
 "2026-11-06",
 "2026-11-07",
 "2026-11-08",
-"2026-11-09"
+"2026-11-09",
+"2026-11-10"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+},
+{
+"title": "Screening for Parkinson’s disease across questionnaires using language models",
+"link": "https://www.nature.com/articles/s43587-026-01271-3",
+"date": "2026-11-04T00:00:00+00:00",
+"source": "Nature Aging",
+"source_group": "Nature Aging",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s43587-026-01271-3",
+"pop": null,
+"id": "488726adb6cb",
+"also": [
+{
+"source": "Nature Aging",
+"link": "https://www.nature.com/articles/s43587-026-01260-6"
+}
+],
+"_abs_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com",
+"keep": true,
+"zh_title": "用语言模型跨问卷筛查帕金森病",
+"summary": "Quest2Dx用语言模型编码问答对语义，使帕金森病筛查模型可用于训练中未见过的问卷。",
+"key_points": [
+"针对不同问卷措辞与格式差异导致模型难以迁移的问题",
+"编码每个问题-回答对的语义",
+"可在未见过的问卷上筛查帕金森病"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"临床NLP",
+"神经科学",
+"临床预测"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "神经退行性疾病方向语言模型，跨问卷泛化有新意，但摘要未给出验证规模，属值得一看档",
+"day": "2026-11-05",
+"rank": 10.81,
+"abstract": "Health questionnaires have the potential to facilitate early disease detection. However, differences in question wording and formats often prevent artificial intelligence (AI) models trained on one questionnaire from performing well on another. Quest2Dx encodes the meaning of each question–response pair, which enables it to screen for Parkinson’s disease on questionnaires it never encountered during training."
 },
 {
 "title": "AI agents run this automated biology lab that sequences DNA and more",
@@ -465,9 +460,10 @@
 "2026-11-06",
 "2026-11-07",
 "2026-11-08",
-"2026-11-09"
+"2026-11-09",
+"2026-11-10"
 ],
-"abstract_err": "springer: Client Challenge (bot check) from citation-needed.springer.c; page: Client Challenge (bot check) from www.nature.com; europepmc: empty; openalex: empty"
+"abstract_err": "springer: empty; page: no abstract in meta (242760 bytes; title: AI agents run this automated biology lab that sequences DNA ; text: AI agents run this automated biology lab that sequences DNA and more | Nature Skip to main content T); europepmc: empty; openalex: empty"
 },
 {
 "title": "BEND 2.0: Benchmarking the Capabilities Needed to Design DNA",
@@ -839,7 +835,8 @@
 "2026-11-06",
 "2026-11-07",
 "2026-11-08",
-"2026-11-09"
+"2026-11-09",
+"2026-11-10"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -878,7 +875,8 @@
 "2026-11-06",
 "2026-11-07",
 "2026-11-08",
-"2026-11-09"
+"2026-11-09",
+"2026-11-10"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -948,7 +946,8 @@
 "2026-11-06",
 "2026-11-07",
 "2026-11-08",
-"2026-11-09"
+"2026-11-09",
+"2026-11-10"
 ],
 "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
 },
