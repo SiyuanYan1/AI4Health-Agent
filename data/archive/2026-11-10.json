@@ -2348,9 +2348,10 @@
 "day": "2026-11-10",
 "rank": 7.41,
 "abstract_days": [
-"2026-11-10"
+"2026-11-10",
+"2026-11-11"
 ],
-"abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
 },
 {
 "title": "Beyond executive robotics: harnessing artificial intelligence for data-driven governance in complex urological units.",
@@ -3994,6 +3995,12 @@
 "score": 2,
 "reason": "仅标题，合作宣传类信息",
 "day": "2026-11-10",
-"rank": 4.14
+"rank": 4.14,
+"also": [
+{
+"source": "科学网—新闻",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB0NmxyNENxbGNSWE5xSkRHb0FRanFBMkdISVg3WUhVRVJtRllOWm1wNDZDTTYyajltT01WY0dyRWF5X0hHdm9QQWxlM2VDT0NJYW1pNGloN1UzbEFVNHM5a1NkZ29KZw?oc=5"
+}
+]
 }
 ]

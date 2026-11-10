@@ -233,7 +233,13 @@
 "reason": "系统综述含荟萃分析，摘要未给出具体结论，中档",
 "abstract": "[British journal of neurosurgery] Artificial intelligence (AI) models for clinical prediction are proliferating across neurosurgery, but their aggregate discriminative performance, distribution along the care pathway and methodological quality are unclear. We systematically reviewed and meta-analysed these studies in neurosurgery and its subspecialities along with their risk of bias appraisal. We performed a PRISMA search on PubMed and Ovid for peer-reviewed original studies (2015-2026) using AI to predict a clinical outcome in neurosurgical populations. Metrics (primary- AUC; secondary- accuracy, sensitivity, specificity, c-index) were pooled using random effects modelling, overall, by subspeciality and care-pathway stage. Each study was classified as diagnostic, prognostic or forecasting and was assigned an evidence level. Clinical prediction task sub-stratification analysis was performed. Risk-of-bias was assessed using PROBAST. PROSPERO registered: CRD420261436614. 1063 studies were included. Across 451 (42.2%) studies reporting AUC, pooled discrimination was 0.86 (95% CI: 0.849-0.862), ranging from 0.84 (spine) to 0.87 (neuro-oncology), with extreme heterogeneity (I2 98.6%, τ2=0.27; 95% prediction interval: 0.68-0.94). Performance varied by clinical pathway stage, highest for diagnosis, grading and molecular tasks and lowest for post-operative tasks; pre-diagnosis, pre-operative and intra-operative applications were sparse, and treatment models were confined to neuro-oncology. Only 51 studies (4.8%) were using prospective data with external validation, whereas 619 (58%) rested on internal validation alone or no validation. 89% studies were at high risk-of-bias, driven by the analysis domain. Pooled discrimination was unchanged (AUC: 0.86%) when restricted to externally validated or non-high-risk studies. AI models report high performance across all the neurosurgical subspecialities, concordant across AUC, accuracy, sensitivity and specificity and robust to risk-of-bias stratification. Performance is highest for imaging-anchored diagnostic tasks and lowest at decision-facing post-operative stage. However, the literature is dominated by optimism-prone, internally-validated and poorly calibrated models with extreme heterogeneity. External validation, calibration analysis and reporting guidelines adherence remain prerequisites for clinical adoption.",
 "day": "2026-11-07",
-"rank": 9.31
+"rank": 9.31,
+"also": [
+{
+"source": "arXiv",
+"link": "https://arxiv.org/abs/2611.12385"
+}
+]
 },
 {
 "title": "kinGEMs: A robust and scalable framework for resource-constraint models through stochastic tuning of deep learning-predicted kinetic parameters.",
@@ -580,7 +586,8 @@
 "2026-11-07",
 "2026-11-08",
 "2026-11-09",
-"2026-11-10"
+"2026-11-10",
+"2026-11-11"
 ],
 "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
 },
@@ -2349,6 +2356,10 @@
 {
 "source": "新浪网",
 "link": "https://news.google.com/rss/articles/CBMihAVBVV95cUxNTHBsNlJVSVZMSklZWVJ1bzdxTUxrdm1ueHdkNGx3TTMxTFZXZFVFZlBmSUpOelZSVXN6RU4yejhKaGdwa1M4bV9IanpPV2F6MnUzdWNkQl9Vd2ZJYVJIN3lmOWdLNWxnNjMzWU1SZGxhT19DQXVjNTJGY2k0eVlnRmhZOVJzMnFGMDlBRHFURzd2d0dxU2gzREJCamtqX2pQVnFoZEs2VW1yMTB4ZGFndUxNcG9NT2ppYkRIemZJd2t2U3kxTm5QQ1lIYmNIWFJNbGFtbml6cjA1Nm9GRmNwRmM5aFg4cml0TDB4cGpmeS1VUURhMkdPMG96SU1SNzV2ZlFBTDJkN3lRWGtCRlJ2REF2bkw0cDdjWWU3VGJWRE1ZbWZjdTF3UW5GSG9VTm9uTGJXYUQ5TV92TjdlSnhfaTVVU09OZjBpR2F1dktoSkVaOFpnRnN2NlZWZWFhZHBGdmZhX21pcmZOcDI1UW1ERlczb2N2Ykc1ZHNsbjNPbjE3aktqZDdNNjZnUDN4UmhQc3BQWjFHdHh5endpTnc3M0Vfa3k4bkp4N2RfSl9rZXlUcFdFcDhTN1F0OXlJZEJJdDF3RWs3Wlgxd01LXzlIYkNYMzJwWlBpSjFRYXBoU0tyLTBLaENnUTRGdmZLb0haNTNNMHhRY3ZpV3p4S2VnV2RkQXhLTGhzRHdGWVhoWnNmWlVYTHZFbkZIczBuLWV1ZFo1WDhRZ1RDd0Q5N1ROaGFXV1M5eEdoR1ZYN3JPSTlvSU1xNlAzUDNZRG5ueFBVbXFrYjVpTDJjVmo3M2JjMU5EQkZwbHpkV3hqdFI2R014OWx3S2d5SElZNUtUMEhRenIzZw?oc=5"
+},
+{
+"source": "新浪网",
+"link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQbHdBdDd4WWUzNHNQTnFIUHZQNkxDVzdSRTE0VWxvVDhNNEhpdEtPSDV2M0ZKUEctS1JiS1Rib0lBTVFGZ0FfYkZ1bEJheC1WSk9sQnBjY0ViSU95WWpTMjBHYkpNS1FFWVRSZXBGNkFkZVpMVWV3ejVHLVozV1pPWkliWEdZRERfOENVUWtGVDBOS3A0UkVJbm9ydEJNa2xuRkxxaTNXTEpxZ0R4Z014WXVVXzVjT2lweWs3RmFwN3I3WFV4RVlkVTlveDdQUDJ0ZlhBV0dhelFTa0FMUWhtWVRfcm5kNVFRdktvR3dGRjZnOGZKdEktRm5nM1ZrY3FwVl9JQ2Y2UHhOWGZtVkZubGp4dElxcjJLeEpVcXpsWGFvWElKU2tHUnNaNjZvdjVWdm95ekN3NmYxcjlEenVKMTNib0xCZEZQd3NNYXkzTHdGRlhCYUE?oc=5"
 }
 ],
 "keep": true,
