@@ -1667,7 +1667,13 @@
 "abstract": "Scientific discovery requires ideas that are original, useful, and non-obvious. Yet AI scientists are typically given as much task information as possible during idea generation, which can anchor generation toward familiar approaches. Inspired by the cognitive framework of Blind Variation and Selective Retention (BVSR), we propose a discovery framework that separates these two roles of information: it generates proposals under deliberately limited task information to broaden exploration, then learns from proposals previously verified on the same task and their outcomes to retain promising candidates for costly empirical evaluation. We evaluate BVSR across five proposer models and 12 scientific tasks. Limiting task information substantially increases proposal originality and non-obviousness, and produces a larger share of highly creative and high-utility proposals than existing state-of-the-art prompting-based baselines. Learning from prior proposal outcomes on the task further improves candidate selection, discarding half of the candidates while retaining most top-performing proposals. When incorporated into existing AI-scientist workflows, BVSR achieves stronger discoveries across gene expression analysis, drug response prediction, anomaly detection, scaling law discovery, and brain activity prediction. These results suggest that effective AI scientists should use information differently across stages of discovery: constrain task-specific information during exploration while exploiting accumulated empirical experience on the task.",
 "day": "2026-11-11",
 "rank": 7.84,
-"zh_abstract": "科学发现需要新颖、有用且非显而易见的想法。然而，AI 科学家在生成想法时通常被给予尽可能多的任务信息，这可能使生成过程锚定于熟悉的方法。受“盲目变异与选择性保留”（Blind Variation and Selective Retention，BVSR）认知框架的启发，我们提出一种将信息的这两种作用分开的发现框架：它在刻意受限的任务信息下生成提案以拓宽探索，然后从同一任务上先前已验证的提案及其结果中学习，以保留有前景的候选项用于代价高昂的实证评估。我们在五种提案模型和 12 项科学任务上评估了 BVSR。限制任务信息显著提高了提案的原创性和非显而易见性，并且与现有最先进的基于提示的基线相比，产生了更大比例的高创造性、高效用提案。从该任务上先前提案的结果中学习，进一步改进了候选项的选择，在丢弃一半候选项的同时保留了大部分表现最佳的提案。当被纳入现有 AI 科学家工作流时，BVSR 在基因表达分析、药物反应预测、异常检测、缩放定律发现和脑活动预测方面取得了更强的发现。这些结果表明，有效的 AI 科学家应在发现的不同阶段以不同方式使用信息：在探索阶段限制任务特定信息，同时利用在该任务上积累的实证经验。"
+"zh_abstract": "科学发现需要新颖、有用且非显而易见的想法。然而，AI 科学家在生成想法时通常被给予尽可能多的任务信息，这可能使生成过程锚定于熟悉的方法。受“盲目变异与选择性保留”（Blind Variation and Selective Retention，BVSR）认知框架的启发，我们提出一种将信息的这两种作用分开的发现框架：它在刻意受限的任务信息下生成提案以拓宽探索，然后从同一任务上先前已验证的提案及其结果中学习，以保留有前景的候选项用于代价高昂的实证评估。我们在五种提案模型和 12 项科学任务上评估了 BVSR。限制任务信息显著提高了提案的原创性和非显而易见性，并且与现有最先进的基于提示的基线相比，产生了更大比例的高创造性、高效用提案。从该任务上先前提案的结果中学习，进一步改进了候选项的选择，在丢弃一半候选项的同时保留了大部分表现最佳的提案。当被纳入现有 AI 科学家工作流时，BVSR 在基因表达分析、药物反应预测、异常检测、缩放定律发现和脑活动预测方面取得了更强的发现。这些结果表明，有效的 AI 科学家应在发现的不同阶段以不同方式使用信息：在探索阶段限制任务特定信息，同时利用在该任务上积累的实证经验。",
+"also": [
+{
+"source": "Hugging Face Daily Papers",
+"link": "https://huggingface.co/papers/2611.12184"
+}
+]
 },
 {
 "title": "Dropping Tokens Without Dropping Them: Causal Attribution for Diabetic Retinopathy",
