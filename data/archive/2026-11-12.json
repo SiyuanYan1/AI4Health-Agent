@@ -31,9 +31,10 @@
 "day": "2026-11-12",
 "rank": 12.81,
 "abstract_days": [
-"2026-11-12"
+"2026-11-12",
+"2026-11-13"
 ],
-"abstract_err": "springer: empty; page: no abstract in meta (227241 bytes; title: DeepMind's ultra-powerful AI for genome mapping wows scienti; text: DeepMind's ultra-powerful AI for genome mapping wows scientists | Nature Skip to main content Thank ); europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: empty; page: no abstract in meta (229804 bytes; title: DeepMind’s ultra-powerful AI for genome mapping wows scienti; text: DeepMind’s ultra-powerful AI for genome mapping wows scientists | Nature Skip to main content Thank ); europepmc: empty; openalex: empty"
 },
 {
 "title": "Modernization of a Historical Prostate Cancer Registry using Artificial Intelligence: A Tale of Two Large Language Models.",
@@ -234,7 +235,8 @@
 "day": "2026-11-12",
 "rank": 10.0,
 "abstract_days": [
-"2026-11-12"
+"2026-11-12",
+"2026-11-13"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -737,9 +739,10 @@
 "day": "2026-11-12",
 "rank": 8.81,
 "abstract_days": [
-"2026-11-12"
+"2026-11-12",
+"2026-11-13"
 ],
-"abstract_err": "springer: empty; page: no abstract in meta (243573 bytes; title: Anthropic bought a one-person, AI-powered biotech: is this d; text: Anthropic bought a one-person, AI-powered biotech: is this drug discovery’s future? | Nature Skip to); europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: empty; page: no abstract in meta (243262 bytes; title: Anthropic bought a one-person, AI-powered biotech: is this d; text: Anthropic bought a one-person, AI-powered biotech: is this drug discovery’s future? | Nature Skip to); europepmc: empty; openalex: empty"
 },
 {
 "title": "Drug Design and Discovery: The Long Road From Hansch Analysis to Artificial Intelligence.",
@@ -2148,7 +2151,13 @@
 "score": 4,
 "reason": "仅标题，大厂智能体动态但无细节",
 "day": "2026-11-12",
-"rank": 6.31
+"rank": 6.31,
+"also": [
+{
+"source": "Sohu",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40cTdTbWdJRDQwd09aT3ZWb1psVWFoaXpXYlBqNmhCZHByVHc1aVQwRHZkVDdSUzdLWWlWUV9wSHlQakhmMU10cG4tVkJVelJ4ZGlTNGpxRzVQM1FYcUdjX2ZpTDl3UG8?oc=5"
+}
+]
 },
 {
 "title": "Artificial Intelligence in Cardiovascular Medicine: Advancing Diagnosis, Risk Stratification, and Therapeutic Decision-making.",
