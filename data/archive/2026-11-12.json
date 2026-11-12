@@ -136,6 +136,72 @@
 "rank": 10.31
 },
 {
+"title": "Evaluation of a Rapid and Practical Deep Learning Framework for T1-weighted MRI-based Brain Age Estimation.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43012635/",
+"date": "2026-11-11T00:00:00+00:00",
+"badge": "DOI 10.1148/ryai.260310",
+"source": "PubMed · Radiology. Artificial intelligence",
+"source_group": "PubMed · 重点期刊",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "070163b8e341",
+"keep": true,
+"zh_title": "基于T1加权MRI的快速实用深度学习脑龄估计框架",
+"summary": "回顾性研究用免费Python工具构建脑龄估计模型，在外部测试集验证，并评估脑龄差与痴呆诊断、淀粉样蛋白PET等的关联。",
+"key_points": [
+"训练队列为4346名认知正常成人",
+"两个外部测试集（n=315、209）",
+"临床队列954人，评估BAG与痴呆、WMH、卒中等关联"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"神经科学",
+"临床预测"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "回顾性、有外部验证、样本中等，方法增量，属值得一看档",
+"abstract": "[Radiology. Artificial intelligence] Purpose To develop and evaluate a rapid brain-age estimation framework using freely available Python tools and assess the clinical relevance of brain-age gap (BAG). Materials and Methods In this retrospective study conducted from March 2025 to August 2026, T1-weighted MR images from cohorts of cognitively normal adults (n = 4,346) were divided into training, validation, and internal test sets; two cohorts (n = 315 and 209) served as external test sets. Clinical evaluation used the BICWALZS cohort (n = 954; cognitively normal and various dementias). Preprocessing used freely available Python tools only. The model was trained to predict chronological age as the reference standard. Associations of the residualized BAG with diagnosis, amyloid PET positivity, white matter hyperintensity (WMH) severity, stroke history, and longitudinal clinical worsening were evaluated using ANCOVA, logistic regression, and Cox models. Results The development cohort included 4,346 cognitively normal adults (mean age, 47.0 ± 21.2 years; 2,414 women). Chronological age prediction yielded R2 = 0.95 and MAE, 3.76 years in the internal test set and R2 = 0.69-0.90 and MAE, 4.82-5.15 years in external test sets. The residualized BAG increased across diagnostic groups (P < .001) and was associated with WMH severity (odds ratio [OR], 1.64; P < .001) and stroke history (OR, 1.46; P < .001), but not with amyloid positivity after full adjustment (P = .17), and predicted longitudinal clinical worsening (HR, 1.92). Conclusion The framework accurately predicted age, while residualized BAG was associated with diagnosis, cerebrovascular burden, and longitudinal clinical worsening. © RSNA, 2026.",
+"day": "2026-11-12",
+"rank": 10.31
+},
+{
+"title": "Automated Deep Learning Pipeline for Characterizing Left Ventricular Diastolic Function.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43009241/",
+"date": "2026-11-10T00:00:00+00:00",
+"badge": "DOI 10.1016/j.cardfail.2026.08.031",
+"source": "PubMed · Journal of cardiac failure",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "22239f17139d",
+"keep": true,
+"zh_title": "自动化深度学习流程评估左室舒张功能",
+"summary": "8个深度学习模型基于逾15.5万例超声心动图研究构建，用于自动评估左室舒张功能，并在3家学术中心的留出测试集上评估。",
+"key_points": [
+"比较临床报告与2016/2025 ASE指南的差异",
+"8个DL模型工作流，训练超15.5万例研究",
+"CSMC 592例中与参考一致性为80.4%"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "多中心留出测试、训练规模大，但摘要信息有限，属值得一看档",
+"abstract": "[Journal of cardiac failure] Left ventricular diastolic dysfunction (LVDD) is most commonly evaluated by echocardiography. However, without a sole identifying metric, LVDD is assessed by a diagnostic algorithm relying on secondary characteristics that is laborious and has the potential for interobserver variability. To characterize concordance in clinical evaluations of LVDD, we evaluated historical echocardiogram studies at 2 academic medical centers for variability between clinical diastology reported by clinicians and the 2016 and 2025 American Society of Echocardiography (ASE) guidelines. We developed a workflow of 8 deep learning (DL) models trained on over 155,000 studies to automate LVDD assessment. Model performance was evaluated on held-out test sets from 3 academic centers. In 592 studies from Cedars-Sinai Medical Center (CSMC), DL demonstrated 80.4% agreement and a weighted Cohen kappa of 0.62 with the 2016 ASE guideline assessment. In contrast, the CSMC clinician evaluation had 52.2% agreement and a kappa of 0.46 with the 2016 guidelines. In the Stanford Healthcare (SHC) cohort of 1572 studies, DL had 66.7% agreement and a kappa of 0.33 with the 2016 guidelines vs clinical diastology, with 32.7% agreement and a kappa of 0.14. Our DL workflow showed strong concordance with the 2025 guidelines, with agreements of 81.8% in CSMC and 68.1% in SHC. In a third validation cohort of 204 studies from the University of Chicago, DL had 34.3% agreement with the 2025 guidelines. Evaluating LVDD has high heterogeneity. We developed DL measurement-driven diastolic dysfunction, a pipeline of models that automates the clinical workflow of grading LVDD and can contribute to improved diagnosis of heart failure.",
+"day": "2026-11-12",
+"rank": 10.14,
+"zh_abstract": "[心力衰竭杂志] 左心室舒张功能障碍（LVDD）最常通过超声心动图评估。然而，由于缺乏单一的识别指标，LVDD 需依靠基于次要特征的诊断流程来评估，该流程繁琐，且可能存在观察者间变异。为了描述 LVDD 临床评估的一致性，我们在 2 家学术医疗中心评估了历史超声心动图检查，比较临床医生报告的临床舒张功能评估与 2016 年和 2025 年美国超声心动图学会（ASE）指南之间的差异。我们构建了一个由 8 个深度学习（DL）模型组成的工作流程，该流程基于超过 155,000 项检查训练，用于自动化 LVDD 评估。模型性能在来自 3 家学术中心的留出测试集上进行评估。在来自 Cedars-Sinai Medical Center（CSMC）的 592 项检查中，DL 与 2016 年 ASE 指南评估的一致率为 80.4%，加权 Cohen kappa 为 0.62。相比之下，CSMC 临床医生评估与 2016 年指南的一致率为 52.2%，kappa 为 0.46。在 Stanford Healthcare（SHC）的 1572 项检查队列中，DL 与 2016 年指南的一致率为 66.7%，kappa 为 0.33；而临床舒张功能评估的一致率为 32.7%，kappa 为 0.14。我们的 DL 工作流程与 2025 年指南显示出较强的一致性，在 CSMC 的一致率为 81.8%，在 SHC 为 68.1%。在来自芝加哥大学的 204 项检查的第三个验证队列中，DL 与 2025 年指南的一致率为 34.3%。LVDD 的评估具有很高的异质性。我们开发了 DL 测量驱动的舒张功能障碍评估（DL measurement-driven diastolic dysfunction），这是一个模型流程，可自动化 LVDD 分级的临床工作流程，并有助于改善心力衰竭的诊断。"
+},
+{
 "title": "ContextMRI: Enhancing compressed sensing MRI through metadata conditioning",
 "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004226?dgcid=rss_sd_all",
 "date": "2026-11-11T22:35:03.129233+00:00",
@@ -333,6 +399,39 @@
 "abstract": "[Journal of cardiac failure] Artificial intelligence (AI) is increasingly positioned to improve heart failure (HF) care by predicting risk, enabling earlier disease identification, and supporting more reliable delivery of evidence-based management. Current applications span opportunistic detection for low ejection fraction, HF with preserved ejection fraction, and structural heart disease using tools such as AI-enabled electrocardiography, imaging- and electronic health record‒based risk stratification, clinician-facing decision support, remote medication titration, and wearable monitoring platforms. The strongest evidence suggests that AI is most effective when embedded into active clinical workflows that guide targeted testing, treatment optimization, and longitudinal follow-up, rather than functioning as passive alerts alone. This review examines the emerging landscape of AI-enabled HF care delivery from early detection through chronic management, with emphasis on implementation, workflow integration, and the capacity of these tools to improve diagnostic yield and ultimately scalability.",
 "day": "2026-11-12",
 "rank": 9.14
+},
+{
+"title": "Deep Learning Model for Image-Based Classification of Four Keratitis Categories.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43008396/",
+"date": "2026-11-10T00:00:00+00:00",
+"badge": "DOI 10.1097/ICO.0000000000004359",
+"source": "PubMed · Cornea",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "7d6262a9ca5c",
+"keep": true,
+"zh_title": "基于图像的四类角膜炎深度学习分类模型",
+"summary": "利用日本7家机构973张眼前节图像训练YOLOv5模型分类四类角膜炎，采用五折交叉验证，并探索性对比17名眼科医生。",
+"key_points": [
+"回顾性收集576例患者973张图像",
+"YOLOv5五折交叉验证，PPV 0.72–0.88",
+"17名眼科医生分类192张图像作探索对比"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"眼科",
+"医学影像"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "回顾性、仅交叉验证，有医生对照，属值得一看档",
+"abstract": "[Cornea] CorneAI was developed to classify anterior segment conditions into 9 categories. We aimed to develop a deep learning (DL) model for image-based classification among 4 selected keratitis categories: catarrhal ulcer, herpes stromal keratitis, peripheral ulcerative keratitis (PUK), and phlyctenular keratitis. We retrospectively collected 973 anterior segment images from 576 patients at 7 institutions in Japan and the Japan Ocular Imaging Registry. A YOLOv5 model was developed and evaluated using five-fold cross-validation. In an exploratory analysis, 17 ophthalmologists classified 192 images from 1 randomly selected validation fold. The positive predictive values (95% confidence interval) were 0.72 (0.59-0.83) for catarrhal ulcer, 0.84 (0.77-0.89) for herpes stromal keratitis, 0.88 (0.85-0.91) for PUK, and 0.72 (0.65-0.77) for phlyctenular keratitis. The areas under the receiver operating characteristic curves were 0.81 (0.74-0.87), 0.90 (0.87-0.93), 0.94 (0.93-0.96), and 0.91 (0.88-0.93), respectively. Sensitivity and specificity were 0.47 (0.37-0.58) and 0.98 (0.97-0.99) for catarrhal ulcer, 0.72 (0.65-0.79) and 0.97 (0.95-0.98) for herpes stromal keratitis, 0.93 (0.91-0.95) and 0.87 (0.84-0.90) for PUK, and 0.81 (0.75-0.86) and 0.91 (0.89-0.93) for phlyctenular keratitis. In an exploratory analysis, the diagnostic accuracies were 76.6% (95% CI, 70.1%-82.0%) for YOLOv5, 72.5 ± 9.3% (range, 53.6%-80.2%; n = 7) for corneal specialists, and 64.5 ± 10.2% (range, 45.3%-78.1%; n = 10) for ophthalmology residents. We developed a DL model for image-based classification among 4 selected keratitis categories. Further validation in broader clinical populations, including other corneal diseases and normal corneas, is required before clinical application.",
+"day": "2026-11-12",
+"rank": 9.14,
+"zh_abstract": "[Cornea] CorneAI 的研发目的是将眼前节疾病分为9类。我们旨在开发一种深度学习（DL）模型，用于对4种选定的角膜炎类别进行基于图像的分类：卡他性溃疡、疱疹性基质性角膜炎、周边溃疡性角膜炎（PUK）和泡性角膜炎。我们回顾性收集了来自日本7家机构及日本眼科影像注册库（Japan Ocular Imaging Registry）的576例患者的973幅眼前节图像。开发了YOLOv5模型，并采用五折交叉验证进行评估。在一项探索性分析中，17名眼科医生对随机选取的1个验证折中的192幅图像进行了分类。阳性预测值（95%置信区间）分别为：卡他性溃疡0.72（0.59-0.83），疱疹性基质性角膜炎0.84（0.77-0.89），PUK 0.88（0.85-0.91），泡性角膜炎0.72（0.65-0.77）。受试者工作特征曲线下面积分别为0.81（0.74-0.87）、0.90（0.87-0.93）、0.94（0.93-0.96）和0.91（0.88-0.93）。敏感度和特异度分别为：卡他性溃疡0.47（0.37-0.58）和0.98（0.97-0.99），疱疹性基质性角膜炎0.72（0.65-0.79）和0.97（0.95-0.98），PUK 0.93（0.91-0.95）和0.87（0.84-0.90），泡性角膜炎0.81（0.75-0.86）和0.91（0.89-0.93）。在探索性分析中，诊断准确率分别为：YOLOv5为76.6%（95% CI，70.1%-82.0%），角膜专科医生为72.5 ± 9.3%（范围53.6%-80.2%；n = 7），眼科住院医师为64.5 ± 10.2%（范围45.3%-78.1%；n = 10）。我们开发了一种用于4种选定角膜炎类别的基于图像分类的DL模型。在临床应用之前，尚需在更广泛的临床人群（包括其他角膜疾病和正常角膜）中进一步验证。"
 },
 {
 "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
@@ -1310,6 +1409,72 @@
 "zh_abstract": "大型、多样且无偏的蛋白质-配体结合数据集的匮乏限制了机器学习方法在药物发现中的性能，尤其是对于研究不足的蛋白质。Target 2035 计划旨在填补这一空白，为2,000多种人类蛋白质生成开放获取的结合数据，其价值取决于所选靶点多样性的最大化。由于具有不同折叠的蛋白质可能共享化学上相似的结合位点，我们认为，用于选择能够最大化覆盖人类口袋组（pocketome）的代表性靶点的合适标准是口袋相似性，而非序列或折叠相似性。在此，我们使用 PocketVec（一种免比对的结合位点描述符）绘制人类球状蛋白口袋组图谱，在15,559个蛋白质中识别出51,535个预测的可成药口袋。通过两级层次聚类（先在蛋白质家族内，再在整个蛋白质组范围内），这些口袋被分为1,865个化学相似结合位点的簇。在剔除533个含有已知配体口袋的簇后，我们从其余1,332个无配体簇中选取了口袋数最多的100个，并为每个簇选出两个高质量的代表性口袋，按其与已知配体结合位点的相似程度排序。最后，我们实施了两种互补的优先排序策略，一种偏向结构上未被探索的蛋白质，另一种偏向适于后续实验的蛋白质，每种策略均从100个不同的簇中选出200个口袋，两者有89个簇相同。两种选择均覆盖约5,600个蛋白质中的10,000多个口袋，约占具有已注释可成药口袋的人类蛋白质的36%，与随机选择基线相比，所覆盖的口袋、结构域和蛋白质数量增加了2.8至4.4倍。这一基于口袋的框架为 Target 2035 及其他化学生物学领域的大规模蛋白质-配体数据生成工作提供了选择多样化靶点的原则性策略。"
 },
 {
+"title": "DE-Rigor-Agent: An Agentic Workflow for Assumption-Aware Differential Expression Analysis of Bulk RNA-seq Data",
+"link": "https://www.biorxiv.org/content/10.64898/2026.11.09.765522v1?rss=1",
+"date": "2026-11-11T00:00:00+00:00",
+"source": "bioRxiv",
+"source_group": "bioRxiv",
+"home": "",
+"thin": false,
+"badge": "DOI 10.64898/2026.11.09.765522",
+"pop": null,
+"id": "881c22edfeaa",
+"keep": true,
+"zh_title": "DE-Rigor-Agent：考虑假设的RNA-seq差异表达分析智能体",
+"summary": "提出分三阶段、先检验统计假设再筛选方法的LLM智能体，用于bulk RNA-seq差异表达分析，并在140个模拟数据集上评估。",
+"key_points": [
+"三阶段：输入标准化、方法过滤、方法执行",
+"基于专家标准与数据诊断评估六种方法",
+"在14种困难场景的140个模拟数据集上评估"
+],
+"section": "生命科学与药物",
+"type": "论文",
+"tags": [
+"智能体",
+"基因组学"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "新颖智能体方法，有模拟评估但属预印本，证据有限",
+"abstract": "Differential expression (DE) methods for bulk RNA-seq differ in their statistical assumptions, input data requirements, and supported study designs. Large language model (LLM) agents can automate DE analysis, but they may default to popular methods without checking whether these methods are appropriate for the data. We introduce DE-Rigor-Agent, an assumption-aware agent that organizes DE analysis into three stages: input standardization, method filtering, and method execution. Before executing any DE method, the agent uses expert-curated criteria and dataset-specific diagnostics to evaluate six commonly used methods, documents the reasons for retaining or excluding each method, and executes all retained methods. We evaluated DE-Rigor-Agent on 140 simulated datasets spanning 14 challenging scenarios involving small sample sizes, zero inflation, expression outliers, pre-normalized inputs, and confounded batch effects. Benchmarks showed that method-dataset incompatibilities could lead to inflated false discovery rates (FDRs) or reduced statistical power. Two general-purpose LLM agent baselines, including one explicitly prompted to consider statistical assumptions, selected DESeq2 or edgeR for nearly all datasets. In contrast, DE-Rigor-Agent's filtering decisions closely matched the incompatibilities introduced in the simulations and remained consistent across random seeds, with little additional computational cost. These results demonstrate that DE-Rigor-Agent provides an automated approach to assessing method suitability, making DE analysis more rigorous and transparent.",
+"day": "2026-11-12",
+"rank": 7.81,
+"zh_abstract": "用于批量 RNA-seq 的差异表达（DE）方法在统计假设、输入数据要求和所支持的研究设计方面各不相同。大语言模型（LLM）智能体可以自动化 DE 分析，但它们可能默认选用常用方法，而不检查这些方法是否适合数据。我们提出了 DE-Rigor-Agent，这是一种具有假设意识的智能体，将 DE 分析组织为三个阶段：输入标准化、方法筛选和方法执行。在执行任何 DE 方法之前，该智能体利用专家整理的标准和针对数据集的诊断来评估六种常用方法，记录保留或排除每种方法的理由，并执行所有保留的方法。我们在 140 个模拟数据集上评估了 DE-Rigor-Agent，这些数据集涵盖 14 种具有挑战性的情景，涉及小样本量、零膨胀、表达异常值、预先归一化的输入以及混杂的批次效应。基准测试表明，方法与数据集不兼容可能导致错误发现率（FDR）升高或统计效能降低。两个通用 LLM 智能体基线（其中一个被明确提示考虑统计假设）对几乎所有数据集都选择了 DESeq2 或 edgeR。相比之下，DE-Rigor-Agent 的筛选决策与模拟中引入的不兼容情况高度吻合，并在不同随机种子下保持一致，且额外计算成本很小。这些结果表明，DE-Rigor-Agent 提供了一种评估方法适用性的自动化途径，使 DE 分析更加严谨和透明。"
+},
+{
+"title": "The Confessions of a Protein Language Model: Steering, Activations, and What Predicted Confidence Cannot Certify",
+"link": "https://www.biorxiv.org/content/10.64898/2026.11.10.765136v1?rss=1",
+"date": "2026-11-11T00:00:00+00:00",
+"source": "bioRxiv",
+"source_group": "bioRxiv",
+"home": "",
+"thin": false,
+"badge": "DOI 10.64898/2026.11.10.765136",
+"pop": null,
+"id": "21e95ac570b9",
+"keep": true,
+"zh_title": "蛋白语言模型的“自白”：调控、激活与预测置信度的局限",
+"summary": "审计已发表的蛋白生成筛选流程中的重复调控、ESMFold置信度和激活读出，指出预测置信度不能证明可折叠性。",
+"key_points": [
+"调控在α50=1.240x处出现置信度断崖",
+"未调控激活预测置信度门控，ROC-AUC 0.786",
+"长度和组成匹配对照中稳定性预测不优于随机"
+],
+"section": "生命科学与药物",
+"type": "论文",
+"tags": [
+"蛋白质",
+"可解释性"
+],
+"evidence": "预印本",
+"score": 5,
+"reason": "有新意的审计型预印本，证据有限",
+"abstract": "Protein generate-and-screen pipelines use interventions and readouts to select candidates, but rarely test whether these track their intended targets. We audit published repetition steering, ESMFold confidence, and an activation readout. Steering preserves confidence at its operating point, but a fitted cliff follows at alpha_50 = 1.240x (sweep's own control: 64.0%). Direction matters at moderate matched-norm push, but not at saturation. Unsteered generator activations predict the confidence gate (ROC-AUC 0.786 +/- 0.004), supporting cost-aware, model-specific triage. We also replicate established length sensitivity, through which shortening can manufacture false nulls. Yet on composition- and length-matched design--scramble pairs, no balanced-accuracy interval excludes chance for experimental stability. Predicting the gate does not establish foldability. We should test what a readout measures before using it to select. Code and data: https://github.com/paninishah/plm-steering-audit",
+"day": "2026-11-12",
+"rank": 7.81,
+"zh_abstract": "蛋白质“生成—筛选”流程使用干预和读出来选择候选物，但很少检验这些干预和读出是否追踪其预期目标。我们审计了已发表的重复序列引导（repetition steering）、ESMFold 置信度和一种激活读出。引导在其工作点处保持了置信度，但随后出现拟合的断崖，alpha_50 = 1.240x（该扫描自身的对照：64.0%）。在中等的范数匹配推动下，方向很重要，但在饱和时则不然。未经引导的生成器激活可预测置信度门控（ROC-AUC 0.786 +/- 0.004），支持具有成本意识的、针对特定模型的分诊。我们还复现了已知的长度敏感性，缩短序列可由此造成假阴性结果。然而，在组成和长度匹配的设计—打乱（design–scramble）序列对上，对于实验稳定性，没有任何平衡准确率区间排除随机水平。预测门控并不能证明可折叠性。在使用某一读出进行选择之前，我们应检验它测量的究竟是什么。代码和数据：https://github.com/paninishah/plm-steering-audit"
+},
+{
 "title": "From Tool State to Scientific Action: Auditing Decision Provenance in Biomedical Research Agents",
 "link": "https://huggingface.co/papers/2611.01527",
 "date": "2026-11-01T03:58:26.000Z",
@@ -1341,6 +1506,38 @@
 "abstract": "A scientific agent can give the same verdict while reading and citing different evidence. BioAgent-DF tests this separation using paired reference and candidate values saved at the same scientific computation site. It restores or transplants those values at their original coordinates, then runs the agent on healthy hardware. Across eight SciFact batches, Qwen3.5-4B shows repeatable citation changes in three capture-claim combinations, and Gemma 3 4B IT shows repeatable read and citation changes in four. These seven combinations cover two claims. Full restoration recovers the reference evidence sets while verdicts remain unchanged. Verdict changes observed under the baseline prompt did not recur under the explicit-example prompt. Complementary tool and optimizer experiments distinguish recovery of numerical state, recovery of ranked lists, and restoration of an agent's visible history. These results show that an audit should track both the evidence an agent uses and its final answer. In hERG cardiac-safety assay allocation, silent numerical faults changed testing decisions while the fixed-budget shortlist kept the same number of compounds labeled as blockers. After the agent had used faulty values, restoring its earlier execution state and supplying certified scores recovered all 39 changed decisions, whereas replacing the prediction file recovered none; no incorrect action was committed. A streaming implementation of the arithmetic checks reduced the total time for forward execution and verification by 42.4% relative to the original FP64 implementation, with identical flags and recovery outputs.",
 "day": "2026-11-12",
 "rank": 7.75
+},
+{
+"title": "Structural-preserving diffusion generation for zero-shot CECT-to-NCCT synthesis.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43008471/",
+"date": "2026-11-07T00:00:00+00:00",
+"badge": "DOI 10.1016/j.artmed.2026.103562",
+"source": "PubMed · Artificial intelligence in medicine",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "9fee0f2faec9",
+"keep": true,
+"zh_title": "结构保持扩散生成实现零样本CECT到NCCT合成",
+"summary": "提出无需配对数据、基于预训练扩散模型推理的SPDG方法，将增强CT合成为平扫CT。",
+"key_points": [
+"无需配对数据，零样本设置",
+"基于预训练扩散模型仅推理生成",
+"目标是简化流程并减少辐射和配准误差"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"生成模型",
+"医学影像"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "方法有新意，但摘要未见外部验证或临床结局",
+"abstract": "[Artificial intelligence in medicine] Contrast-enhanced and non-contrast computed tomography (CECT/NCCT) are widely used in various clinical scenarios. CECT-to-NCCT synthesis enables NCCT images to be directly generated from CECT images. This streamlines clinical workflows, reduces radiation exposure risk, and prevents co-registration errors. However, to learn the mapping relationship between CECT and NCCT images, existing CECT-to-NCCT synthesis methods typically require supervised settings, which are reliant on substantial paired data. In this paper, we propose a structural preservation diffusion generation (SPDG) method for zero-shot CECT-to-NCCT synthesis. SPDG does not rely on paired data and can be implemented on a pretrained vanilla diffusion model, utilizing an inference-only process to generate NCCT images. Specifically, our SPDG is a guided diffusion generation method that uses the generative prior of the diffusion model and exploits structure-dependent guidance functions to achieve CECT-to-NCCT synthesis. Using guide images from CECT, we design consistency guidance and smoothness constraints as guidance functions for NCCT image generation. Based on the distribution characteristics of the enhanced regions in CECT images, we split the image into a potential enhancement region and an intensity stable region, and designed specific consistency guiding functions for each. The SPDG method is evaluated on abdomen and head and neck datasets, and the results demonstrate that state-of-the-art performance is achieved in unsupervised CECT-to-NCCT synthesis.",
+"day": "2026-11-12",
+"rank": 7.72
 },
 {
 "title": "Machine Learning Applications in Prostate Cancer Genomics: From Mutation Signatures to Clinical Prediction Models.",
@@ -1838,6 +2035,37 @@
 "zh_abstract": "RNA 正在成为有前景的治疗靶点，小分子结合可以调节其结构和功能，为治疗开发创造了机会。因此，准确识别 RNA–小分子结合位点对于理解 RNA–配体相互作用和促进 RNA 靶向药物发现具有重要意义。然而，RNA 结构的复杂性以及经实验表征的 RNA–配体复合物数量有限，给结合位点的计算预测带来了挑战。在本研究中，我们提出了 RSMBind，一种基于图注意力的深度学习框架，用于核苷酸水平的 RNA–小分子结合位点预测。该模型将局部三维环境的几何描述符与预训练 RNA 语言模型的嵌入相结合，以捕捉互补的结构和序列信息。我们研究了三种预训练 RNA 语言模型 RNA-BERT、ERNIE-RNA 和 RNA-FM，并通过特征层面的消融实验评估序列表征和几何特征的贡献。该模型使用 TR60 和 HARIBOSS 数据集开发，并在四个独立基准数据集 RB9、TE18、TL12 和 JL10 上进行评估。RSMBind 在四个基准中的三个上取得了对比方法中最高的 MCC，相比此前报道的最佳结果，在 RB9、TL12 和 JL10 上分别相对提高了 17.1%、7.2% 和 16.0%，同时在 TE18 上取得了具有竞争力的性能。此外，当仅使用预训练 RNA 语言模型嵌入时，RSMBind 仍保持预测能力，凸显了其在缺乏明确三级结构特征时的潜在用途。结构分析表明，不同 RNA 结构区域的预测性能存在差异，与环相关的结合位点通常比位于茎区的结合位点更容易被有效捕获。此外，对选定 RNA–配体复合物进行的 100 ns 分子动力学模拟，为预测的结合概率与配体动态接近程度之间的关系提供了见解，进一步凸显了构象动力学在评估基于结构的预测中的作用。源代码可在 [https://github.com/sharma-nandita/RSMBind] 获取。"
 },
 {
+"title": "RawMod: Modification-Agnostic Detection of DNA Base Modifications from Nanopore Signal Pileups",
+"link": "https://www.biorxiv.org/content/10.64898/2026.11.10.765445v1?rss=1",
+"date": "2026-11-11T00:00:00+00:00",
+"source": "bioRxiv",
+"source_group": "bioRxiv",
+"home": "",
+"thin": false,
+"badge": "DOI 10.64898/2026.11.10.765445",
+"pop": null,
+"id": "cc999446047a",
+"keep": true,
+"zh_title": "RawMod：基于纳米孔信号堆叠的不依赖修饰类型的DNA碱基修饰检测",
+"summary": "该预印本提出与修饰类型无关的方法，从纳米孔测序信号中识别被修饰位点，无需未修饰对照，以检测罕见修饰类型。",
+"key_points": [
+"现有模型只能检测其训练过的修饰类型",
+"目标是无需未修饰对照即可识别修饰位点",
+"基于纳米孔电信号堆叠（pileup）进行检测"
+],
+"section": "生命科学与药物",
+"type": "论文",
+"tags": [
+"基因组学"
+],
+"evidence": "预印本",
+"score": 4,
+"reason": "新方法预印本，摘要中无评测细节，属增量档",
+"abstract": "Summary: Identifying epigenetically modified bases (e.g., methylation) is crucial for many important applications such as discovering mechanisms of cancer development, cell differentiation, and bacterial defense. Nanopore sequencing generates electrical signals that can differentiate canonical bases from modified ones. To detect base modifications from signals, machine learning (ML) methods and statistical approaches are commonly used. These methods can either detect a specific modification type or require an additional unmodified copy of the same DNA as a control group. However, no released model detects modification types beyond those it was trained for, which makes it difficult to detect rare modification types without an unmodified control. Our goal is to accurately identify the presence of modified sites regardless of their modification type, which we define as modification-agnostic detection. To this end, we propose RawMod, a transformer-based modification-agnostic and control-free method for detecting epigenetically modified genomic positions. The key idea of RawMod is to compare the raw signals of many reads at each site with the unmodified reference sequence, using a small model that learns many modification types as a single modified class. Based on our extensive evaluations on the detection of various modification types (5mC, 5hmC, 4mC, 6mA, and 5hmU) using various genomes, RawMod achieves the highest mean AUROC across modifications compared to control-based methods and control-free modification models. A single RawMod model with 0.23M parameters detects five modification types with a mean AUROC of 0.964, against 0.799 for the best released model. When a modification type is withheld from training, RawMod still detects it (AUROC 0.91--0.98), provided another modification of the same base was seen in training. We use RawMod to map 5hmU without a control across a 7.7 Mb contig of the Amphidinium carterae genome, consistent with two published trends. Further, we show that the modification-aware embeddings from RawMod can be used to differentiate read origin (e.g., cell types, tumor/normal origin, and native/PCR-amplified DNA). We discuss how RawMod can enable further work on label-free classification of cell types using these modification-aware embeddings. Availability and Implementation: RawMod is available at https://github.com/STORMgroup/RawMod and at https://huggingface.co/STORMResearch/RawMod. We also provide the scripts to fully reproduce our",
+"day": "2026-11-12",
+"rank": 6.81
+},
+{
 "title": "Deep Learning Reconstruction for Accelerated Radial CEST MR Fingerprinting.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/43010929/",
 "date": "2026-10-16T00:00:00+00:00",
@@ -2120,6 +2348,67 @@
 "zh_abstract": "[心理学前沿] 本文为心理健康专业人员提出了一个六步伦理决策模型，用于应对来访者使用大语言模型（LLM）获取心理健康支持时产生的伦理问题。LLM 可能带来现有决策模型并非为之设计的伦理问题。为提供指导，我们综合了两方面的研究：一是关于使用 LLM 所带来伦理风险的研究，二是关于现有决策模型的研究，从而创建了一个专门针对 LLM 及 AI 相关伦理问题的新模型。我们的模型涉及 AI 特有的现象，如欺骗性共情、算法偏倚、数字依恋和责任分散的结构。我们将该模型作为概念性基础提出，并鼓励随着 AI 的不断发展对其持续完善。"
 },
 {
+"title": "中美顶尖专家集体点赞，直面最难病例，AI 88比12战胜医生",
+"link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBXbFd6a1hHeUJNN0ZGb09TaDVGeTlRZkJGSmZBSUdRMEdhcTRaQTBReWxEeXhXSUlRTk9HeFI3Y2owX3p5UTIw?oc=5",
+"date": "2026-11-12T00:00:00+00:00",
+"source": "动脉网",
+"source_group": "Google News · 中文医疗AI",
+"home": "https://www.vbdata.cn",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "7618e9137968",
+"keep": true,
+"zh_title": "中美专家点赞，AI在最难病例上以88比12胜过医生",
+"summary": "仅有标题：报道称AI在疑难病例上以88比12战胜医生，并获中美专家点赞。",
+"key_points": [],
+"section": "大模型与智能体",
+"type": "观点",
+"tags": [
+"医学大模型"
+],
+"evidence": "新闻",
+"score": 3,
+"reason": "仅标题，无方法与验证信息，媒体报道",
+"day": "2026-11-12",
+"rank": 5.5
+},
+{
+"title": "MuhammadAnasAkhtar/Medical_Assistant",
+"link": "https://github.com/MuhammadAnasAkhtar/Medical_Assistant",
+"date": "2026-11-12T03:43:47Z",
+"pop": "★ 4",
+"image": "https://avatars.githubusercontent.com/u/178977980?v=4",
+"shot": "https://opengraph.githubassets.com/1/MuhammadAnasAkhtar/Medical_Assistant",
+"source": "GitHub",
+"source_group": "GitHub",
+"home": "",
+"thin": false,
+"badge": "",
+"id": "901d55042054",
+"keep": true,
+"zh_title": "基于RAG的医疗问答助手开源项目",
+"summary": "一个GitHub开源项目，用RAG、LangChain、Flask、Llama、Pinecone和Hugging Face嵌入构建医疗聊天机器人，从医学文档检索信息并回答健康相关问题。",
+"key_points": [
+"技术栈含LangChain、Llama、Pinecone",
+"通过检索医学文档生成上下文相关回答",
+"来源未提供评测、验证或临床使用信息"
+],
+"section": "大模型与智能体",
+"type": "模型",
+"tags": [
+"医学大模型",
+"智能体"
+],
+"evidence": "新闻",
+"score": 2,
+"reason": "边缘档：通用RAG演示项目，无评测验证，信息有限",
+"abstract": "An AI-powered medical chatbot built using Retrieval-Augmented Generation (RAG), LangChain, Flask, Llama, Pinecone, and Hugging Face embeddings. It retrieves relevant information from medical documents to provide context-aware answers to healthcare-related questions. (language: Jupyter Notebook, homepage: , topics: )",
+"day": "2026-11-12",
+"rank": 5.42,
+"zh_abstract": "一个基于检索增强生成（Retrieval-Augmented Generation，RAG）、LangChain、Flask、Llama、Pinecone 和 Hugging Face 嵌入（embeddings）构建的人工智能医疗聊天机器人。它从医学文档中检索相关信息，为与医疗保健相关的问题提供具有上下文感知的回答。（语言：Jupyter Notebook，主页：，主题：）"
+},
+{
 "title": "国家人工智能应用中试基地（医疗）探营：在这里，医疗AI从实验室走向千家万户",
 "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53Q19PMjc2NURjTDRzSnhXSVNseDhYYkt0S2owYWJQVnU2al95M2FvVFBNYjROUnJ2Yy1uRjZUMGM0NmM3NXNsRTU4WE5SWXBlLWVsbHhB?oc=5",
 "date": "2026-11-10T23:01:51+00:00",
@@ -2176,6 +2465,39 @@
 "day": "2026-11-12",
 "rank": 4.91,
 "zh_abstract": "[医学前沿] 迅速发展的人工智能生态系统已改变了医学研究格局的方方面面，包括通过撰写和发表研究论文来传播研究结果。参考文献列表中出现幻觉性（捏造的、不准确的或不完整的）参考文献，会使人们对您工作的依据和有效性产生质疑。在这篇观点文章中，我们重申了妥善整理参考文献列表以支撑研究论文各标准部分的必要性。"
+},
+{
+"title": "Username1008/Reasoning-Medical-27B",
+"link": "https://huggingface.co/Username1008/Reasoning-Medical-27B",
+"date": "2026-10-20T00:02:17.000Z",
+"pop": "♥ 3",
+"source": "Hugging Face",
+"source_group": "Hugging Face",
+"home": "",
+"thin": false,
+"badge": "",
+"id": "8354d31f8c69",
+"keep": true,
+"zh_title": "Reasoning-Medical-27B：医学推理模型（Hugging Face）",
+"summary": "Hugging Face上的27B参数图文生成模型，基于Qwen3.6-27B微调，Apache-2.0许可，标签含医学推理。",
+"key_points": [
+"基础模型为unsloth/Qwen3.6-27B微调",
+"标签为image-text-to-text",
+"许可证为Apache-2.0"
+],
+"section": "大模型与智能体",
+"type": "模型",
+"tags": [
+"医学大模型",
+"多模态"
+],
+"evidence": "预印本",
+"score": 3,
+"reason": "社区微调模型，无评测信息，属增量档",
+"abstract": "Hugging Face model; tags: transformers, safetensors, qwen3_5, image-text-to-text, text-generation-inference, unsloth, conversational, en, arxiv:2404.18416, arxiv:2305.09617, arxiv:2212.13138, base_model:unsloth/Qwen3.6-27B, base_model:finetune:unsloth/Qwen3.6-27B, license:apache-2.0, endpoints_compatible",
+"day": "2026-11-12",
+"rank": 4.57,
+"zh_abstract": "Hugging Face 模型；标签：transformers、safetensors、qwen3_5、image-text-to-text、text-generation-inference、unsloth、conversational、en、arxiv:2404.18416、arxiv:2305.09617、arxiv:2212.13138、base_model:unsloth/Qwen3.6-27B、base_model:finetune:unsloth/Qwen3.6-27B、license:apache-2.0、endpoints_compatible"
 },
 {
 "title": "COMMENTARY: How clinical integration is impacting deal terms for AI-enabled medical devices",

@@ -100,7 +100,13 @@
 "abstract": "Wong et al. review how in-context learning enables large language models to adapt to medical tasks using examples rather than model parameter updates. They map its applications and limitations and propose a risk-proportionate framework for evaluation, governance, and monitoring to guide responsible clinical translation.",
 "day": "2026-11-11",
 "rank": 9.81,
-"zh_abstract": "Wong等综述了情境学习（in-context learning）如何使大语言模型通过示例而非模型参数更新来适应医学任务。他们梳理了其应用与局限，并提出了一个与风险相称的评估、治理和监测框架，以指导其负责任的临床转化。"
+"zh_abstract": "Wong等综述了情境学习（in-context learning）如何使大语言模型通过示例而非模型参数更新来适应医学任务。他们梳理了其应用与局限，并提出了一个与风险相称的评估、治理和监测框架，以指导其负责任的临床转化。",
+"also": [
+{
+"source": "PubMed · Cell reports. Medicine",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43008739/"
+}
+]
 },
 {
 "title": "Blood-based RNA biomarker for the early detection of ovarian cancer",
