@@ -268,7 +268,13 @@
 "abstract": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although artificial intelligence has advanced image interpretation, existing medical models often address restricted tasks, while general-purpose proprietary models lack access to private clinical imaging required to achieve medical expertise. Developing models that can interpret complex examinations and communicate their findings in the context of clinical decisions remains a major challenge. Here, we show that Neuro-VL, a vision-language model trained on nearly one million neuroimaging studies from routine clinical care, can interpret complete imaging examinations and engage in natural language conversations about their findings. Across internal and international datasets, Neuro-VL outperformed frontier general-purpose and specialized medical models in diagnosing, localizing, and describing abnormalities, as well as generating comprehensive radiology reports. The model also compared serial examinations to assess disease progression and more reliably resisted misleading clinical assumptions than leading frontier models from OpenAI and Google. These results extend health system learning beyond individual predictions to interactive image interpretation and longitudinal disease monitoring. They demonstrate how the collective clinical experience of health systems can be used to develop medical AI with specialized expertise and broad clinical capabilities.",
 "day": "2026-11-13",
 "rank": 9.84,
-"zh_abstract": "医学影像对于疾病诊断、指导治疗以及长期监测患者至关重要。尽管人工智能已推进了影像判读，但现有医学模型往往只处理有限的任务，而通用的专有模型则无法获取实现医学专业水平所需的私有临床影像。开发能够解读复杂检查并在临床决策背景下传达其发现的模型，仍然是一项重大挑战。在此，我们展示了Neuro-VL——一种基于常规临床诊疗中近一百万例神经影像检查训练的视觉-语言模型，能够解读完整的影像检查并就其发现进行自然语言对话。在内部和国际数据集中，Neuro-VL在诊断、定位和描述异常以及生成完整的放射学报告方面，均优于前沿通用模型和专门的医学模型。该模型还能比较系列检查以评估疾病进展，并且相比OpenAI和Google的领先前沿模型，能更可靠地抵御误导性的临床假设。这些结果将卫生系统学习从个体预测扩展到交互式影像判读和疾病的纵向监测。它们展示了如何利用卫生系统的集体临床经验来开发具有专业水平和广泛临床能力的医学AI。"
+"zh_abstract": "医学影像对于疾病诊断、指导治疗以及长期监测患者至关重要。尽管人工智能已推进了影像判读，但现有医学模型往往只处理有限的任务，而通用的专有模型则无法获取实现医学专业水平所需的私有临床影像。开发能够解读复杂检查并在临床决策背景下传达其发现的模型，仍然是一项重大挑战。在此，我们展示了Neuro-VL——一种基于常规临床诊疗中近一百万例神经影像检查训练的视觉-语言模型，能够解读完整的影像检查并就其发现进行自然语言对话。在内部和国际数据集中，Neuro-VL在诊断、定位和描述异常以及生成完整的放射学报告方面，均优于前沿通用模型和专门的医学模型。该模型还能比较系列检查以评估疾病进展，并且相比OpenAI和Google的领先前沿模型，能更可靠地抵御误导性的临床假设。这些结果将卫生系统学习从个体预测扩展到交互式影像判读和疾病的纵向监测。它们展示了如何利用卫生系统的集体临床经验来开发具有专业水平和广泛临床能力的医学AI。",
+"also": [
+{
+"source": "Hugging Face Daily Papers",
+"link": "https://huggingface.co/papers/2611.15094"
+}
+]
 },
 {
 "title": "[Articles] Detecting low left ventricular ejection fraction from ECG using an interpretable and scalable predictor-driven framework: a model development and validation study",
@@ -895,9 +901,10 @@
 "day": "2026-11-13",
 "rank": 8.31,
 "abstract_days": [
-"2026-11-13"
+"2026-11-13",
+"2026-11-14"
 ],
-"abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
 },
 {
 "title": "Rediscovering neuroblastoma pathology from the perspective of digital pathology and AI: Current challenges and future implications.",
