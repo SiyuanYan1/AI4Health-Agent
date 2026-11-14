@@ -725,9 +725,10 @@
 "day": "2026-11-14",
 "rank": 8.14,
 "abstract_days": [
-"2026-11-14"
+"2026-11-14",
+"2026-11-15"
 ],
-"abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
+"abstract_err": "page: skipped; pubmed: empty; europepmc: The read operation timed out; openalex: empty"
 },
 {
 "title": "TuMAP: A Dual-View, Morphotype-Aware Pathomics Pipeline for Quantifying Renal Tubular Remodeling",
@@ -1977,6 +1978,12 @@
 "score": 2,
 "reason": "仅标题，疑似标题党，无细节",
 "day": "2026-11-14",
-"rank": 4.31
+"rank": 4.31,
+"also": [
+{
+"source": "智源社区",
+"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAxNndQZ0U4MEd2a2xQc2hPTk9iYzZSTzBhTmhhNWxmU1J5Qi1FUWRBTHYtVnRTTGNLMlhOa25zNGR4MnppRGFOSw?oc=5"
+}
+]
 }
 ]
