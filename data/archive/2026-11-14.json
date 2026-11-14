@@ -168,6 +168,40 @@
 "zh_abstract": "客观量化表皮黑色素含量和真皮血容量，对于皮肤病学领域的公平应用，以及对脉搏血氧仪等光学设备的评估与工程设计至关重要，因为黑色素含量的差异可能导致这类设备出现不准确。在此，我们展示了一种方法：利用漫反射光谱和采用全连接神经网络（FCNN）的机器学习框架，通过光谱升尺度（spectral upscaling），基于稀疏数据无创估计黑色素和血液指数。我们在定制体模、猪皮肤和在体人类受试者中验证了该算法。在血液和黑色素含量可变（0–20%）的体模中，模型对绝对浓度的估计达到较高准确度（R2 > 0.90）。在猪皮肤中，估计的黑色素与组织学得出的密度评分高度相关（Pearson r = 0.95）。在人手的六个区域中，即使在会引起混杂性血容量变化的抬手激发试验期间，FCNN 仍能依据稀疏波长准确估计色素沉着。升尺度之后，稀疏波长的估计结果与使用 450 个以上波长的模型高度相关（Pearson r = 0.96），在不影响准确度的情况下将数据需求降低了约 150 倍。这些发现凸显了高光谱信息对于在反射光谱中区分黑色素与血液贡献的重要性，以及机器学习从稀疏输入中恢复预测性能的能力。这些发现表明，人工智能驱动的光谱升尺度可增强可穿戴光学设备中对肤色的客观量化。"
 },
 {
+"title": "Deploying liquid intelligence in cancer: Finding answers in our blood.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43020014/",
+"date": "2026-11-12T00:00:00+00:00",
+"badge": "DOI 10.1016/j.cell.2026.10.024",
+"source": "PubMed · Cell",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "c2b05155cfb2",
+"keep": true,
+"zh_title": "癌症液体活检中的“液态智能”：AI 与血液检测融合综述",
+"summary": "综述液体活检技术与人工智能（尤其多模态基础模型）的结合，讨论其在癌症检测与监测中的潜力及临床和基础设施障碍。",
+"key_points": [
+"液体活检信号稀疏、异质，受遗传与合并症影响",
+"多模态基础模型与大队列预训练或提升肿瘤信号敏感性",
+"临床与基础设施障碍仍然显著"
+],
+"section": "生命科学与药物",
+"type": "论文",
+"tags": [
+"医学大模型",
+"肿瘤",
+"多模态"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "综述上限6档；主题命中基础模型与肿瘤",
+"abstract": "[Cell] Liquid biopsies are one of the few noninvasive procedures for probing disease at the molecular level. They represent a scalable solution to cancer detection and monitoring by capturing tumor-derived signals from circulating biomolecules such as proteins, DNA, RNA, and metabolites. However, these signals are often sparse, heterogeneous, and shaped by genetics, demographics, and comorbidities. Recent advances in artificial intelligence, especially with multimodal foundation models, have proven capable of extracting signals from noisy, high-dimensional data. Pretraining on large cohorts and integrating complementary modalities may improve sensitivity for tumor signals in blood, though significant clinical and infrastructural barriers remain. This review synthesizes advances in liquid biopsy technologies and artificial intelligence and examines how their convergence can enable enhanced cancer monitoring.",
+"day": "2026-11-14",
+"rank": 10.14,
+"zh_abstract": "[Cell] 液体活检是少数能在分子水平探测疾病的无创手段之一。它通过捕获来自蛋白质、DNA、RNA和代谢物等循环生物分子的肿瘤来源信号，为癌症检测和监测提供了可扩展的解决方案。然而，这些信号往往稀疏、异质，并受遗传、人口学特征和合并症影响。人工智能的最新进展，尤其是多模态基础模型，已被证明能够从嘈杂的高维数据中提取信号。在大型队列上预训练并整合互补模态，可能提高对血液中肿瘤信号的敏感性，但临床和基础设施方面仍存在重大障碍。本综述总结了液体活检技术与人工智能的进展，并探讨二者融合如何实现更好的癌症监测。"
+},
+{
 "title": "Deep learning detection and biological interpretation of arterial stiffness from retinal fundus images in diabetes.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/43022745/",
 "date": "2026-11-02T00:00:00+00:00",
@@ -456,7 +490,13 @@
 "score": 5,
 "reason": "仅标题，FDA许可属常规器械审批，非首个",
 "day": "2026-11-14",
-"rank": 8.81
+"rank": 8.81,
+"also": [
+{
+"source": "Yahoo Finance",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWRRb3Fmajk0bzUxbG1rWUtnN3piRVVSbmctNG5QSXMwSEd0a0Q3OTVLU29SeGtHSl9pSWFHckd6ZHp0N2NxNkU0QmRGdHRzWmZKZ1hudWdZbWR6allKX251UHpJVzJmTlpyS1dKWGl5Nk5yXzlCcmFmbmx5ZmpfS3NCYkJ0UE1oSnM5SV8tTFFTRXhRTW9j?oc=5"
+}
+]
 },
 {
 "title": "ModBERT: a DNA modification and genetic variant-aware DNA large language model",
@@ -557,6 +597,73 @@
 "abstract": "[Journal of computational biology : a journal of computational molecular cell biology] Multispecific antibodies (msAbs) offer transformative therapeutic potential by engaging multiple epitopes simultaneously, yet their efficacy is an emergent property governed by complex molecular architectures. Rational design is often bottlenecked by the inability to predict how subtle changes in domain topology influence functional outcomes, a challenge exacerbated by the scarcity of comprehensive experimental data. Here, we introduce Synapse, a biologically inspired synthetic benchmark for topology-aware modeling of msAbs. First, we present a generative method that combines nonlinear per-domain sequence-to-score landscapes with connectivity-dependent synthetic readouts. Second, we propose a graph neural network architecture that explicitly encodes these topological constraints, distinguishing between format configurations that appear identical to the evaluated connectivity-agnostic multilayer perceptron. We demonstrate that this model learns topology-dependent structure-function relationships on synthetic landscapes and evaluate a transfer learning workflow as infrastructure for adaptation to biological datasets. We showcase our framework with a trispecific T cell engager-inspired synthetic topology-dependent optimization task and a constrained ranking of common light chain candidates against a composite objective. This work provides a controlled benchmarking environment for developing and evaluating topology-aware computational tools for msAb modeling. All experiments use synthetic data; no biological validation is performed.",
 "day": "2026-11-14",
 "rank": 8.31
+},
+{
+"title": "Large Language Model-Assisted Discharge Instructions for Diabetic Kidney Disease: Comparative Evaluation Study.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43024853/",
+"date": "2026-11-13T00:00:00+00:00",
+"badge": "DOI 10.2196/100792",
+"source": "PubMed · JMIR medical informatics",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "e9f59fa6b887",
+"keep": true,
+"zh_title": "大模型辅助糖尿病肾病出院指导的对比评估",
+"summary": "针对101例糖尿病肾病住院患者，比较住院医师独立撰写与借助DeepSeek-V3.2辅助撰写的出院指导质量，并考察不同CKD分期下的差异。",
+"key_points": [
+"纳入101例糖尿病肾病住院患者",
+"对比住院医师组与LLM辅助组",
+"关注获益是否随CKD分期而异"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"医学大模型",
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "单中心小样本，人机对照，属增量档，结果信息有限",
+"abstract": "[JMIR medical informatics] Discharge instructions are an important component of the transition from hospital to home for patients with diabetic kidney disease (DKD), whose care often involves multiple comorbidities, medications, and stage-specific management needs. However, producing complete, accurate, clear, and personalized instructions can be challenging for junior physicians. This study aimed to evaluate whether large language model (LLM) assistance improves the quality of DKD discharge instructions produced by junior physicians and whether its benefits vary according to chronic kidney disease (CKD) stage. The study included 101 hospitalized patients with DKD. Discharge instructions for each patient were initially drafted by a group of junior residents (resident group); subsequently, another group of residents at the same level, with the assistance of DeepSeek-V3.2 (AI-assisted group), generated a separate set of discharge instructions for the same 101 patients, resulting in a total of 202 documents. Four clinical experts, including 2 nephrologists and 2 endocrinologists, independently scored both versions of the discharge instructions using a 5-point Likert scale across 5 dimensions: completeness, accuracy, safety, clarity, and personalization. Interrater reliability was assessed using the intraclass correlation coefficient (ICC). Interrater reliability was excellent in both the resident group (ICC=0.817, 95% CI 0.763-0.864; P .05). The proportion of cases achieving a ≥1-point improvement in overall quality was 99% (100/101; 95% CI 94.6%-100.0%). LLM assistance improved the completeness, clarity, and personalization of DKD discharge instructions generated by junior physicians, with advantages greatest in complex cases. A human-AI collaborative model is a promising approach to reduce documentation burden.",
+"day": "2026-11-14",
+"rank": 8.31,
+"zh_abstract": "[JMIR medical informatics] 出院指导是糖尿病肾病（DKD）患者从医院过渡到家庭的重要组成部分，这类患者的诊治常涉及多种合并症、多种药物以及分期特异的管理需求。然而，对低年资医师而言，撰写完整、准确、清晰且个体化的出院指导具有挑战性。本研究旨在评估大语言模型（LLM）辅助是否能提高低年资医师所撰写DKD出院指导的质量，以及其获益是否因慢性肾脏病（CKD）分期而异。研究纳入101例住院DKD患者。每位患者的出院指导先由一组低年资住院医师起草（住院医师组）；随后，另一组同等水平的住院医师在DeepSeek-V3.2辅助下（AI辅助组）为同样的101例患者另行生成一套出院指导，共计202份文档。4名临床专家（包括2名肾内科医师和2名内分泌科医师）使用5分Likert量表，从完整性、准确性、安全性、清晰度和个体化5个维度对两个版本的出院指导独立评分。采用组内相关系数（ICC）评估评分者间信度。住院医师组的评分者间信度极佳（ICC=0.817，95% CI 0.763-0.864；P .05）。总体质量提高≥1分的病例比例为99%（100/101；95% CI 94.6%-100.0%）。LLM辅助改善了低年资医师所撰写DKD出院指导的完整性、清晰度和个体化，在复杂病例中优势最大。人机协作模式是减轻文书负担的一种有前景的方法。"
+},
+{
+"title": "Prototype-Guided Multi-Task Learning for HCC Postoperative Complications Prediction.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43024544/",
+"date": "2026-11-13T00:00:00+00:00",
+"badge": "DOI 10.1109/JBHI.2026.3753718",
+"source": "PubMed · IEEE journal of biomedical and health informatics",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "8893de24e464",
+"keep": true,
+"zh_title": "原型引导多任务学习预测肝癌术后并发症",
+"summary": "提出 PMCP 框架，用大语言模型提炼临床文本并与纵向结构化电子病历融合，联合预测综合并发症指数及四类严重并发症。",
+"key_points": [
+"术后24小时内联合预测 CCI 与四类并发症",
+"LLM 提炼非结构化病历并与结构化 EHR 自适应融合",
+"针对极端类别不平衡设计原型引导方法"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"临床预测",
+"电子病历",
+"肿瘤"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "摘要未见外部验证，方法有新意但证据有限",
+"abstract": "[IEEE journal of biomedical and health informatics] Postoperative complications following hepatectomy for hepatocellular carcinoma (HCC) remain frequent and are associated with increased mortality and healthcare costs. Existing predictive models often struggle with extreme class imbalance and fail to capture the holistic complication burden by treating risks as disjointed tasks. To overcome these limitations, we propose PMCP, a novel Prototype-Guided Multi-task Complication Prediction framework designed to jointly predict the holistic Comprehensive Complication Index (CCI) alongside four specific severe complications within 24 hours postoperatively. PMCP leverages a large language model to distill unstructured clinical narratives, orchestrating an adaptive fusion with longitudinal structured electronic health records to circumvent modality laziness. To counteract majority class suppression, we introduce a dual-prototype mechanism that selectively amplifies rare, high-risk clinical signals and maintains distinct feature space separation. Evaluated on the real-world clinical cohort, our framework significantly outperformed state-of-the-art baselines. PMCP achieved an AUC of 0.800 for CCI, and AUCs of 0.935, 0.798, 0.798, and 0.887 for the four specific complications, respectively. Furthermore, the model exhibited a strong capacity to maintain predictive performance even with 40% missing structured data. In summary, PMCP provides a promising framework for early postoperative complication risk assessment and may support individualized monitoring and intervention planning after hepatectomy.",
+"day": "2026-11-14",
+"rank": 8.31,
+"zh_abstract": "[IEEE journal of biomedical and health informatics] 肝细胞癌（HCC）肝切除术后并发症仍然常见，并与死亡率和医疗费用增加相关。现有预测模型往往难以应对极端的类别不平衡，且将各风险视为互不相关的任务，无法反映整体并发症负担。为克服这些局限，我们提出PMCP，一种新颖的原型引导多任务并发症预测框架，用于在术后24小时内联合预测整体的综合并发症指数（CCI）以及四种具体的严重并发症。PMCP利用大语言模型提炼非结构化临床叙述，并与纵向结构化电子健康记录进行自适应融合，以避免模态惰性。为抵消多数类抑制，我们引入双原型机制，选择性放大罕见的高风险临床信号，并保持特征空间的清晰分离。在真实世界临床队列上评估，我们的框架显著优于最先进的基线。PMCP预测CCI的AUC为0.800，四种具体并发症的AUC分别为0.935、0.798、0.798和0.887。此外，即使结构化数据缺失40%，该模型仍表现出较强的保持预测性能的能力。总之，PMCP为术后早期并发症风险评估提供了一个有前景的框架，并可能支持肝切除术后的个体化监测和干预规划。"
 },
 {
 "title": "Artificial Intelligence in Inpatient Medicine: Skills for the Hospital Physician.",
@@ -1447,6 +1554,39 @@
 "zh_abstract": "多细胞生物通过细胞自主和非自主调控机制的结合来发育并维持分化的细胞状态，这些机制包括由配体、受体和激酶介导的信号转导通路。通过CRISPR混合筛选进行的遗传扰动被广泛用于研究细胞自主调控机制，但在细胞分辨率下进行原位测量的挑战限制了对非自主调控机制的研究。我们开发了Perturb-Tags，这是一种用于CRISPR混合筛选的空间多组学技术，它用空间条形码标记细胞核，从而能够在完整组织内联合测量单核基因表达、CRISPR向导RNA、染色质可及性和空间位置。Perturb-Tags实现了细胞分辨率、无偏倚的基因表达和多组学分析，且灵敏度高于以往的空间扰动方法。我们利用Perturb-Tags对人类拟胚体中的配体、受体和所有表达的激酶进行了系统性扰动。这些实验揭示了扰动后广泛的非自主基因表达变化，包括配体敲低后信号通路活性随距离而丧失、替代信号通路的代偿性上调，以及对受体和激酶敲低的反应随细胞微环境而异。我们还发现了配体和激酶敲低后细胞空间组织的变化。最后，我们训练了一个图神经网络，用于模拟遗传扰动对整个组织中基因表达和染色质可及性的综合影响。我们的工作为在健康和患病组织中研究非自主调控机制提供了一个强大的实验与计算平台。"
 },
 {
+"title": "Do Rule-Derived Labels Improve Prediction When Reported Labels Are Limited? A Two-Site Machine Learning Study",
+"link": "https://www.medrxiv.org/content/10.64898/2026.11.12.26367890v1?rss=1",
+"date": "2026-11-13T00:00:00+00:00",
+"source": "medRxiv",
+"source_group": "medRxiv",
+"home": "",
+"thin": false,
+"badge": "DOI 10.64898/2026.11.12.26367890",
+"pop": null,
+"id": "266bccc10e42",
+"keep": true,
+"zh_title": "标签有限时规则衍生标签能否提升预测：双中心研究",
+"summary": "在斯坦福与UT西南两个电子病历数据集上，探索规则衍生弱标签在已报告标签稀缺时对大肠杆菌尿培养耐药预测的作用。",
+"key_points": [
+"预测头孢吡肟等药物的非敏感性",
+"设置10%至100%的标签预算比较",
+"使用逻辑回归与梯度提升模型"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"临床预测",
+"电子病历"
+],
+"evidence": "预印本",
+"score": 4,
+"reason": "双中心探索性预印本，结果未知，属增量档",
+"abstract": "**Background.** Rule derived (weak) labels can enlarge a training set when reported labels are scarce. Their value depends on label quality, on how the extra records shift the training distribution, and on whether the comparison accounts for reported labels set aside for tuning or calibration. **Methods.** We ran an exploratory label-budget experiment on *Escherichia coli* urine cultures from two de-identified electronic health record datasets: Stanford ARMD and UT Southwestern ARMD-UTSW. The task was to predict reported non-susceptibility to cefepime, cefoxitin and ceftazidime (Stanford) and to cefepime and ceftazidime (UT Southwestern). Reported-label budgets of 10%, 25%, 50% and 100% of development patients were drawn over five patient-disjoint outer splits. Logistic regression and histogram gradient boosting were trained with reported labels only, or with added rule-derived labels using equal weights, a tuning-selected weight, class-proportion adjustment or prior-probability correction. These were compared with an all-budget reported-only baseline that used every budgeted reported label for training. Stanford used the inferred labels released with the dataset and a feature set including resistance history. UT Southwestern used researcher-derived labels from Stanford rule text, which were not validated for that site, and an age-only primary model. Brier-score differences were assessed with paired patient-cluster bootstrap intervals. **Results.** All rule-derived labels were susceptible. Equal-weight augmentation lowered mean predicted risk well below observed prevalence (for example, Stanford cefepime at the 10% budget: 0.35% versus 4.85%) and had a higher Brier score than the all-budget baseline in every drug, model and budget summary. The tuning-selected weight did not consistently improve on the all-budget baseline. Its median Brier difference was positive in 38 of 40 drug, model and budget summaries. Its paired intervals lay above zero in 100 of 296 Stanford analyses and 31 of 198 UT Southwestern analyses, and below zero in 3 and 5. The tuning set often selected a weight of zero (146 of 296 and 153 of 198 analyses). At UT Southwestern, the age-only models showed little discrimination (median AUROC 0.49 to 0.54), so those comparisons mainly reflect calibration. **Conclusions.** Under these designs, rule-derived labels did not consistently improve probability prediction over a reported-only model that used the whole reported-label budget for training.",
+"day": "2026-11-14",
+"rank": 6.81,
+"zh_abstract": "【背景】当已报告的标签稀缺时，规则衍生（弱）标签可扩充训练集。其价值取决于标签质量、额外记录如何改变训练分布，以及比较时是否考虑了为调参或校准而留出的已报告标签。【方法】我们基于两个去标识化电子健康记录数据集——Stanford ARMD和UT Southwestern ARMD-UTSW——中的大肠埃希菌（*Escherichia coli*）尿培养，开展了一项探索性标签预算实验。任务是预测对头孢吡肟、头孢西丁和头孢他啶（Stanford）以及对头孢吡肟和头孢他啶（UT Southwestern）的已报告不敏感。在5个患者互不重叠的外部划分上，分别抽取开发集患者10%、25%、50%和100%的已报告标签预算。逻辑回归和直方图梯度提升仅用已报告标签训练，或加入规则衍生标签训练，加入时采用等权重、调参选定权重、类别比例调整或先验概率校正。这些方法与“全预算仅已报告标签”基线（将预算内所有已报告标签均用于训练）进行比较。Stanford使用随数据集发布的推断标签，以及包含耐药史的特征集。UT Southwestern使用研究者根据Stanford规则文本衍生的标签（这些标签未在该机构验证）和仅含年龄的主模型。Brier评分差异采用配对的患者聚类自助法区间评估。【结果】所有规则衍生标签均为敏感。等权重扩充使平均预测风险远低于观测患病率（例如Stanford头孢吡肟在10%预算下：0.35%对4.85%），并且在每个药物、模型和预算的汇总中，其Brier评分均高于全预算基线。调参选定权重并未持续优于全预算基线：在40个药物、模型和预算汇总中，有38个的Brier差异中位数为正。其配对区间在Stanford的296项分析中有100项、在UT Southwestern的198项分析中有31项位于零以上，位于零以下的分别为3项和5项。调参集常选定权重为零（分别为296项中的146项和198项中的153项）。在UT Southwestern，仅含年龄的模型几乎没有区分能力（AUROC中位数0.49至0.54），因此这些比较主要反映校准情况。【结论】在这些设计下，与将全部已报告标签预算用于训练的仅已报告标签模型相比，规则衍生标签并未持续改善概率预测。"
+},
+{
 "title": "Sepsis in 2026: from bundles to biology. A critical review.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/43021618/",
 "date": "2026-11-09T00:00:00+00:00",
@@ -1786,5 +1926,57 @@
 "reason": "仅标题，企业业绩类产业动态，下调",
 "day": "2026-11-14",
 "rank": 5.31
+},
+{
+"title": "Women Aren’t Waiting: What’s Really Behind the Adoption Gap in AI for Women’s Health",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaUJMNkZrNVFGbTJsZ1pKMDdTYm1Zdkkzaml3V1FBTm9ZOVRsNzg3OTFtTUwxcU1ENGczYW10Nk5YeGVGdE5YOTktOUFKTzI1ZDBoMWpHTXpzRXJ4R1RTQnNyUnBfSHdaY21TNlF4cUhCdUNacVBKVlVOdWRNbGowZnJJTHA2MEtEcnZNN0dzel9UMzEzT0o2SWhWOTNvSDNFZ1l5cXlZYjQ?oc=5",
+"date": "2026-11-13T18:20:27+00:00",
+"source": "BioBuzz",
+"source_group": "Google News · FDA AI",
+"home": "https://biobuzz.io",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "2ed07923134f",
+"keep": true,
+"zh_title": "女性健康领域AI采用差距背后的原因",
+"summary": "文章标题指向女性健康领域AI采用存在差距，并探讨其背后原因；仅有标题，无更多信息。",
+"key_points": [],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"数字健康"
+],
+"evidence": "新闻",
+"score": 2,
+"reason": "仅标题，观点类，信息几乎为零",
+"day": "2026-11-14",
+"rank": 4.5
+},
+{
+"title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS1dJRGxYNmNrb3JKM3A1WUliMlNITlBxbERFXzRPY2dEZE8yaGJfZnIySTRmRVdmd2NNZy10VUxBdWRDb0JqNTd1dE1ZNF9BSHR1dU5GQTdRMUFZa3JNSGVyblZTb0JzbVFobDVfR0R2eHpRa2pLWE4zc1lNLTBWMXI3NWx6NThlcDB4Nw?oc=5",
+"date": "2026-11-13T07:33:00+00:00",
+"source": "手机搜狐网",
+"source_group": "Google News · 中文医疗AI",
+"home": "https://m.sohu.com",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "d6e8eb12b64a",
+"keep": true,
+"zh_title": "中国AI用于复杂肺癌诊疗引关注",
+"summary": "标题称中国AI在复杂肺癌诊疗方面取得突破并引发中美医疗界关注；仅有标题，无具体信息。",
+"key_points": [],
+"section": "影像与病理",
+"type": "观点",
+"tags": [
+"肿瘤"
+],
+"evidence": "新闻",
+"score": 2,
+"reason": "仅标题，疑似标题党，无细节",
+"day": "2026-11-14",
+"rank": 4.31
 }
 ]
