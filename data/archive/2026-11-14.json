@@ -132,7 +132,13 @@
 "abstract": "Precision oncology based on the identification of actionable genomic alterations (AGAs) has been transformative in the care of solid tumors, yet optimal treatment selection is often hindered by tissue exhaustion and slow turnaround times. Artificial intelligence (AI) addresses these barriers by predicting AGAs directly from routine hematoxylin and eosin (H&E)-stained slides. Recent landmark studies, including the prospective EAGLE and ANNAR trials, have demonstrated that deep learning models can identify alterations such as EGFR in non-small cell lung cancer and FGFR in urothelial cancer across diverse global cohorts. By providing near-instant, non-destructive results, AI-based prediction can triage patients for molecular testing or clinical trials at the time of initial diagnosis. This perspective evaluates the maturing evidence base and outlines a pragmatic pathway for integrating these tools into clinical practice. Ultimately, these models offer the opportunity to extract critical molecular information from slides generated in every laboratory worldwide and to significantly improve timely access to the rapidly evolving therapeutic landscape of solid tumors.",
 "day": "2026-11-14",
 "rank": 10.81,
-"zh_abstract": "基于可干预基因组改变（AGA）识别的精准肿瘤学已经改变了实体瘤的诊疗，但最佳治疗选择常受限于组织耗尽和周转时间缓慢。人工智能（AI）可通过直接从常规苏木精-伊红（H&E）染色切片预测 AGA 来解决这些障碍。包括前瞻性 EAGLE 和 ANNAR 试验在内的近期里程碑式研究表明，深度学习模型能够在不同的全球队列中识别诸如非小细胞肺癌中的 EGFR 和尿路上皮癌中的 FGFR 等改变。通过提供近乎即时、无损的结果，基于 AI 的预测可在初次诊断时对患者进行分流，以便进行分子检测或参加临床试验。本文观点评估了日趋成熟的证据基础，并概述了将这些工具整合进临床实践的务实路径。最终，这些模型有望从全球每个实验室产生的切片中提取关键分子信息，并显著改善患者及时获得快速发展的实体瘤治疗手段的机会。"
+"zh_abstract": "基于可干预基因组改变（AGA）识别的精准肿瘤学已经改变了实体瘤的诊疗，但最佳治疗选择常受限于组织耗尽和周转时间缓慢。人工智能（AI）可通过直接从常规苏木精-伊红（H&E）染色切片预测 AGA 来解决这些障碍。包括前瞻性 EAGLE 和 ANNAR 试验在内的近期里程碑式研究表明，深度学习模型能够在不同的全球队列中识别诸如非小细胞肺癌中的 EGFR 和尿路上皮癌中的 FGFR 等改变。通过提供近乎即时、无损的结果，基于 AI 的预测可在初次诊断时对患者进行分流，以便进行分子检测或参加临床试验。本文观点评估了日趋成熟的证据基础，并概述了将这些工具整合进临床实践的务实路径。最终，这些模型有望从全球每个实验室产生的切片中提取关键分子信息，并显著改善患者及时获得快速发展的实体瘤治疗手段的机会。",
+"also": [
+{
+"source": "PubMed · NPJ precision oncology",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43026205/"
+}
+]
 },
 {
 "title": "Enhanced skin tone and blood estimation through AI-enabled upscaling of discrete reflectance spectra",
@@ -495,6 +501,10 @@
 {
 "source": "Yahoo Finance",
 "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWRRb3Fmajk0bzUxbG1rWUtnN3piRVVSbmctNG5QSXMwSEd0a0Q3OTVLU29SeGtHSl9pSWFHckd6ZHp0N2NxNkU0QmRGdHRzWmZKZ1hudWdZbWR6allKX251UHpJVzJmTlpyS1dKWGl5Nk5yXzlCcmFmbmx5ZmpfS3NCYkJ0UE1oSnM5SV8tTFFTRXhRTW9j?oc=5"
+},
+{
+"source": "AuntMinnie",
+"link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQX1JDakQ5Vld6eldCTjY5RXc1S1prUW13N3BXR1pCYnF0Tmo5REhveDZfdzBzTHNNSjhBcDM0RmY4WEhxZTJsWUNSdENDSEQ2bm5oQzBZWHhEdHVzM0tmXy1CZUhwUXlWOGdBQ0YwOTk4S2lKLXZoTEZPMkZkNHRCZ0g1bU5jZC0zVTBRUEQ1cWdwTWY0UDdBLTFBZFA1alpOVG5OakQxRElHWVR5QmsxZlJud2s5VHFwRzY0MWpWT1lhQnJBZEd2OElSLWxZeHYxSkZyM2swS3VzRkhkamdFTEkweVJIaGptNW5IbFJ3SExkUndfYnhWYms0bHlsY1pIRVNpXw?oc=5"
 }
 ]
 },
@@ -726,9 +736,10 @@
 "rank": 8.14,
 "abstract_days": [
 "2026-11-14",
-"2026-11-15"
+"2026-11-15",
+"2026-11-16"
 ],
-"abstract_err": "page: skipped; pubmed: empty; europepmc: The read operation timed out; openalex: empty"
+"abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
 },
 {
 "title": "TuMAP: A Dual-View, Morphotype-Aware Pathomics Pipeline for Quantifying Renal Tubular Remodeling",
