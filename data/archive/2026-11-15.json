@@ -1,5 +1,70 @@
 [
 {
+"title": "Learning uncertainty fields for joint brain stroke diagnosis and intrinsic lesion localization in CT and MRI",
+"link": "https://www.nature.com/articles/s41746-026-03458-9",
+"date": "2026-11-14T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03458-9",
+"pop": null,
+"id": "9d5ba9450007",
+"keep": true,
+"zh_title": "不确定性场用于CT/MRI脑卒中诊断与病灶定位",
+"summary": "提出DFE-Net，利用可学习模糊隶属场表达空间不确定性，联合进行卒中分类与病灶定位，在多中心CT与小规模MRI队列上评估。",
+"key_points": [
+"CT队列6650例患者，AUC 0.974，F1 0.897",
+"MRI队列67例，AUC 0.978，F1 0.879",
+"CT病灶定位对专家标注Dice为0.70"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"可解释性"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "多中心CT较大样本但摘要未见外部验证，MRI样本小，属值得一看档",
+"abstract": "Early stroke changes can be difficult to detect and localize on neuroimaging, particularly when lesion boundaries are indistinct. We developed the Dynamic Fuzzy Encoder Network (DFE-Net), which uses learnable fuzzy membership fields to represent spatial uncertainty and jointly classify stroke and localize lesions. We evaluated the model on a multicentre computed tomography (CT) cohort comprising 6650 patients and 8873 images and a separate magnetic resonance imaging (MRI) cohort comprising 67 patients and 615 images. Training and testing were performed separately within each modality. DFE-Net achieved an area under the receiver operating characteristic curve of 0.974 and an F1 score of 0.897 on CT, and corresponding values of 0.978 and 0.879 on MRI. In the CT cohort, lesion localization against expert annotations yielded a Dice score of 0.70. MRI localization was assessed using gradient-derived pseudo-targets because expert lesion masks were unavailable. Expected calibration error was ~0.022 in both cohorts, and the model contained 0.20 million parameters. These results support joint diagnosis and spatial localization with a compact model, while prospective validation and expert-annotated MRI evaluation remain necessary.",
+"day": "2026-11-15",
+"rank": 11.81,
+"zh_abstract": "早期卒中改变在神经影像上可能难以检测和定位，尤其是在病灶边界不清时。我们开发了动态模糊编码器网络（Dynamic Fuzzy Encoder Network，DFE-Net），该模型利用可学习的模糊隶属度场来表示空间不确定性，并同时进行卒中分类和病灶定位。我们在一个多中心计算机断层扫描（CT）队列（6650 例患者、8873 幅图像）和一个独立的磁共振成像（MRI）队列（67 例患者、615 幅图像）上评估了该模型。训练和测试在每种成像模态内分别进行。DFE-Net 在 CT 上的受试者工作特征曲线下面积为 0.974，F1 分数为 0.897；在 MRI 上相应数值分别为 0.978 和 0.879。在 CT 队列中，以专家标注为参照的病灶定位 Dice 得分为 0.70。由于缺少专家病灶掩膜，MRI 的定位采用梯度衍生的伪目标进行评估。两个队列的期望校准误差均约为 0.022，模型包含 0.20 百万个参数。这些结果支持使用紧凑模型同时完成诊断和空间定位，但仍需进行前瞻性验证以及基于专家标注的 MRI 评估。"
+},
+{
+"title": "Measurement fidelity and external validation of automated breast DCE-MRI segmentation",
+"link": "https://www.nature.com/articles/s41746-026-03446-z",
+"date": "2026-11-14T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03446-z",
+"pop": null,
+"id": "ca0ba8dc8757",
+"keep": true,
+"zh_title": "乳腺DCE-MRI自动分割的测量保真度与外部验证",
+"summary": "提出增强感知的3D MedNeXt框架，在多队列回顾性设计中以测量保真度为主要终点，评估肿瘤体积与直径误差，并含外部验证与放射科医生评阅。",
+"key_points": [
+"521例配对样本中肿瘤体积中位误差9.7%",
+"体积ICC为0.97，最大直径ICC为0.80",
+"内部Dice 0.831，DUKE留出层0.823"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"肿瘤"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "回顾性多队列含外部验证与医生评阅，强调测量保真度，属值得一看档",
+"abstract": "Automated breast dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) segmentation could facilitate quantitative tumor measurement, but geometric overlap alone does not establish the fidelity of mask-derived measurements. We developed an enhancement-aware three-dimensional MedNeXt framework with gated skip fusion and boundary supervision and evaluated it in a retrospective multi-cohort design spanning locked internal testing, source-held-out assessment, retrospective external validation, and radiologist review. Measurement fidelity was the primary endpoint. Across 521 paired internal-test and DUKE cases, median errors were 9.7% for tumor volume, 1.8 mm for 3D maximum surface diameter, and 10.2% for operational enhancement-defined volume, with corresponding ICCs of 0.97, 0.80, and 0.97. Median Dice was 0.831 internally and 0.823 in the DUKE source-held-out stratum, and was 0.812 and 0.806 in the BC-MRI-SEG and public BreastDCEDL_AMBL retrospective external-validation cohorts, respectively, using the frozen checkpoint without external-label tuning. No major correction was required for 78 of 80 masks in the blinded two-reader review. In 276 paired response-analysis cases, AUROC was 0.732 with automatic geometry and 0.757 with expert geometry (difference, −0.025; 95% CI, −0.095 to 0.045); discrimination non-inferiority was not demonstrated. These findings support automated segmentation as a starting point for radiologist-supervised retrospective quantitative research within the evaluated cohorts, while distinguishing measurement fidelity from downstream predictive equivalence.",
+"day": "2026-11-15",
+"rank": 11.81
+},
+{
 "title": "HGS-BioAbductor: hypergraph-based explainable survival modelling and LLM-based biological hypothesis abduction",
 "link": "https://www.nature.com/articles/s41698-026-01764-9",
 "date": "2026-11-14T00:00:00+00:00",
@@ -93,6 +158,106 @@
 "rank": 9.81
 },
 {
+"title": "Beyond skin deep: physiologic oral pigmentation as an overlooked validation gap in AI-assisted oral cancer screening",
+"link": "https://www.nature.com/articles/s41746-026-03466-9",
+"date": "2026-11-14T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03466-9",
+"pop": null,
+"id": "3ba5cae0cce8",
+"keep": true,
+"zh_title": "口腔生理性色素沉着：AI口腔癌筛查被忽视的验证缺口",
+"summary": "观点文章提出假设：口腔生理性色素因种族而异，可能导致分类器误判，呼吁在多元人群部署前开展按色素分层验证。",
+"key_points": [
+"MeMoSA等工具主要在亚洲人群验证",
+"提出色素沉着致误判的可检验假设",
+"呼吁按色素分层验证"
+],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"公平与安全",
+"医学影像"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "观点文章，无实验数据，但涉及公平性验证",
+"abstract": "AI-assisted oral cancer screening tools, exemplified by MeMoSA, have been validated almost exclusively in Asian populations. We propose a testable hypothesis: physiologic oral pigmentation, which varies by race independent of pathology, may cause classifiers to misclassify normal variation as suspicious or miss camouflaged lesions. Following precedent from pulse oximetry and dermatology AI, we call for pigmentation-stratified validation before deployment in racially diverse settings such as the United States.",
+"day": "2026-11-15",
+"rank": 9.81,
+"zh_abstract": "以 MeMoSA 为代表的人工智能辅助口腔癌筛查工具几乎仅在亚洲人群中得到验证。我们提出一个可检验的假说：生理性口腔色素沉着因种族而异，且与病理无关，可能导致分类器将正常变异误判为可疑，或漏诊被掩盖的病变。参照脉搏血氧测定和皮肤科人工智能的先例，我们呼吁在美国等种族多样的环境中部署之前，先进行按色素沉着分层的验证。"
+},
+{
+"title": "Learning health system frameworks and the integration of artificial intelligence and data science in United States health care: a scoping review",
+"link": "https://www.nature.com/articles/s41746-026-03452-1",
+"date": "2026-11-14T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03452-1",
+"pop": null,
+"id": "28fc79d74864",
+"keep": true,
+"zh_title": "美国学习型医疗系统框架与AI/数据科学整合：范围综述",
+"summary": "范围综述纳入54项LHS框架研究和30项AI/数据科学研究，梳理框架共有组成及AI整合情况。",
+"key_points": [
+"检索2007年1月至2025年8月美国研究",
+"54项框架研究，其中56%为真实实施",
+"归纳出数据基础设施、治理等反复出现的组件"
+],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"临床落地",
+"电子病历"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "范围综述，仅限美国，泛化性有限",
+"abstract": "Learning Health Systems (LHSs) use routinely collected data to generate evidence that informs practice through continuous learning cycles. Artificial intelligence (AI) and data science may strengthen this model, but how LHS frameworks and AI applications relate remains unclear. We mapped LHS frameworks and their components and examined how AI and data science are integrated. Searches identified U.S.-based, English-language studies published January 2007–August 2025; two reviewers independently screened and extracted data, resolving disagreements by consensus. We included 54 framework studies (24 [44%] conceptual adaptations; 30 [56%] real-world implementations) and 30 AI/data science studies. Five components recurred across the frameworks: data infrastructure and interoperability, governance and stakeholder engagement, learning and improvement cycles, evidence generation and translation, and equity and ethics. Relative to framework studies, AI studies less often addressed governance and stakeholder engagement (17% vs 35%) or equity (13% vs 22%), emphasizing computational over organizational functions. Most AI studies (27/30) focused on the data-to-knowledge phase; only three extended to knowledge-to-practice, and none described practice-to-data feedback with post-deployment outcomes informing model updating. AI applications capture only part of the LHS vision, concentrating on knowledge generation with less attention to the organizational and feedback mechanisms needed to translate insights into practice and sustain learning.",
+"day": "2026-11-15",
+"rank": 9.81,
+"zh_abstract": "学习型健康系统（Learning Health Systems，LHSs）利用常规收集的数据，通过持续的学习循环生成证据，为实践提供依据。人工智能（AI）和数据科学可能强化这一模式，但 LHS 框架与 AI 应用之间的关系仍不明确。我们梳理了 LHS 框架及其组成部分，并考察了 AI 和数据科学是如何被整合的。检索纳入 2007 年 1 月至 2025 年 8 月发表的、以美国为背景的英文研究；两名评审员独立筛选并提取数据，分歧通过共识解决。我们纳入了 54 项框架研究（24 项 [44%] 为概念性改编；30 项 [56%] 为真实世界实施）和 30 项 AI/数据科学研究。各框架中反复出现五个组成部分：数据基础设施与互操作性、治理与利益相关者参与、学习与改进循环、证据生成与转化，以及公平与伦理。与框架研究相比，AI 研究较少涉及治理与利益相关者参与（17% 对 35%）或公平性（13% 对 22%），更强调计算功能而非组织功能。大多数 AI 研究（27/30）聚焦于数据到知识阶段；仅三项延伸至知识到实践阶段，且没有研究描述实践到数据的反馈，即利用部署后的结局来更新模型。AI 应用仅体现了 LHS 愿景的一部分，集中于知识生成，而对将洞见转化为实践并维持学习所需的组织机制和反馈机制关注较少。"
+},
+{
+"title": "MRI-derived synthetic [¹⁸F]FET PET in neuro-oncology: evaluation in glioma grading and differentiation from solitary brain metastasis.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43015482/",
+"date": "2026-11-11T00:00:00+00:00",
+"badge": "DOI 10.1007/s00234-026-04266-4",
+"source": "PubMed · Neuroradiology",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "03100e74888a",
+"keep": true,
+"zh_title": "MRI生成合成[18F]FET PET：胶质瘤分级与脑转移鉴别评估",
+"summary": "回顾性分析489例胶质瘤或脑转移患者，用深度学习从多模态MRI生成合成FET PET，并评估图像相似度、SUVR及读片者对分级与鉴别的表现。",
+"key_points": [
+"489例经组织学确诊患者的回顾性研究",
+"以PSNR、SSIM、SUVR相关性评估合成质量",
+"盲法读片评估胶质瘤分级及高级别胶质瘤与单发转移鉴别"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"生成模型",
+"肿瘤"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "回顾性、样本数百例，有读片者评估，无明确外部验证",
+"abstract": "[Neuroradiology] O-(2-[18F]fluoroethyl)-L-tyrosine positron emission tomography ([18F]FET PET) is clinically useful in neuro-oncology but limited by cost and availability. We assessed the clinical utility of magnetic resonance imaging (MRI)-derived synthetic [18F]FET PET. A total of 489 patients with histologically confirmed gliomas or brain metastases were retrospectively analyzed. A deep learning model generated synthetic PET images from multimodal MRI in the overall cohort and subgroups. Synthetic PET was evaluated against reference PET for image similarity by peak signal-to-noise ratio (PSNR) and structural similarity index (SSIM), standardized uptake value ratio (SUVR) analysis by Pearson correlation and Bland-Altman analysis, and blinded reader assessment for glioma grading and high-grade glioma (HGG) versus solitary brain metastasis (SBM) differentiation using receiver operating characteristic analysis with area under the curve (AUC). Synthetic PET showed high similarity to reference PET in the overall, glioma, and metastasis groups (PSNR, 34.7-35.5 dB; SSIM, 0.90-0.96), and SUVR correlations were strong (r = 0.77-0.93, all P 0.05). MRI-derived synthetic [18F]FET PET may enhance glioma grading and HGG-SBM differentiation, providing a PET-like alternative when FET PET is unavailable.",
+"day": "2026-11-15",
+"rank": 8.85,
+"zh_abstract": "[神经放射学] O-(2-[18F]氟乙基)-L-酪氨酸正电子发射断层成像（[18F]FET PET）在神经肿瘤学中具有临床应用价值，但受限于成本和可及性。我们评估了源自磁共振成像（MRI）的合成 [18F]FET PET 的临床实用性。共对 489 例经组织学证实的胶质瘤或脑转移瘤患者进行了回顾性分析。深度学习模型基于多模态 MRI，在整体队列及各亚组中生成合成 PET 图像。将合成 PET 与参考 PET 进行比较评估：采用峰值信噪比（PSNR）和结构相似性指数（SSIM）评价图像相似性；采用 Pearson 相关和 Bland-Altman 分析评价标准化摄取值比（SUVR）；并由盲法阅片者对胶质瘤分级及高级别胶质瘤（HGG）与孤立性脑转移瘤（SBM）的鉴别进行评估，采用受试者工作特征分析及曲线下面积（AUC）。在整体、胶质瘤和转移瘤组中，合成 PET 与参考 PET 均显示出高度相似性（PSNR，34.7-35.5 dB；SSIM，0.90-0.96），SUVR 相关性较强（r = 0.77-0.93，所有 P 0.05）。源自 MRI 的合成 [18F]FET PET 可能有助于提升胶质瘤分级及 HGG 与 SBM 的鉴别能力，在无法获得 FET PET 时可提供类似 PET 的替代方案。"
+},
+{
 "title": "A personalized glucose-aware meal guidance agent for type 2 diabetes self-management.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/43014019/",
 "date": "2026-11-09T00:00:00+00:00",
@@ -160,6 +325,73 @@
 "zh_abstract": "人工智能（AI）通过将配方变量和生物学背景与递送、治疗疗效及安全性联系起来，正在推动纳米医学的发展。本综述探讨了AI辅助的配方设计、集中式配方数据库、纳米颗粒自组装的预测，以及细胞和组织选择性递送、生物分布和治疗结局的模型。在预测纳米毒性和纳米颗粒诱导的免疫反应方面的最新进展进一步强调了将安全性终点纳入纳米医学优化的重要性。除纳米载体工程外，基础模型以及单细胞和空间数据的多模态分析通过刻画疾病相关的细胞状态、确定治疗靶点的优先顺序以及预测治疗反应，正在拓展生物学发现。计算方法也支持治疗性RNA、肽、蛋白质和可编程蛋白质纳米材料的设计。例如，由GEMORNA生成并通过脂质纳米颗粒递送的mRNA序列，使小鼠体内促红细胞生成素的表达较基准序列最高提高了15倍。将生物学发现与生物分子及纳米载体设计相结合，可为治疗性货物的选择、靶向策略和功能性纳米材料的开发提供参考。AI可能将患者特异性的生物学特征与纳米药物递送及治疗反应的预测联系起来，以支持患者分层和个体化治疗选择。整合组织学、影像、分子和纵向数据，或可使治疗策略适应组织特征、疾病状态和治疗反应的差异。基于数字孪生和自适应治疗控制的新兴方法可能将该框架扩展至个体化给药和动态治疗优化。主要挑战包括数据异质性、模型泛化能力有限，以及需要进行实验和前瞻性验证。迈向精准治疗需要综合考虑递送、疗效、选择性和安全性的整合框架，同时明确区分已被证实的应用与未来的机遇。"
 },
 {
+"title": "Challenges of Single-Reference Benchmarks for Clinical Reasoning in Large Language Model-Based Decision Support.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43024856/",
+"date": "2026-11-13T00:00:00+00:00",
+"badge": "DOI 10.2196/99019",
+"source": "PubMed · Journal of medical Internet research",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "a0ee307df282",
+"keep": true,
+"zh_title": "基于大模型的临床决策支持：单一参考基准的局限",
+"summary": "观点文章，以肿瘤学为例指出仅依赖参考决策一致性的基准对复杂、偏好敏感的决策不足，主张辅以以推理为中心的评估。",
+"key_points": [
+"部分决策差异是临床推理的结构性特征",
+"单一参考一致性在复杂决策中不足",
+"建议补充以推理为中心的评估"
+],
+"section": "大模型与智能体",
+"type": "观点",
+"tags": [
+"医学大模型",
+"基准",
+"临床决策支持"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "观点类文章，无新数据，对基准设计有一定启发",
+"abstract": "[Journal of medical Internet research] This viewpoint addresses developers and evaluators of large language model (LLM)-based clinical decision support systems. Although recent benchmarks increasingly evaluate multiple clinical reasoning domains, many still rely substantially on reference decision agreement-whether model outputs conform to predefined decisions. Our aim is to clarify when such agreement remains useful, when it becomes insufficient for complex or preference-sensitive decisions, and how it can be complemented by reasoning-centered assessment. Clinical decision-making often depends on structured reasoning under uncertainty, integrating probabilistic evidence, contextual constraints, and patient values. Using oncology as an illustrative domain, we argue that some decision variability is a structural feature of clinical reasoning rather than noise or error. Used alone in such settings, single-reference benchmarks may conflate reasonable divergence with incorrectness and reward answer imitation over transparent reasoning. We conclude that reference decision agreement should be retained for tasks with stable ground truth but supplemented by evidence grounding, reasoning quality, patient-centeredness, and safety checks for open-ended clinical decision support. This multidimensional approach is intended to support safer and more clinically meaningful evaluation.",
+"day": "2026-11-15",
+"rank": 8.14
+},
+{
+"title": "Artificial Intelligence for Colorectal Cancer Diagnosis: A Comprehensive Survey of Modalities, Frameworks, and Clinical Tasks.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43026843/",
+"date": "2026-11-02T00:00:00+00:00",
+"badge": "DOI 10.3390/cancers18213522",
+"source": "PubMed · Cancers",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "77cf74b13f94",
+"keep": true,
+"zh_title": "AI用于结直肠癌诊断：模态、框架与临床任务综述",
+"summary": "叙述性综述梳理160篇文献，涵盖检测、光学诊断、转移预测、新辅助治疗反应预测等七类AI任务，并提出多模态流程与证据分级框架。",
+"key_points": [
+"覆盖九类诊断模态与七类AI任务",
+"提出多模态流程概念框架",
+"含转移预测与新辅助治疗反应预测"
+],
+"section": "影像与病理",
+"type": "观点",
+"tags": [
+"肿瘤",
+"多模态",
+"医学影像"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "叙述性综述上限6分；涉及转移与治疗反应预测略加分",
+"abstract": "[Cancers] The diagnosis of colorectal cancer encompasses nine complementary modalities: stool-based screening, blood-based biomarkers, cross-sectional imaging, endoscopic evaluation, histopathology, liquid biopsy, molecular and genetic profiling, microbiome analysis, and nanotechnology-based diagnostics. This narrative review synthesizes 160 references spanning seven task-specific artificial intelligence domains, including computer-aided detection, optical diagnosis, invasion depth prediction, computational pathology and radiogenomics, metastasis forecasting, neoadjuvant treatment response prediction, and surgical workflow analysis. We propose a conceptual multimodal pipeline comprising data ingestion, preprocessing and harmonization, feature representation, multimodal fusion, forecasting, explainability, and validation. A structured evidence grading framework classifies each clinical task by evidence level, consistency, and clinical readiness. We further catalog public datasets, challenge benchmarks, and five reporting standards: TRIPOD-AI, CONSORT-AI, SPIRIT-AI, DECIDE-AI, and CLAIM. Computer-aided detection and optical diagnosis demonstrate the highest maturity with Level 1 evidence from randomized controlled trials, while computational pathology, radiogenomics, and metastasis prediction remain at Level 2 with retrospective validation (internal or external). Microbiome screening, nanotechnology diagnostics, and surgical phase recognition are exploratory. The principal barriers to clinical adoption are domain shift, data scarcity, calibration, prospective validation, and workflow integration. We conclude that clinically useful artificial intelligence requires robust external validation, uncertainty quantification, explainable outputs, standardized reporting, and a structured translational pathway from retrospective evidence through regulatory clearance to post-deployment monitoring.",
+"day": "2026-11-15",
+"rank": 8.05,
+"zh_abstract": "[Cancers] 结直肠癌的诊断涵盖九种互补的方式：基于粪便的筛查、基于血液的生物标志物、断层影像、内镜评估、组织病理学、液体活检、分子与基因谱分析、微生物组分析以及基于纳米技术的诊断。本叙述性综述综合了 160 篇参考文献，涉及七个针对特定任务的人工智能领域，包括计算机辅助检测、光学诊断、浸润深度预测、计算病理学与影像基因组学（radiogenomics）、转移预测、新辅助治疗反应预测以及手术流程分析。我们提出了一个概念性的多模态流程，包括数据摄取、预处理与标准化、特征表示、多模态融合、预测、可解释性和验证。一个结构化的证据分级框架按证据水平、一致性和临床就绪程度对每项临床任务进行分类。我们还整理了公共数据集、挑战赛基准以及五项报告规范：TRIPOD-AI、CONSORT-AI、SPIRIT-AI、DECIDE-AI 和 CLAIM。计算机辅助检测和光学诊断成熟度最高，具有来自随机对照试验的 1 级证据；而计算病理学、影像基因组学和转移预测仍处于 2 级，仅有回顾性验证（内部或外部）。微生物组筛查、纳米技术诊断和手术阶段识别尚属探索性。临床应用的主要障碍是领域偏移、数据稀缺、校准、前瞻性验证以及工作流程整合。我们认为，具有临床实用价值的人工智能需要可靠的外部验证、不确定性量化、可解释的输出、标准化报告，以及从回顾性证据、监管审批到部署后监测的结构化转化路径。"
+},
+{
 "title": "Calibration-Aware Heterogeneous Multimodal Ensemble for Multi-Class Skin Lesion Diagnosis.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/43028484/",
 "date": "2026-11-01T00:00:00+00:00",
@@ -191,6 +423,40 @@
 "day": "2026-11-15",
 "rank": 8.0,
 "zh_abstract": "[Diagnostics (Basel, Switzerland)]【背景】皮肤病变的可靠分类对早期黑色素瘤检测至关重要；然而，不同病变类型之间存在大量视觉重叠且类别不平衡明显，持续限制着现有自动化系统的性能和可靠性。这些挑战促使人们将互补的视觉表征与临床元数据相结合，以改善不同病变类别之间的区分能力。【方法】本研究提出了一种用于皮肤病变分类的校准多模态集成学习框架。该框架将从 Swin Transformer、EVA-02 和 CoAtNet 架构中提取的视觉特征与患者年龄和解剖部位信息相结合。采用两阶段自适应温度缩放对集成模型的预测概率进行校准。【结果】在国际皮肤影像协作组织（ISIC 2019）数据集上的实验评估显示出较强的分类性能，宏平均 F1 分数为 0.91，宏平均 AUC 为 0.99。该框架在官方 ISIC 2019 基准测试集上进一步表现出稳健的泛化能力，平衡准确率为 0.65。在 PH2 数据集上的外部验证得到宏平均 F1 分数 0.93 和 ROC-AUC 0.96。【结论】这些结果表明，将异质视觉表征、临床元数据与兼顾校准的集成学习相结合，可为皮肤病变分类及计算机辅助皮肤病诊断提供稳健且可信的解决方案。"
+},
+{
+"title": "The CoMPaSS-NMD Atlas Platform: A Secure Multimodal Infrastructure for Harmonized Data Collection, Exploration, and Future Artificial Intelligence-Driven Stratification in Hereditary Neuromuscular Disorders.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43018172/",
+"date": "2026-11-12T00:00:00+00:00",
+"badge": "DOI 10.1111/ene.70804",
+"source": "PubMed · European journal of neurology",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "4705f5fd5011",
+"keep": true,
+"zh_title": "CoMPaSS-NMD Atlas：遗传性神经肌肉病多模态数据平台",
+"summary": "介绍面向遗传性神经肌肉病的安全模块化网络平台，整合临床、遗传、病理和影像数据，为未来AI分层提供基础。",
+"key_points": [
+"基于Horizon Europe项目，跨欧洲及英国中心",
+"采用HPO标准化临床表型",
+"支持假名化数据收集与受控探索"
+],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"数据集",
+"多模态",
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "基础设施描述，尚无AI性能结果",
+"abstract": "[European journal of neurology] Hereditary neuromuscular disorders exhibit marked phenotypic and molecular heterogeneity, which weakens genotype-phenotype correlation and complicates timely diagnosis, prognosis, and patient stratification for clinical trials. The Horizon Europe project CoMPaSS-NMD aims to develop artificial-intelligence-based stratification tools by integrating clinical, genetic, histopathological, and imaging data from clinical reference centers across Europe and the United Kingdom. We developed CoMPaSS-NMD Atlas, a secure, modular web platform for pseudonymized data collection, multimodal data management, and controlled exploration. Clinical, technical, and data-management experts defined requirements; contributing centers co-designed electronic clinical and histopathology forms. Clinical phenotypes used the Human Phenotype Ontology (HPO), while imaging, histopathology, and sequencing data followed international standards. The platform supports role- and attribute-based access, pseudonymized patient registration, metadata management, structured clinical data entry, MRI and histopathological uploads, and a dedicated genetic-sequencing workflow. Cohort-level exploration is driven by structured metadata and HPO terms, enabling hierarchical phenotype navigation, ontology-aware data navigation, and cross-domain queries spanning clinical, genetic, imaging, and histopathological features. Users can download raw files in their original formats, along with structured metadata reports in CSV or PDF, according to the permissions defined for data protection. The Atlas provides a foundation for harmonized, standardized prospective data collection and for building large datasets for artificial intelligence- and machine learning-based patient stratification. With secure governance, traceability, and multimodal integration, it is designed to support diagnostic and stratification research in hereditary neuromuscular disorders; clinical validation is ongoing.",
+"day": "2026-11-15",
+"rank": 7.99,
+"zh_abstract": "[European journal of neurology] 遗传性神经肌肉疾病表现出显著的表型和分子异质性，这削弱了基因型-表型的相关性，也使得及时诊断、预后判断和临床试验的患者分层变得复杂。欧盟地平线欧洲（Horizon Europe）项目 CoMPaSS-NMD 旨在整合来自欧洲和英国临床参考中心的临床、遗传、组织病理和影像数据，开发基于人工智能的分层工具。我们开发了 CoMPaSS-NMD Atlas，这是一个安全、模块化的网络平台，用于假名化数据收集、多模态数据管理和受控探索。临床、技术和数据管理专家确定了需求；参与中心共同设计了电子临床表单和组织病理表单。临床表型使用人类表型本体（Human Phenotype Ontology，HPO），影像、组织病理和测序数据则遵循国际标准。该平台支持基于角色和属性的访问控制、假名化患者登记、元数据管理、结构化临床数据录入、MRI 和组织病理图像上传，以及专门的基因测序工作流程。队列层面的探索由结构化元数据和 HPO 术语驱动，可实现分层表型导航、感知本体的数据导航，以及涵盖临床、遗传、影像和组织病理特征的跨领域查询。用户可按照数据保护所规定的权限，下载原始格式的原始文件以及 CSV 或 PDF 格式的结构化元数据报告。该 Atlas 为协调一致、标准化的前瞻性数据收集以及构建用于基于人工智能和机器学习的患者分层的大型数据集奠定了基础。凭借安全的管理机制、可追溯性和多模态整合，它旨在支持遗传性神经肌肉疾病的诊断与分层研究；临床验证正在进行中。"
 },
 {
 "title": "An Interpretable Multimodal Deep Learning Framework Integrating MRI and Clinical Data via Bidirectional Cross-Modal Attention for Improved Cardiac Disease Detection.",
@@ -625,6 +891,38 @@
 "zh_abstract": "[Sensors (Basel, Switzerland)] 脑性视觉障碍（CVI）是一种异质性的神经发育性疾病，其视觉功能障碍可影响视力、视野、眼球运动、注视、电生理反应和功能性视觉。因此需要进行多模态评估，但所得证据往往不完整、异质性强，且难以以可重复的方式整合。这项计算可行性研究开发了一种用于小儿CVI多模态评估的符号式AI决策支持模型。62名年龄大于18个月且小于18岁的儿童，在完成神经眼科评估及脑部和眼眶MRI后，被编码为患者层面的事实。结构化变量包括MRI状态、屈光、眼球运动、视野检查和视觉诱发电位。“前路径不足以解释”谓词被用作不加权的纳入资格关卡，同时为阳性证据领域分配了预先由专家确定的支持权重。MRI异常和眼球运动异常均见于47/62例患者（75.8%），视野改变见于16/62例（25.8%），视觉诱发电位改变见于22/62例（35.5%）。54/62例患者（87.1%）至少建立了一条预先定义的与CVI相符的功能证明路径。当k=1时，CVI支持分数范围为0.700至0.800，反映保留下来的最强功能路径。当k=3时，保留三条功能路径的患者最大支持分数为0.985。等权重消融分析（每个功能领域w=0.75）保留了逻辑可推导性，三路径值为0.9844，表明多路径汇聚并不依赖于专家分配的功能权重之间的微小差异。由于没有独立的诊断金标准，这些结果刻画的是符号可推导性和溯源行为，而非诊断准确性。所提出的系统提供了一种明确的、具备溯源意识的决策支持表示，并为未来定量临床和仪器数据的神经符号整合奠定了基础。"
 },
 {
+"title": "Artificial Intelligence Approaches for Gastrointestinal Bleeding Detection in Capsule Endoscopy: A Systematic Review and Critical Analysis.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43028322/",
+"date": "2026-10-22T00:00:00+00:00",
+"badge": "DOI 10.3390/diagnostics16213449",
+"source": "PubMed · Diagnostics (Basel, Switzerland)",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "b64b4ef8eaf0",
+"keep": true,
+"zh_title": "胶囊内镜消化道出血检测的AI方法：系统综述",
+"summary": "按PRISMA 2020纳入15项2020–2025年同行评审研究，综述胶囊内镜出血检测的多种AI方法，并用适配QUADAS-2与PROBAST的框架评估偏倚风险。",
+"key_points": [
+"纳入15项研究，涵盖传统机器学习、CNN、迁移学习、注意力模型等",
+"方法涉及分类、分割与目标检测",
+"采用AI适配的偏倚风险框架进行质量评估"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"临床决策支持"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "综述类文章，纳入研究数量有限，属增量档",
+"abstract": "[Diagnostics (Basel, Switzerland)] Background/Objectives: Gastrointestinal (GI) bleeding is a common, potentially life-threatening condition, and capsule endoscopy (CE) is the principal investigation for suspected small-bowel bleeding after non-diagnostic upper endoscopy and colonoscopy. Because manual review of thousands of CE frames is labor-intensive, artificial intelligence (AI) has been proposed to automate bleeding detection. Methods: Following PRISMA 2020, this systematic review synthesizes 15 peer-reviewed journal studies (2020-2025) applying traditional machine learning, convolutional neural networks, transfer learning, attention-based or hybrid architectures, segmentation, or object detection to GI bleeding detection in CE. Methodological quality was appraised with an AI-adapted risk-of-bias framework informed by QUADAS-2 and PROBAST. Results: Frame-level classification accuracy ranged from 90.6% to 99.9% (median 98.5%; 13 studies), with the lowest values from evaluations closest to clinical practice; the segmentation and detection studies reported a mean intersection-over-union of 86.9% and an mAP@0.5 of 79.0%. Only two studies (13%) were at low risk of bias for validation strategy, none reported patient-level separation of training and test data, only four (27%) used clinical patient data, and none compared AI with conventional endoscopy or clinical outcomes. Conclusions: Current evidence demonstrates high performance on curated datasets but not yet generalizability or clinical readiness; patient-level, external, and prospective multicentre validation is required.",
+"day": "2026-11-15",
+"rank": 6.69
+},
+{
 "title": "Global Trends of Artificial Intelligence Applications in Family Medicine: A Comprehensive Scopus-Based Bibliometric Analysis (2016-2026).",
 "link": "https://pubmed.ncbi.nlm.nih.gov/43028632/",
 "date": "2026-10-26T00:00:00+00:00",
@@ -747,7 +1045,13 @@
 "score": 3,
 "reason": "仅标题，常规观点类，信息有限",
 "day": "2026-11-15",
-"rank": 5.14
+"rank": 5.14,
+"also": [
+{
+"source": "21财经",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPU0drMDhndG52SWhoRDdrelhBT0pkOVVVNjJ4SnZlbXN4ZnB3Y0tEbFA0a3FpZFdmTkxzWE1GQWQ1cVdxQUJXZDRqZVYxLURMZ0w3UEZ1cklUaGExSzV4ejRoQnJiUTR6Q1FWTl9hVkxJYlZldkR4WkpSLWVoUjY4OUZ1NXl6dFRlZTExVU5OMA?oc=5"
+}
+]
 },
 {
 "title": "三星首尔医院携手医疗人工智能企业Heidi实现诊疗记录自动化- 阿视亚经济",
