@@ -1,0 +1,109 @@
+{
+ "week": "2026-W46",
+ "range": "2026-11-09 ~ 2026-11-15",
+ "partial": false,
+ "generated": "2026-11-16T07:30:15.608661+00:00",
+ "summary": "本周条目均为同行评审论文，影像与病理方向最为集中。Hist2Prot 在约5100万配对细胞上训练，从常规H&E切片生成单细胞空间蛋白组谱，在独立同平台及跨平台数据上优于既有基线 [2]。TROP2 QCS 是全监督计算病理方法，量化肿瘤细胞膜与胞质TROP2，并提出归一化膜比值，用于预测Dato-DXd疗效 [4]。一篇视角文章评述了从H&E预测可靶向基因改变的证据，提及EAGLE与ANNAR两项前瞻性试验 [14]。在分割与泛化方面，COSAS 2024挑战赛聚焦跨器官、跨扫描仪的腺癌分割 [11]；DFE-Net 以可学习模糊隶属场表达空间不确定性，联合进行卒中分类与病灶定位 [9]；乳腺DCE-MRI分割研究以测量保真度为主要终点，并含外部验证 [10]。一项回顾性多中心研究显示，AI 得出的射血分数对死亡率的预测略优于医生得出的射血分数 [18]。SynSight 用合成图像训练试纸判读模型，在HIV试纸上灵敏度为98%、特异度为99% [13]。\n\n在临床与数字健康方面，LATENT 是一项单中心开放标签随机对照试验，纳入14665名无房颤成人，比较AI-ECG引导策略与常规照护对房颤、房扑及房颤前期心房改变的检出；条目未给出结果 [5]。步态基础模型基于3328名成人的深度相机三维骨架数据，其嵌入可预测3210个表型目标中的1887个 [3]。MambaSleepCVD 研究在控制人口学混杂后，评估多导睡眠图对长期心血管风险的预后信息 [19]。落地环节的一项警示来自48名医生参与的随机对照研究：随着心音听诊AI可靠性下降，医生的诊断表现同步下降，信心下降快于对AI的信任 [6]。\n\n大语言模型方面，评估结论偏审慎。九个LLM在三家医院590份膀胱癌mpMRI报告上接受评估，比较中文原文与译后英文输入，医生评分共21,240条 [7]。另一项研究评估10个LLM在三类医学任务中充当评判者的表现，相对人工标注，其表现跨任务并不稳定 [12]。在数据整理场景中，Gemini系列LLM从病理与MRI报告中抽取前列腺癌登记数据，共识LLM的错误率中位数为0.09%，低于人工的2.81% [20]。\n\n生命科学与药物方向，Nature 报道 AlphaGenome 2 可预测DNA变异可能在哪些类型细胞中起作用 [1]。多模态细胞基础模型研究提出基于部分信息分解的协同信息得分，衡量冻结单模态专家融合后的额外信息增益 [8]。DeepTNR 结合图对比学习与迁移学习，从空间转录组预测九种肿瘤的药物敏感性，并在结直肠癌中提示伊立替康最敏感且存在空间自相关 [16]。HGS-BioAbductor 用超图神经网络做生存预测，并以多智能体LLM从可解释性结果推演分子机制假设，在18个数据集中的16个取得最高C-index [17]。\n\n以上均为研究层面的进展，不构成任何医疗建议。",
+ "items": [
+  {
+   "title": "DeepMind的AlphaGenome 2令科学家惊叹",
+   "link": "https://www.nature.com/articles/d41586-026-03673-0",
+   "source": "Nature"
+  },
+  {
+   "title": "Hist2Prot：由H&E切片推断单细胞空间蛋白组并预测标志物与结局",
+   "link": "https://www.nature.com/articles/s43018-026-01270-8",
+   "source": "Nature Cancer"
+  },
+  {
+   "title": "基于深度学习步态分析预测多系统健康表型",
+   "link": "https://www.nature.com/articles/s41591-026-04725-8",
+   "source": "Nature Medicine"
+  },
+  {
+   "title": "TROP2归一化膜比值预测NSCLC中Dato-DXd临床结局",
+   "link": "https://www.nature.com/articles/s41591-026-04716-9",
+   "source": "Nature Medicine"
+  },
+  {
+   "title": "AI-ECG用于房颤早期提示与追踪的随机对照试验（LATENT）",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42998297/",
+   "source": "PubMed · Circulation"
+  },
+  {
+   "title": "AI辅助诊断中人工监督识别系统故障的挑战",
+   "link": "https://www.nature.com/articles/s41746-026-03410-x",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "基于mpMRI报告的膀胱癌管理建议：大语言模型多中心基准评测",
+   "link": "https://www.nature.com/articles/s41746-026-03469-6",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "多模态细胞基础模型需要超越对齐的协同整合",
+   "link": "https://www.nature.com/articles/s42256-026-01328-3",
+   "source": "Nature Machine Intelligence"
+  },
+  {
+   "title": "不确定性场用于CT/MRI脑卒中诊断与病灶定位",
+   "link": "https://www.nature.com/articles/s41746-026-03458-9",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "乳腺DCE-MRI自动分割的测量保真度与外部验证",
+   "link": "https://www.nature.com/articles/s41746-026-03446-z",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "COSAS 2024挑战赛：跨器官跨扫描仪腺癌分割域泛化",
+   "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004597?dgcid=rss_sd_all",
+   "source": "Medical Image Analysis"
+  },
+  {
+   "title": "大模型作为自主医学评估者在不同临床任务间不稳定",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42995166/",
+   "source": "PubMed · Journal of the American Medical Informatics Association : JAMIA"
+  },
+  {
+   "title": "SynSight：用合成数据训练快速诊断试纸判读模型",
+   "link": "https://www.nature.com/articles/s41746-026-03380-0",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "基于H&E切片的AI预测可干预基因组改变",
+   "link": "https://www.nature.com/articles/s41698-026-01772-9",
+   "source": "npj Precision Oncology"
+  },
+  {
+   "title": "AI 光谱上采样提升肤色黑色素与血液估计",
+   "link": "https://www.nature.com/articles/s41746-026-03429-0",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "DeepTNR：基于空间转录组的肿瘤药物敏感性预测",
+   "link": "https://www.nature.com/articles/s41746-026-03459-8",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "HGS-BioAbductor：超图可解释生存模型与LLM生物学假设推演",
+   "link": "https://www.nature.com/articles/s41698-026-01764-9",
+   "source": "npj Precision Oncology"
+  },
+  {
+   "title": "AI 与医生左心室分割用于心脏 MRI 死亡率预测的比较",
+   "link": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(26)00065-8/fulltext?rss=yes",
+   "source": "Lancet Digital Health"
+  },
+  {
+   "title": "MambaSleepCVD：基于多导睡眠图预测长期心血管结局",
+   "link": "https://www.nature.com/articles/s41746-026-03450-3",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "用两种大模型现代化梅奥前列腺癌历史登记库",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43013751/",
+   "source": "PubMed · The Journal of urology"
+  }
+ ]
+}
