@@ -1326,7 +1326,13 @@
 "score": 4,
 "reason": "一般行业动态，细节有限",
 "day": "2026-11-16",
-"rank": 7.0
+"rank": 7.0,
+"also": [
+{
+"source": "STAT",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUTJIWldKX3NmaVZIRnh4RE5zQ3UyNGFNZGlHdTl2OGZfSzdWWlhVMk5raTNKeEl1RS0yYy1EMEpWeUxUY2Z0Q3BRMGNRbDRlLWotVGxGbmRSUlhSVzFoYWZVYkxhRWRfMko3aDEwMU5MZWlMS2d2akF1d0t5Ynh4UXVyZ09OQnRKNzVuaTJoMDlPbVlUXzN3?oc=5"
+}
+]
 },
 {
 "title": "Artificial intelligence for precision nephrology: current evidence to clinical translation and future prospects.",

@@ -34,7 +34,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://doi.org/10.18653/v1/2025.acl-long.1381",
-"cites": 123,
+"cites": 124,
 "zh_title": "MedGraphRAG：基于图检索增强的循证医学大模型",
 "summary": "提出图检索增强生成框架MedGraphRAG，通过三元图构建与U-Retrieval提升医学回答的安全性与可靠性。",
 "key_points": [
@@ -86,7 +86,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://doi.org/10.18653/v1/2025.findings-acl.751",
-"cites": 85,
+"cites": 87,
 "zh_title": "用可验证医学问题提升大模型复杂推理",
 "summary": "该研究提出以可验证的医学问题训练与评估大模型，提升其医学复杂推理能力。",
 "key_points": [
@@ -614,7 +614,7 @@
 "year": 2026,
 "date": "2026-01-01",
 "link": "https://doi.org/10.18653/v1/2026.acl-long.1996",
-"cites": 16,
+"cites": 17,
 "zh_title": "MedCheck：反思医学大模型基准的生命周期评估",
 "summary": "提出首个面向生命周期的医学基准评估框架 MedCheck，反思现有医学大模型基准的可靠性。",
 "key_points": [
@@ -639,7 +639,7 @@
 "year": 2025,
 "date": "2025-05-31",
 "link": "https://doi.org/10.48550/arXiv.2506.00386",
-"cites": 15,
+"cites": 17,
 "zh_title": "Adaptive-VP：自适应学员对话的LLM虚拟病人框架",
 "summary": "提出LLM虚拟病人框架Adaptive-VP，能根据学员沟通能力调整互动，用于护士沟通培训。",
 "key_points": [
@@ -1176,7 +1176,7 @@
 "year": 2025,
 "date": "2025-05-24",
 "link": "https://doi.org/10.48550/arXiv.2505.18503",
-"cites": 8,
+"cites": 9,
 "zh_title": "聚焦重点：自动注意力对齐微调增强医学视觉语言模型",
 "summary": "提出A3Tune微调框架，通过自动注意力对齐缓解医学大型视觉语言模型的注意力分布不佳问题。",
 "key_points": [
@@ -1827,7 +1827,7 @@
 "year": 2026,
 "date": "2026-01-20",
 "link": "https://doi.org/10.48550/arXiv.2602.00065",
-"cites": 6,
+"cites": 7,
 "zh_title": "面向心理健康的AI负责任评估",
 "summary": "主张重新思考心理健康AI评估，提出整合临床可靠性、社会背景与公平性的跨学科框架。",
 "key_points": [
@@ -2532,7 +2532,7 @@
 "year": 2026,
 "date": "2026-02-10",
 "link": "https://doi.org/10.48550/arXiv.2602.09653",
-"cites": 4,
+"cites": 5,
 "zh_title": "ClinAlign：基于临床医生偏好的医疗对齐框架",
 "summary": "提出两阶段框架，用医生核验的偏好数据对齐大模型开放输出，改善临床指南贴合度。",
 "key_points": [
@@ -4201,7 +4201,7 @@
 "year": 2026,
 "date": "2026-04-22",
 "link": "https://doi.org/10.48550/arXiv.2604.20263",
-"cites": 2,
+"cites": 3,
 "zh_title": "AROMA：虚拟细胞基因扰动建模的多模态增强推理",
 "summary": "提出AROMA多模态架构，整合文本证据等信息对虚拟细胞基因扰动建模，改善推理约束与预测可解释性。",
 "key_points": [
@@ -7959,7 +7959,7 @@
 "year": 2025,
 "date": "2025-05-31",
 "link": "https://doi.org/10.18653/v1/2025.findings-emnlp.892",
-"cites": 7,
+"cites": 8,
 "zh_title": "DrKGC：动态子图检索增强LLM的知识图谱补全",
 "summary": "提出DrKGC，以动态子图检索增强大语言模型，在通用与生物医学领域完成知识图谱补全。",
 "key_points": [
@@ -9489,7 +9489,7 @@
 "year": 2025,
 "date": "2025-02-10",
 "link": "https://doi.org/10.48550/arXiv.2502.06666",
-"cites": 27,
+"cites": 28,
 "zh_title": "超越问答的医疗大模型自动评估",
 "summary": "聚焦封闭式与开放式问答评估的关系，探索问答形式之外的医疗大模型自动评估方式。",
 "key_points": [
@@ -9765,7 +9765,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://doi.org/10.18653/v1/2025.findings-naacl.154",
-"cites": 6,
+"cites": 8,
 "zh_title": "MedEureka：多粒度多数据类型医学检索基准",
 "summary": "提出医学领域面向多粒度、多数据类型嵌入检索的基准；来源仅提供标题。",
 "key_points": [
@@ -12439,7 +12439,7 @@
 "year": 2025,
 "date": "2025-08-26",
 "link": "https://doi.org/10.48550/arXiv.2509.05309",
-"cites": 4,
+"cites": 5,
 "zh_title": "ProtSAE：用语义引导稀疏自编码器解释蛋白质语言模型",
 "summary": "针对稀疏自编码器的语义纠缠问题，提出语义引导的 ProtSAE，以解耦并解释蛋白质语言模型的潜在特征。",
 "key_points": [
@@ -16860,7 +16860,7 @@
 "year": 2025,
 "date": "2025-10-25",
 "link": "https://doi.org/10.48550/arXiv.2510.22379",
-"cites": 0,
+"cites": 1,
 "zh_title": "TraceTrans：面向手术预测的翻译与空间追踪",
 "summary": "针对图像翻译忽视源图与译图空间对应的问题，提出兼顾翻译与空间追踪的方法以用于手术预测。",
 "key_points": [
@@ -18179,7 +18179,7 @@
 "year": 2025,
 "date": "2025-04-30",
 "link": "https://doi.org/10.24963/ijcai.2025/853",
-"cites": 24,
+"cites": 25,
 "zh_title": "先定位后回答：医学视觉问答的循证基准",
 "summary": "该工作揭示医学多模态大模型定位推理不足导致幻觉，并提出面向循证定位的医学视觉问答基准。",
 "key_points": [
@@ -19156,7 +19156,7 @@
 "year": 2025,
 "date": "2025-05-23",
 "link": "https://doi.org/10.48550/arXiv.2505.17818",
-"cites": 41,
+"cites": 42,
 "zh_title": "PatientSim：角色驱动的医患交互模拟器",
 "summary": "提出PatientSim患者模拟器，基于医学知识生成多样化的患者人设，用于训练或评估医生LLM。",
 "key_points": [
@@ -19233,7 +19233,7 @@
 "year": 2025,
 "date": "2025-06-09",
 "link": "https://doi.org/10.48550/arXiv.2506.07584",
-"cites": 34,
+"cites": 35,
 "zh_title": "MIRA：面向真实世界健康数据的医学时间序列基础模型",
 "summary": "提出医学时间序列基础模型MIRA，在合规医学语料预训练，提升跨机构跨任务迁移能力。",
 "key_points": [
@@ -19928,7 +19928,7 @@
 "year": 2025,
 "date": "2025-09-29",
 "link": "https://doi.org/10.48550/arXiv.2509.24739",
-"cites": 13,
+"cites": 14,
 "zh_title": "面向越南语PET/CT报告生成的多模态数据集与基准",
 "summary": "构建越南语PET/CT多模态数据集与基准，推动医学视觉语言基础模型在低资源语言与影像模态上的应用。",
 "key_points": [
@@ -22998,7 +22998,7 @@
 "year": 2025,
 "date": "2025-03-05",
 "link": "https://doi.org/10.48550/arXiv.2503.03965",
-"cites": 117,
+"cites": 119,
 "zh_title": "全原子扩散Transformer：分子与材料的统一生成建模",
 "summary": "提出统一的潜在扩散框架ADiT，用同一模型联合生成周期性材料与非周期性分子体系，涵盖全原子建模。",
 "key_points": [
@@ -23584,7 +23584,7 @@
 "year": 2025,
 "date": "2025-07-01",
 "link": "https://doi.org/10.48550/arXiv.2509.07983",
-"cites": 13,
+"cites": 14,
 "zh_title": "蛋白质语言模型的激活引导",
 "summary": "探究将大模型激活引导技术迁移至蛋白质语言模型，以定向控制其输出性质。",
 "key_points": [
@@ -24523,7 +24523,7 @@
 "year": 2025,
 "date": "2025-03-02",
 "link": "https://doi.org/10.48550/arXiv.2503.00710",
-"cites": 115,
+"cites": 116,
 "zh_title": "Proteina：规模化流式蛋白质结构生成模型",
 "summary": "ICLR 2025提出Proteina，基于流的大规模蛋白质骨架生成器，用层级折叠类标签条件化。",
 "key_points": [
@@ -24652,7 +24652,7 @@
 "year": 2025,
 "date": "2025-02-18",
 "link": "https://doi.org/10.48550/arXiv.2502.12638",
-"cites": 32,
+"cites": 33,
 "zh_title": "NExT-Mol：3D扩散与1D语言建模结合",
 "summary": "提出基础模型NExT-Mol，结合3D扩散与1D SELFIES语言建模优势，用于三维分子生成。",
 "key_points": [
@@ -24777,7 +24777,7 @@
 "year": 2025,
 "date": "2025-02-18",
 "link": "https://doi.org/10.48550/arXiv.2502.12453",
-"cites": 11,
+"cites": 12,
 "zh_title": "UniMatch：少样本药物发现通用匹配",
 "summary": "提出双匹配框架整合层次化分子表示，解决药物发现中标注稀缺的少样本学习问题。",
 "key_points": [
@@ -25068,7 +25068,7 @@
 "year": 2025,
 "date": "2025-01-01",
 "link": "https://www.semanticscholar.org/paper/1b36608c0aa203341bb0289c0cdd5c2e11391d15",
-"cites": 4,
+"cites": 5,
 "zh_title": "重新审视基于结构的药物设计模型评估",
 "summary": "基于标题，论文主张用与实用需求相关的指标重新评估基于结构的药物设计模型。",
 "key_points": [
@@ -27279,7 +27279,7 @@
 "year": 2025,
 "date": "2025-09-25",
 "link": "https://doi.org/10.1109/ICCV51701.2025.01088",
-"cites": 5,
+"cites": 6,
 "zh_title": "MedVSR：跨状态空间传播的医学视频超分辨率",
 "summary": "提出MedVSR，用跨状态空间传播应对医学视频的抖动、噪声与帧突变，改善低分辨率医学视频超分的对齐效果。",
 "key_points": [
@@ -27800,7 +27800,7 @@
 "year": 2025,
 "date": "2025-03-13",
 "link": "https://doi.org/10.1145/3711896.3737393",
-"cites": 69,
+"cites": 70,
 "zh_title": "MentalChat16K：心理健康对话基准数据集",
 "summary": "发布英文心理健康对话基准数据集MentalChat16K，用于大模型心理健康辅助的开发与评估。",
 "key_points": [
@@ -27980,7 +27980,7 @@
 "year": 2025,
 "date": "2025-05-26",
 "link": "https://doi.org/10.1145/3770854.3780292",
-"cites": 16,
+"cites": 17,
 "zh_title": "medDreamer：潜空间想象的 EHR 强化学习临床决策支持",
 "summary": "KDD 2025 提出基于模型的强化学习 medDreamer，在复杂 EHR 上利用潜空间想象并保留不规则采样与缺失模式，支持个体化治疗决策。",
 "key_points": [
@@ -28722,7 +28722,7 @@
 "year": 2025,
 "date": "2025-02-06",
 "link": "https://doi.org/10.1145/3696410.3714782",
-"cites": 226,
+"cites": 228,
 "zh_title": "MedRAG：知识图谱增强的医疗RAG助手",
 "summary": "WWW 2025提出MedRAG，用知识图谱激发推理增强检索生成，用于医疗Copilot，减少误诊。",
 "key_points": [
@@ -30083,7 +30083,7 @@
 "year": 2025,
 "date": "2025-02-26",
 "link": "https://doi.org/10.1145/3726302.3730313",
-"cites": 7,
+"cites": 8,
 "zh_title": "MultiConAD：多语言对话数据集用于早期阿尔茨海默检测",
 "summary": "构建多语言对话数据集 MultiConAD，将阿尔茨海默病检测扩展至轻度认知障碍阶段。",
 "key_points": [
@@ -33628,7 +33628,7 @@
 "year": 2025,
 "date": "2025-09-22",
 "link": "https://doi.org/10.1007/978-3-032-05182-0_28",
-"cites": 12,
+"cites": 13,
 "zh_title": "改进模态丢弃的对比多模态融合用于疾病检测与预测",
 "summary": "提出融合增强模态丢弃与对比学习的多模态框架，应对模态不平衡与模态缺失，用于疾病检测与预测。",
 "key_points": [
@@ -47932,7 +47932,7 @@
 "year": 2025,
 "date": "2025-04-14",
 "link": "https://doi.org/10.1109/ISBI60581.2025.10981134",
-"cites": 322,
+"cites": 321,
 "zh_title": "ASAM：解剖编码的医学图像分割基础模型",
 "summary": "在SAM基础上提出解剖编码的ASAM，用无监督交叉注意力在傅里叶域以卷积/反卷积模拟成像过程，聚焦CT。",
 "key_points": [
@@ -47960,7 +47960,7 @@
 "year": 2025,
 "date": "2025-01-22",
 "link": "https://doi.org/10.1109/ISBI60581.2025.10980985",
-"cites": 16,
+"cites": 17,
 "zh_title": "AMM-Diff：自适应多模态扩散缺失模态补全",
 "summary": "提出自适应多模态扩散网络，可接受任意数量输入模态并生成缺失的MRI模态，用于脑肿瘤分割。",
 "key_points": [
@@ -72260,7 +72260,7 @@
 "year": 2025,
 "date": "2025-05-22",
 "link": "https://doi.org/10.48550/arXiv.2505.17265",
-"cites": 3,
+"cites": 4,
 "zh_title": "CaseReportBench：病例报告密集信息抽取LLM基准",
 "summary": "研究发布针对遗传代谢病病例报告的专家标注密集信息抽取数据集，评测多种大模型与提示策略，开源Qwen2.5:7B表现突出。",
 "key_points": [
@@ -84892,7 +84892,7 @@
 "year": 2025,
 "date": "2025-07-13",
 "link": "https://doi.org/10.48550/arXiv.2507.09466",
-"cites": 68,
+"cites": 67,
 "zh_title": "La-Proteina：基于部分潜变量流匹配的全原子蛋白质生成",
 "summary": "提出部分潜变量表示：显式建模骨架，以逐残基潜变量刻画序列与全原子细节，用流匹配联合生成序列与全原子结构，在多项生成基准上报告领先表现。",
 "key_points": [
@@ -85004,7 +85004,7 @@
 "year": 2026,
 "date": "2026-02-06",
 "link": "https://doi.org/10.48550/arXiv.2602.07103",
-"cites": 27,
+"cites": 28,
 "zh_title": "scDFM：用于稳健单细胞扰动预测的分布流匹配模型",
 "summary": "提出基于条件流匹配的生成框架scDFM，结合MMD目标建模扰动后细胞群体分布，并引入PAD-Transformer以提升对稀疏噪声的鲁棒性。",
 "key_points": [
@@ -85060,7 +85060,7 @@
 "year": 2025,
 "date": "2025-11-29",
 "link": "https://doi.org/10.48550/arXiv.2512.00306",
-"cites": 20,
+"cites": 21,
 "zh_title": "VCWorld：用于虚拟细胞模拟的生物世界模型",
 "summary": "提出白盒细胞级模拟器VCWorld，将结构化生物知识与大语言模型迭代推理结合，以数据高效方式预测细胞对扰动的响应。",
 "key_points": [
@@ -85116,7 +85116,7 @@
 "year": 2025,
 "date": "2025-02-18",
 "link": "https://arxiv.org/abs/2502.12981",
-"cites": 14,
+"cites": 13,
 "zh_title": "面向材料与蛋白质设计的黎曼变分流匹配",
 "summary": "提出RG-VFM，将变分流匹配扩展到具闭式测地线的流形，并分析其与黎曼流匹配（RFM）的关系，应用于材料与蛋白质设计。",
 "key_points": [
@@ -85171,7 +85171,7 @@
 "year": 2025,
 "date": "2025-09-29",
 "link": "https://doi.org/10.48550/arXiv.2509.24779",
-"cites": 11,
+"cites": 10,
 "zh_title": "MarS-FM：基于马尔可夫状态模型的分子动力学生成建模",
 "summary": "提出MSM Emulator类生成模型及MarS-FM，在离散马尔可夫状态间采样转移，称采样比分子动力学模拟快两个数量级以上。",
 "key_points": [
@@ -85603,7 +85603,7 @@
 "year": 2025,
 "date": "2025-11-06",
 "link": "https://doi.org/10.48550/arXiv.2511.04854",
-"cites": 7,
+"cites": 6,
 "zh_title": "SigmaDock：基于片段的SE(3)扩散分子对接",
 "summary": "提出将配体分解为刚性片段，并用SE(3)黎曼扩散模型在结合口袋内重组以生成对接构象，旨在解决化学不合理输出与泛化差的问题。",
 "key_points": [
@@ -85631,7 +85631,7 @@
 "year": 2026,
 "date": "2026-01-01",
 "link": "https://www.semanticscholar.org/paper/b36d4c94059a507528a2398cc298a4b0717bba5e",
-"cites": 5,
+"cites": 4,
 "zh_title": "PoseX：AI在蛋白-配体交叉对接上超越物理方法",
 "summary": "仅有标题：该工作称AI方法在蛋白-配体交叉对接任务上胜过基于物理的方法。",
 "key_points": [],
@@ -85763,7 +85763,7 @@
 "year": 2025,
 "date": "2025-09-29",
 "link": "https://doi.org/10.48550/arXiv.2509.24895",
-"cites": 3,
+"cites": 2,
 "zh_title": "理解蛋白语言模型表示的几何形状",
 "summary": "用平方根速度表示和图过滤刻画蛋白结构与表示，构建度量空间，以分析蛋白语言模型如何变换整个序列空间。",
 "key_points": [
@@ -85874,7 +85874,7 @@
 "year": 2026,
 "date": "2026-01-01",
 "link": "https://www.semanticscholar.org/paper/f45ab8d3fd5bd1266b974ff5c8090419c245f4e8",
-"cites": 2,
+"cites": 1,
 "zh_title": "基于残基级分解的蛋白质组规模蛋白互作快速检索",
 "summary": "标题显示该研究通过残基级分解实现蛋白质组规模的蛋白质相互作用快速检索。",
 "key_points": [],
@@ -85895,7 +85895,7 @@
 "year": 2025,
 "date": "2025-10-12",
 "link": "https://doi.org/10.48550/arXiv.2510.11752",
-"cites": 2,
+"cites": 1,
 "zh_title": "基于最优传输的快速可解释蛋白质子结构比对",
 "summary": "提出PLASMA框架，将残基级局部结构比对重构为正则化最优传输问题，用可微Sinkhorn迭代输出可解释比对矩阵与相似度分数。",
 "key_points": [
@@ -86093,7 +86093,7 @@
 "year": 2026,
 "date": "2026-01-01",
 "link": "https://www.semanticscholar.org/paper/b030d661f8fcaf3871c11f5cadf349c639b38117",
-"cites": 1,
+"cites": 0,
 "zh_title": "基于亚基引导分层精修的大型蛋白复合物高效预测",
 "summary": "仅有标题：论文涉及通过亚基引导的分层精修高效预测大型蛋白质复合物。",
 "key_points": [],
@@ -103541,7 +103541,7 @@
 "year": 2025,
 "date": "2025-10-12",
 "link": "https://doi.org/10.48550/arXiv.2510.11750",
-"cites": 7,
+"cites": 6,
 "zh_title": "PRISM：基于结构-序列多模态表示细粒度检索的蛋白质逆折叠",
 "summary": "提出检索增强生成框架PRISM，检索已知蛋白的细粒度结构-序列模体表示，并用混合自/交叉注意力解码器改进逆折叠。",
 "key_points": [
@@ -103679,7 +103679,7 @@
 "year": 2026,
 "date": "2026-03-06",
 "link": "https://doi.org/10.48550/arXiv.2603.06748",
-"cites": 5,
+"cites": 4,
 "zh_title": "多目标偏好对齐的性质驱动蛋白逆折叠",
 "summary": "提出ProtAlign，用半在线DPO微调逆折叠模型，兼顾结构保真与溶解度、热稳定性等多项可开发性目标。",
 "key_points": [
@@ -103788,7 +103788,7 @@
 "year": 2026,
 "date": "2026-02-02",
 "link": "https://doi.org/10.48550/arXiv.2602.02128",
-"cites": 6,
+"cites": 5,
 "zh_title": "面向长时程蛋白质动力学的可扩展时空SE(3)扩散模型",
 "summary": "提出STAR-MD，一种因果扩散Transformer，可生成微秒级物理合理的蛋白质轨迹，在ATLAS基准上报告领先性能。",
 "key_points": [
@@ -103815,7 +103815,7 @@
 "year": 2026,
 "date": "2026-05-18",
 "link": "https://doi.org/10.48550/arXiv.2605.17899",
-"cites": 4,
+"cites": 3,
 "zh_title": "DCFold：单次前向的高效蛋白结构生成",
 "summary": "提出单步生成模型DCFold，在保持AlphaFold3级精度的同时推理加速15倍，并在结构预测与结合体设计基准上验证。",
 "key_points": [
@@ -103843,7 +103843,7 @@
 "year": 2025,
 "date": "2025-05-29",
 "link": "https://arxiv.org/abs/2505.23354",
-"cites": 4,
+"cites": 3,
 "zh_title": "用机器学习力场表示蛋白质局部环境",
 "summary": "利用原子尺度基础模型的中间特征构建蛋白质局部环境表示，可捕捉局部结构与化学特征。",
 "key_points": [
@@ -104198,7 +104198,7 @@
 "year": 2025,
 "date": "2025-12-10",
 "link": "https://doi.org/10.48550/arXiv.2512.09365",
-"cites": 2,
+"cites": 1,
 "zh_title": "KGOT：统一知识图谱与最优传输伪标签的分子-蛋白相互作用预测",
 "summary": "整合分子、蛋白、基因与通路等多源数据，并用最优传输生成伪标签，缓解标注稀缺以预测分子-蛋白相互作用。",
 "key_points": [
@@ -104252,7 +104252,7 @@
 "year": 2026,
 "date": "2026-03-19",
 "link": "https://doi.org/10.48550/arXiv.2603.18571",
-"cites": 1,
+"cites": 0,
 "zh_title": "CAPSUL：人类蛋白质亚细胞定位综合基准",
 "summary": "提出整合多种3D结构表示与专家标注亚细胞定位的蛋白质基准，并评测序列与结构类先进模型。",
 "key_points": [
@@ -104280,7 +104280,7 @@
 "year": 2026,
 "date": "2026-01-01",
 "link": "https://www.semanticscholar.org/paper/2c01eaa320c3e66e2d4d3265becdaabcc2935aab",
-"cites": 1,
+"cites": 0,
 "zh_title": "RankFlow：面向蛋白质优化的属性感知传输",
 "summary": "ICLR 2026 论文，标题涉及属性感知传输用于蛋白质优化（仅有标题信息）。",
 "key_points": [],
@@ -104315,7 +104315,7 @@
 "year": 2026,
 "date": "2026-04-05",
 "link": "https://doi.org/10.48550/arXiv.2604.03911",
-"cites": 1,
+"cites": 0,
 "zh_title": "对齐结构：以结构预训练生成分子动力学轨迹",
 "summary": "先在大规模构象数据集上训练扩散结构生成模型，再用插值模块学习MD轨迹时间一致性，缓解MD数据稀缺。",
 "key_points": [
@@ -104655,7 +104655,7 @@
 "year": 2026,
 "date": "2026-02-15",
 "link": "https://doi.org/10.48550/arXiv.2602.13944",
-"cites": 0,
+"cites": 1,
 "zh_title": "融合像素与基因：计算病理中的空间感知学习",
 "summary": "提出 STAMP 框架，利用空间转录组基因表达引导病理图像表示学习，并构建大规模视觉-转录组数据集 SpaVis-6M。",
 "key_points": [
@@ -104961,7 +104961,7 @@
 "year": 2025,
 "date": "2025-11-18",
 "link": "https://doi.org/10.48550/arXiv.2511.14918",
-"cites": 4,
+"cites": 5,
 "zh_title": "X-WIN：通过预测式感知构建胸片世界模型",
 "summary": "提出胸片世界模型X-WIN，通过在潜空间预测胸部CT的2D投影，将3D解剖知识蒸馏到CXR表征学习中。",
 "key_points": [
