@@ -36,9 +36,10 @@
 "2026-11-14",
 "2026-11-15",
 "2026-11-16",
-"2026-11-17"
+"2026-11-17",
+"2026-11-18"
 ],
-"abstract_err": "springer: empty; page: no abstract in meta (229622 bytes; title: DeepMind’s ultra-powerful AI for genome mapping wows scienti; text: DeepMind’s ultra-powerful AI for genome mapping wows scientists | Nature Skip to main content Thank ); europepmc: empty; openalex: empty"
+"abstract_err": "springer: empty; page: no abstract in meta (229948 bytes; title: DeepMind’s ultra-powerful AI for genome mapping wows scienti; text: DeepMind’s ultra-powerful AI for genome mapping wows scientists | Nature Skip to main content Thank ); europepmc: empty; openalex: empty"
 },
 {
 "title": "Modernization of a Historical Prostate Cancer Registry using Artificial Intelligence: A Tale of Two Large Language Models.",
@@ -244,7 +245,8 @@
 "2026-11-14",
 "2026-11-15",
 "2026-11-16",
-"2026-11-17"
+"2026-11-17",
+"2026-11-18"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -752,9 +754,10 @@
 "2026-11-14",
 "2026-11-15",
 "2026-11-16",
-"2026-11-17"
+"2026-11-17",
+"2026-11-18"
 ],
-"abstract_err": "springer: empty; page: no abstract in meta (243536 bytes; title: Anthropic bought a one-person, AI-powered biotech: is this d; text: Anthropic bought a one-person, AI-powered biotech: is this drug discovery’s future? | Nature Skip to); europepmc: empty; openalex: empty"
+"abstract_err": "springer: empty; page: no abstract in meta (243866 bytes; title: Anthropic bought a one-person, AI-powered biotech: is this d; text: Anthropic bought a one-person, AI-powered biotech: is this drug discovery’s future? | Nature Skip to); europepmc: empty; openalex: empty"
 },
 {
 "title": "Drug Design and Discovery: The Long Road From Hansch Analysis to Artificial Intelligence.",
