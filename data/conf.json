@@ -18447,7 +18447,7 @@
 "year": 2025,
 "date": "2025-09-01",
 "link": "https://doi.org/10.24963/ijcai.2025/187",
-"cites": 8,
+"cites": 9,
 "zh_title": "小波多尺度区域增强网络用于医学图像分割",
 "summary": "提出WMREN医学图像分割方法，采用UNet结构缓解多尺度组织的信息损失。",
 "key_points": [
@@ -19027,7 +19027,7 @@
 "year": 2025,
 "date": "2025-10-24",
 "link": "https://doi.org/10.48550/arXiv.2510.21585",
-"cites": 148,
+"cites": 147,
 "zh_title": "REVE：可适配任意设置的EEG基础模型",
 "summary": "NeurIPS 2025提出REVE，在2.5万名受试者上大规模预训练，旨在适应不同EEG采集设置。",
 "key_points": [
@@ -23230,7 +23230,7 @@
 "year": 2025,
 "date": "2025-02-05",
 "link": "https://doi.org/10.48550/arXiv.2502.04397",
-"cites": 23,
+"cites": 24,
 "zh_title": "多模态医学编码分词器",
 "summary": "提出多模态医学编码分词器，将EHR医学编码的文本描述、本体层级与编码间关系一并纳入分词。",
 "key_points": [
@@ -25592,7 +25592,7 @@
 "year": 2025,
 "date": "2025-04-06",
 "link": "https://doi.org/10.1109/CVPR52734.2025.02873",
-"cites": 32,
+"cites": 33,
 "zh_title": "DyCON：动态不确定性感知的半监督医学图像分割",
 "summary": "CVPR 2025 提出 DyCON 框架，用动态不确定性感知的一致性与对比学习缓解类别不平衡与高不确定性，改善 3D 医学图像分割。",
 "key_points": [
@@ -32514,7 +32514,7 @@
 "year": 2025,
 "date": "2025-02-26",
 "link": "https://doi.org/10.48550/arXiv.2502.19634",
-"cites": 236,
+"cites": 237,
 "zh_title": "MedVLM-R1：强化学习激励医学VLM推理",
 "summary": "MICCAI 2025提出MedVLM-R1，让医学视觉语言模型显式生成自然语言推理，提升透明度与可信度。",
 "key_points": [
@@ -85895,7 +85895,7 @@
 "year": 2025,
 "date": "2025-10-12",
 "link": "https://doi.org/10.48550/arXiv.2510.11752",
-"cites": 1,
+"cites": 2,
 "zh_title": "基于最优传输的快速可解释蛋白质子结构比对",
 "summary": "提出PLASMA框架，将残基级局部结构比对重构为正则化最优传输问题，用可微Sinkhorn迭代输出可解释比对矩阵与相似度分数。",
 "key_points": [
@@ -86185,7 +86185,7 @@
 "year": 2026,
 "date": "2026-01-01",
 "link": "https://www.semanticscholar.org/paper/0005f86b2ed044280db1e93c8eaa0431a32a9070",
-"cites": 1,
+"cites": 2,
 "zh_title": "面向医学超声的解剖感知表征学习",
 "summary": "仅有标题，涉及医学超声的解剖感知表征学习。",
 "key_points": [],
@@ -103265,7 +103265,7 @@
 "year": 2025,
 "date": "2025-09-29",
 "link": "https://arxiv.org/abs/2509.25095",
-"cites": 14,
+"cites": 15,
 "zh_title": "ECG基础模型基准：跨临床任务的现实检验",
 "summary": "在12个公开数据集、26项临床任务上评测8个ECG基础模型，比较微调与冻结设置及数据规模缩放；部分模型优于监督基线，紧凑的ECG-CPC在多数任务类别占优。",
 "key_points": [
@@ -104739,7 +104739,7 @@
 "year": 2025,
 "date": "2025-11-21",
 "link": "https://doi.org/10.48550/arXiv.2511.17209",
-"cites": 9,
+"cites": 10,
 "zh_title": "SPECTRE：体积CT Transformer的自监督与跨模态预训练",
 "summary": "提出全Transformer的体积CT基础模型SPECTRE，结合自监督与视觉-语言预训练，仅用公开CT数据训练。",
 "key_points": [
