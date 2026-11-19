@@ -740,7 +740,8 @@
 "2026-11-16",
 "2026-11-17",
 "2026-11-18",
-"2026-11-19"
+"2026-11-19",
+"2026-11-20"
 ],
 "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
 },
@@ -1997,6 +1998,10 @@
 {
 "source": "智源社区",
 "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAxNndQZ0U4MEd2a2xQc2hPTk9iYzZSTzBhTmhhNWxmU1J5Qi1FUWRBTHYtVnRTTGNLMlhOa25zNGR4MnppRGFOSw?oc=5"
+},
+{
+"source": "风闻",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wVTZZQ2Y3bDBsQ0ZZWGFRUGdGa2VDT2k5UWZjU3FFN1RnaEI4SlJfeGhldTJIYnRCWnZsTFlWUFNMeGdsSjFhczNNa0NRM1l4d1M2OF80d09Rdmh0Ry11aE5hS2RjcjNKYmc?oc=5"
 }
 ]
 }
