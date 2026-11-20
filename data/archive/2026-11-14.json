@@ -945,7 +945,13 @@
 "abstract": "Cryogenic electron microscopy (cryo-EM) is widely used to determine protein structures from purified samples. With cryogenic electron tomography (cryo-ET), it is possible to image thin sections of cells and directly visualize diverse proteins in their native environment. However, separating the massive mixture of different types of proteins inside cells remains challenging, especially without human intervention. In this work, we present an unsupervised deep learning framework for classifying cryo-EM/ET particle images that jointly optimizes for pose and structure through an autoencoder-based multi-stage pipeline. On single-particle cryo-EM datasets, our framework can capture the continuous variation in particle views and separate images of real particles from contamination. Using in silico mixtures of multiple types of proteins, we demonstrated our method's capability of separating the protein classes without supervision. Finally in a real cryo-ET dataset of algal chloroplast, our deep learning model successfully detected the four main protein complexes of photosynthesis on native thylakoid membranes. Taken together, these results demonstrate that our framework offers a scalable, annotation-free solution for robust structural discovery across diverse cryo-EM and cryo-ET applications.",
 "day": "2026-11-14",
 "rank": 7.81,
-"zh_abstract": "冷冻电子显微镜（cryo-EM）被广泛用于从纯化样品中解析蛋白质结构。借助冷冻电子断层扫描（cryo-ET），可以对细胞薄切片成像，并在天然环境中直接观察多种蛋白质。然而，将细胞内大量不同类型蛋白质的混合物分离开来仍具挑战性，尤其是在没有人工干预的情况下。在本研究中，我们提出了一种用于对 cryo-EM/ET 颗粒图像进行分类的无监督深度学习框架，该框架通过基于自编码器的多阶段流程，对位姿和结构进行联合优化。在单颗粒 cryo-EM 数据集上，我们的框架能够捕捉颗粒视角的连续变化，并将真实颗粒的图像与污染物区分开来。利用多种蛋白质的计算机模拟混合物，我们证明了该方法能够在无监督条件下分离不同的蛋白质类别。最后，在一个真实的藻类叶绿体 cryo-ET 数据集中，我们的深度学习模型成功检测到天然类囊体膜上光合作用的四种主要蛋白复合物。综上，这些结果表明，我们的框架为各类 cryo-EM 和 cryo-ET 应用中稳健的结构发现提供了一种可扩展、无需标注的解决方案。"
+"zh_abstract": "冷冻电子显微镜（cryo-EM）被广泛用于从纯化样品中解析蛋白质结构。借助冷冻电子断层扫描（cryo-ET），可以对细胞薄切片成像，并在天然环境中直接观察多种蛋白质。然而，将细胞内大量不同类型蛋白质的混合物分离开来仍具挑战性，尤其是在没有人工干预的情况下。在本研究中，我们提出了一种用于对 cryo-EM/ET 颗粒图像进行分类的无监督深度学习框架，该框架通过基于自编码器的多阶段流程，对位姿和结构进行联合优化。在单颗粒 cryo-EM 数据集上，我们的框架能够捕捉颗粒视角的连续变化，并将真实颗粒的图像与污染物区分开来。利用多种蛋白质的计算机模拟混合物，我们证明了该方法能够在无监督条件下分离不同的蛋白质类别。最后，在一个真实的藻类叶绿体 cryo-ET 数据集中，我们的深度学习模型成功检测到天然类囊体膜上光合作用的四种主要蛋白复合物。综上，这些结果表明，我们的框架为各类 cryo-EM 和 cryo-ET 应用中稳健的结构发现提供了一种可扩展、无需标注的解决方案。",
+"also": [
+{
+"source": "PubMed · bioRxiv : the preprint server for biology",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43059876/"
+}
+]
 },
 {
 "title": "BenchmarkHub: an open-source platform for reproducible evaluation of large language models in healthcare",

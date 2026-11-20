@@ -202,7 +202,8 @@
 "day": "2026-11-20",
 "rank": 10.0,
 "abstract_days": [
-"2026-11-20"
+"2026-11-20",
+"2026-11-21"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -304,9 +305,10 @@
 "day": "2026-11-20",
 "rank": 9.81,
 "abstract_days": [
-"2026-11-20"
+"2026-11-20",
+"2026-11-21"
 ],
-"abstract_err": "springer: empty; page: no abstract in meta (243536 bytes; title: Anthropic IPO: four ways the AI giant wants to disrupt scien; text: Anthropic IPO: four ways the AI giant wants to disrupt science | Nature Skip to main content Thank y); europepmc: empty; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: HTTP Error 503: Service Unavailable; page: HTTP Error 503: Service Unavailable; europepmc: empty; openalex: empty"
 },
 {
 "title": "CardioLoom: A Report-Guided Electrocardiogram Foundation Model for Cross-Domain Cardiovascular Phenotyping",
@@ -2796,7 +2798,8 @@
 "day": "2026-11-20",
 "rank": 8.0,
 "abstract_days": [
-"2026-11-20"
+"2026-11-20",
+"2026-11-21"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },

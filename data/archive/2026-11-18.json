@@ -1311,9 +1311,10 @@
 "abstract_days": [
 "2026-11-18",
 "2026-11-19",
-"2026-11-20"
+"2026-11-20",
+"2026-11-21"
 ],
-"abstract_err": "springer: empty; page: no abstract in meta (239309 bytes; title: AI wearables could exploit people’s most vulnerable moments ; text: AI wearables could exploit people’s most vulnerable moments | Nature Skip to main content Thank you ); europepmc: empty; openalex: empty"
+"abstract_err": "springer: HTTP Error 503: Service Unavailable; page: no abstract in meta (240026 bytes; title: AI wearables could exploit people’s most vulnerable moments ; text: AI wearables could exploit people’s most vulnerable moments | Nature Skip to main content Thank you ); europepmc: empty; openalex: empty"
 },
 {
 "title": "Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
@@ -2320,7 +2321,13 @@
 "abstract": "Agentic artificial intelligence could automate analyses of sensitive clinical data, but current agents depend on large language models (LLMs). Cloud LLMs expose patient data. Local LLMs hallucinate, and an invented value in a tool call propagates through every later step. Here we present a method to build System 1 agents: local agents that call tools without generating text. A deterministic compiler turns each tool's schema and the request into multiple-choice questions whose options come from the request and the schema, then a one-pass decision model answers them. On 1,952 requests to 157 biomedical tools, the best System 1 agent chose the right tool, or correctly declined, for 97.0% of requests, significantly ahead of all 18 local LLM-agent settings (best 95.2%). The System 1 agent filled 97.0% of 6,056 stated argument values. No System 1 call contained invented content, against 5.5-19.7% of LLM calls. The System 1 Agents framework is freely available as open-source software at https://github.com/eltzanis/SystemOneAgents.",
 "day": "2026-11-18",
 "rank": 7.84,
-"zh_abstract": "智能体人工智能可以自动分析敏感的临床数据，但目前的智能体依赖大语言模型（LLM）。云端 LLM 会暴露患者数据。本地 LLM 会产生幻觉，而工具调用中虚构的数值会在之后的每一步中传播。在此我们提出一种构建 System 1 智能体的方法：这类本地智能体无需生成文本即可调用工具。一个确定性编译器将每个工具的模式（schema）和请求转换为多项选择题，其选项来自请求和模式，然后由单次前向的决策模型作答。在针对 157 个生物医学工具的 1,952 条请求中，最佳 System 1 智能体为 97.0% 的请求选对了工具或正确地拒绝调用，显著优于全部 18 种本地 LLM 智能体设置（最佳为 95.2%）。System 1 智能体填充了 6,056 个已陈述参数值中的 97.0%。System 1 的调用中没有出现虚构内容，而 LLM 调用中该比例为 5.5%–19.7%。System 1 Agents 框架作为开源软件免费提供，网址为 https://github.com/eltzanis/SystemOneAgents。"
+"zh_abstract": "智能体人工智能可以自动分析敏感的临床数据，但目前的智能体依赖大语言模型（LLM）。云端 LLM 会暴露患者数据。本地 LLM 会产生幻觉，而工具调用中虚构的数值会在之后的每一步中传播。在此我们提出一种构建 System 1 智能体的方法：这类本地智能体无需生成文本即可调用工具。一个确定性编译器将每个工具的模式（schema）和请求转换为多项选择题，其选项来自请求和模式，然后由单次前向的决策模型作答。在针对 157 个生物医学工具的 1,952 条请求中，最佳 System 1 智能体为 97.0% 的请求选对了工具或正确地拒绝调用，显著优于全部 18 种本地 LLM 智能体设置（最佳为 95.2%）。System 1 智能体填充了 6,056 个已陈述参数值中的 97.0%。System 1 的调用中没有出现虚构内容，而 LLM 调用中该比例为 5.5%–19.7%。System 1 Agents 框架作为开源软件免费提供，网址为 https://github.com/eltzanis/SystemOneAgents。",
+"also": [
+{
+"source": "Hugging Face Daily Papers",
+"link": "https://huggingface.co/papers/2611.21053"
+}
+]
 },
 {
 "title": "PlainPairs: A Corpus Pairing the Prescriber and Patient Texts of U.S. Prescription Medicine Labels",
@@ -3529,7 +3536,8 @@
 "abstract_days": [
 "2026-11-18",
 "2026-11-19",
-"2026-11-20"
+"2026-11-20",
+"2026-11-21"
 ],
 "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
 },
