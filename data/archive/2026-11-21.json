@@ -63,7 +63,8 @@
 "day": "2026-11-21",
 "rank": 11.64,
 "abstract_days": [
-"2026-11-21"
+"2026-11-21",
+"2026-11-22"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
 },
@@ -544,7 +545,8 @@
 "day": "2026-11-21",
 "rank": 9.0,
 "abstract_days": [
-"2026-11-21"
+"2026-11-21",
+"2026-11-22"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -576,7 +578,8 @@
 "day": "2026-11-21",
 "rank": 9.0,
 "abstract_days": [
-"2026-11-21"
+"2026-11-21",
+"2026-11-22"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -611,7 +614,8 @@
 "day": "2026-11-21",
 "rank": 9.0,
 "abstract_days": [
-"2026-11-21"
+"2026-11-21",
+"2026-11-22"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -2073,7 +2077,13 @@
 "score": 3,
 "reason": "仅标题，信息极少，观点类",
 "day": "2026-11-21",
-"rank": 5.31
+"rank": 5.31,
+"also": [
+{
+"source": "凤凰网科技",
+"link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8ydzFrOTltTXdVSi13WTZpdmZLN3psOFk1clYtZXFmNUZjRjVEaHN5N0tmX0F1VEU4VHVuMVdncDFWbDNYZThOLTdOOGY?oc=5"
+}
+]
 },
 {
 "title": "FDA to use term super intelligence instead of AI",

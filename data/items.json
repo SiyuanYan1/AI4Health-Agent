@@ -1,5 +1,419 @@
 [
  {
+  "title": "A global atlas of digital dermatology to map innovation and disparities",
+  "link": "https://www.nature.com/articles/s41467-026-78602-w",
+  "date": "2026-11-21T00:00:00+00:00",
+  "source": "Nature Communications",
+  "source_group": "Nature Communications",
+  "home": "",
+  "thin": false,
+  "badge": "DOI 10.1038/s41467-026-78602-w",
+  "pop": null,
+  "id": "4a7375d142bb",
+  "keep": true,
+  "zh_title": "全球数字皮肤病学图谱：映射创新与差异",
+  "summary": "整合29个公开数据集的110万张皮肤图像构建语义图谱，发现数据严重偏斜且冗余增加，深肤色与儿科样本占比低。",
+  "key_points": [
+   "统一110万张图像、29个公开数据集",
+   "Fitzpatrick V–VI仅占11.0%，儿科仅2.3%",
+   "数据新颖性已趋于平台期"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "数据集",
+   "公平与安全"
+  ],
+  "evidence": "同行评审",
+  "score": 7,
+  "reason": "大规模公开数据整合，量化皮肤AI数据偏差；皮肤专科加分",
+  "abstract": "Artificial intelligence promises democratized access to dermatological care, but model reliability depends on the quality and comprehensiveness of the underlying data. Despite rapid growth in publicly available dermatology images, the field lacks quantitative indicators to measure whether new datasets expand clinical coverage or merely replicate what is already known. Existing collections are widely assumed to be biased, yet the scale and topography of these gaps have remained unquantified, leaving the community without a road map for strategic data acquisition. Here, we show, by unifying 1.1 million images from 29 public datasets into a queryable semantic atlas, that the global archive is markedly skewed and increasingly redundant: darker skin tones (Fitzpatrick V–VI) constitute only 11.0% of images, pediatric patients only 2.3%, and informational novelty has plateaued despite exponential growth, revealing where targeted data acquisition is most needed.",
+  "day": "2026-11-22",
+  "rank": 12.31,
+  "zh_abstract": "人工智能有望使皮肤科诊疗的可及性更加普惠，但模型的可靠性取决于底层数据的质量和全面性。尽管公开可用的皮肤病图像迅速增长，该领域仍缺乏定量指标来衡量新数据集是扩大了临床覆盖范围，还是仅仅重复了已知内容。人们普遍认为现有数据集存在偏倚，但这些缺口的规模和分布仍未被量化，使学界在有策略地获取数据方面缺乏路线图。在此，我们将来自 29 个公开数据集的 110 万张图像整合为一个可查询的语义图谱，结果显示全球档案明显偏斜且冗余度日益增加：较深肤色（Fitzpatrick V–VI 型）仅占图像的 11.0%，儿科患者仅占 2.3%，并且尽管数据呈指数级增长，信息新颖性已趋于平台期，从而揭示了最需要有针对性地获取数据的领域。"
+ },
+ {
+  "title": "Artificial Intelligence in Thoracic Pathology and Biomarker Assessment: An IASLC Pathology Committee Review.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43064238/",
+  "date": "2026-11-20T00:00:00+00:00",
+  "badge": "DOI 10.1016/j.jtho.2026.106259",
+  "source": "PubMed · Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "7a08c81e03c5",
+  "keep": true,
+  "zh_title": "胸部病理与生物标志物评估中的 AI：IASLC 病理委员会综述",
+  "summary": "综述梳理 AI 在肺癌病理中的方法与应用，包括亚型分型、驱动突变预测、肿瘤微环境评估，以及弱监督和自监督学习。",
+  "key_points": [
+   "监督学习主导当前临床 AI 工具",
+   "涵盖 EGFR、KRAS、ALK 等改变的预测",
+   "介绍 MIL 与对比学习等弱监督/自监督方法"
+  ],
+  "section": "影像与病理",
+  "type": "观点",
+  "tags": [
+   "病理",
+   "肿瘤",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 6,
+  "reason": "学会委员会综述，病理肿瘤方向，综述上限6档",
+  "abstract": "[Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer] Artificial intelligence (AI) is starting to transform pathology by enhancing diagnostic accuracy, prognostication, and therapeutic prediction through advanced computational analysis of histopathological images. This review explores key AI methodologies and their applications in lung cancer diagnostics. Supervised learning dominates current clinical AI tools, relying on annotated whole-slide images (WSIs) for tasks like tumor subtyping, quantitation of tissue-based parameters, prediction of driver alterations (e.g. EGFR and KRAS mutations, ALK rearrangement), and assessment of tumor microenvironment (TME) features. Meanwhile, weakly supervised and self-supervised learning (SSL) methods, such as multiple instance learning (MIL) and contrastive learning, reduce dependency on labor-intensive annotations and uncover novel prognostic morphologic patterns. AI demonstrates strong performance in predicting therapeutic responses, including immune checkpoint inhibitor efficacy and pathologic response to neoadjuvant therapy, while emerging techniques like spatial transcriptomics and multiplex immunofluorescence further leverage AI to decode complex spatial biology and generate novel biomarkers. Despite much progress, major challenges persist in validation, reliability, interpretability, regulatory approval, ethics and data privacy standards, cost and reimbursement, equity, and integration into clinical workflows. Adoption requires scalable digital pathology infrastructure, interdisciplinary collaboration, and suitable reimbursement frameworks. Regulatory efforts aim to address ethical and safety concerns, but global harmonization remains incomplete. We also consider the professional consequences of adoption, including cognitive deskilling, workforce displacement, and the conditions under which pathologist oversight remains meaningful rather than nominal, and argue that liability should follow the reality of control. As AI evolves, particularly with foundation models and large language models (LLMs), thoracic pathology stands to benefit from substantially extended diagnostic and predictive capabilities, pending resolution of implementation barriers.",
+  "day": "2026-11-22",
+  "rank": 10.14,
+  "zh_abstract": "[Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer] 人工智能（AI）正通过对组织病理图像进行先进的计算分析，提高诊断准确性、预后判断和治疗预测，开始改变病理学。本综述探讨了关键的AI方法及其在肺癌诊断中的应用。监督学习在当前临床AI工具中占主导地位，其依赖带标注的全切片图像（WSI），用于肿瘤亚型分类、组织学参数定量、驱动基因改变（如EGFR和KRAS突变、ALK重排）的预测以及肿瘤微环境（TME）特征的评估。同时，弱监督和自监督学习（SSL）方法，如多示例学习（MIL）和对比学习，减少了对费力的标注的依赖，并可发现新的具有预后意义的形态学模式。AI在预测治疗反应方面表现出色，包括免疫检查点抑制剂疗效和新辅助治疗的病理学反应；同时，空间转录组学和多重免疫荧光等新兴技术进一步借助AI解析复杂的空间生物学并产生新的生物标志物。尽管取得了很大进展，但在验证、可靠性、可解释性、监管审批、伦理和数据隐私标准、成本与报销、公平性以及与临床工作流程的整合方面，仍存在重大挑战。推广应用需要可扩展的数字病理基础设施、跨学科合作和适当的报销框架。监管工作旨在应对伦理和安全问题，但全球协调统一仍不完善。我们还考虑了采用AI带来的职业影响，包括认知技能退化、劳动力替代，以及病理医师监督在何种条件下才是实质性而非名义上的，并主张责任应与实际控制相一致。随着AI的发展，特别是基础模型和大语言模型（LLM），在实施障碍得到解决之前提下，胸部病理学有望从大幅扩展的诊断和预测能力中获益。"
+ },
+ {
+  "title": "Potential and pitfalls of artificial intelligence to address disparities in epilepsy.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43064818/",
+  "date": "2026-11-20T00:00:00+00:00",
+  "badge": "DOI 10.1038/s41582-026-01287-8",
+  "source": "PubMed · Nature reviews. Neurology",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "9b783781a206",
+  "keep": true,
+  "zh_title": "AI 缓解癫痫诊疗差距的潜力与隐患",
+  "summary": "综述探讨 AI 分析脑电、智能手机数据和电子病历，如何改善资源有限地区的癫痫诊断与监测，并讨论透明度与公平性问题。",
+  "key_points": [
+   "聚焦低收入和中等收入国家的癫痫诊疗差距",
+   "涉及低成本脑电、手机数据与电子病历分析",
+   "讨论临床专业能力、算法透明度与医疗公平"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "公平与安全",
+   "神经科学",
+   "生理信号"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "综述类，最高6档；主题相关但无新证据",
+  "abstract": "[Nature reviews. Neurology] The convergence of artificial intelligence (AI) and health care offers unprecedented opportunities to address global disparities in access to specialized epilepsy diagnosis and treatment, particularly in resource-limited settings. Advances in AI models, combined with increasing internet connectivity and smartphone usage in low-income and middle-income countries, offer promising solutions for epilepsy diagnosis and monitoring through AI-based analysis of electroencephalography recordings captured with affordable open-source systems, smartphone data and electronic health records. However, this technological revolution raises important questions about the preservation and expansion of clinical expertise, AI algorithm transparency and health-care equity. In this Review, we examine how AI can help to address disparities and improve global epilepsy care while maintaining high clinical standards and addressing systemic challenges.",
+  "day": "2026-11-22",
+  "rank": 9.14,
+  "zh_abstract": "[Nature reviews. Neurology] 人工智能（AI）与医疗卫生的融合，为解决全球范围内获得专业癫痫诊断和治疗的差距，特别是在资源有限的环境中，提供了前所未有的机遇。AI模型的进步，加上低收入和中等收入国家互联网连接和智能手机使用的日益普及，通过对经济实惠的开源系统采集的脑电图记录、智能手机数据和电子健康记录进行基于AI的分析，为癫痫的诊断和监测提供了有前景的解决方案。然而，这场技术革命也引发了关于临床专业知识的保持与拓展、AI算法透明度以及医疗公平性的重要问题。在本综述中，我们探讨AI如何在保持高临床标准并应对系统性挑战的同时，帮助缩小差距并改善全球癫痫诊疗。"
+ },
+ {
+  "title": "Impact of MRI sequence heterogeneity on deep learning-based segmentation of brain metastases.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43063137/",
+  "date": "2026-11-20T00:00:00+00:00",
+  "badge": "DOI 10.1371/journal.pone.0363055",
+  "source": "PubMed · PloS one",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "268d86ae62ac",
+  "keep": true,
+  "zh_title": "MRI序列异质性对脑转移瘤深度学习分割的影响",
+  "summary": "用925例增强T1 MRI（720例患者）评估不同序列配置对3D Attention U-Net与DUCK-Net 3D分割脑转移瘤的影响。",
+  "key_points": [
+   "回顾性数据，六种序列配置训练",
+   "三个独立测试队列，五折交叉验证",
+   "探讨协议异质性对泛化性的影响"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "肿瘤"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "规范回顾性研究，样本可观，有独立测试集，脑转移主题略加分",
+  "abstract": "[PloS one] Brain metastases (BMs) require accurate delineation for treatment planning, yet magnetic resonance imaging (MRI) acquisition protocols vary substantially in clinical practice. Such protocol-level heterogeneity may affect the generalizability of deep learning-based segmentation models. This study evaluated the impact of heterogeneous T1-weighted MRI protocols on BM segmentation performance using two three-dimensional architectures, 3D Attention U-Net and DUCK-Net 3D. A retrospective dataset of 925 contrast-enhanced T1-weighted MRI studies from 720 patients was analyzed. Models were trained under six sequence configurations, including multi-sequence, Black-Blood (BB), Non-Black-Blood (Non-BB), and three single-sequence cohorts. Independent test datasets consisted of three MRI cohorts: MPR Range, MPR Thick Range, and T1 SPACE 3D. Five-fold cross-validation was performed. Performance was evaluated using the Dice similarity coefficient (DSC), volumetric regression, and false discovery rate-corrected statistical comparisons. DUCK-Net 3D demonstrated more consistent performance across independent MRI cohorts, particularly under cross-sequence conditions. Multi-sequence training achieved the most stable cross-sequence performance, whereas single-sequence models showed greater sensitivity to protocol variability. Segmentation accuracy declined for small lesions (<0.4 mL) across both architectures. These findings suggest that MRI protocol heterogeneity affects segmentation performance and that sequence-diverse training may improve cross-sequence robustness in clinical settings.",
+  "day": "2026-11-22",
+  "rank": 9.14,
+  "zh_abstract": "[PloS one] 脑转移瘤（BMs）的治疗计划需要精确勾画，但临床实践中磁共振成像（MRI）的采集方案差异很大。这种方案层面的异质性可能影响基于深度学习的分割模型的泛化能力。本研究使用两种三维架构——3D Attention U-Net和DUCK-Net 3D，评估异质性T1加权MRI方案对BM分割性能的影响。分析了一个回顾性数据集，包含来自720例患者的925项对比增强T1加权MRI检查。模型在六种序列配置下训练，包括多序列、黑血（BB）、非黑血（Non-BB）以及三个单序列队列。独立测试数据集由三个MRI队列组成：MPR Range、MPR Thick Range和T1 SPACE 3D。采用五折交叉验证。使用Dice相似系数（DSC）、体积回归以及经错误发现率校正的统计比较来评估性能。DUCK-Net 3D在各独立MRI队列中表现出更一致的性能，尤其是在跨序列条件下。多序列训练取得了最稳定的跨序列性能，而单序列模型对方案变异更为敏感。两种架构对小病灶（<0.4 mL）的分割准确性均有所下降。这些发现提示，MRI方案异质性会影响分割性能，而序列多样化训练可能提高临床环境中的跨序列稳健性。"
+ },
+ {
+  "title": "Artificial Intelligence in Screening and Early Detection of Prostate Cancer.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43064602/",
+  "date": "2026-11-20T00:00:00+00:00",
+  "badge": "DOI 10.1016/j.euf.2026.11.003",
+  "source": "PubMed · European urology focus",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "01355c7415ad",
+  "keep": true,
+  "zh_title": "AI在前列腺癌筛查与早期检测中的应用综述",
+  "summary": "综述AI如何整合风险计算器、MRI、数字病理、基因组和生物标志物用于前列腺癌筛查，并指出现有系统多只解决诊断路径中的孤立环节。",
+  "key_points": [
+   "涵盖MRI判读、数字病理、Gleason分级",
+   "基因组风险评分与生物标志物辅助精准筛查",
+   "多数系统仅针对诊断路径的孤立环节"
+  ],
+  "section": "影像与病理",
+  "type": "观点",
+  "tags": [
+   "肿瘤",
+   "医学影像",
+   "病理"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "综述类，信息泛泛，无新数据，属增量档",
+  "abstract": "[European urology focus] Artificial intelligence (AI) is transforming prostate cancer screening and early detection through the integration of clinical-risk calculators, magnetic resonance imaging (MRI), digital pathology, genomics, biomarkers, and liquid biopsies. AI-enhanced risk models may improve biopsy decisions, while AI-assisted MRI interpretation can increase the detection of clinically significant disease and reduce false positives, unnecessary biopsies, and overdiagnosis. Digital pathology algorithms may support more reproducible tumor identification, Gleason grading, and prognostic stratification. Genomic risk scores, kallikrein-based tests, and emerging circulating biomarkers further enable precision screening by identifying men at elevated risk and refining the selection for imaging or biopsy. However, most available systems address isolated components of the diagnostic pathway, and evidence from prospective, real-world screening populations remains limited. Clinical implementation therefore requires external validation, screening-specific calibration, implemented reference standards, and workflow integration. Ultimately, multimodal AI may enable a \"virtual biopsy\" that combines imaging, molecular, pathological, and clinical data to deliver personalized, noninvasive prostate cancer assessment.",
+  "day": "2026-11-22",
+  "rank": 8.14,
+  "zh_abstract": "[European urology focus] 人工智能（AI）通过整合临床风险计算器、磁共振成像（MRI）、数字病理、基因组学、生物标志物和液体活检，正在改变前列腺癌的筛查和早期检出。AI增强的风险模型可能改善活检决策，而AI辅助的MRI判读可提高临床显著性疾病的检出率，并减少假阳性、不必要的活检和过度诊断。数字病理算法可能支持更具可重复性的肿瘤识别、Gleason分级和预后分层。基因组风险评分、基于激肽释放酶的检测以及新兴的循环生物标志物，通过识别高风险男性并优化影像学检查或活检的选择，进一步实现精准筛查。然而，现有大多数系统仅针对诊断路径中的孤立环节，来自前瞻性、真实世界筛查人群的证据仍然有限。因此，临床应用需要外部验证、针对筛查的校准、已实施的参考标准以及工作流程整合。最终，多模态AI有望实现“虚拟活检”，整合影像、分子、病理和临床数据，提供个体化、无创的前列腺癌评估。"
+ },
+ {
+  "title": "A Clinically Weighted Transformer-Based Deep Learning Model for Automated FLIP Panometry v2.0 Interpretation.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43057356/",
+  "date": "2026-11-19T00:00:00+00:00",
+  "badge": "DOI 10.1016/j.cgh.2026.10.036",
+  "source": "PubMed · Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "d834242ce5f3",
+  "keep": true,
+  "zh_title": "基于临床加权Transformer的FLIP测压v2.0自动判读模型",
+  "summary": "用984例成人数据训练Transformer模型自动判读FLIP测压，引入惩罚临床重大错误的加权代价矩阵，以专家判读为参考标准。",
+  "key_points": [
+   "纳入984例同时做FLIP与高分辨率测压者",
+   "专家在对HRM盲态下给出参考标签",
+   "使用临床加权代价矩阵惩罚重大错误"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "生理信号",
+   "临床决策支持"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "样本中等的模型开发，摘要未见外部验证，属增量偏上",
+  "abstract": "[Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association] Functional lumen imaging probe (FLIP) Panometry evaluates esophageal motility by measuring contractile responses and esophagogastric junction opening, but interpretation requires expertise and varies between readers. We aimed to develop a transformer-based deep learning model for automated FLIP Panometry v2.0 interpretation, incorporating a clinically weighted cost matrix that penalizes clinically consequential errors. 984 adults who underwent FLIP Panometry and high-resolution manometry (HRM) were included. Expert FLIP Panometry v2.0 interpretation, assigned blinded to HRM, served as the reference standard for training and evaluation. HRM (Chicago Classification v4.0) characterized the cohort and corroborated expert FLIP labels. Inconclusive or discordant HRM studies were excluded. A transformer model with a weighted cost matrix was evaluated on a held-out test set using the six-category FLIP Panometry v2.0 scheme and grouped binary (\"normal\" vs \"not normal\") and three-class (\"normal,\" \"abnormal,\" \"obstructive\") schemes. The model reproduced expert six-category classification in 83.5% of test studies (95% CI 76.4-88.7%). Binary accuracy was 94% (89-97%), with 97% sensitivity (91-99%) and 89% specificity (76-95%). Three-class accuracy was 89% (83-93%); sensitivity and specificity for obstructive patterns were 93% (82-97%) and 96% (90-99%). No normal studies were classified as obstructive, or vice versa. Versus an unweighted baseline model, cost-sensitive training was associated with 15% lower aggregate misclassification cost (95% CI -16% to 39%). A transformer-based model reproduced expert FLIP Panometry v2.0 interpretation with high agreement in a selected single-center cohort. Accuracy was numerically higher than prior convolutional models trained on different data. These findings support a potential role for AI-assisted FLIP interpretation, but external validation is required before clinical use.",
+  "day": "2026-11-22",
+  "rank": 7.99,
+  "zh_abstract": "[Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association] 功能性管腔成像探头（FLIP）Panometry 通过测量收缩反应和食管胃交界部开放程度来评估食管动力，但其判读需要专业经验，且不同判读者之间存在差异。我们旨在开发一种基于 Transformer 的深度学习模型，用于 FLIP Panometry v2.0 的自动判读，并纳入一个按临床权重设定的代价矩阵，以对具有临床后果的错误进行惩罚。研究纳入 984 名接受 FLIP Panometry 和高分辨率食管测压（HRM）的成人。专家在对 HRM 结果设盲的情况下给出的 FLIP Panometry v2.0 判读，作为训练和评估的参考标准。HRM（芝加哥分类 v4.0）用于描述队列特征，并佐证专家的 FLIP 标签。结论不明确或结果不一致的 HRM 检查被排除。采用带加权代价矩阵的 Transformer 模型，在留出的测试集上，按六类 FLIP Panometry v2.0 分类方案，以及分组的二分类（“正常”与“非正常”）和三分类（“正常”“异常”“梗阻性”）方案进行评估。该模型在 83.5% 的测试检查中复现了专家的六类分类结果（95% CI 76.4–88.7%）。二分类准确率为 94%（89–97%），敏感性 97%（91–99%），特异性 89%（76–95%）。三分类准确率为 89%（83–93%）；梗阻性模式的敏感性和特异性分别为 93%（82–97%）和 96%（90–99%）。没有正常检查被分类为梗阻性，反之亦然。与未加权的基线模型相比，代价敏感训练使总体误分类代价降低 15%（95% CI −16% 至 39%）。在一个经过筛选的单中心队列中，基于 Transformer 的模型以较高的一致性复现了专家的 FLIP Panometry v2.0 判读。其准确率在数值上高于既往基于不同数据训练的卷积模型。这些发现支持 AI 辅助 FLIP 判读的潜在作用，但在临床应用前需要进行外部验证。"
+ },
+ {
+  "title": "Progress in the Application of Artificial Intelligence in Radiotherapy: From Image Guidance to Adaptive Radiation Therapy.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43052664/",
+  "date": "2026-11-18T00:00:00+00:00",
+  "badge": "DOI 10.1007/978-1-0716-5695-2_20",
+  "source": "PubMed · Methods in molecular biology (Clifton, N.J.)",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "b77db5f1f8d4",
+  "keep": true,
+  "zh_title": "AI在放疗中的应用进展：从影像引导到自适应放疗",
+  "summary": "综述AI在放疗中的演进，重点是由影像引导放疗向自适应放疗的转变，涵盖分割、运动管理等环节。",
+  "key_points": [
+   "聚焦IGRT向自适应放疗的范式转变",
+   "涵盖肿瘤分割等医学图像分析任务",
+   "涉及实时运动管理等应用"
+  ],
+  "section": "影像与病理",
+  "type": "观点",
+  "tags": [
+   "医学影像",
+   "肿瘤"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "一般性综述，按综述上限处理，信息增量有限",
+  "abstract": "[Methods in molecular biology (Clifton, N.J.)] Radiotherapy plays a crucial role in cancer management, integral to curative approaches for 45%-50% of malignancies. However, conventional workflows face significant challenges, including operational inefficiency, inter-observer variability, and limited personalization. This review describes the evolutionary trajectory of artificial intelligence (AI) applications within the domain of radiotherapy, with a principal focus on the cardinal paradigm shift from image-guided radiotherapy (IGRT) toward adaptive radiotherapy (ART). AI has demonstrably improved both the precision and efficiency of radiotherapy. This stems from its application across several critical areas: automating complex tasks in medical image analysis-like segmenting tumors, enhancing real-time motion management with the ability to capture target displacements down to the submillimeter level; and providing sophisticated decision support systems to aid clinicians. Within the sphere of ART, online adaptive systems leveraging magnetic resonance linear accelerators (MR-Linacs) and cone-beam computed tomography (CBCT) facilitate dynamic target delineation, dosimetric re-optimization, and cumulative dose assessment. These capabilities forge a closed-loop system based on \"perception-decision-execution,\" effectively shifting radiotherapy beyond static planning and -toward truly personalized, dynamic treatments.",
+  "day": "2026-11-22",
+  "rank": 7.85,
+  "zh_abstract": "[Methods in molecular biology (Clifton, N.J.)] 放射治疗在癌症治疗中起着关键作用，是45%-50%恶性肿瘤根治性治疗方案的组成部分。然而，传统工作流程面临重大挑战，包括操作效率低下、观察者间差异以及个体化程度有限。本综述描述了人工智能（AI）在放射治疗领域应用的演进轨迹，主要聚焦于从影像引导放射治疗（IGRT）向自适应放射治疗（ART）的核心范式转变。AI已明显提高了放射治疗的精准度和效率。这源于其在若干关键领域的应用：自动完成医学图像分析中的复杂任务（如肿瘤分割）；增强实时运动管理，能够捕捉亚毫米级的靶区位移；以及提供复杂的决策支持系统以辅助临床医生。在ART领域，利用磁共振直线加速器（MR-Linac）和锥形束计算机断层扫描（CBCT）的在线自适应系统可实现动态靶区勾画、剂量学再优化和累积剂量评估。这些能力构建了基于“感知-决策-执行”的闭环系统，有效地使放射治疗超越静态计划，迈向真正个体化的动态治疗。"
+ },
+ {
+  "title": "Individual Probability of Successful Extubation Using a Neural Network: A Proof-of-Concept Analysis.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43063387/",
+  "date": "2026-12-01T00:00:00+00:00",
+  "badge": "PMID 43063387",
+  "source": "PubMed · Rhode Island medical journal (2013)",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "fcb0e02cef91",
+  "keep": true,
+  "zh_title": "神经网络预测个体拔管成功概率：概念验证",
+  "summary": "以14项主要呼吸参数训练单隐层神经网络，输出个体拔管成功概率，仅17例患者训练的概念验证研究。",
+  "key_points": [
+   "输入14项以呼吸参数为主的指标",
+   "训练集仅17例，13例拔管成功、4例失败",
+   "结果显示成功与失败患者分离良好，样本极小"
+  ],
+  "section": "临床预测与决策",
+  "type": "论文",
+  "tags": [
+   "临床预测",
+   "生理信号"
+  ],
+  "evidence": "同行评审",
+  "score": 3,
+  "reason": "样本极小的概念验证，无外部验证，属增量档",
+  "abstract": "[Rhode Island medical journal (2013)] Studies have shown that artificial intelligence can aid in extubating patients from ventilators, but none have used predominantly respiratory parameters to yield a simple probability of successful extubation that can immediately aid clinicians in their decision to extubate or not extubate patients. We sought to determine whether it is possible to create a neural network as a proof-of-concept analysis using predominantly respiratory parameters to derive a single probability of successful extubation for an individual patient. Fourteen predominantly respiratory parameters were the input for a neural network with one hidden layer to yield a single output, a simple probability of extubation. The system trained on 17 patients, 13 of whom successfully extubated, four of whom failed. The results showed excellent separation between the extubation successes and failures. When applied to the test group of four patients, there also was excellent separation between the three successful extubations (prediction range: 98.8% to 100% probability) and the one failure (2.9% probability). This proof-of-concept analysis showed that it is possible to use predominantly respiratory parameters to present a single number, a probability of extubation, as the output from a neural network. This analysis needs to be performed on a larger sample before it can be applied confidently, but the framework now is available for further development to assist intensivists who work with ventilated patients.",
+  "day": "2026-11-22",
+  "rank": 7.5,
+  "zh_abstract": "[Rhode Island medical journal (2013)] 研究表明，人工智能可以辅助呼吸机患者拔管，但尚无研究主要使用呼吸参数得出简单的拔管成功概率，以便立即辅助临床医生决定是否拔管。我们旨在确定是否有可能作为概念验证分析，构建一个主要使用呼吸参数的神经网络，为个体患者得出单一的拔管成功概率。将14项主要为呼吸参数的指标作为输入，输入到具有一个隐藏层的神经网络，产生单一输出，即简单的拔管概率。该系统在17例患者上训练，其中13例拔管成功，4例失败。结果显示拔管成功与失败之间区分良好。应用于4例患者的测试组时，3例拔管成功（预测范围：98.8%至100%概率）与1例失败（2.9%概率）之间同样区分良好。这项概念验证分析表明，可以主要使用呼吸参数，通过神经网络输出单一数值，即拔管概率。该分析需在更大样本上进行后才能放心应用，但目前已具备进一步开发的框架，以协助管理呼吸机患者的重症监护医师。"
+ },
+ {
+  "title": "成果｜我组在《自然·通讯》发表文章，揭示大模型 “共谋协助”风险",
+  "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkR3JpZFF4RHFqUkh0aDFkajBKcUxyU1Y5VlcwWDhRUndRMmVQWUdhTXRsTUsyRTBBeC1VcTRHWVNZV3d4V0F6Zw?oc=5",
+  "date": "2026-11-20T06:48:45+00:00",
+  "source": "品玩",
+  "source_group": "Google News · 中文医疗AI",
+  "home": "https://www.pingwest.com",
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "3bfa10ece1e0",
+  "keep": true,
+  "zh_title": "《自然·通讯》论文揭示大模型“共谋协助”风险",
+  "summary": "标题显示某课题组在《自然·通讯》发表论文，揭示大模型“共谋协助”风险；正文缺失，详情不明。",
+  "key_points": [],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "公平与安全"
+  ],
+  "evidence": "新闻",
+  "score": 4,
+  "reason": "仅标题，医疗相关性不明，低档",
+  "day": "2026-11-22",
+  "rank": 6.14
+ },
+ {
+  "title": "Evaluating readability of AI-generated pediatric dental education materials.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43061215/",
+  "date": "2026-11-05T00:00:00+00:00",
+  "badge": "DOI 10.3389/fdgth.2026.1949196",
+  "source": "PubMed · Frontiers in digital health",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "4bb559a1c2d1",
+  "keep": true,
+  "zh_title": "AI生成儿童口腔健康教育材料的可读性评估",
+  "summary": "比较六种AI聊天机器人对10个儿童口腔问题生成文本的可读性，并检验是否达到美国医学会推荐水平。",
+  "key_points": [
+   "评估GPT-5 Mini、Claude Haiku 4.5等六个模型",
+   "共生成60篇文本，采用多项可读性指数",
+   "对照AMA推荐的可读性水平"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "医学大模型",
+   "临床NLP"
+  ],
+  "evidence": "同行评审",
+  "score": 3,
+  "reason": "小规模文本可读性评估，无临床结局，属增量档",
+  "abstract": "[Frontiers in digital health] General-purpose large language models (LLMs) have become a popular source of oral health information. However, the patient education materials (PEMs) generated by these models often pose readability challenges. This study aimed to: (1) compare the readability of PEMs generated by six AI chatbots in response to ten frequently asked questions on pediatric oral health; and (2) determine whether the readability of these texts meets the level recommended by the American Medical Association (AMA). Ten sample questions on pediatric oral health were compiled. Each question was submitted once to each of six AI chatbots (GPT-5 Mini, Gemini 3 Flash, Claude Haiku 4.5, DeepSeek-V3, Kimi K2.5, and Qwen3-Max), generating a corpus of 60 texts in a blocked (repeated-measures) design. Six readability indices - Flesch Reading Ease (FRE), Flesch-Kincaid Grade Level (FKGL), Gunning Fog Index (GFI), Coleman-Liau Index (CLI), Simple Measure of Gobbledygook (SMOG), and Automated Readability Index (ARI) - were calculated for every text. Each index was analysed separately using the Friedman test, with the ten questions as blocks and the six models as conditions, followed by Dunn's multiple comparison test. Kendall's coefficient of concordance (W) was calculated to quantify the consistency of model ranking across questions. DeepSeek-V3 showed the highest readability (easiest texts) and Gemini 3 Flash the second highest, whereas Claude Haiku 4.5 showed the lowest readability across all six indices; GPT-5 Mini, Qwen3-Max, and Kimi K2.5 occupied intermediate positions. All six Friedman tests were statistically significant (χ 2(5) = 31.77-35.94, all p < 0.0001), and Kendall's W ranged from 0.635 to 0.719, indicating that the relative ranking of the six models was broadly consistent across the ten questions. Against the AMA-recommended sixth-grade reading level, all models exceeded the recommended difficulty on every index; even against a more lenient seventh-grade threshold, only the ARI median of DeepSeek-V3 (6.5) fell below 7. The PEMs generated by the six LLMs were written at a reading level above the AMA recommendation, and reading difficulty differed systematically among models. Readability should be explicitly controlled through prompt design, model optimisation, and professional review before such materials are used in pediatric oral health education.",
+  "day": "2026-11-22",
+  "rank": 5.87,
+  "zh_abstract": "[Frontiers in digital health] 通用大语言模型（LLMs）已成为口腔健康信息的常用来源。然而，这些模型生成的患者教育材料（PEMs）往往存在可读性方面的问题。本研究旨在：（1）比较六个AI聊天机器人针对十个儿童口腔健康常见问题所生成PEMs的可读性；（2）确定这些文本的可读性是否达到美国医学会（AMA）推荐的水平。研究整理了十个儿童口腔健康样本问题。每个问题向六个AI聊天机器人（GPT-5 Mini、Gemini 3 Flash、Claude Haiku 4.5、DeepSeek-V3、Kimi K2.5和Qwen3-Max）各提交一次，以区组（重复测量）设计生成共60篇文本。对每篇文本计算六项可读性指标——Flesch阅读易度（FRE）、Flesch-Kincaid年级水平（FKGL）、Gunning Fog指数（GFI）、Coleman-Liau指数（CLI）、Simple Measure of Gobbledygook（SMOG）和自动可读性指数（ARI）。每项指标分别采用Friedman检验分析，以十个问题为区组、六个模型为条件，随后进行Dunn多重比较检验。计算Kendall协和系数（W）以量化各问题间模型排序的一致性。DeepSeek-V3的可读性最高（文本最易读），Gemini 3 Flash次之，而Claude Haiku 4.5在全部六项指标上可读性最低；GPT-5 Mini、Qwen3-Max和Kimi K2.5居中。六项Friedman检验均具有统计学显著性（χ2(5) = 31.77-35.94，均p < 0.0001），Kendall W为0.635至0.719，表明六个模型的相对排序在十个问题间大体一致。对照AMA推荐的六年级阅读水平，所有模型在每项指标上均超过推荐难度；即使对照较宽松的七年级阈值，也仅有DeepSeek-V3的ARI中位数（6.5）低于7。六个LLM生成的PEMs的撰写阅读水平均高于AMA推荐水平，且不同模型之间的阅读难度存在系统性差异。在此类材料用于儿童口腔健康教育之前，应通过提示词设计、模型优化和专业审核对可读性进行明确控制。"
+ },
+ {
+  "title": "Evaluating the Accuracy of an Artificial Intelligence Solution Program for Identifying Anatomical Landmarks in Orthodontics.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43059070/",
+  "date": "2026-10-31T00:00:00+00:00",
+  "badge": "DOI 10.4258/hir.2026.32.4.316",
+  "source": "PubMed · Healthcare informatics research",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "312e997413a1",
+  "keep": true,
+  "zh_title": "正畸头颅侧位片解剖标志点AI识别准确性评估",
+  "summary": "在23张头颅侧位片上评估EzOrtho自动识别36个标志点，平均径向误差0.78 mm，2.0 mm内成功检出率86%。",
+  "key_points": [
+   "共828个标志点与正畸医生标注对比",
+   "平均径向误差0.78 mm",
+   "2.0 mm阈值下成功检出率86%"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "医疗器械"
+  ],
+  "evidence": "同行评审",
+  "score": 3,
+  "reason": "仅23张影像的小样本单一软件评估，属增量档",
+  "abstract": "[Healthcare informatics research] This study quantitatively evaluated the accuracy and clinical reliability of EzOrtho, deep learning software designed to identify anatomical landmarks automatically for orthodontic diagnosis. Real-world clinical data were used to assess its applicability in practice. We analyzed 23 lateral cephalometric radiographs. EzOrtho automatically identified 36 anatomical landmarks per radiograph, yielding 828 data points for comparison with ground truth established by experienced orthodontists using a standardized annotation protocol. Accuracy was quantified using mean radial error (MRE), and clinical reliability was assessed using the successful detection rate (SDR), defined as the percentage of all points within the clinically acceptable threshold of 2.0 mm. The overall MRE was 0.78 mm, and the SDR at the 2.0 mm threshold was 86%. Although most landmarks were detected precisely, the landmark-specific analysis identified higher error rates at a few points in anatomically complex regions, indicating areas for improvement. The findings suggest that EzOrtho may offer clinical utility and reliability for automatic cephalometric landmark detection using real clinical data. Its performance indicates the potential to improve efficiency and consistency relative to manual tracing. However, the study's limitations, including its small sample size, mean that these results remain preliminary. Further validation is needed to establish its role as a decision-support tool in orthodontic practice.",
+  "day": "2026-11-22",
+  "rank": 5.73,
+  "zh_abstract": "[Healthcare informatics research] 本研究定量评估了EzOrtho的准确性和临床可靠性。EzOrtho是一款用于正畸诊断、可自动识别解剖标志点的深度学习软件。研究使用真实临床数据评估其在实践中的适用性。我们分析了23张头颅侧位X线片。EzOrtho对每张X线片自动识别36个解剖标志点，共得到828个数据点，并与由经验丰富的正畸医师按标准化标注方案确立的金标准进行比较。准确性以平均径向误差（MRE）量化；临床可靠性以成功检出率（SDR）评估，SDR定义为所有点中落在临床可接受阈值2.0 mm以内的百分比。总体MRE为0.78 mm，2.0 mm阈值下的SDR为86%。尽管大多数标志点检测精确，但按标志点的分析显示，在解剖结构复杂区域的少数几个点误差率较高，提示有待改进之处。研究结果表明，EzOrtho在使用真实临床数据进行头影测量标志点自动检测方面可能具有临床实用性和可靠性。其表现提示，与手工描迹相比，它有望提高效率和一致性。然而，本研究存在样本量小等局限，因此这些结果仍属初步。要确立其作为正畸实践中决策支持工具的地位，仍需进一步验证。"
+ },
+ {
+  "title": "Tempus to Present 16 Abstracts at the 2026 San Antonio Breast Cancer Symposium",
+  "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZkx3c3dpZjhnYnpSMWNSZWdHS2FRa2tZYTY0dzM0WGlnMUhsTENBT2dYNDVoV2hFVmtyYU1QSW9uSnl1MGlGZS0xVWtqRUpReVFKR2Z1NzhqWmZjZ1VCdmtvUTR5dkFYWFZxemtMLUlYS2hxXzhOMmM5YmxTcUNQeHFZbnp6azNfR19oNUlhR3RTQkN0MXJacXRGWVFQdWxFeGpZaUo4YjBZZVJsSjBlYk9LSmRMU0xObzFBRTRJRUZLUndKcjZSbTVHRQ?oc=5",
+  "date": "2026-11-19T17:07:26+00:00",
+  "source": "Tempus Investor Relations",
+  "source_group": "Google News · AI 公司动态",
+  "home": "https://investors.tempus.com",
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "1c77a59c104c",
+  "keep": true,
+  "zh_title": "Tempus 将在2026年圣安东尼奥乳腺癌研讨会展示16项摘要",
+  "summary": "Tempus 宣布将在2026年圣安东尼奥乳腺癌研讨会上展示16项摘要（仅有标题信息）。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "肿瘤",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "仅标题，厂商会议预告，无具体内容，增量档",
+  "day": "2026-11-22",
+  "rank": 5.64
+ },
+ {
+  "title": "计算万物 湘约未来｜世界计算大会谈AI医疗的边界：AI能管慢病，不能下诊断",
+  "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95aGRWVkQyZVdrX09OWTI0bmhEVzRpYVIxNlE3Y3pLbHBSYzc5RUpXX3hyOFRjVXJVbnJBMWdWY194Um5PRmttbjJBZWlQN0M1NkZPSW5Mc0RyWUhvSy1R?oc=5",
+  "date": "2026-11-21T10:50:32+00:00",
+  "source": "新湖南",
+  "source_group": "Google News · 中文医疗AI",
+  "home": "https://m.voc.com.cn",
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "60c016dc6ed3",
+  "keep": true,
+  "zh_title": "世界计算大会谈AI医疗边界：可管慢病，不能下诊断",
+  "summary": "标题显示世界计算大会上讨论了AI医疗的边界，称AI能用于慢病管理，但不能下诊断。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "数字健康",
+   "监管政策"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "仅标题，会议观点类报道，信息有限，属增量档",
+  "day": "2026-11-22",
+  "rank": 5.31
+ },
+ {
   "title": "Cloud vs. on-premise large language models for urgent patient-portal message screening: a comparative evaluation",
   "link": "https://www.nature.com/articles/s41746-026-03477-6",
   "date": "2026-11-20T00:00:00+00:00",
@@ -63,7 +477,8 @@
   "day": "2026-11-21",
   "rank": 11.64,
   "abstract_days": [
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
  },
@@ -544,7 +959,8 @@
   "day": "2026-11-21",
   "rank": 9.0,
   "abstract_days": [
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -576,7 +992,8 @@
   "day": "2026-11-21",
   "rank": 9.0,
   "abstract_days": [
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -611,7 +1028,8 @@
   "day": "2026-11-21",
   "rank": 9.0,
   "abstract_days": [
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2073,7 +2491,13 @@
   "score": 3,
   "reason": "仅标题，信息极少，观点类",
   "day": "2026-11-21",
-  "rank": 5.31
+  "rank": 5.31,
+  "also": [
+   {
+    "source": "凤凰网科技",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8ydzFrOTltTXdVSi13WTZpdmZLN3psOFk1clYtZXFmNUZjRjVEaHN5N0tmX0F1VEU4VHVuMVdncDFWbDNYZThOLTdOOGY?oc=5"
+   }
+  ]
  },
  {
   "title": "FDA to use term super intelligence instead of AI",
@@ -2363,7 +2787,8 @@
   "rank": 10.0,
   "abstract_days": [
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2466,9 +2891,10 @@
   "rank": 9.81,
   "abstract_days": [
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
-  "abstract_err": "springer: HTTP Error 503: Service Unavailable; page: HTTP Error 503: Service Unavailable; europepmc: empty; openalex: empty"
+  "abstract_err": "springer: empty; page: no abstract in meta (258869 bytes; title: Anthropic IPO: four ways the AI giant wants to disrupt scien; text: Anthropic IPO: four ways the AI giant wants to disrupt science | Nature Skip to main content Thank y); europepmc: empty; openalex: empty"
  },
  {
   "title": "CardioLoom: A Report-Guided Electrocardiogram Foundation Model for Cross-Domain Cardiovascular Phenotyping",
@@ -3223,7 +3649,13 @@
   "score": 5,
   "reason": "仅标题，FDA批准但为常规器械，上限内取中",
   "day": "2026-11-20",
-  "rank": 9.0
+  "rank": 9.0,
+  "also": [
+   {
+    "source": "Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVXhjemw2TmE5eGJqU2ZaOXJUdXd5cm05OEpaMUNjaVVlMmliZHl2Q0pXc21SR2dLTWowYjZ5V1JBd3FDZy0yRXdreXc2cm01cUhnTUlDRG9uYm1xenBMMTJXOENwWlZFOHRfRGRsbE9fNTkyTHp6S01jMGs3bFdma1A1aWMwSHlNRjlLX1dUWEg?oc=5"
+   }
+  ]
  },
  {
   "title": "Artificial intelligence aids multi-omics data integration in cancer drug discovery and development: from targets to drug synergy.",
@@ -4959,7 +5391,8 @@
   "rank": 8.0,
   "abstract_days": [
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -9554,6 +9987,10 @@
    {
     "source": "STAT News",
     "link": "https://www.statnews.com/2026/11/19/epic-defends-competitive-practices-promises-ai-access-health-tech/?utm_campaign=rss"
+   },
+   {
+    "source": "STAT",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNTAtOFBwY2c1REVDVnhjSWVYdWRRYS0zLXJPMkpNX3JjUmdXRHRmU2FLT3Bzc2dNRVZLcGY2TWNObGFidkEybEE3ekJsUEg3TXBIMkVXUDRCTWN4RGxPam5ta1JsYWlnLUxhZFEtemp1NUJfR01DcXNmVjBXRnAyVkFrRTh1eVVwOWc3R1EtVXVLUmgzYlBBQlpuazlGdzQ1dVZPcg?oc=5"
    }
   ]
  },
@@ -11357,9 +11794,10 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
-  "abstract_err": "springer: HTTP Error 503: Service Unavailable; page: no abstract in meta (240026 bytes; title: AI wearables could exploit people’s most vulnerable moments ; text: AI wearables could exploit people’s most vulnerable moments | Nature Skip to main content Thank you ); europepmc: empty; openalex: empty"
+  "abstract_err": "springer: empty; page: no abstract in meta (241059 bytes; title: AI wearables could exploit people’s most vulnerable moments ; text: AI wearables could exploit people’s most vulnerable moments | Nature Skip to main content Thank you ); europepmc: empty; openalex: empty"
  },
  {
   "title": "Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
@@ -13582,7 +14020,8 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
  },
@@ -14651,7 +15090,8 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -14692,7 +15132,8 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -14835,7 +15276,8 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -14876,7 +15318,8 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -14917,7 +15360,8 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -15191,7 +15635,8 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -15231,7 +15676,8 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -15337,7 +15783,8 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -16198,7 +16645,8 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -26964,7 +27412,13 @@
   "abstract": "[Clinical and experimental reproductive medicine] Artificial intelligence (AI) represents a potentially transformative tool in assisted reproductive technology (ART), particularly in vitro fertilization (IVF), for gamete assessment, embryo selection, non-invasive genetic testing, and laboratory automation. This scoping review synthesized recent evidence on AI applications in IVF laboratories and evaluated their translational maturity using an evidence maturity framework and a strengths, weaknesses, opportunities, and threats (SWOT) analysis. This scoping review followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) Extension for Scoping Reviews guidelines. PubMed, Scopus, and Web of Science were searched for peer-reviewed studies published from January 2020 to February 2025. Eligible studies evaluated AI, machine learning, or deep learning in laboratory components of ART. Data were charted on AI methods, dataset characteristics, validation strategies, clinical endpoints, and performance metrics. Ninety-four studies were included. Most applications addressed embryo grading and implantation prediction using convolutional neural networks and were evaluated through internal cross-validation. Reported areas under the receiver operating characteristic curve ranged from 0.75 to 0.92, depending on the endpoint and dataset size. AI applications in sperm analysis and oocyte assessment showed greater reproducibility than manual evaluation. Non-invasive genetic prediction models displayed promising but heterogeneous sensitivity and remained predominantly limited to internal validation. Few studies reported prospective evaluation or external validation using multicenter datasets. AI applications in IVF are expanding, but most remain at early stages of clinical translation. Standardized datasets, external validation, interpretable algorithms, and regulatory oversight remain necessary for safe, equitable clinical integration. AI should function as a decision-support tool that supplements, rather than replaces, embryologists' expertise.",
   "day": "2026-11-12",
   "rank": 8.14,
-  "zh_abstract": "[临床与实验生殖医学] 人工智能（AI）是辅助生殖技术（ART），特别是体外受精（IVF）中一种具有潜在变革性的工具，可用于配子评估、胚胎选择、无创遗传检测和实验室自动化。本范围综述综合了 AI 在 IVF 实验室中应用的近期证据，并采用证据成熟度框架和优势、劣势、机遇与威胁（SWOT）分析评估其转化成熟度。本范围综述遵循系统评价和荟萃分析优先报告条目（PRISMA）范围综述扩展版指南。检索了 PubMed、Scopus 和 Web of Science 中 2020 年 1 月至 2025 年 2 月发表的同行评审研究。符合条件的研究评估了 AI、机器学习或深度学习在 ART 实验室环节中的应用。对 AI 方法、数据集特征、验证策略、临床终点和性能指标进行了资料提取。共纳入 94 项研究。大多数应用涉及使用卷积神经网络进行胚胎分级和着床预测，并通过内部交叉验证进行评估。根据终点和数据集规模不同，报告的受试者工作特征曲线下面积为 0.75 至 0.92。AI 在精子分析和卵母细胞评估中的应用显示出比人工评估更高的可重复性。无创遗传预测模型的敏感度前景可期但存在异质性，且仍主要局限于内部验证。很少有研究报告前瞻性评估或使用多中心数据集的外部验证。AI 在 IVF 中的应用正在扩展，但大多数仍处于临床转化的早期阶段。要实现安全、公平的临床整合，仍需要标准化数据集、外部验证、可解释算法和监管监督。AI 应作为辅助而非取代胚胎学家专业能力的决策支持工具。"
+  "zh_abstract": "[临床与实验生殖医学] 人工智能（AI）是辅助生殖技术（ART），特别是体外受精（IVF）中一种具有潜在变革性的工具，可用于配子评估、胚胎选择、无创遗传检测和实验室自动化。本范围综述综合了 AI 在 IVF 实验室中应用的近期证据，并采用证据成熟度框架和优势、劣势、机遇与威胁（SWOT）分析评估其转化成熟度。本范围综述遵循系统评价和荟萃分析优先报告条目（PRISMA）范围综述扩展版指南。检索了 PubMed、Scopus 和 Web of Science 中 2020 年 1 月至 2025 年 2 月发表的同行评审研究。符合条件的研究评估了 AI、机器学习或深度学习在 ART 实验室环节中的应用。对 AI 方法、数据集特征、验证策略、临床终点和性能指标进行了资料提取。共纳入 94 项研究。大多数应用涉及使用卷积神经网络进行胚胎分级和着床预测，并通过内部交叉验证进行评估。根据终点和数据集规模不同，报告的受试者工作特征曲线下面积为 0.75 至 0.92。AI 在精子分析和卵母细胞评估中的应用显示出比人工评估更高的可重复性。无创遗传预测模型的敏感度前景可期但存在异质性，且仍主要局限于内部验证。很少有研究报告前瞻性评估或使用多中心数据集的外部验证。AI 在 IVF 中的应用正在扩展，但大多数仍处于临床转化的早期阶段。要实现安全、公平的临床整合，仍需要标准化数据集、外部验证、可解释算法和监管监督。AI 应作为辅助而非取代胚胎学家专业能力的决策支持工具。",
+  "also": [
+   {
+    "source": "PubMed · Journal of cranio-maxillo-facial surgery : official publication of the European Association for Cranio-Maxillo-Facial Surgery",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/43056880/"
+   }
+  ]
  },
  {
   "title": "Deep learning-based identification and counting of early-stage follicles in rat ovaries.",
