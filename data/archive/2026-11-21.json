@@ -346,6 +346,40 @@
 "rank": 9.81
 },
 {
+"title": "AI-driven multi-omics identifies SPP1⁺ tumor-associated macrophages as a therapeutic target and predicts lymph node metastasis in papillary thyroid cancer",
+"link": "https://www.nature.com/articles/s41698-026-01774-7",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "npj Precision Oncology",
+"source_group": "npj Precision Oncology",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41698-026-01774-7",
+"pop": null,
+"id": "f6d058b3eb48",
+"keep": true,
+"zh_title": "AI多组学识别SPP1+巨噬细胞并预测甲状腺乳头状癌淋巴结转移",
+"summary": "整合单细胞、空间转录组与机器学习，识别SPP1+肿瘤相关巨噬细胞为甲状腺乳头状癌淋巴结转移的驱动因素，并构建转移预测模型。",
+"key_points": [
+"SPP1+TAM经SPP1–CD44轴与TM4SF1+恶性上皮细胞互作",
+"该互作位于缺氧微环境，促进干性与侵袭",
+"其丰度与较差总生存及预后相关"
+],
+"section": "生命科学与药物",
+"type": "论文",
+"tags": [
+"肿瘤",
+"基因组学",
+"临床预测"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "含功能验证与转移预测，但外部验证信息不明，属值得一看档",
+"abstract": "Artificial intelligence (AI) is transforming drug design by enabling the systematic discovery of therapeutic targets and the prediction of drug response from complex biomedical data. In papillary thyroid carcinoma (PTC), lymph node metastasis remains a key determinant of poor outcome, yet targetable drivers and predictive models for metastasis are lacking. Here, we integrate single-cell RNA sequencing, spatial transcriptomics, and machine learning to identify SPP1⁺ tumor-associated macrophages (TAMs) as a functionally validated driver of lymph node metastasis in PTC. Using single-cell and spatial analyses, we show that SPP1⁺ TAMs engage TM4SF1⁺ malignant epithelial cells via the SPP1–CD44 axis within a hypoxic niche, driving tumor stemness, invasion, and metastatic progression. SPP1⁺ TAMs exhibit a hypoxic, M2-polarized phenotype and their abundance correlates with worse overall and progression‑free survival in metastatic PTC patients. We further develop an integrative machine-learning model based on SPP1⁺ TAM‑derived molecular features that predicts lymph node status with high accuracy. Preclinically, pharmacological targeting of SPP1 attenuates tumor cell migration, invasion, and lung metastasis, supporting its candidacy as a therapeutic target. Collectively, this study demonstrates how AI‑driven multi‑omics analysis can jointly identify a functionally validated target and generate a clinically deployable predictive model, illustrating a framework for bridging computational discovery with translational oncology.",
+"day": "2026-11-21",
+"rank": 9.81,
+"zh_abstract": "人工智能（AI）通过从复杂的生物医学数据中系统性地发现治疗靶点并预测药物反应，正在改变药物设计。在甲状腺乳头状癌（PTC）中，淋巴结转移仍是预后不良的关键决定因素，但目前缺乏可靶向的驱动因素以及转移预测模型。在此，我们整合单细胞RNA测序、空间转录组学和机器学习，鉴定出 SPP1⁺ 肿瘤相关巨噬细胞（TAMs）是PTC淋巴结转移中经功能验证的驱动因素。通过单细胞和空间分析，我们发现 SPP1⁺ TAMs 在缺氧微环境中通过 SPP1–CD44 轴与 TM4SF1⁺ 恶性上皮细胞相互作用，驱动肿瘤干性、侵袭和转移进展。SPP1⁺ TAMs 呈现缺氧、M2极化表型，其丰度与转移性PTC患者较差的总生存期和无进展生存期相关。我们进一步基于 SPP1⁺ TAM 来源的分子特征构建了整合性机器学习模型，可高精度预测淋巴结状态。在临床前研究中，对SPP1进行药理学靶向可减弱肿瘤细胞的迁移、侵袭和肺转移，支持其作为治疗靶点的潜力。总之，本研究展示了AI驱动的多组学分析如何能同时鉴定经功能验证的靶点并生成可临床部署的预测模型，体现了一个连接计算发现与转化肿瘤学的框架。"
+},
+{
 "title": "Expert-level localization of fine-grained cardiac structures across the transthoracic echocardiogram.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/43059826/",
 "date": "2026-11-15T00:00:00+00:00",
@@ -580,6 +614,39 @@
 "2026-11-21"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+},
+{
+"title": "The ITE-Transformer: A pre-trained foundation model for predicting individualized treatment effects from electronic health records",
+"link": "https://www.medrxiv.org/content/10.64898/2026.11.19.26368479v1?rss=1",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "medRxiv",
+"source_group": "medRxiv",
+"home": "",
+"thin": false,
+"badge": "DOI 10.64898/2026.11.19.26368479",
+"pop": null,
+"id": "4ae13749ef67",
+"keep": true,
+"zh_title": "ITE-Transformer：基于电子病历预测个体化治疗效应的预训练基础模型",
+"summary": "该预印本提出结合纵向病历自监督表征与双重稳健因果机器学习的Transformer框架，用于估计个体化治疗效应。",
+"key_points": [
+"基于诊断与用药的纵向轨迹学习表征",
+"结合双重稳健因果机器学习估计ITE",
+"可探讨不同治疗策略下的反事实问题"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"医学大模型",
+"电子病历",
+"临床预测"
+],
+"evidence": "预印本",
+"score": 6,
+"reason": "EHR基础模型+因果推断方法新颖，预印本且验证信息有限",
+"abstract": "Transformer-based foundation models have shown strong potential for modeling longitudinal electronic health records (EHRs), yet existing models focus primarily on risk prediction rather than treatment effect estimation, which limits evidence generation. Here, we introduce the ITE-Transformer, a transformer-based framework that combines self-supervised representation learning from longitudinal patient trajectories with doubly robust causal machine learning for predicting individualized treatment effects (ITEs). As a result, our ITE-Transformer allows to study counterfactual questions of how an individual patient's outcome may differ under alternative treatment strategies. The ITE-Transformer learns temporally contextualized representations of patients' diagnosis and medication histories and subsequently uses these representations to predict treatment assignment, treatment-specific outcome risks, and patient-specific ITEs. The ITE-Transformer is trained using structured EHR data from ~350,000 participants in the All of Us Research Program and evaluated in two clinically different comparative-effectiveness tasks: (i) GLP-1 receptor agonists versus DPP-4 inhibitors among patients with type 2 diabetes, with major adverse cardiovascular events as the outcome, and (ii) immunotherapy versus chemotherapy in a pan-cancer cohort, with all-cause mortality as the outcome. Across both applications, the ITE-Transformer improves the discrimination and calibration of treatment assignment and outcome models compared with existing tabular machine learning approaches and an otherwise identical transformer trained without self-supervised pre-training. The ITE-Transformer further identifies substantial heterogeneity in predicted ITEs and yields interpretable patterns of treatment response associated with patients' diagnoses, medication histories, and comorbidities. Together, our work demonstrates how clinical foundation models can be developed for analyzing heterogeneity in treatment effects and thus support real-world evidence generation.",
+"day": "2026-11-21",
+"rank": 8.81
 },
 {
 "title": "Integrative 3D imaging and deep learning approach reveals cardiac fibroblast dynamics after myocardial infarction.",
@@ -1175,6 +1242,38 @@
 "zh_abstract": "[美国言语语言病理学杂志] 本项目旨在评估 ChatGPT 对有关诵读困难（dyslexia）常见误解问题的回答的准确性和可读性。三位内容领域专家独立评定了 ChatGPT 对五个有关诵读困难常见误解的问题的回答的准确性。对各评分者的评分取平均值，得出每条回答的总体准确性得分。同时还分析了 ChatGPT 回答的长度、阅读时间、阅读难易度和阅读水平。ChatGPT 回答的总体准确性较高。然而，在未额外提示调整长度和/或阅读水平的情况下，ChatGPT 的回答是面向高阶读者撰写的，阅读耗时最长可达 2 分钟。本研究提供了初步证据，表明目前 ChatGPT 可能是获取有关诵读困难的科学有效信息的有用工具。文中还讨论了研究的局限性和未来方向。"
 },
 {
+"title": "AI-driven reconstruction of maxillary complete denture bases: a clinical feasibility study.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43058386/",
+"date": "2026-11-20T00:00:00+00:00",
+"badge": "DOI 10.1007/s00784-026-07279-8",
+"source": "PubMed · Clinical oral investigations",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "4d1f3a769d0e",
+"keep": true,
+"zh_title": "AI重建上颌全口义齿基托：临床可行性研究",
+"summary": "基于口内扫描数据，用带边缘注意力的改进PointNet++重建上颌全口义齿基托，在79例患者数据上评估可行性。",
+"key_points": [
+"79例数据，57训练、7验证、15测试",
+"模型在训练中强调基托边缘特征",
+"以点云几何指标评估重建性能"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医疗器械",
+"临床落地"
+],
+"evidence": "同行评审",
+"score": 3,
+"reason": "单中心小样本可行性研究，仅内部测试",
+"abstract": "[Clinical oral investigations] Digital denture workflows remain limited by the inability of intraoral scanners (IOS) to capture functional soft-tissue dynamics and peripheral border molding. This clinical feasibility study evaluated whole-surface geometric reconstruction of maxillary complete denture bases from IOS data using a novel artificial intelligence (AI) model in which peripheral border features were emphasized during training. IOS datasets of the edentulous maxilla and corresponding clinically acceptable dentures from 79 patients were used to train an enhanced PointNet + + model incorporating a border-attention mechanism. The dataset was divided into 57 training, 7 validation, and 15 test cases. Whole-surface point-cloud performance was evaluated in the held-out test set using Density-Aware Chamfer Distance, maximum Hausdorff distance, and multi-threshold precision, recall, and F-scores. Whole-surface registration RMSE was additionally calculated for three randomly selected test-set cases that underwent additive manufacturing and an exploratory clinical try-in. On an independent test set, the mean Chamfer Distance was 2.6 ± 0.1 mm and the maximum Hausdorff distance was 2.4 mm. F-scores increased from 0.8 at a 0.5-mm tolerance to 1.0 at a 2.0-mm tolerance. Whole-surface RMSE values for the three pilot cases ranged from 0.4 to 0.6 mm. The additively manufactured AI denture bases showed promising adaptation and positional stability in this pilot evaluation; however, conventionally fabricated dentures provided superior retention. Within the study's limitations, the AI model showed potential for whole-surface reconstruction of maxillary denture bases from IOS data. However, in the descriptive try-in of three cases, the patients' existing conventional dentures were subjectively more retentive than the additively manufactured AI-generated bases. AI-based denture-base reconstruction from IOS data may contribute to future fully digital workflows. Before clinical implementation, border-specific geometric validation, larger external datasets, and objective measurements of retention, adaptation, and positional stability are required.",
+"day": "2026-11-21",
+"rank": 7.31
+},
+{
 "title": "Integrating Generative Artificial Intelligence-Based Concept Mapping to Enhance Nursing Students' Critical Thinking, Cognitive Load, and Self-Efficacy.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/43063042/",
 "date": "2026-11-19T00:00:00+00:00",
@@ -1469,6 +1568,75 @@
 "rank": 6.81
 },
 {
+"title": "A Blockchain-Enabled Federated Ensemble Framework for Privacy-Preserving Mortality Prediction Across Heterogeneous Healthcare Systems",
+"link": "https://www.medrxiv.org/content/10.64898/2026.11.19.26368466v1?rss=1",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "medRxiv",
+"source_group": "medRxiv",
+"home": "",
+"thin": false,
+"badge": "DOI 10.64898/2026.11.19.26368466",
+"pop": null,
+"id": "8e7af5c6d304",
+"keep": true,
+"zh_title": "区块链联邦集成框架：跨异构医疗系统的隐私保护死亡率预测",
+"summary": "提出区块链联邦集成框架，仅在同行医院验证后才接纳模型，通过模拟研究检验其排除被投毒或替换模型的能力。",
+"key_points": [
+"智能合约按同行AUROC中位数≥0.70准入模型",
+"采用加权logit平均或堆叠并联邦重校准",
+"基于单一中心模拟四家医院的回顾性模拟"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"隐私与联邦学习",
+"临床预测",
+"公平与安全"
+],
+"evidence": "预印本",
+"score": 4,
+"reason": "预印本，仅模拟、无真实多中心验证，增量档",
+"abstract": "Objective: To test whether a smart contract that admits hospital-trained models to a shared mortality model only after peer hospitals verify their performance can exclude poisoned or substituted models, and at what cost. Design: Retrospective simulation study of a federated learning protocol. Methodology: In the Blockchain-Enabled Federated Ensemble (BFE), hospitals committed SHA-256 digests of locally trained XGBoost and random-forest models to a Solidity contract; peers posted digest-bound validation AUROCs, and the contract admitted models with a median peer AUROC of at least 0.70. Admitted models were pooled by weighted logit averaging (BFE-PW) or stacking (BFE-Stack) with federated recalibration. Code and drafts were produced with an AI coding assistant under the authors' supervision. Setting: Four hospitals simulated from one academic centre with age, renal case-mix and laboratory-availability skew; a data-scarce regime keeping 5-20% of each hospital's patients; and a natural partition by care era. Participants: 425,215 adult admissions (186,103 patients; 2.35% in-hospital mortality) in MIMIC-IV v3.1, with predictors from the first 24 hours. Interventions: BFE against centralised, local-only, FedAvg, FedProx, median and Multi-Krum FedAvg and federated logistic regression, under seven attacks on training, attestation, recalibration and model delivery. Main outcome measures: AUROC and AUPRC (joint patient-clustered bootstrap), calibration, attack effects, gas and transactions. Results: Under gross label flipping, FedAvg lost 29% of its AUPRC while the contract excluded the poisoned models in every seed (Multi-Krum FedAvg was equally protected); all substituted models were detected, and collusion blocked release. A targeted flip of female deaths passed the gate and lowered sensitivity for deaths in women from 32.8% to 27.5%; poisoned recalibration inverted BFE-PW (AUROC 0.098) unless a median-of-sites recalibration was used (0.902). With large hospitals, BFE-PW matched FedAvg in AUROC (0.902) and BFE-Stack matched FedProx (0.907 and 0.906), below local-only (0.910) and centralised XGBoost (0.915), with lower AUPRC; with 5% of the data, BFE-PW exceeded local models (0.866 against 0.844). Pooled calibration hid two-fold under-prediction at one hospital (observed-to-expected ratio 2.13), which a local intercept corrected (0.93). One aggregation used 37 transactions and 3.3 million gas, rising roughly quadratically with consortium size. Conclusions: Contrac",
+"day": "2026-11-21",
+"rank": 6.81,
+"zh_abstract": "【目的】检验这样一种智能合约能否排除被投毒或被替换的模型及其代价：该合约只有在同行医院验证了医院自训练模型的性能之后，才允许该模型进入共享死亡率模型。【设计】联邦学习协议的回顾性模拟研究。【方法】在区块链赋能联邦集成（Blockchain-Enabled Federated Ensemble，BFE）中，各医院将本地训练的 XGBoost 和随机森林模型的 SHA-256 摘要提交至 Solidity 合约；同行医院发布与摘要绑定的验证 AUROC，合约接纳同行 AUROC 中位数不低于 0.70 的模型。被接纳的模型通过加权 logit 平均（BFE-PW）或堆叠（BFE-Stack）进行汇集，并进行联邦重校准。代码和初稿由 AI 编程助手在作者监督下生成。【设置】由一个学术中心模拟出的四家医院，具有年龄、肾功能病例构成和实验室检查可得性方面的偏斜；一种数据稀缺情形，即每家医院仅保留 5%–20% 的患者；以及按诊疗时代划分的自然分区。【参与者】MIMIC-IV v3.1 中的 425,215 例成人入院记录（186,103 名患者；院内死亡率 2.35%），预测变量取自最初 24 小时。【干预】将 BFE 与集中式、仅本地、FedAvg、FedProx、中位数及 Multi-Krum FedAvg 和联邦逻辑回归进行比较，并施加针对训练、证明（attestation）、重校准和模型交付的七种攻击。【主要结局指标】AUROC 和 AUPRC（联合的按患者聚类 bootstrap）、校准度、攻击效应、gas 和交易数。【结果】在严重标签翻转下，FedAvg 的 AUPRC 下降 29%，而合约在每个随机种子中均排除了被投毒的模型（Multi-Krum FedAvg 同样受到保护）；所有被替换的模型均被检出，合谋阻止了模型发布。针对女性死亡病例的定向翻转通过了准入关卡，使女性死亡患者的灵敏度从 32.8% 降至 27.5%；被投毒的重校准使 BFE-PW 发生反转（AUROC 0.098），除非采用各站点中位数重校准（0.902）。在大型医院情形下，BFE-PW 的 AUROC 与 FedAvg 相当（0.902），BFE-Stack 与 FedProx 相当（0.907 和 0.906），低于仅本地（0.910）和集中式 XGBoost（0.915），且 AUPRC 较低；在仅有 5% 数据时，BFE-PW 优于本地模型（0.866 对 0.844）。汇总校准掩盖了某一家医院两倍的预测不足（观察与预期比值 2.13），而本地截距校正后得以纠正（0.93）。一次聚合使用 37 笔交易和 330 万 gas，并大致随联盟规模呈二次方增长。【结论】Contrac（原文在此截断）"
+},
+{
+"title": "Building an Auditable Reference Standard for Clinical Information Extraction from Transesophageal Echocardiography Reports",
+"link": "https://www.medrxiv.org/content/10.64898/2026.11.19.26368500v1?rss=1",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "medRxiv",
+"source_group": "medRxiv",
+"home": "",
+"thin": false,
+"badge": "DOI 10.64898/2026.11.19.26368500",
+"pop": null,
+"id": "ead50c743b0b",
+"keep": true,
+"zh_title": "经食管超声心动图报告信息抽取的可审计参考标准构建",
+"summary": "在两家机构各取 150 份术中 TEE 报告，由四名标注员按 39 变量编码本标注，并分析分歧以评估临床信息模型的局限（预印本）。",
+"key_points": [
+"共 300 份报告，来自宾大与华盛顿大学",
+"四名标注员使用 39 变量 V1 编码本",
+"结构化裁决分歧，检验信息模型局限"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"临床NLP",
+"数据集",
+"电子病历"
+],
+"evidence": "预印本",
+"score": 4,
+"reason": "样本仅 300 份，为参考标准构建，预印本，属增量档",
+"impl": null,
+"abstract": "Objectives To develop an auditable, two-institution reference standard for intraoperative transesophageal echocardiography (TEE) reports and evaluate whether reviewer disagreement identifies limitations in the underlying clinical information model. Materials and Methods We selected 300 reports (150 per institution) from 925 at the University of Pennsylvania and University of Washington using random sampling and enrichment for challenging documentation. Four trained abstractors applied a shared 39-variable V1 codebook. Independent paired comparisons included 297 reports; three historical reports contributed only to the final reference standard. Categorical agreement used exact agreement and unweighted Cohen's {kappa}; numeric left-ventricular ejection fraction (LVEF) used exact agreement and mean absolute differences. Disagreements underwent structured expert adjudication and reason classification. Additional analyses assessed reviewer-pair, sampling-stratified, and population-weighted agreement. Results Among 11,583 formal reviewer-comparison cells, 10,293 (88.9%) were resolved by reviewer agreement and 1,290 (11.1%) required targeted expert adjudication (1,289 tasks). Codebook/schema ambiguity (40.8%) and interpretation/classification differences (25.2%) together accounted for 66.0% of targeted tasks. Adjudication was concentrated in aortic dissection, valve type, and post-intervention findings. Categorical {kappa} ranged from 0.364 to 0.960 and was inversely correlated with targeted-adjudication burden (Spearman {rho}=-0.884; 95% CI, -0.955 to -0.734). Sampling-weighted {kappa} changed by no more than 0.05 for 32 of 35 categorical variables. Discussion Structured adjudication identified recurring schema and interpretation challenges beyond individual abstraction errors, providing specific targets for information-model refinement. Conclusion As NLP and LLM-based abstraction tools move toward clinical use, the reference standards used to evaluate them require comparably rigorous development, adjudication, and independent validation.",
+"day": "2026-11-21",
+"rank": 6.81,
+"zh_abstract": "【目的】建立一个可审计的、涉及两家机构的术中经食管超声心动图（TEE）报告参考标准，并评估评审者之间的分歧是否能够揭示底层临床信息模型的局限。【材料与方法】我们采用随机抽样并富集文档记录具有挑战性的报告，从宾夕法尼亚大学和华盛顿大学的 925 份报告中选取 300 份（每家机构 150 份）。四名经过培训的摘录员应用共同的 39 变量 V1 编码手册。独立配对比较纳入 297 份报告；另有三份历史报告仅用于最终参考标准。分类变量一致性采用精确一致率和未加权 Cohen's κ；数值型左心室射血分数（LVEF）采用精确一致率和平均绝对差。分歧经过结构化专家裁定和原因分类。另行分析了评审者配对、按抽样分层以及按人群加权的一致性。【结果】在 11,583 个正式的评审者比较单元中，10,293 个（88.9%）通过评审者一致得到解决，1,290 个（11.1%）需要针对性的专家裁定（1,289 项任务）。编码手册/模式歧义（40.8%）和解释/分类差异（25.2%）合计占针对性任务的 66.0%。裁定集中于主动脉夹层、瓣膜类型和干预后表现。分类变量 κ 范围为 0.364 至 0.960，与针对性裁定负担呈负相关（Spearman ρ=-0.884；95% CI，-0.955 至 -0.734）。35 个分类变量中有 32 个的抽样加权 κ 变化不超过 0.05。【讨论】结构化裁定识别出超出个别摘录错误之外的反复出现的模式和解释方面的挑战，为信息模型的改进提供了具体目标。【结论】随着基于自然语言处理（NLP）和大语言模型（LLM）的摘录工具走向临床应用，用于评估它们的参考标准也需要同等严谨地开发、裁定和独立验证。"
+},
+{
 "title": "Patient-Expressed Needs, Burdens and Barriers in Taiwanese Online Health Discussions: A Taiwan-Contextualized Friction Framework Applied With Large Language Model-Based Social Listening",
 "link": "https://www.medrxiv.org/content/10.64898/2026.11.17.26365957v1?rss=1",
 "date": "2026-11-19T00:00:00+00:00",
@@ -1602,6 +1770,61 @@
 "zh_abstract": "【目的】描述并评价一种在健康内容分析中以大语言模型（LLM）作为主要编码者的框架，并因目前尚无报告标准而提出LLM辅助研究的报告条目。【方法】LLM使用一份由人工编写并经人工校准的工具，对6,982条Instagram和TikTok帖子进行编码。该框架包含六个组成部分：由人工编写工具；两轮人工校准；来源规范；基于引文锚定的编码；在代表性样本和结局富集样本中进行验证，且双向盲法；以及按预先设定的阈值逐变量报告信度，并预先确定未达标的后果。由于结局分布严重偏斜，预先指定使用Gwet AC1测量一致性。【结果】在重写两条含糊规则后，两名人工编码者在主要结局上的一致性由AC1 0.456升至0.977。LLM与人工的一致性在代表性样本（N=150）中为0.847，在富集样本（N=50）中为0.868。八个条件变量中有五个低于0.80阈值，转为探索性变量：询问是否存在某一明确文本特征的变量达到了该阈值，而需要分级判断的变量则未达到。人工编码者识别出错误信息的频率高于LLM，因此患病率估计可能偏低。对于自我认同为少数族裔的创作者，针对女性的内容的一致性较低（0.744 对 0.902）。【结论】LLM编码无法通过计算复现，因此其信度必须通过实证来证明：逐变量与独立人工编码的一致性、剩余误差的方向，以及对未达标情况预先设定的应对措施。作者提出了18项LLM辅助内容分析的报告条目。"
 },
 {
+"title": "GAO Spotlight Flags Regulatory and Safety Gaps in Mental Health AI Chatbots",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQa3ZrcFJRTkdVU1Nodm50VzFpZjNJbERPN2RZS0lJeVBmTXJzWlVORnE3ZlZic2dQUnBOMUZLZlZHZF9LVmRMV2xhVTlnTGNSNm9aUU9US3pJS3FFa0IxMVk0cGFNTkhPN3Bsb0UwTWx3cDhObEduNW5RNnI2SGZYRUR6d1JidjNpME13cA?oc=5",
+"date": "2026-11-20T21:14:43+00:00",
+"source": "CASRAI",
+"source_group": "Google News · FDA AI",
+"home": "https://casrai.org",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "e6e1bbc8a82f",
+"keep": true,
+"zh_title": "GAO聚光：心理健康AI聊天机器人存在监管与安全缺口",
+"summary": "标题显示美国GAO指出心理健康AI聊天机器人在监管和安全方面存在缺口。",
+"key_points": [],
+"section": "落地与监管",
+"type": "监管",
+"tags": [
+"监管政策",
+"心理健康",
+"公平与安全"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "仅标题，涉及监管议题，信息有限",
+"day": "2026-11-21",
+"rank": 6.5
+},
+{
+"title": "澳大利亚与美国人工智能赋能医疗器械监管格局的比较分析：基于 FDA 与 TGA 清单的横断面研究",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wZG9TMDFGaVB2ZnlnNG1JeW9SX29JaW5SdHV6dDFtMDhacVV6bW55Z2RIZHJjX1o4NF95ZWNXWjNqbS15UWtLUy1nREVHMnBZRk1OUXMyR09aVkVEQkVKOE1EeW1MR0hGWURlTG9n?oc=5",
+"date": "2026-11-21T00:09:13+00:00",
+"source": "生物通",
+"source_group": "Google News · NMPA AI",
+"home": "https://www.ebiotrade.com",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "0e1866c635a1",
+"keep": true,
+"zh_title": "澳美AI医疗器械监管格局比较：FDA与TGA清单横断面研究",
+"summary": "基于FDA与TGA清单，对澳大利亚与美国AI赋能医疗器械的监管格局做横断面比较。",
+"key_points": [],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"监管政策",
+"医疗器械"
+],
+"evidence": "新闻",
+"score": 4,
+"reason": "仅标题，监管比较研究，信息有限",
+"day": "2026-11-21",
+"rank": 6.5
+},
+{
 "title": "Artificial Intelligence in Fellowship Leadership: Practical Applications for Recruitment, Education, and Program Management.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/43061070/",
 "date": "2026-11-12T00:00:00+00:00",
@@ -1633,6 +1856,40 @@
 "day": "2026-11-21",
 "rank": 6.32,
 "zh_abstract": "[开放论坛传染病] 专科培训项目主任（PD）负责广泛的职责，涵盖招生、教育、指导、评估、排班、认证和项目管理。这些工作需要大量时间和协调，而资源往往有限。人工智能（AI）为支持 PD 的工作流程提供了机会。在本综述中，我们结合某传染病专科培训项目的真实案例，介绍了 AI 在专科培训项目管理中的实际应用。应用包括招生宣传、申请者审阅与摘要、多语言全球卫生教育、个性化考试准备以及排班优化。我们还讨论了治理方面的考量，以及已成功将 AI 整合到复杂工作流程中的其他行业的经验。人工智能可以扩充 PD 的工具箱并支持更高效的项目管理，有望使其能更多地专注于指导、教育和项目发展。仍需进一步评估其对效率、成本、教育结果和招生的影响。"
+},
+{
+"title": "drtranquanghung91-vn/grand-rounds",
+"link": "https://github.com/drtranquanghung91-vn/grand-rounds",
+"date": "2026-11-18T08:58:31Z",
+"pop": "★ 7",
+"image": "https://avatars.githubusercontent.com/u/273927390?v=4",
+"shot": "https://opengraph.githubassets.com/1/drtranquanghung91-vn/grand-rounds",
+"source": "GitHub",
+"source_group": "GitHub",
+"home": "",
+"thin": false,
+"badge": "",
+"id": "05f708ddcf9e",
+"keep": true,
+"zh_title": "Grand Rounds：面向循证医学汇报的智能体技能工具",
+"summary": "GitHub开源项目，为Claude Code、Codex等提供循证医学演示制作技能，可溯源数据、提取KM曲线并生成HTML或PPTX。",
+"key_points": [
+"每个数字可追溯至来源",
+"可提取原始Kaplan–Meier曲线向量",
+"审查AI痕迹与引用错误"
+],
+"section": "大模型与智能体",
+"type": "模型",
+"tags": [
+"智能体",
+"医学大模型"
+],
+"evidence": "新闻",
+"score": 3,
+"reason": "小型开源工具，缺乏评估，属增量档",
+"abstract": "Grand Rounds: evidence-first medical presentations for Claude Code, Codex & Antigravity. Grills you first, plans with your approval, traces every number to a source, lifts original Kaplan–Meier vectors, builds HTML or PPTX in your template, and audits for AI slop and citation errors. (language: Python, homepage: , topics: agent-skills, claude-code, codex, evidence-based-medicine, journal-club, kaplan-meier, medical, medical-education, pptx, presentations, pubmed, slides)",
+"day": "2026-11-21",
+"rank": 6.03
 },
 {
 "title": "Contactless Estimation of Respiratory Frequency Using 3D-CNN on Thermal Images",
@@ -1731,6 +1988,33 @@
 "day": "2026-11-21",
 "rank": 5.71,
 "zh_abstract": "[Revue de l'infirmiere] 生成式人工智能（AI）正逐渐融入职业健康护士的实践。本文基于一次汇集了不同领域专业人员的讨论会，结合科学文献分析了他们对 AI 的使用情况。结果表明，AI 主要用于支持预防措施的规划和反思性实践，同时再次确认了临床判断的核心作用。"
+},
+{
+"title": "ChatGPT医疗建议致死案：通用大模型与专业医疗AI的边界",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yb0hLSm12cDBwNlRnOW9lWExNcjBXa0p0NTJuLVc5dERDcVROcFhVNkNnZkdBcEU2MmFjdnBtUmVnWVJQZXdVam5UeklZWjVzNU0zd1NPamtJdFVXbFZPLWtoRllnN2MwSzhj?oc=5",
+"date": "2026-11-21T00:21:59+00:00",
+"source": "https://zgeo.net/",
+"source_group": "Google News · 中文医疗AI",
+"home": "https://zgeo.net",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "264c97ab1ee6",
+"keep": true,
+"zh_title": "ChatGPT医疗建议致死案：通用大模型与专业医疗AI的边界",
+"summary": "标题涉及ChatGPT医疗建议致死案及通用大模型与专业医疗AI的边界讨论。",
+"key_points": [],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"公平与安全",
+"医学大模型"
+],
+"evidence": "新闻",
+"score": 3,
+"reason": "仅标题，观点类报道，信息有限",
+"day": "2026-11-21",
+"rank": 5.5
 },
 {
 "title": "OpenMed/EmbeddingGemma2-BiomedicalEvidence-270M-v2",

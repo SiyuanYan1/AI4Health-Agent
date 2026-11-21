@@ -2523,7 +2523,13 @@
 "score": 3,
 "reason": "一般行业动态，信息有限，属增量档",
 "day": "2026-11-19",
-"rank": 6.0
+"rank": 6.0,
+"also": [
+{
+"source": "STAT",
+"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcElLZDltbG4ybUZXTkc5aV9IX2pmWFhlUEJ6dWtDZFRmSWdXM3FCcTZxZUxIWGRnQlJQOXZwSmxNODhJY01ySi1lR1ctXzJlSENYQ0o4MGlBcjV2QlJpRGpfV0VRVVJDQnZUZDh3Y2FqMjhwMFBtX0F2c1N3YXM3WXJXS3prNmhka1YydjNIMWt1Wkpr?oc=5"
+}
+]
 },
 {
 "title": "How Medtech Can Align the EU AI Act, MDR, and ISO/IEC 42001",
