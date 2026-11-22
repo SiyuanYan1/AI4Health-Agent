@@ -34,6 +34,40 @@
 "zh_abstract": "人工智能有望使皮肤科诊疗的可及性更加普惠，但模型的可靠性取决于底层数据的质量和全面性。尽管公开可用的皮肤病图像迅速增长，该领域仍缺乏定量指标来衡量新数据集是扩大了临床覆盖范围，还是仅仅重复了已知内容。人们普遍认为现有数据集存在偏倚，但这些缺口的规模和分布仍未被量化，使学界在有策略地获取数据方面缺乏路线图。在此，我们将来自 29 个公开数据集的 110 万张图像整合为一个可查询的语义图谱，结果显示全球档案明显偏斜且冗余度日益增加：较深肤色（Fitzpatrick V–VI 型）仅占图像的 11.0%，儿科患者仅占 2.3%，并且尽管数据呈指数级增长，信息新颖性已趋于平台期，从而揭示了最需要有针对性地获取数据的领域。"
 },
 {
+"title": "ECG foundation models for cardiovascular screening in a cohort of young competitive athletes",
+"link": "https://www.nature.com/articles/s41746-026-03474-9",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "npj Digital Medicine",
+"source_group": "npj Digital Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41746-026-03474-9",
+"pop": null,
+"id": "95ae4c5d88bf",
+"keep": true,
+"zh_title": "ECG基础模型用于年轻竞技运动员心血管筛查",
+"summary": "在PhysioNet/CinC 2021上微调三种ECG基础模型，在43份运动员ECG上性能下降，显示存在域偏移；ECGFounder最佳（AUROC 0.84）。",
+"key_points": [
+"微调ECG-FM、HuBERT-ECG、ECGFounder，训练样本87,662份",
+"通用数据集AUROC 0.97，运动员数据明显下降",
+"ECGFounder最佳：AUROC 0.84，敏感度0.57"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"生理信号",
+"医学大模型",
+"临床预测"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "基础模型+ECG有新意，但运动员测试仅43例，属值得一看档",
+"abstract": "AI-powered cardiac screening could evolve sports medicine by boosting accuracy, efficiency, and cost-effectiveness, with automated ECG interpretation based on foundation models becoming key for large-scale athlete screening. Before deployment, it is crucial to verify whether these clinically developed models are applicable to this population. We evaluated whether ECG foundation models trained on general clinical populations can diagnose athlete-specific ECG findings. We fine-tuned three models (ECG-FM, HuBERT-ECG, ECGFounder) on PhysioNet/CinC 2021, 87,662 samples, and tested them on 43 expert-annotated ECGs from highly trained/national-level athletes. Performance was strong on PhysioNet/CinC 2021 (AUROC 0.97, AUPRC 0.57, Sensitivity 0.89) but dropped on athletes’ data, confirming domain shift. ECGFounder performed best (AUROC 0.84, AUPRC 0.72, Sensitivity 0.57) and detected the most frequent findings, Sinus Bradycardia (AUROC 0.87) and Sinus Arrhythmia (AUROC 0.95), well. Per-label estimates for rare classes must be interpreted cautiously, given the small cohort. This work contributes to developing athlete-focused AI frameworks for reliable ECG-based screening.",
+"day": "2026-11-22",
+"rank": 10.81,
+"zh_abstract": "基于人工智能的心脏筛查可通过提高准确性、效率和成本效益推动运动医学的发展，其中基于基础模型的自动化心电图（ECG）解读正成为大规模运动员筛查的关键。在部署之前，必须验证这些在临床环境中开发的模型是否适用于该人群。我们评估了在一般临床人群上训练的心电图基础模型能否诊断运动员特有的心电图表现。我们在 PhysioNet/CinC 2021（87,662 个样本）上对三种模型（ECG-FM、HuBERT-ECG、ECGFounder）进行了微调，并在 43 份来自高水平训练运动员/国家级运动员、经专家标注的心电图上进行了测试。模型在 PhysioNet/CinC 2021 上表现良好（AUROC 0.97，AUPRC 0.57，敏感度 0.89），但在运动员数据上性能下降，证实存在领域偏移（domain shift）。ECGFounder 表现最佳（AUROC 0.84，AUPRC 0.72，敏感度 0.57），并能较好地检出最常见的表现——窦性心动过缓（AUROC 0.87）和窦性心律不齐（AUROC 0.95）。鉴于队列规模较小，对罕见类别的各标签估计值须谨慎解读。本研究有助于构建面向运动员、可靠的基于心电图筛查的人工智能框架。"
+},
+{
 "title": "Artificial Intelligence in Thoracic Pathology and Biomarker Assessment: An IASLC Pathology Committee Review.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/43064238/",
 "date": "2026-11-20T00:00:00+00:00",
@@ -135,6 +169,39 @@
 "zh_abstract": "[PloS one] 脑转移瘤（BMs）的治疗计划需要精确勾画，但临床实践中磁共振成像（MRI）的采集方案差异很大。这种方案层面的异质性可能影响基于深度学习的分割模型的泛化能力。本研究使用两种三维架构——3D Attention U-Net和DUCK-Net 3D，评估异质性T1加权MRI方案对BM分割性能的影响。分析了一个回顾性数据集，包含来自720例患者的925项对比增强T1加权MRI检查。模型在六种序列配置下训练，包括多序列、黑血（BB）、非黑血（Non-BB）以及三个单序列队列。独立测试数据集由三个MRI队列组成：MPR Range、MPR Thick Range和T1 SPACE 3D。采用五折交叉验证。使用Dice相似系数（DSC）、体积回归以及经错误发现率校正的统计比较来评估性能。DUCK-Net 3D在各独立MRI队列中表现出更一致的性能，尤其是在跨序列条件下。多序列训练取得了最稳定的跨序列性能，而单序列模型对方案变异更为敏感。两种架构对小病灶（<0.4 mL）的分割准确性均有所下降。这些发现提示，MRI方案异质性会影响分割性能，而序列多样化训练可能提高临床环境中的跨序列稳健性。"
 },
 {
+"title": "Generative AI adoption is more widespread than predictive AI at US hospitals.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43061560/",
+"date": "2026-10-25T00:00:00+00:00",
+"badge": "DOI 10.1093/haschl/qxag301",
+"source": "PubMed · Health affairs scholar",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "784c838831d1",
+"keep": true,
+"zh_title": "美国医院生成式AI采用率高于预测式AI",
+"summary": "基于2025年AHA信息技术调查的2203家急症医院：81%使用AI，77%使用生成式AI，较2024年增长逾一倍，环境文书记录最常见（73%）。",
+"key_points": [
+"2203家非联邦急症医院，加权多变量回归",
+"81%医院用AI，77%用生成式AI",
+"最常见应用为环境式文档记录（73%）"
+],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"临床落地",
+"医学大模型"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "全国性大样本调查，反映部署现状，但无临床结局",
+"abstract": "[Health affairs scholar] Artificial intelligence (AI) adoption among U.S. hospitals has accelerated rapidly, yet national estimates of predictive and generative AI implementation across clinical and administrative settings remain limited. Using data from 2203 nonfederal acute care hospitals in the 2025 American Hospital Association Information Technology Survey, we described AI adoption, model source (electronic health record [EHR] developer, third-party developer, or self-developed), and specific clinical and administrative use cases. We assessed associations between hospital and area characteristics and AI adoption, model source, and number of AI use cases using weighted multivariable regression. In 2025, 81% of hospitals reported using AI, with 77% of hospitals using generative AI-more than double the rate reported in 2024. The most common applications were ambient documentation (73%) and predicting health trajectories or risks (70%). System affiliation and use of the market-leading EHR were the strongest predictors of AI adoption. Hospitals using EHR-developed AI reported 2.48 additional AI use cases (95% CI, 1.93-3.03). Generative AI adoption surpassed predictive AI for the first time, driven by ambient documentation. While use of EHR-developed AI was associated with greater use, there was a greater influence of third-party vendors for generative AI compared to predictive AI. Continued monitoring will be essential to assess AI's impact across healthcare.",
+"day": "2026-11-22",
+"rank": 8.62,
+"zh_abstract": "[Health affairs scholar] 美国医院对人工智能（AI）的采用已迅速加快，但全国范围内关于预测性和生成式 AI 在临床及行政场景中实施情况的估计仍然有限。我们利用 2025 年美国医院协会信息技术调查中 2203 家非联邦急症医院的数据，描述了 AI 的采用情况、模型来源（电子健康档案［EHR］开发商、第三方开发商或自行开发）以及具体的临床和行政用例。我们采用加权多变量回归，评估了医院及所在地区特征与 AI 采用、模型来源及 AI 用例数量之间的关联。2025 年，81% 的医院报告使用 AI，其中 77% 的医院使用生成式 AI，比 2024 年报告的比例增加了一倍多。最常见的应用是环境式文档记录（73%）以及预测健康轨迹或风险（70%）。隶属医疗系统以及使用市场领先的 EHR 是 AI 采用的最强预测因素。使用 EHR 开发商所开发 AI 的医院，其 AI 用例平均多 2.48 个（95% CI，1.93-3.03）。在环境式文档记录的推动下，生成式 AI 的采用首次超过预测性 AI。尽管使用 EHR 开发商开发的 AI 与更多的使用相关，但与预测性 AI 相比，第三方供应商对生成式 AI 的影响更大。持续监测对于评估 AI 对整个医疗保健领域的影响至关重要。"
+},
+{
 "title": "Artificial Intelligence in Screening and Early Detection of Prostate Cancer.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/43064602/",
 "date": "2026-11-20T00:00:00+00:00",
@@ -233,6 +300,33 @@
 "day": "2026-11-22",
 "rank": 7.85,
 "zh_abstract": "[Methods in molecular biology (Clifton, N.J.)] 放射治疗在癌症治疗中起着关键作用，是45%-50%恶性肿瘤根治性治疗方案的组成部分。然而，传统工作流程面临重大挑战，包括操作效率低下、观察者间差异以及个体化程度有限。本综述描述了人工智能（AI）在放射治疗领域应用的演进轨迹，主要聚焦于从影像引导放射治疗（IGRT）向自适应放射治疗（ART）的核心范式转变。AI已明显提高了放射治疗的精准度和效率。这源于其在若干关键领域的应用：自动完成医学图像分析中的复杂任务（如肿瘤分割）；增强实时运动管理，能够捕捉亚毫米级的靶区位移；以及提供复杂的决策支持系统以辅助临床医生。在ART领域，利用磁共振直线加速器（MR-Linac）和锥形束计算机断层扫描（CBCT）的在线自适应系统可实现动态靶区勾画、剂量学再优化和累积剂量评估。这些能力构建了基于“感知-决策-执行”的闭环系统，有效地使放射治疗超越静态计划，迈向真正个体化的动态治疗。"
+},
+{
+"title": "Siemens Healthineers earns FDA clearance for coronary artery disease management software",
+"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbGYtcFVxT1BmMHRwQzhRT3BfdFJfTWNJMUlTMV9PRVluRVZGdlZJcGdmSlE4OWI1ZTV6VE1nVEJVMHMxWWRiV19hUkxIckFfaVRYZU42T2NGY1N4cVo3bWZOanlEMndFRF93ZmR5U0Rlb0ItZ21mbzZDZWNrV2NSYXVYbENqekhEY1VjSGtjd2JxSkpPTFIxaGlfUU1OQWZOY2laZVg4WmdsbGJHYm0zZ3FESTVOdkU?oc=5",
+"date": "2026-11-19T17:32:37+00:00",
+"source": "MassDevice",
+"source_group": "Google News · FDA AI",
+"home": "https://www.massdevice.com",
+"thin": true,
+"badge": "",
+"pop": null,
+"id": "d3933c671884",
+"keep": true,
+"zh_title": "西门子医疗冠心病管理软件获FDA许可",
+"summary": "仅有标题：西门子医疗的冠状动脉疾病管理软件获得FDA许可。",
+"key_points": [],
+"section": "落地与监管",
+"type": "监管",
+"tags": [
+"监管政策",
+"医疗器械"
+],
+"evidence": "已获批",
+"score": 4,
+"reason": "仅标题，AI属性不明，常规FDA许可",
+"day": "2026-11-22",
+"rank": 7.64
 },
 {
 "title": "Individual Probability of Successful Extubation Using a Neural Network: A Proof-of-Concept Analysis.",
