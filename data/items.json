@@ -1,5 +1,558 @@
 [
  {
+  "title": "Multimodal digital biomarker for asthma: complementary roles of vocal, clinical and demographic factors",
+  "link": "https://www.nature.com/articles/s41746-026-03465-w",
+  "date": "2026-11-22T00:00:00+00:00",
+  "source": "npj Digital Medicine",
+  "source_group": "npj Digital Medicine",
+  "home": "",
+  "thin": false,
+  "badge": "DOI 10.1038/s41746-026-03465-w",
+  "pop": null,
+  "id": "b72eda7ef86c",
+  "keep": true,
+  "zh_title": "哮喘多模态数字生物标志物：语音、临床与人口学互补",
+  "summary": "提出混合专家多模态框架，融合持续元音与朗读语音的声学嵌入及结构化临床、人口学数据识别哮喘，在1218例匹配队列中AUROC为0.83。",
+  "key_points": [
+   "基于Colive Voice研究的1218例病例与对照",
+   "多模态AUROC 0.83、Brier 0.18，优于单模态",
+   "门控机制分析显示各模态贡献互补"
+  ],
+  "section": "数字健康",
+  "type": "论文",
+  "tags": [
+   "生理信号",
+   "多模态",
+   "数字健康"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "设计规范的多模态研究，样本中等，摘要未见外部验证，属值得一看档",
+  "abstract": "Asthma affects over 260 million people worldwide, yet diagnosis remains dependent on spirometry and specialist assessment, limiting accessibility in primary care and low-resource settings. Vocal biomarkers offer a promising non-invasive alternative, but prior studies have largely focused on acoustic features without integrating clinical context. We present a multimodal Mixture-of-Experts framework for asthma identification that adaptively combines acoustic embeddings from sustained vowel phonation and reading passage tasks with structured clinical and demographic data. The model was evaluated on a matched cohort of 1218 self-reported asthma cases and healthy controls from the Colive Voice study. The multimodal model achieved an AUROC of 0.83 and Brier score of 0.18, outperforming unimodal approaches. Exploratory analysis of the gating mechanism in asthma cases showed that greater respiratory symptom burden was associated with increased weighting of reading-passage modality and reduced weighting of sustained-vowel phonation modality. These findings support the feasibility of voice-based identification of self-reported asthma; however, independent prospective validation remains necessary before clinical use.",
+  "day": "2026-11-23",
+  "rank": 10.81,
+  "zh_abstract": "全球有超过2.6亿人受哮喘影响，但其诊断仍依赖肺功能检查和专科评估，限制了其在基层医疗和低资源环境中的可及性。声音生物标志物是一种前景良好的无创替代方法，但既往研究大多聚焦于声学特征，未整合临床背景信息。我们提出了一种用于哮喘识别的多模态专家混合（Mixture-of-Experts）框架，可自适应地将来自持续元音发声和朗读段落任务的声学嵌入与结构化的临床和人口统计学数据相结合。该模型在来自 Colive Voice 研究的1218例自报哮喘病例与健康对照的匹配队列中进行了评估。多模态模型的 AUROC 为0.83，Brier 评分为0.18，优于单模态方法。对哮喘病例中门控机制的探索性分析显示，呼吸道症状负担越重，朗读段落模态的权重越高，而持续元音发声模态的权重越低。这些结果支持基于语音识别自报哮喘的可行性；然而，在临床应用之前仍需进行独立的前瞻性验证。"
+ },
+ {
+  "title": "AI-Enabled Echocardiography Identifies Prominent Epicardial Adipose Tissue Associated With an Adverse Cardiometabolic Profile.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43066664/",
+  "date": "2026-11-07T00:00:00+00:00",
+  "badge": "DOI 10.1016/j.jacc.2026.10.066",
+  "source": "PubMed · Journal of the American College of Cardiology",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "d4e78358a7fc",
+  "keep": true,
+  "zh_title": "AI超声心动图识别心外膜脂肪与不良心脏代谢特征",
+  "summary": "PanAdipo视频深度学习模型基于耶鲁新港医疗系统2.88万项检查的111万段视频训练，用于识别显著心外膜脂肪，并在5个测试队列中评估。",
+  "key_points": [
+   "训练数据：28,797项检查、1,114,441段视频",
+   "标签来自报告中的专家判读，阳性占2.3%",
+   "测试含时间、地理独立队列及急诊POCUS队列"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "临床预测"
+  ],
+  "evidence": "同行评审",
+  "score": 7,
+  "reason": "大样本、多外部队列验证，超声影像，属重要档",
+  "reason_extra": "",
+  "abstract": "[Journal of the American College of Cardiology] Excess epicardial adipose tissue (EAT) is associated with cardiovascular-kidney-metabolic dysfunction, but its assessment has traditionally required advanced imaging. We investigated whether artificial intelligence (AI)-enabled echocardiography could characterize epicardial adiposity and identify residual cardiometabolic risk. We developed PanAdipo, a video-based deep learning model in 1,114,441 videos from 28,797 studies across the Yale-New Haven Health System (YNHHS) (2016-2022), using report-derived expert reader labels of prominent EAT (2.3% of studies). PanAdipo was evaluated in 5 testing cohorts: a temporally distinct YNHHS transthoracic echocardiography set (n = 4,588 patients contributing 5,130 studies), an emergency department point-of-care ultrasound cohort (n = 10,957), the geographically distinct MIMIC-IV (Medical Information Mart for Intensive Care, version IV) data set (n = 4,549), the community-based MESA (Multi-Ethnic Study of Atherosclerosis) Exam 6 (n = 2,740), as well as in held-out YNHHS patients with paired coronary computed tomography (CT) angiography within 12 months (n = 5,167). Analyses examined discrimination of the report label and of CT-defined high indexed EAT volume, correlation with paired cardiac CT phenotypes, and body mass index (BMI)-adjusted associations with cardiometabolic biomarkers and newly documented metabolic disease. In the held-out health system test set, PanAdipo identified prominent EAT documented in clinical reports with an area under the receiver operating characteristic curve of 0.86 (95% CI: 0.82-0.91) across views. Against paired CT-derived measurements, PanAdipo discriminated age- and sex-specific high EAT (EAT / heart volume ≥95th percentile) with an area under the receiver operating characteristic curve of 0.90 (95% CI: 0.89-0.92) overall and of 0.91-0.95 within age-sex groups, and correlated more strongly with indexed EAT volume (Spearman ρ = 0.76) than with BMI (Spearman ρ = 0.41; all P < 0.001); PanAdipo alone explained 53% of indexed EAT volume variance vs 23% for age, sex, and BMI combined. In MESA, higher scores were associated with an adverse metabolic profile (higher homeostatic model assessment for insulin resistance [β = 0.17 per SD; 95% CI: 0.11-0.22; n = 950]) after adjustment for age, sex, and BMI. In exploratory health system cohort analyses, higher scores were associated with newly documented steatotic liver disease (pooled BMI-adjusted HR: 1.33 [95% CI: 1.11-1.59] per SD of log[PanAdipo",
+  "day": "2026-11-23",
+  "rank": 9.91,
+  "zh_abstract": "[Journal of the American College of Cardiology] 心外膜脂肪组织（EAT）过多与心血管-肾脏-代谢功能障碍相关，但其评估传统上需要先进的影像学检查。我们研究了人工智能（AI）赋能的超声心动图是否能够表征心外膜脂肪沉积并识别残余心脏代谢风险。我们在耶鲁纽黑文医疗系统（YNHHS）（2016-2022年）的28,797项检查、1,114,441段视频中开发了 PanAdipo，一种基于视频的深度学习模型，使用来自报告的专家阅片者对显著EAT的标签（占检查的2.3%）。PanAdipo 在5个测试队列中进行了评估：时间上独立的 YNHHS 经胸超声心动图数据集（n = 4,588例患者，共5,130项检查）、急诊科床旁超声队列（n = 10,957）、地理上独立的 MIMIC-IV（Medical Information Mart for Intensive Care, version IV）数据集（n = 4,549）、基于社区的 MESA（Multi-Ethnic Study of Atherosclerosis）第6次随访（n = 2,740），以及12个月内有配对冠状动脉CT血管造影的留存 YNHHS 患者（n = 5,167）。分析内容包括对报告标签及CT定义的高指数化EAT体积的区分能力、与配对心脏CT表型的相关性，以及经体重指数（BMI）校正后与心脏代谢生物标志物和新记录的代谢性疾病的关联。在留存的医疗系统测试集中，PanAdipo 识别临床报告中记录的显著EAT的受试者工作特征曲线下面积为0.86（95% CI：0.82-0.91）（跨切面）。与配对的CT测量结果相比，PanAdipo 区分年龄和性别特异性高EAT（EAT/心脏体积≥第95百分位数）的受试者工作特征曲线下面积总体为0.90（95% CI：0.89-0.92），在各年龄-性别组内为0.91-0.95；其与指数化EAT体积的相关性（Spearman ρ = 0.76）强于与BMI的相关性（Spearman ρ = 0.41；均 P < 0.001）；PanAdipo 单独即可解释指数化EAT体积变异的53%，而年龄、性别和BMI合计仅解释23%。在 MESA 中，校正年龄、性别和BMI后，较高评分与不良代谢特征相关（稳态模型评估的胰岛素抵抗更高 [每SD β = 0.17；95% CI：0.11-0.22；n = 950]）。在探索性的医疗系统队列分析中，较高评分与新记录的脂肪性肝病相关（合并的经BMI校正HR：每SD的log[PanAdipo"
+ },
+ {
+  "title": "DAF: Deterministic affinity-guided latent flow for flexible many-to-many multiphase liver MRI synthesis",
+  "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004718?dgcid=rss_sd_all",
+  "date": "2026-11-22T22:30:27.688261+00:00",
+  "source": "Medical Image Analysis",
+  "source_group": "Medical Image Analysis",
+  "home": "",
+  "thin": false,
+  "badge": "",
+  "pop": null,
+  "id": "f78e5a311c76",
+  "_abs_err": "page: HTTP Error 403: Forbidden",
+  "keep": true,
+  "zh_title": "DAF：确定性亲和引导潜在流用于多期相肝脏MRI灵活合成",
+  "summary": "提出确定性亲和引导的潜在流方法，用于灵活的多对多多期相肝脏MRI合成。",
+  "key_points": [
+   "任务为多期相肝脏MRI合成",
+   "采用确定性亲和引导的潜在流",
+   "发表于Medical Image Analysis"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "医学影像",
+   "生成模型"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "仅有标题级信息，方法类影像生成，证据细节不足，属增量档",
+  "day": "2026-11-23",
+  "rank": 9.0,
+  "abstract_days": [
+   "2026-11-23"
+  ],
+  "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+ },
+ {
+  "title": "Artificial intelligence in primary care: perceptions, implementation, and what it means for clinical practice.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43055135/",
+  "date": "2026-11-19T00:00:00+00:00",
+  "badge": "DOI 10.1093/fampra/cmag094",
+  "source": "PubMed · Family practice",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "92146fa056cb",
+  "keep": true,
+  "zh_title": "初级保健中的AI：认知、实施及对临床实践的意义",
+  "summary": "一项PRISMA-ScR范围综述纳入32项2020年后研究，梳理初级保健中AI的医患认知、实施障碍与促进因素及生成式AI的影响。",
+  "key_points": [
+   "纳入32项研究，检索6个数据库",
+   "家庭医生报告工作流效率和文书支持获益",
+   "关注生成式AI带来的机遇与挑战"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "临床落地",
+   "医学大模型"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "规范范围综述，有信息量但属综述档",
+  "abstract": "[Family practice] Artificial intelligence (AI) is increasingly integrated into primary care, yet its adoption is shaped by clinician and patient perceptions, workflow integration, and ethical and system-level considerations. The rapid evolution of generative AI introduces new opportunities and challenges that remain poorly understood. To map and synthesize the literature on AI in primary care, characterize clinician and patient perceptions, identify barriers and facilitators to implementation, and examine the implications of generative AI. We conducted a PRISMA-ScR scoping review of studies published from 2020 onward. Six databases were searched, supplemented by gray literature and hand-searching. Data were synthesized descriptively and thematically. Thirty-two studies were included. Family physicians reported benefits including improved workflow efficiency, documentation support, and clinical decision-making, alongside concerns regarding trust, accuracy, workflow integration, and medico-legal accountability. Patients generally supported AI when clinician oversight was maintained. Generative AI, particularly ambient documentation systems, improved workflow but introduced risks including hallucinated outputs, authorship ambiguity, and increased verification burden. Across studies, trust, workflow integration, and preservation of relational care consistently emerged as key determinants of successful AI adoption. AI has considerable potential to enhance primary care, but successful adoption depends less on technological capability than on strengthening trust, integrating into clinical workflows, and preserving relational care. As generative AI becomes embedded in practice, education, governance, and oversight will be essential to ensure safe, equitable, and patient-centered care.",
+  "day": "2026-11-23",
+  "rank": 8.85,
+  "zh_abstract": "[Family practice] 人工智能（AI）正越来越多地融入基层医疗，但其应用受到临床医生和患者的认知、工作流程整合以及伦理和系统层面因素的影响。生成式 AI 的快速发展带来了新的机遇和挑战，而这些仍未被充分理解。本研究旨在梳理并综合基层医疗中 AI 的相关文献，描述临床医生和患者的认知，识别实施的障碍和促进因素，并探讨生成式 AI 的影响。我们按照 PRISMA-ScR 开展了一项范围综述，纳入 2020 年起发表的研究。检索了六个数据库，并辅以灰色文献和手工检索。数据采用描述性和主题方法进行综合。共纳入 32 项研究。家庭医生报告的获益包括工作流程效率提高、文书记录支持和临床决策改善，同时也担忧信任、准确性、工作流程整合以及医疗法律责任问题。当保持临床医生监督时，患者总体上支持 AI。生成式 AI，尤其是环境式文书记录系统，改善了工作流程，但也带来风险，包括幻觉性输出、作者归属不明确以及核查负担增加。在各项研究中，信任、工作流程整合和维护关系型照护始终是成功采用 AI 的关键决定因素。AI 具有显著增强基层医疗的潜力，但成功采用更多取决于加强信任、融入临床工作流程和维护关系型照护，而非技术能力本身。随着生成式 AI 融入临床实践，教育、治理和监督对于确保安全、公平和以患者为中心的照护至关重要。"
+ },
+ {
+  "title": "FDA Clears Emerging AI Triage Software for Nine Findings on Abdominopelvic CT",
+  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcElfWlFjUVFJWDVQcVpubkNENTMyUG1LUGhiWVBERG5OMS1fMnZzWVNRNWF0RFQzMXdnR0dTemZyUE9RTm1BWWtpMHJRekFoc1JOUmpKcWlUTGtWSkZDVlpxWnRadE9oYWdZUmctNWdFTU1YcUk3em9oajNKdFdWQVFwYmtkRGhud28tZnZWeGVVQTliRWl2Q2hDajIyakQ4bXRYMA?oc=5",
+  "date": "2026-11-20T16:49:36+00:00",
+  "source": "Diagnostic Imaging",
+  "source_group": "Google News · FDA AI",
+  "home": "https://www.diagnosticimaging.com",
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "8ef839889ac6",
+  "keep": true,
+  "zh_title": "FDA批准AI分诊软件用于腹盆CT九类发现",
+  "summary": "据标题，FDA批准一款新兴AI分诊软件，可在腹盆部CT上识别九类发现，正文未提供。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "监管",
+  "tags": [
+   "医学影像",
+   "监管政策",
+   "医疗器械"
+  ],
+  "evidence": "已获批",
+  "score": 5,
+  "reason": "仅标题，FDA常规AI器械批准，厂商为新兴公司",
+  "day": "2026-11-23",
+  "rank": 8.64
+ },
+ {
+  "title": "The current state of artificial intelligence and adolescent mental health: the promise and perils of a new frontier.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43067578/",
+  "date": "2026-11-21T00:00:00+00:00",
+  "badge": "DOI 10.1016/j.cppeds.2026.102012",
+  "source": "PubMed · Current problems in pediatric and adolescent health care",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "87fced471f37",
+  "keep": true,
+  "zh_title": "AI与青少年心理健康：新前沿的机遇与风险",
+  "summary": "综述梳理AI在青少年心理健康筛查、风险预测、干预、决策支持及培训中的应用，指出多数工具尚未成熟、研究仍处早期。",
+  "key_points": [
+   "涵盖筛查、预测、干预与培训",
+   "研究仍处起步阶段",
+   "多数工具尚不适合常规临床使用"
+  ],
+  "section": "数字健康",
+  "type": "观点",
+  "tags": [
+   "心理健康",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "心理健康方向综述，泛泛无新数据",
+  "abstract": "[Current problems in pediatric and adolescent health care] Adolescent mental health remains a topic of concern in the United States and worldwide. The COVID-19 pandemic accelerated the youth mental health crisis, which began nearly a decade earlier. The ongoing shortage of mental health professionals, including therapists and child and adolescent psychiatrists, means many adolescents who require mental health treatment do not receive it. The emergence of artificial intelligence (AI) technology has demonstrated promise in the field of adolescent mental health, including in screening, detection and risk prediction, intervention and treatment, clinical decision support and workflow augmentation, and in the training of future mental health professionals. However, the study of AI tools in the mental health space remains in its infancy, and most are not yet ready for routine use in clinical practice. Furthermore, the potential risks of AI and its use in adolescent mental health treatment are significant and must be addressed prior to widespread use. Health care professionals, adolescents, and their caregivers need to develop AI literacy to use the technology safely and responsibly. Additionally, AI governance and legal frameworks are necessary to ensure that AI technology use is safe, equitable and ethical for all users. At the present time, AI technology should serve a supportive and complementary role to human-delivered adolescent mental health care.",
+  "day": "2026-11-23",
+  "rank": 8.14,
+  "zh_abstract": "[Current problems in pediatric and adolescent health care] 青少年心理健康在美国乃至全球仍是令人关注的议题。COVID-19 大流行加速了近十年前开始的青少年心理健康危机。包括治疗师和儿童青少年精神科医生在内的心理健康专业人员持续短缺，意味着许多需要心理健康治疗的青少年得不到治疗。人工智能（AI）技术的出现已在青少年心理健康领域显示出前景，包括筛查、检测与风险预测、干预与治疗、临床决策支持与工作流程增强，以及未来心理健康专业人员的培训。然而，AI 工具在心理健康领域的研究仍处于起步阶段，大多数尚未做好在临床实践中常规使用的准备。此外，AI 及其用于青少年心理健康治疗的潜在风险十分显著，必须在广泛应用之前加以解决。医疗专业人员、青少年及其照护者需要培养 AI 素养，以便安全、负责任地使用该技术。此外，还需要 AI 治理和法律框架，以确保 AI 技术的使用对所有用户而言是安全、公平且合乎伦理的。目前，AI 技术应对由人提供的青少年心理健康照护起支持和补充作用。"
+ },
+ {
+  "title": "Patient-related aspects for health technology assessment of digital health technologies: a scoping review to inform the EDiHTA framework.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43061924/",
+  "date": "2026-11-20T00:00:00+00:00",
+  "badge": "DOI 10.1017/S0266462326104346",
+  "source": "PubMed · International journal of technology assessment in health care",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "13bba47c7539",
+  "keep": true,
+  "zh_title": "数字健康技术HTA的患者相关维度：EDiHTA框架范围综述",
+  "summary": "范围综述梳理数字健康技术患者相关评价的主题与结局指标，并提出用于HTA证据要求的框架。",
+  "key_points": [
+   "检索多个主流数据库",
+   "按EDiHTA分类提取AI能力等信息",
+   "提出HTA证据要求框架"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "监管政策",
+   "数字健康"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "范围综述，对评估框架有参考，AI非重点",
+  "abstract": "[International journal of technology assessment in health care] To identify the topics and outcome measures used to evaluate patient-related aspects of digital health technologies (DHTs), and to propose a comprehensive framework to guide evidence requirements for their assessment in health technology assessments (HTA). A scoping review was conducted to identify the topics and outcome measures for the evaluation of patient-related aspects of DHTs. Ovid MEDLINE, Embase, Cochrane CENTRAL, Web of Science, and CINAHL were searched. Extracted data included article identifiers, type of tool used for evaluation, topics, outcome measures, intended purpose of the DHT, and Artificial Intelligence capability according to the European Digital Health Technology Assessment (EDiHTA) taxonomy. Descriptive analyses were undertaken to summarize methods, topics, and outcome measures. A thematic analysis of measurement items was then conducted to address conceptual overlap. Finally, outcome measures were mapped to the Warwick Patient Experiences Framework (WaPEF). 336 articles were included in this review. Patient-related aspects were evaluated using qualitative methods (n = 164), non-validated tools (n = 127), and validated tools (n = 119). From the validated tools, twelve topics and 155 outcome measures were identified. After resolving conceptual overlaps, these were refined to nine topics and twenty-eight outcome measures. Most outcome measures mapped to WaPEF; however, two topics, caregiver burden and satisfaction, were not fully captured by WaPEF. This review proposes a framework for evaluating patient-related aspects in HTA of DHTs, comprising nine topics and twenty-eight outcome measures. By focusing on outcome measures, the framework improves conceptual clarity and supports a more systematic, and patient-centered approach to DHT evaluation.",
+  "day": "2026-11-23",
+  "rank": 7.99,
+  "zh_abstract": "[国际卫生技术评估杂志] 旨在确定用于评价数字健康技术（DHT）患者相关方面的主题和结局指标，并提出一个综合框架，以指导在卫生技术评估（HTA）中对其进行评估所需的证据要求。本研究开展了一项范围综述，以确定评价DHT患者相关方面的主题和结局指标。检索了 Ovid MEDLINE、Embase、Cochrane CENTRAL、Web of Science 和 CINAHL。提取的数据包括文献标识信息、用于评价的工具类型、主题、结局指标、DHT的预期用途，以及依据欧洲数字健康技术评估（EDiHTA）分类法确定的人工智能能力。采用描述性分析总结方法、主题和结局指标。随后对测量条目进行主题分析，以处理概念重叠问题。最后，将结局指标映射到华威患者体验框架（WaPEF）。本综述共纳入336篇文章。患者相关方面的评价采用了定性方法（n = 164）、未经验证的工具（n = 127）和经验证的工具（n = 119）。从经验证的工具中，共识别出12个主题和155项结局指标。在解决概念重叠后，这些被精简为9个主题和28项结局指标。大多数结局指标可映射到WaPEF；然而，有两个主题，即照护者负担和满意度，未被WaPEF完全涵盖。本综述提出了一个用于在DHT的HTA中评价患者相关方面的框架，包含9个主题和28项结局指标。通过聚焦于结局指标，该框架提高了概念的清晰度，并支持以更系统、以患者为中心的方式对DHT进行评价。"
+ },
+ {
+  "title": "High-risk pancreatic cancer pathology reveals a B3GNT3-associated glycosylation program.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43065702/",
+  "date": "2026-11-06T00:00:00+00:00",
+  "badge": "DOI 10.3389/fimmu.2026.1994542",
+  "source": "PubMed · Frontiers in immunology",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "35f28a255335",
+  "keep": true,
+  "zh_title": "高危胰腺癌病理揭示B3GNT3相关糖基化程序",
+  "summary": "基于TCGA-PAAD与福建医科大学附属协和医院H&E全切片，结合手工特征与ResNet-50特征构建病理组学预后评分GlyPath-Risk，并探讨其分子状态。",
+  "key_points": [
+   "LASSO结合随机生存森林建模",
+   "在训练、内部验证及FMUUH队列评估预后",
+   "结合WGCNA、GSEA、xCell探索生物学关联"
+  ],
+  "section": "影像与病理",
+  "type": "论文",
+  "tags": [
+   "病理",
+   "肿瘤"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "病理预后模型有可解释性探索，验证有限，属值得一看档",
+  "reason_extra": "",
+  "abstract": "[Frontiers in immunology] Pancreatic cancer has a poor prognosis and marked heterogeneity, whereas existing pathomics models generally lack biological interpretability. We aimed to construct the pathomics prognostic score GlyPath-Risk and explore the molecular states associated with the high-risk phenotype captured by the score. We integrated H&E whole-slide images from TCGA-PAAD and Fujian Medical University Union Hospital (FMUUH), extracted handcrafted and deep-learning features using CellProfiler and an ImageNet-pretrained ResNet-50, and constructed GlyPath-Risk using a combined LASSO and random survival forest model. Prognostic performance was evaluated in training, internal validation, and FMUUH cohorts. Correlation analysis, weighted gene co-expression network analysis (WGCNA), gene set enrichment analysis (GSEA), and xCell immune-infiltration estimation were used to investigate associations among GlyPath-Risk, the glycosylation transcriptional program, and the tumor microenvironment. Single-cell transcriptomics, CellChat cell-cell communication analysis, Geneformer virtual perturbation, and B3GNT3 knockdown experiments were used to generate and evaluate candidate biological hypotheses. GlyPath-Risk comprised six pathological features and showed C-indices of 0.88, 0.68, and 0.83 in the training, internal validation, and FMUUH cohorts, respectively. Its association with overall survival remained after adjustment for age, sex, and clinical stage in the reported Cox model (multivariable HR = 1.230). The glycosylation gene set showed the strongest mean absolute correlation with pathological features among 20 post-translational modification classes. WGCNA identified six co-expression modules significantly associated with GlyPath-Risk (BH-FDR < 0.05), including a blue module containing B3GNT3. Immune-cell score analyses showed nominal associations with selected immune- and vascular-related scores, but none of 51 candidate scores reached BH-FDR < 0.05. Single-cell analysis suggested differences in predicted outgoing communication from B3GNT3-high and B3GNT3-low tumor cells, while virtual perturbation identified transcriptional states associated with perturbation sensitivity. B3GNT3 knockdown was associated with reduced proliferation and altered macrophage-associated markers in conditioned-medium experiments. GlyPath-Risk showed prognostic associations across the evaluated cohorts. The score was associated with a B3GNT3-related glycosylation transcriptional program and may be related",
+  "day": "2026-11-23",
+  "rank": 7.87,
+  "zh_abstract": "[Frontiers in immunology] 胰腺癌预后较差且异质性明显，而现有的病理组学模型普遍缺乏生物学可解释性。我们旨在构建病理组学预后评分 GlyPath-Risk，并探讨该评分所反映的高风险表型相关的分子状态。我们整合了 TCGA-PAAD 和福建医科大学附属协和医院（FMUUH）的 H&E 全切片图像，使用 CellProfiler 和 ImageNet 预训练的 ResNet-50 提取手工特征和深度学习特征，并采用 LASSO 与随机生存森林相结合的模型构建 GlyPath-Risk。在训练队列、内部验证队列和 FMUUH 队列中评估其预后性能。采用相关性分析、加权基因共表达网络分析（WGCNA）、基因集富集分析（GSEA）和 xCell 免疫浸润估计，探讨 GlyPath-Risk、糖基化转录程序与肿瘤微环境之间的关联。利用单细胞转录组学、CellChat 细胞间通讯分析、Geneformer 虚拟扰动以及 B3GNT3 敲低实验，产生并评估候选的生物学假说。GlyPath-Risk 由六个病理特征组成，在训练队列、内部验证队列和 FMUUH 队列中的 C 指数分别为 0.88、0.68 和 0.83。在所报告的 Cox 模型中，校正年龄、性别和临床分期后，其与总生存期的关联依然存在（多变量 HR = 1.230）。在 20 类翻译后修饰基因集中，糖基化基因集与病理特征的平均绝对相关性最强。WGCNA 识别出六个与 GlyPath-Risk 显著相关的共表达模块（BH-FDR < 0.05），其中包括含有 B3GNT3 的蓝色模块。免疫细胞评分分析显示，部分免疫及血管相关评分存在名义上的关联，但 51 个候选评分均未达到 BH-FDR < 0.05。单细胞分析提示，B3GNT3 高表达与低表达肿瘤细胞的预测外向通讯存在差异，而虚拟扰动则识别出与扰动敏感性相关的转录状态。在条件培养基实验中，B3GNT3 敲低与增殖减少及巨噬细胞相关标志物改变相关。GlyPath-Risk 在所评估的各队列中均显示出预后关联。该评分与 B3GNT3 相关的糖基化转录程序相关，并可能与……相关"
+ },
+ {
+  "title": "Agentic AI and related systems in nursing and nursing-adjacent work: a scoping review of task allocation, decision authority, and accountability.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43054279/",
+  "date": "2026-11-04T00:00:00+00:00",
+  "badge": "DOI 10.3389/fpubh.2026.2005021",
+  "source": "PubMed · Frontiers in public health",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "bd19e3c1a510",
+  "keep": true,
+  "zh_title": "护理中的智能体AI：任务分配、决策权与问责范围综述",
+  "summary": "范围综述检索多个数据库，纳入28份报告，评估护理及相关工作中智能体AI的表现、保留的决策权与问责证据。",
+  "key_points": [
+   "28份报告中13份满足全部标准",
+   "仅两项评估真实护士-AI工作流",
+   "术语不一致、评估异质，证据有限"
+  ],
+  "section": "大模型与智能体",
+  "type": "论文",
+  "tags": [
+   "智能体",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 5,
+  "reason": "智能体主题范围综述，证据显示尚不成熟",
+  "abstract": "[Frontiers in public health] Agentic artificial intelligence (AI) and related systems are being investigated for nursing and nursing-adjacent work, but inconsistent terminology and heterogeneous evaluations obscure their operational capabilities and clinical relevance. This review examined the relationship between reported agentic behavior, evaluation in nursing practice, retained decision authority, and evidence concerning patient benefit, workload, and accountability. We conducted a scoping review informed by JBI guidance and reported in accordance with PRISMA-ScR. We searched PubMed, Embase, CINAHL, Scopus, and Web of Science, supplemented by citation and linked-report searching. Among 28 reports, 13 satisfied all criteria, four were indeterminate, and 11 lacked at least one criterion. Only two qualifying reports evaluated live nurse-AI workflows. Nursing participation ranged from clinical work to education, co-design, output rating, and outcome assessment, and did not uniformly represent runtime control. Patient-facing clinical workflows retained professional decision authority; robotics evaluations involved neither nurses nor patients. Outcomes principally concerned technical performance, communication, usability, or component-specific efficiency. The evidence did not establish autonomous nursing practice, sustained patient benefit, or reduced complete-episode nursing workload. No empirical evaluation of accountability or redress following AI-related error was identified. Operational qualification, clinical benefit, and accountable use require separate evaluation. Future studies should assess the complete human-AI pathway, including verification, correction, escalation, patient outcomes, and responses to failure. Comparative designs should isolate agentic mechanisms from additional computation, information access, and workflow redesign. A proposed post hoc, unvalidated heuristic links allocated function, decision authority, assurance, and accountability/redress. Interpretation is limited by absent prospective registration, unquantified agreement before consensus, related reports, and the absence of formal risk-of-bias assessment. Agentic capability alone does not establish clinical readiness. Expanding AI-enabled functions requires evidence of meaningful benefit, effective human control, and accountability arrangements proportionate to the consequences of system actions.",
+  "day": "2026-11-23",
+  "rank": 7.8,
+  "zh_abstract": "[Frontiers in public health] 智能体人工智能（AI）及相关系统正被用于护理及护理相关工作的研究，但术语不一致和评估方式异质，使其实际操作能力及临床相关性难以明晰。本综述考察了所报告的智能体行为、护理实践中的评估、保留的决策权，以及关于患者获益、工作负荷和问责的证据之间的关系。我们参照 JBI 指南开展了范围综述，并按 PRISMA-ScR 进行报告。我们检索了 PubMed、Embase、CINAHL、Scopus 和 Web of Science，并辅以引文检索和关联报告检索。在 28 篇报告中，13 篇满足全部标准，4 篇无法判定，11 篇至少缺少一项标准。仅有 2 篇符合条件的报告评估了真实的护士-AI 工作流程。护理人员的参与范围从临床工作到教育、共同设计、输出结果评分和结局评估，并不一致地代表运行时控制。面向患者的临床工作流程保留了专业人员的决策权；机器人评估既未涉及护士也未涉及患者。结局主要涉及技术性能、沟通、可用性或特定组件的效率。现有证据未能证实自主护理实践、持续的患者获益或完整诊疗过程中护理工作负荷的减少。未发现对 AI 相关差错后的问责或救济进行的实证评估。操作资格、临床获益和可问责使用需要分别评估。未来研究应评估完整的人机路径，包括核验、纠正、升级处理、患者结局以及对失败的应对。比较性设计应将智能体机制与额外的计算、信息获取和工作流程重新设计区分开来。本文提出了一种事后的、未经验证的启发式框架，将分配的功能、决策权、保障措施与问责/救济联系起来。对结果的解释受到以下限制：缺乏前瞻性注册、达成共识前的一致性未量化、存在相关报告，以及未进行正式的偏倚风险评估。仅凭智能体能力并不能证明其已具备临床应用条件。扩大 AI 赋能的功能，需要有证据证明其具有切实获益、有效的人为控制，以及与系统行为后果相称的问责安排。"
+ },
+ {
+  "title": "The Transformative Role of Artificial Intelligence in Wearable Health Monitoring: Applications in Diagnosis, Therapy, and Rehabilitation.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43052671/",
+  "date": "2026-11-18T00:00:00+00:00",
+  "badge": "DOI 10.1007/978-1-0716-5695-2_27",
+  "source": "PubMed · Methods in molecular biology (Clifton, N.J.)",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "0edd6313b1da",
+  "keep": true,
+  "zh_title": "AI在可穿戴健康监测中的变革作用：诊断、治疗与康复",
+  "summary": "书籍章节综述AI增强可穿戴技术在诊断、治疗和康复中的应用，并指出联邦学习、可解释AI和标准化监管等未来方向。",
+  "key_points": [
+   "涵盖心血管检测、连续血糖监测、柔性EEG",
+   "治疗端含智能给药贴片、AR手术导航",
+   "展望联邦学习、可解释AI与监管标准化"
+  ],
+  "section": "数字健康",
+  "type": "观点",
+  "tags": [
+   "数字健康",
+   "生理信号",
+   "隐私与联邦学习"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "泛泛综述章节，无新数据，综述上限内偏低",
+  "abstract": "[Methods in molecular biology (Clifton, N.J.)] This chapter explores the transformative impact of artificial intelligence (AI)-augmented wearable technology in dynamic health monitoring across diagnosis, treatment, and rehabilitation. Innovations include real-time cardiovascular disease detection, AI-driven continuous glucose monitoring for diabetes, and neurological disorder tracking using flexible electroencephalograph (EEG) sensors. Therapeutic advances feature smart drug-delivery patches responsive to biomarkers, remote intervention systems, and surgical tools like augmented reality (AR) navigation. Rehabilitation breakthroughs encompass wearables for motor recovery, cardiopulmonary optimization, and neurorehabilitation using brain-computer interfaces. Future progress hinges on multifunctional hardware, federated learning for privacy, explainable AI, and standardized regulations.",
+  "day": "2026-11-23",
+  "rank": 7.72,
+  "zh_abstract": "[Methods in molecular biology (Clifton, N.J.)] 本章探讨人工智能（AI）增强的可穿戴技术在诊断、治疗和康复各环节动态健康监测中的变革性影响。创新包括实时心血管疾病检测、AI 驱动的糖尿病连续血糖监测，以及使用柔性脑电图（EEG）传感器的神经系统疾病追踪。治疗方面的进展包括可响应生物标志物的智能药物递送贴片、远程干预系统，以及增强现实（AR）导航等手术工具。康复方面的突破包括用于运动功能恢复的可穿戴设备、心肺功能优化，以及使用脑机接口的神经康复。未来的进展取决于多功能硬件、用于隐私保护的联邦学习、可解释 AI 以及标准化监管。"
+ },
+ {
+  "title": "Artificial Intelligence-Guided Precision Nanomedicine: Bridging Delivery Barriers, Controlled Release, and Clinical Translation.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43068073/",
+  "date": "2026-11-17T00:00:00+00:00",
+  "badge": "DOI 10.2147/IJN.S652520",
+  "source": "PubMed · International journal of nanomedicine",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "57ddd13d9e23",
+  "keep": true,
+  "zh_title": "AI引导的精准纳米医学：递送障碍、控释与临床转化",
+  "summary": "综述AI（机器学习、深度学习与计算建模）如何用于预测纳米载体配方-性质关系和释放动力学，以应对递送与临床转化难题。",
+  "key_points": [
+   "聚焦纳米载体体内行为不可预测的问题",
+   "AI可支持配方性质与释放动力学预测",
+   "涵盖脂质、聚合物、蛋白等多类平台"
+  ],
+  "section": "生命科学与药物",
+  "type": "论文",
+  "tags": [
+   "药物发现"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "综述类，泛泛概述，无新数据",
+  "abstract": "[International journal of nanomedicine] Targeted drug delivery aims to enhance therapeutic efficacy while minimizing systemic toxicity, yet its clinical translation remains limited by the unpredictable in vivo behaviour of nanocarriers. Although a broad range of nanocarrier platforms-including lipid-, polymer-, protein-, inorganic- and biomimetic-based systems-can improve drug solubility, pharmacokinetics, lesion-site accumulation and controlled release, their performance is frequently constrained by heterogeneous disease biology, insufficient tissue penetration, premature clearance, immune recognition and manufacturing variability. Artificial intelligence (AI) is emerging as a powerful strategy to address these multidimensional challenges. Machine learning, deep learning and computational modelling can support prediction of formulation-property relationships, release kinetics, nano- bio interactions, pharmacokinetics, biodistribution, toxicity and patient-specific therapeutic responses. In this Review, we propose an integrated, AI-guided framework that connects rational nanocarrier design, biological-fate prediction, controlled-release engineering and clinical translation within a single development pipeline. We further articulate a \"translation-by-design\" principle and the concept of minimum sufficient complexity, which together distinguish this Review from earlier surveys that address these stages separately. Finally, we examine key translational barriers-including data standardization, model interpretability, scalable manufacturing, safety assessment, regulatory uncertainty and the gap between preclinical efficacy and clinical outcomes-and propose that future targeted nanomedicine should move beyond increasingly complex carrier architectures toward predictive, interpretable and clinically validated AI-integrated development pipelines. Despite these capabilities, most reported models are validated on internal or closely related data; independent external and prospective validation-the evidence required before a prediction can reliably influence formulation, manufacturing or patient-level decisions-remains the principal gap in the field.",
+  "day": "2026-11-23",
+  "rank": 7.6,
+  "zh_abstract": "[International journal of nanomedicine] 靶向给药旨在提高治疗效果并尽量减少全身毒性，但其临床转化仍受限于纳米载体在体内行为的不可预测性。尽管包括脂质、聚合物、蛋白质、无机和仿生类系统在内的多种纳米载体平台可改善药物溶解度、药代动力学、病灶部位蓄积和控制释放，但其性能常受到疾病生物学异质性、组织穿透不足、过早清除、免疫识别和生产差异的制约。人工智能（AI）正成为应对这些多维挑战的有力策略。机器学习、深度学习和计算建模可支持对配方-性质关系、释放动力学、纳米-生物相互作用、药代动力学、生物分布、毒性及患者特异性治疗反应的预测。在本综述中，我们提出了一个整合的、由AI引导的框架，将合理的纳米载体设计、生物学命运预测、控释工程和临床转化连接在同一个开发流程中。我们进一步阐述了“转化即设计”（translation-by-design）原则和“最小充分复杂度”（minimum sufficient complexity）的概念，二者使本综述有别于以往分别探讨这些阶段的综述。最后，我们审视了关键的转化障碍，包括数据标准化、模型可解释性、可规模化生产、安全性评估、监管不确定性以及临床前疗效与临床结局之间的差距，并提出未来的靶向纳米药物不应再追求日益复杂的载体结构，而应转向可预测、可解释且经临床验证的、整合AI的开发流程。尽管具备这些能力，大多数已报道的模型仅在内部或密切相关的数据上进行验证；独立的外部验证和前瞻性验证——即预测结果能够可靠地影响配方、生产或患者层面决策之前所需的证据——仍是该领域的主要缺口。"
+ },
+ {
+  "title": "[AI-based analysis of orthopedic data : Fundamentals and practical examples].",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43062673/",
+  "date": "2026-11-20T00:00:00+00:00",
+  "badge": "DOI 10.1007/s00132-026-04911-z",
+  "source": "PubMed · Orthopadie (Heidelberg, Germany)",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "7b0789493738",
+  "keep": true,
+  "zh_title": "骨科数据的AI分析：基础与实例",
+  "summary": "介绍AI基本原理、模型开发及常见学习方法，并以分类、回归、聚类实例说明其在骨科数值数据分析中的用途。",
+  "key_points": [
+   "讲解AI基础与模型开发流程",
+   "以分类、回归、聚类实例说明",
+   "指出骨科数值数据潜力尚未充分利用"
+  ],
+  "section": "临床预测与决策",
+  "type": "观点",
+  "tags": [
+   "临床决策支持",
+   "临床预测"
+  ],
+  "evidence": "同行评审",
+  "score": 3,
+  "reason": "入门性综述/教学文章，无新证据",
+  "abstract": "[Orthopadie (Heidelberg, Germany)] Artificial intelligence (AI) holds great promise for enhancing efficiency and alleviating workload within the healthcare system. Although AI-driven image analysis is already well established in clinical practice, its potential to extract meaningful insights from numerical orthopedic data remains largely underexploited. This article outlines the fundamentals and model development of AI, along with an overview of established learning methods. Using practical examples, the functionality and clinical utility of classification, regression, and clustering models are illustrated. AI-based analyses can uncover complex relationships within multifaceted patient data that, due to the large number of simultaneously considered parameters and their interactions, cannot be fully captured, even by experienced experts. Consequently, they serve as valuable decision-support tools, enabling more informed, data-driven, and efficient clinical decision-making. Combined with wearable sensor technology, AI further opens new avenues for remote, real-time telemedical monitoring and early detection of clinical changes. AI holds substantial potential to enhance clinical quality and reduce practitioner workload. However, it also raises important concerns regarding transparency, data privacy, and accountability. Consequently, AI should be regarded as a decision-support tool rather than a substitute for clinical expertise.",
+  "day": "2026-11-23",
+  "rank": 6.99,
+  "zh_abstract": "[Orthopadie (Heidelberg, Germany)] 人工智能（AI）在提高医疗系统效率和减轻工作负担方面前景广阔。尽管由 AI 驱动的图像分析已在临床实践中广泛应用，但其从骨科数值数据中提取有意义信息的潜力在很大程度上仍未得到充分利用。本文概述了 AI 的基础知识和模型开发，以及已确立的学习方法的概览。通过实际案例，阐释了分类、回归和聚类模型的功能和临床实用性。基于 AI 的分析可以揭示多维患者数据中的复杂关系；由于同时考虑的参数数量庞大且相互作用复杂，即使是经验丰富的专家也无法完全把握这些关系。因此，它们可作为有价值的决策支持工具，使临床决策更加知情、数据驱动且高效。结合可穿戴传感器技术，AI 还为远程、实时的远程医疗监测和临床变化的早期发现开辟了新途径。AI 在提升临床质量和减轻从业者工作负担方面具有巨大潜力。然而，它也引发了关于透明度、数据隐私和问责的重要关切。因此，AI 应被视为决策支持工具，而非临床专业知识的替代品。"
+ },
+ {
+  "title": "Recent advances in optical coherence tomography for glaucoma: from macular imaging and optical coherence tomography angiography to artificial intelligence and portable platforms.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43056642/",
+  "date": "2026-11-06T00:00:00+00:00",
+  "badge": "DOI 10.1097/ICU.0000000000001261",
+  "source": "PubMed · Current opinion in ophthalmology",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "17e39d22eeb9",
+  "keep": true,
+  "zh_title": "青光眼OCT新进展：从黄斑成像、OCTA到AI与便携平台",
+  "summary": "综述总结青光眼OCT的新进展，涵盖黄斑OCT、OCTA、AI（含基础与多模态模型）及便携/居家OCT。",
+  "key_points": [
+   "黄斑神经节细胞测量可补充视网膜神经纤维层评估",
+   "OCTA视盘周围血管密度与进展关联最一致",
+   "深度学习趋向使用原始或多模态影像"
+  ],
+  "section": "影像与病理",
+  "type": "观点",
+  "tags": [
+   "眼科",
+   "医学影像",
+   "多模态"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "综述类，AI仅为部分内容，属增量档",
+  "reason_extra": "",
+  "abstract": "[Current opinion in ophthalmology] Recent advances are extending optical coherence tomography (OCT)'s role beyond conventional structural metrics. This review summarizes recent developments in macular OCT, OCT angiography (OCTA), artificial intelligence (AI), and portable/home-based OCT. Macular ganglion-cell measures (ganglion-cell-inner plexiform layer, ganglion cell complex) increasingly complement retinal nerve fiber layer assessment, offering greater diagnostic/prognostic value in advanced glaucoma, myopia, and certain glaucoma subtypes. OCTA is emerging as a complementary vascular biomarker; peripapillary vessel density shows the most consistent link to progression, with early evidence that vascular changes may precede detectable structural or functional decline. Deep learning models increasingly use raw or multimodal imaging rather than summary parameters; foundation and multimodal architectures (e.g., RETFound-based) show strong diagnostic performance and improved generalizability across demographics and disease severity. However, AI-based progression prediction remains less robust than cross-sectional diagnosis, especially under external validation. Portable/home-based OCT may extend monitoring beyond the clinic, though clinical utility remains investigational. The field is moving toward multimodal, longitudinal, AI-supported glaucoma assessment integrating structural, vascular, and functional biomarkers rather than interpreting them in isolation. Key priorities for translation include standardized acquisition and analysis across devices, large and diverse external validation cohorts, interpretable models, and evidence that AI and remote imaging improve clinically meaningful outcomes. These developments should make OCT increasingly central to earlier detection and individualized monitoring of glaucoma, but none currently replace established structural and functional assessment or clinical judgment.",
+  "day": "2026-11-23",
+  "rank": 6.87,
+  "zh_abstract": "[Current opinion in ophthalmology] 近期进展正在使光学相干断层扫描（OCT）的作用超越传统结构指标。本综述总结了黄斑 OCT、OCT 血管成像（OCTA）、人工智能（AI）以及便携式/家用 OCT 的最新进展。黄斑神经节细胞指标（神经节细胞-内丛状层、神经节细胞复合体）日益成为视网膜神经纤维层评估的补充，在晚期青光眼、近视及某些青光眼亚型中具有更高的诊断/预后价值。OCTA 正成为一种互补的血管生物标志物；视乳头周围血管密度与疾病进展的关联最为一致，早期证据提示血管改变可能先于可检测到的结构或功能下降。深度学习模型越来越多地使用原始或多模态影像，而非汇总参数；基础模型和多模态架构（如基于 RETFound 的模型）显示出较强的诊断性能，并在不同人群和疾病严重程度中具有更好的泛化能力。然而，基于 AI 的进展预测仍不如横断面诊断稳健，尤其是在外部验证中。便携式/家用 OCT 可将监测延伸至诊室之外，但其临床实用性仍处于研究阶段。该领域正朝着整合结构、血管和功能生物标志物的多模态、纵向、AI 辅助青光眼评估发展，而非孤立地解读这些标志物。转化应用的关键优先事项包括：跨设备的标准化采集与分析、大型且多样化的外部验证队列、可解释的模型，以及证明 AI 和远程成像可改善具有临床意义的结局的证据。这些进展应会使 OCT 在青光眼的早期发现和个体化监测中日益居于核心地位，但目前均不能取代既有的结构和功能评估或临床判断。"
+ },
+ {
+  "title": "Racial Disparities in Postpartum Morbidity and Mortality: A Systematic Review of Structural and Healthcare Systems Factors With AI/ML Applications.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43061631/",
+  "date": "2026-10-27T00:00:00+00:00",
+  "badge": "DOI 10.21106/IJMA_351_2026",
+  "source": "PubMed · International journal of MCH and AIDS",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "95fb1ca270af",
+  "keep": true,
+  "zh_title": "产后发病与死亡的种族差异：结构与医疗系统因素及AI/ML应用的系统综述",
+  "summary": "按PRISMA 2020开展的系统综述，综合美国产后发病与死亡的种族差异、结构性因素、AI/ML应用及改善公平的干预。",
+  "key_points": [
+   "2024年美国黑人女性孕产妇死亡率44.8/10万",
+   "白人女性为14.2/10万",
+   "涵盖AI/ML应用与公平干预"
+  ],
+  "section": "落地与监管",
+  "type": "论文",
+  "tags": [
+   "公平与安全",
+   "公共卫生"
+  ],
+  "evidence": "同行评审",
+  "score": 4,
+  "reason": "系统综述，AI仅为部分内容，增量档",
+  "abstract": "[International journal of MCH and AIDS] Racial disparities in maternal and postpartum health remain substantial in the United States. In 2024, the maternal mortality rate among non-Hispanic Black women was 44.8 deaths per 100,000 live births, compared with 14.2 among non-Hispanic White women. This systematic review synthesized contemporary evidence on racial disparities in postpartum morbidity and mortality, contributing structural and healthcare factors, emerging artificial intelligence and machine-learning applications, and interventions intended to improve postpartum outcomes and equity. This systematic review was conducted in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement. The evidence synthesis focused on U.S.-based primary empirical studies and authoritative government surveillance and analytic sources addressing maternal and postpartum outcomes, racial and ethnic disparities, structural and social determinants of health, healthcare access, artificial intelligence and machine-learning applications, and interventions relevant to postpartum health. We used systematic and scoping reviews for citation identification and contextual interpretation but did not count them as independent primary evidence. Because of substantial heterogeneity in study designs, populations, exposures, and outcomes, findings were synthesized narratively. The evidence demonstrated persistent racial and ethnic disparities across maternal mortality, severe maternal morbidity and postpartum hemorrhage, peripartum cardiomyopathy and hypertensive disorders, postpartum mental health, and access to postpartum care. In 2024, non-Hispanic Black women experienced a maternal mortality rate approximately 3.2 times that of non-Hispanic White women. Pregnancy-related mortality surveillance further showed that a substantial proportion of deaths occurred beyond 42 days after pregnancy, underscoring the importance of care throughout the first postpartum year. Machine-learning studies demonstrated promising discrimination for selected maternal morbidity outcomes, but evidence regarding external validation, equitable performance across demographic subgroups, and prospective clinical implementation remained limited. Evidence on interventions was strongest for standardized obstetric quality-improvement initiatives, while postpartum Medicaid extensions, doula care, and paid family leave showed benefits in selected access, utilization, or patient-centered outcomes but did not co",
+  "day": "2026-11-23",
+  "rank": 6.64,
+  "zh_abstract": "[International journal of MCH and AIDS] 美国孕产期及产后健康方面的种族差异依然显著。2024 年，非西班牙裔黑人女性的孕产妇死亡率为每 10 万例活产 44.8 例，而非西班牙裔白人女性为 14.2 例。本系统综述综合了关于产后发病和死亡种族差异的最新证据、相关的结构性和医疗因素、新兴的人工智能和机器学习应用，以及旨在改善产后结局和公平性的干预措施。本系统综述按照 2020 年系统综述和荟萃分析优先报告条目（PRISMA）声明进行。证据综合聚焦于美国本土的原始实证研究以及权威的政府监测和分析来源，内容涉及孕产期和产后结局、种族和民族差异、结构性和社会健康决定因素、医疗可及性、人工智能和机器学习应用，以及与产后健康相关的干预措施。我们将系统综述和范围综述用于文献识别和背景解读，但不将其视为独立的原始证据。由于研究设计、人群、暴露和结局存在显著异质性，研究结果采用叙述性方式综合。证据显示，在孕产妇死亡、严重孕产妇并发症和产后出血、围产期心肌病和高血压疾病、产后心理健康以及产后医疗可及性方面，种族和民族差异持续存在。2024 年，非西班牙裔黑人女性的孕产妇死亡率约为非西班牙裔白人女性的 3.2 倍。妊娠相关死亡监测还显示，相当比例的死亡发生在妊娠结束 42 天之后，这凸显了产后第一年全程照护的重要性。机器学习研究对部分孕产妇并发症结局显示出有前景的区分能力，但关于外部验证、不同人口学亚组间的公平性能以及前瞻性临床应用的证据仍然有限。关于干预措施，标准化产科质量改进举措的证据最为充分，而产后医疗补助（Medicaid）延期、导乐（doula）陪护和带薪家庭假在部分可及性、利用率或以患者为中心的结局方面显示出获益，但未能（原文至此截断）"
+ },
+ {
+  "title": "From eminence to evidence to intelligence-based medicine: optimising artificial intelligence to disrupt dogma in emergency departments.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43065724/",
+  "date": "2026-11-06T00:00:00+00:00",
+  "badge": "DOI 10.3389/fpubh.2026.2009392",
+  "source": "PubMed · Frontiers in public health",
+  "source_group": "PubMed",
+  "home": "",
+  "thin": false,
+  "pop": null,
+  "id": "058c1f737d8d",
+  "keep": true,
+  "zh_title": "从权威到证据再到智能医学：优化急诊AI以打破教条",
+  "summary": "观点文章讨论AI驱动的智能医学在急诊科的前景，并警示未经严格监督可能放大偏倚与过时经验，形成算法家长主义。",
+  "key_points": [
+   "回顾从权威到证据再到智能医学的演进",
+   "警示算法家长主义与偏倚放大风险",
+   "强调部署AI需严格监督"
+  ],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "公平与安全",
+   "临床落地"
+  ],
+  "evidence": "同行评审",
+  "score": 3,
+  "reason": "观点类文章，无新数据，属增量档",
+  "reason_extra": "",
+  "abstract": "[Frontiers in public health] The evolution of medical epistemology from the unassailable authority of eminence to the empirical rigour of evidence has prepared the healthcare system for its most profound transformation yet, intelligence-based medicine. Driven by the integration of artificial intelligence (AI), this emerging era offers unprecedented capabilities to process complex health data and personalise patient care within high-stakes environments like emergency departments. However, this paradigm shift simultaneously introduces a critical risk of modernised, digital dogma, manifesting as algorithmic paternalism. If AI systems are deployed without rigorous oversight, they threaten to silently amplify historical biases, diagnostic inaccuracies, and outdated clinical heuristics, trading the unquestioned authority of historical figures for the presumed infallibility of machines. To safeguard care in emergency departments, AI must not operate unchecked. Adapting existing Learning Health System frameworks offers a pragmatic solution to govern AI integration. By embedding these computational technologies within continuous, self-correcting clinical ecosystems, departments can enforce robust data hygiene and rigorously audit data provenance. An essential component of this approach is separating objective safety surveillance and adverse event reporting from the algorithm's internal learning mechanisms to detect epistemic drift and automation bias. Ultimately, the successful and safe integration of intelligence-based medicine depends on an unwavering commitment to transparent governance. When computational power is harnessed as a regulated, transparent tool within an LHS, AI can actively dismantle entrenched clinical dogma, ensuring future care is anchored in dynamic, validated evidence rather than perpetuating the medical errors propagated by eminence from the past.",
+  "day": "2026-11-23",
+  "rank": 5.87,
+  "zh_abstract": "[Frontiers in public health] 医学认识论已从权威人物不容置疑的权威，演变为循证的实证严谨性，这使医疗卫生系统为迄今最深刻的变革——基于智能的医学——做好了准备。在人工智能（AI）整合的推动下，这一新兴时代为在急诊科等高风险环境中处理复杂的健康数据和实现个性化患者照护提供了前所未有的能力。然而，这一范式转变同时带来了现代化的数字教条的关键风险，表现为算法家长主义。如果在缺乏严格监督的情况下部署AI系统，它们可能会悄然放大历史偏见、诊断不准确和过时的临床经验法则，用对机器的“绝对正确”的假定取代对历史人物的无条件权威。为保障急诊科的照护，AI不得在不受制约的情况下运行。调整现有的学习型健康系统（Learning Health System，LHS）框架为管理AI整合提供了一种务实的解决方案。通过将这些计算技术嵌入持续的、自我纠正的临床生态系统中，各科室可以执行严格的数据管理，并严格审核数据来源。该方法的一个重要组成部分是将客观的安全监测和不良事件报告与算法的内部学习机制分离，以检测认识漂移和自动化偏倚。归根结底，基于智能的医学能否成功、安全地整合，取决于对透明治理的坚定承诺。当计算能力在LHS中作为受监管、透明的工具加以利用时，AI可以积极地瓦解根深蒂固的临床教条，确保未来的照护以动态、经过验证的证据为基础，而不是延续源自过去权威所传播的医疗错误。"
+ },
+ {
+  "title": "阿福健康生态大会：蚂蚁CEO韩歆毅谈AI如何服务患者、医生和医学- AI",
+  "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JQjZsQ2RuVjJkSmExLTR4QjVGenRaM3JDN1pmc3g4NHFoLU5sUEtyNngtZ2FHSXZxbGxSbnhSZUNnY3B4aldVU01tVXBkajJkWE1uOEhB?oc=5",
+  "date": "2026-11-22T13:02:53+00:00",
+  "source": "亿邦动力",
+  "source_group": "Google News · 中文医疗AI",
+  "home": "https://www.ebrun.com",
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "67fbefec363d",
+  "keep": true,
+  "zh_title": "阿福健康生态大会：蚂蚁CEO谈AI服务患者、医生与医学",
+  "summary": "据标题，蚂蚁CEO韩歆毅在阿福健康生态大会上谈AI如何服务患者、医生和医学，正文未提供。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "观点",
+  "tags": [
+   "数字健康",
+   "临床落地"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "仅标题，行业会议动态，信息有限",
+  "day": "2026-11-23",
+  "rank": 5.31
+ },
+ {
+  "title": "Tempus Awarded Funding to Build Clinical AI Agent",
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ2RGQ3ZMMDVWamd0NXIyQlRWY3JjUXcxYUpKa2hXRkxZemdJTVg2WEpEU0dpZ0dNeE1mWlEyaGJGdHY5VzZYbFQzRmdwV0FHcjBJVF9RVXNlYjQxRWduRUNYWkozUU9yRTY4bVlyNEx0aUx2XzRxQlg4eEpsT0FKRUZJeTdHOTM5VllvZ2FWVlp6UQ?oc=5",
+  "date": "2026-11-20T18:53:00+00:00",
+  "source": "Medical Product Outsourcing",
+  "source_group": "Google News · FDA AI",
+  "home": "https://www.mpo-mag.com",
+  "thin": true,
+  "badge": "",
+  "pop": null,
+  "id": "39ed290a68cd",
+  "keep": true,
+  "zh_title": "Tempus获得资金支持，构建临床AI智能体",
+  "summary": "据标题，Tempus获得资金用于构建临床AI智能体，正文信息未提供。",
+  "key_points": [],
+  "section": "落地与监管",
+  "type": "融资",
+  "tags": [
+   "智能体",
+   "融资与并购"
+  ],
+  "evidence": "新闻",
+  "score": 3,
+  "reason": "仅标题，融资类动态，细节不明",
+  "day": "2026-11-23",
+  "rank": 5.14
+ },
+ {
   "title": "A global atlas of digital dermatology to map innovation and disparities",
   "link": "https://www.nature.com/articles/s41467-026-78602-w",
   "date": "2026-11-21T00:00:00+00:00",
@@ -572,7 +1125,8 @@
   "rank": 11.64,
   "abstract_days": [
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
  },
@@ -1054,7 +1608,8 @@
   "rank": 9.0,
   "abstract_days": [
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1087,7 +1642,8 @@
   "rank": 9.0,
   "abstract_days": [
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1123,7 +1679,8 @@
   "rank": 9.0,
   "abstract_days": [
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -1590,7 +2147,13 @@
   "abstract": "[Healthcare informatics research] Artificial intelligence (AI) chatbots are increasingly used in maternal healthcare to provide real-time, interactive, personalized support. This systematic review and meta-analysis examined the effects of AI chatbot interventions on women during pregnancy and postpartum. PubMed, the Cochrane Library, Embase, the Cumulative Index to Nursing and Allied Health Literature, and the Research Information Sharing System were searched from September 11 to 16, 2025, using the search string \"((\"Artificial Intelligence\"[Mesh] OR \"AI\"[tiab] OR \"Machine Learning\"[tiab]) AND (\"Chatbot\"[tiab] OR \"Conversational Agent*\"[tiab]) AND (\"Pregnancy\"[Mesh] OR prenatal[tiab] OR antenatal[tiab] OR postnatal[tiab] OR postpartum[tiab])\". Eligible studies were peer-reviewed experimental studies published in English or Korean that evaluated chatbot interventions for women during pregnancy or postpartum. Six studies (four randomized controlled trials and two nonrandomized controlled trials) were included. Intervention themes included gestational diabetes, postpartum depression, well-being, maternal-fetal attachment, aneuploidy testing, and breastfeeding. Individual trials reported improvements in knowledge, self-efficacy, and attachment, as well as reductions in symptoms. The meta-analysis showed no significant effect on depression (estimate = 0.037, p = 0.662) or anxiety (estimate = -0.084, p = 0.279); heterogeneity was low (I² = 0%). AI chatbot interventions show promise for improving maternal knowledge, self-efficacy, and attachment. However, the available evidence does not show consistent reductions in depression or anxiety. Large, rigorously designed studies are needed to refine intervention strategies, ensure equity, and establish a robust basis for integrating these interventions into maternal healthcare systems.",
   "day": "2026-11-21",
   "rank": 7.75,
-  "zh_abstract": "[医疗信息学研究] 人工智能（AI）聊天机器人越来越多地用于孕产妇保健，以提供实时、互动、个性化的支持。本系统评价和荟萃分析考察了AI聊天机器人干预对妊娠期及产后女性的影响。于2025年9月11日至16日检索了PubMed、Cochrane Library、Embase、护理及相关健康文献累积索引（Cumulative Index to Nursing and Allied Health Literature）和Research Information Sharing System，检索式为\"((\"Artificial Intelligence\"[Mesh] OR \"AI\"[tiab] OR \"Machine Learning\"[tiab]) AND (\"Chatbot\"[tiab] OR \"Conversational Agent*\"[tiab]) AND (\"Pregnancy\"[Mesh] OR prenatal[tiab] OR antenatal[tiab] OR postnatal[tiab] OR postpartum[tiab])\"。纳入标准为以英文或韩文发表、经同行评审、评价针对妊娠期或产后女性的聊天机器人干预的实验性研究。共纳入6项研究（4项随机对照试验和2项非随机对照试验）。干预主题包括妊娠期糖尿病、产后抑郁、幸福感、母胎依恋、非整倍体检测和母乳喂养。各项试验报告了知识、自我效能和依恋方面的改善，以及症状的减轻。荟萃分析显示，对抑郁（估计值=0.037，p=0.662）和焦虑（估计值=-0.084，p=0.279）均无显著影响；异质性较低（I²=0%）。AI聊天机器人干预在改善孕产妇知识、自我效能和依恋方面显示出前景。然而，现有证据并未显示其能持续降低抑郁或焦虑。需要开展大规模、设计严谨的研究，以完善干预策略、确保公平性，并为将这些干预整合进孕产妇医疗保健体系奠定坚实基础。"
+  "zh_abstract": "[医疗信息学研究] 人工智能（AI）聊天机器人越来越多地用于孕产妇保健，以提供实时、互动、个性化的支持。本系统评价和荟萃分析考察了AI聊天机器人干预对妊娠期及产后女性的影响。于2025年9月11日至16日检索了PubMed、Cochrane Library、Embase、护理及相关健康文献累积索引（Cumulative Index to Nursing and Allied Health Literature）和Research Information Sharing System，检索式为\"((\"Artificial Intelligence\"[Mesh] OR \"AI\"[tiab] OR \"Machine Learning\"[tiab]) AND (\"Chatbot\"[tiab] OR \"Conversational Agent*\"[tiab]) AND (\"Pregnancy\"[Mesh] OR prenatal[tiab] OR antenatal[tiab] OR postnatal[tiab] OR postpartum[tiab])\"。纳入标准为以英文或韩文发表、经同行评审、评价针对妊娠期或产后女性的聊天机器人干预的实验性研究。共纳入6项研究（4项随机对照试验和2项非随机对照试验）。干预主题包括妊娠期糖尿病、产后抑郁、幸福感、母胎依恋、非整倍体检测和母乳喂养。各项试验报告了知识、自我效能和依恋方面的改善，以及症状的减轻。荟萃分析显示，对抑郁（估计值=0.037，p=0.662）和焦虑（估计值=-0.084，p=0.279）均无显著影响；异质性较低（I²=0%）。AI聊天机器人干预在改善孕产妇知识、自我效能和依恋方面显示出前景。然而，现有证据并未显示其能持续降低抑郁或焦虑。需要开展大规模、设计严谨的研究，以完善干预策略、确保公平性，并为将这些干预整合进孕产妇医疗保健体系奠定坚实基础。",
+  "also": [
+   {
+    "source": "PubMed · Frontiers in public health",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/43065523/"
+   }
+  ]
  },
  {
   "title": "ClinDataBench: Benchmarking Large Language Model Agents in Clinical Trial Analysis Dataset Construction",
@@ -2882,7 +3445,8 @@
   "abstract_days": [
    "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -2986,9 +3550,10 @@
   "abstract_days": [
    "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
-  "abstract_err": "springer: empty; page: no abstract in meta (258869 bytes; title: Anthropic IPO: four ways the AI giant wants to disrupt scien; text: Anthropic IPO: four ways the AI giant wants to disrupt science | Nature Skip to main content Thank y); europepmc: empty; openalex: empty"
+  "abstract_err": "springer: empty; page: no abstract in meta (258825 bytes; title: Anthropic IPO: four ways the AI giant wants to disrupt scien; text: Anthropic IPO: four ways the AI giant wants to disrupt science | Nature Skip to main content Thank y); europepmc: empty; openalex: empty"
  },
  {
   "title": "CardioLoom: A Report-Guided Electrocardiogram Foundation Model for Cross-Domain Cardiovascular Phenotyping",
@@ -5486,7 +6051,8 @@
   "abstract_days": [
    "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -11889,9 +12455,10 @@
    "2026-11-19",
    "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
-  "abstract_err": "springer: empty; page: no abstract in meta (241059 bytes; title: AI wearables could exploit people’s most vulnerable moments ; text: AI wearables could exploit people’s most vulnerable moments | Nature Skip to main content Thank you ); europepmc: empty; openalex: empty"
+  "abstract_err": "springer: empty; page: no abstract in meta (240002 bytes; title: AI wearables could exploit people’s most vulnerable moments ; text: AI wearables could exploit people’s most vulnerable moments | Nature Skip to main content Thank you ); europepmc: empty; openalex: empty"
  },
  {
   "title": "Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
@@ -14115,7 +14682,8 @@
    "2026-11-19",
    "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: skipped; pubmed: empty; europepmc: empty; openalex: empty"
  },
@@ -15185,7 +15753,8 @@
    "2026-11-19",
    "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -15227,7 +15796,8 @@
    "2026-11-19",
    "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -15371,7 +15941,8 @@
    "2026-11-19",
    "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -15413,7 +15984,8 @@
    "2026-11-19",
    "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -15455,7 +16027,8 @@
    "2026-11-19",
    "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -15730,7 +16303,8 @@
    "2026-11-19",
    "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -15771,7 +16345,8 @@
    "2026-11-19",
    "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -15878,7 +16453,8 @@
    "2026-11-19",
    "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -16740,7 +17316,8 @@
    "2026-11-19",
    "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-23"
   ],
   "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
  },
@@ -68564,6 +69141,10 @@
    {
     "source": "PubMed · Frontiers in oncology",
     "link": "https://pubmed.ncbi.nlm.nih.gov/43041688/"
+   },
+   {
+    "source": "PubMed · MedComm",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/43067911/"
    }
   ]
  },

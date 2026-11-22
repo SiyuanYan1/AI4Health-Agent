@@ -64,7 +64,8 @@
 "rank": 11.64,
 "abstract_days": [
 "2026-11-21",
-"2026-11-22"
+"2026-11-22",
+"2026-11-23"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
 },
@@ -546,7 +547,8 @@
 "rank": 9.0,
 "abstract_days": [
 "2026-11-21",
-"2026-11-22"
+"2026-11-22",
+"2026-11-23"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -579,7 +581,8 @@
 "rank": 9.0,
 "abstract_days": [
 "2026-11-21",
-"2026-11-22"
+"2026-11-22",
+"2026-11-23"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -615,7 +618,8 @@
 "rank": 9.0,
 "abstract_days": [
 "2026-11-21",
-"2026-11-22"
+"2026-11-22",
+"2026-11-23"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -1082,7 +1086,13 @@
 "abstract": "[Healthcare informatics research] Artificial intelligence (AI) chatbots are increasingly used in maternal healthcare to provide real-time, interactive, personalized support. This systematic review and meta-analysis examined the effects of AI chatbot interventions on women during pregnancy and postpartum. PubMed, the Cochrane Library, Embase, the Cumulative Index to Nursing and Allied Health Literature, and the Research Information Sharing System were searched from September 11 to 16, 2025, using the search string \"((\"Artificial Intelligence\"[Mesh] OR \"AI\"[tiab] OR \"Machine Learning\"[tiab]) AND (\"Chatbot\"[tiab] OR \"Conversational Agent*\"[tiab]) AND (\"Pregnancy\"[Mesh] OR prenatal[tiab] OR antenatal[tiab] OR postnatal[tiab] OR postpartum[tiab])\". Eligible studies were peer-reviewed experimental studies published in English or Korean that evaluated chatbot interventions for women during pregnancy or postpartum. Six studies (four randomized controlled trials and two nonrandomized controlled trials) were included. Intervention themes included gestational diabetes, postpartum depression, well-being, maternal-fetal attachment, aneuploidy testing, and breastfeeding. Individual trials reported improvements in knowledge, self-efficacy, and attachment, as well as reductions in symptoms. The meta-analysis showed no significant effect on depression (estimate = 0.037, p = 0.662) or anxiety (estimate = -0.084, p = 0.279); heterogeneity was low (I² = 0%). AI chatbot interventions show promise for improving maternal knowledge, self-efficacy, and attachment. However, the available evidence does not show consistent reductions in depression or anxiety. Large, rigorously designed studies are needed to refine intervention strategies, ensure equity, and establish a robust basis for integrating these interventions into maternal healthcare systems.",
 "day": "2026-11-21",
 "rank": 7.75,
-"zh_abstract": "[医疗信息学研究] 人工智能（AI）聊天机器人越来越多地用于孕产妇保健，以提供实时、互动、个性化的支持。本系统评价和荟萃分析考察了AI聊天机器人干预对妊娠期及产后女性的影响。于2025年9月11日至16日检索了PubMed、Cochrane Library、Embase、护理及相关健康文献累积索引（Cumulative Index to Nursing and Allied Health Literature）和Research Information Sharing System，检索式为\"((\"Artificial Intelligence\"[Mesh] OR \"AI\"[tiab] OR \"Machine Learning\"[tiab]) AND (\"Chatbot\"[tiab] OR \"Conversational Agent*\"[tiab]) AND (\"Pregnancy\"[Mesh] OR prenatal[tiab] OR antenatal[tiab] OR postnatal[tiab] OR postpartum[tiab])\"。纳入标准为以英文或韩文发表、经同行评审、评价针对妊娠期或产后女性的聊天机器人干预的实验性研究。共纳入6项研究（4项随机对照试验和2项非随机对照试验）。干预主题包括妊娠期糖尿病、产后抑郁、幸福感、母胎依恋、非整倍体检测和母乳喂养。各项试验报告了知识、自我效能和依恋方面的改善，以及症状的减轻。荟萃分析显示，对抑郁（估计值=0.037，p=0.662）和焦虑（估计值=-0.084，p=0.279）均无显著影响；异质性较低（I²=0%）。AI聊天机器人干预在改善孕产妇知识、自我效能和依恋方面显示出前景。然而，现有证据并未显示其能持续降低抑郁或焦虑。需要开展大规模、设计严谨的研究，以完善干预策略、确保公平性，并为将这些干预整合进孕产妇医疗保健体系奠定坚实基础。"
+"zh_abstract": "[医疗信息学研究] 人工智能（AI）聊天机器人越来越多地用于孕产妇保健，以提供实时、互动、个性化的支持。本系统评价和荟萃分析考察了AI聊天机器人干预对妊娠期及产后女性的影响。于2025年9月11日至16日检索了PubMed、Cochrane Library、Embase、护理及相关健康文献累积索引（Cumulative Index to Nursing and Allied Health Literature）和Research Information Sharing System，检索式为\"((\"Artificial Intelligence\"[Mesh] OR \"AI\"[tiab] OR \"Machine Learning\"[tiab]) AND (\"Chatbot\"[tiab] OR \"Conversational Agent*\"[tiab]) AND (\"Pregnancy\"[Mesh] OR prenatal[tiab] OR antenatal[tiab] OR postnatal[tiab] OR postpartum[tiab])\"。纳入标准为以英文或韩文发表、经同行评审、评价针对妊娠期或产后女性的聊天机器人干预的实验性研究。共纳入6项研究（4项随机对照试验和2项非随机对照试验）。干预主题包括妊娠期糖尿病、产后抑郁、幸福感、母胎依恋、非整倍体检测和母乳喂养。各项试验报告了知识、自我效能和依恋方面的改善，以及症状的减轻。荟萃分析显示，对抑郁（估计值=0.037，p=0.662）和焦虑（估计值=-0.084，p=0.279）均无显著影响；异质性较低（I²=0%）。AI聊天机器人干预在改善孕产妇知识、自我效能和依恋方面显示出前景。然而，现有证据并未显示其能持续降低抑郁或焦虑。需要开展大规模、设计严谨的研究，以完善干预策略、确保公平性，并为将这些干预整合进孕产妇医疗保健体系奠定坚实基础。",
+"also": [
+{
+"source": "PubMed · Frontiers in public health",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43065523/"
+}
+]
 },
 {
 "title": "ClinDataBench: Benchmarking Large Language Model Agents in Clinical Trial Analysis Dataset Construction",
