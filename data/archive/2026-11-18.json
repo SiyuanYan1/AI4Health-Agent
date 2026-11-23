@@ -4119,7 +4119,13 @@
 "abstract": "[Clinics in plastic surgery] Artificial intelligence (AI) has rapidly transformed education, including plastic surgical training through adaptive learning platforms, automated competency assessment and intraoperative performance analytics. These platforms support competency-based medical education by enabling continuous objective evaluation, personalized feedback, trajectory predictions, and scalable simulation environments. Emerging applications include virtual patients, plastic surgery-specific adaptive question banks, surgical video analysis, and augmented-reality operative guidance. Despite promising gains in efficiency and educational precision, implementation will require careful validation, transparency, and sustained expert oversight. Strategic AI integration into training programs offers the potential to enhance technical skill acquisition, standardize evaluation and expand access to high-quality surgical education globally.",
 "day": "2026-11-18",
 "rank": 5.65,
-"zh_abstract": "[整形外科临床]人工智能（AI）已迅速改变了教育领域，包括通过自适应学习平台、自动化能力评估和术中表现分析来改变整形外科培训。这些平台通过实现持续客观评价、个性化反馈、轨迹预测以及可扩展的模拟环境，支持基于胜任力的医学教育。新兴应用包括虚拟患者、整形外科专用的自适应题库、手术视频分析以及增强现实手术导航。尽管在效率和教育精准度方面前景可期，但其实施仍需要审慎的验证、透明度和持续的专家监督。将AI战略性地整合进培训项目，有望提升技术技能的获得、使评价标准化，并在全球范围内扩大高质量外科教育的可及性。"
+"zh_abstract": "[整形外科临床]人工智能（AI）已迅速改变了教育领域，包括通过自适应学习平台、自动化能力评估和术中表现分析来改变整形外科培训。这些平台通过实现持续客观评价、个性化反馈、轨迹预测以及可扩展的模拟环境，支持基于胜任力的医学教育。新兴应用包括虚拟患者、整形外科专用的自适应题库、手术视频分析以及增强现实手术导航。尽管在效率和教育精准度方面前景可期，但其实施仍需要审慎的验证、透明度和持续的专家监督。将AI战略性地整合进培训项目，有望提升技术技能的获得、使评价标准化，并在全球范围内扩大高质量外科教育的可及性。",
+"also": [
+{
+"source": "PubMed · Current problems in pediatric and adolescent health care",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43067579/"
+}
+]
 },
 {
 "title": "Artificial Intelligence in Aesthetic Surgery.",
