@@ -1,0 +1,109 @@
+{
+ "week": "2026-W47",
+ "range": "2026-11-16 ~ 2026-11-22",
+ "partial": false,
+ "generated": "2026-11-23T08:28:46.401313+00:00",
+ "summary": "本周20条均为同行评审成果，未含预印本。以下仅为研究进展梳理，不构成任何医疗建议。\n\n在利用常规或低成本信号做机会性预测方面，本周条目最为集中。Retina-PE 整合眼底照片、临床因素与平均动脉压，基于8616名孕妇的前瞻性多中心数据预测子痫前期，并做了外部验证[1]。常规胸片研究在5.3万成人中训练CNN生存模型，并在两家独立机构的8.5万患者中外部验证，用于预测主要骨质疏松性骨折[5]。数字听诊结合单导联心电的集成模型，用于检测超声所定义的左心室功能障碍（LVEF≤40%）[16]。另一项心电研究以超33万对心电图-超声配对训练模型，检测并预测扩张型心肌病，并在多个独立队列中验证[19]。前瞻性研究显示，借助AI的消费级智能手表，其高血压检测表现与诊室测量相近[4]。系统综述方面，影像年龄差每增5岁，全因死亡风险HR为1.31，但异质性很高，解读宜审慎[8]。\n\n常规实验室数据同样被用于分层与预警。研究者用六项常规检验对21,235人做无监督聚类，得到三个痛风亚型，并将其与复发和死亡风险相关联[9]。Transformer 模型利用3905例多发性骨髓瘤或卵巢癌患者的纵向化验数据，预测两年内新发的162种治疗相关并发症[10]。NEJM AI 还刊发了关于FDA授权脓毒症预测AI/ML工具的开发与验证研究，但本条仅有标题信息，细节暂无法评述[13]。\n\n大模型与智能体方向，OpenScientist 是开源智能体，可依据科学家的问题生成有数据依据、可验证的分析，并经领域专家在五个生物医学案例中评估[2]。有研究以医生标准比较六种LLM在三组患者门户消息中识别紧急消息的表现，涵盖云端与可本地部署的开放权重模型[12]。AI-INFOCARE 是单中心神经外科门诊的随机试验，300人按1:1分组，评估就诊前经质检的AI通俗摘要能否改善患者报告的医患互动质量[15]。此外，一项框架将脑子网络作为token，把脑连接组与临床报告对齐到共享潜空间，用于轻度认知障碍研究[14]。\n\n数据资源与基础模型方面，Shiraz-TBI 数据集含3602例患者、12,155次连续脑CT，附结构化标注与时间变量[3]。皮肤病学图谱整合29个公开数据集的110万张图像，发现数据严重偏斜且冗余增加，深肤色与儿科样本占比低[6]。病理领域有两项基础模型工作，分别涉及跨放大倍率蒸馏和生成式视觉模型，但均仅有标题与作者信息[17][18]。CGMap 则在生物分子网络中按距离分辨通道筛选潜在癌症基因，并提供可追溯的机制线索[20]。\n\n落地与监管层面，中国内地1574名成人的5×2随机实验显示，行政类AI比诊断和治疗类AI获得更好评价，高严重度病情放大了对治疗类AI的负面反应[7]。一篇评论指出，欧盟委员会2025年12月提出的MDR修订方向总体合理，但对AI医疗器械的特定挑战仍未解决[11]。",
+ "items": [
+  {
+   "title": "视网膜血管深度学习生物标志物预测子痫前期：多中心前瞻队列",
+   "link": "https://www.nature.com/articles/s41746-026-03463-y",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "OpenScientist：面向临床与生物医学发现的开源智能体AI协作科学家",
+   "link": "https://www.nature.com/articles/s41591-026-04808-6",
+   "source": "Nature Medicine"
+  },
+  {
+   "title": "STBI：含1.2万余例脑CT的创伤性脑损伤机器学习数据集",
+   "link": "https://www.nature.com/articles/s41746-026-03471-y",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "智能手表借助AI筛查未诊断高血压",
+   "link": "https://www.nature.com/articles/d41591-026-00058-8",
+   "source": "Nature Medicine"
+  },
+  {
+   "title": "基于常规胸片深度学习的机会性骨质疏松性骨折风险评估",
+   "link": "https://ai.nejm.org/doi/full/10.1056/AIoa2600590?af=R&rss=currentIssue",
+   "source": "NEJM AI"
+  },
+  {
+   "title": "全球数字皮肤病学图谱：映射创新与差异",
+   "link": "https://www.nature.com/articles/s41467-026-78602-w",
+   "source": "Nature Communications"
+  },
+  {
+   "title": "医生AI披露、病情严重度与公众对数字医疗的信任",
+   "link": "https://www.nature.com/articles/s41746-026-03484-7",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "影像生物学年龄差与死亡及疾病风险：系统综述与荟萃分析",
+   "link": "https://www.nature.com/articles/s41746-026-03472-x",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "可解释AI将痛风常规表型与多组学特征及健康轨迹关联",
+   "link": "https://www.nature.com/articles/s41746-026-03507-3",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "常规实验室指标轨迹预测癌症器官级并发症",
+   "link": "https://www.nature.com/articles/s41746-026-03405-8",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "欧盟医疗器械法规改革对AI医疗器械的影响",
+   "link": "https://www.nature.com/articles/s41746-026-03475-8",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "云端与本地大模型用于紧急患者门户消息筛查的比较评估",
+   "link": "https://www.nature.com/articles/s41746-026-03477-6",
+   "source": "npj Digital Medicine"
+  },
+  {
+   "title": "FDA授权的脓毒症预测AI/ML工具：开发与验证",
+   "link": "https://ai.nejm.org/doi/full/10.1056/AIx2601439?af=R&rss=currentIssue",
+   "source": "NEJM AI"
+  },
+  {
+   "title": "脑连接组与临床笔记对齐的MCI多模态框架",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056268/",
+   "source": "PubMed · IEEE transactions on medical imaging"
+  },
+  {
+   "title": "就诊前AI生成文档摘要对问诊时间与医患沟通的影响：AI-INFOCARE随机对照试验",
+   "link": "https://ai.nejm.org/doi/full/10.1056/AIoa2600136?af=R&rss=currentIssue",
+   "source": "NEJM AI"
+  },
+  {
+   "title": "AI增强听诊识别左心室功能障碍：前瞻性多中心开发与外部验证",
+   "link": "https://ai.nejm.org/doi/full/10.1056/AIoa2600258?af=R&rss=currentIssue",
+   "source": "NEJM AI"
+  },
+  {
+   "title": "跨放大倍率蒸馏精简病理基础模型",
+   "link": "https://www.sciencedirect.com/science/article/pii/S1361841526004214?dgcid=rss_sd_all",
+   "source": "Medical Image Analysis"
+  },
+  {
+   "title": "HistoDiffusion++：组织病理生成式视觉基础模型",
+   "link": "https://www.sciencedirect.com/science/article/pii/S136184152600397X?dgcid=rss_sd_all",
+   "source": "Medical Image Analysis"
+  },
+  {
+   "title": "AI心电图用于扩张型心肌病的检测与预测",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43031488/",
+   "source": "PubMed · European heart journal"
+  },
+  {
+   "title": "可解释距离分辨图学习用于癌症基因优先级筛选",
+   "link": "https://www.nature.com/articles/s42256-026-01327-4",
+   "source": "Nature Machine Intelligence"
+  }
+ ]
+}
