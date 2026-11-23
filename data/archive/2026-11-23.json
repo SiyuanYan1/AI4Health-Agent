@@ -167,7 +167,8 @@
 "day": "2026-11-23",
 "rank": 9.0,
 "abstract_days": [
-"2026-11-23"
+"2026-11-23",
+"2026-11-24"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -1637,7 +1638,13 @@
 "reason": "仅有标题，信息有限；开源医学大模型但无评测，按标题仅题评上限",
 "reasoning": "",
 "day": "2026-11-23",
-"rank": 7.5
+"rank": 7.5,
+"also": [
+{
+"source": "新浪财经",
+"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZXhiWW04MHlYOGJkcmhKMUFIOWJRVDhva0cyamhxOTFnR3pUYUgtNmtqWF9pTG1XUThEcjlwSExIVjZpMXdSR1lXcm5DV0FMTkFqS1doZ2Nqc2ZicWY2RDJXX3BSMUJmYjYzYk1VMlNhYzF2MDRQM01pMXhvTkJWZHl3?oc=5"
+}
+]
 },
 {
 "title": "[AI-based analysis of orthopedic data : Fundamentals and practical examples].",
