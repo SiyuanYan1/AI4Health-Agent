@@ -5651,7 +5651,13 @@
 "score": 2,
 "reason": "仅标题的产业动态，信息有限",
 "day": "2026-11-24",
-"rank": 4.5
+"rank": 4.5,
+"also": [
+{
+"source": "亿欧",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4NE00WlA2Si1Cdm4xY0lNZE5xYjhNeTllUjJyY1M5RG9YWW0zeDI5TFN3R05RT2RuUl9OZE16c2dMTVRSZ0xwZHlYbktfQjRadFd3b1g0d0pEUQ?oc=5"
+}
+]
 },
 {
 "title": "蚂蚁阿福上线“视频看健康”，医疗AI万亿蓝海争夺战打响",
@@ -5682,6 +5688,10 @@
 {
 "source": "第一财经",
 "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ETnZDMmpqYmxrci1jcE54YW11QnhfSGZFQ0dsN3N0SzNtNlMteWtxR3JpWGtPNmpPdGFleGZmRzhteXVpbEU1U3VIOHNuaGN0M2Zz?oc=5"
+},
+{
+"source": "新浪财经",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HWGR5ZDJZblVNNS1IeW9GWHF1NHJKTWVUaFF0Zm9IZUQ0b3E3eGduY2RnNlVWbUw3WVpWaFQ3d1phVHhDd3UtbHVWU05QeS1lTTBiLV9LbjMwSC1hUXRQRHpoY1djZkVsQUhHNWJlR05ac0JVUTZrcVpxVDNvVDQ?oc=5"
 }
 ]
 },
