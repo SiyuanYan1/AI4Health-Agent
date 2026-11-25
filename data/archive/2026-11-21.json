@@ -67,9 +67,10 @@
 "2026-11-22",
 "2026-11-23",
 "2026-11-24",
-"2026-11-25"
+"2026-11-25",
+"2026-11-26"
 ],
-"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: The read operation timed out; openalex: empty"
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
 },
 {
 "title": "Tele-Cranio: a CT-free AI solution for remote diagnosis and planning of craniomaxillofacial deformities",
@@ -552,7 +553,8 @@
 "2026-11-22",
 "2026-11-23",
 "2026-11-24",
-"2026-11-25"
+"2026-11-25",
+"2026-11-26"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -588,7 +590,8 @@
 "2026-11-22",
 "2026-11-23",
 "2026-11-24",
-"2026-11-25"
+"2026-11-25",
+"2026-11-26"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -627,7 +630,8 @@
 "2026-11-22",
 "2026-11-23",
 "2026-11-24",
-"2026-11-25"
+"2026-11-25",
+"2026-11-26"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },

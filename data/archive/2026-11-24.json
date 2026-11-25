@@ -5529,7 +5529,13 @@
 "reason": "仅有标题，行业动态类，信息有限，属增量档",
 "title_only": true,
 "day": "2026-11-24",
-"rank": 5.14
+"rank": 5.14,
+"also": [
+{
+"source": "Sohu",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd0hENlpMcVhRdTVxVDRfcjM1anhIS2EwNU9hcEdYeGRNclo4OU5VdzJaU3lyU2pyNHNqZHJjdUt1Ymk2YzA3MVJYUlZFMkZibU9hd1dBenNWelhIRGp1dzE5ankwTnlFT0s3cEdVT3Z3OTFCQWUxSGh3ZTBpVkVkYTZkUjlwQWJsRll3?oc=5"
+}
+]
 },
 {
 "title": "Spatial Ensemble Logic for Biomedical Imaging: Geometric Element Ensembles in Euclidean Space",

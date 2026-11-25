@@ -168,9 +168,10 @@
 "day": "2026-11-25",
 "rank": 10.81,
 "abstract_days": [
-"2026-11-25"
+"2026-11-25",
+"2026-11-26"
 ],
-"abstract_err": "springer: empty; page: no abstract in meta (239360 bytes; title: Watch out, AlphaFold: Claude and ChatGPT’s new biology skill; text: Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists | Nature Skip to main c); europepmc: The read operation timed out; openalex: HTTP Error 404: Not Found"
+"abstract_err": "springer: empty; page: no abstract in meta (231047 bytes; title: Watch out, AlphaFold: Claude and ChatGPT’s new biology skill; text: Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists | Nature Skip to main c); europepmc: empty; openalex: empty"
 },
 {
 "title": "VoxelSlicer: Adaptive Voxel-wise Slicer for Deformable Image Registration.",
@@ -1172,7 +1173,8 @@
 "day": "2026-11-25",
 "rank": 9.0,
 "abstract_days": [
-"2026-11-25"
+"2026-11-25",
+"2026-11-26"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -1697,9 +1699,10 @@
 "day": "2026-11-25",
 "rank": 8.07,
 "abstract_days": [
-"2026-11-25"
+"2026-11-25",
+"2026-11-26"
 ],
-"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: The read operation timed out; openalex: HTTP Error 404: Not Found"
+"abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: HTTP Error 404: Not Found"
 },
 {
 "title": "Preserving Clinical Judgment in AI-Assisted Diagnosis",
@@ -1764,7 +1767,8 @@
 "day": "2026-11-25",
 "rank": 8.07,
 "abstract_days": [
-"2026-11-25"
+"2026-11-25",
+"2026-11-26"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
 },
