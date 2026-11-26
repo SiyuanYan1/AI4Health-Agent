@@ -3650,7 +3650,13 @@
 "score": 2,
 "reason": "仅有标题的人物访谈，信息几乎为零，属边缘档",
 "day": "2026-11-25",
-"rank": 4.5
+"rank": 4.5,
+"also": [
+{
+"source": "手机新浪网",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQc0lSRk9aODZtZjd0MnVWVHFOWVRvZVo0WTh5OFhXazRwVGVoci00U2JLclZ5SmpBNlJvM2xhVi1qYV82QXVBd244MXhTeVZ5cjRTV0dIV1dDQXZ2RXIxSW1iMjI2YVV6NG43aG5zNkdXcm5ZN1VLT1FfT3hCV0RKZ08xUQ?oc=5"
+}
+]
 },
 {
 "title": "久远银海：“银海闻语”大模型已应用于医疗医保、数字政务等领域",

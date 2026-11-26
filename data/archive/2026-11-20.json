@@ -386,7 +386,13 @@
 "title_only": false,
 "abstract": "[IEEE transactions on bio-medical engineering] To develop and validate InterGenEHR+, an interactive framework for natural language-conditioned generation of synthetic tabular data and longitudinal EHR trajectories for critically ill patients requiring mechanical ventilation and venovenous extracorporeal membrane oxygenation (VV-ECMO), enabling scenario-based evaluation of machine learning models in high-risk cohorts. InterGenEHR+ uses an optional large language model (LLM) parser for text-driven input. For single-time-point generation, we integrate variational autoencoders (VAEs) and diffusion models conditioned on observed variables. Multiple diffusion architectures support conditional longitudinal generation. The framework is evaluated on a multi-institutional VV-ECMO cohort of 874 patients using distributional fidelity metrics, imputation accuracy, adherence to clinical constraints, downstream mortality prediction tasks, and clinician evaluation. Gemma 3 4B with few-shot prompting achieves the best performance in parsing clinician prompts while maintaining a low spurious slot rate. The experimental results demonstrate strengths across IGE variants: IGE-TabDDPM and IGE-PMVAE show strong performance in single-time-point generation, whereas IGE-CSDI, IGE-FGTI, and IGE-MTSCI achieve the best performance on different longitudinal fidelity metrics. In downstream evaluations across five random seeds and three classifiers, models trained on synthetic cohorts retain predictive utility for mortality prediction on real test data. Clinician ratings further indicate that the generated trajectories are clinically plausible and consistent with the requested scenarios. InterGenEHR+ enables clinician-specified conditional generation of clinically coherent EHR trajectories with strong statistical fidelity and downstream predictive utility in the evaluated VV-ECMO cohort and could be extended to other clinical settings. This framework supports the development and evaluation of machine learning systems in data-sparse critical care settings and advances clinically grounded synthetic data generation for biomedical research.1.",
 "day": "2026-11-20",
-"rank": 9.31
+"rank": 9.31,
+"also": [
+{
+"source": "arXiv",
+"link": "https://arxiv.org/abs/2611.33788"
+}
+]
 },
 {
 "title": "Pharmacometrics, Artificial Intelligence, and Machine Learning in Precision Dosing and Clinical Toxicology.",

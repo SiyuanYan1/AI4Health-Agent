@@ -1,6 +1,171 @@
 {
  "runs": [
   {
+   "time": "2026-11-26T05:20:52.606389+00:00",
+   "sources": {
+    "arXiv": {
+     "fetched": 87,
+     "error": null
+    },
+    "medRxiv": {
+     "fetched": 30,
+     "error": null
+    },
+    "bioRxiv": {
+     "fetched": 9,
+     "error": null
+    },
+    "PubMed": {
+     "fetched": 60,
+     "error": null
+    },
+    "Nature Medicine": {
+     "fetched": 8,
+     "error": null
+    },
+    "npj Digital Medicine": {
+     "fetched": 8,
+     "error": null
+    },
+    "Lancet Digital Health": {
+     "fetched": 14,
+     "error": null
+    },
+    "NEJM AI": {
+     "fetched": 20,
+     "error": null
+    },
+    "Hugging Face": {
+     "fetched": 1,
+     "error": null
+    },
+    "GitHub": {
+     "fetched": 15,
+     "error": null
+    },
+    "STAT News": {
+     "fetched": 7,
+     "error": null
+    },
+    "Google News · FDA AI": {
+     "fetched": 15,
+     "error": null
+    },
+    "Google News · NMPA AI": {
+     "fetched": 8,
+     "error": null
+    },
+    "PubMed · 重点期刊": {
+     "fetched": 5,
+     "error": null
+    },
+    "Nature Biomedical Engineering": {
+     "fetched": 0,
+     "error": null
+    },
+    "Nature Machine Intelligence": {
+     "fetched": 8,
+     "error": null
+    },
+    "Nature": {
+     "fetched": 6,
+     "error": null
+    },
+    "Nature Communications": {
+     "fetched": 0,
+     "error": null
+    },
+    "Nature Biotechnology": {
+     "fetched": 0,
+     "error": null
+    },
+    "Nature Cancer": {
+     "fetched": 3,
+     "error": null
+    },
+    "Nature Mental Health": {
+     "fetched": 0,
+     "error": null
+    },
+    "Nature Aging": {
+     "fetched": 0,
+     "error": null
+    },
+    "npj Precision Oncology": {
+     "fetched": 2,
+     "error": null
+    },
+    "eClinicalMedicine": {
+     "fetched": 3,
+     "error": null
+    },
+    "Cell Reports Medicine": {
+     "fetched": 0,
+     "error": null
+    },
+    "Medical Image Analysis": {
+     "fetched": 40,
+     "error": null
+    },
+    "Hugging Face Daily Papers": {
+     "fetched": 9,
+     "error": null
+    },
+    "Google Research": {
+     "fetched": 6,
+     "error": null
+    },
+    "Google DeepMind": {
+     "fetched": 4,
+     "error": null
+    },
+    "Microsoft Research": {
+     "fetched": 1,
+     "error": null
+    },
+    "OpenAI": {
+     "fetched": 4,
+     "error": null
+    },
+    "NVIDIA Blog": {
+     "fetched": 2,
+     "error": null
+    },
+    "Google News · AI 公司动态": {
+     "fetched": 1,
+     "error": null
+    },
+    "FDA 新闻稿": {
+     "fetched": 0,
+     "error": null
+    },
+    "FDA AI 器械清单": {
+     "fetched": 1,
+     "error": null
+    },
+    "EMA": {
+     "fetched": 0,
+     "error": null
+    },
+    "MHRA": {
+     "fetched": 2,
+     "error": null
+    },
+    "WHO": {
+     "fetched": 0,
+     "error": null
+    },
+    "Google News · 中文医疗AI": {
+     "fetched": 15,
+     "error": null
+    },
+    "Hugging Face 数据集": {
+     "fetched": 1,
+     "error": null
+    }
+   }
+  },
+  {
    "time": "2026-11-25T22:30:25.188504+00:00",
    "sources": {
     "arXiv": {
@@ -2144,171 +2309,6 @@
      "error": null
     }
    }
-  },
-  {
-   "time": "2026-11-19T04:24:57.049992+00:00",
-   "sources": {
-    "arXiv": {
-     "fetched": 87,
-     "error": null
-    },
-    "medRxiv": {
-     "fetched": 30,
-     "error": null
-    },
-    "bioRxiv": {
-     "fetched": 9,
-     "error": null
-    },
-    "PubMed": {
-     "fetched": 60,
-     "error": null
-    },
-    "Nature Medicine": {
-     "fetched": 8,
-     "error": null
-    },
-    "npj Digital Medicine": {
-     "fetched": 8,
-     "error": null
-    },
-    "Lancet Digital Health": {
-     "fetched": 14,
-     "error": null
-    },
-    "NEJM AI": {
-     "fetched": 19,
-     "error": null
-    },
-    "Hugging Face": {
-     "fetched": 3,
-     "error": null
-    },
-    "GitHub": {
-     "fetched": 15,
-     "error": null
-    },
-    "STAT News": {
-     "fetched": 11,
-     "error": null
-    },
-    "Google News · FDA AI": {
-     "fetched": 15,
-     "error": null
-    },
-    "Google News · NMPA AI": {
-     "fetched": 9,
-     "error": null
-    },
-    "PubMed · 重点期刊": {
-     "fetched": 5,
-     "error": null
-    },
-    "Nature Biomedical Engineering": {
-     "fetched": 1,
-     "error": null
-    },
-    "Nature Machine Intelligence": {
-     "fetched": 8,
-     "error": null
-    },
-    "Nature": {
-     "fetched": 2,
-     "error": null
-    },
-    "Nature Communications": {
-     "fetched": 0,
-     "error": null
-    },
-    "Nature Biotechnology": {
-     "fetched": 0,
-     "error": null
-    },
-    "Nature Cancer": {
-     "fetched": 1,
-     "error": null
-    },
-    "Nature Mental Health": {
-     "fetched": 1,
-     "error": null
-    },
-    "Nature Aging": {
-     "fetched": 0,
-     "error": null
-    },
-    "npj Precision Oncology": {
-     "fetched": 2,
-     "error": null
-    },
-    "eClinicalMedicine": {
-     "fetched": 2,
-     "error": null
-    },
-    "Cell Reports Medicine": {
-     "fetched": 0,
-     "error": null
-    },
-    "Medical Image Analysis": {
-     "fetched": 40,
-     "error": null
-    },
-    "Hugging Face Daily Papers": {
-     "fetched": 9,
-     "error": null
-    },
-    "Google Research": {
-     "fetched": 7,
-     "error": null
-    },
-    "Google DeepMind": {
-     "fetched": 4,
-     "error": null
-    },
-    "Microsoft Research": {
-     "fetched": 1,
-     "error": null
-    },
-    "OpenAI": {
-     "fetched": 2,
-     "error": null
-    },
-    "NVIDIA Blog": {
-     "fetched": 2,
-     "error": null
-    },
-    "Google News · AI 公司动态": {
-     "fetched": 3,
-     "error": null
-    },
-    "FDA 新闻稿": {
-     "fetched": 0,
-     "error": null
-    },
-    "FDA AI 器械清单": {
-     "fetched": 1,
-     "error": null
-    },
-    "EMA": {
-     "fetched": 0,
-     "error": null
-    },
-    "MHRA": {
-     "fetched": 1,
-     "error": null
-    },
-    "WHO": {
-     "fetched": 0,
-     "error": null
-    },
-    "Google News · 中文医疗AI": {
-     "fetched": 10,
-     "error": null
-    },
-    "Hugging Face 数据集": {
-     "fetched": 0,
-     "error": null
-    }
-   }
   }
  ],
  "streak": {
@@ -2327,10 +2327,10 @@
   "Google News · FDA AI": 0,
   "Google News · NMPA AI": 0,
   "PubMed · 重点期刊": 0,
-  "Nature Biomedical Engineering": 5,
+  "Nature Biomedical Engineering": 6,
   "Nature Machine Intelligence": 0,
   "eClinicalMedicine": 0,
-  "Cell Reports Medicine": 17,
+  "Cell Reports Medicine": 18,
   "Medical Image Analysis": 0,
   "Hugging Face Daily Papers": 0,
   "Google Research": 0,
@@ -2339,11 +2339,11 @@
   "OpenAI": 0,
   "NVIDIA Blog": 0,
   "Google News · AI 公司动态": 0,
-  "FDA 新闻稿": 74,
+  "FDA 新闻稿": 75,
   "FDA AI 器械清单": 0,
-  "EMA": 74,
+  "EMA": 75,
   "MHRA": 0,
-  "WHO": 74,
+  "WHO": 75,
   "Google News · 中文医疗AI": 0,
   "Google News · 中文医疗AI融资": 0,
   "Google News · 行业媒体": 0,
@@ -2352,11 +2352,11 @@
   "ClinicalTrials.gov": 0,
   "Hugging Face 数据集": 0,
   "Nature": 0,
-  "Nature Communications": 1,
-  "Nature Biotechnology": 31,
+  "Nature Communications": 2,
+  "Nature Biotechnology": 32,
   "Nature Cancer": 0,
   "npj Precision Oncology": 0,
-  "Nature Mental Health": 1,
-  "Nature Aging": 27
+  "Nature Mental Health": 2,
+  "Nature Aging": 28
  }
 }
