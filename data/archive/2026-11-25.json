@@ -169,9 +169,10 @@
 "rank": 10.81,
 "abstract_days": [
 "2026-11-25",
-"2026-11-26"
+"2026-11-26",
+"2026-11-27"
 ],
-"abstract_err": "springer: empty; page: no abstract in meta (231047 bytes; title: Watch out, AlphaFold: Claude and ChatGPT’s new biology skill; text: Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists | Nature Skip to main c); europepmc: empty; openalex: empty"
+"abstract_err": "springer: empty; page: no abstract in meta (240513 bytes; title: Watch out, AlphaFold: Claude and ChatGPT’s new biology skill; text: Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists | Nature Skip to main c); europepmc: empty; openalex: empty"
 },
 {
 "title": "VoxelSlicer: Adaptive Voxel-wise Slicer for Deformable Image Registration.",
@@ -666,7 +667,13 @@
 "abstract": "The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing data. We hypothesize that the structure of scientific literature itself provides an additional source of supervision: figures, panels, captions, and accompanying article text encode rich relationships across modalities. Yet, treating these as independent image-text pairs overlooks their relationships. To address this limitation, we incorporate these structural relationships into contrastive image-text supervision. We preserve exact image-text matches while introducing weaker positive supervision for related pairs, such as a panel and the caption of a sibling panel. We upweight cross-article negatives of the same content type to encourage finer discrimination. We also enrich panel descriptions using visual content, original figure captions, and mentioning paragraphs. Pairing panels with these descriptions and whole figures with their original captions yields Loom52M, a dataset of 52.4 million image-text pairs spanning scientific charts and biomedical images. Using Loom52M, BioLoom (DFN-2B) achieves 56.82% domain-balanced mean accuracy across 67 zero-shot classification tasks from 43 datasets in 10 domains, compared with 48.77% for MedPMC-CLIP. On BioLoomBench with concise captions and BioMedFlickr, it achieves bidirectional mean Recall@1 of 63.20% and 10.59%, versus 46.37% and 7.55% for the respective strongest evaluated baselines, BiomedCLIP and MedPMC-CLIP. Code, datasets, benchmarks, and models are available at https://bioloom-clip.github.io/.",
 "day": "2026-11-25",
 "rank": 9.2,
-"zh_abstract": "采用对比式图像-文本预训练的生物医学视觉-语言模型（VLM）的发展，一直由扩展到规模越来越大、越来越多样的图像-文本数据集所推动。除了扩大规模之外，还可以通过从现有数据中学习更丰富的表征来取得进一步进展。我们假设科学文献本身的结构提供了额外的监督来源：图、子图、图注和随附的文章文本编码了跨模态的丰富关系。然而，将它们视为相互独立的图像-文本对会忽略其间的关系。为解决这一局限，我们将这些结构关系纳入对比式图像-文本监督。我们保留精确的图像-文本匹配，同时对相关配对引入较弱的正监督，例如某个子图与其同级子图的图注。我们对相同内容类型的跨文章负样本加权，以促进更精细的区分。我们还利用视觉内容、原始图注以及提及该图的段落来丰富子图描述。将子图与这些描述配对，并将完整图与其原始图注配对，得到 Loom52M，这是一个包含 5240 万个图像-文本对、涵盖科学图表和生物医学图像的数据集。使用 Loom52M，BioLoom（DFN-2B）在来自 10 个领域 43 个数据集的 67 项零样本分类任务上取得 56.82% 的领域平衡平均准确率，而 MedPMC-CLIP 为 48.77%。在采用简明图注的 BioLoomBench 和 BioMedFlickr 上，其双向平均 Recall@1 分别为 63.20% 和 10.59%，而各自最强的被评估基线 BiomedCLIP 和 MedPMC-CLIP 分别为 46.37% 和 7.55%。代码、数据集、基准和模型可在 https://bioloom-clip.github.io/ 获取。"
+"zh_abstract": "采用对比式图像-文本预训练的生物医学视觉-语言模型（VLM）的发展，一直由扩展到规模越来越大、越来越多样的图像-文本数据集所推动。除了扩大规模之外，还可以通过从现有数据中学习更丰富的表征来取得进一步进展。我们假设科学文献本身的结构提供了额外的监督来源：图、子图、图注和随附的文章文本编码了跨模态的丰富关系。然而，将它们视为相互独立的图像-文本对会忽略其间的关系。为解决这一局限，我们将这些结构关系纳入对比式图像-文本监督。我们保留精确的图像-文本匹配，同时对相关配对引入较弱的正监督，例如某个子图与其同级子图的图注。我们对相同内容类型的跨文章负样本加权，以促进更精细的区分。我们还利用视觉内容、原始图注以及提及该图的段落来丰富子图描述。将子图与这些描述配对，并将完整图与其原始图注配对，得到 Loom52M，这是一个包含 5240 万个图像-文本对、涵盖科学图表和生物医学图像的数据集。使用 Loom52M，BioLoom（DFN-2B）在来自 10 个领域 43 个数据集的 67 项零样本分类任务上取得 56.82% 的领域平衡平均准确率，而 MedPMC-CLIP 为 48.77%。在采用简明图注的 BioLoomBench 和 BioMedFlickr 上，其双向平均 Recall@1 分别为 63.20% 和 10.59%，而各自最强的被评估基线 BiomedCLIP 和 MedPMC-CLIP 分别为 46.37% 和 7.55%。代码、数据集、基准和模型可在 https://bioloom-clip.github.io/ 获取。",
+"also": [
+{
+"source": "GitHub",
+"link": "https://github.com/yuweiyang-anu/BioLoom"
+}
+]
 },
 {
 "title": "Does access to deep learning uncertainty improve task performance in human readers?",
@@ -1174,7 +1181,8 @@
 "rank": 9.0,
 "abstract_days": [
 "2026-11-25",
-"2026-11-26"
+"2026-11-26",
+"2026-11-27"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -1700,7 +1708,8 @@
 "rank": 8.07,
 "abstract_days": [
 "2026-11-25",
-"2026-11-26"
+"2026-11-26",
+"2026-11-27"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: HTTP Error 404: Not Found"
 },
@@ -1768,7 +1777,8 @@
 "rank": 8.07,
 "abstract_days": [
 "2026-11-25",
-"2026-11-26"
+"2026-11-26",
+"2026-11-27"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
 },
@@ -3682,7 +3692,13 @@
 "score": 2,
 "reason": "仅标题的企业宣传类信息，信息几乎为零",
 "day": "2026-11-25",
-"rank": 4.5
+"rank": 4.5,
+"also": [
+{
+"source": "36Kr",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zUHUtVWx3dnA2UWVrd1VaMW9mVnlXV0VYRjRjTm9vbW5qRmNycUdvd3dlM1BUSlNmTGh2MExRVDhMTjliaGUzbFlGWDdMeVpLeVFhXy1rNkY3bzQ?oc=5"
+}
+]
 },
 {
 "title": "不做“一统江湖”的单点软件：大模型下半场，德适科技想修一条医疗AI的“底层铁轨”",

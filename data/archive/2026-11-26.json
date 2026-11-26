@@ -1873,38 +1873,6 @@
 "rank": 7.84
 },
 {
-"title": "Author Correction: On-premise medical AI agents for reliable clinical decision-making",
-"link": "https://www.nature.com/articles/s41591-026-04822-8",
-"date": "2026-11-25T00:00:00+00:00",
-"source": "Nature Medicine",
-"source_group": "Nature Medicine",
-"home": "",
-"thin": false,
-"badge": "DOI 10.1038/s41591-026-04822-8",
-"pop": null,
-"id": "a9d1e324ac71",
-"_abs_err": "springer: empty; page: no abstract in meta (242965 bytes; title: Author Correction: On-premise medical AI agents for reliable; text: Author Correction: On-premise medical AI agents for reliable clinical decision-making | Nature Medic)",
-"keep": true,
-"zh_title": "作者更正：本地部署医学AI智能体用于可靠临床决策",
-"summary": "Nature Medicine 发布对《本地部署医学AI智能体用于可靠临床决策》一文的作者更正，条目未给出具体更正内容。",
-"key_points": [],
-"section": "大模型与智能体",
-"type": "论文",
-"tags": [
-"智能体",
-"临床决策支持"
-],
-"evidence": "同行评审",
-"score": 2,
-"reason": "仅为更正声明，无新信息，属边缘档",
-"day": "2026-11-26",
-"rank": 7.81,
-"abstract_days": [
-"2026-11-26"
-],
-"abstract_err": "springer: empty; page: no abstract in meta (242965 bytes; title: Author Correction: On-premise medical AI agents for reliable; text: Author Correction: On-premise medical AI agents for reliable clinical decision-making | Nature Medic); europepmc: empty; openalex: HTTP Error 404: Not Found"
-},
-{
 "title": "GASTON-VI efficiently quantifies spatial axes and molecular gradients from multi-sample, multi-modal spatial-omics data",
 "link": "https://www.biorxiv.org/content/10.64898/2026.11.24.769044v1?rss=1",
 "date": "2026-11-25T00:00:00+00:00",
@@ -2165,7 +2133,13 @@
 "score": 5,
 "reason": "仅标题；医疗AI安全模型与数据集开放，信息有限",
 "day": "2026-11-26",
-"rank": 7.31
+"rank": 7.31,
+"also": [
+{
+"source": "Sohu",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9UT3V0MkxWVkUzb1VRWVVXR3Nvd1BBSlBVR29CVVZFLXNmNGJ6cEpfbkFjLUFLV04yTU9IS2M1VHR2d1czSGd3bXJ1VGJwMldVc1E?oc=5"
+}
+]
 },
 {
 "title": "Artificial Intelligence across the Perioperative Continuum in Facial Plastic and Microvascular Surgery: A State-of-the-Art Narrative Review.",
@@ -2798,6 +2772,36 @@
 "day": "2026-11-26",
 "rank": 6.84,
 "zh_abstract": "大规模、标注良好的数据集对于开发医学人工智能模型至关重要，但数据共享常常受到隐私法规的限制。如果合成图像能够保留诊断信息，同时降低复现患者数据的风险，则可能有助于解决这一限制。我们开发了一种基于扩散自编码器的类别条件合成胸部CT生成框架，该框架引入潜空间距离过滤，以降低重新生成训练样本的可能性。扩散自编码器在公开的RSNA 2020肺栓塞（PE）数据集上训练。通过从类别特异性核密度估计中采样潜在表征，合成PE阳性和PE阴性图像。最近邻潜空间距离低于预设阈值的样本被剔除。为评估诊断效用，我们使用真实、合成或真实-合成混合数据集，进行了10次独立运行的ResNet-50分类器训练。在留出的真实测试集上，采用受试者工作特征曲线下面积（AUC）及DeLong 95%置信区间（CI）评估性能。在合成数据上训练的模型AUC为0.862（95% CI，0.851-0.874），仅略低于在真实数据上训练的模型（AUC = 0.872，95% CI，0.861-0.883）和在真实-合成混合数据上训练的模型（AUC = 0.865，95% CI，0.855-0.876）。这些差异具有统计学意义（p < 0.05），但绝对差值很小。对38,000张合成切片进行的最近邻复制检测分析未发现真实训练图像的直接复制。这些结果表明，合成CT图像保留了对图像层面PE分类具有诊断意义的信息，同时纳入了旨在增强隐私意识并降低与真实患者数据相似度的措施。"
+},
+{
+"title": "Author Correction: On-premise medical AI agents for reliable clinical decision-making",
+"link": "https://www.nature.com/articles/s41591-026-04822-8",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "Nature Medicine",
+"source_group": "Nature Medicine",
+"home": "",
+"thin": false,
+"badge": "DOI 10.1038/s41591-026-04822-8",
+"pop": null,
+"id": "a9d1e324ac71",
+"_abs_err": "springer: empty; page: no abstract in meta (242965 bytes; title: Author Correction: On-premise medical AI agents for reliable; text: Author Correction: On-premise medical AI agents for reliable clinical decision-making | Nature Medic)",
+"keep": true,
+"zh_title": "作者更正：用于可靠临床决策的本地部署医疗AI智能体",
+"summary": "该更正仅补充完善利益冲突声明，说明部分作者与相关公司的顾问、任职及酬金关系，不涉及研究内容与结论。",
+"key_points": [],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"智能体",
+"临床决策支持"
+],
+"evidence": "同行评审",
+"score": 1,
+"reason": "仅为利益冲突声明更正，无新研究信息，属边缘档",
+"day": "2026-11-26",
+"rank": 7.81,
+"abstract": "In the version of the article initially published, the Competing interests statement was incomplete. The statement has been amended to clarify that J.N.K. serves as an advisor to StratifAI, Synagen, Tremont AI, Saterra AI and Spira Labs and received an honorarium from Novartis; that D.F. gave an unpaid scientific lecture at an event organised by Novartis Pharma GmbH; that G.W. served as an advisor to Synagen until May 2025 and has been an employee of Synagen since June 2025; and that Synagen had no role in the study. This correction has been made to the HTML and PDF versions of the article.",
+"zh_abstract": "在本文最初发表的版本中，利益冲突声明不完整。该声明已作修订，以说明：J.N.K. 担任 StratifAI、Synagen、Tremont AI、Saterra AI 和 Spira Labs 的顾问，并从诺华（Novartis）获得酬金；D.F. 在诺华制药有限公司（Novartis Pharma GmbH）组织的一次活动中做过一场无报酬的学术报告；G.W. 在 2025 年 5 月前担任 Synagen 的顾问，自 2025 年 6 月起为 Synagen 员工；并且 Synagen 在本研究中未发挥任何作用。该更正已在文章的 HTML 版本和 PDF 版本中完成。"
 },
 {
 "title": "An Explainable Analytics Framework for Identifying Process Deviations in Emergency Care for Patients with Multiple Long-Term Conditions",
