@@ -337,6 +337,77 @@
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
 {
+"title": "PaSTA: Fast parametric inference of significance for spatial associations between brain maps",
+"link": "https://www.sciencedirect.com/science/article/pii/S1361841526004299?dgcid=rss_sd_all",
+"date": "2026-11-27T05:16:29.248907+00:00",
+"source": "Medical Image Analysis",
+"source_group": "Medical Image Analysis",
+"home": "",
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "b9b5d2fc139c",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "PaSTA：脑图空间关联显著性的快速参数化推断",
+"summary": "Medical Image Analysis 论文提出 PaSTA，用于快速参数化推断脑图之间空间关联的显著性。",
+"key_points": [
+"针对脑图间空间关联的显著性检验",
+"方法为参数化推断，强调速度",
+"来源仅提供标题与作者，细节未知"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"神经科学"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "方法类论文，信息有限，无外部验证说明，属增量档",
+"day": "2026-11-27",
+"rank": 9.0,
+"abstract_days": [
+"2026-11-27"
+],
+"abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+},
+{
+"title": "ConComp: Constraining and compensating latent representations for semi-supervised medical image segmentation",
+"link": "https://www.sciencedirect.com/science/article/pii/S1361841526004238?dgcid=rss_sd_all",
+"date": "2026-11-27T05:16:29.248907+00:00",
+"source": "Medical Image Analysis",
+"source_group": "Medical Image Analysis",
+"home": "",
+"thin": false,
+"badge": "",
+"pop": null,
+"id": "2248a6e4adba",
+"_abs_err": "page: HTTP Error 403: Forbidden",
+"keep": true,
+"zh_title": "ConComp：半监督医学图像分割的潜在表示约束与补偿",
+"summary": "Medical Image Analysis 论文提出 ConComp，通过约束并补偿潜在表示来做半监督医学图像分割。",
+"key_points": [
+"任务为半监督医学图像分割",
+"核心思路为潜在表示的约束与补偿",
+"来源未提供实验与数据细节"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "常规分割方法，信息有限，属增量档",
+"day": "2026-11-27",
+"rank": 9.0,
+"abstract_days": [
+"2026-11-27"
+],
+"abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
+},
+{
 "title": "Large Language Model Performance in Structured Data Extraction From Neurosurgical Electronic Health Records: Comparative Benchmark Study.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/43084238/",
 "date": "2026-11-24T00:00:00+00:00",
@@ -561,6 +632,39 @@
 "zh_abstract": "[Chinese journal of integrative medicine（中国结合医学杂志英文版）] 本文提出了一种用于智能针灸处方推荐的双模型协同框架。具体而言，将症状到穴位的映射构建为端到端的文本生成任务，并提出了一种基于双模型协同与一致性校准的智能推荐方法（dual-model collaboration with consistency calibration，DM3C）。通过结合经领域微调的生成器、检索增强的大语言模型（LLM）输出以及经一致性校准的随机森林过滤器，所提出的 DM3C 提高了智能针灸处方推荐的泛化能力和召回率，这些结果表明其具有作为辅助穴位推荐工具的潜力。"
 },
 {
+"title": "Artificial intelligence for pharmacokinetic drug-drug interaction assessment: from promise to practice.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43094325/",
+"date": "2026-11-26T00:00:00+00:00",
+"badge": "DOI 10.1080/17425255.2026.2771263",
+"source": "PubMed · Expert opinion on drug metabolism & toxicology",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "b1a91a30f10e",
+"keep": true,
+"zh_title": "AI用于药代动力学药物相互作用评估：从前景到实践",
+"summary": "综述梳理从浅层学习到大模型的DDI评估AI方法，并结合PBPK、静态模型与ICH M12，提出按任务、阶段与机制划分的框架。",
+"key_points": [
+"指出基准驱动研究与实际决策存在落差",
+"结合PBPK建模与监管指南",
+"提出任务/阶段/机制特定框架"
+],
+"section": "生命科学与药物",
+"type": "观点",
+"tags": [
+"药物发现",
+"监管政策"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "综述观点类，有监管视角但属常规综述",
+"abstract": "[Expert opinion on drug metabolism & toxicology] Artificial intelligence (AI) is highly prominent in computational drug-drug interaction (DDI) research, yet adoption in real development and regulatory workflows lags publication volume. This gap reflects a mismatch between benchmark-driven method development and the decisions that DDI assessment supports. We synthesize the AI methodology landscape - from shallow learning to large language models - and integrate it with physiologically based pharmacokinetic (PBPK) modeling, static models, and regulatory guidance (ICH M12); the literature was identified via structured PubMed/MEDLINE searches (2012-2026, prioritizing 2018-2026). We propose a task-, stage-, and mechanism-specific framework in which pharmacokinetic (PK) change is an upstream surrogate whose clinical relevance is set by downstream pharmacodynamic and adverse-event outcomes. AI's practical strengths now lie in triage, parameter priors, and workflow acceleration rather than replacing mechanistic reasoning. Two caveats merit emphasis: large language models must not serve as standalone DDI prediction engines, and retrospective benchmark accuracy is no substitute for prospective, decision-oriented validation. The field should move from model novelty to fit-for-purpose, non-leaky benchmarks; interaction-strength-dependent, calibration-based evaluation; decomposed uncertainty; and prospective workflow-embedded validation.",
+"day": "2026-11-27",
+"rank": 8.31,
+"zh_abstract": "[药物代谢与毒理学专家观点] 人工智能（AI）在药物-药物相互作用（DDI）计算研究中备受瞩目，但其在实际药物研发和监管工作流程中的应用却落后于论文发表数量。这一差距反映出以基准测试为导向的方法开发与DDI评估所支持的决策之间并不匹配。我们梳理了从浅层学习到大语言模型的AI方法学格局，并将其与生理药代动力学（PBPK）模型、静态模型及监管指南（ICH M12）相整合；相关文献通过结构化的PubMed/MEDLINE检索获得（2012-2026年，优先纳入2018-2026年）。我们提出了一个针对具体任务、阶段和机制的框架，其中药代动力学（PK）变化是上游替代指标，其临床相关性取决于下游的药效学和不良事件结局。目前AI的实际优势在于分诊、参数先验和工作流程加速，而非取代机制推理。有两点需要特别强调：大语言模型不得作为独立的DDI预测引擎；回顾性基准准确率不能替代前瞻性、以决策为导向的验证。该领域应从追求模型新颖性转向：适用于既定目的、无数据泄漏的基准；依赖于相互作用强度、以校准为基础的评价；分解的不确定性；以及嵌入工作流程的前瞻性验证。"
+},
+{
 "title": "More than a Second Pair of Eyes: Artificial Intelligence Across the Breast Imaging Pathway.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/43088902/",
 "date": "2026-11-17T00:00:00+00:00",
@@ -763,6 +867,107 @@
 "zh_abstract": "人工智能（AI）智能体正从研究助手演变为端到端执行者，但其大规模生成结论的能力超过了严格验证的速度。在此我们提出一种以可审计性为核心的科学自动化范式：信任并不依赖于生成能力或自我评估，而取决于结论能否被独立追溯到原始证据、接受审查并得到纠正。我们不再局限于事后检查，而是通过四项原则将验证贯穿整个研究生命周期：有据可依的知识、有界的执行、有证据支持的结果和独立验证。我们在用于病毒进化分析的EvoTrace中实现了这一范式。通过提炼同行评审意见和方法学文献，我们整理出13项原则、236个陷阱和50个分析单元（其中47个在六层级体系中经过验证），将方法学局限编码为可执行的约束。在模拟基准、六个病毒数据集以及一项端到端克里米亚-刚果出血热病毒（CCHFV）研究中，结论-证据审计为全部233项分析编制了证据包（标记出26条不完整的证据链），而独立的数值与图表审计纠正了17处缺陷，其中包括三处阻断级错误。在CCHFV研究中，EvoTrace拦截了一条与数据相矛盾的结论，将“无重配候选”重新校准为“无高置信度候选”。通过同步提供验证证据，可审计自动化使AI驱动的科学从自主生成转向持续的审查与纠正。"
 },
 {
+"title": "RepurposeAD: Knowledge Graph-Guided LLM Reasoning for Alzheimer's Drug Repurposing.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43093334/",
+"date": "2026-11-04T00:00:00+00:00",
+"badge": "DOI 10.3390/ph19111749",
+"source": "PubMed · Pharmaceuticals (Basel, Switzerland)",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "8d0ff2cf9186",
+"keep": true,
+"zh_title": "RepurposeAD：知识图谱引导LLM推理的阿尔茨海默病药物重定位",
+"summary": "提出RepurposeAD框架，整合蛋白互作、药靶、临床试验与转录组知识图谱，引导LLM对AD重定位候选药物进行推理与排序。",
+"key_points": [
+"构建以AD为中心的统一知识图谱",
+"融合转录组与药理学证据于单一推理流程",
+"旨在提升机制透明度，摘要未见验证细节"
+],
+"section": "生命科学与药物",
+"type": "论文",
+"tags": [
+"药物发现",
+"医学大模型",
+"神经科学"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "新方法的药物重定位与AD方向，摘要缺验证信息，属值得一看档",
+"abstract": "[Pharmaceuticals (Basel, Switzerland)] Background/Objectives: Alzheimer's disease (AD) drug development continues to suffer from high late-stage attrition and narrow mechanistic diversity, which makes the systematic repurposing of approved compounds an urgent priority. Existing computational repurposing methods operate on fragmented biomedical knowledge, rarely integrate transcriptomic and pharmacological evidence within a single reasoning process, and provide little of the mechanistic transparency required for clinical translation. This paper presents RepurposeAD, a knowledge graph-guided large language model (LLM) reasoning framework that identifies and ranks repurposed candidates for AD. Methods: RepurposeAD constructs a unified AD-centric knowledge graph from protein interaction networks, drug-target databases, clinical trial registries, and transcriptomic signatures, linking genetic risk loci, amyloid and tau pathway nodes, neuroinflammatory mediators, and established therapeutic mechanisms. A constrained multi-hop path reasoning module scores drug-to-disease routes and attributes each route to one of five pathological axes, after which an LLM-based evidence synthesis module reads the retrieved paths, trial records, and literature to produce calibrated mechanistic justifications and a final iterative re-ranking. Results: On a curated benchmark of 1847 drug-disease associations spanning amyloid, tau, neuroinflammatory, synaptic, and metabolic targets, RepurposeAD attains a top-10 hit rate of 0.83, an area under the precision-recall curve of 0.79, an area under the receiver operating characteristic curve of 0.93, and a mean reciprocal rank of 0.65, exceeding the strongest of five baselines by 0.07 in hit rate and 0.08 in precision-recall area. Three of the ten highest ranked candidates have active or completed trials in AD-adjacent indications. Conclusions: RepurposeAD provides a transparent, scalable, and mechanistically grounded pipeline for accelerating repurposing in AD and related dementias.",
+"day": "2026-11-27",
+"rank": 7.71,
+"zh_abstract": "[药学(Pharmaceuticals)] 【背景/目的】阿尔茨海默病(AD)药物研发持续面临后期高淘汰率和机制多样性狭窄的问题，因此对已获批化合物进行系统性重新定位已成为当务之急。现有的计算性药物重新定位方法基于碎片化的生物医学知识，很少在单一推理过程中整合转录组学和药理学证据，也几乎不提供临床转化所需的机制透明性。本文提出RepurposeAD，一个由知识图谱引导的大语言模型(LLM)推理框架，用于识别并排序AD的重新定位候选药物。【方法】RepurposeAD从蛋白质相互作用网络、药物靶点数据库、临床试验注册库和转录组学特征中构建统一的以AD为中心的知识图谱，连接遗传风险位点、淀粉样蛋白和tau蛋白通路节点、神经炎症介质以及已确立的治疗机制。一个受约束的多跳路径推理模块对药物到疾病的路径进行评分，并将每条路径归入五个病理轴之一，随后基于LLM的证据综合模块读取检索到的路径、试验记录和文献，生成经过校准的机制性论证，并进行最终的迭代重新排序。【结果】在一个涵盖淀粉样蛋白、tau、神经炎症、突触和代谢靶点的、包含1847个药物-疾病关联的精选基准上，RepurposeAD的前10命中率为0.83，精确率-召回率曲线下面积为0.79，受试者工作特征曲线下面积为0.93，平均倒数排名为0.65，命中率和精确率-召回率面积分别比五个基线中最强者高0.07和0.08。排名最高的十个候选药物中有三个在与AD相关的适应证中有正在进行或已完成的试验。【结论】RepurposeAD提供了一条透明、可扩展且有机制依据的流程，可加速AD及相关痴呆的药物重新定位。"
+},
+{
+"title": "Calibrated Confidence and Confidence-Stratified Triage for Diabetic Retinopathy Severity Grading: A Class-Imbalance-Aware Deep Learning Study on the DDR Dataset.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43088031/",
+"date": "2026-11-03T00:00:00+00:00",
+"badge": "DOI 10.3390/bioengineering13111304",
+"source": "PubMed · Bioengineering (Basel, Switzerland)",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "194a175e4f35",
+"keep": true,
+"zh_title": "糖尿病视网膜病变分级的校准置信度与分层分诊：DDR数据集研究",
+"summary": "在12,522张DDR眼底照上，研究温度缩放与MC Dropout对EfficientNet-B0分级器可靠性的影响，并转化为自动放行/人工复核操作点。",
+"key_points": [
+"五折交叉验证，按近重复图像分组",
+"评估总体与分级ECE",
+"类别不平衡，重度NPDR仅1.9%"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"眼科",
+"医学影像",
+"可解释性"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "规范回顾性、样本较大，但仅公开数据集内部验证",
+"abstract": "[Bioengineering (Basel, Switzerland)] Background: Deep learning systems for diabetic retinopathy (DR) grading are usually reported through accuracy and area under the curve, yet clinical use depends on whether a model's confidence can be trusted. Problem: calibration and confidence-based triage are rarely evaluated on large, naturally imbalanced five-grade datasets. Objective: to quantify how temperature scaling and Monte Carlo (MC) Dropout change the reliability of an EfficientNet-B0 DR grader and to convert calibrated confidence into auto-clear/human-review operating points. Materials: A total of 12,522 DDR fundus photographs on the five ICDR grades, only 1.9% of them severe non-proliferative DR. Methods: Methods included five-fold cross-validation grouped by near-duplicate images, with inner calibration splits; overall and per-grade expected calibration error (ECE); clustered bootstrap; comparison with other calibration maps, loss functions and backbones; Grad-CAM and LIME. Results: Macro-F1 was 0.705 (95% CI 0.691-0.718). Temperature scaling reduced ECE from 0.186 to 0.078 without changing any prediction, but grade-specific maps were needed to bring per-grade ECE below 0.01. Mutual information from MC-Dropout flagged errors better than confidence (AUROC 0.748 vs. 0.650). At a no-DR threshold of 0.80, 30.1% of images were auto-cleared with a 1.46% referable-DR false-clear rate. Conclusions: One temperature corrected most top-label miscalibration but not the grade-level error caused by class weighting; the triage thresholds need external validation before clinical use.",
+"day": "2026-11-27",
+"rank": 7.69,
+"zh_abstract": "[生物工程（巴塞尔，瑞士）]【背景】用于糖尿病视网膜病变（DR）分级的深度学习系统通常以准确率和曲线下面积来报告，但临床应用取决于模型的置信度是否可信。【问题】校准和基于置信度的分诊很少在大型、天然不平衡的五级数据集上得到评估。【目的】量化温度缩放和蒙特卡洛（MC）Dropout如何改变 EfficientNet-B0 DR分级器的可靠性，并将校准后的置信度转化为自动清除/人工复核的操作点。【材料】共12,522张DDR眼底照片，按ICDR五级分级，其中重度非增殖性DR仅占1.9%。【方法】方法包括：按近重复图像分组的五折交叉验证，并设内部校准划分；总体及各分级的期望校准误差（ECE）；聚类自助法；与其他校准映射、损失函数和骨干网络的比较；以及 Grad-CAM 和 LIME。【结果】宏平均F1为0.705（95% CI 0.691-0.718）。温度缩放将ECE从0.186降至0.078，且不改变任何预测，但需要针对各分级的映射才能使各分级ECE降至0.01以下。MC-Dropout的互信息比置信度能更好地标记错误（AUROC 0.748对0.650）。在无DR阈值为0.80时，30.1%的图像被自动清除，可转诊DR的错误清除率为1.46%。【结论】单一温度参数可纠正大部分顶层标签的校准偏差，但无法纠正由类别加权造成的分级层面误差；分诊阈值在临床应用前需要外部验证。"
+},
+{
+"title": "Machine Learning and Deep Learning for Predicting Response and Outcomes After Cardiac Resynchronization Therapy: A Systematic Review and Meta-Analysis of ECG-Based Models.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43091377/",
+"date": "2026-11-01T00:00:00+00:00",
+"badge": "DOI 10.3390/medsci14070738",
+"source": "PubMed · Medical sciences (Basel, Switzerland)",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "4ad4d55e7f4b",
+"keep": true,
+"zh_title": "基于心电图的机器学习预测心脏再同步治疗反应：系统综述与Meta分析",
+"summary": "系统综述与Meta分析评估使用ECG信息的ML/DL模型预测CRT反应及结局的性能与方法学质量。",
+"key_points": [
+"背景：最多40%的CRT患者无明显改善",
+"检索Scopus与Web of Science，2006至2026年4月",
+"评估ECG为主的ML/DL预测模型"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"临床预测",
+"生理信号"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "系统综述含Meta分析，主题为治疗反应预测，摘要未见结果数字",
+"abstract": "[Medical sciences (Basel, Switzerland)] Background/Objectives: Up to 40% of patients receiving cardiac resynchronization therapy (CRT) do not experience significant clinical improvement, highlighting the limitations of conventional selection criteria. Artificial intelligence (AI) is increasingly being applied to electrocardiogram (ECG) and other clinical data to improve patient selection. This systematic review and meta-analysis evaluated the performance and methodological quality of machine learning (ML) and deep learning (DL) models using ECG-derived information to predict CRT response and clinical outcomes. Methods: A systematic literature search was conducted in Scopus and Web of Science for studies published between January 2006 and April 2026. Eligible studies developed or evaluated ML or DL algorithms primarily using pre-implantation ECG data to predict CRT response, including changes in left ventricular ejection fraction (LVEF) or left ventricular end-systolic volume (LVESV), or mortality. Model performance and prognostic associations were synthesized using random-effects meta-analyses of the area under the receiver operating characteristic curve (AUROC) and hazard ratios (HRs), respectively. Methodological quality and risk of bias were assessed using the PROBAST+AI tool. Results: We identified 14 eligible studies containing 34 distinct model evaluations. Most models utilized digital 12-lead ECG waveforms or single representative beats. Across 26 model-outcome estimates, the exploratory pooled AUROC was 0.710 (95% CI: 0.660-0.759), with substantial heterogeneity (I2 = 94.7%; p < 0.001). Across 10 heterogeneous model-outcome estimates, the exploratory pooled HR was 1.75 (95% CI: 1.42-2.15; I2 = 83.3%), although differences in prognostic constructs and endpoints precluded interpretation as a common effect. ML models had a higher pooled AUROC than DL models (0.752 vs. 0.669; exploratory Wald test: difference = 0.084; 95% CI: 0.002-0.165; p = 0.044). Pooled HR estimates also differed (ML: 2.22; DL: 1.46; ratio = 1.51; p < 0.001). These indirect subgroup comparisons were limited by clinical and methodological heterogeneity and potential dependence among estimates. PROBAST+AI assessment identified a high overall risk of bias in 32 of the 34 models, with concerns concentrated primarily in the participants and data sources and analysis domains. Independent geographic external evaluation was reported in only two studies, and these evaluations did not both constitute independent validation of full",
+"day": "2026-11-27",
+"rank": 7.65,
+"zh_abstract": "【背景/目的】接受心脏再同步化治疗(CRT)的患者中，多达40%未获得显著的临床改善，凸显了传统选择标准的局限性。人工智能(AI)正越来越多地应用于心电图(ECG)及其他临床数据，以改进患者选择。本系统评价和荟萃分析评估了利用ECG衍生信息预测CRT反应及临床结局的机器学习(ML)和深度学习(DL)模型的性能与方法学质量。【方法】在Scopus和Web of Science中系统检索2006年1月至2026年4月发表的研究。纳入的研究须主要利用植入前ECG数据开发或评估ML或DL算法，以预测CRT反应(包括左心室射血分数[LVEF]或左心室收缩末期容积[LVESV]的变化)或死亡率。分别采用受试者工作特征曲线下面积(AUROC)和风险比(HR)的随机效应荟萃分析综合模型性能和预后关联。使用PROBAST+AI工具评估方法学质量和偏倚风险。【结果】共纳入14项符合条件的研究，包含34个不同的模型评估。大多数模型使用数字化12导联ECG波形或单个代表性心搏。在26个模型-结局估计值中，探索性合并AUROC为0.710(95% CI：0.660-0.759)，异质性显著(I2 = 94.7%；p < 0.001)。在10个异质性的模型-结局估计值中，探索性合并HR为1.75(95% CI：1.42-2.15；I2 = 83.3%)，但由于预后构念和终点不同，不能解释为共同效应。ML模型的合并AUROC高于DL模型(0.752 vs. 0.669；探索性Wald检验：差值 = 0.084；95% CI：0.002-0.165；p = 0.044)。合并HR估计值也存在差异(ML：2.22；DL：1.46；比值 = 1.51；p < 0.001)。这些间接亚组比较受到临床和方法学异质性以及估计值之间潜在依赖性的限制。PROBAST+AI评估发现34个模型中有32个总体偏倚风险高，问题主要集中在研究对象与数据来源以及分析领域。仅有两项研究报告了独立的地理外部评估，且这些评估并非都构成对完整模型的独立验证"
+},
+{
 "title": "Artificial Intelligence for Auditory Electrophysiological Biomarkers in Alzheimer's Disease and Hearing Loss: A Critical Narrative Review.",
 "link": "https://pubmed.ncbi.nlm.nih.gov/43088121/",
 "date": "2026-11-20T00:00:00+00:00",
@@ -861,6 +1066,72 @@
 "day": "2026-11-27",
 "rank": 7.31,
 "zh_abstract": "[Bioethics] 最近有人提出，经过微调的大语言模型（LLM）可能比代理决策者更准确地预测失去行为能力患者的偏好。这一假想技术被称为个性化患者偏好预测器（personalised patient preference predictor，P4）。P4 的支持者声称，P4 不仅能更准确地预测患者偏好，还能更好地尊重患者自主权、便于预先指示的制定，并减轻代理决策的情感负担。我对这些所谓的益处提出质疑，认为 P4 会对我们切实面对死亡的能力构成实质性风险。借助索伦·克尔凯郭尔（Søren Kierkegaard）和马丁·海德格尔（Martin Heidegger）的哲学，我认为对死亡采取一种存在论态度是追求伦理生活的核心。P4 的应用可能会妨碍患者和代理决策者对死亡采取存在论态度，并带来有害后果。"
+},
+{
+"title": "Large language model (LLM) & counseling for fetal malformations.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43098812/",
+"date": "2026-11-26T00:00:00+00:00",
+"badge": "DOI 10.1016/j.siny.2026.101792",
+"source": "PubMed · Seminars in fetal & neonatal medicine",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "26e396ea4222",
+"keep": true,
+"zh_title": "大语言模型与胎儿畸形咨询",
+"summary": "文章从医学职业责任伦理模型出发，讨论胎儿畸形产前检出后的咨询过程，并涉及大语言模型。",
+"key_points": [
+"背景：先天异常约占妊娠3%-5%",
+"采用约翰·格雷戈里与珀西瓦尔的职业责任模型",
+"聚焦咨询中的伦理义务"
+],
+"section": "落地与监管",
+"type": "观点",
+"tags": [
+"医学大模型",
+"公平与安全"
+],
+"evidence": "同行评审",
+"score": 3,
+"reason": "伦理观点类文章，无实证数据，属增量档",
+"abstract": "[Seminars in fetal & neonatal medicine] Congenital anomalies affect approximately 3 to 5% of all pregnancies and represent a leading cause of infant morbidity and mortality worldwide. When a fetal malformation is detected on mid-trimester anatomic ultrasound, the clinical encounter that follows is not merely a medical consultation. It is an ethically charged event requiring the clinician to simultaneously respect maternal autonomy, apply beneficence-based clinical judgment, and, after viability, fulfill obligations to the fetal patient as well. This article applies the professional responsibility model, grounded in the ethics of medicine as a profession developed by John Gregory and Thomas Percival, to the counseling process following prenatal detection of a fetal anomaly. The model requires physicians to maintain scientific and clinical competence, to place the health-related interests of both patients as their primary concern, and to preserve medicine as a public trust. Within this framework, autonomy, beneficence, and justice each impose specific obligations, and a preventive ethics approach demands that clinicians anticipate and address ethical conflict before it escalates. Large language models (LLMs) offer genuine capabilities to support these ethical obligations: personalizing diagnostic information, bridging language and health literacy barriers, and extending clinical support beyond the encounter itself. However, LLM-generated content should be clinician-reviewed before reaching patients, informed consent processes should disclose AI involvement, and implementation should actively address equity across care settings. The physician's role as guide, interpreter, and compassionate presence cannot be delegated to any algorithmic system. With appropriate governance, LLMs amplify the art of counseling rather than replace it.",
+"day": "2026-11-27",
+"rank": 7.31,
+"zh_abstract": "[胎儿与新生儿医学研讨(Seminars in fetal & neonatal medicine)] 先天性异常影响约3%至5%的妊娠，是全球婴儿发病和死亡的主要原因之一。当孕中期解剖学超声发现胎儿畸形时，随后的临床接触不仅仅是一次医学咨询，而是一个带有伦理张力的事件，要求临床医生在尊重孕妇自主权、运用基于有利原则的临床判断的同时，在胎儿具备存活能力之后还要履行对胎儿患者的义务。本文将以John Gregory和Thomas Percival所发展的医学职业伦理为基础的职业责任模型，应用于产前发现胎儿异常后的咨询过程。该模型要求医生保持科学与临床能力，将两位患者与健康相关的利益作为首要关切，并维护医学作为公共信托的地位。在这一框架下，自主、有利和公正各自施加具体的义务，而预防性伦理方法要求临床医生在伦理冲突升级之前预见并加以处理。大语言模型(LLMs)为支持这些伦理义务提供了切实的能力：个性化诊断信息、跨越语言和健康素养障碍，以及将临床支持延伸至诊疗接触之外。然而，LLM生成的内容在送达患者之前应经临床医生审核，知情同意过程应披露人工智能的参与，且实施过程应积极解决不同医疗环境之间的公平问题。医生作为引导者、解释者和富有同情心的陪伴者的角色，不能委托给任何算法系统。在适当的治理下，LLMs能够增强而非取代咨询这门艺术。"
+},
+{
+"title": "[AI-driven design of regulatory parts for microbial chassis].",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43098907/",
+"date": "2026-11-26T00:00:00+00:00",
+"badge": "DOI 10.13345/j.cjb.260407",
+"source": "PubMed · Sheng wu gong cheng xue bao = Chinese journal of biotechnology",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "d932a67528cb",
+"keep": true,
+"zh_title": "AI驱动的微生物底盘调控元件设计",
+"summary": "综述AI如何从海量生物序列挖掘与功能的映射关系，用于合成生物学中微生物底盘调控元件的设计。",
+"key_points": [
+"传统元件挖掘依赖试错且耗时",
+"AI挖掘序列与功能的隐含关系",
+"面向合成生物学应用"
+],
+"section": "生命科学与药物",
+"type": "观点",
+"tags": [
+"基因组学",
+"生成模型"
+],
+"evidence": "同行评审",
+"score": 3,
+"reason": "综述类，与医疗关联较弱，增量档",
+"abstract": "[Sheng wu gong cheng xue bao = Chinese journal of biotechnology] Synthetic biology aims to design, modify, or synthesize new biological parts, genetic networks, and metabolic pathways from the bottom up, and even to create artificial cells with specific functions, offering transformative solutions in medicine, chemical engineering, energy, and other fields. In constructing complex biological systems, the underlying biological parts serve as the core basic components. Conventional methods for obtaining parts rely mainly on mining and characterizing natural organisms, which are not only time-consuming and labor-intensive but also depend on lengthy empirical trial-and-error, making it difficult to meet diverse industrial demands. Using artificial intelligence (AI) to study parts enables the precise mining of implicit mapping relationships between massive biological sequences and their functions, thereby allowing efficient prediction of part expression levels and breaking through the constraints of natural species to design de novo high-activity parts that do not exist in nature. Building upon this, this paper systematically reviews the latest advances in the AI-assisted design of biological parts for microbial chassis. It first outlines the advantages of underlying AI algorithms in feature extraction and generation of biological sequences. Then, it details the specific applications and breakthroughs of AI technologies in engineering and de novo designing two core categories-transcriptional regulatory parts and translational regulatory parts-across different chassis cells. Finally, the article discusses the current challenges, such as data sparsity and weak cross-species generalization, in AI design and provides an outlook on a new blueprint for efficient part development that integrates physics-based models, large language models, and fully automated laboratories in the future. This review provides theoretical references for accelerating the rational design of biological parts and advancing the intelligent and industrial development of synthetic biology.",
+"day": "2026-11-27",
+"rank": 7.31,
+"zh_abstract": "[生物工程学报] 合成生物学旨在自下而上地设计、改造或合成新的生物元件、基因网络和代谢途径，甚至创造具有特定功能的人工细胞，为医学、化工、能源等领域提供变革性的解决方案。在构建复杂生物系统时，底层生物元件是核心基础组件。获取元件的传统方法主要依赖对天然生物的挖掘与表征，不仅耗时费力，而且依赖冗长的经验性试错，难以满足多样化的工业需求。利用人工智能（AI）研究元件，能够精准挖掘海量生物序列与其功能之间隐含的映射关系，从而高效预测元件表达水平，并突破天然物种的限制，从头设计自然界中不存在的高活性元件。在此基础上，本文系统综述了AI辅助微生物底盘生物元件设计的最新进展。首先概述了底层AI算法在生物序列特征提取和生成方面的优势；然后详述了AI技术在不同底盘细胞中对转录调控元件和翻译调控元件这两类核心元件进行工程改造和从头设计的具体应用与突破；最后讨论了AI设计目前面临的数据稀疏、跨物种泛化能力弱等挑战，并展望了未来整合基于物理的模型、大语言模型和全自动实验室的高效元件开发新蓝图。本综述为加速生物元件的理性设计、推动合成生物学的智能化和产业化发展提供了理论参考。"
 },
 {
 "title": "OpenAI reports 35 protein-design hits for GPT-6.2—with specialist help",
@@ -1014,6 +1285,72 @@
 "reason": "仅标题，无细节，无法核实性能，属增量档",
 "day": "2026-11-27",
 "rank": 6.31
+},
+{
+"title": "Patient-Specific AI-Guided Robotic Intraoral Scanning Using Deep Learning Residual Trajectory Control for the Dentatron Dental Robot.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43082680/",
+"date": "2026-11-12T00:00:00+00:00",
+"badge": "DOI 10.3390/biomimetics11110827",
+"source": "PubMed · Biomimetics (Basel, Switzerland)",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "29b08449fa7e",
+"keep": true,
+"zh_title": "Dentatron牙科机器人的患者特异性AI引导口内扫描轨迹控制",
+"summary": "为四自由度Dentatron牙科机器人提出深度学习残差控制器，基于10例公开数据集上颌几何构建轨迹，用于口内扫描跟踪。",
+"key_points": [
+"使用Teeth3DS+中10例上颌几何",
+"生成31,000条轨迹样本",
+"基于MATLAB/Simulink仿真"
+],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"手术",
+"医疗器械"
+],
+"evidence": "同行评审",
+"score": 3,
+"reason": "仿真研究、样本小，无临床验证，增量档",
+"abstract": "[Biomimetics (Basel, Switzerland)] Accurate trajectory tracking is essential for autonomous dental scanning in the presence of patient-specific anatomical variations and robotic nonidealities. This study proposes a patient-specific trajectory-tracking framework for the four-DOF Dentatron dental robot using a deep learning residual controller. Ten patient-specific maxillary geometries were extracted and parameterized from upper-jaw intraoral scans obtained from the publicly available Teeth3DS+ dataset. The selected cases represented variations in intercanine width, intermolar width, total arch length, palatal depth, arch form, crowding, spacing, and asymmetry. Sixteen scanning targets were defined for each patient-derived geometry and converted into smooth Cartesian trajectories sampled at 100 Hz, resulting in a dataset of 31,000 trajectory samples. A MATLAB/Simulink-Simscape model of the Dentatron was developed incorporating representative robotic and sensing nonidealities, including joint dynamics, mechanical backlash, an 80 ms command delay, disturbances, encoder quantization, measurement noise, and sensor bias. The residual controller estimates joint-position and joint-speed corrections using patient-specific geometric descriptors, trajectory variables, and robot-state information. Patient-wise partitioning was employed to evaluate generalization to complete maxillary geometries excluded from model training. On the unseen test set, the overall joint-position RMSE decreased from approximately 0.34° to 0.26°, corresponding to a 22.7% improvement, while joint-speed RMSE decreased from approximately 1.25°/s to 0.96°/s, representing a 23.0% improvement. The strongest compensation was observed for joints with the largest baseline tracking errors, particularly J2 and J3, whereas smaller improvements were obtained for joints with lower initial errors. All generated patient-specific trajectories remained outside the adopted singularity region. These results demonstrate the feasibility of residual deep learning for improving patient-specific Dentatron trajectory tracking under simulated robotic nonidealities while maintaining kinematic feasibility.",
+"day": "2026-11-27",
+"rank": 5.95,
+"zh_abstract": "[仿生学（巴塞尔，瑞士）] 在存在患者特异性解剖变异和机器人非理想特性的情况下，精确的轨迹跟踪对于自主牙科扫描至关重要。本研究针对四自由度牙科机器人 Dentatron，提出了一种基于深度学习残差控制器的患者特异性轨迹跟踪框架。从公开的 Teeth3DS+ 数据集中获得的上颌口内扫描数据中，提取并参数化了10个患者特异性上颌几何结构。所选病例涵盖了尖牙间宽度、磨牙间宽度、牙弓总长度、腭深度、牙弓形态、拥挤、间隙和不对称等方面的差异。为每个源自患者的几何结构定义了16个扫描目标，并转换为以100 Hz采样的平滑笛卡尔轨迹，最终形成包含31,000个轨迹样本的数据集。在 MATLAB/Simulink-Simscape 中建立了 Dentatron 模型，纳入了具有代表性的机器人和传感非理想特性，包括关节动力学、机械间隙、80 ms指令延迟、扰动、编码器量化、测量噪声和传感器偏置。残差控制器利用患者特异性几何描述符、轨迹变量和机器人状态信息估计关节位置和关节速度修正量。采用按患者划分的方式，以评估对未参与模型训练的完整上颌几何结构的泛化能力。在未见过的测试集上，总体关节位置均方根误差（RMSE）从约0.34°降至0.26°，改善22.7%；关节速度RMSE从约1.25°/s降至0.96°/s，改善23.0%。基线跟踪误差最大的关节（尤其是J2和J3）获得了最强的补偿，而初始误差较低的关节改善较小。所有生成的患者特异性轨迹均保持在所采用的奇异区域之外。这些结果表明，在模拟的机器人非理想条件下，残差深度学习可在保持运动学可行性的同时改善患者特异性 Dentatron 轨迹跟踪。"
+},
+{
+"title": "Comparative evaluation of ResNet-Based AI models for breast cancer detection in digital mammography and digital breast tomosynthesis.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43080332/",
+"date": "2026-11-10T00:00:00+00:00",
+"badge": "DOI 10.3389/fsysb.2026.1921782",
+"source": "PubMed · Frontiers in systems biology",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "52c61e08e5d0",
+"keep": true,
+"zh_title": "基于ResNet的AI模型在乳腺X线与断层合成中的乳腺癌检测比较",
+"summary": "回顾性研究用ResNet-18/50在DM与DBT图像上区分正常、良性与恶性，样本量很小，其中恶性仅31幅（增强后100）。",
+"key_points": [
+"ResNet-18与ResNet-50三分类",
+"比较DM与DBT两种成像",
+"恶性样本少，采用交叉验证与留出验证"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"医学影像",
+"肿瘤"
+],
+"evidence": "同行评审",
+"score": 3,
+"reason": "单中心小样本回顾性，仅内部验证，属增量档",
+"abstract": "[Frontiers in systems biology] Early detection of breast cancer is crucial for better treatment options; however, physicians usually encounter challenges when reading breast mammograms because some tissues can overlap or look similar. New computer technologies can help by highlighting areas that may contain cancer. In this study, we assessed computer systems to identify whether a breast image is normal, benign or malignant and compared their performance on standard digital mammography (DM) and digital breast tomosynthesis (DBT) images. This retrospective study included 31 (100 after augmentation) images with malignant breast lesions, 175 with benign findings, and 475 normal images. We developed a deep learning convolutional neural network (CNN) model to classify images using ResNet-18 and ResNet-50. We trained the model via 10-fold cross-validation and Holdout validation. Performance was measured for each model. We computed performance metrics on original (non-augmented) images from 10-fold cross-validated predictions, with 95% confidence intervals from a stratified patient-level bootstrap (2,000 replicates), precision-recall analysis with average precision (AP), and paired DeLong and exact McNemar tests with Holm correction. We increased the malignant class from 31 to 100 images in the training set via data augmentation for the stage-2 classifier. Validation used non-augmented images. In normal versus abnormal classification (679 original images per view; ResNet-18, 10-fold cross-validation), DM CC, DM MLO and DBT MLO achieved an AUC-ROC of 0.995 (95% CI 0.991-0.998), 0.984 (0.975-0.992) and 0.994 (0.989-0.998), sensitivity of 95.1%, 95.6% and 95.1%, and specificity of 96.6%, 94.1% and 98.5%, respectively. DBT had significantly higher specificity than DM in selected comparisons (ResNet-18 vs. DM MLO and ResNet-50 vs. DM CC; Holm-adjusted p ≤ 0.002), with no significant AUC-ROC differences between modalities or architectures (all Holm-adjusted p ≥ 0.13). In benign versus malignant classification (131 original images, 31 malignant), AUC-ROC ranged from 0.977 to 0.999 and AP from 0.946 to 0.996, with no significant differences between DM and DBT or between ResNet-18 and ResNet-50 (all Holm-adjusted p ≥ 0.50). The detection and classification of malignant, benign, and normal images in DBT and DM using an artificial intelligence (AI) training model achieved comparable performance to the medical field. Computer systems can detect and classify breast findings with high accuracy, helping to re",
+"day": "2026-11-27",
+"rank": 5.87,
+"zh_abstract": "[系统生物学前沿(Frontiers in systems biology)] 乳腺癌的早期发现对改善治疗选择至关重要；然而，医生在阅读乳腺X线影像时常遇到困难，因为某些组织可能重叠或看起来相似。新的计算机技术可通过突出显示可能含有癌症的区域提供帮助。本研究评估了用于判断乳腺图像为正常、良性还是恶性的计算机系统，并比较了它们在标准数字乳腺X线摄影(DM)和数字乳腺断层合成(DBT)图像上的表现。这项回顾性研究纳入31幅(增强后为100幅)恶性乳腺病变图像、175幅良性表现图像和475幅正常图像。我们使用ResNet-18和ResNet-50开发了用于图像分类的深度学习卷积神经网络(CNN)模型，并通过10折交叉验证和留出验证对模型进行训练，对每个模型的性能进行了测量。我们基于10折交叉验证预测，在原始(未增强)图像上计算性能指标，95%置信区间采用分层的患者水平自助法(2,000次重复)获得，并进行了含平均精确率(AP)的精确率-召回率分析，以及采用Holm校正的配对DeLong检验和精确McNemar检验。对于第二阶段分类器，我们通过数据增强将训练集中的恶性类别从31幅增加到100幅。验证使用未增强的图像。在正常与异常分类中(每种视图679幅原始图像；ResNet-18，10折交叉验证)，DM CC、DM MLO和DBT MLO的AUC-ROC分别为0.995(95% CI 0.991-0.998)、0.984(0.975-0.992)和0.994(0.989-0.998)，敏感度分别为95.1%、95.6%和95.1%，特异度分别为96.6%、94.1%和98.5%。在选定的比较中，DBT的特异度显著高于DM(ResNet-18对比DM MLO，以及ResNet-50对比DM CC；Holm校正后p ≤ 0.002)，不同成像方式或架构之间的AUC-ROC无显著差异(Holm校正后均p ≥ 0.13)。在良性与恶性分类中(131幅原始图像，其中31幅为恶性)，AUC-ROC范围为0.977至0.999，AP为0.946至0.996，DM与DBT之间以及ResNet-18与ResNet-50之间均无显著差异(Holm校正后均p ≥ 0.50)。使用人工智能(AI)训练模型对DBT和DM中的恶性、良性和正常图像进行检测与分类，取得了与医学领域相当的表现。计算机系统能够以较高准确度检测和分类乳腺发现，有助于减少"
 },
 {
 "title": "Artificial Intelligence in Dentistry and Orofacial Sciences: From Promising Algorithms to Trustworthy Clinical Decisions.",
