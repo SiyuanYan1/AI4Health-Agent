@@ -102,6 +102,73 @@
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
 {
+"title": "Artificial intelligence capacity in the rural United States: a national qualitative study.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43097698/",
+"date": "2026-11-26T00:00:00+00:00",
+"badge": "DOI 10.1093/jamia/ocag202",
+"source": "PubMed · Journal of the American Medical Informatics Association : JAMIA",
+"source_group": "PubMed · 重点期刊",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "1b3d8dc48553",
+"keep": true,
+"zh_title": "美国农村医院人工智能应用能力：全国定性研究",
+"summary": "对美国50家关键可及医院（73名受访者）的领导层访谈，了解农村医院如何使用AI及安全有效使用的障碍。",
+"key_points": [
+"从1377家CAH中分层随机抽样256家，完成50家访谈",
+"访谈对象为CMIO、CIO、IT负责人等决策者",
+"摘要显示生成式AI应用为主要用途之一（原文截断）"
+],
+"section": "落地与监管",
+"type": "论文",
+"tags": [
+"临床落地",
+"公平与安全"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "全国分层抽样定性研究，有部署现状信息，但为访谈、无效果指标，属值得一看档",
+"abstract": "[Journal of the American Medical Informatics Association : JAMIA] To understand how rural hospitals use artificial intelligence (AI) and identify ways to reduce the barriers to safe, effective use of high-quality tools that align with these hospitals' key priorities. Stratified random sample drawn from the full population of critical access hospitals (CAHs) in the United States in 2025 (n = 1377) to approximate proportional representation of the 4 census regions. We conducted in-depth qualitative interviews with hospital leadership (eg, CMIOs, CIOs, IT leads) tasked with decision-making about technology. Interviews were conducted between October 20, 2025, and January 23, 2026. Drawn from the full population of CAHs in the US in 2025, 256 hospitals were sampled and interviews were completed for a total of 50 CAHs represented by 73 interview participants. Generative AI applications were more common and seen as more valuable for CAH contexts than traditional predictive AI. Primary barriers included infrastructure limitations, cost, and lack of transparency on how AI tools worked. Despite a desire to implement robust governance, most CAHs did not have the ability to do so and reported a critical need for information, tools, and policies to build their AI governance capacity. Information (peer learning, information from non-commercial sources), tools (registries, model cards), and policy to support technical capacity were perceived as the most responsive ways to build capacity. To reduce structural barriers to safe and effective AI decision-making, resources and investment should focus on information sharing with and across rural organizations, AI governance support, and transparency efforts. This will support CAHs in judiciously leveraging available resources and prevent waste on low-quality or misaligned AI tools.",
+"day": "2026-11-27",
+"rank": 10.31,
+"zh_abstract": "[Journal of the American Medical Informatics Association : JAMIA] 旨在了解农村医院如何使用人工智能（AI），并找出降低障碍的方法，使这些医院能够安全、有效地使用符合其关键优先事项的高质量工具。研究从2025年美国全部关键access医院（critical access hospitals，CAHs；n = 1377）总体中进行分层随机抽样，以近似体现四个人口普查区域的比例代表性。我们对负责技术决策的医院领导层（如首席医疗信息官 CMIO、首席信息官 CIO、IT 负责人）进行了深度定性访谈。访谈于2025年10月20日至2026年1月23日期间进行。从2025年美国全部 CAHs 中抽取了256家医院，最终完成访谈的 CAHs 共50家，由73名访谈参与者代表。生成式 AI 应用更为常见，并且在 CAH 情境中被认为比传统预测性 AI 更有价值。主要障碍包括基础设施限制、成本，以及AI工具工作原理缺乏透明度。尽管希望实施健全的治理，大多数 CAHs 并不具备相应能力，并报告迫切需要信息、工具和政策来建设其 AI 治理能力。信息（同行学习、来自非商业来源的信息）、工具（登记库、模型卡）以及支持技术能力的政策，被认为是建设能力最具响应性的途径。为减少安全有效的 AI 决策所面临的结构性障碍，资源和投入应集中于与农村机构之间及其内部的信息共享、AI 治理支持和透明度工作。这将有助于 CAHs 审慎利用现有资源，并避免在低质量或不匹配的 AI 工具上造成浪费。"
+},
+{
+"title": "Artificial intelligence-guided selection of adjuvant chemotherapy and survival in gastric cancer.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43097258/",
+"date": "2026-11-26T00:00:00+00:00",
+"badge": "DOI 10.1007/s10120-026-01828-6",
+"source": "PubMed · Gastric cancer : official journal of the International Gastric Cancer Association and the Japanese Gastric Cancer Association",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "2f568ca917c8",
+"keep": true,
+"zh_title": "AI引导的胃癌辅助化疗选择与生存：循环深度生存机",
+"summary": "基于15,848例II-III期胃癌回顾性队列，建立并内部验证RDSM框架，评估治疗与AI推荐一致性同总生存的关联。",
+"key_points": [
+"日本胃癌学会数据，2011和2013年队列",
+"按治疗是否与预测5年生存最高的方案一致分组",
+"仅内部验证，回顾性设计"
+],
+"section": "临床预测与决策",
+"type": "论文",
+"tags": [
+"临床预测",
+"肿瘤",
+"临床决策支持"
+],
+"evidence": "同行评审",
+"score": 6,
+"reason": "大样本回顾性肿瘤治疗反应/预后研究，仅内部验证，封顶6档",
+"abstract": "[Gastric cancer : official journal of the International Gastric Cancer Association and the Japanese Gastric Cancer Association] Selecting adjuvant chemotherapy for gastric cancer requires balancing tumor risk and patient-related factors. We developed and internally validated a recurrent deep survival machine (RDSM) framework to evaluate whether concordance with AI-recommended treatment is associated with overall survival (OS). This retrospective cohort study analyzed 15,848 patients with stage II-III gastric cancer from the Japanese Gastric Cancer Association (2011, 2013). Patients receiving neoadjuvant therapy, non-standard regimens, or dying within 8 weeks post-surgery were excluded. Patients were categorized as AI-recommended or AI-non-recommended based on whether their treatment matched the model-derived recommendation (the regimen with the highest predicted 5-year survival probability). Primary outcome was 5-year OS. Model performance was evaluated using the concordance index (C-index), and multiple imputation with propensity score overlap weighting (MI-OW) was used for the observational comparison of treatment concordance. RDSM showed superior discrimination compared with the Cox model (C-index, 0.77 vs. 0.73). After MI-OW, concordance with AI-recommended treatment was associated with higher 5-year OS than discordance (74.00% vs. 66.16%; adjusted difference, 7.84 percentage points [95% CI, 6.06-9.62]). A similar association was observed among patients aged ≥ 75 years (64.18% vs. 52.76%; adjusted difference, 11.42 percentage points [95% CI, 6.72-16.12]). These associations are not causal treatment effects. SHAP analyses highlighted patient-related factors for S-1 monotherapy and tumor burden for S-1 plus oxaliplatin. RDSM identified model-derived treatment patterns associated with observed OS differences, without establishing benefits from AI-guided treatment changes. External validation and prospective evaluation are needed before clinical use.",
+"day": "2026-11-27",
+"rank": 10.31,
+"zh_abstract": "[Gastric cancer : official journal of the International Gastric Cancer Association and the Japanese Gastric Cancer Association] 胃癌辅助化疗的选择需要在肿瘤风险与患者相关因素之间取得平衡。我们开发并进行了内部验证循环深度生存机（recurrent deep survival machine，RDSM）框架，以评估与AI推荐治疗的一致性是否与总生存期（OS）相关。这项回顾性队列研究分析了来自日本胃癌学会（2011年、2013年）的15,848例 II–III 期胃癌患者。接受新辅助治疗、非标准方案或术后8周内死亡的患者被排除。根据患者的治疗是否与模型得出的推荐（预测5年生存概率最高的方案）相符，将其分为AI推荐组或非AI推荐组。主要结局为5年OS。采用一致性指数（C-index）评估模型性能，并采用多重插补结合倾向评分重叠加权（MI-OW）对治疗一致性进行观察性比较。RDSM 的区分能力优于 Cox 模型（C-index，0.77 对 0.73）。经 MI-OW 后，与AI推荐治疗一致者的5年OS高于不一致者（74.00% 对 66.16%；校正差值 7.84 个百分点 [95% CI，6.06–9.62]）。在年龄≥75岁的患者中观察到类似的关联（64.18% 对 52.76%；校正差值 11.42 个百分点 [95% CI，6.72–16.12]）。这些关联并非因果性治疗效应。SHAP 分析显示，S-1 单药治疗主要与患者相关因素有关，而 S-1 联合奥沙利铂主要与肿瘤负荷有关。RDSM 识别出了与观察到的OS差异相关的模型推导治疗模式，但并未证实AI指导下改变治疗会带来获益。在临床应用之前，需要进行外部验证和前瞻性评估。"
+},
+{
 "title": "Does AI-Powered Clinical Documentation Enhance Clinician Efficiency? A Longitudinal Study",
 "link": "https://ai.nejm.org/doi/full/10.1056/AIx2601335?af=R&rss=currentIssue",
 "date": "2026-10-23T07:00:00+00:00",
@@ -132,6 +199,39 @@
 "2026-11-27"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
+},
+{
+"title": "Generative AI-Driven Interpolation of Cross-Family Kinase Space: Discovery of Dual-Targeting Degraders of IRAK4 and TYK2.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43095984/",
+"date": "2026-11-26T00:00:00+00:00",
+"badge": "DOI 10.1021/acs.jmedchem.6c00913",
+"source": "PubMed · Journal of medicinal chemistry",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "8203cb41f192",
+"keep": true,
+"zh_title": "生成式AI插值跨家族激酶空间：IRAK4/TYK2双靶点降解剂发现",
+"summary": "采用POLYGON框架下的VAE-RNN生成模型，探索跨家族激酶空间，发现新型螺环骨架的IRAK4与TYK2双靶点分子。",
+"key_points": [
+"迭代“采样-打分-聚焦”策略导航潜空间",
+"新骨架Tanimoto相似度低于0.45",
+"结合WaterMap优化（摘要截断）"
+],
+"section": "生命科学与药物",
+"type": "论文",
+"tags": [
+"药物发现",
+"生成模型"
+],
+"evidence": "同行评审",
+"score": 5,
+"reason": "生成式药物发现有新意，摘要未见充分实验验证细节，属值得一看档",
+"abstract": "[Journal of medicinal chemistry] Bridging structural discontinuities between disparate protein families is a fundamental challenge in multi-target design. We present a generative artificial intelligence (AI) platform for the non-linear interpolation of cross-family kinase space to simultaneously modulate innate (interleukin-1 receptor-associated kinase 4, IRAK4) and adaptive (tyrosine kinase 2, TYK2) immunity. Utilizing a variational autoencoder-recurrent neural network (VAE-RNN) model within the POLYGON framework, we successfully navigated high-dimensional latent space through an iterative \"sampling-scoring-refocusing\" strategy. This approach bypassed the geometric limitations of traditional pharmacophore merging, leading to the rational discovery of a novel spirocyclic scaffold with significant structural novelty (Tanimoto similarity <0.45). Integration of WaterMap-based optimization and proteolysis-targeting chimera (PROTAC) conjugation yielded C-8-014, a potent dual-target degrader achieving nanomolar potency and efficient degradation of both kinases. This study demonstrates a validated closed-loop methodology for navigating \"unreachable\" regions of the kinome, providing a paradigm-shifting approach for cross-family chemical design and a powerful molecular tool for chemical biology.",
+"day": "2026-11-27",
+"rank": 9.31,
+"zh_abstract": "[Journal of medicinal chemistry] 弥合不同蛋白家族之间的结构不连续性是多靶点设计中的一项基本挑战。我们提出了一个生成式人工智能（AI）平台，用于对跨家族激酶空间进行非线性插值，以同时调节固有免疫（白细胞介素-1受体相关激酶4，IRAK4）和适应性免疫（酪氨酸激酶2，TYK2）。我们在 POLYGON 框架内利用变分自编码器-循环神经网络（VAE-RNN）模型，通过迭代的“采样-评分-再聚焦”策略成功地在高维潜在空间中进行探索。该方法绕过了传统药效团拼合的几何限制，从而合理发现了一种具有显著结构新颖性（Tanimoto 相似度 <0.45）的新型螺环骨架。结合基于 WaterMap 的优化与蛋白降解靶向嵌合体（PROTAC）偶联，获得了 C-8-014，这是一种强效的双靶点降解剂，具有纳摩尔级活性，并能高效降解两种激酶。本研究展示了一种经过验证的闭环方法，可用于探索激酶组中“难以到达”的区域，为跨家族化学设计提供了范式性的新途径，也为化学生物学提供了强有力的分子工具。"
 },
 {
 "title": "Dual-domain regularized deep unrolled MR fingerprinting reconstruction using structural and spatial constraints",
@@ -426,6 +526,39 @@
 "reason": "仅标题，涉及监管执法动向，按标题上限计",
 "day": "2026-11-27",
 "rank": 8.31
+},
+{
+"title": "Dual-Model Collaboration with Consistency Calibration for Intelligent Acupuncture Prescription Recommendation.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43097059/",
+"date": "2026-11-26T00:00:00+00:00",
+"badge": "DOI 10.1007/s11655-026-4182-0",
+"source": "PubMed · Chinese journal of integrative medicine",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "f25e99c29ae5",
+"keep": true,
+"zh_title": "双模型协作与一致性校准的智能针灸处方推荐",
+"summary": "提出DM3C框架，结合领域微调生成器、检索增强LLM和一致性校准随机森林过滤器，用于症状到穴位推荐。",
+"key_points": [
+"症状到穴位映射建模为端到端文本生成",
+"融合微调生成器与检索增强LLM输出",
+"声称提升泛化性与召回，定位为辅助工具"
+],
+"section": "大模型与智能体",
+"type": "论文",
+"tags": [
+"医学大模型",
+"临床决策支持"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "领域专用LLM方法，摘要无样本量或外部验证，属增量档",
+"abstract": "[Chinese journal of integrative medicine] A dual-model collaborative framework for intelligent acupuncture prescription recommendation was proposed. Specifically, symptom-to-acupoint mapping was formulated as an end-to-end text generation task and an intelligent recommendation method based on dual-model collaboration with consistency calibration (DM3C) was proposed. By combining a domain-fine-tuned generator, retrieval-augmented LLM outputs, and a consistency-calibrated random forest filter, the proposed DM3C enhances the generalizability and recall of intelligent acupuncture prescription recommendations, these findings demonstrate its potential as an auxiliary acupoint recommendation tool.",
+"day": "2026-11-27",
+"rank": 8.31,
+"zh_abstract": "[Chinese journal of integrative medicine（中国结合医学杂志英文版）] 本文提出了一种用于智能针灸处方推荐的双模型协同框架。具体而言，将症状到穴位的映射构建为端到端的文本生成任务，并提出了一种基于双模型协同与一致性校准的智能推荐方法（dual-model collaboration with consistency calibration，DM3C）。通过结合经领域微调的生成器、检索增强的大语言模型（LLM）输出以及经一致性校准的随机森林过滤器，所提出的 DM3C 提高了智能针灸处方推荐的泛化能力和召回率，这些结果表明其具有作为辅助穴位推荐工具的潜力。"
 },
 {
 "title": "More than a Second Pair of Eyes: Artificial Intelligence Across the Breast Imaging Pathway.",
@@ -821,6 +954,40 @@
 "day": "2026-11-27",
 "rank": 6.75,
 "zh_abstract": "[Pharmaceuticals (Basel, Switzerland)] 生成式和预测性人工智能（AI）正迅速增加可通过计算探索的分子、结构、细胞及治疗假说的数量。然而，实验能力的扩展速度并未与之相当。其结果是形成证据瓶颈，即生物学假说的产生速度快于其被实验检验、重复和转化的速度。这种不匹配对药物发现尤为重要，因为仅凭计算预测无法确立生物学功能、机制或治疗价值。随着计算生成的假说数量增加，核心挑战从候选假说的生成转向对假说进行优先排序以供实验验证。这一证据瓶颈是AI赋能的生物学发现的决定性制约因素。我们探讨了不同的生物学主张（包括结构、相互作用、功能、机制和治疗方面的主张）如何需要不同类型和水平的证据。我们还讨论了实验验证的成本及其对情境的依赖性。此外，我们讨论了以信息为导向的实验设计以及模型–实验的迭代反馈如何改善有限实验能力的分配。我们提出了一个以证据为中心的药物发现框架，将对生成模型的评价扩展到其生成或排序假说的能力之外。该框架强调实验可检验性、机制理解、可重复性，以及向可付诸行动的生物学和治疗知识的转化。"
+},
+{
+"title": "Advances in Multimodal Imaging and Artificial Intelligence for the Diagnosis and Management of Diabetic Retinopathy: From Biomarkers to Personalized Care.",
+"link": "https://pubmed.ncbi.nlm.nih.gov/43091496/",
+"date": "2026-10-29T00:00:00+00:00",
+"badge": "DOI 10.3390/medicina62112099",
+"source": "PubMed · Medicina (Kaunas, Lithuania)",
+"source_group": "PubMed",
+"home": "",
+"thin": false,
+"pop": null,
+"id": "7e351ff33cc1",
+"keep": true,
+"zh_title": "多模态影像与AI在糖尿病视网膜病变诊疗中的进展",
+"summary": "叙述性综述，总结DR的结构、血管和功能影像生物标志物及证据等级，并探讨AI在筛查、预后和治疗选择中的作用。",
+"key_points": [
+"涵盖OCT、OCTA、超广角成像、微视野等",
+"检索PubMed、Scopus、Web of Science至2026年5月",
+"优先纳入RCT、前瞻性多中心队列和外部验证算法"
+],
+"section": "影像与病理",
+"type": "论文",
+"tags": [
+"眼科",
+"医学影像",
+"多模态"
+],
+"evidence": "同行评审",
+"score": 4,
+"reason": "叙述性综述，眼科方向略加分，但综述类封顶",
+"abstract": "[Medicina (Kaunas, Lithuania)] Background and Objectives: Diabetic retinopathy (DR) remains a leading cause of preventable vision loss. Staging based on colour fundus photography captures only part of a disease that involves the whole neurovascular unit and the retinal periphery. This narrative review summarizes the structural (optical coherence tomography, OCT), vascular (OCT angiography and ultra-widefield imaging) and functional (microperimetry, electrophysiology) biomarkers of DR, grades the evidence supporting each of them, and examines how artificial intelligence (AI) is changing screening, prognostication and treatment selection. Materials and Methods: PubMed/MEDLINE, Scopus and Web of Science were searched for publications from January 2000 to May 2026, giving priority to randomized trials, prospective multicentre cohorts, systematic reviews and externally validated algorithms. Results: Among imaging biomarkers, disorganization of the retinal inner layers, outer retinal integrity and ultra-widefield angiographic non-perfusion have the most consistent prognostic evidence, whereas OCT angiography metrics remain device-dependent. AI has progressed from research classifiers to autonomous systems with regulatory authorization in the United States and the European Union, to prospectively evaluated deployments in national programmes and low-resource settings, and to time-to-event progression models and foundation models. Image-based prediction improves discrimination over clinical risk factors by modest margins, and biomarker-guided treatment of diabetic macular oedema still rests largely on retrospective series. Cross-device standardization of quantitative metrics, representative datasets, prospective outcome trials and health-economic evidence remain the main gaps. Conclusions: Individualized screening intervals are the application closest to routine practice, whereas phenotype-driven therapy and precision monitoring remain promising but unproven.",
+"day": "2026-11-27",
+"rank": 6.61,
+"zh_abstract": "[Medicina (Kaunas, Lithuania)]【背景和目的】糖尿病视网膜病变（DR）仍是可预防性视力丧失的主要原因。基于彩色眼底照相的分期只能反映这种累及整个神经血管单元及视网膜周边部的疾病的一部分。本叙述性综述总结了DR的结构性（光学相干断层扫描，OCT）、血管性（OCT血管成像和超广角成像）和功能性（微视野检查、电生理）生物标志物，对支持每种标志物的证据进行分级，并探讨人工智能（AI）如何改变筛查、预后判断和治疗选择。【材料和方法】检索了 PubMed/MEDLINE、Scopus 和 Web of Science 中2000年1月至2026年5月的文献，优先纳入随机试验、前瞻性多中心队列、系统综述和经过外部验证的算法。【结果】在影像学生物标志物中，视网膜内层结构紊乱、视网膜外层完整性以及超广角血管造影显示的无灌注区具有最一致的预后证据，而OCT血管成像指标仍依赖于设备。AI已从研究性分类器发展为在美国和欧盟获得监管批准的自主系统，发展为在国家项目和资源匮乏环境中经过前瞻性评估的部署，并进一步发展为事件时间进展模型和基础模型。与临床危险因素相比，基于图像的预测对区分能力的提升幅度有限，而针对糖尿病性黄斑水肿的生物标志物指导治疗仍主要依赖回顾性系列研究。定量指标的跨设备标准化、具有代表性的数据集、前瞻性结局试验和卫生经济学证据仍是主要缺口。【结论】个体化筛查间隔是最接近常规实践的应用，而表型驱动的治疗和精准监测仍具前景但尚未得到证实。"
 },
 {
 "title": "一台电脑就能用上专业医疗 AI 中国公司开源健康大模型引海外关注",
