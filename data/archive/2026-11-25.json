@@ -170,9 +170,10 @@
 "abstract_days": [
 "2026-11-25",
 "2026-11-26",
-"2026-11-27"
+"2026-11-27",
+"2026-11-28"
 ],
-"abstract_err": "springer: empty; page: no abstract in meta (240513 bytes; title: Watch out, AlphaFold: Claude and ChatGPT’s new biology skill; text: Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists | Nature Skip to main c); europepmc: empty; openalex: empty"
+"abstract_err": "springer: empty; page: no abstract in meta (241271 bytes; title: Watch out, AlphaFold: Claude and ChatGPT’s new biology skill; text: Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists | Nature Skip to main c); europepmc: empty; openalex: empty"
 },
 {
 "title": "VoxelSlicer: Adaptive Voxel-wise Slicer for Deformable Image Registration.",
@@ -1188,7 +1189,8 @@
 "abstract_days": [
 "2026-11-25",
 "2026-11-26",
-"2026-11-27"
+"2026-11-27",
+"2026-11-28"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; no DOI / PMID"
 },
@@ -1715,7 +1717,8 @@
 "abstract_days": [
 "2026-11-25",
 "2026-11-26",
-"2026-11-27"
+"2026-11-27",
+"2026-11-28"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: HTTP Error 404: Not Found"
 },
@@ -1784,7 +1787,8 @@
 "abstract_days": [
 "2026-11-25",
 "2026-11-26",
-"2026-11-27"
+"2026-11-27",
+"2026-11-28"
 ],
 "abstract_err": "page: HTTP Error 403: Forbidden; europepmc: empty; openalex: empty"
 },
